@@ -1,0 +1,242 @@
+/* General Modal Styles */
+#dtwap-customizeModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+#dtwap-customizeModal .dpmodal-content {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+}
+
+/* Close Button */
+#dtwap-customizeModal .dtwap-close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: #444;
+    padding: 5px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#dtwap-customizeModal .dtwap-close-button:hover {
+    background-color: #f5f5f5;
+    color: #d14444;
+}
+
+/* Logo Section */
+
+.modal-logo-text{
+    padding: 6px;
+}
+
+.modal-logo-text h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.modal-logo-text p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 0;
+}
+
+/* Headings */
+#dtwap-customizeModal h2 {
+    color: #444;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#dtwap-customizeModal #p3 {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Form Styles */
+#dtwap-customizeModal form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+#dtwap-customizeModal label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    line-height: 6px;
+}
+
+#dtwap-customizeModal select, 
+#dtwap-customizeModal input, 
+#dtwap-customizeModal textarea {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#dtwap-customizeModal select:focus, 
+#dtwap-customizeModal input:focus, 
+#dtwap-customizeModal textarea:focus {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#dtwap-customizeModal textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Buttons */
+#dtwap-customizeModal form .button.button-primary {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 6px 30px;
+    font-size: 16px;
+}
+
+#dtwap-customizeModal form .button.button-primary:hover {
+  
+
+}
+
+#dtwap-customizeModal button.close-button {
+    background-color: #ff5a5a;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#dtwap-customizeModal button.close-button:hover {
+    background-color: #d14444;
+}
+
+/* Spinner */
+#dtwap-customizeModal #spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dtwap-customizeModal #spinner::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ccc;
+    border-top: 4px solid #2271b1;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Response Sections */
+#dtwap-customizeModal #formResponse {
+
+    margin-top: 20px;
+}
+
+#dtwap-customizeModal #successResponse h2, 
+#dtwap-customizeModal #failureResponse h2 {
+    color: #4BA88A;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#dtwap-customizeModal #successResponse p, 
+#dtwap-customizeModal #failureResponse p {
+    line-height: 1.5;
+}
+
+div#successResponse {
+    padding: 20px;
+}
+
+#dtwap-customizeForm .error-message{
+    font-weight: normal;
+    line-height: 0;
+}
+
+div#successResponse p,
+#failureResponse p{
+    margin-bottom: 20px;
+}
+
+#successResponse img,
+#failureResponse img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#failureResponse #copyButton{
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 10px auto;
+    padding: 5px 30px;
+}
+#failureResponse label{
+    line-height: 28px;
+}
+
+/* Hide Elements in Response */
+#dtwap-customizeModal #formResponse .modal-logo-text h1,
+#dtwap-customizeModal #formResponse .modal-logo-text p,
+#dtwap-customizeModal #formResponse h2,
+#dtwap-customizeModal #formResponse #p3 {
+    display: none;
+}
+
+
+.dp-button-block{
+    display: flex;
+    margin: 0px auto;
+}
+
+.dp-button-block span.spinner{
+    margin-top: 20px;
+}

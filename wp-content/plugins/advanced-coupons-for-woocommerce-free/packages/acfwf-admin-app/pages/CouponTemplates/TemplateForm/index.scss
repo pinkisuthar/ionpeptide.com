@@ -1,0 +1,169 @@
+.acfw-coupon-template-form {
+  .template-form-main {
+    border: 1px solid #d5d5d5;
+    padding: 1em 1.5em 3em;
+
+    &.template-loading {
+      text-align: center;
+      padding: 2em 0;
+
+      p {
+        font-size: 1.3em;
+        margin: 0;
+      }
+    }
+  }
+
+  // Template Settings Box in Sidebar (for AI templates).
+  .template-settings-box {
+    margin-top: 1.5em;
+    border: 1px solid #d5d5d5;
+    background: #fff;
+
+    &.premium-locked {
+      cursor: pointer;
+    }
+
+    .template-settings-header {
+      background: transparent;
+      padding: 0.6em 0.8em;
+      font-weight: 600;
+      font-size: 0.9em;
+      color: #1d2327;
+      border-bottom: 1px solid #d5d5d5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .premium-label {
+        font-weight: 400;
+        font-size: 0.9em;
+        color: #6bb738;
+        margin-left: 0.3em;
+      }
+    }
+
+    .template-settings-content {
+      padding: 1em 1.5em 3em;
+      position: relative;
+
+      // Ensure input fields maintain text cursor
+      input,
+      textarea {
+        cursor: text;
+      }
+    }
+
+    .save-template-section {
+      margin-bottom: 1em;
+      padding-bottom: 0;
+      border-bottom: none;
+
+      .ant-checkbox-wrapper {
+        font-size: 0.9em;
+        cursor: default;
+      }
+    }
+
+    .template-settings-field {
+      margin-bottom: 1em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      label {
+        display: block;
+        font-weight: 600;
+        font-size: 0.8em;
+        color: #50575e;
+        margin-bottom: 0.4em;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+      }
+
+      input,
+      textarea {
+        font-size: 0.9em;
+      }
+    }
+  }
+
+  .form-instruction {
+    padding: 1.5em 0;
+    text-align: center;
+    color: #1393a6;
+    border-top: 1px solid #f4f4f4;
+  }
+
+  .template-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+
+    .ant-steps {
+      max-width: 600px;
+    }
+  }
+
+  .template-fields {
+    .template-field {
+      padding: 1em 0;
+
+      &:nth-child(odd) {
+        background-color: rgb(26 150 162 / 6%);
+      }
+
+      .template-field-inner {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      .field-input-wrap {
+        display: flex;
+
+        > div {
+          width: calc(100% - 1em);
+          margin-right: 0.5em;
+
+          .ant-input-number,
+          .ant-select,
+          textarea {
+            width: 100%;
+          }
+
+          .ant-checkbox {
+            margin-right: 0.5em;
+          }
+        }
+      }
+    }
+  }
+
+  .template-step-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 1.5em;
+    border: 1px solid #d5d5d5;
+    border-top: 0;
+    background: #fdfdfd;
+  }
+
+  .template-actions {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+
+    button {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.ant-popover {
+  max-width: 20vw;
+}

@@ -1,0 +1,141 @@
+/**
+ * BASIC LINK STYLE
+ * Link styles to match the website
+*/
+
+#kinsta-wrap {
+	padding: 24px 16px 16px 16px;
+}
+
+.kinsta-page-wrapper * {
+	box-sizing: border-box;
+}
+
+.kinsta-page-wrapper {
+	padding: 24px 32px 48px;
+	border-radius: 4px;
+	background: #fff;
+	color: #0A0A0A;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 1280px) {
+	.kinsta-page-wrapper {
+		padding: 16px 24px;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.kinsta-content-section-body {
+		grid-template-columns: 2fr;
+	}
+}
+
+.kinsta-content-section-body.no-grid {
+	display: block;
+}
+
+
+.kinsta-content-section-split {
+	width: calc(100% + 2 * 32px);
+    margin: 32px -24px 24px -32px;
+    border: solid 1px #F2F4F9;
+    box-sizing: border-box;
+	height: 0;
+	overflow: visible;
+}
+
+.kinsta-content-section-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.kinsta-content-section-body p {
+    flex-grow: 1;
+}
+
+.kinsta-content-section-body .kinsta-button {
+    margin-left: auto;
+}
+
+#kinsta-custom-url-form-fields {
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+	#kinsta-custom-url-form-fields {
+		flex-wrap: wrap;
+	}
+}
+
+#kinsta-custom-url-form-fields > .prefix, #kinsta-custom-url-form-fields .kinsta-button {
+	margin-left: 12px;
+}
+
+#kinsta-custom-url-form-fields span {
+	font-size: 14px;
+}
+
+#kinsta-custom-url-form-fields .kinsta-button {
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 30px;
+}
+
+.kinsta-table {
+	min-width: 100%;
+	border-collapse: collapse;
+	display: grid;
+	overflow-x: auto;
+	align-items: center;
+	border-radius: 0 0 16px 16px;
+	font-size: 14px;
+	grid-template-columns: repeat(3, minmax(auto, 1fr));
+	margin-top: 20px;
+}
+
+.kinsta-table thead, .kinsta-table tbody, .kinsta-table tr {
+	display: contents;
+}
+
+.kinsta-table th {
+	padding: 16px;
+	height: 100%;
+	color: #5A6372;
+	text-align: left;
+	position: sticky;
+	background-color: #f8fafc;
+}
+
+.kinsta-table th:first-of-type {
+	border-radius: 12px 0 0 12px;
+	padding-left: 24px;
+}
+
+.kinsta-table th:last-of-type {
+	border-radius: 0 12px 12px 0;
+}
+
+.kinsta-table td {
+	padding: 16px;
+}
+
+.kinsta-table td:first-of-type {
+	border-radius: 12px 0 0 12px;
+	padding-left: 24px;
+}
+
+.kinsta-button-wrapper {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.kinsta-cache-settings .kinsta-button-wrapper {
+  margin-left: 0;
+}

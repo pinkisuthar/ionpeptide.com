@@ -1,0 +1,644 @@
+/**
+ * Zorem MCP - the connection screen's styles.
+ *
+ * Ships with the package for the same reason the markup does: a plugin that joins the
+ * shared connection should get the screen, not a description of how to build one. These
+ * rules and zorem_mcp_render_connection() are two halves of the same thing, and keeping
+ * them in one place is what stops the second plugin's screen from being a near-miss of the
+ * first.
+ *
+ * Scoped under .zui-scope, like the rest of the Zorem admin, so nothing here escapes into
+ * a host theme or another plugin's settings page.
+ *
+ * @package Zorem_MCP
+ * @since 1.1.0
+ */
+
+/* ---- AI Assistant: connection URL row ----
+   The URL is long and must stay readable and selectable, so it gets a monospace field that
+   grows with the row and keeps the Copy button beside it rather than wrapping under it. */
+.zorem-mcp-url {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	min-width: 0;
+}
+
+.zorem-mcp-url__field {
+	flex: 1 1 auto;
+	min-width: 0;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-size: 12px;
+}
+
+/* ---- AI Assistant: compact tool list ----
+   A plain list of what the AI can reach. Deliberately NOT built from .zui-row: that row
+   carries 32px of padding sized for a form control, which turns four short lines into a
+   full screen of scrolling. */
+.zui-scope .zorem-mcp-tools {
+	padding: 16px 32px 20px;
+}
+
+.zui-scope .zorem-mcp-tools__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 7px 0;
+	border-block-end: 1px solid var(--zui-divider);
+}
+
+.zui-scope .zorem-mcp-tools__item:last-of-type {
+	border-block-end: 0;
+}
+
+.zui-scope .zorem-mcp-tools__name {
+	font-size: 13px;
+	font-weight: 600;
+	color: var(--zui-text);
+}
+
+.zui-scope .zorem-mcp-tools__note {
+	margin: 12px 0 0;
+	font-size: 11px;
+	color: var(--zui-text-muted);
+}
+
+/* ---- AI Assistant: per-client connect rows ----
+   Same reasoning as the tool list above: not .zui-row, whose 32px of control padding would
+   turn five short lines into a screenful. Each row carries a button on the right, so this
+   one does need the flex row and a control column that never shrinks. */
+.zui-scope .zorem-mcp-clients {
+	padding: 16px 32px 20px;
+}
+
+.zui-scope .zorem-mcp-client {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 10px 0;
+	border-block-end: 1px solid var(--zui-divider);
+}
+
+.zui-scope .zorem-mcp-client:last-of-type {
+	border-block-end: 0;
+}
+
+.zui-scope .zorem-mcp-client__head {
+	min-width: 0;
+}
+
+.zui-scope .zorem-mcp-client__name {
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	color: var(--zui-text);
+}
+
+.zui-scope .zorem-mcp-client__name .zorem-mcp-badge {
+	margin-inline-start: 8px;
+	vertical-align: middle;
+}
+
+.zui-scope .zorem-mcp-client__note {
+	margin: 2px 0 0;
+	font-size: 12px;
+	color: var(--zui-text-muted);
+}
+
+.zui-scope .zorem-mcp-client__control {
+	flex: 0 0 auto;
+}
+
+/* The deeplinks are anchors, not buttons, so they need the line-height and centring the
+   button class assumes it is getting from a <button>. */
+.zui-scope .zorem-mcp-client__control .zui-btn-secondary {
+	display: inline-flex;
+	align-items: center;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+.zui-scope .zorem-mcp-clients__note {
+	margin: 12px 0 0;
+	font-size: 11px;
+	color: var(--zui-text-muted);
+}
+
+/* Narrow screens: the button drops under the text rather than squeezing the name to one
+   word per line. */
+@media (max-width: 782px) {
+	.zui-scope .zorem-mcp-client {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+	}
+}
+
+/* A client that cannot reach this route at all. Muted, so the eye skips it and lands on
+   the rows that do something. */
+.zui-scope .zorem-mcp-client__unavailable {
+	font-size: 12px;
+	color: var(--zui-text-muted);
+}
+
+/* ---- AI Assistant: the generated WooCommerce key ----
+   Hidden until the key exists. [hidden] is restated because the display rules above would
+   otherwise win on specificity. */
+.zui-scope .zorem-mcp-woo[hidden] {
+	display: none;
+}
+
+.zui-scope .zorem-mcp-woo .zorem-mcp-clients {
+	padding-block-start: 0;
+}
+
+/* ---- AI Assistant: the one path ----
+   Three numbered lines under the link. This is the only instruction most people who open
+   this screen will read, so it is the only thing on it that gets counters and its own
+   weight. */
+.zui-scope .zorem-mcp-steps {
+	margin: 0;
+	padding: 4px 32px 20px 32px;
+	list-style: none;
+	counter-reset: zorem-mcp-step;
+}
+
+.zui-scope .zorem-mcp-steps li {
+	position: relative;
+	counter-increment: zorem-mcp-step;
+	margin: 0;
+	padding: 6px 0 6px 30px;
+	font-size: 13px;
+	color: var(--zui-text);
+}
+
+.zui-scope .zorem-mcp-steps li::before {
+	content: counter(zorem-mcp-step);
+	position: absolute;
+	inset-inline-start: 0;
+	top: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: var(--zui-divider);
+	font-size: 11px;
+	font-weight: 600;
+	color: var(--zui-text-muted);
+}
+
+/* ---- AI Assistant: folded detail ----
+   <details>, not a scripted accordion: it opens without JavaScript, screen readers already
+   know it, and find-in-page opens it to reach the text inside. */
+.zui-scope .zorem-mcp-more {
+	border-block-start: 1px solid var(--zui-divider);
+}
+
+.zui-scope .zorem-mcp-more__summary {
+	padding: 14px 32px;
+	font-size: 13px;
+	font-weight: 600;
+	color: var(--zui-text-muted);
+	cursor: pointer;
+	list-style: none;
+}
+
+/* Safari draws its own triangle through ::-webkit-details-marker, which list-style alone
+   does not remove. */
+.zui-scope .zorem-mcp-more__summary::-webkit-details-marker {
+	display: none;
+}
+
+.zui-scope .zorem-mcp-more__summary::before {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-inline-end: 8px;
+	vertical-align: middle;
+	border-block-start: 4px solid transparent;
+	border-block-end: 4px solid transparent;
+	border-inline-start: 5px solid currentColor;
+	transition: transform 120ms ease;
+}
+
+.zui-scope .zorem-mcp-more[open] > .zorem-mcp-more__summary::before {
+	transform: rotate(90deg);
+}
+
+.zui-scope .zorem-mcp-more__summary:hover {
+	color: var(--zui-text);
+}
+
+/* ---- AI Assistant: status badge ----
+   Own class, not .zui-badge. The library ships badge.css but does NOT import it (it sits in
+   zui.css's "Phase 2 (deferred)" comment block), and the library is shared with the other
+   Zorem plugins, so it is not this plugin's to switch on. Same reasoning for the table
+   below. */
+.zui-scope .zorem-mcp-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 3px 10px;
+	border-radius: 999px;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.5;
+	white-space: nowrap;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	background: var(--zui-bg);
+	color: var(--zui-text-muted);
+}
+
+.zui-scope .zorem-mcp-badge--ok {
+	background: #dcfce7;
+	color: #15803d;
+}
+
+.zui-scope .zorem-mcp-badge--ready {
+	background: #dbeafe;
+	color: #1d4ed8;
+}
+
+.zui-scope .zorem-mcp-badge--error {
+	background: #fee2e2;
+	color: #b91c1c;
+}
+
+/* The three powers a tool can have, in the same pill as the status badges above.
+   Read is deliberately the quietest: it is most of the list and the one nobody needs to
+   think about. Write and Delete carry colour because they are exactly what the "allow the
+   AI to add and delete" switch above turns off. */
+.zui-scope .zorem-mcp-badge--read {
+	background: var(--zui-bg);
+	color: var(--zui-text-muted);
+}
+
+.zui-scope .zorem-mcp-badge--write {
+	background: #fef3c7;
+	color: #b45309;
+}
+
+.zui-scope .zorem-mcp-badge--delete {
+	background: #fee2e2;
+	color: #b91c1c;
+}
+
+/* The tool badges take a different shape from the status badges above: a soft 6px chip in
+   sentence case, carrying a glyph. The glyph is the point. Colour is the only thing telling
+   Write from Delete otherwise, and it is the one channel that does not survive a printed
+   page, a high-contrast mode, or a merchant who does not separate amber from red. Shape and
+   colour stay in step; the word and the icon still say it when they cannot. */
+.zui-scope .zorem-mcp-badge--tool {
+	gap: 5px;
+	padding: 3px 9px 3px 7px;
+	border-radius: 6px;
+	font-size: 11.5px;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+.zui-scope .zorem-mcp-badge--tool svg {
+	width: 12px;
+	height: 12px;
+	flex: 0 0 auto;
+}
+
+/* Read now has a 1.4px stroke to hold, and --zui-text-muted on --zui-bg is too faint to
+   draw one at 12px. Half a step darker, on the same neutral ramp. Read stays the quietest
+   of the three. */
+.zui-scope .zorem-mcp-badge--tool.zorem-mcp-badge--read {
+	background: #f1f5f9;
+	color: #64748b;
+}
+
+/* A day count needs room for three digits and a spinner, not for a sentence. */
+.zui-scope .zorem-mcp-number {
+	width: 110px;
+	max-width: 110px;
+}
+
+/* ---- Handing off to a desktop app ----
+   A deeplink leaves the browser and never reports back, so the button cannot know
+   whether the app opened. What it can do is stop looking idle while the operating
+   system decides -- which on a first click means a permission dialog, and several
+   seconds. Without this the merchant clicks again, and again. */
+.zui-scope [data-zorem-mcp-open].is-opening {
+	pointer-events: none;
+	opacity: .75;
+}
+
+.zui-scope [data-zorem-mcp-open].is-opening::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-inline-end: 7px;
+	vertical-align: -1px;
+	border: 2px solid currentColor;
+	border-top-color: transparent;
+	border-radius: 50%;
+	animation: zorem-mcp-spin .7s linear infinite;
+}
+
+/* Not an error -- the app may simply not be installed -- so this asks rather than
+   accuses, and it fades back to the ordinary label on its own. */
+.zui-scope [data-zorem-mcp-open].is-missing {
+	color: var(--zui-text-muted);
+}
+
+@keyframes zorem-mcp-spin {
+	to { transform: rotate( 360deg ); }
+}
+
+@media ( prefers-reduced-motion: reduce ) {
+	.zui-scope [data-zorem-mcp-open].is-opening::before {
+		animation: none;
+		border-top-color: currentColor;
+		opacity: .5;
+	}
+}
+
+/* ---- Connections: the footer under the table ---- */
+.zui-scope .zorem-mcp-connections__foot {
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 8px 14px;
+	padding: 14px 32px 20px;
+	border-block-start: 1px solid var(--zui-divider);
+}
+
+.zui-scope .zorem-mcp-connections__hint {
+	margin: 0;
+	flex: 1 1 260px;
+	font-size: 11.5px;
+	color: var(--zui-text-muted);
+}
+
+/* ---- Reset, beside Add ----
+   Quieter than the button it sits next to: Add is what a merchant wants, Reset is what
+   they fall back to. Same shape as the Revoke control in the connections table, because
+   it does the same thing to the same rows. */
+.zui-scope .zorem-mcp-reset {
+	margin-inline-end: 8px;
+	padding: 0;
+	border: 0;
+	background: none;
+	font: inherit;
+	font-size: 12.5px;
+	color: var(--zui-text-muted);
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	cursor: pointer;
+}
+
+.zui-scope .zorem-mcp-reset:hover {
+	color: var(--zui-text);
+}
+
+.zui-scope .zorem-mcp-reset:focus-visible {
+	outline: 2px solid var(--zui-primary);
+	outline-offset: 2px;
+	border-radius: 3px;
+}
+
+.zui-scope .zorem-mcp-reset[disabled] {
+	opacity: .6;
+	cursor: default;
+	text-decoration: none;
+}
+
+/* ---- AI Assistant: audit log table ---- */
+.zui-scope .zorem-mcp-log {
+	width: 100%;
+	overflow-x: auto;
+	padding-block: 4px 8px;
+}
+
+.zui-scope .zorem-mcp-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	font-size: 13px;
+	background: var(--zui-surface);
+}
+
+.zui-scope .zorem-mcp-table thead th {
+	padding: 12px 16px;
+	text-align: left;
+	font-size: 11px;
+	font-weight: 600;
+	color: var(--zui-text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	white-space: nowrap;
+	background: var(--zui-bg);
+	border-block-end: 1px solid var(--zui-border);
+}
+
+.zui-scope .zorem-mcp-table tbody td {
+	padding: 14px 16px;
+	color: var(--zui-text);
+	vertical-align: middle;
+	border-block-end: 1px solid var(--zui-divider);
+}
+
+.zui-scope .zorem-mcp-table tbody tr:last-child td {
+	border-block-end: 0;
+}
+
+.zui-scope .zorem-mcp-table tbody tr:hover td {
+	background: var(--zui-bg);
+}
+
+/* Line the outer cells up with the card's own 32px gutter. */
+.zui-scope .zorem-mcp-table th:first-child,
+.zui-scope .zorem-mcp-table td:first-child {
+	padding-inline-start: 32px;
+}
+
+.zui-scope .zorem-mcp-table th:last-child,
+.zui-scope .zorem-mcp-table td:last-child {
+	padding-inline-end: 32px;
+}
+
+.zui-scope .zorem-mcp-table th:nth-child(1),
+.zui-scope .zorem-mcp-table td:nth-child(1) {
+	width: 170px;
+	white-space: nowrap;
+	color: var(--zui-text-muted);
+}
+
+.zui-scope .zorem-mcp-table th:nth-child(3),
+.zui-scope .zorem-mcp-table td:nth-child(3),
+.zui-scope .zorem-mcp-table th:nth-child(4),
+.zui-scope .zorem-mcp-table td:nth-child(4) {
+	width: 150px;
+	white-space: nowrap;
+}
+
+.zui-scope .zorem-mcp-table th:nth-child(5),
+.zui-scope .zorem-mcp-table td:nth-child(5) {
+	width: 110px;
+	white-space: nowrap;
+}
+
+.zui-scope .zorem-mcp-table td code {
+	display: inline-block;
+	padding: 3px 8px;
+	border-radius: 4px;
+	background: var(--zui-bg);
+	border: 1px solid var(--zui-divider);
+	font-size: 12px;
+	color: var(--zui-text);
+}
+
+/* Long WP_Error messages must not stretch the row; the full text is in the title attribute. */
+.zui-scope .zorem-mcp-log__error {
+	max-width: 260px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: var(--zui-text-muted);
+}
+
+.zui-scope .zorem-mcp-pagebtn {
+	display: inline-block;
+	padding: 6px 14px;
+	margin-inline-start: 8px;
+	border: 1px solid var(--zui-border);
+	border-radius: var(--zui-radius-md);
+	background: var(--zui-surface);
+	font-size: 13px;
+	font-weight: 600;
+	color: var(--zui-text);
+	text-decoration: none;
+}
+
+.zui-scope .zorem-mcp-pagebtn:hover {
+	background: var(--zui-bg);
+}
+
+/* ---- AI Assistant: disclosure body ----
+   The <summary> is styled above; its content had no rule at all, so an opened disclosure
+   ran to the card edge while every other block inside a card sits on the 32px gutter.
+
+   The gutter goes on the paragraphs rather than on the body, because the blocks that get
+   dropped in here -- .zorem-mcp-steps, .zorem-mcp-clients -- already carry it themselves for the
+   unfolded case. Padding the body would have them pay it twice and step out of line with
+   the rest of the card in the other direction. */
+.zui-scope .zorem-mcp-more__body {
+	padding-block-end: 8px;
+}
+
+.zui-scope .zorem-mcp-more__body > p:not([class]) {
+	margin: 0 0 12px;
+	padding-inline: 32px;
+	max-width: calc(78ch + 64px);
+	font-size: 13px;
+	line-height: 1.6;
+	color: var(--zui-text-muted);
+}
+
+/* The row of links under the instructions is a bare paragraph too, but it carries a class
+   for its size and colour, so it takes the gutter and nothing else. */
+.zui-scope .zorem-mcp-more__body > .zorem-mcp-clients__note {
+	margin: 0 0 12px;
+	padding-inline: 32px;
+}
+
+/* Nested in a body that has no gutter of its own, the steps keep theirs -- but the last
+   paragraph after them should not read as a fourth step, so it starts clear of the list. */
+.zui-scope .zorem-mcp-more__body > .zorem-mcp-steps {
+	padding-block-end: 12px;
+}
+
+
+/* ---- AI Assistant: link test result ----
+   A verdict has to be readable as a verdict; the same grey as every other hint would let a
+   merchant skim past "your firewall is blocking this". */
+.zui-scope [data-zorem-mcp-testresult].is-good {
+	color: #15803d;
+	font-weight: 600;
+}
+
+.zui-scope [data-zorem-mcp-testresult].is-bad {
+	color: #b45309;
+	font-weight: 600;
+}
+
+/* The verdict carries the colour and the weight; the line under it explains and must not
+   compete with it, or the merchant reads two headlines and no instruction. */
+.zui-scope .zorem-mcp-testdetail {
+	margin-top: 4px;
+	max-width: 68ch;
+}
+
+/* ---- Connections: turning one person off ----
+   The button is quiet until it is wanted -- this list is read far more often than it is
+   acted on, and a row of red buttons reads as a list of problems. */
+.zui-scope .zorem-mcp-revoke {
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--zui-danger, #b45309);
+	background: transparent;
+	border: 1px solid var(--zui-border, #cbd5e1);
+	border-radius: 6px;
+	padding: 3px 10px;
+	cursor: pointer;
+}
+
+.zui-scope .zorem-mcp-revoke:hover {
+	border-color: var(--zui-danger, #b45309);
+	background: rgba(180, 83, 9, .06);
+}
+
+.zui-scope .zorem-mcp-revoke:disabled {
+	opacity: .6;
+	cursor: default;
+}
+
+/* A revoked row stays in the table and stops competing for attention. */
+.zui-scope .zorem-mcp-table tr.is-revoked td {
+	opacity: .6;
+}
+
+/* ---- Connections: where a caller came from ----
+   Set apart from the account name because it is a weaker fact: it says another caller was
+   here, not who they were. Quiet enough that it reads as a detail on the row rather than a
+   second identity competing with the first. */
+.zui-scope .zorem-mcp-from {
+	display: block;
+	font-size: 11px;
+	font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+	color: var(--zui-text-muted, #94a3b8);
+	margin-top: 1px;
+}
+
+/* ---- The WooCommerce key, entered by hand ----
+   Two fields and a button on one line where there is room, stacked where there is not. The
+   fields are wide and monospaced because what goes in them is long: a key that wraps
+   mid-string is a key the merchant cannot check they pasted whole. */
+.zui-scope .zorem-mcp-keyform {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: center;
+}
+
+.zui-scope .zorem-mcp-keyform .zui-input {
+	flex: 1 1 220px;
+	min-width: 0;
+	font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+	font-size: 12px;
+}
+
+.zui-scope [data-zorem-mcp-keyerror].is-bad {
+	color: #b45309;
+	font-weight: 600;
+}

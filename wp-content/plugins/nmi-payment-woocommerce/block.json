@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "extension/nmi-payment-woocommerce",
+	"version": "5.3.11",
+	"title": "WooCommerce NMI Gateway (Pro)",
+	"category": "widgets",
+	"textdomain": "wc-nmi",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

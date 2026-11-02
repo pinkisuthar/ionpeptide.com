@@ -1,0 +1,226 @@
+.return_request_item h3,
+.exchange_request_item h3 {
+	text-align: left;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.return-details h4,
+.exchange-details h4 {
+	margin-bottom: 0.1em !important;
+	margin: 1.33em 0;
+}
+
+.return_request_item *,
+.exchange_request_item * {
+	vertical-align: bottom;
+	margin: 10px 0;
+}
+
+.return_request_item li,
+.exchange_request_item li {
+	margin: 10px 20px;
+}
+
+.return_request_item .items-status.label,
+.exchange_request_item .items-status.label {
+	margin-top: 15px;
+}
+
+.return_request_item .return-details p:last-child,
+.exchange_request_item .exchange-details p:last-child {
+	margin: 0;
+}
+
+.actions-buttons {
+	margin: 5px 0;
+}
+
+.return_status_label,
+.exchange_status_label {
+	background-color: #f0f0f1;
+	padding: 4px 8px;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.return_status_label::before,
+.exchange_status_label::before {
+	font-family: dashicons;
+	font-size: 18px;
+	margin: 0 5px 0 0;
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 10px;
+	vertical-align: unset;
+}
+
+.status-return-requested::before,
+.status-exchange-requested::before {
+	background-color: #03a9f4 !important;
+}
+
+.status-return-approved::before,
+.status-exchange-approved::before {
+	background-color: #4caf50 !important;
+}
+
+.status-return-completed::before {
+	background-color: #2196f3 !important;
+}
+
+.status-return-rejected::before,
+.status-return-cancelled::before,
+.status-exchange-rejected::before,
+.status-exchange-cancelled::before {
+	background-color: #f44336 !important;
+}
+
+.return_request_item label,
+.exchange_request_item label {
+	font-weight: 600;
+}
+
+.return-details,
+.exchange-details {
+	border-bottom: 1px solid #f0f0f0;
+	padding-bottom: 10px;
+}
+
+.return-details:last-child,
+.exchange-details:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* popup css of return data */
+.return-request-details h4,
+.exchange-request-details h4 {
+	margin: 0;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.return-request-details p,
+.exchange-request-details p {
+	font-size: 16px !important;
+}
+
+.return-request-details li,
+.exchange-request-details li {
+	margin: 5px 20px;
+}
+
+.return-request-details ul,
+.exchange-request-details ul {
+	list-style: disc;
+}
+
+.return_request_header,
+.exchange_request_header {
+	display: flex;
+	vertical-align: middle;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.return_request_header span.dashicons,
+.exchange_request_header span.dashicons {
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.return_request_header.status-return-requested span.dashicons.dashicons-yes-alt,
+.exchange_request_header.status-exchange-requested span.dashicons.dashicons-yes-alt {
+	color: #03a9f4;
+}
+
+.return_request_header.status-return-approved span.dashicons.dashicons-yes-alt,
+.exchange_request_header.status-exchange-approved span.dashicons.dashicons-yes-alt {
+	color: #4caf50;
+}
+
+.return_request_header.status-return-completed span.dashicons.dashicons-yes-alt {
+	color: #2196f3;
+}
+
+.return_request_header.status-return-rejected span.dashicons.dashicons-dismiss,
+.return_request_header.status-return-cancelled span.dashicons.dashicons-dismiss,
+.exchange_request_header.status-exchange-rejected span.dashicons.dashicons-dismiss,
+.exchange_request_header.status-exchange-cancelled span.dashicons.dashicons-dismiss {
+	color: #f44336;
+}
+
+#returns_preview_data .popuprow,
+#exchanges_preview_data .popuprow {
+	width: 499px;
+}
+.exchange-request-title {
+	font-size: 16px;
+}
+.exchange-request-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+.exchange-request-table-row th {
+	padding: 8px 8px 8px 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+}
+.exchange-request-table td {
+	vertical-align: top;
+	padding: 10px 10px 10px 0;
+	border-bottom: 1px solid #eee;
+}
+.product-name {
+	margin:0;
+	font-size:15px;
+}
+.exchange-common {
+	margin-bottom: 0;
+}
+.exchange-details {
+	background: #fff;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+.exchange-details h4 {
+	margin-top: 0;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 6px;
+	color: #333;
+}
+.exchange-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+.exchange-table th,
+.exchange-table td {
+	border: 1px solid #ddd;
+	padding: 8px 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.exchange-table th {
+	background: #f7f7f7;
+	font-weight: 600;
+	width: 100px;
+}
+.exchange-status-label {
+	font-weight: bold;
+	color: #0055aa;
+}
+.actions-buttons {
+	margin-top: 10px;
+}
+.actions-buttons button {
+	margin-right: 10px;
+}

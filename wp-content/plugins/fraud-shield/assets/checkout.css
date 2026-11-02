@@ -1,0 +1,141 @@
+/**
+ * Fraud Shield — storefront checkout styling.
+ *
+ * Scoped to the checkout trust banner and the ID-verification card. Everything
+ * uses neutral system styling and currentColor so it sits inside any theme
+ * without fighting it, and no theme selectors are overridden.
+ */
+
+/* ---- "Protected by Fraud Shield" banner ---- */
+.fs-trust-banner {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0 0 1.25em;
+	padding: 10px 14px;
+	border: 1px solid rgba(27, 31, 36, 0.12);
+	border-radius: 6px;
+	background: rgba(27, 31, 36, 0.03);
+	color: #3c434a;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.fs-trust-banner .fs-shield {
+	flex: 0 0 auto;
+	color: #2b6cb0;
+}
+
+/* ---- Shared card (ID verification offer / confirmation) ---- */
+.fs-card {
+	display: flex;
+	align-items: flex-start;
+	gap: 14px;
+	margin: 0 0 1.5em;
+	padding: 16px 18px;
+	border: 1px solid rgba(27, 31, 36, 0.15);
+	border-left: 4px solid #2b6cb0;
+	border-radius: 6px;
+	background: #fff;
+	color: #1d2327;
+}
+
+.fs-card .fs-card-icon {
+	flex: 0 0 auto;
+	color: #2b6cb0;
+	line-height: 1;
+	padding-top: 2px;
+}
+
+.fs-card .fs-card-body {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.fs-card p {
+	margin: 0 0 6px;
+}
+
+.fs-card p:last-child {
+	margin-bottom: 0;
+}
+
+.fs-card .fs-card-title {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 1.35;
+}
+
+.fs-card .fs-card-text {
+	font-size: 14px;
+	line-height: 1.5;
+	opacity: 0.9;
+}
+
+.fs-card .fs-card-fine {
+	font-size: 12px;
+	line-height: 1.45;
+	opacity: 0.7;
+}
+
+.fs-card .fs-card-actions {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+/* Let the theme's own button styling apply; only guarantee it is not squashed. */
+.fs-card .fs-idv-btn {
+	margin: 0;
+}
+
+/* ---- Verified confirmation ---- */
+.fs-card--ok {
+	border-left-color: #1a7f37;
+	background: #f2fbf4;
+	border-color: rgba(26, 127, 55, 0.35);
+}
+
+.fs-card--ok .fs-card-icon,
+.fs-card--ok .fs-card-title {
+	color: #1a7f37;
+}
+
+/* ---- Busy indicator while the Didit window is open ---- */
+.fs-idv-spinner {
+	display: none;
+	width: 16px;
+	height: 16px;
+	border: 2px solid rgba(27, 31, 36, 0.2);
+	border-top-color: #2b6cb0;
+	border-radius: 50%;
+	animation: fs-spin 0.7s linear infinite;
+}
+
+.fs-idv-spinner.is-on {
+	display: inline-block;
+}
+
+@keyframes fs-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.fs-idv-spinner {
+		animation: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.fs-card {
+		padding: 14px;
+		gap: 10px;
+	}
+
+	.fs-card .fs-card-actions {
+		flex-wrap: wrap;
+	}
+}

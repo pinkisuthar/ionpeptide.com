@@ -1,0 +1,81 @@
+<?php
+
+namespace ACFWF\Models\Objects\Report_Widgets;
+
+use ACFWF\Abstracts\Abstract_Report_Widget;
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+/**
+ * Coupons used report widget data.
+ *
+ * @since 4.3
+ */
+class Coupons_Used extends Abstract_Report_Widget {
+    /*
+    |--------------------------------------------------------------------------
+    | Class Methods
+    |--------------------------------------------------------------------------
+    */
+
+    /**
+     * Create a new Report Widget object.
+     *
+     * @since 4.3
+     * @access public
+     *
+     * @param Date_Period_Range $report_period Date period range object.
+     */
+    public function __construct( $report_period ) {
+        $this->key         = 'coupons_used';
+        $this->widget_name = __( 'Coupons Used', 'advanced-coupons-for-woocommerce-free' );
+        $this->type        = 'big_number';
+        $this->description = __( 'Coupons Used', 'advanced-coupons-for-woocommerce-free' );
+
+        // build report data.
+        parent::__construct( $report_period );
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Query methods
+    |--------------------------------------------------------------------------
+    */
+
+    /**
+     * Query report data freshly from the database.
+     *
+     * @since 4.3
+     * @since 4.7.6 Source from the shared coupon-usage dataset instead of hydrating every order.
+     * @access protected
+     */
+    protected function _query_report_data() {
+        $count = 0;
+
+        // Counted by iteration rather than count(): the fallback path yields a Generator.
+        foreach ( $this->_get_coupon_usage_rows( false ) as $row ) {
+            ++$count;
+        }
+
+        $this->raw_data = $count;
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Utility methods
+    |--------------------------------------------------------------------------
+     */
+
+    /**
+     * NOTE: This method needs to be override on the child class.
+     *
+     * @since 4.3
+     * @access public
+     */
+    protected function _format_report_data() {
+        $this->title = \ACFWF()->Helper_Functions->format_integer_for_display( $this->raw_data );
+    }
+}

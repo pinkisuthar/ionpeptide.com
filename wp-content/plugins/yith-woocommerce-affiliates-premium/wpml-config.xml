@@ -1,0 +1,6 @@
+<wpml-config>
+    <admin-texts>
+      <key name="yith_wcaf_referral_registration_terms_label" />
+      <key name="yith_wcaf_referral_registration_terms_anchor_text" />
+    </admin-texts>
+</wpml-config>

@@ -1,0 +1,1038 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Waitlist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-24 08:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.8\n"
+"X-Domain: woocommerce-waitlist"
+
+#. %1$s: user email, %2$s: product title
+#: templates/emails/plain/waitlist-new-signup.php:31
+#, php-format
+msgid "%1$s has just signed up to the waitlist for %2$s"
+msgstr ""
+
+#. %1$s: user email, %2$s: product title
+#: templates/emails/waitlist-new-signup.php:40
+#, php-format
+msgid "%1$s has just signed up to the waitlist for %2$s."
+msgstr ""
+
+#. %1$s: product title, %2$s: site name
+#: templates/emails/waitlist-mailout.php:44
+#: templates/emails/plain/waitlist-mailout.php:33
+#, php-format
+msgid "%1$s is now back in stock at %2$s. "
+msgstr ""
+
+#. %1$s opening <a> tag links to WooCommerce shop, %2$s closing <a> tag
+#: classes/frontend/account/class-pie-wcwl-frontend-user-waitlist.php:50
+#, php-format
+msgid "%1$sVisit shop now!%2$s"
+msgstr ""
+
+#. %1$s <b> tag opens, %2$s <b> tag closes
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:87
+#, php-format
+msgid ""
+"%1$sWarning:%2$s This could take a long while depending on how many products "
+"there are. Do not navigate away from this page until the update is complete."
+msgstr ""
+
+#. %1$s opening <strong> tag, %2$s theme name, %3$s closing <strong> tag
+#: woo-includes/html-notice-template-check.php:18
+#, php-format
+msgid ""
+"%1$sYour theme (%2$s) contains outdated copies of some WooCommerce Waitlist "
+"template files.%3$s These files may need updating to ensure they are "
+"compatible with the current version of WooCommerce Waitlist. Suggestions to "
+"fix this:"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-mailout.php:67
+msgid "A product you are waiting for is back in stock"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-signup-email.php:59
+#: classes/class-pie-wcwl-waitlist-signup-email.php:69
+msgid "A user has just joined a waitlist!"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:142
+msgid "A user must be logged in to the site to be able to join a waitlist"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-actions-archive.php:15
+#: classes/admin/product-tab/components/panel-actions-waitlist.php:15
+msgid "Actions"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-init.php:315
+#: classes/admin/product-tab/components/panel-add-new.php:18
+msgid "Add"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-mailout.php:376
+msgid "Add analytic tracking"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-add-new.php:13
+msgid "Add new user"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-actions-archive.php:16
+msgid "Add to waitlist"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-mailout.php:377
+msgid "Add UTM tracking information to waitlist mailouts"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-waitlist.php:67
+msgid "Added"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:185
+msgid ""
+"Allow the user to join/leave waitlists for simple products directly from the "
+"main shop page"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:194
+msgid ""
+"Allow waitlists for event tickets (this only supports WooCommerce Tickets)"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-tabs.php:10
+msgid "Archive"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:213
+msgid "Archive Waitlists"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:155
+msgid "Auto-Login users"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:149
+msgid "Automatically create an account for users that join a waitlist"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:156
+msgid "Automatically login users when an account is created for them"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:519
+msgid ""
+"By ticking this box you agree to an account being created using the given "
+"email address and to receive waitlist communications by email"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:526
+msgid ""
+"By ticking this box you agree to receive waitlist communications by email"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:376
+msgid ""
+"Check the box alongside any Out of Stock products and update the waitlist to "
+"be emailed when those products become available"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-options.php:44
+msgid ""
+"Check this box to override the default setting for the minimum stock "
+"required for this product before waitlist users are notified that it is back "
+"in stock"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:345 templates/waitlist-single.php:88
+msgid "Confirm"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-exporter.php:169
+msgid "Currently on Waitlist"
+msgstr ""
+
+#. %s HTML for update counts notice
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:97
+#, php-format
+msgid "Currently updating waitlist counts for product %s"
+msgstr ""
+
+#. %s HTML for update meta notice
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:101
+#, php-format
+msgid "Currently updating waitlist metadata for product %s"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:319
+msgid ""
+"Customer \"new account\" emails are sent to the customer when a customer "
+"signs up via checkout page, My Account page or when adding their email to a "
+"waitlist."
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:315
+msgid "Dismiss notification"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:178
+msgid ""
+"Display a checkbox to logged in users to get consent for using their email "
+"address"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:171
+msgid ""
+"Display a checkbox to logged out users to get consent for creating an "
+"account and using their email address"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:170
+msgid "Display opt-in for new users"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:177
+msgid "Display opt-in for registered users"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:163
+msgid "Double Opt-In"
+msgstr ""
+
+#. %1$s <a> tag opens and links to WooCommerce exporter, %2$s <a> tag closes
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:89
+#, php-format
+msgid ""
+"Download a comma-separated list of all waitlisted and archived emails for "
+"ALL products.  If you want to export waitlist data for importing we "
+"recommend you use the %1$sWooCommerce Product Exporter%2$s."
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:308
+#: classes/class-pie-wcwl-waitlist-signup-email.php:239
+#: classes/admin/product-tab/components/panel-add-new.php:16
+msgid "Email Address"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-exporter.php:199
+msgid "Email in Archives"
+msgstr ""
+
+#: templates/emails/waitlist-joined.php:37
+#: templates/emails/waitlist-optin.php:39
+#: templates/emails/waitlist-mailout.php:39
+#: templates/emails/waitlist-left.php:33
+#: templates/emails/plain/waitlist-joined.php:27
+#: templates/emails/plain/waitlist-optin.php:29
+#: templates/emails/plain/waitlist-mailout.php:31
+#: templates/emails/plain/waitlist-left.php:24
+msgctxt "Email salutation"
+msgid "Hi There,"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-options.php:36
+msgid "Enable users to join a waitlist for this product"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:360
+msgid "Endpoint for the customers waitlist."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-mailout.php:383
+msgid ""
+"Enter the parameters to add to the waitlist back in stock link. Enter each "
+"parameter on a new line in the format \"utm_source=waitlist;\" (without "
+"quotes). You can also use {product_id} and {product_sku} as placeholders for "
+"the ID and SKU of the product"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:302
+msgid "Enter your email address to join the waitlist for this product"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:83
+msgid "Export"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-actions-archive.php:19
+#: classes/admin/product-tab/components/panel-actions-waitlist.php:19
+msgid "Export emails"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:80
+msgid "Export Waitlist Data"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:148
+msgid "Force account creation"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-init.php:319
+#: classes/admin/product-tab/components/panel-actions-archive.php:22
+#: classes/admin/product-tab/components/panel-actions-waitlist.php:22
+msgid "Go"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.woothemes.com/products/woocommerce-waitlist/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pie.co.de/"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:625
+msgid ""
+"I'm afraid something went wrong with your request. Please try again or "
+"contact us for help"
+msgstr ""
+
+#. %1$s: product link
+#: templates/emails/waitlist-left.php:44
+#, php-format
+msgid ""
+"If this is an error you can add yourself back to the waitlist %1$shere%2$s."
+msgstr ""
+
+#. %1$s: product link
+#: templates/emails/plain/waitlist-left.php:30
+#, php-format
+msgid "If this is an error you can add yourself back to the waitlist here: %s."
+msgstr ""
+
+#: templates/emails/waitlist-optin.php:59
+#: templates/emails/plain/waitlist-optin.php:42
+msgid "If you did not make this request please ignore this email."
+msgstr ""
+
+#. %1$s: product title, %2$s: product link around product name
+#. %1$s: product title, %2$s: product link
+#: templates/emails/waitlist-mailout.php:52
+#: templates/emails/plain/waitlist-mailout.php:37
+#, php-format
+msgid ""
+"If you would like to purchase %1$s please visit the following link: %2$s"
+msgstr ""
+
+#. %1$s: product link open, %2$s: product link close
+#: templates/emails/waitlist-joined.php:58
+#, php-format
+msgid ""
+"If you would like to remove your email address from the waitlist you can do "
+"so by clicking %1$shere%2$s."
+msgstr ""
+
+#. %s: product link
+#: templates/emails/plain/waitlist-joined.php:43
+#, php-format
+msgid ""
+"If you would like to remove your email address from the waitlist you can do "
+"so by clicking here: %s."
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:509
+msgid "Invalid product ID"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist.php:253
+#: classes/class-pie-wcwl-waitlist.php:333
+msgid "Invalid user"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-exporter.php:173
+msgid "Join Date"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:370
+msgid "Join the waitlist to be emailed when this product becomes available"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:204
+#: wcwl-waitlist-template-functions.php:336
+msgid "Join Waitlist"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:214
+msgid ""
+"Keep a record of customers that have been emailed an in stock notification. "
+"This enables you to easily re-send emails, send custom emails or add the "
+"user back onto the waitlist"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:339
+msgid "Leave Waitlist"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-init.php:69
+msgid "Loading"
+msgstr ""
+
+#. %d is the product ID
+#: classes/admin/class-pie-wcwl-admin-ajax.php:128
+msgid "Meta updated for Product %d"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:220
+msgid "Minimum stock"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:221
+msgid ""
+"Minimum stock amount before users are notified that a product is back in "
+"stock. This can be overwritten per product on the product edit screen"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-options.php:52
+msgid ""
+"Minimum stock amount before users are notified that item is back in stock"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-actions-waitlist.php:16
+msgid "Move to archive"
+msgstr ""
+
+#. Author of the plugin
+msgid "Neil Pie"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-add-new.php:24
+msgid "New users will be registered and emailed a \"New Account\" email"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-init.php:317
+msgid "No action selected"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:118
+msgid "No products selected"
+msgstr ""
+
+#. %s link to WooCommerce support
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:85
+#, php-format
+msgid ""
+"No products were found. If you believe this is an error please submit a "
+"ticket for the plugin through Woo Support %s"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:463
+#: classes/admin/class-pie-wcwl-admin-init.php:316
+msgid "No users selected"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-init.php:314
+msgid "One or more emails entered appear to be invalid"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-tabs.php:11
+msgid "Options"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-actions-archive.php:17
+msgid "Permanently delete"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-exporter.php:283
+msgid "Personal data for waitlists has been retained."
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:75
+msgid ""
+"Please check your inbox and confirm your email address to be added to the "
+"waitlist"
+msgstr ""
+
+#. %1$s: product title, %2$s: site name
+#: templates/emails/waitlist-optin.php:44
+#: templates/emails/plain/waitlist-optin.php:31
+#, php-format
+msgid ""
+"Please click the link below to confirm your email address and be added to "
+"the waitlist for %1$s at %2$s."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-optin-email.php:64
+#: classes/class-pie-wcwl-waitlist-optin-email.php:74
+msgid "Please confirm your email address"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-init.php:75
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-init.php:87
+msgid ""
+"Please select at least one product to join the waitlist before continuing"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-init.php:81
+msgid "Please select the box to consent to the terms before continuing"
+msgstr ""
+
+#. %1$d is the product ID, %2$d is the count
+#: classes/admin/class-pie-wcwl-admin-ajax.php:65
+#, php-format
+msgid "Product %1$d - count updated to %2$d"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-exporter.php:147
+msgid "Product ID"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-exporter.php:151
+msgid "Product Name"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-mailout.php:382
+msgid "Provide analytic tracking parameters"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-actions-waitlist.php:16
+msgid "Remove"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:227
+msgid "Remove data on uninstall"
+msgstr ""
+
+#: templates/waitlist-user-waitlist.php:113
+msgid "Remove me from this waitlist"
+msgstr ""
+
+#: templates/waitlist-user-waitlist.php:193
+msgid "Remove my email from all waitlist archives"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-exporter.php:32
+msgid "Remove personal data for waitlists"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-archive.php:31
+msgid "Removed"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:164
+msgid ""
+"Require unregistered customers to confirm their email address before adding "
+"them to the waitlist"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:408
+msgid "Selected users have been removed"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-actions-archive.php:18
+#: classes/admin/product-tab/components/panel-actions-waitlist.php:18
+msgid "Send custom email"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-actions-waitlist.php:17
+msgid "Send instock email"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-initialise.php:51
+msgid "Settings"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-initialise.php:52
+msgctxt "short for documents"
+msgid "Docs"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:193
+msgid "Show Waitlist elements for event tickets"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:184
+msgid "Show Waitlist elements on shop page"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:446
+msgid "Something went wrong with your request. Options not recognised"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-init.php:346
+msgid ""
+"Sorry your authorisation code has expired, please try again.  If you "
+"continue to experience issues please contact us."
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-init.php:318
+#: classes/frontend/class-pie-wcwl-frontend-init.php:350
+msgid ""
+"Sorry, there was a problem with your request, please contact a site "
+"administrator for assistance."
+msgstr ""
+
+#. %s: error message
+#: classes/frontend/class-pie-wcwl-frontend-init.php:363
+#: classes/frontend/class-pie-wcwl-frontend-init.php:374
+#, php-format
+msgid "Sorry, there was a problem with your request: %s"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-init.php:154
+msgid "Stop nagging me"
+msgstr ""
+
+#. %s HTML for update counts notice
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:99
+#, php-format
+msgid "Successfully updated waitlist counts for %s products"
+msgstr ""
+
+#. %s HTML for update meta notice
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:103
+#, php-format
+msgid "Successfully updated waitlist metadata for %s products"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-initialise.php:53
+msgid "Support"
+msgstr ""
+
+#. %1$s: Opening <a> tag, link to WooCommerce Waitlist documentation. %2$s: Closing <a> tag
+#: classes/admin/class-pie-wcwl-admin-init.php:182
+#, php-format
+msgid ""
+"Thank you for updating WooCommerce Waitlist to version 2. If you have any "
+"issues please %1$srefer to the documentation%2$s to review the changes made "
+"with this update"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist.php:329
+msgid "The email provided is already on the waitlist for this product."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist.php:249
+msgid ""
+"The provided email address is not registered on the waitlist for this product"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:257
+msgid "The selected user has been added to the waitlist"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:312
+msgid "The selected user has been removed from the waitlist"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:257
+msgid "The selected users have been added to the waitlist"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:312
+msgid "The selected users have been removed from the waitlist"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:363
+msgid "The selected users have been sent an in stock notification"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:199
+msgid "The waitlist has been updated"
+msgstr ""
+
+#. %1$s: Opening <a> tag, link to WooCommerce product settings page. %2$s: Closing <a> tag
+#: classes/admin/class-pie-wcwl-admin-init.php:170
+#, php-format
+msgid ""
+"The WooCommerce Waitlist extension is active but you have the \"Hide out of "
+"stock items from the catalog\" option switched on. Please %1$schange your "
+"settings%2$s for WooCommerce Waitlist to function correctly."
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-archive.php:24
+msgid "There are no saved users for this product."
+msgstr ""
+
+#. %d: number of customers on waitlist
+#: templates/emails/waitlist-new-signup.php:46
+#: templates/emails/plain/waitlist-new-signup.php:35
+msgid "There are now %d customers on this waitlist."
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:44
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:208
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:277
+msgid ""
+"There was a problem with your request: security verification was not "
+"successful.  Please try again or contact a site administrator for help"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:158
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:228
+msgid ""
+"There was a problem with your request: the selected product could not be "
+"found.  Please try again or contact a site administrator for help"
+msgstr ""
+
+#. %s is the email address
+#: classes/admin/class-pie-wcwl-admin-ajax.php:303
+#, php-format
+msgid "There was an error when trying to remove %s from the waitlist"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin enables registered users to request an email notification when "
+"an out-of-stock product comes back into stock. It tallies these "
+"registrations in the admin panel for review and provides details."
+msgstr ""
+
+#. %1$s: remove link
+#: templates/emails/waitlist-mailout.php:66
+#, php-format
+msgid ""
+"To disassociate your email address with this product please click "
+"%1$shere%2$s."
+msgstr ""
+
+#. %s: remove link
+#: templates/emails/plain/waitlist-mailout.php:50
+#, php-format
+msgid ""
+"To disassociate your email address with this product please click here: %s."
+msgstr ""
+
+#. %1$s: product link
+#: templates/emails/waitlist-new-signup.php:52
+#, php-format
+msgid ""
+"To review the waitlist for this product visit the %1$sedit product "
+"screen%2$s and click on the waitlist tab."
+msgstr ""
+
+#. %1$s: product link
+#: templates/emails/plain/waitlist-new-signup.php:37
+#, php-format
+msgid ""
+"To review the waitlist for this product visit the edit product screen (%s) "
+"and click on the waitlist tab"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:81
+msgid "Update Counts"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:82
+msgid "Update Metadata"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-init.php:320
+#: classes/admin/product-tab/components/panel-options.php:62
+msgid "Update Options"
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:342
+msgid "Update Waitlist"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:78
+msgid "Update Waitlist Counts"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:79
+msgid "Update Waitlist Metadata"
+msgstr ""
+
+#: woo-includes/html-notice-template-check.php:21
+msgid ""
+"Update your theme to the latest version. If no update is available contact "
+"your theme author asking about compatibility with the current WooCommerce "
+"Waitlist version."
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-archive.php:30
+#: classes/admin/product-tab/components/panel-waitlist.php:62
+msgid "User"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-table-row.php:60
+msgid "User removed themselves"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:34
+#: classes/admin/class-pie-wcwl-admin-ajax.php:46
+#: classes/admin/class-pie-wcwl-admin-ajax.php:58
+#: classes/admin/class-pie-wcwl-admin-ajax.php:111
+#: classes/admin/class-pie-wcwl-admin-ajax.php:176
+#: classes/admin/class-pie-wcwl-admin-ajax.php:233
+#: classes/admin/class-pie-wcwl-admin-ajax.php:273
+#: classes/admin/class-pie-wcwl-admin-ajax.php:328
+#: classes/admin/class-pie-wcwl-admin-ajax.php:378
+#: classes/admin/class-pie-wcwl-admin-ajax.php:427
+#: classes/admin/class-pie-wcwl-admin-ajax.php:558
+msgid "Verification failed for your request"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-init.php:318
+msgid "View User Profile"
+msgstr ""
+
+#: templates/waitlist-user-waitlist.php:143
+msgid "Visit shop now!"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:261
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:359
+#: classes/admin/class-pie-wcwl-admin-init.php:337
+#: classes/admin/product-tab/components/panel-event.php:10
+#: classes/admin/product-tab/components/panel-tabs.php:9
+msgid "Waitlist"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-signup-email.php:37
+msgid "Waitlist Admin Sign-up Email"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-exporter.php:61
+#: classes/admin/class-pie-wcwl-exporter.php:77
+#: classes/admin/class-pie-wcwl-exporter.php:111
+msgid "Waitlist Data"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-optin-email.php:44
+msgid "Waitlist Double Opt-in Email"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-event.php:13
+msgid "Waitlist Information:"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-joined-email.php:43
+msgid "Waitlist Joined Notification"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-left-email.php:43
+msgid "Waitlist Left Notification"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-mailout.php:45
+msgid "Waitlist Mailout"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-ajax.php:439
+msgid "Waitlist options have been updated for this product"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:238
+msgid "Waitlist Update Options"
+msgstr ""
+
+#: classes/admin/product-tab/components/panel-side-tab.php:11
+msgid "Waitlists"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-admin-init.php:321
+msgid ""
+"Waitlists may be appear inaccurate due to an update to variations. Please "
+"update the product or refresh the page to update waitlists"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:141
+msgid "Waitlists require registration"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-joined-email.php:44
+msgid ""
+"When a customer joins a waitlist this email is sent to them with a link to "
+"the product and an unsubscribe link."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-left-email.php:44
+msgid ""
+"When a customer leaves a waitlist this email is sent to them with a link "
+"back to the product."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-mailout.php:46
+msgid ""
+"When a product changes from being Out-of-Stock to being In-Stock, this email "
+"is sent to all users registered on the waitlist for that product."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-signup-email.php:38
+msgid ""
+"When a user signs up to a waitlist this email is sent to the defined admin "
+"email address"
+msgstr ""
+
+#. %1$s is replaced with html <a> tag including link to WooCommerce data tools page, %2$s is replaced with closing </a> tag
+#: classes/admin/class-pie-wcwl-exporter.php:34
+#, php-format
+msgid ""
+"When handling an %1$saccount erasure request%2$s, should personal data for "
+"waitlists be retained or removed?"
+msgstr ""
+
+#: classes/admin/class-pie-wcwl-waitlist-settings.php:228
+msgid ""
+"When uninstalling the plugin from WordPress, check this option to remove all "
+"waitlist data from your database"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-optin-email.php:45
+msgid ""
+"With double opt-in enabled unregistered customers will receive this email "
+"when signing up to a waitlist to confirm their email address."
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Waitlist"
+msgstr ""
+
+#. %1$s: Opening <a> tag, link to WooCommerce open support ticket page. %2$s: Closing <a> tag
+#: classes/admin/class-pie-wcwl-admin-init.php:176
+#, php-format
+msgid ""
+"WooCommerce Waitlist has discovered waitlist entries on translation products."
+" Please %1$scontact support%2$s to get help with resolving this issue."
+msgstr ""
+
+#: woocommerce-waitlist.php:131
+msgid ""
+"WooCommerce Waitlist is active but is not functional. Is WooCommerce "
+"installed and up to date (version 3.0 or higher)?"
+msgstr ""
+
+#. %1$s: Opening <a> tag, link to WooCommerce Waitlist settings page. %2$s: Closing <a> tag
+#: classes/admin/class-pie-wcwl-admin-init.php:179
+#, php-format
+msgid ""
+"WooCommerce Waitlist needs to update your database entries to fully function."
+" Please %1$shead to the settings page%2$s and click \"Update Metadata\" to "
+"do this now"
+msgstr ""
+
+#: templates/waitlist-user-waitlist.php:50
+msgid "You are currently on the waitlist for the following products."
+msgstr ""
+
+#: wcwl-waitlist-template-functions.php:373
+msgid "You are on the waitlist for this product"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-joined-email.php:63
+msgid "You have been added to a waitlist!"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-init.php:368
+msgid "You have been added to the waitlist for the selected products."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist.php:322
+#: classes/frontend/class-pie-wcwl-frontend-init.php:376
+msgid "You have been added to the waitlist for this product."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-joined-email.php:72
+msgid "You have been added to the waitlist for {product_title} at {blogname}"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-left-email.php:63
+msgid "You have been removed from a waitlist."
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:293
+#: classes/frontend/account/class-pie-wcwl-frontend-user-waitlist.php:31
+#: classes/frontend/account/class-pie-wcwl-frontend-user-waitlist.php:32
+msgid "You have been removed from all waitlist archives."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist.php:247
+#: templates/emails/waitlist-mailout.php:57
+#: templates/emails/plain/waitlist-mailout.php:40
+#: classes/frontend/account/class-pie-wcwl-frontend-user-waitlist.php:28
+#: classes/frontend/account/class-pie-wcwl-frontend-user-waitlist.php:29
+msgid "You have been removed from the waitlist for this product"
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-left-email.php:72
+msgid ""
+"You have been removed from the waitlist for {product_title} at {blogname}"
+msgstr ""
+
+#. %1$s: product link around product title, %2$s: site name
+#. %1$s: product title, %2$s: site name
+#: templates/emails/waitlist-joined.php:42
+#: templates/emails/plain/waitlist-joined.php:30
+#, php-format
+msgid ""
+"You have been sent this email because your email address was registered on a "
+"waitlist for %1$s at %2$s. "
+msgstr ""
+
+#: templates/emails/waitlist-mailout.php:45
+#: templates/emails/plain/waitlist-mailout.php:34
+msgid ""
+"You have been sent this email because your email address was registered on a "
+"waitlist for this product."
+msgstr ""
+
+#. %1$s: product link around product title, %2$s: site name
+#. %1$s: product title, %2$s: site name
+#: templates/emails/waitlist-left.php:38
+#: templates/emails/plain/waitlist-left.php:27
+#, php-format
+msgid ""
+"You have been sent this email because your email address was removed from a "
+"waitlist for %1$s at %2$s. "
+msgstr ""
+
+#: templates/waitlist-user-waitlist.php:131
+#: classes/frontend/account/class-pie-wcwl-frontend-user-waitlist.php:48
+msgid "You have not yet joined the waitlist for any products."
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-ajax.php:139
+msgid "You have successfully updated the waitlists for the selected items"
+msgstr ""
+
+#. %1$s: login link, %2$s: closing link tag
+#: wcwl-waitlist-template-functions.php:281
+#, php-format
+msgid ""
+"You must register to use the waitlist feature. Please %1$slogin or create an "
+"account%2$s"
+msgstr ""
+
+#: classes/frontend/class-pie-wcwl-frontend-init.php:331
+msgid "Your email address has been removed from this product."
+msgstr ""
+
+#: templates/waitlist-user-waitlist.php:161
+msgid ""
+"Your email address is also stored on an archived waitlist for the following "
+"products:"
+msgstr ""
+
+#: classes/frontend/account/class-pie-wcwl-frontend-user-waitlist.php:77
+#: classes/frontend/account/class-pie-wcwl-frontend-account.php:58
+msgid "Your Waitlists"
+msgstr ""
+
+#. %1$s: Opening <a> tag, link to WooCommerce Waitlist settings page. %2$s: Closing <a> tag
+#: classes/admin/class-pie-wcwl-admin-init.php:173
+#, php-format
+msgid ""
+"Your WooCommerce Waitlist counts may be inaccurate. Please %1$shead to the "
+"settings page%2$s and click \"Update Counts\" to do this now."
+msgstr ""
+
+#: classes/class-pie-wcwl-waitlist-mailout.php:77
+msgid "{product_title} is now back in stock at {blogname}"
+msgstr ""

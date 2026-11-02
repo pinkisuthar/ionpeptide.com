@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 88" role="img" aria-labelledby="title desc">
+  <title id="title">Ion Peptide</title><desc id="desc">Ion Peptide logo</desc>
+  <g fill="none" stroke-linejoin="round" stroke-width="3.2">
+    <path d="M18 29 29 10h22l11 19-11 19H29Z" stroke="#1455D9"/>
+    <path d="M50 50 61 31h22l11 19-11 19H61Z" stroke="#1455D9"/>
+    <path d="M18 58 29 39h22l11 19-11 19H29Z" stroke="#0A2D86"/>
+  </g>
+  <text x="100" y="37" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#0A2D86">ION</text>
+  <text x="100" y="68" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#2A7FF7">Peptide</text>
+</svg>

@@ -1,0 +1,121 @@
+<?php
+/**
+ * Omnisend Checkout Opt In Checkbox Settings View
+ *
+ * @package OmnisendPlugin
+ */
+
+defined( 'ABSPATH' ) || exit;
+
+function omnisend_display_checkout_opt_in_checkbox_settings() {
+	$checkout_opt_in_enabled     = Omnisend_Settings::get_checkout_opt_in_status() === Omnisend_Settings::STATUS_ENABLED;
+	$checkout_opt_in_text        = Omnisend_Settings::get_checkout_opt_in_text();
+	$checkout_sms_opt_in_enabled = Omnisend_Settings::get_checkout_sms_opt_in_status() === Omnisend_Settings::STATUS_ENABLED;
+	$checkout_sms_opt_in_text    = Omnisend_Settings::get_checkout_sms_opt_in_text();
+	$checkout_opt_in_preselected = Omnisend_Settings::get_checkout_opt_in_preselected_status() === Omnisend_Settings::STATUS_ENABLED;
+
+	?>
+	<div class="omnisend-settings-card">
+		<h3>Collect Email and SMS subscribers at checkout</h3>
+		<div class="omnisend-content-body">
+			Configure opt-in checkboxes for email and SMS consent during checkout.<br>
+			Customers who consent will be imported to your Omnisend account as email or SMS subscribers.
+		</div>
+		<div class="omnisend-subscriber-section">
+			<h4 class="omnisend-subscriber-heading">Email Subscribers</h4>
+			<div class="omnisend-setting-control-container no-margin">
+				<input id="ajax__checkout_opt_in_status" type="checkbox" class="omnisend-checkbox setting-checkbox omnisend-checkbox-wrapper" <?php echo $checkout_opt_in_enabled ? 'checked' : ''; ?> />
+				<div class="omnisend-preselect-container">
+					<label for="ajax__checkout_opt_in_status">
+						<span class="omnisend-content-body strong">Add an opt-in checkbox to the checkout page</span>
+					</label>
+					<div id="checkout_opt_in_text_input_container" class="setting-input-container">
+						<div class="omnisend-content-body strong">Opt-in checkbox consent text</div>
+						<div class="omnisend-input-wrapper">
+							<input id="ajax__checkout_opt_in_text" class="omnisend-input omnisend-input-flex" type="text" maxlength="250" value="<?php echo esc_attr( $checkout_opt_in_text ); ?>" />
+							<button id="ajax__checkout_opt_in_text_submit" type="submit" class="omnisend-primary-button omnisend-button-flex">
+								Save consent text
+							</button>
+						</div>
+						<div class="omnisend-setting-control-container inner">
+							<input id="ajax__checkout_opt_in_preselected_status" type="checkbox" class="omnisend-checkbox setting-checkbox omnisend-checkbox-wrapper" <?php echo $checkout_opt_in_preselected ? 'checked' : ''; ?> />
+							<div class="omnisend-preselect-container">
+								<label for="ajax__checkout_opt_in_preselected_status">
+									<span class="omnisend-content-body strong">Preselect opt-in checkbox in the checkout page</span>
+								</label>
+								<div class="omnisend-content-body">
+									Customers can deselect if they don't want email marketing.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="omnisend-subscriber-section">
+			<h4 class="omnisend-subscriber-heading">SMS Subscribers</h4>
+			<div class="omnisend-setting-control-container no-margin">
+				<input id="ajax__checkout_sms_opt_in_status" type="checkbox" class="omnisend-checkbox setting-checkbox omnisend-checkbox-wrapper" <?php echo $checkout_sms_opt_in_enabled ? 'checked' : ''; ?> />
+				<div class="omnisend-preselect-container">
+					<label for="ajax__checkout_sms_opt_in_status">
+						<span class="omnisend-content-body strong">Add an opt-in checkbox to the checkout page</span>
+					</label>
+					<div id="checkout_sms_opt_in_text_input_container" class="setting-input-container">
+						<div class="omnisend-content-body strong">Opt-in checkbox consent text</div>
+						<div class="omnisend-input-wrapper">
+							<input id="ajax__checkout_sms_opt_in_text" class="omnisend-input omnisend-input-flex" type="text" maxlength="250" value="<?php echo esc_attr( $checkout_sms_opt_in_text ); ?>" />
+							<button id="ajax__checkout_sms_opt_in_text_submit" type="submit" class="omnisend-primary-button omnisend-button-flex">
+								Save consent text
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- TODO: add kb link -->
+		<a target="_blank" href="https://support.omnisend.com/en/articles/1636174-omnisend-for-woocommerce-wordpress#h_95b645acde" class="omnisend-kb-link setting-kb-link" style="margin-top: 24px;">
+			Learn more about opt-in settings
+			<img src="<?php echo esc_url( plugin_dir_url( __NAMESPACE__ ) ) . 'omnisend-connect/assets/img/kb-icon.svg'; ?>">
+		</a>
+	</div>
+	<script type="text/javascript">
+		(function() {
+			var checkoutOptInStatusCheckbox = document.getElementById("ajax__checkout_opt_in_status");
+			var checkoutOptInTextInputContainer = document.getElementById("checkout_opt_in_text_input_container");
+
+			var checkoutSmsOptInStatusCheckbox = document.getElementById("ajax__checkout_sms_opt_in_status");
+			var checkoutSmsOptInTextInputContainer = document.getElementById("checkout_sms_opt_in_text_input_container");
+
+			checkoutOptInTextInputContainer.style.display = checkoutOptInStatusCheckbox.checked ? "block" : "none";
+
+			checkoutOptInStatusCheckbox.addEventListener("change", function(event) {
+				checkoutOptInTextInputContainer.style.display = event.target.checked ? "block" : "none";
+			});
+
+			checkoutSmsOptInTextInputContainer.style.display = checkoutSmsOptInStatusCheckbox.checked ? "block" : "none";
+
+			checkoutSmsOptInStatusCheckbox.addEventListener("change", function(event) {
+				checkoutSmsOptInTextInputContainer.style.display = event.target.checked ? "block" : "none";
+			});
+
+			var checkoutOptInTextInput = document.getElementById("ajax__checkout_opt_in_text");
+			var checkoutOptInTextSubmitBtn = document.getElementById("ajax__checkout_opt_in_text_submit");
+
+			var checkoutSmsOptInTextInput = document.getElementById("ajax__checkout_sms_opt_in_text");
+			var checkoutSmsOptInTextSubmitBtn = document.getElementById("ajax__checkout_sms_opt_in_text_submit");
+
+			checkoutOptInTextSubmitBtn.disabled = checkoutOptInTextInput.value.trim() === "";
+
+			checkoutOptInTextInput.addEventListener("input", function(event) {
+				checkoutOptInTextSubmitBtn.disabled = event.target.value.trim() === "";
+			});
+
+			checkoutSmsOptInTextSubmitBtn.disabled = checkoutSmsOptInTextInput.value.trim() === "";
+
+			checkoutSmsOptInTextInput.addEventListener("input", function(event) {
+				checkoutSmsOptInTextSubmitBtn.disabled = event.target.value.trim() === "";
+			});
+		})()
+	</script>
+	<?php
+}

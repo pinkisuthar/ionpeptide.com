@@ -1,0 +1,4767 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zorem Returns\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-14 05:53+0000\n"
+"PO-Revision-Date: 2026-07-13 12:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: French (Canada)\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Domain: zorem-returns\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.3.23\n"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:652
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:914
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:987
+msgid " at "
+msgstr " à "
+
+#. translators: %1$s is total price (formatted), %2$d is quantity, %3$s is
+#. "item"/"items"
+#: includes/class-return-exchange-common.php:241
+#, php-format
+msgid "%1$s for %2$d %3$s"
+msgstr "%1$s pour %2$d %3$s"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1222
+#: includes/zorem-returns/class-return-common-functions.php:1238
+msgid ""
+". We truly appreciate your business and look forward to serving you again "
+"soon."
+msgstr ""
+"Nous apprécions vraiment votre entreprise et espérons vous servir à nouveau "
+"bientôt."
+
+#: includes/class-return-exchange-admin.php:918
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1221
+msgid ""
+"<strong>Exchange Guidelines:</strong><ul><li>Securely package the item you "
+"are returning for exchange to prevent damage during transit. Use the "
+"original packaging if possible.</li><li>Use a reliable shipping service to "
+"send the package back to us. We recommend a service that provides tracking "
+"information. This helps ensure the package reaches us safely and allows you "
+"to track its status.</li><li>After shipping your exchange package, please "
+"notify us by replying to the initial email or contacting our support team "
+"with the tracking number.</li><li>Upon receiving the exchanged items, we "
+"will inspect them to ensure they meet our exchange policy criteria. If the "
+"items are in good condition and meet the criteria, we will process the "
+"exchange.</li><li>Once the exchange is approved, we will ship the "
+"replacement item to you. You will receive a confirmation email with tracking"
+" information once the new item is dispatched.</li><li>Exchanges will be "
+"processed within 5-7 business days of receiving the returned items. The "
+"shipping time for the new item may vary depending on your "
+"location.</li></ul>"
+msgstr ""
+"<strong>Consignes d'échange :</strong><ul><li>Emballez soigneusement "
+"l'article que vous retournez pour éviter tout dommage pendant le transport. "
+"Utilisez si possible l'emballage d'origine.</li><li>Retournez-nous le colis "
+"par un service d'expédition fiable. Nous recommandons un service avec suivi."
+" Cela garantit que le colis nous parvienne en toute sécurité et vous permet "
+"de suivre son statut.</li><li>Après l'envoi de votre colis d'échange, "
+"veuillez nous en informer en répondant à l'e-mail initial ou en contactant "
+"notre service client avec le numéro de suivi.</li><li>Dès réception des "
+"articles échangés, nous les inspecterons pour nous assurer qu'ils répondent "
+"à nos critères d'échange. Si les articles sont en bon état et répondent aux "
+"critères, nous procéderons à l'échange.</li><li>Une fois l'échange approuvé,"
+" nous vous expédierons l'article de remplacement. Vous recevrez un e-mail de"
+" confirmation avec le suivi une fois le nouvel article expédié.</li><li>Les "
+"échanges seront traités dans un délai de 5 à 7 jours ouvrés suivant la "
+"réception des articles retournés. Le délai de livraison du nouvel article "
+"peut varier selon votre localisation.</li></ul>"
+
+#: includes/class-return-exchange-admin.php:755
+#: includes/zorem-returns/class-return-common-functions.php:1237
+msgid ""
+"<strong>Return Guidelines:</strong><ul><li>Ensure all items being returned "
+"are securely packaged to prevent damage during transit.</li><li>Use a "
+"reliable shipping service to send the package back to us. We recommend using"
+" a service that provides tracking information.</li><li>Once your return "
+"package is shipped, please notify us by replying to this email with the "
+"tracking number.</li><li>Upon receiving the returned items, we will inspect "
+"them to ensure they meet our return policy criteria.</li><li>Refunds or "
+"store credits will be processed within 5–7 business days of receiving the "
+"returned items.</li></ul>"
+msgstr ""
+"<strong>Consignes de retour :</strong><ul><li>Assurez-vous que tous les "
+"articles retournés sont bien emballés afin d'éviter tout dommage pendant le "
+"transport.</li><li>Utilisez un service de livraison fiable pour nous "
+"renvoyer le colis. Nous vous recommandons d'utiliser un service de "
+"suivi.</li><li>Une fois votre colis expédié, veuillez nous en informer en "
+"répondant à cet e-mail avec le numéro de suivi.</li><li>À la réception des "
+"articles retournés, nous les inspecterons afin de nous assurer qu'ils "
+"répondent à nos critères de retour.</li><li>Les remboursements ou avoirs "
+"seront traités dans un délai de 5 à 7 jours ouvrables suivant la réception "
+"des articles retournés.</li></ul>"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1182
+msgid "A New Exchange Request Has Been Received"
+msgstr "Une nouvelle demande d'échange a été reçue :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1183
+msgid "A new exchange request received:"
+msgstr "Nouvelle demande d'échange reçue"
+
+#: includes/zorem-returns/class-return-common-functions.php:1198
+msgid "A New Return Request Has Been Received"
+msgstr "Une nouvelle demande de retour a été reçue :"
+
+#: includes/zorem-returns/class-return-common-functions.php:1199
+msgid "A new return request received:"
+msgstr "Nouvelle demande de retour reçue"
+
+#: includes/admin-html/returns-exchanges-center.php:65
+#: includes/admin-html/warranty-claims-dashboard.php:56
+#: includes/class-return-exchange-common.php:212
+msgid "Actions"
+msgstr "Actes"
+
+#: includes/admin-html/returns-exchanges-license-form.php:27
+#: includes/admin-html/returns-exchanges-license-form.php:29
+#: includes/admin-html/returns-exchanges-license-form.php:31
+#: includes/admin-html/returns-exchanges-license.php:188
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: includes/admin-html/returns-exchanges-license-form.php:28
+#: includes/admin-html/returns-exchanges-license-form.php:32
+msgid ""
+"Activate your license to receive automatic updates and premium support."
+msgstr ""
+"Activez votre licence pour recevoir des mises à jour automatiques et un "
+"support premium."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:205
+msgid "Add a note for exchange approval or rejection..."
+msgstr "Ajoutez une note pour l'approbation ou le rejet de l'échange..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:375
+msgid "Add a note for exchange approval..."
+msgstr "Ajouter une note pour l'approbation de l'échange..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:377
+msgid "Add a note for exchange rejection..."
+msgstr "Ajouter une note pour le rejet d'échange..."
+
+#: includes/zorem-returns/class-return-common-functions.php:236
+msgid "Add a note for return approval or rejection..."
+msgstr "Ajoutez une note pour l'approbation ou le rejet du retour..."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:344
+msgid "Add a note for return approval..."
+msgstr "Ajouter une note pour l'approbation du retour..."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:346
+msgid "Add a note for return rejection..."
+msgstr "Ajouter une note pour le rejet du retour..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:372
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:341
+msgid "Add a note..."
+msgstr "Ajouter une note..."
+
+#: includes/class-return-exchange-admin.php:930
+msgid ""
+"Add or remove custom reasons that customers can select when requesting an "
+"exchange."
+msgstr ""
+"Ajoutez ou supprimez des raisons personnalisées que les clients peuvent "
+"sélectionner lors de la demande d'échange."
+
+#: includes/class-return-exchange-admin.php:767
+msgid ""
+"Add or remove custom reasons that customers can select when requesting an "
+"return."
+msgstr ""
+"Ajoutez ou supprimez des raisons personnalisées que les clients peuvent "
+"sélectionner lors de la demande de retour."
+
+#: templates/emails/customer-coupon-email.php:40
+msgid "Add products to your cart."
+msgstr "Ajoutez des produits à votre panier."
+
+#: includes/class-return-exchange-admin.php:766
+#: includes/class-return-exchange-admin.php:929
+#: includes/class-return-exchange-admin.php:1174
+msgid "Add Reason"
+msgstr "Ajouter une raison"
+
+#: includes/customizer/customizer-admin.php:499
+msgid "Additional Content"
+msgstr "Contenu supplémentaire"
+
+#: includes/admin-html/returns-exchanges-center.php:35
+msgid "All Orders"
+msgstr "Toutes les commandes"
+
+#: includes/class-return-exchange-admin.php:799
+msgid "Allow exchanges for sale products"
+msgstr "Autoriser les échanges pour les produits soldés"
+
+#: includes/class-return-exchange-admin.php:815
+msgid "Allow Partial Exchange"
+msgstr "Autoriser l'échange partiel"
+
+#: includes/class-return-exchange-admin.php:654
+msgid "Allow Partial Return"
+msgstr "Autoriser un retour partiel"
+
+#: includes/class-return-exchange-admin.php:638
+msgid "Allow Returns for Sale Products"
+msgstr "Autoriser les retours pour les produits soldés"
+
+#: includes/class-return-exchange-admin.php:1319
+msgid ""
+"Allow the customer to keep this item when a return or exchange is requested"
+msgstr ""
+"Permettre au client de conserver cet article lorsqu'un retour ou un échange "
+"est demandé"
+
+#: includes/class-return-exchange-admin.php:804
+msgid "Allows customers to request exchanges for items purchased on sale"
+msgstr ""
+"Permet aux clients de demander des échanges pour les articles achetés en "
+"solde"
+
+#: includes/class-return-exchange-admin.php:820
+msgid ""
+"Allows customers to request partial exchanges for individual items in an "
+"order."
+msgstr ""
+"Permet aux clients de demander des échanges partiels pour des articles "
+"individuels d'une commande."
+
+#: includes/class-return-exchange-admin.php:659
+msgid ""
+"Allows customers to request partial return for individual items in an order."
+msgstr ""
+"Permet aux clients de demander un retour partiel pour des articles "
+"individuels d'une commande."
+
+#: includes/class-return-exchange-admin.php:643
+msgid "Allows customers to request return for items purchased on sale"
+msgstr ""
+"Permet aux clients de demander le retour des articles achetés en solde"
+
+#: templates/emails/admin-exchange-approved.php:38
+#: templates/emails/admin-exchange-approved.php:39
+#: templates/emails/admin-exchange-cancelled.php:38
+#: templates/emails/admin-exchange-cancelled.php:39
+#: templates/emails/admin-exchange-completed.php:34
+#: templates/emails/admin-exchange-completed.php:35
+#: templates/emails/admin-exchange-rejected.php:34
+#: templates/emails/admin-exchange-rejected.php:35
+#: templates/emails/admin-exchange-requested.php:38
+#: templates/emails/admin-exchange-requested.php:39
+#: templates/emails/admin-return-approved.php:38
+#: templates/emails/admin-return-approved.php:39
+#: templates/emails/admin-return-cancelled.php:38
+#: templates/emails/admin-return-cancelled.php:39
+#: templates/emails/admin-return-completed.php:34
+#: templates/emails/admin-return-completed.php:35
+#: templates/emails/admin-return-rejected.php:34
+#: templates/emails/admin-return-rejected.php:35
+#: templates/emails/admin-return-requested.php:38
+#: templates/emails/admin-return-requested.php:39
+msgid "Already purchased the product"
+msgstr "J'ai déjà acheté le produit"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:207
+#: includes/zorem-returns/class-return-common-functions.php:251
+msgid "Approve"
+msgstr "Approuver"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:383
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:388
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:732
+msgid "Approve this exchange request"
+msgstr "Approuver cette demande d'échange"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:370
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:383
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1056
+msgid "Approve this return request"
+msgstr "Approuver cette demande de retour"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1191
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1219
+msgid "Approved Exchange Items"
+msgstr "Articles d'échange approuvés"
+
+#: includes/zorem-returns/class-return-common-functions.php:1207
+#: includes/zorem-returns/class-return-common-functions.php:1235
+msgid "Approved Return Items"
+msgstr "Articles de retour approuvés"
+
+#: templates/emails/customer-coupon-email.php:41
+msgid "At checkout, enter the coupon code"
+msgstr "Lors du paiement, saisissez le code promo"
+
+#: includes/admin-html/returns-exchanges-center.php:64
+#: includes/admin-html/warranty-claims-dashboard.php:111
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#: includes/class-return-exchange-admin.php:807
+msgid "Automatically Approve Exchange Requests"
+msgstr "Approuver automatiquement les demandes d'échange"
+
+#: includes/class-return-exchange-admin.php:646
+msgid "Automatically Approve Return Requests"
+msgstr "Approuver automatiquement les demandes de retour"
+
+#: includes/customizer/customizer-admin.php:513
+msgid "Available Placeholders:"
+msgstr "Espaces réservés disponibles :"
+
+#: templates/emails/customer-coupon-email.php:39
+msgid "Browse and add your favorite products to the cart."
+msgstr "Parcourez et ajoutez vos produits préférés au panier."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:923
+#: includes/zorem-returns/class-return-common-functions.php:1602
+#: includes/zorem-returns/class-return-front.php:460
+msgid "Cancel Request"
+msgstr "Annuler la demande"
+
+#: includes/class-return-exchange-admin.php:1291
+msgid "Change status to partial return"
+msgstr "Changer le statut en Retour partiel"
+
+#: includes/class-return-exchange-admin.php:1290
+msgid "Change status to return"
+msgstr "Changer le statut en Retour"
+
+#: includes/class-return-exchange-admin.php:578
+msgid ""
+"Choose a page that outlines your return/exchange terms and conditions. This "
+"page will be shown to customers during the return request process."
+msgstr ""
+"Choisissez une page décrivant vos conditions de retour/échange. Cette page "
+"sera présentée aux clients lors du processus de retour."
+
+#: includes/class-return-exchange-admin.php:504
+msgid "City"
+msgstr "Ville"
+
+#: includes/admin-html/returns-exchanges-license-form.php:33
+msgid "Connect & Activate"
+msgstr "Connecter et activer"
+
+#: includes/admin-html/returns-exchanges-center.php:62
+#: includes/admin-html/returns-exchanges-emails.php:129
+#: includes/admin-html/warranty-claims-dashboard.php:53
+msgid "Customer"
+msgstr "Client"
+
+#: templates/emails/admin-exchange-approved.php:59
+#: templates/emails/admin-exchange-cancelled.php:58
+#: templates/emails/admin-exchange-completed.php:54
+#: templates/emails/admin-exchange-rejected.php:56
+#: templates/emails/admin-exchange-requested.php:58
+#: templates/emails/admin-return-approved.php:59
+#: templates/emails/admin-return-cancelled.php:58
+#: templates/emails/admin-return-completed.php:54
+#: templates/emails/admin-return-rejected.php:56
+#: templates/emails/admin-return-requested.php:58
+msgid "Customer Email:"
+msgstr "Courriel du client :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:696
+msgid "Customer Message:"
+msgstr "Message client :"
+
+#. translators: %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:33
+#: templates/emails/admin-exchange-cancelled.php:33
+#: templates/emails/admin-exchange-completed.php:30
+#: templates/emails/admin-exchange-rejected.php:30
+#: templates/emails/admin-exchange-requested.php:33
+#: templates/emails/admin-return-approved.php:33
+#: templates/emails/admin-return-cancelled.php:33
+#: templates/emails/admin-return-completed.php:30
+#: templates/emails/admin-return-rejected.php:30
+#: templates/emails/admin-return-requested.php:33
+msgid "Customer Name: "
+msgstr "Nom du client :"
+
+#: includes/zorem-returns/class-return-common-functions.php:214
+#: templates/emails/admin-return-approved.php:71
+#: templates/emails/admin-return-cancelled.php:70
+#: templates/emails/admin-return-completed.php:65
+#: templates/emails/admin-return-rejected.php:67
+#: templates/emails/admin-return-requested.php:70
+msgid "Customer’s Reason for Return:"
+msgstr "Motif du retour du client :"
+
+#: includes/customizer/customizer-admin.php:158
+msgid "Customizing"
+msgstr "Personnalisation"
+
+#: includes/admin-html/returns-exchanges-license-form.php:22
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:755
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1077
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:296
+#: includes/zorem-returns/htmls/returns-center-form.php:221
+msgid "Describe the issue with the product"
+msgstr "Décrivez le problème avec le produit"
+
+#: includes/class-return-exchange-admin.php:559
+msgid "Eligible Order Statuses for Returns/Exchanges"
+msgstr "Statuts de commande éligibles pour les retours/échanges"
+
+#: includes/customizer/customizer-admin.php:440
+msgid "Email Content"
+msgstr "Contenu du courrier électronique"
+
+#: includes/customizer/customizer-admin.php:427
+msgid "Email Heading"
+msgstr "En-tête de l'e-mail"
+
+#: includes/admin-html/returns-exchanges-emails.php:79
+msgid "Email Notifications"
+msgstr "Notifications par e-mail"
+
+#: includes/customizer/customizer-admin.php:414
+msgid "Email Subject"
+msgstr "Objet de l'e-mail"
+
+#: includes/customizer/customizer-admin.php:387
+msgid "Email Type"
+msgstr "Type d'e-mail"
+
+#: includes/class-return-exchange-admin.php:791
+msgid "Enable Exchange Requests"
+msgstr "Activer les demandes d'échange"
+
+#: includes/class-return-exchange-admin.php:796
+msgid "Enable or disable the exchange request option for customers."
+msgstr "Activer ou désactiver l'option de demande d'échange pour les clients."
+
+#: includes/class-return-exchange-admin.php:812
+msgid "Enable this option to automatically approve all new exchange requests."
+msgstr ""
+"Activez cette option pour approuver automatiquement toutes les nouvelles "
+"demandes d’échange."
+
+#: includes/class-return-exchange-admin.php:651
+msgid "Enable this option to automatically approve all new return requests."
+msgstr ""
+"Activez cette option pour approuver automatiquement toutes les nouvelles "
+"demandes de retour."
+
+#: includes/class-return-exchange-admin.php:691
+msgid ""
+"Enable this option to include the original shipping fee in the customer's "
+"refund."
+msgstr ""
+"Activez cette option pour inclure les frais d'expédition d'origine dans le "
+"remboursement du client."
+
+#: templates/emails/customer-coupon-email.php:42
+#: templates/emails/customer-exchange-store-credit.php:69
+#: templates/emails/customer-return-store-credit.php:69
+msgid "Enjoy your discount!"
+msgstr "Profitez de votre réduction !"
+
+#: includes/class-return-exchange-admin.php:604
+msgid ""
+"Enter the store address where customers should send return or exchange "
+"items."
+msgstr ""
+"Saisissez l'adresse du magasin où les clients doivent envoyer les articles "
+"retournés ou échangés."
+
+#: includes/admin-html/returns-exchanges-center.php:21
+#: includes/admin-html/returns-exchanges-emails.php:25
+#: includes/admin-html/returns-exchanges-emails.php:42
+msgid "Exchange Approved"
+msgstr "Échange approuvé"
+
+#: includes/customizer/customizer-admin.php:359
+msgid "Exchange Approved (Customer)"
+msgstr "Échange approuvé (client)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:708
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:359
+#: templates/emails/admin-exchange-approved.php:70
+#: templates/emails/customer-exchange-approved.php:40
+msgid "Exchange Approved Note:"
+msgstr "Note approuvée par l'échange :"
+
+#: includes/admin-html/returns-exchanges-center.php:23
+msgid "Exchange Cancelled"
+msgstr "Échange annulé"
+
+#: includes/zorem-exchanges/class-exchange-front.php:176
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:21
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:23
+msgid "Exchange Entire Order"
+msgstr "Échanger la commande entière"
+
+#: includes/class-return-exchange-admin.php:914
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1220
+msgid "Exchange Guidelines"
+msgstr "Directives d'échange"
+
+#: templates/emails/admin-exchange-approved.php:69
+#: templates/emails/admin-exchange-cancelled.php:70
+#: templates/emails/admin-exchange-completed.php:64
+#: templates/emails/admin-exchange-rejected.php:66
+#: templates/emails/admin-exchange-requested.php:68
+msgid "Exchange Issue"
+msgstr "Problème d'échange"
+
+#: includes/zorem-exchanges/class-exchange-front.php:176
+#: includes/zorem-exchanges/class-exchange-front.php:305
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:13
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:15
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1000
+msgid "Exchange Item"
+msgstr "Article d'échange"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1177
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1184
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:153
+msgid "Exchange Items Summary"
+msgstr "Résumé des articles d'échange"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:355
+msgid "Exchange Message:"
+msgstr "Message d'échange :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1275
+msgid "Exchange Parent Order"
+msgstr "Ordre parent d'échange"
+
+#: templates/emails/admin-exchange-approved.php:65
+#: templates/emails/admin-exchange-approved.php:67
+#: templates/emails/admin-exchange-cancelled.php:66
+#: templates/emails/admin-exchange-cancelled.php:68
+#: templates/emails/admin-exchange-completed.php:60
+#: templates/emails/admin-exchange-completed.php:62
+#: templates/emails/admin-exchange-rejected.php:62
+#: templates/emails/admin-exchange-rejected.php:64
+#: templates/emails/admin-exchange-requested.php:64
+#: templates/emails/admin-exchange-requested.php:66
+msgid "Exchange Reason"
+msgstr "Motif de l'échange"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:682
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:352
+msgid "Exchange Reason:"
+msgstr "Motif des échanges :"
+
+#: includes/class-return-exchange-admin.php:922
+msgid "Exchange Reasons"
+msgstr "Raisons d'échange"
+
+#: includes/admin-html/returns-exchanges-center.php:22
+#: includes/admin-html/returns-exchanges-emails.php:27
+#: includes/admin-html/returns-exchanges-emails.php:44
+msgid "Exchange Rejected"
+msgstr "Échange rejeté"
+
+#: includes/customizer/customizer-admin.php:361
+msgid "Exchange Rejected (Customer)"
+msgstr "Échange rejeté (client)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:706
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:363
+#: templates/emails/customer-exchange-rejected.php:39
+msgid "Exchange Rejected Note:"
+msgstr "Note d'échange rejetée :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:94
+msgid "Exchange Request "
+msgstr "Demande d'échange"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1188
+msgid "Exchange Request Approved"
+msgstr "Demande d'échange approuvée"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1216
+msgid "Exchange Request Approved - Instructions for Return"
+msgstr "Demande d'échange approuvée - Instructions de retour"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1189
+msgid "Exchange Request Approved – Return Instructions Inside"
+msgstr "Demande d'échange approuvée – Instructions de retour à l'intérieur"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1195
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1196
+msgid "Exchange Request Cancelled"
+msgstr "Demande d'échange annulée"
+
+#: includes/customizer/customizer-admin.php:358
+msgid "Exchange Request Received (Customer)"
+msgstr "Demande d'échange reçue (client)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1174
+msgid "Exchange Request Received – We're Reviewing Your Request!"
+msgstr "Demande d'échange reçue – Nous examinons votre demande !"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1202
+msgid "Exchange Request Rejected – Order Not Eligible"
+msgstr "Demande d'échange rejetée – Commande non éligible"
+
+#: includes/admin-html/returns-exchanges-center.php:20
+msgid "Exchange Requested"
+msgstr "Échange demandé"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:57
+msgid "Exchange Requests"
+msgstr "Demandes d'échange"
+
+#: includes/admin-html/returns-exchanges-settings.php:36
+msgid "Exchange Settings"
+msgstr "Paramètres d'échange"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:142
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:125
+msgid "Exchange With"
+msgstr "Échange avec"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:717
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:303
+msgid "Exchanged Product Summary"
+msgstr "Résumé du produit échangé"
+
+#: templates/emails/admin-exchange-approved.php:40
+#: templates/emails/admin-exchange-cancelled.php:40
+#: templates/emails/admin-exchange-completed.php:36
+#: templates/emails/admin-exchange-rejected.php:36
+#: templates/emails/admin-exchange-requested.php:40
+msgid "Exchanges request details"
+msgstr "Détails de la demande d'échange"
+
+#: includes/class-return-exchange-admin.php:581
+msgid "Exclude Categories from Returns/Exchanges"
+msgstr "Exclure certaines catégories des retours/échanges"
+
+#: includes/admin-html/returns-exchanges-settings.php:26
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: templates/emails/customer-coupon-email.php:37
+msgid "How to Use Your Store Credit:"
+msgstr "Comment utiliser votre crédit en magasin :"
+
+#. Author URI of the plugin
+#: zorem-returns.php
+msgid "http://www.zorem.com/"
+msgstr "http://www.zorem.com/"
+
+#. Plugin URI of the plugin
+#: zorem-returns.php
+msgid "https://www.zorem.com/plugins/"
+msgstr "https://www.zorem.com/plugins/"
+
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:321
+#: includes/zorem-returns/htmls/returns-center-form.php:304
+#, php-format
+msgid "I agree to the %1$sterms and conditions%2$s."
+msgstr "J'accepte les %1$stermes et conditions%2$s."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1190
+msgid ""
+"I wanted to inform you that the exchange request for order #{order_number} "
+"has been approved by the admin. Below are the details:"
+msgstr ""
+"Je vous informe que la demande d'échange pour la commande n° {order_number} "
+"a été approuvée par l'administrateur. Voici les détails :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1197
+msgid ""
+"I wanted to inform you that the exchange request for order #{order_number} "
+"has been cancelled by the customer. Below are the details:"
+msgstr ""
+"Je vous informe que la demande d'échange pour la commande n° {order_number} "
+"a été annulée par le client. Voici les détails :"
+
+#: includes/zorem-returns/class-return-common-functions.php:1206
+msgid ""
+"I wanted to inform you that the return request for order #{order_number} has"
+" been approved by the admin. Below are the details:"
+msgstr ""
+"Je vous informe que la demande de retour pour la commande n° {order_number} "
+"a été approuvée par l'administrateur. Voici les détails :"
+
+#: includes/zorem-returns/class-return-common-functions.php:1213
+msgid ""
+"I wanted to inform you that the return request for order #{order_number} has"
+" been cancelled by the customer. Below are the details:"
+msgstr ""
+"Je vous informe que la demande de retour de la commande n° {order_number} a "
+"été annulée par le client. Voici les détails :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1222
+msgid ""
+"If you have any questions or concerns about your exchange, feel free to "
+"contact our customer support team at [Customer Support Email/Phone "
+"Number].<br><br>Thank you for choosing"
+msgstr ""
+"Si vous avez des questions ou des préoccupations concernant votre échange, "
+"n'hésitez pas à contacter notre équipe de support client à [E-mail/Numéro de"
+" téléphone du support client].<br><br>Merci d'avoir choisi"
+
+#: includes/zorem-returns/class-return-common-functions.php:1238
+msgid ""
+"If you have any questions or concerns about your return, feel free to "
+"contact our customer support team at [Customer Support Email/Phone "
+"Number].<br><br>Thank you for choosing "
+msgstr ""
+"Si vous avez des questions ou des préoccupations concernant votre retour, "
+"n'hésitez pas à contacter notre équipe de support client à [E-mail/Numéro de"
+" téléphone du support client].<br><br>Merci d'avoir choisi"
+
+#: includes/class-return-exchange-admin.php:686
+msgid "Include Shipping Cost in Refund"
+msgstr "Inclure les frais d'expédition dans le remboursement"
+
+#: includes/zorem-exchanges/class-exchange-front.php:154
+#: includes/zorem-warranty/class-warranty.php:472
+#: includes/zorem-warranty/class-warranty.php:561
+msgid "Invalid order."
+msgstr "Commande invalide."
+
+#: includes/class-return-exchange-admin.php:1335
+msgid "Invalid request. Security check failed."
+msgstr "Requête invalide. Échec du contrôle de sécurité."
+
+#: includes/class-return-exchange-common.php:244
+msgid "item"
+msgid_plural "items"
+msgstr[0] "article"
+msgstr[1] "articles"
+
+#: includes/admin-html/returns-exchanges-center.php:63
+msgid "Items"
+msgstr "Articles"
+
+#: includes/zorem-returns/class-return-common-functions.php:1503
+#: includes/zorem-returns/class-return-front.php:423
+msgid "Items Approved for Return"
+msgstr "Articles approuvés pour le retour"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1198
+msgid "Items from Cancelled Exchange Request"
+msgstr "Articles d'une demande d'échange annulée"
+
+#: includes/zorem-returns/class-return-common-functions.php:1214
+msgid "Items from Cancelled Return Request"
+msgstr "Articles d'une demande de retour annulée"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:333
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:337
+#: includes/zorem-returns/htmls/returns-center-form.php:315
+#: includes/zorem-returns/htmls/returns-center-form.php:319
+msgid "I’ll Keep This Item"
+msgstr "Je garderai cet article"
+
+#: includes/class-return-exchange-admin.php:1318
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:294
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:276
+msgid "Keep the Item"
+msgstr "Gardez l'objet"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1218
+msgid "Kindly return the exchange item(s) to the following address"
+msgstr "Veuillez retourner le(s) article(s) échangé(s) à l'adresse suivante"
+
+#: includes/zorem-returns/class-return-common-functions.php:1234
+msgid "Kindly return the item(s) to the following address"
+msgstr "Veuillez retourner le(s) article(s) à l'adresse suivante"
+
+#: includes/admin-html/header.php:104
+msgid "License"
+msgstr "Licence"
+
+#: includes/class-return-exchange-common.php:197
+msgid "My Returns & Exchanges"
+msgstr "Mes retours et échanges"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:329
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:342
+msgid "N/A"
+msgstr "N / A"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1181
+msgid "New Exchange Request Received – Order"
+msgstr "Nouvelle demande d'échange reçue – Commande"
+
+#: includes/zorem-returns/class-return-common-functions.php:1197
+msgid "New Return Request Received – Order"
+msgstr "Nouvelle demande de retour reçue – Commande"
+
+#. translators: %s: replace with settings page url
+#: includes/class-return-exchange-license.php:324
+#, php-format
+msgid ""
+"Opps! your <strong>Returns for WooCommerce</strong> licence key is not "
+"activated. To buy license %1$s click here %2$s to activate it."
+msgstr ""
+"Oups ! Votre clé de licence <strong>Retours pour WooCommerce</strong> n'est "
+"pas activée. Pour acheter la licence %1$s, cliquez ici %2$s pour l'activer."
+
+#: includes/admin-html/returns-exchanges-center.php:59
+#: includes/admin-html/warranty-claims-dashboard.php:51
+#: includes/class-return-exchange-common.php:212
+msgid "Order"
+msgstr "Commande"
+
+#. translators: %s: Order ID.
+#: includes/admin-html/returns-exchanges-center.php:58
+#: templates/emails/admin-exchange-approved.php:31
+#: templates/emails/admin-exchange-cancelled.php:31
+#: templates/emails/admin-exchange-completed.php:29
+#: templates/emails/admin-exchange-rejected.php:29
+#: templates/emails/admin-exchange-requested.php:31
+#: templates/emails/admin-return-approved.php:31
+#: templates/emails/admin-return-cancelled.php:31
+#: templates/emails/admin-return-completed.php:29
+#: templates/emails/admin-return-rejected.php:29
+#: templates/emails/admin-return-requested.php:31
+msgid "Order Date"
+msgstr "Date de commande"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1282
+#: includes/zorem-returns/class-return-front.php:724
+msgid "Order not found."
+msgstr "Commande introuvable."
+
+#. translators: %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:29
+#: templates/emails/admin-exchange-cancelled.php:29
+#: templates/emails/admin-exchange-completed.php:28
+#: templates/emails/admin-exchange-rejected.php:28
+#: templates/emails/admin-exchange-requested.php:29
+#: templates/emails/admin-return-approved.php:29
+#: templates/emails/admin-return-cancelled.php:29
+#: templates/emails/admin-return-completed.php:28
+#: templates/emails/admin-return-rejected.php:28
+#: templates/emails/admin-return-requested.php:29
+#: templates/emails/_warranty-email-body.php:69
+msgid "Order Number"
+msgstr "Numéro de commande :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:134
+#: includes/zorem-exchanges/class-exchange-common-functions.php:722
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:307
+msgid "Original Item (Ordered)"
+msgstr "Article original (commandé)"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:285
+#: includes/zorem-returns/htmls/returns-center-form.php:210
+msgid "Other (add details below)"
+msgstr "Autre (ajouter des détails ci-dessous)"
+
+#: includes/class-return-exchange-admin.php:1282
+msgid "Partial Return"
+msgstr "Retour partiel"
+
+#: includes/class-return-exchange-admin.php:1254
+msgctxt "Partial Return"
+msgid "Partial Return"
+msgstr "Retour partiel"
+
+#. translators: %s: search term
+#: includes/class-return-exchange-admin.php:1260
+#, php-format
+msgid "Partial Return <span class=\"count\">(%s)</span>"
+msgid_plural "Partial Return <span class=\"count\">(%s)</span>"
+msgstr[0] "Retour partiel <span class=\"count\">(%s)</span>"
+msgstr[1] "Retour partiel <span class=\"count\">(%s)</span>"
+
+#: includes/class-return-exchange-admin.php:519
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:324
+#: includes/zorem-returns/htmls/returns-center-form.php:307
+msgid ""
+"Please agree to the terms and conditions before submitting your request."
+msgstr "Veuillez accepter les termes et conditions avant de soumettre."
+
+#. translators: %s: search for a tag
+#: zorem-returns.php:302
+#, php-format
+msgid "Please install and activate %1$sWooCommerce%2$s for Zorem Returns."
+msgstr ""
+"Veuillez installer et activer %1$sWooCommerce%2$s pour les retours Zorem."
+
+#: includes/customizer/customizer-admin.php:164
+msgid "Please save your changes before sending a test email."
+msgstr ""
+"Veuillez enregistrer vos modifications avant d'envoyer un e-mail de test."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:270
+#: includes/zorem-returns/htmls/returns-center-form.php:181
+msgid "Please select at least one product."
+msgstr "Veuillez sélectionner au moins un produit."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:180
+msgid "Please select the minimum quantity required for return."
+msgstr "Veuillez sélectionner la quantité minimale requise pour le retour."
+
+#: includes/class-return-exchange-admin.php:514
+msgid "Postcode / ZIP"
+msgstr "Code postal / ZIP"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:139
+#: includes/zorem-exchanges/class-exchange-common-functions.php:166
+#: includes/zorem-exchanges/class-exchange-common-functions.php:190
+#: includes/zorem-returns/class-return-common-functions.php:192
+msgid "Price"
+msgstr "Prix"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:327
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:340
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:297
+msgid "Price:"
+msgstr "Prix:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:136
+#: includes/zorem-exchanges/class-exchange-common-functions.php:163
+#: includes/zorem-exchanges/class-exchange-common-functions.php:187
+#: includes/zorem-exchanges/class-exchange-common-functions.php:241
+#: includes/zorem-returns/class-return-common-functions.php:178
+#: includes/zorem-returns/class-return-common-functions.php:283
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:242
+#: includes/zorem-returns/class-return-common-functions.php:284
+msgid "Product Price"
+msgstr "Prix du produit"
+
+#: includes/zorem-returns/class-return-front.php:104
+#: includes/zorem-returns/class-return-front.php:127
+#: includes/zorem-returns/htmls/returns-center-form.php:13
+#: includes/zorem-returns/htmls/returns-center-form.php:15
+msgid "Product Selected for Return"
+msgstr "Produit sélectionné pour le retour"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:42
+#: includes/zorem-returns/htmls/guest-return-center-form.php:28
+#: includes/zorem-returns/htmls/returns-center-form.php:41
+msgid "Products in This Order"
+msgstr "Produits dans cette commande"
+
+#: includes/class-return-exchange-admin.php:590
+msgid "Products Not Eligible for Returns/Exchanges"
+msgstr "Produits non éligibles aux retours/échanges"
+
+#: includes/class-return-exchange-admin.php:756
+msgid ""
+"Provide detailed guidelines that customers must follow when returning items."
+msgstr ""
+"Fournissez des directives détaillées que les clients doivent suivre lors du "
+"retour d’articles."
+
+#: includes/class-return-exchange-admin.php:919
+msgid ""
+"Provide detailed guidelines that customers must follow when sending items "
+"for exchange."
+msgstr ""
+"Fournissez des directives détaillées que les clients doivent suivre lors de "
+"l'envoi d'articles à échanger."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:110
+#: includes/zorem-returns/htmls/guest-return-center-form.php:82
+#: includes/zorem-returns/htmls/returns-center-form.php:102
+#: includes/zorem-returns/htmls/returns-center-form.php:166
+msgid "Qty. "
+msgstr "Qté."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:326
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:339
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:296
+msgid "Qty:"
+msgstr "Quantité :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:138
+#: includes/zorem-exchanges/class-exchange-common-functions.php:165
+#: includes/zorem-exchanges/class-exchange-common-functions.php:189
+#: includes/zorem-exchanges/class-exchange-common-functions.php:401
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:245
+#: includes/zorem-returns/class-return-common-functions.php:188
+msgid "Quantity"
+msgstr "Quantité"
+
+#: templates/emails/customer-coupon-email.php:49
+msgid "Ready to start shopping?"
+msgstr "Prêt à commencer à magasiner ?"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:199
+msgid "Reason for Return"
+msgstr "Motif du retour :"
+
+#: includes/customizer/customizer-admin.php:161
+msgid "Recipient Email Address(es) (separate multiple with commas)"
+msgstr ""
+"Adresse(s) e-mail du destinataire (séparez les multiples par des virgules)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1094
+msgid "Refund"
+msgstr "Remboursement"
+
+#: includes/class-return-exchange-admin.php:662
+msgid "Refund Method Preferences"
+msgstr "Préférences de méthode de remboursement"
+
+#: includes/class-return-exchange-admin.php:618
+#: includes/class-return-exchange-common.php:25
+#: includes/zorem-returns/htmls/returns-center-form.php:273
+msgid "Refund to Original Payment Method"
+msgstr "Remboursement sur le mode de paiement d'origine"
+
+#: includes/class-return-exchange-admin.php:617
+#: includes/class-return-exchange-common.php:23
+#: includes/zorem-returns/htmls/returns-center-form.php:266
+msgid "Refund to Store Credit"
+msgstr "Remboursement sous forme de crédit en magasin"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:208
+#: includes/zorem-returns/class-return-common-functions.php:254
+msgid "Reject"
+msgstr "Rejeter"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:385
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:387
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:737
+msgid "Reject Exchange"
+msgstr "Rejeter l'échange"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:372
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:382
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1061
+msgid "Reject Return"
+msgstr "Refuser le retour"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1205
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1242
+msgid "Rejected Exchange Items"
+msgstr "Articles d'échange demandés"
+
+#: includes/zorem-returns/class-return-common-functions.php:1221
+#: includes/zorem-returns/class-return-common-functions.php:1258
+msgid "Rejected Return Items"
+msgstr "Articles de retour demandés"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:309
+msgid "Request a Return"
+msgstr "Demander un retour"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:327
+msgid "Request an Exchange"
+msgstr "Demander un échange"
+
+#: includes/admin-html/returns-exchanges-center.php:57
+#: includes/class-return-exchange-common.php:212
+msgid "Request ID"
+msgstr "ID de la demande"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:161
+#: includes/zorem-exchanges/class-exchange-common-functions.php:185
+#: includes/zorem-exchanges/class-exchange-common-functions.php:723
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:308
+msgid "Requested Item (Exchange)"
+msgstr "Article demandé (échange)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:243
+msgid "Requested Quantity"
+msgstr "Quantité demandée"
+
+#: includes/class-return-exchange-admin.php:1281
+#: includes/class-return-exchange-common.php:165
+#: includes/zorem-returns/class-return-front.php:264
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:923
+#: includes/zorem-returns/htmls/guest-return-center-form.php:92
+msgid "Return"
+msgstr "Retour"
+
+#: includes/class-return-exchange-admin.php:1267
+msgctxt "Return"
+msgid "Return"
+msgstr "Retour"
+
+#: includes/class-return-exchange-common.php:163
+msgid "Return & Exchange"
+msgstr "Retour et échange"
+
+#. translators: %s: search term
+#: includes/class-return-exchange-admin.php:1273
+#, php-format
+msgid "Return <span class=\"count\">(%s)</span>"
+msgid_plural "Return <span class=\"count\">(%s)</span>"
+msgstr[0] "Retour <span class=\"count\">(%s)</span>"
+msgstr[1] "Retour <span class=\"count\">(%s)</span>"
+
+#: includes/customizer/customizer-admin.php:345
+msgid "Return and Exchange Emails"
+msgstr "E-mails de retour et d'échange"
+
+#: includes/admin-html/returns-exchanges-center.php:13
+#: includes/admin-html/returns-exchanges-emails.php:20
+#: includes/admin-html/returns-exchanges-emails.php:38
+msgid "Return Approved"
+msgstr "Retour approuvé"
+
+#: includes/customizer/customizer-admin.php:354
+msgid "Return Approved (Customer)"
+msgstr "Retour approuvé (client)"
+
+#: includes/zorem-returns/class-return-common-functions.php:218
+#: includes/zorem-returns/class-return-common-functions.php:1494
+#: includes/zorem-returns/class-return-front.php:414
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:323
+#: templates/emails/admin-return-approved.php:72
+#: templates/emails/customer-return-approved.php:40
+msgid "Return Approved Note:"
+msgstr "Retour approuvé Remarque :"
+
+#: includes/admin-html/returns-exchanges-center.php:16
+msgid "Return Cancelled"
+msgstr "Retour annulé"
+
+#: includes/class-return-exchange-admin.php:751
+#: includes/zorem-returns/class-return-common-functions.php:1236
+msgid "Return Guidelines"
+msgstr "Directives de retour"
+
+#: includes/zorem-returns/class-return-common-functions.php:1193
+#: includes/zorem-returns/class-return-common-functions.php:1200
+msgid "Return Items Requested"
+msgstr "Articles retournés demandés"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:319
+msgid "Return Message:"
+msgstr "Message de retour :"
+
+#: includes/zorem-returns/htmls/guest-return-center-form.php:102
+msgid "Return Order"
+msgstr "Commande de retour"
+
+#: includes/zorem-returns/class-return-common-functions.php:285
+msgid "Return Quantity"
+msgstr "Quantité de retour"
+
+#: includes/zorem-returns/class-return-common-functions.php:202
+#: templates/emails/admin-return-approved.php:67
+#: templates/emails/admin-return-approved.php:69
+#: templates/emails/admin-return-cancelled.php:66
+#: templates/emails/admin-return-cancelled.php:68
+#: templates/emails/admin-return-completed.php:61
+#: templates/emails/admin-return-completed.php:63
+#: templates/emails/admin-return-rejected.php:63
+#: templates/emails/admin-return-rejected.php:65
+#: templates/emails/admin-return-requested.php:66
+#: templates/emails/admin-return-requested.php:68
+msgid "Return Reason"
+msgstr "Motif du retour"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:307
+msgid "Return Reason:"
+msgstr "Motif du retour :"
+
+#: includes/class-return-exchange-admin.php:759
+msgid "Return Reasons"
+msgstr "Motifs de retour"
+
+#: includes/admin-html/returns-exchanges-center.php:15
+#: includes/admin-html/returns-exchanges-emails.php:22
+#: includes/admin-html/returns-exchanges-emails.php:40
+msgid "Return Rejected"
+msgstr "Retour rejeté"
+
+#: includes/customizer/customizer-admin.php:356
+msgid "Return Rejected (Customer)"
+msgstr "Retour rejeté (client)"
+
+#: includes/zorem-returns/class-return-common-functions.php:222
+#: includes/zorem-returns/class-return-common-functions.php:1492
+#: includes/zorem-returns/class-return-front.php:412
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:327
+#: templates/emails/customer-return-rejected.php:39
+msgid "Return Rejected Note:"
+msgstr "Retour rejeté Remarque :"
+
+#: includes/zorem-returns/class-return-common-functions.php:99
+msgid "Return Request "
+msgstr "Demande de retour"
+
+#: includes/zorem-returns/class-return-common-functions.php:1204
+#: includes/zorem-returns/class-return-common-functions.php:1205
+msgid "Return Request Approved"
+msgstr "Demande de retour approuvée"
+
+#: includes/zorem-returns/class-return-common-functions.php:1232
+msgid "Return Request Approved – Instructions for Sending Items Back"
+msgstr "Demande de retour approuvée – Instructions pour renvoyer les articles"
+
+#: includes/zorem-returns/class-return-common-functions.php:1211
+#: includes/zorem-returns/class-return-common-functions.php:1212
+msgid "Return Request Cancelled"
+msgstr "Demande de retour annulée"
+
+#: templates/emails/admin-return-approved.php:40
+#: templates/emails/admin-return-cancelled.php:40
+#: templates/emails/admin-return-completed.php:36
+#: templates/emails/admin-return-rejected.php:36
+#: templates/emails/admin-return-requested.php:40
+msgid "Return Request Details"
+msgstr "Détails de la demande de retour"
+
+#: includes/customizer/customizer-admin.php:353
+msgid "Return Request Received (Customer)"
+msgstr "Demande de retour reçue (client)"
+
+#: includes/admin-html/returns-exchanges-center.php:12
+msgid "Return Requested"
+msgstr "Retour demandé"
+
+#: includes/zorem-returns/class-return-common-functions.php:56
+msgid "Return Requests"
+msgstr "Demandes de retour"
+
+#: includes/admin-html/returns-exchanges-settings.php:31
+msgid "Return Settings"
+msgstr "Paramètres de retour"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:915
+#: includes/zorem-returns/class-return-common-functions.php:1583
+msgid "Return Shipping Address"
+msgstr "Adresse de retour"
+
+#: includes/class-return-exchange-admin.php:598
+msgid "Return/Exchange Store Address"
+msgstr "Adresse du magasin de retour/échange"
+
+#: includes/class-return-exchange-admin.php:533
+msgid "Return/Exchange Window (Days)"
+msgstr "Délai de retour/échange (jours)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:285
+msgid "Returned Item (Ordered)"
+msgstr "Article retourné (commandé)"
+
+#: includes/zorem-returns/class-return-common-functions.php:172
+#: includes/zorem-returns/class-return-common-functions.php:1228
+#: includes/zorem-returns/class-return-common-functions.php:1251
+msgid "Returned Items"
+msgstr "Articles retournés"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:195
+msgid "Returned Product Summary"
+msgstr "Résumé des produits retournés"
+
+#: includes/admin-html/header.php:45
+#: includes/class-return-exchange-admin.php:80
+msgid "Returns Center"
+msgstr "Centre de retours"
+
+#: includes/admin-html/header.php:84
+msgid "Returns Dashboard"
+msgstr "Tableau de bord des retours"
+
+#: includes/zorem-returns/class-return-common-functions.php:1482
+#: includes/zorem-returns/class-return-front.php:402
+msgid "Returns message:"
+msgstr "Message de retour :"
+
+#: includes/zorem-returns/class-return-common-functions.php:1468
+#: includes/zorem-returns/class-return-front.php:388
+msgid "Returns reason:"
+msgstr "Raison du retour :"
+
+#: includes/admin-html/returns-exchanges-settings.php:134
+#: includes/admin-html/warranty-claims-dashboard.php:143
+#: includes/customizer/customizer-admin.php:156
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: includes/admin-html/returns-exchanges-center.php:42
+#: includes/admin-html/warranty-claims-dashboard.php:39
+msgid "Search by Order ID"
+msgstr "Rechercher l'ID de commande"
+
+#: includes/zorem-returns/class-return-common-functions.php:755
+msgid "Search for a product..."
+msgstr "Rechercher un produit..."
+
+#: includes/customizer/customizer-admin.php:470
+msgid "Section Title for Exchanged Items"
+msgstr "Titre de la section pour les articles échangés"
+
+#: includes/customizer/customizer-admin.php:484
+msgid "Section Title for Returned Items"
+msgstr "Titre de la section pour les articles retournés"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:274
+msgid "Select a Reason for Exchange"
+msgstr "Sélectionnez une raison d'échange"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:259
+msgid "Select a Return Resolution"
+msgstr "Sélectionnez une résolution de retour"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:149
+msgid "Select an Option"
+msgstr "Sélectionnez une option"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:133
+msgid "Select Exchange Variant"
+msgstr "Sélectionnez la variante d'échange"
+
+#: includes/class-return-exchange-admin.php:587
+msgid ""
+"Select product categories that are not eligible for return or exchange "
+"requests."
+msgstr ""
+"Sélectionnez les catégories de produits qui ne sont pas éligibles aux "
+"demandes de retour ou d’échange."
+
+#: includes/class-return-exchange-admin.php:568
+msgid "Select Terms and Conditions Page"
+msgstr "Sélectionnez la page des conditions générales"
+
+#: includes/class-return-exchange-admin.php:672
+msgid "Select the available refund methods you want to offer customers."
+msgstr ""
+"Sélectionnez les méthodes de remboursement disponibles que vous souhaitez "
+"proposer aux clients."
+
+#: includes/class-return-exchange-admin.php:565
+msgid ""
+"Select the order statuses that allow customers to request a return or "
+"exchange."
+msgstr ""
+"Sélectionnez les statuts de commande qui permettent aux clients de demander "
+"un retour ou un échange."
+
+#: includes/class-return-exchange-admin.php:595
+msgid ""
+"Select the products that are not eligible for return or exchange requests."
+msgstr ""
+"Sélectionnez les produits qui ne sont pas éligibles aux demandes de retour "
+"ou d’échange."
+
+#: includes/customizer/customizer-admin.php:162
+msgid "Send"
+msgstr "Envoyer"
+
+#: includes/customizer/customizer-admin.php:159
+#: includes/customizer/customizer-admin.php:160
+msgid "Send Test Email"
+msgstr "Envoyer un e-mail de test"
+
+#: includes/class-return-exchange-admin.php:540
+msgid ""
+"Set the number of days customers are allowed to request a return or exchange"
+" after the order is placed."
+msgstr ""
+"Définissez le nombre de jours pendant lesquels les clients sont autorisés à "
+"demander un retour ou un échange après la passation de la commande."
+
+#: includes/admin-html/header.php:79 includes/admin-html/header.php:102
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/customizer/customizer-admin.php:163
+msgid "Settings Successfully Saved."
+msgstr "Paramètres enregistrés avec succès."
+
+#: includes/zorem-returns/class-return-front.php:102
+#: includes/zorem-returns/class-return-front.php:125
+#: includes/zorem-returns/class-return-front.php:212
+#: includes/zorem-returns/htmls/guest-return-center-form.php:6
+#: includes/zorem-returns/htmls/returns-center-form.php:21
+#: includes/zorem-returns/htmls/returns-center-form.php:23
+msgid "Start a Return"
+msgstr "Démarrer un retour"
+
+#: includes/zorem-exchanges/class-exchange-front.php:265
+msgid "Start an Exchange"
+msgstr "Démarrez un échange"
+
+#: includes/admin-html/returns-exchanges-center.php:60
+#: includes/admin-html/returns-exchanges-license-form.php:17
+#: includes/admin-html/warranty-claims-dashboard.php:52
+#: includes/class-return-exchange-common.php:212
+#: includes/zorem-exchanges/class-exchange-common-functions.php:100
+#: includes/zorem-returns/class-return-common-functions.php:165
+#: templates/emails/_warranty-email-body.php:76
+msgid "Status"
+msgstr "Statut"
+
+#: includes/class-return-exchange-admin.php:494
+msgid "Store Address Line 1"
+msgstr "Ligne d'adresse du magasin"
+
+#: includes/class-return-exchange-admin.php:499
+msgid "Store Address Line 2"
+msgstr "Adresse du magasin ligne 2"
+
+#: templates/emails/customer-coupon-email.php:46
+msgid "Store credit is redeemable exclusively on our website."
+msgstr "Le crédit magasin est échangeable exclusivement sur notre site Web."
+
+#: templates/emails/customer-coupon-email.php:44
+msgid "Terms and Conditions:"
+msgstr "Termes et conditions:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1178
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1185
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1192
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1199
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1206
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1213
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1236
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1243
+#: includes/zorem-returns/class-return-common-functions.php:1194
+#: includes/zorem-returns/class-return-common-functions.php:1201
+#: includes/zorem-returns/class-return-common-functions.php:1208
+#: includes/zorem-returns/class-return-common-functions.php:1215
+#: includes/zorem-returns/class-return-common-functions.php:1222
+#: includes/zorem-returns/class-return-common-functions.php:1252
+#: includes/zorem-returns/class-return-common-functions.php:1259
+#: includes/zorem-warranty/class-warranty.php:762
+#: includes/zorem-warranty/class-warranty.php:776
+#: includes/zorem-warranty/class-warranty.php:783
+#: includes/zorem-warranty/class-warranty.php:790
+msgid "Thank you"
+msgstr "Merci"
+
+#: includes/zorem-returns/class-return-common-functions.php:1192
+msgid ""
+"Thank you for submitting your return request!<br><br>We’ve received your "
+"request and our team is currently reviewing it. You’ll hear from us with an "
+"update as soon as possible."
+msgstr ""
+"Merci d'avoir soumis votre demande de retour !<br><br>Nous avons bien reçu "
+"votre demande et l'étudions actuellement. Nous vous répondrons dans les plus"
+" brefs délais."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1176
+msgid ""
+"Thank you for your exchange request!<br><br>We've received your request and "
+"are currently reviewing it. You'll receive an update once it's processed."
+msgstr ""
+"Merci pour votre demande d'échange !<br><br>Nous avons bien reçu votre "
+"demande et l'étudions actuellement. Vous recevrez une notification dès son "
+"traitement."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:653
+msgid ""
+"The exchange request has been rejected. Unfortunately, this order is not "
+"eligible for exchange based on our return/exchange policy."
+msgstr ""
+"La demande d'échange a été refusée. Malheureusement, cette commande n'est "
+"pas éligible à un échange en raison de notre politique de retour/échange."
+
+#: includes/zorem-returns/class-return-common-functions.php:1439
+#: includes/zorem-returns/class-return-front.php:358
+msgid ""
+"The return request has been rejected. Unfortunately, this order is not "
+"eligible for return based on our return/exchange policy."
+msgstr ""
+"La demande de retour a été refusée. Malheureusement, cette commande n'est "
+"pas éligible au retour conformément à notre politique de retour/échange."
+
+#: templates/emails/customer-coupon-email.php:47
+msgid "This credit does not apply to shipping fees."
+msgstr "Ce crédit ne s'applique pas aux frais d'expédition."
+
+#: includes/zorem-returns/class-return-front.php:140
+msgid "This item is not availabale for return"
+msgstr "Cet article n'est pas disponible pour le retour"
+
+#: includes/zorem-exchanges/class-exchange-front.php:204
+msgid "This item is not available for exchange."
+msgstr "Cet article n'est pas disponible pour l'échange"
+
+#. translators: %s: search for a tag
+#: includes/class-return-exchange-update-manager.php:180
+#, php-format
+msgid ""
+"To receive automatic updates license activation is required. Please visit "
+"%1$ssettings%2$s to activate your Return for WooCommerce."
+msgstr ""
+"Pour recevoir les mises à jour automatiques, l'activation de la licence est "
+"requise. Veuillez accéder à %1$ssettings%2$s pour activer votre retour pour "
+"WooCommerce."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:652
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:914
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:987
+msgid "Today at"
+msgstr "Aujourd'hui à"
+
+#: includes/class-return-exchange-common.php:212
+msgid "Total"
+msgstr "Total"
+
+#: templates/emails/admin-exchange-approved.php:41
+#: templates/emails/admin-exchange-cancelled.php:41
+#: templates/emails/admin-exchange-completed.php:37
+#: templates/emails/admin-exchange-rejected.php:37
+#: templates/emails/admin-exchange-requested.php:41
+#: templates/emails/admin-return-approved.php:41
+#: templates/emails/admin-return-cancelled.php:41
+#: templates/emails/admin-return-completed.php:37
+#: templates/emails/admin-return-rejected.php:37
+#: templates/emails/admin-return-requested.php:41
+msgid "Tshirt x 1"
+msgstr "T-shirt x 1"
+
+#: includes/admin-html/returns-exchanges-center.php:61
+#: includes/class-return-exchange-common.php:212
+msgid "Type"
+msgstr "Taper"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:301
+#: includes/zorem-returns/htmls/returns-center-form.php:226
+msgid "Upload Photo"
+msgstr "Télécharger une photo"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:137
+#: includes/zorem-exchanges/class-exchange-common-functions.php:164
+#: includes/zorem-exchanges/class-exchange-common-functions.php:188
+#: includes/zorem-returns/class-return-common-functions.php:183
+msgid "Variation"
+msgstr "Variation"
+
+#: includes/class-return-exchange-common.php:265
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:656
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:919
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:995
+msgid "View"
+msgstr "Voir"
+
+#: includes/zorem-exchanges/class-exchange-front.php:184
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:13
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:21
+#: includes/zorem-returns/class-return-front.php:102
+#: includes/zorem-returns/class-return-front.php:104
+#: includes/zorem-returns/class-return-front.php:125
+#: includes/zorem-returns/class-return-front.php:127
+#: includes/zorem-returns/htmls/returns-center-form.php:13
+#: includes/zorem-returns/htmls/returns-center-form.php:21
+msgid "View Order"
+msgstr "Voir la commande"
+
+#: includes/admin-html/returns-exchanges-license-form.php:18
+#: includes/admin-html/returns-exchanges-license.php:166
+msgid "Want to deactivate the license for any reason?"
+msgstr "Vous souhaitez désactiver la licence pour une raison quelconque ?"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1204
+msgid ""
+"We're sorry to inform you that your exchange request has been "
+"rejected.<br><br> Please let us know if you have any questions or concerns."
+msgstr ""
+"Nous sommes désolés de vous informer que votre demande d'échange a été "
+"rejetée.<br><br>N'hésitez pas à nous faire savoir si vous avez des questions"
+" ou des préoccupations."
+
+#: includes/zorem-returns/class-return-common-functions.php:1220
+msgid ""
+"We're sorry to inform you that your return request has been "
+"rejected.<br><br> Please let us know if you have any questions or concerns."
+msgstr ""
+"Nous sommes désolés de vous informer que votre demande de retour a été "
+"rejetée.<br><br>N'hésitez pas à nous faire savoir si vous avez des questions"
+" ou des préoccupations."
+
+#: templates/emails/customer-coupon-email.php:24
+msgid ""
+"We’re happy to let you know that your return has been approved and your "
+"refund has been issued as store credit for your convenience."
+msgstr ""
+"Nous sommes heureux de vous informer que votre retour a été approuvé et que "
+"votre remboursement a été émis sous forme de crédit en magasin pour votre "
+"commodité."
+
+#: includes/customizer/customizer-admin.php:157
+msgid "You are customizing"
+msgstr "Vous personnalisez"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:199
+msgid "You can only exchange this item for a variant of equal value."
+msgstr ""
+"Vous ne pouvez échanger cet article que contre une variante de valeur égale."
+
+#: includes/customizer/customizer-admin.php:451
+#: includes/customizer/customizer-admin.php:510
+msgid ""
+"You can use basic HTML tags such as <p>, <strong>, <br>, <ul>, <ol>, <li>, "
+"<a>."
+msgstr ""
+"Vous pouvez utiliser des balises HTML de base telles que <p>, <strong>, "
+"<br>, <ul>, <ol>, <li>, <a>."
+
+#. translators: %s: The formatted credit amount.
+#: templates/emails/customer-coupon-email.php:31
+#: templates/emails/customer-return-store-credit.php:47
+#, php-format
+msgid ""
+"You can use this code during checkout to apply a credit of %s on your next "
+"purchase."
+msgstr ""
+"Vous pouvez utiliser ce code lors du paiement pour appliquer un crédit de %s"
+" sur votre prochain achat."
+
+#: includes/class-return-exchange-common.php:198
+msgid "You have no return or exchange requests yet."
+msgstr "Vous n'avez pas encore de demande de retour ou d'échange."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1217
+msgid "Your Exchange Request Has Been Approved!"
+msgstr "La demande d'échange a été approuvée !"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:651
+msgid ""
+"Your exchange request has been approved. Please ship the item(s) to the "
+"return address provided."
+msgstr ""
+"Votre demande d'échange a été approuvée. Veuillez expédier le(s) article(s) "
+"à l'adresse de retour indiquée."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:654
+msgid "Your exchange request has been cancelled."
+msgstr "Votre demande d'échange a été annulée."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1175
+msgid "Your Exchange Request Has Been Received"
+msgstr "Votre demande d'échange a été reçue !"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1203
+msgid "Your Exchange Request Has Been Rejected!"
+msgstr "Votre demande d'échange a été rejetée !"
+
+#: includes/zorem-returns/class-return-common-functions.php:1241
+#: includes/zorem-returns/class-return-common-functions.php:1242
+msgid "Your Refund Has Been Issued as Store Credit!"
+msgstr "Votre remboursement a été émis sous forme de crédit en magasin !"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:650
+#: includes/zorem-returns/class-return-common-functions.php:1436
+#: includes/zorem-returns/class-return-front.php:355
+msgid ""
+"Your request has been received. Our customer service team will review it and"
+" get back to you within a few business days."
+msgstr ""
+"Votre demande a bien été reçue. Notre service client l'examinera et vous "
+"répondra sous quelques jours ouvrés."
+
+#: includes/zorem-returns/class-return-common-functions.php:1233
+msgid "Your Return Request Has Been Approved!"
+msgstr "La demande de retour a été approuvée !"
+
+#: includes/zorem-returns/class-return-common-functions.php:1437
+#: includes/zorem-returns/class-return-front.php:356
+msgid ""
+"Your return request has been approved. Please proceed with shipping the "
+"return item(s) back to us."
+msgstr ""
+"Votre demande de retour a été approuvée et veuillez procéder à l'expédition "
+"du ou des articles retournés."
+
+#: includes/zorem-returns/class-return-common-functions.php:1440
+#: includes/zorem-returns/class-return-front.php:359
+msgid "Your return request has been cancelled."
+msgstr "Votre demande de retour a été annulée."
+
+#: includes/zorem-returns/class-return-common-functions.php:1190
+msgid "Your Return Request Has Been Received!"
+msgstr "Votre demande de retour a été reçue !"
+
+#: includes/zorem-returns/class-return-common-functions.php:1218
+msgid "Your Return Request Has Been Rejected!"
+msgstr "Votre demande de retour a été rejetée !"
+
+#: includes/zorem-returns/class-return-common-functions.php:1191
+msgid "Your Return Request Received!"
+msgstr "Votre demande de retour a été reçue !"
+
+#: includes/zorem-returns/class-return-common-functions.php:1219
+msgid "Your Return Request Rejected!"
+msgstr "Votre demande de retour rejetée !"
+
+#: templates/emails/customer-coupon-email.php:25
+msgid "Your Store Credit Coupon Code: "
+msgstr "Votre code de coupon de crédit en magasin :"
+
+#. Author of the plugin
+#: zorem-returns.php
+msgid "zorem"
+msgstr "zorem"
+
+#. Plugin Name of the plugin
+#: zorem-returns.php includes/admin-html/header.php:32
+#: includes/admin-html/header.php:46
+msgid "Zorem Returns"
+msgstr "Le retour de Zorem"
+
+#. Description of the plugin
+#: zorem-returns.php
+msgid ""
+"Your customer can request for Returns from My account > Orders. If you are "
+"selling a virtual product and you payment gateway support for automatic "
+"return & exchange so your customer get instant return & exchange."
+msgstr ""
+"Votre client peut demander un retour depuis Mon compte > Commandes. Si vous "
+"vendez un produit virtuel et que votre passerelle de paiement prend en "
+"charge le retour et l'échange automatiques, votre client bénéficie d'un "
+"retour et d'un échange instantanés."
+
+#: assets/zui/eco-plugins.php:49
+msgid ""
+"Take control of your post-shipping workflows, reduce customer service "
+"overhead and provide a premium post-purchase tracking experience directly "
+"inside WooCommerce. Keeps your tracking data up-to-date and sends automated "
+"status changes automatically."
+msgstr ""
+"Prenez le contrôle de vos flux post-expédition, réduisez la charge du "
+"service client et offrez une expérience de suivi post-achat premium "
+"directement dans WooCommerce. Maintient vos données de suivi à jour et "
+"envoie automatiquement les changements de statut."
+
+#: assets/zui/eco-plugins.php:51
+#: includes/admin-html/returns-exchanges-license.php:37
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: assets/zui/eco-plugins.php:61
+msgid ""
+"Keep your shoppers perfectly aligned and updated with lightning fast "
+"automated SMS notifications for status updates, dispatched parcels, custom "
+"notes, and imminent local drop-offs. Integrates seamlessly with domestic and"
+" international gateways."
+msgstr ""
+"Gardez vos acheteurs parfaitement informés grâce à des notifications SMS "
+"automatisées ultra-rapides pour les mises à jour de statut, les colis "
+"expédiés, les notes personnalisées et les retraits locaux imminents. "
+"S'intègre parfaitement aux passerelles nationales et internationales."
+
+#: assets/zui/eco-plugins.php:73
+msgid ""
+"Supercharge pickup schedules, offer precise contact-free local pickup times,"
+" assign inventory reserves across dynamic multiple regional coordinates, "
+"configure localized discounts and split operational hours effortlessly."
+msgstr ""
+"Optimisez les horaires de retrait, proposez des créneaux de retrait local "
+"sans contact précis, attribuez des réserves de stock à plusieurs points "
+"régionaux dynamiques, configurez des remises localisées et répartissez les "
+"heures d'ouverture sans effort."
+
+#: assets/zui/eco-plugins.php:85
+msgid ""
+"Control catalog visibility dynamically. Use safe IP geolocation heuristics "
+"to easily allow, restrict, or filter selected product availability across "
+"specific global geo environments and border codes."
+msgstr ""
+"Contrôlez la visibilité du catalogue de manière dynamique. Utilisez des "
+"heuristiques de géolocalisation IP sûres pour autoriser, restreindre ou "
+"filtrer facilement la disponibilité de certains produits selon des "
+"environnements géographiques et codes frontaliers spécifiques."
+
+#: assets/zui/eco-plugins.php:97
+msgid ""
+"Block dummy checkouts, malicious registration scripts and spam sign-up "
+"queues by requiring multi-step verification code validation before customers"
+" complete purchases or establish accounts."
+msgstr ""
+"Bloquez les commandes factices, les scripts d'inscription malveillants et "
+"les files d'inscription indésirables en exigeant une validation par code de "
+"vérification en plusieurs étapes avant que les clients finalisent leurs "
+"achats ou créent leurs comptes."
+
+#: assets/zui/eco-plugins.php:99
+msgid "Highly Rated"
+msgstr "Très bien noté"
+
+#: assets/zui/eco-plugins.php:109
+msgid ""
+"Receive high-fidelity operational digests directly in your inbox. Deliver "
+"elegant daily, weekly or custom periodic sales charts, average cart tracking"
+" metrics and order analytics on auto-pilot."
+msgstr ""
+"Recevez des synthèses opérationnelles de haute qualité directement dans "
+"votre boîte de réception. Recevez d'élégants graphiques de ventes "
+"quotidiens, hebdomadaires ou personnalisés, des indicateurs de panier moyen "
+"et des analyses de commandes en pilote automatique."
+
+#: assets/zui/eco-plugins.php:130
+#: includes/admin-html/returns-exchanges-license.php:291
+msgid "Active in this store"
+msgstr "Actif dans cette boutique"
+
+#: includes/admin-html/header.php:30 zorem-returns.php:124
+msgid "Returns"
+msgstr "Retours"
+
+#: includes/admin-html/header.php:45
+#: includes/admin-html/returns-exchanges-settings.php:62
+msgid "Returns Settings"
+msgstr "Réglages des retours"
+
+#: includes/admin-html/header.php:57
+msgid "Open settings menu"
+msgstr "Ouvrir le menu des réglages"
+
+#: includes/admin-html/header.php:88
+msgid "Docs Portal"
+msgstr "Portail de documentation"
+
+#: includes/admin-html/header.php:95
+msgid "Returns modules"
+msgstr "Modules de retours"
+
+#: includes/admin-html/header.php:97
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: includes/admin-html/header.php:99
+msgid "Warranty Claims"
+msgstr "Réclamations de garantie"
+
+#: includes/admin-html/header.php:103
+#: includes/admin-html/returns-exchanges-emails.php:68
+msgid "Notifications"
+msgstr "Notifications"
+
+#: includes/admin-html/returns-exchanges-center.php:14
+#: includes/admin-html/returns-exchanges-emails.php:21
+#: includes/admin-html/returns-exchanges-emails.php:39
+#: includes/zorem-returns/class-return-common-functions.php:1248
+#: includes/zorem-returns/class-return-common-functions.php:1249
+msgid "Return Completed"
+msgstr "Retour terminé"
+
+#: includes/admin-html/returns-exchanges-emails.php:19
+#: includes/admin-html/returns-exchanges-emails.php:37
+msgid "Return Request Received"
+msgstr "Demande de retour reçue"
+
+#: includes/admin-html/returns-exchanges-emails.php:23
+msgid "Return Store Credit"
+msgstr "Avoir de retour"
+
+#: includes/admin-html/returns-exchanges-emails.php:24
+#: includes/admin-html/returns-exchanges-emails.php:41
+msgid "Exchange Request Received"
+msgstr "Demande d'échange reçue"
+
+#: includes/admin-html/returns-exchanges-emails.php:26
+#: includes/admin-html/returns-exchanges-emails.php:43
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1232
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1233
+msgid "Exchange Completed"
+msgstr "Échange terminé"
+
+#: includes/admin-html/returns-exchanges-emails.php:28
+msgid "Exchange Store Credit"
+msgstr "Avoir d'échange"
+
+#: includes/admin-html/returns-exchanges-emails.php:29
+#: includes/admin-html/returns-exchanges-emails.php:45
+msgid "Warranty Claim Submitted"
+msgstr "Réclamation de garantie soumise"
+
+#: includes/admin-html/returns-exchanges-emails.php:30
+#: includes/admin-html/returns-exchanges-emails.php:46
+#: includes/zorem-warranty/class-warranty.php:802
+msgid "Warranty Claim Under Review"
+msgstr "Réclamation de garantie en cours d'examen"
+
+#: includes/admin-html/returns-exchanges-emails.php:31
+#: includes/admin-html/returns-exchanges-emails.php:47
+#: includes/zorem-warranty/class-warranty.php:773
+#: includes/zorem-warranty/class-warranty.php:808
+#: includes/zorem-warranty/class-warranty.php:809
+msgid "Warranty Claim Approved"
+msgstr "Réclamation de garantie approuvée"
+
+#: includes/admin-html/returns-exchanges-emails.php:32
+#: includes/admin-html/returns-exchanges-emails.php:48
+#: includes/zorem-warranty/class-warranty.php:780
+#: includes/zorem-warranty/class-warranty.php:815
+#: includes/zorem-warranty/class-warranty.php:816
+msgid "Warranty Claim Rejected"
+msgstr "Réclamation de garantie rejetée"
+
+#: includes/admin-html/returns-exchanges-emails.php:33
+#: includes/admin-html/returns-exchanges-emails.php:49
+#: includes/zorem-warranty/class-warranty.php:787
+#: includes/zorem-warranty/class-warranty.php:822
+#: includes/zorem-warranty/class-warranty.php:823
+msgid "Warranty Claim Resolved"
+msgstr "Réclamation de garantie résolue"
+
+#: includes/admin-html/returns-exchanges-emails.php:69
+#: includes/admin-html/returns-exchanges-settings.php:63
+msgid "Close menu"
+msgstr "Fermer le menu"
+
+#: includes/admin-html/returns-exchanges-emails.php:74
+msgid "Notification channels"
+msgstr "Canaux de notification"
+
+#: includes/admin-html/returns-exchanges-emails.php:85
+msgid "SMS Notifications"
+msgstr "Notifications SMS"
+
+#: includes/admin-html/returns-exchanges-emails.php:90
+#: includes/admin-html/returns-exchanges-settings.php:78
+msgid "Quick Help"
+msgstr "Aide rapide"
+
+#: includes/admin-html/returns-exchanges-emails.php:91
+#: includes/admin-html/returns-exchanges-settings.php:79
+msgid "Learn how to configure Zorem Returns for best results."
+msgstr ""
+"Découvrez comment configurer Zorem Returns pour de meilleurs résultats."
+
+#: includes/admin-html/returns-exchanges-emails.php:94
+#: includes/admin-html/returns-exchanges-settings.php:82
+msgid "View Documentation"
+msgstr "Voir la documentation"
+
+#: includes/admin-html/returns-exchanges-emails.php:98
+#: includes/admin-html/returns-exchanges-settings.php:86
+msgid "Get Support"
+msgstr "Obtenir de l'aide"
+
+#: includes/admin-html/returns-exchanges-emails.php:132
+msgid "Admin"
+msgstr "Admin"
+
+#: includes/admin-html/returns-exchanges-emails.php:158
+#: includes/admin-html/returns-exchanges-emails.php:189
+msgid "ACTIVE"
+msgstr "ACTIF"
+
+#: includes/admin-html/returns-exchanges-emails.php:158
+#: includes/admin-html/returns-exchanges-emails.php:189
+msgid "INACTIVE"
+msgstr "INACTIF"
+
+#: includes/admin-html/returns-exchanges-emails.php:164
+#: includes/admin-html/returns-exchanges-emails.php:195
+msgid "Customize"
+msgstr "Personnaliser"
+
+#: includes/admin-html/returns-exchanges-emails.php:211
+msgid "SMS for WooCommerce is active"
+msgstr "SMS for WooCommerce est actif"
+
+#: includes/admin-html/returns-exchanges-emails.php:212
+msgid ""
+"Configure Return &amp; Exchange SMS notifications from the SMS for "
+"WooCommerce settings."
+msgstr ""
+"Configurez les notifications SMS de retour &amp; d'échange depuis les "
+"réglages de SMS for WooCommerce."
+
+#: includes/admin-html/returns-exchanges-emails.php:213
+msgid "Open Returns SMS Settings"
+msgstr "Ouvrir les réglages SMS des retours"
+
+#: includes/admin-html/returns-exchanges-emails.php:220
+msgid "Send SMS Notifications for Returns &amp; Exchanges"
+msgstr "Envoyer des notifications SMS pour les retours &amp; échanges"
+
+#: includes/admin-html/returns-exchanges-emails.php:221
+msgid ""
+"Keep your customers informed with instant SMS updates when their return or "
+"exchange request is received, approved, completed or rejected."
+msgstr ""
+"Tenez vos clients informés grâce à des SMS instantanés lorsque leur demande "
+"de retour ou d'échange est reçue, approuvée, terminée ou rejetée."
+
+#: includes/admin-html/returns-exchanges-emails.php:223
+msgid "Return Request Received, Approved, Completed &amp; Rejected"
+msgstr "Demande de retour reçue, approuvée, terminée &amp; rejetée"
+
+#: includes/admin-html/returns-exchanges-emails.php:224
+msgid "Exchange Request Received, Approved, Completed &amp; Rejected"
+msgstr "Demande d'échange reçue, approuvée, terminée &amp; rejetée"
+
+#: includes/admin-html/returns-exchanges-emails.php:225
+msgid "Customisable message templates with order variables"
+msgstr "Modèles de messages personnalisables avec variables de commande"
+
+#: includes/admin-html/returns-exchanges-emails.php:226
+msgid "Works alongside email notifications independently"
+msgstr "Fonctionne indépendamment, en parallèle des notifications par e-mail"
+
+#: includes/admin-html/returns-exchanges-emails.php:229
+msgid "Get SMS for WooCommerce"
+msgstr "Obtenir SMS for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:30
+msgid "Advanced Shipment Tracking PRO"
+msgstr "Advanced Shipment Tracking PRO"
+
+#: includes/admin-html/returns-exchanges-license.php:35
+msgid ""
+"AST PRO provides powerful features to easily add tracking info to "
+"WooCommerce orders, automate fulfillment workflows and keep your customers "
+"happy and informed."
+msgstr ""
+"AST PRO offre des fonctionnalités puissantes pour ajouter facilement des "
+"informations de suivi aux commandes WooCommerce, automatiser les flux de "
+"traitement et garder vos clients satisfaits et informés."
+
+#: includes/admin-html/returns-exchanges-license.php:38
+msgid "15k+ active stores"
+msgstr "Plus de 15 000 boutiques actives"
+
+#: includes/admin-html/returns-exchanges-license.php:41
+msgid "TrackShip for WooCommerce"
+msgstr "TrackShip for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:46
+msgid ""
+"Take control of post-shipping workflows, reduce time spent on customer "
+"service and provide a superior post-purchase experience to your customers."
+msgstr ""
+"Prenez le contrôle des flux post-expédition, réduisez le temps consacré au "
+"service client et offrez une expérience post-achat supérieure à vos clients."
+
+#: includes/admin-html/returns-exchanges-license.php:49
+msgid "8k+ active stores"
+msgstr "Plus de 8 000 boutiques actives"
+
+#: includes/admin-html/returns-exchanges-license.php:52
+msgid "SMS for WooCommerce"
+msgstr "SMS for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:57
+msgid ""
+"Keep your customers informed by sending them automated SMS text messages "
+"with order & delivery updates."
+msgstr ""
+"Tenez vos clients informés en leur envoyant des SMS automatisés avec les "
+"mises à jour de commande et de livraison."
+
+#: includes/admin-html/returns-exchanges-license.php:60
+msgid "5k+ installs"
+msgstr "Plus de 5 000 installations"
+
+#: includes/admin-html/returns-exchanges-license.php:63
+msgid "Sales Report Email Pro"
+msgstr "Sales Report Email Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:68
+msgid ""
+"Know how well your store is performing by sending daily, weekly, or monthly "
+"sales reports by email."
+msgstr ""
+"Sachez comment votre boutique performe en recevant des rapports de ventes "
+"quotidiens, hebdomadaires ou mensuels par e-mail."
+
+#: includes/admin-html/returns-exchanges-license.php:71
+msgid "3k+ active"
+msgstr "Plus de 3 000 actifs"
+
+#: includes/admin-html/returns-exchanges-license.php:74
+msgid "Country Based Restrictions Pro"
+msgstr "Country Based Restrictions Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:79
+msgid ""
+"Restrict products on your store by visitor country using WooCommerce "
+"Geolocation or the shipping country added by the customer."
+msgstr ""
+"Restreignez les produits de votre boutique selon le pays du visiteur grâce à"
+" la géolocalisation WooCommerce ou au pays de livraison saisi par le client."
+
+#: includes/admin-html/returns-exchanges-license.php:82
+msgid "2k+ active"
+msgstr "Plus de 2 000 actifs"
+
+#: includes/admin-html/returns-exchanges-license.php:85
+msgid "Zorem Local Pickup Pro"
+msgstr "Zorem Local Pickup Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:90
+msgid ""
+"Advanced local pickup management with multiple locations, business hours and"
+" appointment slots for WooCommerce."
+msgstr ""
+"Gestion avancée du retrait en magasin avec plusieurs points de retrait, "
+"horaires d'ouverture et créneaux de rendez-vous pour WooCommerce."
+
+#: includes/admin-html/returns-exchanges-license.php:93
+msgid "4k+ installs"
+msgstr "Plus de 4 000 installations"
+
+#: includes/admin-html/returns-exchanges-license.php:118
+msgid "Store Ecosystem Management"
+msgstr "Gestion de l'écosystème de la boutique"
+
+#: includes/admin-html/returns-exchanges-license.php:120
+msgid "License & Extensions"
+msgstr "Licence & extensions"
+
+#: includes/admin-html/returns-exchanges-license.php:121
+msgid "Manage your secure zorem.com connection."
+msgstr "Gérez votre connexion sécurisée à zorem.com."
+
+#: includes/admin-html/returns-exchanges-license.php:129
+msgid "Secure Connection"
+msgstr "Connexion sécurisée"
+
+#: includes/admin-html/returns-exchanges-license.php:131
+msgid "Synchronized"
+msgstr "Synchronisé"
+
+#: includes/admin-html/returns-exchanges-license.php:131
+msgid "Unlinked"
+msgstr "Non lié"
+
+#: includes/admin-html/returns-exchanges-license.php:146
+msgid "Secure SSO Gateway Verification"
+msgstr "Vérification par passerelle SSO sécurisée"
+
+#: includes/admin-html/returns-exchanges-license.php:156
+msgid "Active Premium License"
+msgstr "Licence premium active"
+
+#: includes/admin-html/returns-exchanges-license.php:157
+msgid "Zorem Returns Pro License"
+msgstr "Licence Zorem Returns Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:161
+msgid "Licensed Domain:"
+msgstr "Domaine sous licence :"
+
+#: includes/admin-html/returns-exchanges-license.php:171
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: includes/admin-html/returns-exchanges-license.php:181
+msgid "Action Needed"
+msgstr "Action requise"
+
+#: includes/admin-html/returns-exchanges-license.php:183
+msgid "Activate your license"
+msgstr "Activez votre licence"
+
+#: includes/admin-html/returns-exchanges-license.php:184
+msgid ""
+"Securely connect your WooCommerce installation via zorem.com to receive "
+"automatic updates and premium support. We will authenticate your unique "
+"license and redirect you back instantly."
+msgstr ""
+"Connectez votre installation WooCommerce en toute sécurité via zorem.com "
+"pour recevoir les mises à jour automatiques et le support premium. Nous "
+"authentifierons votre licence unique et vous redirigerons instantanément."
+
+#: includes/admin-html/returns-exchanges-license.php:188
+msgid "Connect & Activate License"
+msgstr "Connecter & activer la licence"
+
+#: includes/admin-html/returns-exchanges-license.php:190
+msgid "Redirects safely to the zorem.com gateway."
+msgstr "Redirige en toute sécurité vers la passerelle zorem.com."
+
+#: includes/admin-html/returns-exchanges-license.php:197
+msgid "Free version"
+msgstr "Version gratuite"
+
+#: includes/admin-html/returns-exchanges-license.php:199
+msgid "Upgrade to Zorem Returns Pro"
+msgstr "Passer à Zorem Returns Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:200
+msgid ""
+"Unlock the Warranty workflow, Fraud Prevention, extended notifications and "
+"premium support with the PRO version."
+msgstr ""
+"Débloquez le flux de garantie, la prévention de la fraude, les notifications"
+" étendues et le support premium avec la version PRO."
+
+#: includes/admin-html/returns-exchanges-license.php:204
+msgid "View PRO features"
+msgstr "Voir les fonctionnalités PRO"
+
+#: includes/admin-html/returns-exchanges-license.php:217
+msgid "Documentation & Help"
+msgstr "Documentation & aide"
+
+#: includes/admin-html/returns-exchanges-license.php:221
+msgid "Browse Zorem Knowledge Base"
+msgstr "Parcourir la base de connaissances Zorem"
+
+#: includes/admin-html/returns-exchanges-license.php:227
+msgid "Submit Helpdesk Support Ticket"
+msgstr "Soumettre un ticket au support"
+
+#: includes/admin-html/returns-exchanges-license.php:233
+msgid "TrackShip Fulfillment Engine Portal"
+msgstr "Portail du moteur de traitement TrackShip"
+
+#: includes/admin-html/returns-exchanges-license.php:251
+msgid "Fulfillment Workflow Platform Ecosystem"
+msgstr "Écosystème de la plateforme de flux de traitement"
+
+#: includes/admin-html/returns-exchanges-license.php:252
+msgid "Install complimentary extensions developed by zorem."
+msgstr "Installez des extensions complémentaires développées par zorem."
+
+#: includes/admin-html/returns-exchanges-license.php:256
+msgid "All"
+msgstr "Tout"
+
+#: includes/admin-html/returns-exchanges-license.php:257
+#: includes/admin-html/returns-exchanges-license.php:290
+msgid "Active"
+msgstr "Actif"
+
+#: includes/admin-html/returns-exchanges-license.php:258
+msgid "Add-ons"
+msgstr "Extensions"
+
+#: includes/admin-html/returns-exchanges-license.php:266
+msgid "Search companion plugins…"
+msgstr "Rechercher des plugins complémentaires…"
+
+#: includes/admin-html/returns-exchanges-license.php:280
+msgid "WOO EXTENSION"
+msgstr "EXTENSION WOO"
+
+#: includes/admin-html/returns-exchanges-license.php:294
+msgid "Get Extension"
+msgstr "Obtenir l'extension"
+
+#: includes/admin-html/returns-exchanges-license.php:303
+msgid "No store plugins matched your search."
+msgstr "Aucun plugin ne correspond à votre recherche."
+
+#: includes/admin-html/returns-exchanges-settings.php:27
+msgid "Configure how returns and exchanges are displayed and handled."
+msgstr "Configurez l'affichage et le traitement des retours et des échanges."
+
+#: includes/admin-html/returns-exchanges-settings.php:32
+msgid "Refund methods, restocking fees, guidelines and return reasons."
+msgstr ""
+"Méthodes de remboursement, frais de restockage, consignes et motifs de "
+"retour."
+
+#: includes/admin-html/returns-exchanges-settings.php:37
+msgid "Exchange rules, cross-product options, guidelines and reasons."
+msgstr "Règles d'échange, options inter-produits, consignes et motifs."
+
+#: includes/admin-html/returns-exchanges-settings.php:41
+msgid "Fraud Prevention"
+msgstr "Prévention de la fraude"
+
+#: includes/admin-html/returns-exchanges-settings.php:42
+msgid "Per-customer return limits, blocklist and abuse controls."
+msgstr ""
+"Limites de retours par client, liste de blocage et contrôles anti-abus."
+
+#: includes/admin-html/returns-exchanges-settings.php:46
+#: includes/zorem-warranty/class-warranty.php:425
+msgid "Warranty"
+msgstr "Garantie"
+
+#: includes/admin-html/returns-exchanges-settings.php:47
+msgid "Enable warranty workflow, default period and reasons."
+msgstr "Activez le flux de garantie, la période par défaut et les motifs."
+
+#: includes/admin-html/returns-exchanges-settings.php:68
+msgid "Settings sections"
+msgstr "Sections des réglages"
+
+#: includes/admin-html/returns-exchanges-settings.php:178
+msgid "Bulk Upload to Blocklist"
+msgstr "Import groupé dans la liste de blocage"
+
+#: includes/admin-html/returns-exchanges-settings.php:179
+msgid ""
+"Upload a CSV or TXT file containing one email address or numeric user ID per"
+" line. Headers are detected and skipped. Entries are merged into the "
+"blocklist (duplicates ignored)."
+msgstr ""
+"Téléversez un fichier CSV ou TXT contenant une adresse e-mail ou un ID "
+"utilisateur numérique par ligne. Les en-têtes sont détectés et ignorés. Les "
+"entrées sont fusionnées dans la liste de blocage (doublons ignorés)."
+
+#: includes/admin-html/returns-exchanges-settings.php:181
+msgid ""
+"Upload a CSV or TXT file containing one email address or numeric user ID per"
+" line."
+msgstr ""
+"Téléversez un fichier CSV ou TXT contenant une adresse e-mail ou un ID "
+"utilisateur numérique par ligne."
+
+#: includes/admin-html/returns-exchanges-settings.php:189
+msgid "Upload"
+msgstr "Téléverser"
+
+#: includes/admin-html/returns-exchanges-settings.php:202
+msgid "Check Customer Return Count"
+msgstr "Vérifier le nombre de retours d'un client"
+
+#: includes/admin-html/returns-exchanges-settings.php:203
+msgid ""
+"Look up a customer by email or numeric user ID to see how many return rows "
+"they have within the current time window and whether they would be blocked."
+msgstr ""
+"Recherchez un client par e-mail ou ID utilisateur numérique pour voir "
+"combien de lignes de retour il possède dans la fenêtre de temps actuelle et "
+"s'il serait bloqué."
+
+#: includes/admin-html/returns-exchanges-settings.php:205
+msgid ""
+"Look up a customer by email or numeric user ID to see how many return rows "
+"they have within the current time window."
+msgstr ""
+"Recherchez un client par e-mail ou ID utilisateur numérique pour voir "
+"combien de lignes de retour il possède dans la fenêtre de temps actuelle."
+
+#: includes/admin-html/returns-exchanges-settings.php:211
+msgid "customer@example.com OR 42"
+msgstr "client@exemple.com OU 42"
+
+#: includes/admin-html/returns-exchanges-settings.php:213
+msgid "Check"
+msgstr "Vérifier"
+
+#: includes/admin-html/warranty-claims-dashboard.php:32
+msgid "All Claims"
+msgstr "Toutes les réclamations"
+
+#: includes/admin-html/warranty-claims-dashboard.php:49
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin-html/warranty-claims-dashboard.php:50
+#: includes/zorem-warranty/class-warranty.php:192
+#: templates/emails/_warranty-email-body.php:29
+msgid "Submitted"
+msgstr "Soumis le"
+
+#: includes/admin-html/warranty-claims-dashboard.php:54
+#: templates/emails/_warranty-email-body.php:78
+msgid "Product"
+msgstr "Produit"
+
+#: includes/admin-html/warranty-claims-dashboard.php:55
+#: includes/zorem-warranty/class-warranty.php:438
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:53
+#: templates/emails/_warranty-email-body.php:81
+msgid "Reason"
+msgstr "Motif"
+
+#: includes/admin-html/warranty-claims-dashboard.php:62
+msgid "No warranty claims to show."
+msgstr "Aucune réclamation de garantie à afficher."
+
+#: includes/admin-html/warranty-claims-dashboard.php:97
+msgid "View / Update"
+msgstr "Voir / Mettre à jour"
+
+#: includes/admin-html/warranty-claims-dashboard.php:105
+msgid "Customer description"
+msgstr "Description du client"
+
+#: includes/admin-html/warranty-claims-dashboard.php:122
+msgid "Update Claim"
+msgstr "Mettre à jour la réclamation"
+
+#: includes/admin-html/warranty-claims-dashboard.php:124
+msgid "New Status"
+msgstr "Nouveau statut"
+
+#: includes/admin-html/warranty-claims-dashboard.php:131
+msgid "Resolution (required when resolving)"
+msgstr "Résolution (requise lors de la résolution)"
+
+#: includes/admin-html/warranty-claims-dashboard.php:133
+msgid "— Select —"
+msgstr "— Sélectionner —"
+
+#: includes/admin-html/warranty-claims-dashboard.php:139
+msgid "Resolution note"
+msgstr "Note de résolution"
+
+#: includes/admin-html/warranty-claims-dashboard.php:140
+msgid "Optional — sent to the customer in the notification email."
+msgstr "Facultatif — envoyée au client dans l'e-mail de notification."
+
+#: includes/class-return-exchange-admin.php:204
+msgid "Search for a product…"
+msgstr "Rechercher un produit…"
+
+#: includes/class-return-exchange-admin.php:205
+msgid "Searching…"
+msgstr "Recherche en cours…"
+
+#: includes/class-return-exchange-admin.php:206
+msgid "No products found."
+msgstr "Aucun produit trouvé."
+
+#: includes/class-return-exchange-admin.php:207
+msgid "Select a variant"
+msgstr "Sélectionnez une variante"
+
+#: includes/class-return-exchange-admin.php:208
+msgid "Choose an option"
+msgstr "Choisissez une option"
+
+#: includes/class-return-exchange-admin.php:209
+msgid "Sorry, this combination is unavailable."
+msgstr "Désolé, cette combinaison n'est pas disponible."
+
+#: includes/class-return-exchange-admin.php:210
+msgid "Additional payment required"
+msgstr "Paiement supplémentaire requis"
+
+#: includes/class-return-exchange-admin.php:211
+msgid "Store credit will be issued"
+msgstr "Un avoir sera émis"
+
+#: includes/class-return-exchange-admin.php:212
+msgid "Even exchange"
+msgstr "Échange à valeur égale"
+
+#: includes/class-return-exchange-admin.php:432
+msgid "Return Window Extension"
+msgstr "Extension de la fenêtre de retour"
+
+#: includes/class-return-exchange-admin.php:435
+msgid "Custom Return Window (Days)"
+msgstr "Fenêtre de retour personnalisée (jours)"
+
+#: includes/class-return-exchange-admin.php:438
+msgid ""
+"Enter total return/exchange days for this user (max 90). Leave empty or 0 to"
+" use the global Return/Exchange Window (Days) setting."
+msgstr ""
+"Saisissez le nombre total de jours de retour/échange pour cet utilisateur "
+"(max 90). Laissez vide ou 0 pour utiliser le réglage global Fenêtre de "
+"retour/échange (jours)."
+
+#: includes/class-return-exchange-admin.php:534
+msgid ""
+"Days after the order date within which customers may request a return or "
+"exchange."
+msgstr ""
+"Nombre de jours après la date de commande pendant lesquels les clients "
+"peuvent demander un retour ou un échange."
+
+#: includes/class-return-exchange-admin.php:543
+msgid "Enable Per-User Return Window Extension"
+msgstr "Activer l'extension de fenêtre de retour par utilisateur"
+
+#: includes/class-return-exchange-admin.php:544
+msgid ""
+"Override the global window for individual customers from their user profile."
+msgstr ""
+"Remplacez la fenêtre globale pour des clients individuels depuis leur profil"
+" utilisateur."
+
+#: includes/class-return-exchange-admin.php:548
+msgid ""
+"When enabled, you can set a custom return/exchange window per customer from "
+"their user profile page."
+msgstr ""
+"Lorsque cette option est activée, vous pouvez définir une fenêtre de "
+"retour/échange personnalisée par client depuis sa page de profil "
+"utilisateur."
+
+#: includes/class-return-exchange-admin.php:551
+msgid "Restock Completed Returns and Exchanges"
+msgstr "Restocker les retours et échanges terminés"
+
+#: includes/class-return-exchange-admin.php:552
+msgid ""
+"Automatically add stock back on completed returns and approved exchanges."
+msgstr ""
+"Réintègre automatiquement le stock pour les retours terminés et les échanges"
+" approuvés."
+
+#: includes/class-return-exchange-admin.php:556
+msgid ""
+"Enable this option to automatically restock items when a return is marked as"
+" completed or an exchange is approved."
+msgstr ""
+"Activez cette option pour restocker automatiquement les articles lorsqu'un "
+"retour est marqué comme terminé ou qu'un échange est approuvé."
+
+#: includes/class-return-exchange-admin.php:560
+msgid ""
+"Only orders in one of the selected statuses will show the return/exchange "
+"buttons."
+msgstr ""
+"Seules les commandes ayant l'un des statuts sélectionnés afficheront les "
+"boutons de retour/échange."
+
+#: includes/class-return-exchange-admin.php:569
+msgid ""
+"Link customers open when they click the \"terms and conditions\" text on the"
+" return form."
+msgstr ""
+"Lien ouvert par les clients lorsqu'ils cliquent sur le texte « conditions "
+"générales » du formulaire de retour."
+
+#: includes/class-return-exchange-admin.php:582
+msgid ""
+"Products belonging to any of these categories cannot be returned or "
+"exchanged."
+msgstr ""
+"Les produits appartenant à l'une de ces catégories ne peuvent être ni "
+"retournés ni échangés."
+
+#: includes/class-return-exchange-admin.php:591
+msgid ""
+"Individual products that are excluded from the return/exchange workflow."
+msgstr "Produits individuels exclus du flux de retour/échange."
+
+#: includes/class-return-exchange-admin.php:599
+msgid ""
+"Address shown to customers for shipping returned items back to your store."
+msgstr ""
+"Adresse affichée aux clients pour renvoyer les articles retournés à votre "
+"boutique."
+
+#: includes/class-return-exchange-admin.php:619
+msgid "Keep the Item & Receive a Partial Refund"
+msgstr "Conserver l'article & recevoir un remboursement partiel"
+
+#: includes/class-return-exchange-admin.php:623
+#: includes/class-return-exchange-common.php:27
+msgid "Refund to Wallet (TeraWallet)"
+msgstr "Remboursement sur le portefeuille (TeraWallet)"
+
+#: includes/class-return-exchange-admin.php:639
+msgid "Include sale-priced items in the return workflow."
+msgstr "Inclure les articles en promotion dans le flux de retour."
+
+#: includes/class-return-exchange-admin.php:647
+msgid "Skip manual review — every new return is approved on submission."
+msgstr ""
+"Ignorer la validation manuelle — chaque nouveau retour est approuvé dès sa "
+"soumission."
+
+#: includes/class-return-exchange-admin.php:655
+msgid ""
+"Customer can choose individual items to return rather than the whole order."
+msgstr ""
+"Le client peut choisir des articles individuels à retourner plutôt que la "
+"commande entière."
+
+#: includes/class-return-exchange-admin.php:663
+msgid ""
+"Refund destinations offered to the customer when the return is approved."
+msgstr ""
+"Destinations de remboursement proposées au client lorsque le retour est "
+"approuvé."
+
+#: includes/class-return-exchange-admin.php:675
+msgid "Partial Refund Percentage"
+msgstr "Pourcentage de remboursement partiel"
+
+#: includes/class-return-exchange-admin.php:676
+msgid ""
+"Percentage of the item total refunded when the customer picks the \"Keep the"
+" Item\" resolution. Shown to the customer on the return form."
+msgstr ""
+"Pourcentage du total de l'article remboursé lorsque le client choisit la "
+"résolution « Conserver l'article ». Affiché au client sur le formulaire de "
+"retour."
+
+#: includes/class-return-exchange-admin.php:683
+msgid ""
+"Only used when \"Keep the Item & Receive a Partial Refund\" is enabled "
+"above. The plugin does not process this refund automatically — the admin "
+"issues it manually from the WooCommerce Edit Order page."
+msgstr ""
+"Utilisé uniquement lorsque « Conserver l'article & recevoir un remboursement"
+" partiel » est activé ci-dessus. Le plugin ne traite pas ce remboursement "
+"automatiquement — l'administrateur l'émet manuellement depuis la page "
+"Modifier la commande de WooCommerce."
+
+#: includes/class-return-exchange-admin.php:687
+msgid "Add the original shipping charge back into the refund total."
+msgstr ""
+"Réintègre les frais d'expédition d'origine dans le total du remboursement."
+
+#: includes/class-return-exchange-admin.php:694
+msgid "Enable Restocking Fee"
+msgstr "Activer les frais de restockage"
+
+#: includes/class-return-exchange-admin.php:695
+msgid ""
+"Deduct a fee from every approved refund; shown to the customer up-front."
+msgstr ""
+"Déduit des frais de chaque remboursement approuvé ; affichés au client dès "
+"le départ."
+
+#: includes/class-return-exchange-admin.php:699
+msgid ""
+"Deduct a restocking fee from the refund amount when a return is approved. "
+"The fee is shown to the customer before they submit their return request."
+msgstr ""
+"Déduisez des frais de restockage du montant du remboursement lorsqu'un "
+"retour est approuvé. Les frais sont affichés au client avant qu'il soumette "
+"sa demande de retour."
+
+#: includes/class-return-exchange-admin.php:702
+msgid "Restocking Fee Type"
+msgstr "Type de frais de restockage"
+
+#: includes/class-return-exchange-admin.php:703
+msgid ""
+"How the fee is calculated: a percentage of item price or a flat per-item "
+"amount."
+msgstr ""
+"Mode de calcul des frais : un pourcentage du prix de l'article ou un montant"
+" fixe par article."
+
+#: includes/class-return-exchange-admin.php:709
+#: includes/zorem-returns/class-restocking-fee.php:355
+#: includes/zorem-returns/class-restocking-fee.php:434
+#: includes/zorem-returns/class-restocking-fee.php:467
+msgid "Percentage (%)"
+msgstr "Pourcentage (%)"
+
+#: includes/class-return-exchange-admin.php:710
+#: includes/zorem-returns/class-restocking-fee.php:356
+#: includes/zorem-returns/class-restocking-fee.php:435
+#: includes/zorem-returns/class-restocking-fee.php:468
+msgid "Fixed amount per item"
+msgstr "Montant fixe par article"
+
+#: includes/class-return-exchange-admin.php:712
+msgid ""
+"Choose how the restocking fee is calculated. Percentage applies to each "
+"returned item's price; Fixed deducts a flat amount per returned item "
+"(multiplied by quantity)."
+msgstr ""
+"Choisissez comment les frais de restockage sont calculés. Le pourcentage "
+"s'applique au prix de chaque article retourné ; le montant fixe déduit une "
+"somme forfaitaire par article retourné (multipliée par la quantité)."
+
+#: includes/class-return-exchange-admin.php:715
+msgid "Restocking Fee Amount"
+msgstr "Montant des frais de restockage"
+
+#: includes/class-return-exchange-admin.php:716
+msgid ""
+"Value of the fee — a number for percentage, or a currency amount for fixed."
+msgstr ""
+"Valeur des frais — un nombre pour le pourcentage, ou un montant en devise "
+"pour le fixe."
+
+#: includes/class-return-exchange-admin.php:721
+msgid ""
+"For percentage: enter a number (e.g., 15 for 15%). For fixed: enter the "
+"amount in your store currency (e.g., 5 for ₹5/$5 per item)."
+msgstr ""
+"Pour le pourcentage : saisissez un nombre (ex. 15 pour 15 %). Pour le fixe :"
+" saisissez le montant dans la devise de votre boutique (ex. 5 pour 5 ₹/5 $ "
+"par article)."
+
+#: includes/class-return-exchange-admin.php:724
+msgid "Restocking Fee Label"
+msgstr "Libellé des frais de restockage"
+
+#: includes/class-return-exchange-admin.php:725
+msgid "Text shown to the customer next to the fee line item."
+msgstr "Texte affiché au client à côté de la ligne des frais."
+
+#: includes/class-return-exchange-admin.php:728
+#: includes/class-return-exchange-admin.php:729
+#: includes/zorem-returns/class-restocking-fee.php:86
+#: includes/zorem-returns/class-restocking-fee.php:87
+#: includes/zorem-returns/class-restocking-fee.php:336
+#: includes/zorem-returns/class-restocking-fee.php:423
+#: includes/zorem-returns/class-restocking-fee.php:453
+#: includes/zorem-returns/class-return-common-functions.php:227
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:332
+msgid "Restocking Fee"
+msgstr "Frais de restockage"
+
+#: includes/class-return-exchange-admin.php:730
+msgid ""
+"Label shown to the customer in the return summary, admin dashboard and "
+"refund emails."
+msgstr ""
+"Libellé affiché au client dans le récapitulatif de retour, le tableau de "
+"bord admin et les e-mails de remboursement."
+
+#: includes/class-return-exchange-admin.php:733
+msgid "Disable Returns for Payment Methods"
+msgstr "Désactiver les retours pour certains moyens de paiement"
+
+#: includes/class-return-exchange-admin.php:734
+msgid ""
+"Hide the Return button for orders paid via any of the selected gateways."
+msgstr ""
+"Masque le bouton Retour pour les commandes payées via l'une des passerelles "
+"sélectionnées."
+
+#: includes/class-return-exchange-admin.php:739
+msgid ""
+"Select payment gateways that are not eligible for returns. The Return button"
+" will be hidden for orders paid with these methods (e.g., Cash on Delivery)."
+msgstr ""
+"Sélectionnez les passerelles de paiement non éligibles aux retours. Le "
+"bouton Retour sera masqué pour les commandes payées avec ces moyens (ex. "
+"paiement à la livraison)."
+
+#: includes/class-return-exchange-admin.php:742
+msgid "Return Disabled Message"
+msgstr "Message de retour désactivé"
+
+#: includes/class-return-exchange-admin.php:743
+#: includes/class-return-exchange-admin.php:906
+msgid ""
+"Customer-facing text shown when the order was paid via a disabled gateway."
+msgstr ""
+"Texte affiché au client lorsque la commande a été payée via une passerelle "
+"désactivée."
+
+#: includes/class-return-exchange-admin.php:746
+#: includes/class-return-exchange-admin.php:747
+#: includes/zorem-returns/class-return-common-functions.php:947
+msgid ""
+"Returns are not available for Cash on Delivery orders. Please contact us "
+"directly."
+msgstr ""
+"Les retours ne sont pas disponibles pour les commandes payées à la "
+"livraison. Veuillez nous contacter directement."
+
+#: includes/class-return-exchange-admin.php:748
+#: includes/class-return-exchange-admin.php:911
+msgid ""
+"Message shown to customers when their order is paid via a disabled payment "
+"method."
+msgstr ""
+"Message affiché aux clients lorsque leur commande est payée via un moyen de "
+"paiement désactivé."
+
+#: includes/class-return-exchange-admin.php:752
+msgid ""
+"Instructions included in the return-approved email sent to the customer."
+msgstr ""
+"Instructions incluses dans l'e-mail d'approbation de retour envoyé au "
+"client."
+
+#: includes/class-return-exchange-admin.php:760
+msgid "Options shown in the reason dropdown on the customer return form."
+msgstr ""
+"Options affichées dans la liste déroulante des motifs sur le formulaire de "
+"retour client."
+
+#: includes/class-return-exchange-admin.php:792
+msgid "Master switch — hides the entire exchange workflow when off."
+msgstr ""
+"Interrupteur principal — masque l'intégralité du flux d'échange lorsqu'il "
+"est désactivé."
+
+#: includes/class-return-exchange-admin.php:800
+msgid "Include sale-priced items in the exchange workflow."
+msgstr "Inclure les articles en promotion dans le flux d'échange."
+
+#: includes/class-return-exchange-admin.php:808
+msgid "Skip manual review — every new exchange is approved on submission."
+msgstr ""
+"Ignorer la validation manuelle — chaque nouvel échange est approuvé dès sa "
+"soumission."
+
+#: includes/class-return-exchange-admin.php:816
+msgid ""
+"Customer can pick individual items to exchange rather than the whole order."
+msgstr ""
+"Le client peut choisir des articles individuels à échanger plutôt que la "
+"commande entière."
+
+#: includes/class-return-exchange-admin.php:823
+msgid "Allow Cross-Product Exchange"
+msgstr "Autoriser l'échange inter-produits"
+
+#: includes/class-return-exchange-admin.php:824
+msgid ""
+"Customer can exchange for any catalog product, not just other variations."
+msgstr ""
+"Le client peut échanger contre n'importe quel produit du catalogue, pas "
+"seulement d'autres variantes."
+
+#: includes/class-return-exchange-admin.php:828
+msgid ""
+"Allow customers to exchange for any product in the catalog, not just the "
+"same product's variations."
+msgstr ""
+"Autorisez les clients à échanger contre n'importe quel produit du catalogue,"
+" pas seulement les variantes du même produit."
+
+#: includes/class-return-exchange-admin.php:831
+msgid "Show Original → Requested Exchange Table in Customer Emails"
+msgstr ""
+"Afficher le tableau Original → Échange demandé dans les e-mails clients"
+
+#: includes/class-return-exchange-admin.php:832
+msgid ""
+"Include a side-by-side comparison of original vs. requested product in "
+"emails."
+msgstr ""
+"Inclut une comparaison côte à côte du produit original et du produit demandé"
+" dans les e-mails."
+
+#: includes/class-return-exchange-admin.php:836
+msgid ""
+"When enabled, customer exchange emails "
+"(requested/approved/completed/rejected) include a comparison table showing "
+"the original product alongside the requested exchange product. When "
+"disabled, only the basic original-item summary is shown."
+msgstr ""
+"Lorsque cette option est activée, les e-mails d'échange client "
+"(demandé/approuvé/terminé/rejeté) incluent un tableau comparatif montrant le"
+" produit original à côté du produit d'échange demandé. Lorsqu'elle est "
+"désactivée, seul le récapitulatif de base de l'article original est affiché."
+
+#: includes/class-return-exchange-admin.php:839
+msgid "When new item costs more"
+msgstr "Lorsque le nouvel article coûte plus cher"
+
+#: includes/class-return-exchange-admin.php:840
+msgid ""
+"How the price difference is collected when the replacement is more "
+"expensive."
+msgstr ""
+"Mode de collecte de la différence de prix lorsque le remplacement est plus "
+"cher."
+
+#: includes/class-return-exchange-admin.php:849
+msgid "Create pending payment order for the difference"
+msgstr "Créer une commande en attente de paiement pour la différence"
+
+#: includes/class-return-exchange-admin.php:850
+msgid "Ship first and invoice later"
+msgstr "Expédier d'abord et facturer ensuite"
+
+#: includes/class-return-exchange-admin.php:852
+msgid ""
+"Choose what happens when the replacement product costs more than the "
+"original item."
+msgstr ""
+"Choisissez ce qui se passe lorsque le produit de remplacement coûte plus "
+"cher que l'article d'origine."
+
+#: includes/class-return-exchange-admin.php:855
+msgid "When new item costs less"
+msgstr "Lorsque le nouvel article coûte moins cher"
+
+#: includes/class-return-exchange-admin.php:856
+msgid "How the leftover balance is handled when the replacement is cheaper."
+msgstr "Traitement du solde restant lorsque le remplacement est moins cher."
+
+#: includes/class-return-exchange-admin.php:865
+msgid "Issue store credit coupon for the balance"
+msgstr "Émettre un coupon d'avoir pour le solde"
+
+#: includes/class-return-exchange-admin.php:866
+msgid "No credit — discard the difference"
+msgstr "Aucun avoir — abandonner la différence"
+
+#: includes/class-return-exchange-admin.php:868
+msgid ""
+"Choose what happens when the replacement product costs less than the "
+"original item."
+msgstr ""
+"Choisissez ce qui se passe lorsque le produit de remplacement coûte moins "
+"cher que l'article d'origine."
+
+#: includes/class-return-exchange-admin.php:871
+msgid "Store credit coupon expiry (days)"
+msgstr "Expiration du coupon d'avoir (jours)"
+
+#: includes/class-return-exchange-admin.php:872
+msgid "Lifetime of the issued store-credit coupon (0 = never expires)."
+msgstr "Durée de vie du coupon d'avoir émis (0 = n'expire jamais)."
+
+#: includes/class-return-exchange-admin.php:880
+msgid ""
+"Number of days before the store credit coupon expires. Enter 0 for no "
+"expiry."
+msgstr ""
+"Nombre de jours avant l'expiration du coupon d'avoir. Saisissez 0 pour "
+"aucune expiration."
+
+#: includes/class-return-exchange-admin.php:883
+msgid "Preset Shipping Method for Exchange Orders"
+msgstr "Méthode d'expédition prédéfinie pour les commandes d'échange"
+
+#: includes/class-return-exchange-admin.php:884
+msgid "Shipping method automatically applied to child exchange orders."
+msgstr ""
+"Méthode d'expédition appliquée automatiquement aux commandes d'échange "
+"enfants."
+
+#: includes/class-return-exchange-admin.php:893
+msgid ""
+"Select the shipping method that should automatically be applied to exchange "
+"orders created by the plugin. If none selected, WooCommerce default shipping"
+" method will be used."
+msgstr ""
+"Sélectionnez la méthode d'expédition à appliquer automatiquement aux "
+"commandes d'échange créées par le plugin. Si aucune n'est sélectionnée, la "
+"méthode d'expédition par défaut de WooCommerce sera utilisée."
+
+#: includes/class-return-exchange-admin.php:896
+msgid "Disable Exchanges for Payment Methods"
+msgstr "Désactiver les échanges pour certains moyens de paiement"
+
+#: includes/class-return-exchange-admin.php:897
+msgid ""
+"Hide the Exchange button for orders paid via any of the selected gateways."
+msgstr ""
+"Masque le bouton Échange pour les commandes payées via l'une des passerelles"
+" sélectionnées."
+
+#: includes/class-return-exchange-admin.php:902
+msgid ""
+"Select payment gateways that are not eligible for exchanges. The Exchange "
+"button will be hidden for orders paid with these methods (e.g., Cash on "
+"Delivery)."
+msgstr ""
+"Sélectionnez les passerelles de paiement non éligibles aux échanges. Le "
+"bouton Échange sera masqué pour les commandes payées avec ces moyens (ex. "
+"paiement à la livraison)."
+
+#: includes/class-return-exchange-admin.php:905
+msgid "Exchange Disabled Message"
+msgstr "Message d'échange désactivé"
+
+#: includes/class-return-exchange-admin.php:909
+#: includes/class-return-exchange-admin.php:910
+#: includes/zorem-exchanges/class-exchange-common-functions.php:437
+msgid ""
+"Exchanges are not available for Cash on Delivery orders. Please contact us "
+"directly."
+msgstr ""
+"Les échanges ne sont pas disponibles pour les commandes payées à la "
+"livraison. Veuillez nous contacter directement."
+
+#: includes/class-return-exchange-admin.php:915
+msgid ""
+"Instructions included in the exchange-approved email sent to the customer."
+msgstr ""
+"Instructions incluses dans l'e-mail d'approbation d'échange envoyé au "
+"client."
+
+#: includes/class-return-exchange-admin.php:923
+msgid "Options shown in the reason dropdown on the customer exchange form."
+msgstr ""
+"Options affichées dans la liste déroulante des motifs sur le formulaire "
+"d'échange client."
+
+#: includes/class-return-exchange-admin.php:956
+msgid "Enable Fraud Prevention"
+msgstr "Activer la prévention de la fraude"
+
+#: includes/class-return-exchange-admin.php:957
+msgid "Master switch for the per-customer return limit and the blocklist."
+msgstr ""
+"Interrupteur principal pour la limite de retours par client et la liste de "
+"blocage."
+
+#: includes/class-return-exchange-admin.php:961
+msgid ""
+"Turn on per-customer return limits and the blocklist. When disabled, no "
+"fraud prevention checks are run."
+msgstr ""
+"Activez les limites de retours par client et la liste de blocage. Lorsque "
+"cette option est désactivée, aucun contrôle de prévention de la fraude n'est"
+" effectué."
+
+#: includes/class-return-exchange-admin.php:988
+msgid "Enable Per-Customer Return Limit"
+msgstr "Activer la limite de retours par client"
+
+#: includes/class-return-exchange-admin.php:989
+msgid ""
+"Cap how many returns a single customer can submit inside a rolling window."
+msgstr ""
+"Plafonnez le nombre de retours qu'un même client peut soumettre dans une "
+"fenêtre glissante."
+
+#: includes/class-return-exchange-admin.php:993
+msgid ""
+"Limit how many returns a single customer can submit within a rolling time "
+"window."
+msgstr ""
+"Limitez le nombre de retours qu'un même client peut soumettre dans une "
+"fenêtre de temps glissante."
+
+#. translators: 1: max returns, 2: window in days
+#: includes/class-return-exchange-admin.php:1002
+#: includes/zorem-returns/class-fraud-prevention.php:319
+#, php-format
+msgid ""
+"You have reached the maximum of %1$d returns within the last %2$d days. "
+"Please contact our support team for assistance."
+msgstr ""
+"Vous avez atteint le maximum de %1$d retours au cours des %2$d derniers "
+"jours. Veuillez contacter notre équipe d'assistance."
+
+#: includes/class-return-exchange-admin.php:1006
+msgid "Maximum Returns per Customer"
+msgstr "Nombre maximum de retours par client"
+
+#: includes/class-return-exchange-admin.php:1007
+msgid "How many return requests a customer may submit before being blocked."
+msgstr ""
+"Nombre de demandes de retour qu'un client peut soumettre avant d'être "
+"bloqué."
+
+#: includes/class-return-exchange-admin.php:1014
+msgid ""
+"Maximum number of return requests a single customer is allowed within the "
+"time window below."
+msgstr ""
+"Nombre maximum de demandes de retour autorisées pour un même client dans la "
+"fenêtre de temps ci-dessous."
+
+#: includes/class-return-exchange-admin.php:1017
+msgid "Time Window (Days)"
+msgstr "Fenêtre de temps (jours)"
+
+#: includes/class-return-exchange-admin.php:1018
+msgid "Rolling look-back window used to count a customer's recent returns."
+msgstr ""
+"Fenêtre glissante rétrospective utilisée pour compter les retours récents "
+"d'un client."
+
+#: includes/class-return-exchange-admin.php:1025
+msgid ""
+"Rolling window, in days, used to count a customer's recent returns (e.g. 90 "
+"= the last 90 days)."
+msgstr ""
+"Fenêtre glissante, en jours, utilisée pour compter les retours récents d'un "
+"client (ex. 90 = les 90 derniers jours)."
+
+#: includes/class-return-exchange-admin.php:1028
+msgid "Limit-Reached Message"
+msgstr "Message de limite atteinte"
+
+#: includes/class-return-exchange-admin.php:1029
+msgid "Message shown to customers who exceed the limit above."
+msgstr "Message affiché aux clients qui dépassent la limite ci-dessus."
+
+#: includes/class-return-exchange-admin.php:1034
+#, php-format
+msgid ""
+"Message shown to a customer who has reached the return limit. You may use "
+"%1$d for the max count and %2$d for the window in days."
+msgstr ""
+"Message affiché à un client qui a atteint la limite de retours. Vous pouvez "
+"utiliser %1$d pour le nombre maximum et %2$d pour la fenêtre en jours."
+
+#: includes/class-return-exchange-admin.php:1045
+msgid "Email Admin When Limit Is Hit"
+msgstr "Envoyer un e-mail à l'admin quand la limite est atteinte"
+
+#: includes/class-return-exchange-admin.php:1046
+msgid "Send an admin alert each time a customer trips the return limit."
+msgstr ""
+"Envoie une alerte à l'administrateur chaque fois qu'un client atteint la "
+"limite de retours."
+
+#: includes/class-return-exchange-admin.php:1050
+msgid ""
+"Send a notification email when a customer reaches the configured per-"
+"customer return limit. Throttled to one email per customer per day."
+msgstr ""
+"Envoyez un e-mail de notification lorsqu'un client atteint la limite de "
+"retours par client configurée. Limité à un e-mail par client et par jour."
+
+#: includes/class-return-exchange-admin.php:1061
+msgid "Admin Notification Email"
+msgstr "E-mail de notification admin"
+
+#: includes/class-return-exchange-admin.php:1062
+msgid ""
+"Recipient of the limit-reached notification. Leave blank to use the site "
+"admin email."
+msgstr ""
+"Destinataire de la notification de limite atteinte. Laissez vide pour "
+"utiliser l'e-mail de l'admin du site."
+
+#: includes/class-return-exchange-admin.php:1067
+msgid ""
+"Email address to receive limit-reached notifications. Leave blank to use the"
+" WordPress site admin email."
+msgstr ""
+"Adresse e-mail recevant les notifications de limite atteinte. Laissez vide "
+"pour utiliser l'e-mail de l'admin du site WordPress."
+
+#: includes/class-return-exchange-admin.php:1078
+msgid "Customer Blocklist"
+msgstr "Liste de blocage des clients"
+
+#: includes/class-return-exchange-admin.php:1079
+msgid ""
+"Emails or numeric user IDs banned from starting a return. One per line."
+msgstr ""
+"E-mails ou ID utilisateurs numériques interdits de démarrer un retour. Un "
+"par ligne."
+
+#: includes/class-return-exchange-admin.php:1084
+msgid ""
+"One entry per line. Accepts customer email addresses OR numeric user IDs. "
+"Blocked customers cannot submit return requests."
+msgstr ""
+"Une entrée par ligne. Accepte les adresses e-mail des clients OU les ID "
+"utilisateurs numériques. Les clients bloqués ne peuvent pas soumettre de "
+"demandes de retour."
+
+#: includes/class-return-exchange-admin.php:1093
+#: includes/zorem-returns/class-fraud-prevention.php:304
+msgid ""
+"Returns are not available for your account. Please contact our support team "
+"for assistance."
+msgstr ""
+"Les retours ne sont pas disponibles pour votre compte. Veuillez contacter "
+"notre équipe d'assistance."
+
+#: includes/class-return-exchange-admin.php:1097
+msgid "Silently Hide Return Button"
+msgstr "Masquer silencieusement le bouton Retour"
+
+#: includes/class-return-exchange-admin.php:1098
+msgid ""
+"Hide the Return button with no message (bypasses the Blocklist Message "
+"below)."
+msgstr ""
+"Masque le bouton Retour sans aucun message (ignore le message de liste de "
+"blocage ci-dessous)."
+
+#: includes/class-return-exchange-admin.php:1102
+msgid ""
+"When enabled, the Start a Return button is hidden without any message for "
+"blocked customers / customers over the limit. When disabled (default), the "
+"message above is shown."
+msgstr ""
+"Lorsque cette option est activée, le bouton Démarrer un retour est masqué "
+"sans aucun message pour les clients bloqués / ayant dépassé la limite. "
+"Lorsqu'elle est désactivée (par défaut), le message ci-dessus est affiché."
+
+#: includes/class-return-exchange-admin.php:1105
+msgid "Blocklist Message"
+msgstr "Message de liste de blocage"
+
+#: includes/class-return-exchange-admin.php:1106
+msgid "Message shown to blocked customers when they try to start a return."
+msgstr ""
+"Message affiché aux clients bloqués lorsqu'ils tentent de démarrer un "
+"retour."
+
+#: includes/class-return-exchange-admin.php:1111
+msgid ""
+"Message shown to customers who appear on the blocklist when they try to "
+"start a return."
+msgstr ""
+"Message affiché aux clients figurant sur la liste de blocage lorsqu'ils "
+"tentent de démarrer un retour."
+
+#: includes/class-return-exchange-admin.php:1132
+msgid "Enable Warranty Workflow"
+msgstr "Activer le flux de garantie"
+
+#: includes/class-return-exchange-admin.php:1133
+msgid ""
+"Add a warranty claim button after the standard return window has expired."
+msgstr ""
+"Ajoute un bouton de réclamation de garantie après l'expiration de la fenêtre"
+" de retour standard."
+
+#: includes/class-return-exchange-admin.php:1137
+msgid ""
+"Show a \"Submit Warranty Claim\" button on customer orders after the "
+"standard return window has expired (while the product is still under "
+"warranty)."
+msgstr ""
+"Affichez un bouton « Soumettre une réclamation de garantie » sur les "
+"commandes des clients après l'expiration de la fenêtre de retour standard "
+"(tant que le produit est toujours sous garantie)."
+
+#: includes/class-return-exchange-admin.php:1147
+#: includes/zorem-warranty/class-warranty.php:166
+msgid "Stopped working"
+msgstr "A cessé de fonctionner"
+
+#: includes/class-return-exchange-admin.php:1148
+#: includes/zorem-warranty/class-warranty.php:167
+#: templates/emails/_warranty-email-body.php:30
+msgid "Manufacturing defect"
+msgstr "Défaut de fabrication"
+
+#: includes/class-return-exchange-admin.php:1149
+#: includes/zorem-warranty/class-warranty.php:168
+msgid "Broken or damaged"
+msgstr "Cassé ou endommagé"
+
+#: includes/class-return-exchange-admin.php:1150
+#: includes/zorem-warranty/class-warranty.php:169
+msgid "Missing parts after some use"
+msgstr "Pièces manquantes après utilisation"
+
+#: includes/class-return-exchange-admin.php:1151
+#: includes/zorem-warranty/class-warranty.php:170
+msgid "Performance issue"
+msgstr "Problème de performance"
+
+#: includes/class-return-exchange-admin.php:1156
+msgid "Default Warranty Period (Days)"
+msgstr "Période de garantie par défaut (jours)"
+
+#: includes/class-return-exchange-admin.php:1157
+msgid ""
+"Fallback warranty length when a product or category doesn't override it. 0 "
+"disables by default."
+msgstr ""
+"Durée de garantie de repli lorsqu'un produit ou une catégorie ne la remplace"
+" pas. 0 désactive par défaut."
+
+#: includes/class-return-exchange-admin.php:1164
+msgid ""
+"Default warranty length in days. Used when a product or category does not "
+"set its own. 0 = no warranty by default."
+msgstr ""
+"Durée de garantie par défaut en jours. Utilisée lorsqu'un produit ou une "
+"catégorie ne définit pas la sienne. 0 = pas de garantie par défaut."
+
+#: includes/class-return-exchange-admin.php:1167
+msgid "Warranty Reasons"
+msgstr "Motifs de garantie"
+
+#: includes/class-return-exchange-admin.php:1168
+msgid "Options shown in the reason dropdown on the warranty claim form."
+msgstr ""
+"Options affichées dans la liste déroulante des motifs sur le formulaire de "
+"réclamation de garantie."
+
+#: includes/class-return-exchange-admin.php:1175
+msgid "List of reasons a customer can pick when filing a warranty claim."
+msgstr ""
+"Liste des motifs qu'un client peut choisir lors du dépôt d'une réclamation "
+"de garantie."
+
+#: includes/class-return-exchange-admin.php:1207
+msgid "Select Shipping Method"
+msgstr "Sélectionner la méthode d'expédition"
+
+#: includes/class-return-exchange-admin.php:1239
+msgid "Rest of the world"
+msgstr "Reste du monde"
+
+#. translators: %d — percentage of item total refunded when the customer keeps
+#. the product.
+#. translators: %d — partial refund percentage.
+#: includes/class-return-exchange-common.php:31
+#: includes/zorem-returns/htmls/returns-center-form.php:291
+#, php-format
+msgid "Keep the Item & Receive a %d%% Partial Refund"
+msgstr "Conserver l'article & recevoir un remboursement partiel de %d%%"
+
+#: includes/class-return-exchange-common.php:200
+msgid "My Returns"
+msgstr "Mes retours"
+
+#: includes/class-return-exchange-common.php:201
+msgid "You have no return requests yet."
+msgstr "Vous n'avez encore aucune demande de retour."
+
+#: includes/class-return-exchange-license.php:186
+msgid "Every day"
+msgstr "Tous les jours"
+
+#: includes/customizer/customizer-admin.php:82
+#: includes/customizer/customizer-admin.php:122
+msgid "Return & Exchange Customizer"
+msgstr "Personnalisateur de retours & échanges"
+
+#: includes/customizer/customizer-admin.php:355
+msgid "Return Completed (Customer)"
+msgstr "Retour terminé (client)"
+
+#: includes/customizer/customizer-admin.php:357
+msgid "Return Store Credit (Customer)"
+msgstr "Avoir de retour (client)"
+
+#: includes/customizer/customizer-admin.php:360
+msgid "Exchange Completed (Customer)"
+msgstr "Échange terminé (client)"
+
+#: includes/customizer/customizer-admin.php:362
+msgid "Exchange Store Credit (Customer)"
+msgstr "Avoir d'échange (client)"
+
+#: includes/customizer/customizer-admin.php:363
+msgid "Warranty Claim Submitted (Customer)"
+msgstr "Réclamation de garantie soumise (client)"
+
+#: includes/customizer/customizer-admin.php:364
+msgid "Warranty Claim Under Review (Customer)"
+msgstr "Réclamation de garantie en cours d'examen (client)"
+
+#: includes/customizer/customizer-admin.php:365
+msgid "Warranty Claim Approved (Customer)"
+msgstr "Réclamation de garantie approuvée (client)"
+
+#: includes/customizer/customizer-admin.php:366
+msgid "Warranty Claim Rejected (Customer)"
+msgstr "Réclamation de garantie rejetée (client)"
+
+#: includes/customizer/customizer-admin.php:367
+msgid "Warranty Claim Resolved (Customer)"
+msgstr "Réclamation de garantie résolue (client)"
+
+#: includes/customizer/customizer-admin.php:368
+msgid "Return Request Received (Admin)"
+msgstr "Demande de retour reçue (admin)"
+
+#: includes/customizer/customizer-admin.php:369
+msgid "Return Approved (Admin)"
+msgstr "Retour approuvé (admin)"
+
+#: includes/customizer/customizer-admin.php:370
+msgid "Return Completed (Admin)"
+msgstr "Retour terminé (admin)"
+
+#: includes/customizer/customizer-admin.php:371
+msgid "Return Rejected (Admin)"
+msgstr "Retour rejeté (admin)"
+
+#: includes/customizer/customizer-admin.php:372
+msgid "Exchange Request Received (Admin)"
+msgstr "Demande d'échange reçue (admin)"
+
+#: includes/customizer/customizer-admin.php:373
+msgid "Exchange Approved (Admin)"
+msgstr "Échange approuvé (admin)"
+
+#: includes/customizer/customizer-admin.php:374
+msgid "Exchange Completed (Admin)"
+msgstr "Échange terminé (admin)"
+
+#: includes/customizer/customizer-admin.php:375
+msgid "Exchange Rejected (Admin)"
+msgstr "Échange rejeté (admin)"
+
+#: includes/customizer/customizer-admin.php:376
+msgid "Warranty Claim Submitted (Admin)"
+msgstr "Réclamation de garantie soumise (admin)"
+
+#: includes/customizer/customizer-admin.php:377
+msgid "Warranty Claim Under Review (Admin)"
+msgstr "Réclamation de garantie en cours d'examen (admin)"
+
+#: includes/customizer/customizer-admin.php:378
+msgid "Warranty Claim Approved (Admin)"
+msgstr "Réclamation de garantie approuvée (admin)"
+
+#: includes/customizer/customizer-admin.php:379
+msgid "Warranty Claim Rejected (Admin)"
+msgstr "Réclamation de garantie rejetée (admin)"
+
+#: includes/customizer/customizer-admin.php:380
+msgid "Warranty Claim Resolved (Admin)"
+msgstr "Réclamation de garantie résolue (admin)"
+
+#: includes/customizer/customizer-admin.php:456
+msgid "Section Title for Warranty Claim"
+msgstr "Titre de section pour la réclamation de garantie"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:396
+msgid "Exchange Request Summary"
+msgstr "Récapitulatif de la demande d'échange"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:399
+msgid "Original Product"
+msgstr "Produit original"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:400
+msgid "Requested Exchange"
+msgstr "Échange demandé"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:652
+msgid "Your exchange request has been completed successfully."
+msgstr "Votre demande d'échange a été traitée avec succès."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:672
+msgid ""
+"Your exchange request has been approved. You may keep the item. Your "
+"replacement will be dispatched automatically."
+msgstr ""
+"Votre demande d'échange a été approuvée. Vous pouvez conserver l'article. "
+"Votre remplacement sera expédié automatiquement."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:869
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:309
+#: includes/zorem-returns/class-return-common-functions.php:1566
+#: includes/zorem-returns/htmls/returns-center-form.php:233
+#: templates/emails/customer-exchange-approved.php:56
+#: templates/emails/customer-return-approved.php:56
+msgid "Keep Your Item"
+msgstr "Conservez votre article"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:870
+#: templates/emails/customer-exchange-approved.php:57
+msgid ""
+"No return shipping required. You may keep the item. Your replacement will be"
+" dispatched automatically."
+msgstr ""
+"Aucun retour d'expédition requis. Vous pouvez conserver l'article. Votre "
+"remplacement sera expédié automatiquement."
+
+#. translators: %s: attribute label
+#. translators: %s: attribute label, e.g. "Any Size"
+#: includes/zorem-exchanges/class-exchange-common-functions.php:986
+#: includes/zorem-exchanges/class-exchange-product-search.php:136
+#, php-format
+msgid "Any %s"
+msgstr "Tout %s"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1209
+msgid "Your Exchange Has Been Completed"
+msgstr "Votre échange est terminé"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1210
+msgid "Your Exchange Is Complete!"
+msgstr "Votre échange est terminé !"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1211
+msgid ""
+"Great news! Your exchange request has been completed successfully.<br><br>We"
+" hope you enjoy your new item. Don't hesitate to reach out if you need any "
+"further assistance."
+msgstr ""
+"Bonne nouvelle ! Votre demande d'échange a été traitée avec "
+"succès.<br><br>Nous espérons que votre nouvel article vous plaira. N'hésitez"
+" pas à nous contacter si vous avez besoin d'aide supplémentaire."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1212
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1235
+msgid "Exchanged Items"
+msgstr "Articles échangés"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1218
+#: includes/zorem-returns/class-return-common-functions.php:1234
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1225
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1226
+msgid "Your Exchange Store Credit Has Been Issued!"
+msgstr "Votre avoir d'échange a été émis !"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1227
+msgid ""
+"Your exchange has been completed. Since the replacement item costs less than"
+" your original item, store credit has been issued for the difference."
+msgstr ""
+"Votre échange est terminé. Le prix de l'article de remplacement étant "
+"inférieur à celui de votre article d'origine, un avoir a été émis pour la "
+"différence."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1228
+#: includes/zorem-returns/class-return-common-functions.php:1244
+msgid "How to Use Your Store Credit"
+msgstr "Comment utiliser votre avoir"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1229
+#: includes/zorem-returns/class-return-common-functions.php:1245
+msgid ""
+"If you have any questions, feel free to reply to this email. <br><br>Thank "
+"you for shopping with "
+msgstr ""
+"Si vous avez des questions, n'hésitez pas à répondre à cet e-mail. "
+"<br><br>Merci de vos achats chez "
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1234
+msgid ""
+"The exchange for order #{order_number} has been marked as completed. Below "
+"are the details:"
+msgstr ""
+"L'échange pour la commande #{order_number} a été marqué comme terminé. Voici"
+" les détails :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1239
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1240
+msgid "Exchange Request Rejected"
+msgstr "Demande d'échange rejetée"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1241
+msgid ""
+"The exchange request for order #{order_number} has been rejected by the "
+"admin. Below are the details:"
+msgstr ""
+"La demande d'échange pour la commande #{order_number} a été rejetée par "
+"l'administrateur. Voici les détails :"
+
+#. translators: 1: Order edit URL, 2: Parent order ID
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1298
+#, php-format
+msgid ""
+"This is an exchange child order for <a href=\"%1$s\"><strong>Order "
+"#%2$d</strong></a>."
+msgstr ""
+"Ceci est une commande enfant d'échange pour la <a "
+"href=\"%1$s\"><strong>commande #%2$d</strong></a>."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1305
+msgid "Type:"
+msgstr "Type :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1305
+msgid "Cross-Product Exchange"
+msgstr "Échange inter-produits"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1311
+msgid "Awaiting customer payment"
+msgstr "En attente du paiement du client"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1312
+msgid "Share this payment link with the customer:"
+msgstr "Partagez ce lien de paiement avec le client :"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1317
+msgid "Open Payment Page"
+msgstr "Ouvrir la page de paiement"
+
+#: includes/zorem-exchanges/class-exchange-front.php:399
+#: includes/zorem-exchanges/class-exchange-front.php:472
+msgid "No payment required (Exchange)"
+msgstr "Aucun paiement requis (échange)"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:295
+msgid ""
+"No return shipping required for original item. Customer retains the original"
+" product. Replacement order will be created on approval."
+msgstr ""
+"Aucun retour d'expédition requis pour l'article original. Le client conserve"
+" le produit original. La commande de remplacement sera créée à "
+"l'approbation."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:368
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:745
+#: includes/zorem-returns/class-return-common-functions.php:262
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:393
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1069
+msgid "Mark as Completed"
+msgstr "Marquer comme terminé"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:508
+msgid "Exchange marked completed in Returns Dashboard."
+msgstr "Échange marqué comme terminé dans le tableau de bord des retours."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:662
+msgid "Cross-Product"
+msgstr "Inter-produits"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:673
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:678
+msgid "Even"
+msgstr "À valeur égale"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:676
+msgid "Same Variant"
+msgstr "Même variante"
+
+#. translators: %s: Payment URL sent to the customer
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:797
+#, php-format
+msgid "Payment request sent to customer. Payment link: %s"
+msgstr "Demande de paiement envoyée au client. Lien de paiement : %s"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:804
+msgid "Payment request sent successfully. Order set to Pending Payment."
+msgstr ""
+"Demande de paiement envoyée avec succès. Commande définie sur En attente de "
+"paiement."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:269
+msgid "Exchange Credit (Original Item Value)"
+msgstr "Crédit d'échange (valeur de l'article original)"
+
+#. translators: %1$s: Balance amount (formatted) %2$s: Shop name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:311
+#, php-format
+msgid "Your exchange is on its way — balance of %1$s due | %2$s"
+msgstr "Votre échange est en route — solde de %1$s dû | %2$s"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:318
+msgid "Your exchange order has been shipped"
+msgstr "Votre commande d'échange a été expédiée"
+
+#. translators: %1$s: Customer name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:322
+#, php-format
+msgid "Hi <strong>%1$s</strong>,"
+msgstr "Bonjour <strong>%1$s</strong>,"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:325
+msgid ""
+"Good news — your exchange item has been approved and will be shipped to you "
+"shortly."
+msgstr ""
+"Bonne nouvelle — votre article d'échange a été approuvé et vous sera expédié"
+" sous peu."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:327
+msgid "Balance due:"
+msgstr "Solde dû :"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:328
+msgid ""
+"The replacement item costs more than your original item. Please pay the "
+"balance at your convenience using the link below."
+msgstr ""
+"L'article de remplacement coûte plus cher que votre article d'origine. "
+"Veuillez régler le solde à votre convenance via le lien ci-dessous."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:331
+msgid "Pay Balance Now"
+msgstr "Payer le solde maintenant"
+
+#. translators: %1$s: Payment link (HTML anchor tag)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:335
+#, php-format
+msgid "Payment link: %1$s"
+msgstr "Lien de paiement : %1$s"
+
+#. translators: %1$s: Balance amount (formatted HTML) %2$s: Customer payment
+#. URL
+#: includes/zorem-exchanges/class-exchange-price-handler.php:349
+#, php-format
+msgid ""
+"Ship first invoice sent to customer. Balance due: %1$s. Payment link: %2$s"
+msgstr ""
+"Facture « expédier d'abord » envoyée au client. Solde dû : %1$s. Lien de "
+"paiement : %2$s"
+
+#. translators: %1$s: Exchange payment amount (plain text, no HTML) %2$s:
+#. Customer payment URL
+#: includes/zorem-exchanges/class-exchange-price-handler.php:370
+#, php-format
+msgid "Exchange payment required: %1$s. Customer payment link: %2$s"
+msgstr "Paiement d'échange requis : %1$s. Lien de paiement client : %2$s"
+
+#. translators: %s: Shop name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:395
+#, php-format
+msgid "Payment required for your exchange — %s"
+msgstr "Paiement requis pour votre échange — %s"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:400
+msgid "Payment required for your exchange"
+msgstr "Paiement requis pour votre échange"
+
+#. translators: %s: Customer name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:403
+#, php-format
+msgid "Hi <strong>%s</strong>,"
+msgstr "Bonjour <strong>%s</strong>,"
+
+#. translators: %s: Additional payment amount (formatted HTML)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:408
+#, php-format
+msgid ""
+"Your exchange request has been approved. An additional payment of "
+"<strong>%s</strong> is required to complete your exchange."
+msgstr ""
+"Votre demande d'échange a été approuvée. Un paiement supplémentaire de "
+"<strong>%s</strong> est requis pour finaliser votre échange."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:414
+msgid "Pay Now"
+msgstr "Payer maintenant"
+
+#. translators: %s: Payment link (HTML anchor tag)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:418
+#, php-format
+msgid "Or use this link: %s"
+msgstr "Ou utilisez ce lien : %s"
+
+#: includes/zorem-exchanges/class-exchange-product-search.php:149
+msgid "Default"
+msgstr "Par défaut"
+
+#. translators: %1$s: Additional charge amount (plain text, no HTML)
+#: includes/zorem-exchanges/class-exchange-product-search.php:253
+#, php-format
+msgid "You will be charged an additional <strong>%1$s</strong> upon approval."
+msgstr ""
+"Un montant supplémentaire de <strong>%1$s</strong> vous sera facturé à "
+"l'approbation."
+
+#. translators: %1$s: Store credit amount (plain text, no HTML)
+#: includes/zorem-exchanges/class-exchange-product-search.php:260
+#, php-format
+msgid "You will receive <strong>%1$s</strong> in store credit."
+msgstr "Vous recevrez <strong>%1$s</strong> en avoir."
+
+#: includes/zorem-exchanges/class-exchange-product-search.php:266
+msgid "Even exchange — no additional payment needed."
+msgstr "Échange à valeur égale — aucun paiement supplémentaire nécessaire."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:214
+msgid "Search for a replacement product"
+msgstr "Rechercher un produit de remplacement"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:216
+msgid "Type a product name…"
+msgstr "Saisissez un nom de produit…"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:237
+msgid "Select variant"
+msgstr "Sélectionner la variante"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:239
+msgid "— Select a variant —"
+msgstr "— Sélectionnez une variante —"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:310
+msgid ""
+"You will receive your replacement item and you do not need to return your "
+"original product."
+msgstr ""
+"Vous recevrez votre article de remplacement et vous n'avez pas besoin de "
+"retourner votre produit d'origine."
+
+#. translators: %s: site name
+#: includes/zorem-returns/class-fraud-prevention.php:394
+#, php-format
+msgid "[%s] Return limit reached by a customer"
+msgstr "[%s] Limite de retours atteinte par un client"
+
+#: includes/zorem-returns/class-fraud-prevention.php:399
+msgid "A customer has reached the per-customer return limit."
+msgstr "Un client a atteint la limite de retours par client."
+
+#: includes/zorem-returns/class-fraud-prevention.php:401
+#, php-format
+msgid "Customer Email: %s"
+msgstr "E-mail du client : %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:402
+#, php-format
+msgid "Customer User ID: %s"
+msgstr "ID utilisateur du client : %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:402
+msgid "guest"
+msgstr "invité"
+
+#: includes/zorem-returns/class-fraud-prevention.php:403
+#, php-format
+msgid "Approved/requested returns within the last %1$d days: %2$d"
+msgstr "Retours approuvés/demandés au cours des %1$d derniers jours : %2$d"
+
+#: includes/zorem-returns/class-fraud-prevention.php:404
+#, php-format
+msgid "Configured maximum: %d"
+msgstr "Maximum configuré : %d"
+
+#: includes/zorem-returns/class-fraud-prevention.php:405
+#, php-format
+msgid "Latest Order ID: %s"
+msgstr "ID de la dernière commande : %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:406
+#, php-format
+msgid "Return Request ID: %s"
+msgstr "ID de la demande de retour : %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:408
+msgid "Review this customer's return history in your Returns Center."
+msgstr ""
+"Consultez l'historique des retours de ce client dans votre Centre de "
+"retours."
+
+#: includes/zorem-returns/class-fraud-prevention.php:424
+#: includes/zorem-returns/class-fraud-prevention.php:519
+msgid "You do not have permission to do this."
+msgstr "Vous n'avez pas l'autorisation de faire cela."
+
+#: includes/zorem-returns/class-fraud-prevention.php:429
+msgid "No file received. Please select a CSV or TXT file."
+msgstr "Aucun fichier reçu. Veuillez sélectionner un fichier CSV ou TXT."
+
+#: includes/zorem-returns/class-fraud-prevention.php:435
+msgid "Upload error. Please try again."
+msgstr "Erreur de téléversement. Veuillez réessayer."
+
+#: includes/zorem-returns/class-fraud-prevention.php:440
+msgid "File too large. Maximum allowed size is 2 MB."
+msgstr "Fichier trop volumineux. La taille maximale autorisée est de 2 Mo."
+
+#: includes/zorem-returns/class-fraud-prevention.php:445
+msgid "Only .csv and .txt files are allowed."
+msgstr "Seuls les fichiers .csv et .txt sont autorisés."
+
+#: includes/zorem-returns/class-fraud-prevention.php:454
+msgid "Unable to read the uploaded file."
+msgstr "Impossible de lire le fichier téléversé."
+
+#. translators: 1: added, 2: skipped duplicates, 3: rejected lines
+#: includes/zorem-returns/class-fraud-prevention.php:496
+#, php-format
+msgid ""
+"Blocklist updated. Added: %1$d. Skipped (duplicates): %2$d. Rejected "
+"(invalid): %3$d."
+msgstr ""
+"Liste de blocage mise à jour. Ajoutés : %1$d. Ignorés (doublons) : %2$d. "
+"Rejetés (invalides) : %3$d."
+
+#: includes/zorem-returns/class-fraud-prevention.php:525
+msgid "Please enter a customer email or user ID."
+msgstr "Veuillez saisir un e-mail client ou un ID utilisateur."
+
+#: includes/zorem-returns/class-fraud-prevention.php:543
+msgid "Enter a valid email address or numeric user ID."
+msgstr "Saisissez une adresse e-mail valide ou un ID utilisateur numérique."
+
+#: includes/zorem-returns/class-internal-notes.php:168
+msgid "(unknown user)"
+msgstr "(utilisateur inconnu)"
+
+#. translators: %s: human time difference, e.g. "5 minutes"
+#: includes/zorem-returns/class-internal-notes.php:175
+#, php-format
+msgid "%s ago"
+msgstr "Il y a %s"
+
+#: includes/zorem-returns/class-internal-notes.php:199
+msgid "You do not have permission to add notes."
+msgstr "Vous n'avez pas l'autorisation d'ajouter des notes."
+
+#: includes/zorem-returns/class-internal-notes.php:209
+msgid "Note cannot be empty."
+msgstr "La note ne peut pas être vide."
+
+#: includes/zorem-returns/class-internal-notes.php:215
+msgid "Return request not found."
+msgstr "Demande de retour introuvable."
+
+#: includes/zorem-returns/class-internal-notes.php:220
+msgid "Could not save the note."
+msgstr "Impossible d'enregistrer la note."
+
+#: includes/zorem-returns/class-internal-notes.php:249
+#: includes/zorem-warranty/class-warranty.php:564
+#: includes/zorem-warranty/class-warranty.php:687
+msgid "You do not have permission."
+msgstr "Vous n'avez pas l'autorisation."
+
+#: includes/zorem-returns/class-internal-notes.php:256
+msgid "Could not delete note (you may not be the author)."
+msgstr ""
+"Impossible de supprimer la note (vous n'en êtes peut-être pas l'auteur)."
+
+#: includes/zorem-returns/class-internal-notes.php:327
+msgid "A team member"
+msgstr "Un membre de l'équipe"
+
+#. translators: 1: author name, 2: request id
+#: includes/zorem-returns/class-internal-notes.php:341
+#, php-format
+msgid "[%1$s] You were mentioned in a note on return request #%2$d"
+msgstr ""
+"[%1$s] Vous avez été mentionné dans une note sur la demande de retour n° "
+"%2$d"
+
+#. translators: %s: Customer display name.
+#: includes/zorem-returns/class-internal-notes.php:347
+#, php-format
+msgid "Hi %s,"
+msgstr "Bonjour %s,"
+
+#. translators: 1: author name, 2: order id, 3: request id
+#: includes/zorem-returns/class-internal-notes.php:351
+#, php-format
+msgid ""
+"%1$s mentioned you in an internal note on the return request for order #%2$d"
+" (request #%3$d)."
+msgstr ""
+"%1$s vous a mentionné dans une note interne sur la demande de retour de la "
+"commande n° %2$d (demande n° %3$d)."
+
+#: includes/zorem-returns/class-internal-notes.php:357
+msgid "Open the return request:"
+msgstr "Ouvrir la demande de retour :"
+
+#: includes/zorem-returns/class-internal-notes.php:389
+msgid "Internal Admin Notes"
+msgstr "Notes internes admin"
+
+#: includes/zorem-returns/class-internal-notes.php:392
+msgid ""
+"Private to your team. Customers never see these. Type @ to mention a "
+"teammate."
+msgstr ""
+"Privées pour votre équipe. Les clients ne les voient jamais. Tapez @ pour "
+"mentionner un coéquipier."
+
+#: includes/zorem-returns/class-internal-notes.php:397
+msgid "No notes yet."
+msgstr "Aucune note pour le moment."
+
+#: includes/zorem-returns/class-internal-notes.php:409
+msgid "Add an internal note…"
+msgstr "Ajouter une note interne…"
+
+#: includes/zorem-returns/class-internal-notes.php:413
+msgid "Add Note"
+msgstr "Ajouter une note"
+
+#: includes/zorem-returns/class-internal-notes.php:448
+msgid "Delete this note"
+msgstr "Supprimer cette note"
+
+#: includes/zorem-returns/class-restocking-fee.php:337
+msgid "Override the global restocking fee for this product, or exempt it."
+msgstr ""
+"Remplacez les frais de restockage globaux pour ce produit, ou exemptez-le."
+
+#: includes/zorem-returns/class-restocking-fee.php:341
+#: includes/zorem-returns/class-restocking-fee.php:425
+#: includes/zorem-returns/class-restocking-fee.php:456
+msgid "Use global setting"
+msgstr "Utiliser le réglage global"
+
+#: includes/zorem-returns/class-restocking-fee.php:342
+#: includes/zorem-returns/class-restocking-fee.php:426
+#: includes/zorem-returns/class-restocking-fee.php:457
+msgid "Override (custom amount)"
+msgstr "Remplacer (montant personnalisé)"
+
+#: includes/zorem-returns/class-restocking-fee.php:343
+#: includes/zorem-returns/class-restocking-fee.php:427
+#: includes/zorem-returns/class-restocking-fee.php:458
+msgid "Exempt (no fee)"
+msgstr "Exempter (aucuns frais)"
+
+#: includes/zorem-returns/class-restocking-fee.php:351
+#: includes/zorem-returns/class-restocking-fee.php:432
+#: includes/zorem-returns/class-restocking-fee.php:464
+msgid "Fee Type"
+msgstr "Type de frais"
+
+#: includes/zorem-returns/class-restocking-fee.php:364
+#: includes/zorem-returns/class-restocking-fee.php:439
+#: includes/zorem-returns/class-restocking-fee.php:473
+msgid "Fee Amount"
+msgstr "Montant des frais"
+
+#: includes/zorem-returns/class-restocking-fee.php:429
+#: includes/zorem-returns/class-restocking-fee.php:460
+msgid "Override the global restocking fee for products in this category."
+msgstr ""
+"Remplacez les frais de restockage globaux pour les produits de cette "
+"catégorie."
+
+#: includes/zorem-returns/class-return-common-functions.php:207
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:312
+msgid "Selected Resolution:"
+msgstr "Résolution sélectionnée :"
+
+#: includes/zorem-returns/class-return-common-functions.php:209
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:314
+msgid ""
+"Customer keeps the item. Process the partial refund manually from the "
+"WooCommerce Edit Order page — the plugin does not issue it automatically."
+msgstr ""
+"Le client conserve l'article. Traitez le remboursement partiel manuellement "
+"depuis la page Modifier la commande de WooCommerce — le plugin ne l'émet pas"
+" automatiquement."
+
+#: includes/zorem-returns/class-return-common-functions.php:243
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:356
+msgid ""
+"Edit the restocking fee before approving the request. Leave 0 to refund the "
+"full amount."
+msgstr ""
+"Modifiez les frais de restockage avant d'approuver la demande. Laissez 0 "
+"pour rembourser le montant total."
+
+#. translators: %s: order number
+#: includes/zorem-returns/class-return-common-functions.php:541
+#, php-format
+msgid "Wallet refund for return request on order #%s"
+msgstr ""
+"Remboursement sur portefeuille pour la demande de retour de la commande n° "
+"%s"
+
+#. translators: 1: fee label, 2: fee amount
+#: includes/zorem-returns/class-return-common-functions.php:552
+#: includes/zorem-returns/class-return-common-functions.php:642
+#, php-format
+msgid "(%1$s deducted: %2$s)"
+msgstr "(%1$s déduits : %2$s)"
+
+#. translators: %1$s: refund amount, %2$s: order number
+#: includes/zorem-returns/class-return-common-functions.php:560
+#, php-format
+msgid "Refund of %1$s credited to customer wallet for return request #%2$s."
+msgstr ""
+"Remboursement de %1$s crédité sur le portefeuille du client pour la demande "
+"de retour n° %2$s."
+
+#: includes/zorem-returns/class-return-common-functions.php:629
+msgid "Keep the Item — refund for return request"
+msgstr "Conserver l'article — remboursement pour la demande de retour"
+
+#. translators: %1$s: refund amount, %2$s: request ID
+#: includes/zorem-returns/class-return-common-functions.php:650
+#, php-format
+msgid ""
+"Keep the Item — refund of %1$s processed automatically for return request "
+"#%2$s. Customer retains the item."
+msgstr ""
+"Conserver l'article — remboursement de %1$s traité automatiquement pour la "
+"demande de retour n° %2$s. Le client conserve l'article."
+
+#: includes/zorem-returns/class-return-common-functions.php:736
+msgid "Select…"
+msgstr "Sélectionner…"
+
+#: includes/zorem-returns/class-return-common-functions.php:795
+msgid "Add"
+msgstr "Ajouter"
+
+#: includes/zorem-returns/class-return-common-functions.php:962
+msgid ""
+"Returns and exchanges are not available for this payment method. Please "
+"contact us directly."
+msgstr ""
+"Les retours et échanges ne sont pas disponibles pour ce moyen de paiement. "
+"Veuillez nous contacter directement."
+
+#: includes/zorem-returns/class-return-common-functions.php:1225
+msgid "Your Return Has Been Completed"
+msgstr "Votre retour est terminé"
+
+#: includes/zorem-returns/class-return-common-functions.php:1226
+msgid "Your Return Has Been Completed!"
+msgstr "Votre retour est terminé !"
+
+#: includes/zorem-returns/class-return-common-functions.php:1227
+msgid ""
+"We are pleased to inform you that your return has been completed. The "
+"returned items have been received and verified. Your refund has been "
+"processed accordingly."
+msgstr ""
+"Nous avons le plaisir de vous informer que votre retour est terminé. Les "
+"articles retournés ont été reçus et vérifiés. Votre remboursement a été "
+"traité en conséquence."
+
+#: includes/zorem-returns/class-return-common-functions.php:1229
+msgid "Thank you for your patience."
+msgstr "Merci de votre patience."
+
+#: includes/zorem-returns/class-return-common-functions.php:1243
+msgid ""
+"We’re happy to let you know that your return has been completed and your "
+"refund has been issued as store credit for your convenience."
+msgstr ""
+"Nous sommes heureux de vous informer que votre retour est terminé et que "
+"votre remboursement a été émis sous forme d'avoir pour votre commodité."
+
+#: includes/zorem-returns/class-return-common-functions.php:1250
+msgid ""
+"The return for order #{order_number} has been marked as completed. Below are"
+" the details:"
+msgstr ""
+"Le retour pour la commande #{order_number} a été marqué comme terminé. Voici"
+" les détails :"
+
+#: includes/zorem-returns/class-return-common-functions.php:1255
+#: includes/zorem-returns/class-return-common-functions.php:1256
+msgid "Return Request Rejected"
+msgstr "Demande de retour rejetée"
+
+#: includes/zorem-returns/class-return-common-functions.php:1257
+msgid ""
+"The return request for order #{order_number} has been rejected by the admin."
+" Below are the details:"
+msgstr ""
+"La demande de retour pour la commande #{order_number} a été rejetée par "
+"l'administrateur. Voici les détails :"
+
+#: includes/zorem-returns/class-return-common-functions.php:1438
+#: includes/zorem-returns/class-return-front.php:357
+msgid ""
+"Your return has been completed. The returned items have been received and "
+"restocked. Your refund has been processed."
+msgstr ""
+"Votre retour est terminé. Les articles retournés ont été reçus et restockés."
+" Votre remboursement a été traité."
+
+#: includes/zorem-returns/class-return-common-functions.php:1458
+#: includes/zorem-returns/class-return-front.php:378
+msgid ""
+"Your return request has been approved. You may keep the item. Your refund "
+"will be processed automatically."
+msgstr ""
+"Votre demande de retour a été approuvée. Vous pouvez conserver l'article. "
+"Votre remboursement sera traité automatiquement."
+
+#: includes/zorem-returns/class-return-common-functions.php:1567
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:277
+#: includes/zorem-returns/htmls/returns-center-form.php:234
+msgid ""
+"No return shipping required. Customer retains the product. Refund will be "
+"processed automatically on approval."
+msgstr ""
+"Aucun retour d'expédition requis. Le client conserve le produit. Le "
+"remboursement sera traité automatiquement à l'approbation."
+
+#: includes/zorem-returns/class-return-common-functions.php:1589
+#: templates/emails/customer-return-approved.php:70
+msgid "Return Shipping Label"
+msgstr "Étiquette de retour"
+
+#: includes/zorem-returns/class-return-common-functions.php:1590
+msgid ""
+"A return shipping label has been provided. Please download, print, and "
+"attach it to your return package."
+msgstr ""
+"Une étiquette de retour a été fournie. Veuillez la télécharger, l'imprimer "
+"et la coller sur votre colis de retour."
+
+#: includes/zorem-returns/class-return-common-functions.php:1594
+msgid "Download Return Shipping Label"
+msgstr "Télécharger l'étiquette de retour"
+
+#: includes/zorem-returns/class-return-front.php:706
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1215
+msgid "Security check failed."
+msgstr "Échec du contrôle de sécurité."
+
+#: includes/zorem-returns/class-return-front.php:711
+#: includes/zorem-warranty/class-warranty.php:696
+msgid "Invalid request."
+msgstr "Requête invalide."
+
+#: includes/zorem-returns/class-return-front.php:716
+msgid "No return label found."
+msgstr "Aucune étiquette de retour trouvée."
+
+#: includes/zorem-returns/class-return-front.php:728
+msgid "You do not have permission to access this file."
+msgstr "Vous n'avez pas l'autorisation d'accéder à ce fichier."
+
+#: includes/zorem-returns/class-return-front.php:740
+msgid "Invalid file name."
+msgstr "Nom de fichier invalide."
+
+#: includes/zorem-returns/class-return-front.php:749
+msgid "Invalid file path."
+msgstr "Chemin de fichier invalide."
+
+#: includes/zorem-returns/class-return-front.php:753
+msgid "File not found."
+msgstr "Fichier introuvable."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:365
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:376
+msgid "Attach Return Shipping Label (PDF)"
+msgstr "Joindre une étiquette de retour (PDF)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:367
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:378
+msgid ""
+"Upload a return shipping label PDF (max 10MB). The customer will be able to "
+"download this."
+msgstr ""
+"Téléversez une étiquette de retour au format PDF (max 10 Mo). Le client "
+"pourra la télécharger."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:391
+msgid "Return shipping label attached."
+msgstr "Étiquette de retour jointe."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:391
+msgid "View PDF"
+msgstr "Voir le PDF"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1219
+msgid "Permission denied."
+msgstr "Autorisation refusée."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1224
+msgid "Invalid request ID."
+msgstr "ID de demande invalide."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1229
+msgid ""
+"Failed to upload PDF. Please ensure the file is a valid PDF under 10MB."
+msgstr ""
+"Échec du téléversement du PDF. Veuillez vous assurer que le fichier est un "
+"PDF valide de moins de 10 Mo."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1237
+msgid "Return shipping label uploaded successfully."
+msgstr "Étiquette de retour téléversée avec succès."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:242
+msgid "Refund Summary"
+msgstr "Récapitulatif du remboursement"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:244
+msgid "Items refund"
+msgstr "Remboursement des articles"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:252
+msgid "Estimated refund"
+msgstr "Remboursement estimé"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:255
+msgid "Final refund amount may be adjusted by the store before approval."
+msgstr ""
+"Le montant final du remboursement peut être ajusté par la boutique avant "
+"l'approbation."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:280
+msgid "Refund to Wallet"
+msgstr "Remboursement sur portefeuille"
+
+#: includes/zorem-warranty/class-warranty.php:184
+msgid "Repair"
+msgstr "Réparation"
+
+#: includes/zorem-warranty/class-warranty.php:185
+msgid "Replacement Product"
+msgstr "Produit de remplacement"
+
+#: includes/zorem-warranty/class-warranty.php:186
+msgid "Partial Refund"
+msgstr "Remboursement partiel"
+
+#: includes/zorem-warranty/class-warranty.php:193
+msgid "Under Review"
+msgstr "En cours d'examen"
+
+#: includes/zorem-warranty/class-warranty.php:194
+msgid "Approved"
+msgstr "Approuvé"
+
+#: includes/zorem-warranty/class-warranty.php:195
+msgid "Rejected"
+msgstr "Rejeté"
+
+#: includes/zorem-warranty/class-warranty.php:196
+msgid "Resolved"
+msgstr "Résolu"
+
+#: includes/zorem-warranty/class-warranty.php:319
+#: includes/zorem-warranty/class-warranty.php:352
+#: includes/zorem-warranty/class-warranty.php:363
+msgid "Warranty Period (Days)"
+msgstr "Période de garantie (jours)"
+
+#: includes/zorem-warranty/class-warranty.php:320
+msgid ""
+"Days the warranty is valid from the order completion date. Leave blank or 0 "
+"to use the category / global default. Enter -1 to explicitly disable "
+"warranty for this product."
+msgstr ""
+"Nombre de jours de validité de la garantie à partir de la date de "
+"finalisation de la commande. Laissez vide ou 0 pour utiliser la valeur par "
+"défaut de la catégorie / globale. Saisissez -1 pour désactiver explicitement"
+" la garantie pour ce produit."
+
+#: includes/zorem-warranty/class-warranty.php:354
+#: includes/zorem-warranty/class-warranty.php:366
+msgid ""
+"Default warranty days for products in this category. Leave blank or 0 to "
+"inherit the global default. Enter -1 to disable warranty for this category."
+msgstr ""
+"Nombre de jours de garantie par défaut pour les produits de cette catégorie."
+" Laissez vide ou 0 pour hériter de la valeur globale par défaut. Saisissez "
+"-1 pour désactiver la garantie pour cette catégorie."
+
+#: includes/zorem-warranty/class-warranty.php:442
+#: templates/emails/_warranty-email-body.php:87
+msgid "Resolution"
+msgstr "Résolution"
+
+#: includes/zorem-warranty/class-warranty.php:457
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:17
+msgid "Submit Warranty Claim"
+msgstr "Soumettre une réclamation de garantie"
+
+#: includes/zorem-warranty/class-warranty.php:459
+msgid ""
+"All eligible items for this order have an active warranty claim. Contact "
+"support if you need to file again."
+msgstr ""
+"Tous les articles éligibles de cette commande ont une réclamation de "
+"garantie active. Contactez le support si vous devez en déposer une nouvelle."
+
+#: includes/zorem-warranty/class-warranty.php:477
+msgid "You do not have permission to view this order."
+msgstr "Vous n'avez pas l'autorisation de voir cette commande."
+
+#: includes/zorem-warranty/class-warranty.php:483
+msgid "No items in this order are eligible for a warranty claim."
+msgstr ""
+"Aucun article de cette commande n'est éligible à une réclamation de "
+"garantie."
+
+#: includes/zorem-warranty/class-warranty.php:567
+msgid "Please choose a reason and describe the issue."
+msgstr "Veuillez choisir un motif et décrire le problème."
+
+#: includes/zorem-warranty/class-warranty.php:574
+msgid "This item is no longer covered by warranty."
+msgstr "Cet article n'est plus couvert par la garantie."
+
+#: includes/zorem-warranty/class-warranty.php:614
+msgid "Could not save the claim."
+msgstr "Impossible d'enregistrer la réclamation."
+
+#: includes/zorem-warranty/class-warranty.php:622
+msgid "Warranty claim submitted. We will review and contact you shortly."
+msgstr ""
+"Réclamation de garantie soumise. Nous l'examinerons et vous contacterons "
+"sous peu."
+
+#: includes/zorem-warranty/class-warranty.php:647
+msgid "Only image files (jpg, png, gif, webp) are allowed."
+msgstr "Seuls les fichiers image (jpg, png, gif, webp) sont autorisés."
+
+#: includes/zorem-warranty/class-warranty.php:650
+msgid "Each file must be under 5 MB."
+msgstr "Chaque fichier doit faire moins de 5 Mo."
+
+#: includes/zorem-warranty/class-warranty.php:700
+msgid "Claim not found."
+msgstr "Réclamation introuvable."
+
+#: includes/zorem-warranty/class-warranty.php:712
+msgid "Please choose a resolution type before resolving."
+msgstr "Veuillez choisir un type de résolution avant de résoudre."
+
+#. translators: %s: new status label
+#: includes/zorem-warranty/class-warranty.php:731
+#, php-format
+msgid "Claim updated to: %s."
+msgstr "Réclamation mise à jour : %s."
+
+#: includes/zorem-warranty/class-warranty.php:758
+#: includes/zorem-warranty/class-warranty.php:759
+msgid "Your Warranty Claim Has Been Received"
+msgstr "Votre réclamation de garantie a été reçue"
+
+#: includes/zorem-warranty/class-warranty.php:760
+msgid ""
+"Thank you for submitting your warranty claim. Our team will review your "
+"request and get back to you shortly."
+msgstr ""
+"Merci d'avoir soumis votre réclamation de garantie. Notre équipe examinera "
+"votre demande et vous répondra sous peu."
+
+#: includes/zorem-warranty/class-warranty.php:761
+#: includes/zorem-warranty/class-warranty.php:768
+#: includes/zorem-warranty/class-warranty.php:782
+#: includes/zorem-warranty/class-warranty.php:797
+#: includes/zorem-warranty/class-warranty.php:804
+#: includes/zorem-warranty/class-warranty.php:818
+msgid "Warranty Claim Details"
+msgstr "Détails de la réclamation de garantie"
+
+#: includes/zorem-warranty/class-warranty.php:765
+#: includes/zorem-warranty/class-warranty.php:766
+msgid "Your Warranty Claim Is Under Review"
+msgstr "Votre réclamation de garantie est en cours d'examen"
+
+#: includes/zorem-warranty/class-warranty.php:767
+msgid ""
+"We are currently reviewing your warranty claim. We will contact you as soon "
+"as we have an update."
+msgstr ""
+"Nous examinons actuellement votre réclamation de garantie. Nous vous "
+"contacterons dès que nous aurons du nouveau."
+
+#: includes/zorem-warranty/class-warranty.php:769
+msgid "Thank you for your patience"
+msgstr "Merci de votre patience"
+
+#: includes/zorem-warranty/class-warranty.php:772
+msgid "Your Warranty Claim Has Been Approved"
+msgstr "Votre réclamation de garantie a été approuvée"
+
+#: includes/zorem-warranty/class-warranty.php:774
+msgid ""
+"Good news — your warranty claim has been approved. We will follow up shortly"
+" with next steps."
+msgstr ""
+"Bonne nouvelle — votre réclamation de garantie a été approuvée. Nous vous "
+"recontacterons sous peu pour les prochaines étapes."
+
+#: includes/zorem-warranty/class-warranty.php:775
+#: includes/zorem-warranty/class-warranty.php:811
+msgid "Approved Warranty Claim"
+msgstr "Réclamation de garantie approuvée"
+
+#: includes/zorem-warranty/class-warranty.php:779
+msgid "Update On Your Warranty Claim"
+msgstr "Mise à jour de votre réclamation de garantie"
+
+#: includes/zorem-warranty/class-warranty.php:781
+msgid ""
+"We are sorry to inform you that your warranty claim was not approved. Please"
+" see the note below for more information, and feel free to reply with any "
+"questions."
+msgstr ""
+"Nous sommes au regret de vous informer que votre réclamation de garantie n'a"
+" pas été approuvée. Veuillez consulter la note ci-dessous pour plus "
+"d'informations, et n'hésitez pas à répondre si vous avez des questions."
+
+#: includes/zorem-warranty/class-warranty.php:786
+msgid "Your Warranty Claim Has Been Resolved"
+msgstr "Votre réclamation de garantie a été résolue"
+
+#: includes/zorem-warranty/class-warranty.php:788
+msgid ""
+"Your warranty claim has been resolved. Thank you for giving us the "
+"opportunity to make it right."
+msgstr ""
+"Votre réclamation de garantie a été résolue. Merci de nous avoir donné "
+"l'occasion d'arranger les choses."
+
+#: includes/zorem-warranty/class-warranty.php:789
+#: includes/zorem-warranty/class-warranty.php:825
+msgid "Resolved Warranty Claim"
+msgstr "Réclamation de garantie résolue"
+
+#: includes/zorem-warranty/class-warranty.php:794
+msgid "New Warranty Claim Received"
+msgstr "Nouvelle réclamation de garantie reçue"
+
+#: includes/zorem-warranty/class-warranty.php:795
+msgid "A New Warranty Claim Has Been Submitted"
+msgstr "Une nouvelle réclamation de garantie a été soumise"
+
+#: includes/zorem-warranty/class-warranty.php:796
+msgid "A new warranty claim has just been submitted:"
+msgstr "Une nouvelle réclamation de garantie vient d'être soumise :"
+
+#: includes/zorem-warranty/class-warranty.php:798
+msgid "Open the Warranty Claims dashboard to review and update the claim."
+msgstr ""
+"Ouvrez le tableau de bord des réclamations de garantie pour examiner et "
+"mettre à jour la réclamation."
+
+#: includes/zorem-warranty/class-warranty.php:801
+msgid "Warranty Claim Moved To Under Review"
+msgstr "Réclamation de garantie passée en cours d'examen"
+
+#: includes/zorem-warranty/class-warranty.php:803
+msgid "The following warranty claim has been moved to \"Under Review\":"
+msgstr ""
+"La réclamation de garantie suivante a été passée en « Cours d'examen » :"
+
+#: includes/zorem-warranty/class-warranty.php:805
+msgid "Open the Warranty Claims dashboard to take the next step."
+msgstr ""
+"Ouvrez le tableau de bord des réclamations de garantie pour passer à l'étape"
+" suivante."
+
+#: includes/zorem-warranty/class-warranty.php:810
+msgid "The following warranty claim has been approved:"
+msgstr "La réclamation de garantie suivante a été approuvée :"
+
+#: includes/zorem-warranty/class-warranty.php:812
+msgid "Open the Warranty Claims dashboard to complete the resolution."
+msgstr ""
+"Ouvrez le tableau de bord des réclamations de garantie pour finaliser la "
+"résolution."
+
+#: includes/zorem-warranty/class-warranty.php:817
+msgid "The following warranty claim has been rejected:"
+msgstr "La réclamation de garantie suivante a été rejetée :"
+
+#: includes/zorem-warranty/class-warranty.php:819
+msgid "Open the Warranty Claims dashboard if you need to revisit this claim."
+msgstr ""
+"Ouvrez le tableau de bord des réclamations de garantie si vous devez revenir"
+" sur cette réclamation."
+
+#: includes/zorem-warranty/class-warranty.php:824
+msgid "The following warranty claim has been marked as resolved:"
+msgstr "La réclamation de garantie suivante a été marquée comme résolue :"
+
+#: includes/zorem-warranty/class-warranty.php:826
+msgid "No further action is required."
+msgstr "Aucune action supplémentaire n'est requise."
+
+#. translators: %d: order number
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:22
+#, php-format
+msgid ""
+"For order #%d. Please choose the item, tell us what went wrong, and upload "
+"any helpful photos. We will review and contact you within a few business "
+"days."
+msgstr ""
+"Pour la commande n° %d. Veuillez choisir l'article, nous expliquer ce qui ne"
+" va pas et téléverser toute photo utile. Nous examinerons votre demande et "
+"vous contacterons sous quelques jours ouvrés."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:34
+msgid "Item"
+msgstr "Article"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:36
+msgid "Select an item…"
+msgstr "Sélectionnez un article…"
+
+#. translators: 1: product name, 2: days remaining
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:42
+#, php-format
+msgid "%1$s — %2$d days left on warranty"
+msgstr "%1$s — %2$d jours de garantie restants"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:55
+msgid "Select a reason…"
+msgstr "Sélectionnez un motif…"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:63
+msgid "Describe the problem"
+msgstr "Décrivez le problème"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:64
+msgid "Tell us what happened, when it started, what you have tried, etc."
+msgstr ""
+"Expliquez-nous ce qui s'est passé, quand cela a commencé, ce que vous avez "
+"essayé, etc."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:68
+msgid "Photos (optional)"
+msgstr "Photos (facultatif)"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:70
+msgid "JPG, PNG, GIF or WEBP. Max 5 MB each."
+msgstr "JPG, PNG, GIF ou WEBP. Max 5 Mo chacun."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:74
+msgid "Submit Claim"
+msgstr "Soumettre la réclamation"
+
+#: templates/emails/admin-exchange-rejected.php:69
+#: templates/emails/admin-return-rejected.php:70
+msgid "Rejection Note:"
+msgstr "Note de rejet :"
+
+#: templates/emails/customer-exchange-completed.php:39
+msgid "Exchange Note:"
+msgstr "Note d'échange :"
+
+#: templates/emails/customer-exchange-store-credit.php:44
+msgid "Coupon Code"
+msgstr "Code promo"
+
+#: templates/emails/customer-exchange-store-credit.php:48
+msgid "Credit Amount"
+msgstr "Montant de l'avoir"
+
+#: templates/emails/customer-exchange-store-credit.php:59
+#: templates/emails/customer-return-store-credit.php:59
+msgid "Browse and add your favourite products to the cart."
+msgstr "Parcourez et ajoutez vos produits préférés au panier."
+
+#. translators: %s: Coupon code.
+#: templates/emails/customer-exchange-store-credit.php:64
+#: templates/emails/customer-return-store-credit.php:64
+#, php-format
+msgid "At checkout, enter the coupon code %s."
+msgstr "Au moment du paiement, saisissez le code promo %s."
+
+#: templates/emails/customer-return-approved.php:57
+msgid ""
+"No return shipping required. You may keep the item. Your refund will be "
+"processed automatically."
+msgstr ""
+"Aucun retour d'expédition requis. Vous pouvez conserver l'article. Votre "
+"remboursement sera traité automatiquement."
+
+#: templates/emails/customer-return-approved.php:71
+msgid ""
+"A return shipping label (PDF) is attached to this email. Please download, "
+"print, and paste it on your return package."
+msgstr ""
+"Une étiquette de retour (PDF) est jointe à cet e-mail. Veuillez la "
+"télécharger, l'imprimer et la coller sur votre colis de retour."
+
+#: templates/emails/customer-return-completed.php:35
+msgid "Return Note:"
+msgstr "Note de retour :"
+
+#: templates/emails/customer-return-store-credit.php:42
+msgid "Your Store Credit Coupon Code:"
+msgstr "Votre code promo d'avoir :"
+
+#: templates/emails/_warranty-email-body.php:31
+msgid ""
+"The product stopped working two months after delivery. Please advise on next"
+" steps."
+msgstr ""
+"Le produit a cessé de fonctionner deux mois après la livraison. Merci de "
+"m'indiquer la marche à suivre."
+
+#: templates/emails/_warranty-email-body.php:40
+msgid "Sample Product"
+msgstr "Produit exemple"
+
+#: templates/emails/_warranty-email-body.php:68
+msgid "Claim ID"
+msgstr "ID de réclamation"
+
+#: templates/emails/_warranty-email-body.php:84
+msgid "Customer Description"
+msgstr "Description du client"
+
+#: templates/emails/_warranty-email-body.php:90
+msgid "Resolution Note"
+msgstr "Note de résolution"
+
+#: templates/emails/_warranty-email-body.php:97
+msgid "Open Warranty Claims Dashboard"
+msgstr "Ouvrir le tableau de bord des réclamations de garantie"
+
+#: includes/class-return-exchange-admin.php:500
+msgid ""
+"Enable this option to automatically restock items when a return or exchange "
+"is approved."
+msgstr ""
+"Activez cette option pour réapprovisionner automatiquement les articles "
+"lorsqu'un retour ou un échange est approuvé."
+
+#: includes/zorem-returns/class-return-common-functions.php:427
+msgid "Products"
+msgstr "Produits"
+
+#: includes/class-return-exchange-admin.php:496
+msgid "Restock Approved Returns and Exchanges"
+msgstr "Réapprovisionner les retours et échanges approuvés"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:980
+msgid ""
+"This is an exchange order for <a href=\"%1$s\"><strong>Order "
+"#%2$d</strong></a>."
+msgstr ""
+"Ceci est une commande d'échange pour la <a href=\"%1$s\"><strong>commande "
+"#%2$d</strong></a>."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:985
+msgid "This is not an exchange order (no parent found)."
+msgstr ""
+"Ceci n'est pas une commande d'échange (aucune commande parente trouvée)."
+
+#: includes/admin-html/header.php:22
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+msgid ""
+"Your customer can request for Returns form My account > Orders. If you are "
+"selling a virtual product and you payment getway support for automatic "
+"return & exchange so your custmer get instant return & exchange."
+msgstr ""
+"Votre client peut demander un retour depuis Mon compte > Commandes. Si vous "
+"vendez un produit virtuel et que votre passerelle de paiement prend en "
+"charge les retours et échanges automatiques, votre client bénéficie d'un "
+"retour et d'un échange instantanés."
+
+#~ msgid ""
+#~ "Enable this option to automatically restock items when a return or exchange "
+#~ "is approved."
+#~ msgstr ""
+#~ "Activez cette option pour réapprovisionner automatiquement les articles "
+#~ "lorsqu'un retour ou un échange est approuvé."
+
+#~ msgid "Products"
+#~ msgstr "Produits"
+
+#~ msgid "Restock Approved Returns and Exchanges"
+#~ msgstr "Retours et échanges approuvés par Restock"
+
+#, php-format
+#~ msgid ""
+#~ "This is an exchange order for <a href=\"%1$s\"><strong>Order "
+#~ "#%2$d</strong></a>."
+#~ msgstr ""
+#~ "Ceci est un ordre d&#39;échange pour <a href=\"%1$s\"><strong>la commande "
+#~ "n°%2$d</strong></a> ."
+
+#~ msgid "This is not an exchange order (no parent found)."
+#~ msgstr "Il ne s'agit pas d'un ordre d'échange (aucun parent trouvé)."
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid ""
+#~ "Your customer can request for Returns form My account > Orders. If you are "
+#~ "selling a virtual product and you payment getway support for automatic "
+#~ "return & exchange so your custmer get instant return & exchange."
+#~ msgstr ""
+#~ "Votre client peut effectuer une demande de retour via Mon compte > "
+#~ "Commandes. Si vous vendez un produit virtuel et que votre système de "
+#~ "paiement prend en charge le retour automatique, votre client peut bénéficier"
+#~ " d'un retour instantané."
+
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+msgid "Order ID"
+msgstr "ID de commande"
+
+msgid "Find My Order"
+msgstr "Trouver ma commande"
+
+msgid "Return Portal"
+msgstr "Portail de retour"
+
+msgid "Let's track your order first"
+msgstr "Commençons par suivre votre commande"
+
+msgid "This order number does not exist."
+msgstr "Ce numéro de commande n'existe pas."
+
+msgid "This email address does not match the order number."
+msgstr "Cette adresse e-mail ne correspond pas au numéro de commande."
+
+msgid "This order is not eligible for return and exchange."
+msgstr "Cette commande n'est pas éligible au retour et à l'échange."
+
+msgid "A return or exchange has already been requested for this order."
+msgstr "Un retour ou un échange a déjà été demandé pour cette commande."
+
+msgid "Invalid file type. Allowed types: %s"
+msgstr "Type de fichier non valide. Types autorisés : %s"
+
+msgid "File size exceeds the allowed limit (5 MB)"
+msgstr "La taille du fichier dépasse la limite autorisée (5 Mo)"

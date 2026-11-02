@@ -1,0 +1,159 @@
+/**
+ * Truvo WooCommerce Gateway - Checkout Styles
+ */
+
+.truvo-payment-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    margin: 15px 0;
+}
+
+.truvo-payment-form .form-row {
+    margin-bottom: 15px;
+}
+
+.truvo-payment-form label {
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.truvo-payment-form input[type="text"],
+.truvo-payment-form select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.truvo-payment-form input[type="text"]:focus,
+.truvo-payment-form select:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.truvo-card-details {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.truvo-card-details .form-row-first {
+    flex: 1;
+    min-width: 200px;
+}
+
+.truvo-card-details .form-row-last {
+    flex: 0 0 120px;
+}
+
+.truvo-card-details select {
+    width: calc(50% - 5px);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.truvo-card-details select:last-child {
+    margin-right: 0;
+}
+
+/* Card number formatting */
+#truvo-card-number {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 1px;
+}
+
+/* CVV field styling */
+#truvo-card-cvv {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+/* Error styling */
+.truvo-payment-form input.error,
+.truvo-payment-form select.error {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+/* Loading state */
+.truvo-payment-form.processing {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.truvo-loading-spinner {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.truvo-loading-spinner.active {
+    display: block;
+}
+
+.truvo-spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #007cba;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: truvo-spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes truvo-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Card type indicators */
+.truvo-card-type {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.truvo-card-number-wrapper {
+    position: relative;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .truvo-card-details {
+        flex-direction: column;
+    }
+    
+    .truvo-card-details .form-row-first,
+    .truvo-card-details .form-row-last {
+        flex: none;
+        width: 100%;
+    }
+    
+    .truvo-card-details select {
+        width: calc(50% - 5px);
+    }
+}
+
+@media (max-width: 480px) {
+    .truvo-payment-form {
+        padding: 15px;
+        margin: 10px -15px;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+}

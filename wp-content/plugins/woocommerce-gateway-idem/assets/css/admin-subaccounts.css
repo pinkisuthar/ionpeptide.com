@@ -1,0 +1,29 @@
+/* IDEM Payment Gateway — per-environment sub-account field */
+
+.idem-subaccount-field {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.idem-subaccount-label {
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.idem-subaccount-select {
+    min-width: 260px;
+    max-width: 100%;
+}
+
+.idem-subaccount-refresh {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.idem-subaccount-status {
+    display: block;
+    margin-top: 6px;
+    font-style: italic;
+}

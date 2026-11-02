@@ -1,0 +1,149 @@
+{
+  "autonami": {
+    "connectors": {
+      "bwfco_activecampaign": {
+        "name": "Active Campaign",
+        "desc": "Add or Remove tags, Add or Remove contact(s) to an automation or a list, Update contact custom fields, Add eCommerce Orders\/ Deals, Create abandonment cart and much more.",
+        "logo": "",
+        "priority": "7"
+      },
+      "bwfco_drip": {
+        "name": "Drip",
+        "desc": "Add or Remove tags, Add or Remove contact(s) to a campaign or a workflow, Update contact custom fields, Add eCommerce Orders, Add Cart and much more.",
+        "logo": "",
+        "priority": "8.4"
+      },
+      "bwfco_convertkit": {
+        "name": "Kit ( Formerly ConvertKit )",
+        "desc": "Add or Remove tags, Add or Remove contact(s) to a sequence, Update contact custom fields & Add eCommerce Orders and much more.",
+        "logo": "convertkit",
+        "priority": "8"
+      },
+      "bwfco_sendinblue": {
+        "name": "Brevo ( Formerly SendinBlue )",
+        "desc": "Add to list, Remove From list and update contact fields.",
+        "logo": "brevo",
+        "priority": "7.9"
+      },
+      "bwfco_slack": {
+        "name": "Slack",
+        "desc": "Receive Slack notifications for events in your WordPress site. Track key events and build business processes that save time.",
+        "logo": "",
+        "priority": "6.6"
+      },
+      "bwfco_twilio": {
+        "name": "Twilio",
+        "desc": "Engage your customers via SMS, a marketing channel with a high engagement rate.",
+        "logo": "",
+        "priority": "6"
+      },
+      "bwfco_stripe": {
+        "name": "Stripe",
+        "desc": "Now recover more orders when users rejects upsell offers or bumps and follow up with special one click link when they pay via Stripe.",
+        "logo": "stripe",
+        "priority": "4",
+        "new": "1",
+        "required_plugins": [
+          {
+            "slug": "Stripe",
+            "name": "Stripe"
+          },
+          {
+            "slug": "fb",
+            "name": "Funnel builder"
+          }
+        ]
+      },
+      "bwfco_google_sheets": {
+        "name": "Google Spread Sheets",
+        "desc": "Connect with Google Spreadsheets to insert new row or Update any row in a sheet.",
+        "logo": "",
+        "priority": "5"
+      },
+      "bwfco_bitly": {
+        "name": "Bitly",
+        "desc": "Shorten the URLs to get increased character limit for SMS.",
+        "logo": "",
+        "priority": "6.4"
+      },
+      "bwfco_getresponse": {
+        "name": "GetResponse",
+        "desc": "Add or Remove tags, Change contact's list, Update contact custom fields and much more.",
+        "logo": "",
+        "priority": "8.8"
+      },
+      "bwfco_keap": {
+        "name": "Keap",
+        "desc": "Add or Remove tags, Add or Remove contact(s) to a campaign, Update contact custom fields, Assign \/ Remove Points to \/ from Contact and much more.",
+        "logo": "",
+        "priority": "8.2"
+      },
+      "bwfco_klaviyo": {
+        "name": "Klaviyo",
+        "desc": "Add to list, Remove From list and update persons fields.",
+        "logo": "",
+        "priority": "7.2"
+      },
+      "bwfco_mailchimp": {
+        "name": "Mailchimp",
+        "desc": "Add or Remove tags, Change contact's list, Update merge custom fields and much more.",
+        "logo": "",
+        "priority": "6.8"
+      },
+      "bwfco_mailerlite": {
+        "name": "Mailerlite",
+        "desc": "Add or Remove tags, Change contact's list, Update merge custom fields and much more.",
+        "logo": "",
+        "priority": "7.6"
+      },
+      "bwfco_mautic": {
+        "name": "Mautic",
+        "desc": "Add or Remove tags, Add or Remove contact(s) to a campaign, Update contact custom fields, Assign \/ Remove Points to \/ from Contact and much more.",
+        "logo": "",
+        "priority": "8.6"
+      },
+      "bwfco_ontraport": {
+        "name": "Ontraport",
+        "desc": "Add or Remove tags, Add or Remove contact(s) to a campaign, Update contact custom fields, Assign \/ Remove Points to \/ from Contact and much more.",
+        "logo": "",
+        "priority": "9"
+      },
+      "bwfco_bulkgate": {
+        "name": "Bulkgate",
+        "desc": "Send simple transactional sms",
+        "logo": "",
+        "priority": "6.2"
+      },
+      "bwfco_ever_webinarjam": {
+        "name": "WebinarJam / EverWebinar",
+        "desc": "Register a person to a specific webinar",
+        "logo": "",
+        "priority": "9.2"
+      },
+      "bwfco_hubspot": {
+        "name": "Hubspot",
+        "desc": "Create Contact, Add contact to list, Remove From list, update Contact fields and much more.",
+        "logo": "",
+        "priority": "7.8"
+      },
+      "bwfco_optinmonster": {
+        "name": "OptinMonster",
+        "desc": "OptinMonster is a tool for creating email signup forms including popups",
+        "logo": "",
+        "priority": "5.2",
+        "required_plugins": [
+          {
+            "slug": "optinmonster",
+            "name": "OptinMonster"
+          }
+        ]
+      },
+      "bwfco_pushengage": {
+        "name": "PushEngage",
+        "desc": "Send Notifications using PushEngage.",
+        "logo": "",
+        "priority": "5.4"
+      }
+    }
+  }
+}

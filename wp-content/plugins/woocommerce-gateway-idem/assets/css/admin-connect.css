@@ -1,0 +1,126 @@
+/**
+ * IDEM Payment Gateway - environment tabs + Connect panel styling.
+ * Applied on the gateway settings screen only. Purely presentational: if the JS that
+ * builds the tabs does not run, none of these classes exist and the page is unaffected.
+ */
+
+/* --- Environment tab bar --- */
+.idem-env-tabs.nav-tab-wrapper {
+    margin: 14px 0 0 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #c3c4c7;
+}
+.idem-env-tabs .nav-tab {
+    margin-bottom: -1px;
+    font-size: 13px;
+}
+.idem-env-tabs .nav-tab-active,
+.idem-env-tabs .nav-tab-active:focus,
+.idem-env-tabs .nav-tab-active:hover {
+    background: #fff;
+    border-bottom-color: #fff;
+}
+
+/* --- Card wrapping the active tab's fields --- */
+.idem-tab-content {
+    border: 1px solid #c3c4c7;
+    border-top: none;
+    background: #fff;
+    padding: 4px 22px 14px;
+    margin: 0 0 22px 0;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .04);
+}
+.idem-tab-content > .form-table {
+    margin-top: 6px;
+}
+.idem-tab-content > .form-table th {
+    width: 220px;
+    padding-left: 0;
+}
+
+/* --- Connect panel: prominent card at the top of each tab --- */
+.idem-connect-row > td {
+    padding: 14px 0 6px !important;
+    border-bottom: 1px solid #f0f0f1;
+}
+.idem-connect-card {
+    background: #f0f6fc;
+    border: 1px solid #c5d0db;
+    border-left: 4px solid #2271b1;
+    border-radius: 6px;
+    padding: 14px 18px;
+    max-width: 760px;
+}
+.idem-connect-head {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+.idem-connect-head .dashicons {
+    color: #2271b1;
+}
+.idem-connect-head > strong {
+    font-size: 14px;
+}
+.idem-connect-badge {
+    margin-left: auto;
+    color: #008a20;
+    font-weight: 600;
+    font-size: 12px;
+}
+.idem-connect-desc {
+    margin: 0 0 12px;
+    color: #50575e;
+}
+.idem-connect-fields {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.idem-connect-fields input[type="email"] {
+    width: 240px;
+}
+.idem-connect-fields input[type="password"] {
+    width: 180px;
+}
+.idem-connect-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.idem-section-hr {
+    margin: 28px 0 0;
+    border: 0;
+    border-top: 1px solid #c3c4c7;
+}
+.idem-connect-status {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* --- Collapsible manual credentials --- */
+.idem-manual-toggle-row td {
+    padding: 10px 0 4px !important;
+    border: none;
+}
+.idem-manual-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #2271b1;
+    display: inline-flex;
+    align-items: center;
+}
+.idem-manual-link:hover {
+    color: #135e96;
+}
+.idem-manual-link .dashicons {
+    margin-right: 3px;
+    line-height: 1.4;
+}
+.idem-manual-row > th {
+    font-weight: 400;
+}

@@ -1,0 +1,516 @@
+p.bwfan_user_consent{text-align:left;padding:0}
+#wfacp-e-form p.bwfan_user_consent,#wfacp-e-form p.bwfan_user_consent.wfacp-col-full{text-align:left;padding:0}
+p.bwfan_user_consent label{font-weight:400;padding:0 0 0 25px;margin:0;position:relative}
+#wfacp-e-form p.bwfan_user_consent label{font-weight:400;padding:0 0 0 25px;margin:0;position:relative}
+p.bwfan_user_consent label input{position:absolute;left:0;top:2px;padding:0;margin:0}
+#wfacp-e-form .wfacp-form:not(.wfacp-top).wfacp-modern-label p.wfacp-form-control-wrapper.wfacp-anim-wrap.bwfan_birthday_date input[type='date']::-webkit-calendar-picker-indicator{top:-7px !important;}
+#wfacp_checkout_form .wfacp_bwfan_birthday_date_field .wfacp-modern-label input[type='date']::-webkit-calendar-picker-indicator{position:relative;top:0;}
+#wfacp_checkout_form .wfacp_bwfan_birthday_date_field .wfacp-inside input[type='date']::-webkit-calendar-picker-indicator{position:relative;top:-7px;}
+#wfacp_checkout_form .wfacp_bwfan_birthday_date_field{clear:both;}
+#wfacp_checkout_form .wfacp_bwfan_birthday_date_field .wfacp-form-control{padding-top:15px;background:#fff;box-shadow:none;}
+.wfacp_bwfan_birthday_date_field #bwfan_birthday{width:100%}
+.bwfan-tyb-wrap{display:block;clear:both;}
+.bwfan-tyb-wrap > div{display:block;clear:both;margin-bottom:5px;}
+.bwfan-tyb-wrap .bwfan-tyb-field{display:flex;flex: 250px 1;gap:10px;}
+.bwfan-tyb-wrap .bwfan-tyb-field *{margin:0;box-sizing:border-box;}
+.bwfan-tyb-wrap input#bwfan-tyb-field{width:40%;height:45px;padding: 10px 12px;}
+.bwfan-tyb-wrap #bwfan-tyb-save-btn{text-shadow: none;padding: 0 20px;cursor: pointer;text-decoration: none !important;background-color: #e5e3e3;height: 45px;line-height: 45px;transition: all 0.4s ease-out;-webkit-transition: all 0.4s ease-out;white-space: nowrap}
+.bwfan-tyb-wrap #bwfan-tyb-save-btn:hover{background-color: #d5d5d5;border-color: #d5d5d5;color: #333333;}
+#bwfan_birthday{width: 40%;height: 45px;}
+.bwfan-tyb-response .bwfan-tyb-msg:empty{display:none;}
+.bwfan-tyb-response .bwfan-tyb-msg{font-size:15px;}
+.bwfan-btn-spin{opacity: 1!important;position: relative;color: rgba(255,255,255,.05)!important;pointer-events: none!important;}
+.bwfan-btn-spin::-moz-selection {color: rgba(255, 255, 255, .05) !important;}
+.bwfan-btn-spin::selection {color: rgba(255, 255, 255, .05) !important;}
+.bwfan-btn-spin:after {animation: bwfan_spin 500ms infinite linear;border: 2px solid #fff;border-radius: 50%;border-right-color: transparent !important;border-top-color: transparent !important;content: "";display: block;width: 16px;height: 16px;top: 50%;left: 50%;margin-top: -8px;margin-left: -8px;position: absolute;}
+@keyframes bwfan_spin { 0% {transform: rotate(0deg)}100% {transform: rotate(360deg)}}
+body .wfacp_main_form.woocommerce #wfacp_checkout_form div.form-row.bwfan-birthday-wrap > label {position: relative;left: auto !important;right: auto !important;top: auto !important;bottom: auto !important;margin: 0 !important;opacity: 1 !important;display:block !important; margin-bottom: 8px !important;}
+body .wfacp_main_form.woocommerce #wfacp_checkout_form div.form-row.bwfan-birthday-wrap {margin: 0 !important;}
+#wfacp-e-form .wfacp_main_form.woocommerce .wfacp-form-control-wrapper.bwf-dob-field-wrap select.wfacp-form-control.bwfan-dob-field {padding: 12px !important;-webkit-appearance: none !important;-moz-appearance: none !important;}
+body .wfacp_main_form.woocommerce #wfacp_checkout_form div.form-row.bwfan-birthday-wrap .form-row.bwf-dob-field-wrap.bwfan_birthday_date{min-height: auto !important;padding-left: 0 !important;}
+/* dob field css */
+.bwfan-dob-wrapper,#wfacp-sec-wrapper .woocommerce-input-wrapper.bwfan-dob-wrapper{display:flex;gap:8px}#wfacp-e-form label.bwfan-birthday-label{position:relative;left:0;margin-bottom:6px!important}#wfacp-e-form .wfacp-form:not(.wfacp-top).wfacp-modern-label p.wfacp-form-control-wrapper.wfacp-anim-wrap select.bwfan-dob-field{padding:8px!important}.bwfan-dob-wrapper select,.bwfan-dob-wrapper input{appearance:none!important;-webkit-appearance:none!important;-moz-appearance:none!important;background-color:#fff;border:1px solid #000;border-radius:4px;padding:15px;font-size:14px;color:#333;cursor:pointer;background-image:url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.4-12.8z%22%2F%3E%3C%2Fsvg%3E)!important;background-repeat:no-repeat!important;background-position:right 12px center!important;background-size:8px 8px!important}.bwfan-dob-wrapper select[name="bwfan_birthday_date_mm"]{min-width:120px!important;width:40%!important}.bwfan-dob-wrapper select[name="bwfan_birthday_date_dd"]{min-width:80px!important;width:30%!important}.bwfan-dob-wrapper select[name="bwfan_birthday_date_yy"]{min-width:100px!important;width:30%!important}.bwfan-dob-wrapper select:focus,.bwfan-dob-wrapper input:focus{outline:none;border-color:#999}.bwfan-dob-wrapper select::-ms-expand{display:none}.bwfan-dob-wrapper select option:first-child{color:#757575}.bwfan-dob-wrapper select:disabled{background-color:#f5f5f5;cursor:not-allowed}
+
+/* Manage Profile Css starts*/
+body.bwfan-manage-profile-page-body {
+    margin: 0;
+    background: #F6F6F6;
+    position: relative;
+}
+
+body.bwfan-manage-profile-page-body.is-rtl{
+    direction: rtl;
+}
+
+.bwfan-manage-profile-page-wrapper *{
+    font-family: Roboto, serif;
+    box-sizing: border-box;
+}
+
+.bwfan_manage_profile_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 16px 70px;
+    width:100vw;
+    z-index: 999;
+    background: #FFF;
+    box-shadow: 0 1px 0 0 var(--bwfan-brand-color-border, #DEDFEA);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bwfan_manage_profile_header img {
+    object-fit: contain;
+    height: 36px;
+}
+
+.bwfan-manage-profile-wrapper.bwf-distraction-free-mode:not(.no-header),
+.bwfan-subscribe-page-wrapper.bwf-distraction-free-mode:not(.no-header) {
+    margin: 72px auto 0;
+    box-sizing: border-box;
+    height: calc(100vh - 72px);
+    overflow: auto;
+    width: 100vw;
+}
+
+.bwfan-profile-fields,
+.bwfan-profile-lists,
+.bwfan-profile-tags,
+.bwfan-unsubscribe-lists {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-gap: 24px;
+    margin-bottom: 24px;
+    padding: 36px;
+    border: 1px solid var(--bwfan-brand-color-border, #DEDFEA);
+    border-radius: 12px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+/*.bwfan-profile-fields .bwfan_response,*/
+/*.bwfan-profile-lists .bwfan_response,*/
+/*.bwfan-profile-tags .bwfan_response,*/
+/*.bwfan-unsubscribe-lists .bwfan_response {*/
+/*    margin-top: 4px !important;*/
+/*}*/
+
+.bwfan-profile-fields{
+    flex-direction: row !important;
+}
+
+.bwfan-profile-field .bwfan-dob-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bwfan-manage-profile-contact-details {
+    margin: 36px 16px;
+    width: 100%;
+    max-width: 768px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bwfan-manage-profile-contact-details .bwfan-details .bwf-page-title{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 500;
+}
+.bwfan-manage-profile-contact-details .bwfan-details .bwf-contact-info{
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+}
+.bwfan-manage-profile-contact-details .bwfan-details .bwfan-manage-profile-contact-name, .bwfan-manage-profile-contact-details .bwfan-details .bwfan-manage-profile-contact-email{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.bwfan-manage-profile-contact-details .bwfan-subscribe-page-details {
+    margin: 24px auto 16px;
+    width: 100%;
+    max-width: 768px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #DEDFEA;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.bwfan-manage-profile-contact-details a.bwf-manage-profile-link {
+    height: 36px;
+    white-space: nowrap;
+    border-radius: 8px;
+    border: 1px solid var(--bwfan-brand-color, #fff);
+    padding: 6px 16px;
+    color: var(--bwfan-brand-color, #fff);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    justify-content: center;
+}
+#bwfan_manage_profile_fields, #bwfan_unsubscribe_fields {
+    max-width: 768px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#bwfan_manage_profile_fields .bwf-h2, #bwfan_unsubscribe_fields .bwf-h2, #bwfan-unsubscribe-lists .bwf-h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    /* grid-column:1/-1; */
+    margin: 0;
+    width: 100%;
+}
+
+.bwfan-profile-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: calc( 50% - 12px );
+    width: 100%;
+    /* box-sizing: border-box; */
+}
+
+#bwfan_manage_profile_fields label,
+#bwfan_unsubscribe_fields label,
+#bwfan_manage_profile_fields .bwf-label,
+#bwfan_unsubscribe_fields .bwf-label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    text-transform: capitalize;
+    color: #353030;
+}
+
+#bwfan_manage_profile_fields input,
+#bwfan_manage_profile_fields select,
+#bwfan_manage_profile_fields textarea,
+#bwfan_unsubscribe_fields input,
+#bwfan_unsubscribe_fields select,
+#bwfan_unsubscribe_fields textarea {
+    font-size: 13px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: unset;
+    border: 1px solid var(--bwfan-brand-color-border, #DEDFEA);
+}
+
+#bwfan_unsubscribe_fields input[type='checkbox'],
+#bwfan_unsubscribe_fields input[type='radio'],
+#bwfan_manage_profile_fields input[type='checkbox'],
+#bwfan_manage_profile_fields input[type='radio']{
+    height: unset;
+}
+
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='checkbox'],
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='radio'],
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='checkbox'],
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='radio']{
+    height: 36px;
+}
+
+#bwfan_manage_profile_fields select,
+#bwfan_unsubscribe_fields select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    border: 1px solid var(--bwfan-brand-color-border, #DEDFEA);
+    border-radius: 8px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cg clip-path='url(%23clip0_5361_73737)'%3E%3Cpath d='M11.6907 2.98239C11.5007 2.79233 11.1935 2.79233 11.0034 2.98239L5.99994 7.98583L0.996508 2.98239C0.80645 2.79233 0.499227 2.79233 0.309169 2.98239C0.119112 3.17245 0.119112 3.47967 0.309169 3.66973L5.65628 9.01685C5.75107 9.11164 5.87551 9.15928 5.99996 9.15928C6.12442 9.15928 6.24886 9.11164 6.34364 9.01685L11.6908 3.66973C11.8808 3.47967 11.8808 3.17245 11.6907 2.98239Z' fill='%23353030'%3E%3C/path%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_5361_73737'%3E%3Crect width='11.6667' height='11.6667' fill='white' transform='translate(0.166626 0.166016)'%3E%3C/rect%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 10px center;
+    background-size: 12px 12px; /* Adjust based on your icon's size */
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input:focus,
+.bwf-distraction-free-mode #bwfan_manage_profile_fields select:focus,
+.bwf-distraction-free-mode #bwfan_manage_profile_fields textarea:focus,
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input:focus,
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields select:focus,
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields textarea:focus {
+    outline: none;
+    border-color: var(--bwfan-brand-color, #fff);
+    box-shadow: 0 0 0 1px var(--bwfan-brand-color, #fff);
+}
+
+#bwfan_manage_profile_fields textarea,
+#bwfan_unsubscribe_fields textarea {
+    height: 84px;
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='checkbox'],
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='checkbox'] {
+    height: 18px;
+    width: 18px;
+    margin: 0;
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='radio'],
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='radio'] {
+    height: 18px;
+    width: 18px;
+    margin: 0;
+    accent-color: color-mix(in srgb, var(--bwfan-brand-color, #000) 73%, black);
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='radio']:focus,
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='checkbox']:focus,
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='radio']:focus,
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='checkbox']:focus {
+    outline: none;
+    box-shadow: unset;
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='checkbox']:checked,
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='checkbox']:checked {
+    transform: scale(1);
+    background-color: var(--bwfan-brand-color, #fff);
+    border: 2px solid var(--bwfan-brand-color, #fff);
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='checkbox'],
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='checkbox'] {
+    position: relative;
+    padding: 0;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    border: 2px solid var(--bwfan-brand-color, #fff);
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0 !important;
+    box-shadow: none !important;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.23, 1);
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_fields input[type='checkbox']:checked::before,
+.bwf-distraction-free-mode #bwfan_unsubscribe_fields input[type='checkbox']:checked::before {
+    margin: -0.1875rem 0 0 -0.25rem;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transform-origin: 0% 100%;
+    width: 3px;
+    height: 8px;
+    border-color: var(--bwfan-brand-color-contrast, #000);
+    transform: translate3d(0, -0.5em, 0) rotate(45deg) scale(1.4);
+}
+
+.bwf-distraction-free-mode .bwfan-manage-profile-contact-details,
+.bwf-distraction-free-mode .bwfan-subscribe-page-wrapper {
+	margin: 36px auto 16px;
+}
+.bwf-distraction-free-mode #bwfan_manage_profile_fields, .bwf-distraction-free-mode #bwfan_unsubscribe_fields {
+    margin: 0 auto 36px;
+}
+
+#bwfan_manage_profile_fields .bwfan-wrapper,
+#bwfan_unsubscribe_fields .bwfan-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 4px 0 0px 0;
+}
+
+#bwfan_manage_profile_fields input.bwfan_error,
+#bwfan_unsubscribe_fields input.bwfan_error,
+#bwfan_manage_profile_fields select.bwfan_error,
+#bwfan_unsubscribe_fields select.bwfan_error {
+    border-color: #E15334;
+}
+
+#bwfan_manage_profile_fields input.bwfan_error:focus,
+#bwfan_unsubscribe_fields input.bwfan_error:focus {
+    box-shadow: 0 0 0 1px #E15334 !important;
+    border-color: #E15334;
+}
+
+#bwfan_manage_profile_fields .bwfan_error:not(input,select),
+#bwfan_unsubscribe_fields .bwfan_error {
+    color: #E15334;
+    font-size: 13px;
+    margin: 0;
+}
+
+.bwfan-profile-list-checkbox,
+.bwfan-profile-tag-checkbox,
+.bwfan-unsubscribe-list-checkbox{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.bwfan-profile-list-checkbox input,
+.bwfan-profile-list-checkbox label,
+.bwfan-profile-tag-checkbox input,
+.bwfan-profile-tag-checkbox label,
+.bwfan-unsubscribe-list-checkbox input,
+.bwfan-unsubscribe-list-checkbox label {
+    cursor: pointer;
+}
+
+.bwfan-profile-list-description,.bwfan-unsubscribe-list-description {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 0 0 0 25px;
+    color: #82838E;
+}
+
+.bwfan-country-add-notice {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    color: #82838E;
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_update, .bwfan-subscribe-page-wrapper.bwf-distraction-free-mode a#bwfan_unsubscribe {
+    color: var(--bwfan-brand-color-contrast, #000);
+    text-decoration: none;
+    background: var(--bwfan-brand-color, #fff);
+    border-radius: 8px;
+    padding: 6px 24px;
+    height: 40px;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    line-height: 28px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bwf-distraction-free-mode #bwfan_manage_profile_update:focus {
+    outline: none
+}
+
+.bwfan_loading {
+    opacity: 1 !important;
+    position: relative;
+    color: rgba(255, 255, 255, .05) !important;
+    pointer-events: none !important;
+}
+.bwf-distraction-free-mode .bwfan_loading {
+    color: var(--bwfan-brand-color, #fff) !important;
+}
+.bwf-distraction-free-mode .bwfan_loading::-moz-selection {
+    color: var(--bwfan-brand-color-contrast, #000) !important;
+}
+
+.bwf-distraction-free-mode .bwfan_loading::selection {
+    color: var(--bwfan-brand-color-contrast, #000) !important;
+}
+
+.bwfan_loading:after {
+    animation: bwfan_spin 500ms infinite linear;
+    border: 2px solid #000;
+    border-radius: 50%;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: absolute;
+}
+.bwf-distraction-free-mode .bwfan_loading:after {
+    border: 2px solid var(--bwfan-brand-color-contrast, #000);
+}
+
+#bwfan_manage_profile_fields .bwfan_response,
+#bwfan_unsubscribe_fields .bwfan_response {
+    margin-top: 15px;
+}
+.bwfan-manage-profile-wrapper.bwf-distraction-free-mode #bwfan_manage_profile_fields .bwfan_response:not(.bwfan-profile-fields .bwfan_response),
+.bwfan-subscribe-page-wrapper.bwf-distraction-free-mode #bwfan_unsubscribe_fields .bwfan_response{
+    position: absolute;
+    background: #000000;
+    bottom: 24px;
+    right: 24px;
+    height: fit-content;
+    max-width: 300px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+@keyframes bwfan_spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@media (max-width: 768px) {
+
+    .bwfan-profile-fields, .bwfan-profile-lists, .bwfan-unsubscribe-lists, .bwfan-profile-tags {
+        padding: 24px;
+    }
+
+    .bwfan-profile-field {
+        width: 47%;
+    }
+    .bwfan_manage_profile_header{
+        padding: 16px;
+    }
+}
+
+@media (max-width: 520px) {
+    .bwfan-profile-field {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .bwfan-profile-fields, .bwfan-profile-lists, .bwfan-unsubscribe-lists,.bwfan-profile-tags {
+        grid-gap: 16px;
+        padding: 16px;
+    }
+
+    #bwfan_manage_profile_fields .bwf-h2, #bwfan_unsubscribe_fields .bwf-h2, #bwfan-unsubscribe-lists .bwf-h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .bwfan-manage-profile-contact-details a.bwf-manage-profile-link{
+        padding: 8px;
+    }
+
+    #bwfan_manage_profile_fields, .bwfan-manage-profile-contact-details, #bwfan_unsubscribe_fields {
+        padding: 0 16px;
+    }
+}
+.bwfan-unsubscribe-lists {
+    margin-top: 24px;
+}
+.bwfan-unsubscribe-lists > .bwfan-unsubscribe-single-list {
+    border: none;
+    padding: 0;
+}

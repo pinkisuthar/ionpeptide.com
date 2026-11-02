@@ -1,0 +1,528 @@
+/* ==========================================================================
+   Modern redesign — Returns Dashboard
+   ==========================================================================
+
+   Trimmed port of the modern redesign originally shipped in Zorem Local
+   Pickup Pro (advanced-local-pickup-pro/assets/css/fulfillment-modern.css).
+   Adapted for the Returns Dashboard, which has:
+     - One tab (no tab visibility CSS needed)
+     - No edit-pickup sidebar
+     - DataTables v2.x (uses .dt-container / .dt-paging / .dt-length / .dt-info)
+     - Customer at column 6 (not 5 — no checkbox column)
+     - Status badge class `.order_status_label` (not `.order-status`)
+     - Action button classes specific to Returns
+       (.return_approved_icon, .return_rejected_icon, .return_completed_icon,
+        .return_delete_icon, .return_refund_icon — render via ::after PNG)
+     - Export CSV span (.export_orders) — no equivalent in ALP
+
+   Scoped strictly to #rt4wc_fullfilments_table + its sibling toolbar /
+   footer so it doesn't bleed into other WP admin pages.
+   ========================================================================== */
+
+/* ---------- Toolbar (filter + search + export) ---------- */
+
+.fulfillment_filter_box {
+  display: flex !important;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  margin: 0 0 7px 0;
+}
+
+.wp-core-ui select.fulfillment_filter_select {
+  height: 38px !important;
+  border-radius: 999px !important;
+  border: 1px solid #d1d5db !important;
+  background-color: #fff !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 20 20' fill='%236b7280'%3E%3Cpath d='M5 8l5 5 5-5H5z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 12px center !important;
+  background-size: 12px !important;
+  padding: 0 32px 0 16px !important;
+  color: #374151 !important;
+  font-size: 13px !important;
+  margin: 0 !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+  text-align: left !important;
+  -moz-text-align-last: left !important;
+  text-align-last: left !important;
+}
+.wp-core-ui select.fulfillment_filter_select option {
+  text-align: left !important;
+  padding: 6px 12px;
+}
+.wp-core-ui select.fulfillment_filter_select:focus {
+  border-color: #1d4ed8 !important;
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.1);
+}
+
+/* Leading list icon for the single filter dropdown */
+.wp-core-ui select#rt4wc_fulfillment_filter {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 20 20' fill='%23005b9a'%3E%3Cpath fill-rule='evenodd' d='M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM5 9a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm2 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z' clip-rule='evenodd'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 20 20' fill='%236b7280'%3E%3Cpath d='M5 8l5 5 5-5H5z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-position: left 14px center, right 12px center !important;
+  background-size: 14px, 12px !important;
+  padding: 0 32px 0 36px !important;
+}
+
+/* Search input — rounded pill with magnifier icon, separated from submit */
+#rt4wc_fulfillment_search_input,
+#zorem_warranty_search_input {
+  height: 38px !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 999px !important;
+  border-top-right-radius: 999px !important;
+  border-bottom-right-radius: 999px !important;
+  border-right: 1px solid #d1d5db !important;
+  padding: 0 16px 0 38px !important;
+  background-color: #fff !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20' fill='%239ca3af'%3E%3Cpath fill-rule='evenodd' d='M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z' clip-rule='evenodd'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: left 14px center !important;
+  background-size: 16px !important;
+  margin: 0 !important;
+  flex: 1;
+  min-width: 220px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #374151;
+  vertical-align: middle;
+}
+#rt4wc_fulfillment_search_input:focus,
+#zorem_warranty_search_input:focus {
+  border-color: #1d4ed8 !important;
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.1);
+}
+
+#rt4wc_fulfillment_search_submit.button,
+#zorem_warranty_search_submit.button {
+  height: 38px !important;
+  width: 38px !important;
+  border-radius: 999px !important;
+  border-top-left-radius: 999px !important;
+  border-bottom-left-radius: 999px !important;
+  border: 1px solid #d1d5db !important;
+  background: #fff !important;
+  color: #4b5563 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+#rt4wc_fulfillment_search_submit.button:hover,
+#zorem_warranty_search_submit.button:hover {
+  background: #f3f4f6 !important;
+}
+#rt4wc_fulfillment_search_submit .dashicons-search,
+#zorem_warranty_search_submit .dashicons-search {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+}
+
+/* Export CSV — convert the fixed-width 120px gray box into a pill */
+.export_orders {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  height: 38px;
+  width: auto !important;
+  padding: 0 16px !important;
+  border-radius: 999px !important;
+  border: 1px solid #d1d5db !important;
+  background: #fff !important;
+  color: #374151 !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+  margin: 0 !important;
+  vertical-align: middle;
+}
+.export_orders:hover {
+  background: #f3f4f6 !important;
+  border-color: #9ca3af !important;
+}
+.export_orders .dashicons,
+.export_orders .dashicons-download {
+  color: #1d4ed8;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+}
+
+/* ---------- Table container ---------- */
+
+.fulfillment_table_container {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+  box-shadow: none;
+}
+.fulfillment_table_container .dt-container,
+.fulfillment_table_container .dataTables_wrapper {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+/* ---------- Table styles ---------- */
+
+table.dataTable.fullfilments_table,
+table.dataTable.fullfilments_table.no-footer {
+  border: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table.dataTable.fullfilments_table thead th {
+  background: #f9fafb !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #6b7280 !important;
+  font-weight: 600 !important;
+  padding: 14px 18px !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  border-top: 0 !important;
+}
+
+table.dataTable.fullfilments_table tbody td {
+  padding: 16px 18px !important;
+  border-bottom: 1px solid #f3f4f6 !important;
+  color: #374151 !important;
+  font-size: 14px !important;
+  background: transparent !important;
+  vertical-align: middle;
+  border-top: 0 !important;
+}
+
+table.dataTable.fullfilments_table tbody tr:last-child td {
+  border-bottom: 0 !important;
+}
+
+table.dataTable.fullfilments_table tbody tr:hover td {
+  background: #fafbfc !important;
+}
+
+/* Cancel legacy gray tint on column 2 (Order Date) */
+table.dataTable.fullfilments_table thead th:nth-child(2),
+table.dataTable.fullfilments_table tbody td:nth-child(2) {
+  background: transparent !important;
+}
+table.dataTable.fullfilments_table thead th:nth-child(2) {
+  background: #f9fafb !important;
+}
+
+/* ---------- Order number — bold blue (column-position-agnostic) ---------- */
+
+.fullfilments_table tbody td a[href*="post.php?post="],
+.fullfilments_table tbody td a[href*="page=wc-orders"],
+.fullfilments_table tbody td a[href*="action=edit"] {
+  font-weight: 700 !important;
+  color: #1d4ed8 !important;
+  text-decoration: none !important;
+}
+.fullfilments_table tbody td a[href*="post.php?post="]:hover,
+.fullfilments_table tbody td a[href*="page=wc-orders"]:hover,
+.fullfilments_table tbody td a[href*="action=edit"]:hover {
+  text-decoration: underline !important;
+}
+
+/* ---------- Status pills (.order_status_label .status-*) ----------
+   Preserve the existing colored ::before dot. Modernize the pill shape,
+   typography, and padding only. */
+
+.fullfilments_table .order_status_label {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  width: auto !important;
+  padding: 5px 11px !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+  font-weight: 700 !important;
+  line-height: 1.4;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Keep the legacy ::before dot but normalize its size/spacing so it
+   aligns properly inside the new inline-flex pill */
+.fullfilments_table .order_status_label::before {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  margin: 0 !important;
+  display: inline-block;
+  flex: 0 0 8px;
+}
+
+/* ---------- Customer column (6th — Returns has no checkbox column) ---------- */
+
+table.dataTable.fullfilments_table tbody td:nth-child(6) {
+  white-space: nowrap;
+}
+table.dataTable.fullfilments_table tbody td:nth-child(6)::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 20 20' fill='%239ca3af'%3E%3Cpath d='M10 10a4 4 0 100-8 4 4 0 000 8zM2 18a8 8 0 1116 0H2z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* ---------- Action buttons (icon-only, 32×32 rounded) ----------
+   Scoped to `.fullfilments_table tbody td` so popup buttons (inside
+   .actions-buttons / .popupwrapper) keep their text-button look.
+   Existing fulfillment.css aggressively styles `.dt-container
+   .wc-action-button` with text-indent:9999px and 2em sizing and
+   positions the ::after PNG icon absolutely at top:3px/left:2px.
+   We need to cancel all of that and let the icon center via flex. */
+
+.fullfilments_table tbody td .wc-action-button,
+.fullfilments_table tbody td .wc-action-img-button,
+.fullfilments_table tbody td button.wc-action-button,
+.fullfilments_table tbody td a.wc-action-button {
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  border-radius: 8px !important;
+  border: 1px solid #e5e7eb !important;
+  background-color: #f9fafb !important;
+  margin: 0 4px 0 0 !important;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-indent: 0 !important;
+  overflow: visible !important;
+  position: relative;
+  vertical-align: middle;
+  transition: background-color 0.15s, border-color 0.15s;
+  font-size: 0 !important;
+  line-height: 1 !important;
+  cursor: pointer;
+}
+.fullfilments_table tbody td .wc-action-button:hover,
+.fullfilments_table tbody td .wc-action-img-button:hover {
+  background-color: #eef2f7 !important;
+  border-color: #d1d5db !important;
+}
+
+/* Re-center the legacy ::after PNG icon inside the new 32×32 flex box */
+.fullfilments_table tbody td .wc-action-button::after {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  margin: 0 !important;
+  width: 16px !important;
+  height: 16px !important;
+  background-size: 16px 16px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  display: inline-block !important;
+  font-size: 0;
+}
+
+/* For img-button variant — re-size the inline <img> */
+.fullfilments_table tbody td .wc-action-img-button img {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  vertical-align: middle;
+}
+
+/* Optional subtle status-tinted variants — matches the ALP pattern */
+.fullfilments_table tbody td .wc-action-button.return_approved_icon,
+.fullfilments_table tbody td .wc-action-button.return_completed_icon {
+  background-color: rgba(76, 175, 80, 0.08) !important;
+  border-color: rgba(76, 175, 80, 0.25) !important;
+}
+.fullfilments_table tbody td .wc-action-button.return_rejected_icon,
+.fullfilments_table tbody td .wc-action-button.return_delete_icon {
+  background-color: rgba(244, 67, 54, 0.08) !important;
+  border-color: rgba(244, 67, 54, 0.25) !important;
+}
+.fullfilments_table tbody td .wc-action-button.return_refund_icon {
+  background-color: rgba(33, 150, 243, 0.08) !important;
+  border-color: rgba(33, 150, 243, 0.25) !important;
+}
+
+/* Action column min-width so multiple icons never wrap or clip */
+table.dataTable.fullfilments_table thead th:last-child,
+table.dataTable.fullfilments_table tbody td:last-child {
+  min-width: 140px;
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* ---------- Footer (info + length + pagination) ----------
+   Pair v2.x (.dt-*) AND v1.x (.dataTables_*) class names everywhere
+   so this file is forward / backward compatible. */
+
+.dt-container .datatable_footer,
+.dataTables_wrapper .datatable_footer {
+  display: flex !important;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  padding: 14px 18px;
+  background: #f9fafb;
+  border-top: 1px solid #f3f4f6;
+  margin-top: 0 !important;
+  gap: 12px;
+}
+
+.dt-container .datatable_footer .dt-info,
+.dt-container .datatable_footer .dataTables_info,
+.dataTables_wrapper .datatable_footer .dt-info,
+.dataTables_wrapper .datatable_footer .dataTables_info {
+  color: #6b7280 !important;
+  font-size: 13px !important;
+  text-align: left !important;
+  padding: 0 !important;
+  margin: 0 auto 0 0 !important;
+  flex: 0 0 auto;
+  float: none !important;
+}
+
+.dt-container .datatable_footer .dt-length,
+.dt-container .datatable_footer .dataTables_length,
+.dataTables_wrapper .datatable_footer .dt-length,
+.dataTables_wrapper .datatable_footer .dataTables_length {
+  margin: 0 !important;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  color: #6b7280;
+  font-size: 13px;
+  float: none !important;
+}
+.datatable_footer .dt-length label,
+.datatable_footer .dataTables_length label {
+  color: #6b7280;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.datatable_footer .dt-length select,
+.datatable_footer .dataTables_length select {
+  height: 32px !important;
+  border-radius: 8px !important;
+  border: 1px solid #e5e7eb !important;
+  background: #fff !important;
+  width: auto !important;
+  min-width: 60px;
+  padding: 0 24px 0 10px !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 20 20' fill='%236b7280'%3E%3Cpath d='M5 8l5 5 5-5H5z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 8px center !important;
+  background-size: 10px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #374151;
+}
+
+.dt-container .datatable_footer .dt-paging,
+.dt-container .datatable_footer .dataTables_paginate,
+.dataTables_wrapper .datatable_footer .dt-paging,
+.dataTables_wrapper .datatable_footer .dataTables_paginate {
+  margin: 0 !important;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+  float: none !important;
+}
+
+.datatable_footer .dt-paging .dt-paging-button,
+.datatable_footer .dataTables_paginate .paginate_button {
+  background: #fff !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  margin: 0 !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+}
+.datatable_footer .dt-paging .dt-paging-button:hover,
+.datatable_footer .dataTables_paginate .paginate_button:hover {
+  background: #f3f4f6 !important;
+  border-color: #d1d5db !important;
+}
+.datatable_footer .dt-paging .dt-paging-button.current,
+.datatable_footer .dataTables_paginate .paginate_button.current {
+  background: #1d4ed8 !important;
+  color: #fff !important;
+  border-color: #1d4ed8 !important;
+}
+.datatable_footer .dt-paging .dt-paging-button.current::after,
+.datatable_footer .dt-paging .dt-paging-button.current::before,
+.datatable_footer .dataTables_paginate .paginate_button.current::after,
+.datatable_footer .dataTables_paginate .paginate_button.current::before {
+  color: #fff !important;
+}
+.datatable_footer .dt-paging .dt-paging-button.disabled,
+.datatable_footer .dataTables_paginate .paginate_button.disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* Keep the existing dashicons-rendered next/prev arrows visible at 18px */
+.datatable_footer .dt-paging .dt-paging-button::after,
+.datatable_footer .dataTables_paginate .paginate_button::after,
+.datatable_footer .dt-paging .dt-paging-button::before,
+.datatable_footer .dataTables_paginate .paginate_button::before {
+  font-size: 18px !important;
+  line-height: 1 !important;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .fulfillment_filter_box {
+    gap: 8px;
+    padding: 12px;
+  }
+  #rt4wc_fulfillment_search_input,
+  #zorem_warranty_search_input {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+}

@@ -1,0 +1,194 @@
+.cart-conditions {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+
+  h2 {
+    text-align: center;
+  }
+
+  .centered-line {
+    position: relative;
+    padding: 20px 10px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: calc(50% - 0.5px);
+      z-index: 1;
+      display: block;
+      width: 1px;
+      height: 100%;
+      background: #2c87b7;
+    }
+
+    .field-control {
+      position: relative;
+      z-index: 2;
+      padding: 5px 0;
+      background: #fff;
+    }
+
+    .ant-select {
+      width: 100px;
+    }
+  }
+
+  .condition-groups {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5em;
+  }
+
+  .add-condition-group-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .condition-group {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2.5em 1.5em 1em 1.5em;
+    border: 1px dashed #1287b7;
+
+    &.error {
+      border-color: #c00;
+    }
+
+    .remove-condition-group {
+      position: absolute;
+      top: 5px;
+      right: 3px;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+
+      &:hover {
+        color: #c00;
+      }
+    }
+
+    .empty-conditions {
+      padding: 20px;
+      text-align: center;
+      font-style: italic;
+      color: #ccc;
+    }
+
+    .add-condition-form {
+      .field-control {
+        display: flex;
+        gap: 0.5em;
+      }
+
+      .cart-condition-field-select {
+        width: 200px;
+      }
+    }
+
+    .condition-group-fields {
+      display: flex;
+      flex-flow: column;
+      gap: 1em;
+      width: 100%;
+      margin-bottom: 1.5em;
+
+      .condition-logic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .condition-field {
+    position: relative;
+    width: 100%;
+    padding: 0.5em 1em;
+    border: 1px dashed #c7c7c7;
+    border-radius: 0;
+    background: #f5f5f5;
+
+    &.error {
+      border-color: #c00;
+    }
+
+    .remove-condition-field {
+      position: absolute;
+      top: 5px;
+      right: 3px;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+
+      &:hover {
+        color: #c00;
+      }
+    }
+
+    .condition-field-inner {
+      h3,
+      p {
+        margin: 0;
+      }
+    }
+
+    .condition-field-form {
+      display: flex;
+      gap: 1em;
+      margin-top: 0.5em;
+
+      .field-control {
+        width: 150px;
+
+        &.no-label {
+          margin-top: 1.8em;
+        }
+
+        &.full-width {
+          width: 100%;
+        }
+
+        > * {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .condition-field-table {
+    margin-top: 1em;
+    .ant-empty {
+      margin: 0;
+    }
+    .ant-empty-image {
+      display: none;
+    }
+
+    td {
+      .ant-select,
+      .ant-input-number {
+        width: 100%;
+      }
+    }
+
+    .table-actions {
+      margin-top: 0.5em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+/* Admin-initiated exchange request — "Create Exchange Request" modal on the order edit screen.
+ * Loaded together with admin-create-return.css, which provides the shared
+ * .zorem-acr-modal / header / footer / warning / error layout classes. */
+
+.zorem-ace-open-wrap {
+	margin: 8px 0 4px;
+}
+
+#exchange_order_meta_box .zorem-ace-open-wrap + .exchange_request_item {
+	margin-top: 12px;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+}
+
+.zorem-ace-items {
+	margin-bottom: 8px;
+}
+
+.zorem-ace-items th,
+.zorem-ace-items td {
+	vertical-align: middle;
+}
+
+.zorem-ace-qty-col {
+	width: 70px;
+	text-align: center;
+}
+
+.zorem-ace-qty {
+	width: 60px;
+	min-width: 0;
+}
+
+.zorem-ace-variants label {
+	display: block;
+	margin: 4px 0 2px;
+	font-size: 12px;
+	color: #646970;
+}
+
+.zorem-ace-variant {
+	width: 100%;
+	max-width: 220px;
+}
+
+.zorem-ace-variant-missing {
+	border-color: #d63638 !important;
+	box-shadow: 0 0 0 1px #d63638;
+}
+
+.zorem-ace-equal-note {
+	margin: 0 0 14px;
+	color: #646970;
+	font-style: italic;
+}
+
+/* ── Cross-product mode: per-item search widget inside the items table ────── */
+
+/* Wider modal so each row fits its own search widget comfortably. */
+#zorem_ace_modal .zorem-acr-modal-content {
+	width: 760px;
+}
+
+.zorem-ace-cp-cell {
+	min-width: 280px;
+	vertical-align: top !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.zorem-ace-cp-cell .zorem-ace-cp-wrap {
+	margin: 0;
+}
+
+.zorem-ace-cp-cell .zre-cp-search-box {
+	position: relative;
+}
+
+.zorem-ace-cp-cell .zre-cp-search-input {
+	width: 100%;
+}
+
+.zorem-ace-cp-cell .zre-cp-results {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 100200;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+	max-height: 220px;
+	overflow-y: auto;
+}
+
+.zorem-ace-cp-wrap.zorem-ace-cp-missing .zre-cp-search-input,
+.zorem-ace-cp-wrap.zorem-ace-cp-missing .zre-cp-selected-inner {
+	border-color: #d63638 !important;
+	box-shadow: 0 0 0 1px #d63638;
+}

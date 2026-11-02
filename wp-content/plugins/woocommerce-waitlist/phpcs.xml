@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards">
+	<description>WooCommerce extension PHP_CodeSniffer ruleset.</description>
+
+	<!-- Exclude paths -->
+	<exclude-pattern>tests/</exclude-pattern>
+	<exclude-pattern>woo-includes/woo-functions.php</exclude-pattern>
+	<exclude-pattern>woo-includes/class-wc-dependencies.php</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+
+	<!-- Configs -->
+	<config name="minimum_supported_wp_version" value="4.7" />
+	<config name="testVersion" value="7.2-" />
+
+	<!-- Rules -->
+	<rule ref="WordPress-Core">
+		<!-- WPCS 3.0 added these, but we're not yet ready to force them upon third-party vendors: -->
+		<exclude name="Generic.WhiteSpace.IncrementDecrementSpacing" />
+		<exclude name="PEAR.Files.IncludingFile" />
+		<exclude name="PSR12.Traits.UseDeclaration" />
+		<exclude name="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody" />
+		<exclude name="PSR2.Files.EndFileNewline.TooMany" />
+		<exclude name="PSR2.Methods.FunctionClosingBrace.SpacingBeforeClose" />
+		<exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing" />
+	</rule>
+
+	<rule ref="WordPress-Extra">
+		<exclude name="Generic.Commenting.DocComment.SpacingAfter" />
+		<exclude name="Generic.Files.LineEndings.InvalidEOLChar" />
+		<exclude name="Generic.Functions.FunctionCallArgumentSpacing.SpaceBeforeComma" />
+		<exclude name="PEAR.Functions.FunctionCallSignature" />
+		<exclude name="Squiz.Commenting" />
+		<exclude name="Squiz.PHP.DisallowSizeFunctionsInLoops.Found" />
+		<exclude name="Squiz.WhiteSpace" />
+		<exclude name="WordPress.Arrays" />
+		<exclude name="WordPress.Files.FileName" />
+		<exclude name="WordPress.NamingConventions" />
+		<exclude name="WordPress.Security.EscapeOutput.ErrorNotEscaped" />
+		<exclude name="WordPress.Security.EscapeOutput.ExceptionNotEscaped" />
+		<exclude name="WordPress.Security.ValidatedSanitizedInput.MissingUnslash" />
+		<exclude name="WordPress.WhiteSpace" />
+		<exclude name="WordPress.WP.I18n.NonSingularStringLiteralText" />
+
+		<!-- WPCS 3.0 added these, but we're not yet ready to force them upon third-party vendors: -->
+		<exclude name="WordPress.WP.I18n.EmptyTextDomain" />
+
+
+		<!-- WPCS 3.0 moved some WordPress.WhiteSpace/Squiz.WhiteSpace sniffs into these: -->
+		<exclude name="Generic.WhiteSpace.LanguageConstructSpacing" />
+		<exclude name="Squiz.Functions.MultiLineFunctionDeclaration" />
+	</rule>
+
+	<rule ref="WooCommerce-Core">
+		<exclude name="Core.Commenting.CommentTags.AuthorTag" />
+		<exclude name="Generic.WhiteSpace.ScopeIndent.Incorrect" />
+		<exclude name="WooCommerce.Commenting.CommentHooks.HookCommentWrongStyle" />
+		<exclude name="WooCommerce.Commenting.CommentHooks.MissingHookComment" />
+		<exclude name="WooCommerce.Commenting.CommentHooks.MissingSinceComment" />
+		<exclude name="WordPress.PHP.DontExtract" />
+	</rule>
+
+	<rule ref="PHPCompatibility">
+		<exclude-pattern>tests/</exclude-pattern>
+	</rule>
+</ruleset>

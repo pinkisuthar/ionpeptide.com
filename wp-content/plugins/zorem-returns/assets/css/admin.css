@@ -1,0 +1,709 @@
+/*header style*/
+.zorem-layout__header * {
+	box-sizing: border-box;
+}
+
+.zorem-layout__header .page_heading {
+	font-size: 14px;
+	color: #3c4758;
+	padding: 0 20px;
+	margin: auto 0;
+	font-weight: 400;
+}
+
+.zorem-layout__header .page_heading .dashicons {
+	font-size: 14px;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+.zorem-layout__header .page_heading a {
+	text-decoration: none;
+	color: #3b64d3;
+}
+
+.zorem-layout__header .zorem-layout__header-logo {
+	margin: 0 12px;
+	width: 100px;
+}
+
+.zorem-layout__header {
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	box-sizing: border-box;
+	padding: 0;
+	width: 100%;
+	height: 60px;
+	z-index: 1001;
+	align-items: center;
+	position: relative;
+}
+
+.woocommerce-layout__activity-panel {
+	float: inline-end;
+	position: relative;
+}
+
+#activity-panel-tab-help {
+	background-color: transparent;
+	padding: 10px 18px;
+	cursor: pointer;
+	border: none;
+}
+
+.woocommerce-layout__activity-panel-tabs {
+	display: flex;
+	justify-content: flex-end;
+	height: 44px;
+}
+
+.woocommerce-layout__activity-panel-tabs .dashicons {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.woocommerce-layout__activity-panel-wrapper {
+	position: absolute;
+	top: 0;
+	right: 45px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	display: none;
+	flex-direction: column;
+	min-width: 200px;
+	padding: 10px 0;
+	z-index: 1000;
+}
+
+.woocommerce-layout__activity-panel-tabs:hover .woocommerce-layout__activity-panel-wrapper {
+	display: block;
+}
+
+.woocommerce-layout__activity-panel-wrapper:before {
+	content: '';
+	width: 0.75rem;
+	height: 0.75rem;
+	position: absolute;
+	z-index: -1;
+	top: 16px;
+	right: -8px;
+	background-color: #fff;
+	transform: rotate(135deg);
+	border: 1px solid #e0e0e0;
+	border-width: 1px 0 0 1px;
+}
+
+.woocommerce-list {
+	margin: 0;
+	padding: 0;
+}
+
+.woocommerce-list__item:not(:first-child) {
+	margin: 0;
+}
+
+.woocommerce-list__item.has-action {
+	cursor: pointer;
+	margin: 0;
+}
+
+.woocommerce-list__item>.woocommerce-list__item-inner {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	transition: background-color 0.2s ease;
+}
+
+.woocommerce-list__item .woocommerce-list__item-before {
+	margin-right: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.woocommerce-list__item .woocommerce-list__item-title {
+	color: #3b64d3;
+}
+
+.woocommerce-list-Text {
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+	Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.woocommerce-list__item .woocommerce-list__item-after {
+	margin-left: 16px;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+@media (min-width: 783px) {
+
+	.woocommerce-layout__activity-panel-header {
+	padding: 16px 24px;
+	}
+}
+
+/*header style end*/
+
+/*.return_plugin_tab_inner_container {
+	border: 1px solid #fafafa;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+}*/
+
+.return_settings_update_btn {
+	margin-top: 15px;
+}
+
+.return_settings_update_btn .spinner.active {
+	visibility: visible;
+}
+
+.return_settings_update_btn .spinner {
+	float: none;
+}
+
+table.return_return_setings {
+	width: 100%;
+}
+
+table.return_return_setings th {
+	text-align: left;
+	font-weight: 600;
+	padding: 15px 0px 10px;
+	display: block;
+}
+
+#return_policy_days {
+	min-width: 70px;
+}
+
+table.return_return_setings tr:first-child th {
+	padding-top: 0;
+}
+
+table.return_return_setings td {
+	display: block;
+	padding: 0 0 15px;
+	border-bottom: 1px solid #f5f5f5 !important;
+}
+
+table.return_return_setings tr:last-child td {
+	padding: 5px 0 5px;
+	border-bottom: none !important;
+}
+
+.return_return_setings td .checkox_layout {
+	padding: 15px 0 0;
+}
+
+#wp-return_guideline_content-wrap,
+#wp-exchange_guideline_content-wrap {
+	max-width: 900px;
+}
+
+#content_return_settings .multiple_input input,
+#content_return_settings .select2-container .select2-selection--single {
+	margin: 5px 0;
+	height: 39px !important;
+	width: 400px;
+}
+
+#content_return_settings .woocommerce-help-tip.tipTip:after {
+	top: 0;
+	margin: 0;
+	color: #3b64d3;
+}
+
+#content_return_settings .select2-container .select2-selection--single .select2-selection__rendered {
+	line-height: 39px !important;
+	font-size: 14px;
+}
+
+#content_return_settings .multiple_input input,
+#content_return_settings .return_store_number,
+#content_return_settings select {
+	width: 400px;
+	height: 39px !important;
+}
+
+#content_return_settings .select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 10px !important;
+}
+
+.return_return_setings td .checkox_layout label,
+.return_return_setings td .multiple_checkox_layout label {
+	vertical-align: baseline;
+	font-weight: 600;
+}
+
+.multiple_checkox_layout {
+	padding: 5px 0;
+}
+
+tr td .input_settings_menu {
+	width: 400px;
+}
+
+.todo_layout #return_reasons,
+.todo_layout #exchange_reasons {
+	min-width: 438px;
+	border-color: #e0e0e0;
+	line-height: 22px;
+}
+
+.todo_layout .addBtn {
+	border: 1px solid #3b64d3;
+	padding: 8px 15px;
+	border-radius: 3px;
+	margin: 0 5px;
+	color: #3b64d3;
+	cursor: pointer;
+	line-height: 22px;
+}
+
+.todo_layout {
+	max-width: 510px;
+	display: flex;
+}
+
+.todo-list {
+	margin-bottom: 0;
+}
+
+.todo-list li .reason_text {
+	color: #333;
+	width: 100%;
+	min-width: auto;
+	line-height: 2;
+	min-height: 26px;
+	padding: 1px 6px;
+}
+
+.todo-list li .reason_text:focus-visible {
+	outline: none;
+}
+
+.todo-list li {
+	background: #fafafa;
+	max-width: 488px;
+	padding: 5px;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	display: flex;
+}
+
+.todo-list li:last-child {
+	margin: 0;
+}
+
+.todo-list li .dashicons {
+	line-height: 1.7;
+	margin: 0 5px;
+	color: #333;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+.todo-list li .dashicons-menu-alt:before {
+	color: #3c434a;
+	cursor: move;
+}
+
+.todo-list li .dashicons-trash:before,
+.todo-list li .dashicons-edit:before {
+	color: #3c434a;
+	cursor: pointer;
+}
+
+.todo-list li .reason_text.editable {
+	border: 1px dotted #3c434a;
+	padding: 0 5px;
+	background: #ffff;
+}
+
+/*Email notifications CSS*/
+
+.notifications-status-email-table .notifications-status {
+	padding: 25px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+
+.notifications-status-email-table .status-tgl-column {
+	float: inline-end;
+}
+
+.notifications-status-email-table a.notification-status-label {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: #013047;
+}
+
+.notifications-status-email-table .tgl-btn-parent {
+	padding: 0 10px;
+}
+
+a.edit_customizer.dashicons.dashicons-admin-generic {
+	color: #3b64d3;
+}
+
+/*End CSS*/
+
+/*license CSS*/
+
+.license_connection_section {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	padding: 15px;
+}
+
+#content_return_license h3.licnese-inner-heading {
+	margin: 0 -15px 15px;
+	padding: 0 15px 15px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.licnese-inner-heading .success {
+	font-style: italic;
+	color: #8bc34a;
+	margin: 0 5px;
+}
+
+.tab_main_heading {
+	font-size: 20px;
+	color: #3c4758;
+	line-height: 35px;
+	margin: 20px 0;
+}
+
+.plugins_section.free_plugin_section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.single_plugin {
+	flex-grow: 1;
+	padding: 0 0;
+	box-sizing: border-box;
+	width: 50%;
+	max-width: 50%;
+	display: flex;
+}
+
+.plugins_section.free_plugin_section .single_plugin:nth-child(3n) {
+	margin-right: 0;
+}
+
+.plugins_section.free_plugin_section .single_plugin .free_plugin_inner {
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	background: #fff;
+}
+
+.plugins_section.free_plugin_section .single_plugin {
+	width: calc(33% - 10px);
+	max-width: calc(33% - 10px);
+	display: flex;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.plugins_section.free_plugin_section .plugin_image {
+	text-align: center;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 15px;
+	height: 50px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.plugins_section.free_plugin_section .plugin_image .plugin_title {
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.plugins_section.free_plugin_section .plugin_description {
+	padding: 15px;
+}
+
+.plugins_section.free_plugin_section .plugin_description p {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	margin-top: 0;
+}
+
+.plugins_section.free_plugin_section .button {
+	line-height: 35px;
+}
+
+/*end license CSS*/
+
+/* Toggle CSS */
+input[type=checkbox].tgl {
+	display: none;
+}
+
+.tgl,
+.tgl:after,
+.tgl:before,
+.tgl *,
+.tgl *:after,
+.tgl *:before,
+.tgl+.tgl-btn {
+	box-sizing: border-box;
+}
+
+.tgl::-moz-selection,
+.tgl:after::-moz-selection,
+.tgl:before::-moz-selection,
+.tgl *::-moz-selection,
+.tgl *:after::-moz-selection,
+.tgl *:before::-moz-selection,
+.tgl+.tgl-btn::-moz-selection {
+	background: none;
+}
+
+.tgl::selection,
+.tgl:after::selection,
+.tgl:before::selection,
+.tgl *::selection,
+.tgl *:after::selection,
+.tgl *:before::selection,
+.tgl+.tgl-btn::selection {
+	background: none;
+}
+
+.tgl+.tgl-btn {
+	outline: 0;
+	display: inline-block;
+	width: 36px;
+	height: 18px;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.tgl+.tgl-btn:after,
+.tgl+.tgl-btn:before {
+	position: relative;
+	display: block;
+	content: "";
+	width: 40%;
+	height: 100%;
+}
+
+.tgl+.tgl-btn:after {
+	left: 0;
+}
+
+.tgl+.tgl-btn:before {
+	display: none;
+}
+
+.tgl:checked+.tgl-btn:after {
+	left: 50%;
+}
+
+.tgl-flat-rt4wc+.tgl-btn {
+	padding: 2px;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	background: rgba(0, 0, 0, 0.26);
+	border: 1px solid #ccc;
+	border-radius: 2em;
+}
+
+.tgl-flat-rt4wc+.tgl-btn:after {
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+	background: #f2f2f2;
+	content: "";
+	border-radius: 1em;
+}
+
+.tgl-flat-rt4wc:checked+.tgl-btn {
+	border: 1px solid #ccc;
+	background: #ffff;
+	vertical-align: middle;
+}
+
+.tgl-flat-rt4wc:checked+.tgl-btn:after {
+	left: 55%;
+	background: #3b64d3;
+}
+
+.rtl .tgl-flat-rt4wc:checked+.tgl-btn:after {
+	right: 55%;
+}
+
+.rtl .tgl+.tgl-btn:after {
+	right: 0;
+}
+
+/* toggle css end*/
+
+/*save notification*/
+@-webkit-keyframes fadein {
+	from {
+	right: 0;
+	opacity: 0;
+	}
+
+	to {
+	right: 20px;
+	opacity: 1;
+	}
+}
+
+@keyframes fadein {
+	from {
+	right: 0;
+	opacity: 0;
+	}
+
+	to {
+	right: 20px;
+	opacity: 1;
+	}
+}
+
+.snackbar-logs {
+	position: fixed;
+	z-index: 5000;
+	top: 65px;
+	right: 10px;
+	width: 300px;
+}
+
+.snackbar-log {
+	-webkit-animation: fadein 0.5s;
+	animation: fadein 0.5s;
+}
+
+.snackbar-log {
+	display: block;
+	margin-top: 10px;
+	position: relative;
+	right: -300px;
+	opacity: 0;
+}
+
+.snackbar-log-show {
+	right: 0;
+	opacity: 1;
+}
+
+.snackbar-log {
+	background: #1f1f1f;
+	background: rgba(0, 0, 0, 0.9);
+	padding: 15px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 15px;
+}
+
+.snackbar-log-success {
+	background: #3b64d3;
+}
+
+.snackbar-log-error {
+	background: #fe1a00;
+	background: rgba(254, 26, 0, 0.9);
+}
+/* Keep the Item — admin notice in fulfillment dashboard popup */
+.keep-item-admin-notice {
+	background: #fff3cd;
+	border: 1px solid #ffc107;
+	border-left: 4px solid #e67e22;
+	border-radius: 4px;
+	padding: 12px 15px;
+	margin-bottom: 15px;
+	font-size: 13px;
+	color: #856404;
+}
+
+.keep-item-admin-notice strong {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+/* Disabled-payment-method textarea — match width of other inputs in settings */
+.return_return_setings textarea.zorem-disabled-payment-message {
+	width: 100%;
+	max-width: 600px;
+	min-height: 80px;
+	box-sizing: border-box;
+	margin: 0 !important;
+}
+
+/* Restocking fee — admin edit field in request modal + WC Edit Order metabox */
+.zorem-rf-admin-edit {
+	margin: 12px 0;
+	padding: 10px 12px;
+	background: #fafafa;
+	border-left: 3px solid #008BC5;
+	border-radius: 3px;
+}
+/* The `!important` here beats WC's `.form-field label` rules on the HPOS Edit
+   Order screen — without it, WC floats the label into the left column and
+   overlaps the input. Same for the input's block layout. */
+.zorem-rf-admin-edit label {
+	display: block !important;
+	float: none !important;
+	width: auto !important;
+	margin: 0 0 6px 0 !important;
+	padding: 0 !important;
+	font-size: 13px !important;
+	line-height: 1.4 !important;
+}
+.zorem-rf-admin-edit input[type="number"] {
+	display: block !important;
+	float: none !important;
+	width: 140px !important;
+	margin: 0 !important;
+	padding: 6px 8px !important;
+	height: auto !important;
+	box-sizing: border-box;
+}
+.zorem-rf-admin-edit .description {
+	display: block !important;
+	float: none !important;
+	width: auto !important;
+	margin: 6px 0 0 0 !important;
+	padding: 0 !important;
+	font-size: 12px;
+	color: #777;
+	font-style: italic;
+}
+
+/* Restocking fee amount input — narrower width to match a numeric value */
+.return_return_setings input.restocking_fee_amount_field {
+	width: 70px;
+	max-width: 70px;
+}

@@ -1,0 +1,83 @@
+.storeagent-upsell-modal {
+  .ant-modal-content {
+    border-radius: 8px;
+  }
+
+  .ant-modal-body {
+    padding: 40px 32px;
+  }
+
+  .storeagent-upsell-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .storeagent-logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 24px;
+
+      img.acfw-logo {
+        max-width: 180px;
+        height: auto;
+        margin-bottom: 0;
+      }
+
+      .logo-separator {
+        font-size: 24px;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.3);
+        line-height: 1;
+      }
+
+      .storeagent-logo {
+        max-width: 180px;
+        height: auto;
+      }
+    }
+
+    .storeagent-icon {
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .storeagent-title {
+      margin-bottom: 16px !important;
+      font-size: 24px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    .storeagent-description {
+      margin-bottom: 32px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: rgba(0, 0, 0, 0.65);
+      max-width: 450px;
+    }
+
+    .storeagent-actions {
+      display: flex;
+      justify-content: center;
+
+      .ant-btn {
+        min-width: 120px;
+      }
+
+      .ant-btn-primary {
+        background: #1890ff;
+        border-color: #1890ff;
+
+        &:hover:not(:disabled) {
+          background: #40a9ff;
+          border-color: #40a9ff;
+        }
+      }
+    }
+  }
+}

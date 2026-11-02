@@ -1,0 +1,379 @@
+# Copyright (C) 2026 Kinsta Team
+# This file is distributed under the same license as the Kinsta Must-use Plugins plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kinsta Must-use Plugins 3.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kinsta-mu-plugins\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-15T00:44:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: kinsta-mu-plugins\n"
+
+#. Plugin Name of the plugin
+#: kinsta-mu-plugins.php
+msgid "Kinsta Must-use Plugins"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: kinsta-mu-plugins.php
+msgid "https://kinsta.com/knowledgebase/kinsta-mu-plugin/"
+msgstr ""
+
+#. Description of the plugin
+#: kinsta-mu-plugins.php
+msgid "The plugin designed to work on Kinsta's managed WordPress hosting platform."
+msgstr ""
+
+#. Author of the plugin
+#: kinsta-mu-plugins.php
+msgid "Kinsta Team"
+msgstr ""
+
+#. Author URI of the plugin
+#: kinsta-mu-plugins.php
+msgid "https://kinsta.com/about-us/"
+msgstr ""
+
+#. Translators: %1$s WordPress, %2$s Kinsta URL.
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:141
+#, php-format
+msgid "Thanks for creating with %1$s and hosting with %2$s"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:158
+msgid "Kinsta Cache"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:158
+msgid "Server Cache"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:215
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:217
+msgid "Clear Caches"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:227
+#: kinsta-mu-plugins/admin/pages/cache.php:32
+msgid "Clear All Caches"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:236
+#: kinsta-mu-plugins/admin/pages/cache.php:47
+msgid "Clear Site Cache"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:245
+#: kinsta-mu-plugins/admin/pages/cache.php:79
+msgid "Clear CDN Cache"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:254
+#: kinsta-mu-plugins/admin/pages/cache.php:62
+msgid "Clear Object Cache"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:403
+#: kinsta-mu-plugins/wp-cli/commands/class-cache-purge-command.php:167
+msgid "All caches were cleared. Changes usually appear globally within a few minutes."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:404
+msgid "Site cache was cleared. Changes usually appear globally within a few minutes."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:405
+msgid "Object cache was cleared. Changes usually appear globally within a few minutes."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:406
+msgid "CDN cache was cleared. Changes usually appear globally within a few minutes."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:407
+#: kinsta-mu-plugins/admin/pages/cache.php:237
+msgid "Settings saved."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/class-kmp-admin.php:410
+msgid "Cache clearing has been initiated."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:19
+msgid "Dismiss this notice."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:26
+msgid "Cache Control"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:29
+msgid "Your site uses our full page and object caching technology to load lightning fast. We purge single pages and key pages such as the home page immediately and impose a minimal throttle time on archive pages. This ensures high availability at all times."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:41
+msgid "Site Caching"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:44
+msgid "Site cache makes your site load faster by storing site data. Clear it if you want to make sure your site shows the most recent version."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:56
+msgid "Object Caching"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:59
+msgid "The WordPress Object Cache is used to save on trips to the database. The Object Cache stores all of the cache data to memory and makes the cache contents available by using a key, which is used to name and later retrieve the cache contents."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:75
+msgid "When CDN is enabled, all static content (such as images, CSS, and JavaScript files) is served through our Content Delivery Network. The limit is 5 GB per file. Clearing CDN cache purges the assigned CDN zone. If you replace static files and the new content has the same filename as the old content, you should clear the cache. The process may take up to five minutes."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:88
+msgid "Custom URLs to purge"
+msgstr ""
+
+#. translators: %s Kinsta Cache URL.
+#: kinsta-mu-plugins/admin/pages/cache.php:95
+#, php-format
+msgid "You can add custom paths to purge whenever your site is updated. Please see our %s for more information on how to use this feature effectively."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:107
+msgid "documentation"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:110
+msgid "You can add custom paths to purge whenever your site is updated."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:115
+msgid "Add A Custom URL"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:225
+msgid "Settings"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:231
+msgid "Enable Autopurge"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:233
+msgid "We purge the full page cache on every page and post update. If you are importing posts, you can disable the autopurge temporarily to avoid site slowdowns."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cache.php:238
+msgid "Save Settings"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cdn.php:23
+msgid "CDN is enabled. All static content (such as images, CSS, and JavaScript files) is loaded through our CDN. We serve all the folders of your website. The limit is 5 GB per file."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cdn.php:24
+msgid "Clearing CDN..."
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cdn.php:24
+msgid "CDN Cleared"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cdn.php:24
+msgid "Clear CDN"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/cdn.php:33
+msgid "Manage your CDN settings, including minification and exclusions, on the MyKinsta CDN settings page"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/partials/sidebar-support.php:20
+msgid "Need Help?"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/partials/sidebar-support.php:23
+msgid "If you need some help contact us through your MyKinsta Dashboard"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/partials/sidebar-support.php:24
+msgid "Go To Dashboard"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/settings.php:26
+msgid "Disable Cache Autopurge"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/settings.php:33
+msgid "Clear Cache For AMP Pages"
+msgstr ""
+
+#: kinsta-mu-plugins/admin/pages/settings.php:40
+msgid "Allow banned plugins"
+msgstr ""
+
+#: kinsta-mu-plugins/app/Cache/Autopurge/ACFController.php:33
+msgid "Purge cache when ACF options are updated."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Cache/Autopurge/WooCommerceController.php:44
+msgid "Purge cache when WooCommerce product details (e.g. stocks) are updated."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Cache/Autopurge/WPOptionController.php:47
+msgid "Purge cache when options are updated."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Cache/Autopurge/WPPostController.php:30
+msgid "Purge cache when posts are updated."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Cache/Autopurge/WPThemeController.php:22
+msgid "Purge cache when the theme is updated or switched."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Cache/Autopurge/WPThemeHeaderController.php:40
+msgid "Purge cache when theme headers are updated."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Cache/Autopurge/WPThemeWidgetController.php:56
+msgid "Purge cache when theme widgets are updated."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:40
+msgid "Autopurge is enabled."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:41
+msgid "Autopurge is disabled."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:60
+msgid "Autopurge is already disabled."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:65
+msgid "Autopurge is now disabled."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:67
+msgid "Failed to disable autopurge."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:86
+msgid "Autopurge is already enabled."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:91
+msgid "Autopurge is now enabled."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:93
+msgid "Failed to enable autopurge."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:165
+msgid "Please provide the setting to update."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:171
+msgid "Please provide the status to update on the setting."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:180
+msgid "Status value is invalid. Please use \"on\" or \"off\"."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:190
+msgid "Autopurge setting updated."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php:192
+msgid "Autopurge setting is not updated."
+msgstr ""
+
+#: kinsta-mu-plugins/app/Compat/Elementor.php:26
+msgid "Purge cache on Elementor updates that affect the front-end."
+msgstr ""
+
+#: kinsta-mu-plugins/compat/third-party/swift-performance.php:27
+msgid "We've detected that the <code>SWIFT_PERFORMANCE_DISABLE_CACHE</code> constant has been set to <code>false</code>. This can cause cache issues for your site. Please remove this constant from your site's wp-config.php file or from the plugin or theme file where it has been defined."
+msgstr ""
+
+#: kinsta-mu-plugins/compat/third-party/wordfence.php:26
+msgid "We've detected that the <code>WORDFENCE_DISABLE_LIVE_TRAFFIC</code> constant has been set to <code>false</code>. This can cause significant performance issues for your site. Please remove this constant from your site's wp-config.php file or from the plugin or theme file where it has been defined."
+msgstr ""
+
+#: kinsta-mu-plugins/compat/third-party/wp-rocket.php:56
+#, php-format
+msgid "Your WP Rocket version is out-of-date and not fully compatible with Kinsta. %s"
+msgstr ""
+
+#: kinsta-mu-plugins/compat/third-party/wp-rocket.php:68
+msgid "Please update WP Rocket on the Plugins page"
+msgstr ""
+
+#: kinsta-mu-plugins/security/class-banned-plugins.php:238
+#: kinsta-mu-plugins/security/class-banned-plugins.php:275
+#: kinsta-mu-plugins/security/class-banned-plugins.php:364
+#: kinsta-mu-plugins/security/class-banned-plugins.php:367
+msgid "Banned"
+msgstr ""
+
+#: kinsta-mu-plugins/security/class-banned-plugins.php:329
+msgid "Kinsta detected a banned plugin"
+msgid_plural "Kinsta detected banned plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %s "this plugin" if singular, "these plugins" if plural.
+#: kinsta-mu-plugins/security/class-banned-plugins.php:335
+#, php-format
+msgid "Please deactivate %s as soon as possible. Using a banned plugin can cause performance issues for your site or compatibility issues with our hosting platform."
+msgstr ""
+
+#. Translators: %s "this plugin" if singular, "these plugins" if plural.
+#: kinsta-mu-plugins/security/class-banned-plugins.php:335
+#: kinsta-mu-plugins/security/class-banned-plugins.php:351
+msgid "this plugin"
+msgid_plural "these plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kinsta-mu-plugins/security/class-banned-plugins.php:338
+msgid "Learn more about banned plugins"
+msgstr ""
+
+#: kinsta-mu-plugins/security/class-banned-plugins.php:343
+msgid "Banned plugin detected"
+msgid_plural "Banned plugins detected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kinsta-mu-plugins/security/class-banned-plugins.php:348
+msgid "Using a banned plugin can cause performance issues for your site or compatibility issues with the hosting platform."
+msgstr ""
+
+#. Translators: %s "this plugin" if singular, "these plugins" if plural.
+#: kinsta-mu-plugins/security/class-banned-plugins.php:351
+#, php-format
+msgid "Please deactivate %s as soon as possible."
+msgstr ""
+
+#: kinsta-mu-plugins/security/class-banned-plugins.php:380
+msgid "Why?"
+msgstr ""
+
+#: kinsta-mu-plugins/wp-cli/commands/class-cache-purge-command.php:149
+msgid "Object Cache has been cleared."
+msgstr ""
+
+#: kinsta-mu-plugins/wp-cli/commands/class-cache-purge-command.php:151
+msgid "Something went wrong! The Object Cache was not purged."
+msgstr ""

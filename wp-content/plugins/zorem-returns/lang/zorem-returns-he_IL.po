@@ -1,0 +1,4486 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zorem Returns\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-04 04:26+0000\n"
+"PO-Revision-Date: 2026-07-13 12:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Domain: zorem-returns\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.3.23\n"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:652
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:914
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:987
+msgid " at "
+msgstr " בְּ- "
+
+#. translators: %1$s is total price (formatted), %2$d is quantity, %3$s is
+#. "item"/"items"
+#: includes/class-return-exchange-common.php:241
+#, php-format
+msgid "%1$s for %2$d %3$s"
+msgstr "%1$s עבור %2$d %3$s"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1222
+#: includes/zorem-returns/class-return-common-functions.php:1238
+msgid ""
+". We truly appreciate your business and look forward to serving you again "
+"soon."
+msgstr "אנו מעריכים מאוד את קנייתך ומצפים לשרת אותך שוב בקרוב."
+
+#: includes/class-return-exchange-admin.php:918
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1221
+msgid ""
+"<strong>Exchange Guidelines:</strong><ul><li>Securely package the item you "
+"are returning for exchange to prevent damage during transit. Use the "
+"original packaging if possible.</li><li>Use a reliable shipping service to "
+"send the package back to us. We recommend a service that provides tracking "
+"information. This helps ensure the package reaches us safely and allows you "
+"to track its status.</li><li>After shipping your exchange package, please "
+"notify us by replying to the initial email or contacting our support team "
+"with the tracking number.</li><li>Upon receiving the exchanged items, we "
+"will inspect them to ensure they meet our exchange policy criteria. If the "
+"items are in good condition and meet the criteria, we will process the "
+"exchange.</li><li>Once the exchange is approved, we will ship the "
+"replacement item to you. You will receive a confirmation email with tracking"
+" information once the new item is dispatched.</li><li>Exchanges will be "
+"processed within 5-7 business days of receiving the returned items. The "
+"shipping time for the new item may vary depending on your "
+"location.</li></ul>"
+msgstr ""
+"<strong>הנחיות החלפה:</strong><ul><li>ארזו בצורה מאובטחת את הפריט שאתה מחזיר"
+" להחלפה כדי למנוע נזק במהלך ההעברה. השתמש באריזה המקורית במידת "
+"האפשר.</li><li>השתמש בשירות משלוחים אמין כדי לשלוח את החבילה חזרה אלינו. אנו"
+" ממליצים על שירות המספק מידע מעקב. זה עוזר להבטיח שהחבילה תגיע אלינו בבטחה "
+"ומאפשר לך לעקוב אחר מצבה.</li><li>לאחר משלוח חבילת ההחלפה שלך, אנא הודע לנו "
+"על ידי מענה לדוא\"ל הראשוני או יצירת קשר עם צוות התמיכה שלנו עם מספר "
+"המעקב.</ li><li>עם קבלת הפריטים שהוחלפו, נבדוק אותם כדי לוודא שהם עומדים "
+"בקריטריונים של מדיניות ההחלפה שלנו. במידה והפריטים במצב תקין ועומדים "
+"בקריטריונים, נעבד את ההחלפה.</li><li>לאחר אישור ההחלפה, נשלח אליך את הפריט "
+"החלופי. תקבל הודעת אישור בדוא\"ל עם פרטי מעקב לאחר שליחת הפריט "
+"החדש.</li><li>החלפות יעובדו תוך 5-7 ימי עסקים מרגע קבלת הפריטים המוחזרים. "
+"זמן המשלוח של הפריט החדש עשוי להשתנות בהתאם למיקומך.</li></ul>"
+
+#: includes/class-return-exchange-admin.php:755
+#: includes/zorem-returns/class-return-common-functions.php:1237
+msgid ""
+"<strong>Return Guidelines:</strong><ul><li>Ensure all items being returned "
+"are securely packaged to prevent damage during transit.</li><li>Use a "
+"reliable shipping service to send the package back to us. We recommend using"
+" a service that provides tracking information.</li><li>Once your return "
+"package is shipped, please notify us by replying to this email with the "
+"tracking number.</li><li>Upon receiving the returned items, we will inspect "
+"them to ensure they meet our return policy criteria.</li><li>Refunds or "
+"store credits will be processed within 5–7 business days of receiving the "
+"returned items.</li></ul>"
+msgstr ""
+"<strong>הנחיות להחזרה:</strong><ul><li>ודא שכל הפריטים המוחזרים ארוזים בצורה"
+" מאובטחת כדי למנוע נזק במהלך ההעברה.</li><li>השתמש בשירות משלוחים אמין כדי "
+"לשלוח את החבילה אלינו בחזרה. אנו ממליצים להשתמש בשירות המספק מידע "
+"מעקב.</li><li>לאחר שליחת החבילה ההחזרה שלך, אנא הודע לנו על ידי מענה לדוא\"ל"
+" זה עם מספר המעקב.</li><li>עם קבלת הפריטים המוחזרים, אנו נבדוק אותם כדי "
+"לוודא שהם עומדים בקריטריונים של מדיניות ההחזרה שלנו.</li><li>החזרים או "
+"זיכויים בחנות יעובדו תוך 5-7 ימי עסקים מרגע קבלת הפריטים המוחזרים.</li></ul>"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1182
+msgid "A New Exchange Request Has Been Received"
+msgstr "התקבלה בקשת החלפה חדשה:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1183
+msgid "A new exchange request received:"
+msgstr "בקשת חליפין חדשה התקבלה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1198
+msgid "A New Return Request Has Been Received"
+msgstr "התקבלה בקשת החזרה חדשה:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1199
+msgid "A new return request received:"
+msgstr "בקשת החזרה חדשה התקבלה"
+
+#: includes/admin-html/returns-exchanges-center.php:65
+#: includes/admin-html/warranty-claims-dashboard.php:56
+#: includes/class-return-exchange-common.php:212
+msgid "Actions"
+msgstr "פעולות"
+
+#: includes/admin-html/returns-exchanges-license-form.php:27
+#: includes/admin-html/returns-exchanges-license-form.php:29
+#: includes/admin-html/returns-exchanges-license-form.php:31
+#: includes/admin-html/returns-exchanges-license.php:188
+msgid "Activate License"
+msgstr "הפעל רישיון"
+
+#: includes/admin-html/returns-exchanges-license-form.php:28
+#: includes/admin-html/returns-exchanges-license-form.php:32
+msgid ""
+"Activate your license to receive automatic updates and premium support."
+msgstr "הפעל את הרישיון שלך כדי לקבל עדכונים אוטומטיים ותמיכה פרימיום."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:205
+msgid "Add a note for exchange approval or rejection..."
+msgstr "הוסף הערה לאישור או דחייה של החלפה..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:375
+msgid "Add a note for exchange approval..."
+msgstr "הוסף הערה לאישור החלפה..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:377
+msgid "Add a note for exchange rejection..."
+msgstr "הוסף הערה לדחיית החלפה..."
+
+#: includes/zorem-returns/class-return-common-functions.php:236
+msgid "Add a note for return approval or rejection..."
+msgstr "הוסף הערה לאישור או דחייה של החזרה..."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:344
+msgid "Add a note for return approval..."
+msgstr "הוסף הערה לאישור החזרה..."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:346
+msgid "Add a note for return rejection..."
+msgstr "הוסף הערה לדחיית החזרה..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:372
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:341
+msgid "Add a note..."
+msgstr "הוסף הערה..."
+
+#: includes/class-return-exchange-admin.php:930
+msgid ""
+"Add or remove custom reasons that customers can select when requesting an "
+"exchange."
+msgstr ""
+"הוספה או הסרה של סיבות מותאמות אישית שלקוחות יכולים לבחור בעת בקשת החלפה."
+
+#: includes/class-return-exchange-admin.php:767
+msgid ""
+"Add or remove custom reasons that customers can select when requesting an "
+"return."
+msgstr ""
+"הוספה או הסרה של סיבות מותאמות אישית שלקוחות יכולים לבחור בעת בקשת החזרה."
+
+#: templates/emails/customer-coupon-email.php:40
+msgid "Add products to your cart."
+msgstr "הוסף מוצרים לעגלה שלך."
+
+#: includes/class-return-exchange-admin.php:766
+#: includes/class-return-exchange-admin.php:929
+#: includes/class-return-exchange-admin.php:1174
+msgid "Add Reason"
+msgstr "הוסף סיבה"
+
+#: includes/customizer/customizer-admin.php:499
+msgid "Additional Content"
+msgstr "תוכן נוסף"
+
+#: includes/admin-html/returns-exchanges-center.php:35
+msgid "All Orders"
+msgstr "כל ההזמנות"
+
+#: includes/class-return-exchange-admin.php:799
+msgid "Allow exchanges for sale products"
+msgstr "אפשר החזרות/החלפות למוצרי מכירה"
+
+#: includes/class-return-exchange-admin.php:815
+msgid "Allow Partial Exchange"
+msgstr "אפשר החלפה חלקית"
+
+#: includes/class-return-exchange-admin.php:654
+msgid "Allow Partial Return"
+msgstr "אפשר החזר חלקי"
+
+#: includes/class-return-exchange-admin.php:638
+msgid "Allow Returns for Sale Products"
+msgstr "אפשר החזרות למכירה של מוצרים"
+
+#: includes/class-return-exchange-admin.php:1319
+msgid ""
+"Allow the customer to keep this item when a return or exchange is requested"
+msgstr "לאפשר ללקוח לשמור פריט זה בעת בקשת החזרה או החלפה"
+
+#: includes/class-return-exchange-admin.php:804
+msgid "Allows customers to request exchanges for items purchased on sale"
+msgstr "מאפשר ללקוחות לבקש החלפה של פריטים שנרכשו במבצע"
+
+#: includes/class-return-exchange-admin.php:820
+msgid ""
+"Allows customers to request partial exchanges for individual items in an "
+"order."
+msgstr "מאפשר ללקוחות לבקש החלפות חלקיות של פריטים בודדים בהזמנה."
+
+#: includes/class-return-exchange-admin.php:659
+msgid ""
+"Allows customers to request partial return for individual items in an order."
+msgstr "מאפשר ללקוחות לבקש החזרה חלקית של פריטים בודדים בהזמנה."
+
+#: includes/class-return-exchange-admin.php:643
+msgid "Allows customers to request return for items purchased on sale"
+msgstr "מאפשר ללקוחות לבקש החזרה של פריטים שנרכשו במבצע"
+
+#: templates/emails/admin-exchange-approved.php:38
+#: templates/emails/admin-exchange-approved.php:39
+#: templates/emails/admin-exchange-cancelled.php:38
+#: templates/emails/admin-exchange-cancelled.php:39
+#: templates/emails/admin-exchange-completed.php:34
+#: templates/emails/admin-exchange-completed.php:35
+#: templates/emails/admin-exchange-rejected.php:34
+#: templates/emails/admin-exchange-rejected.php:35
+#: templates/emails/admin-exchange-requested.php:38
+#: templates/emails/admin-exchange-requested.php:39
+#: templates/emails/admin-return-approved.php:38
+#: templates/emails/admin-return-approved.php:39
+#: templates/emails/admin-return-cancelled.php:38
+#: templates/emails/admin-return-cancelled.php:39
+#: templates/emails/admin-return-completed.php:34
+#: templates/emails/admin-return-completed.php:35
+#: templates/emails/admin-return-rejected.php:34
+#: templates/emails/admin-return-rejected.php:35
+#: templates/emails/admin-return-requested.php:38
+#: templates/emails/admin-return-requested.php:39
+msgid "Already purchased the product"
+msgstr "כבר רכש את המוצר"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:207
+#: includes/zorem-returns/class-return-common-functions.php:251
+msgid "Approve"
+msgstr "לְאַשֵׁר"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:383
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:388
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:732
+msgid "Approve this exchange request"
+msgstr "אשר בקשת החלפה זו"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:370
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:383
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1056
+msgid "Approve this return request"
+msgstr "אשר בקשת החזרה זו"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1191
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1219
+msgid "Approved Exchange Items"
+msgstr "פריטי החלפה מאושרים"
+
+#: includes/zorem-returns/class-return-common-functions.php:1207
+#: includes/zorem-returns/class-return-common-functions.php:1235
+msgid "Approved Return Items"
+msgstr "פריטים להחזרה מאושרים"
+
+#: templates/emails/customer-coupon-email.php:41
+msgid "At checkout, enter the coupon code"
+msgstr "במהלך התשלום, הזן את קוד הקופון "
+
+#: includes/admin-html/returns-exchanges-center.php:64
+#: includes/admin-html/warranty-claims-dashboard.php:111
+msgid "Attachments"
+msgstr "קבצים מצורפים"
+
+#: includes/class-return-exchange-admin.php:807
+msgid "Automatically Approve Exchange Requests"
+msgstr "אישור אוטומטי של בקשות החלפה"
+
+#: includes/class-return-exchange-admin.php:646
+msgid "Automatically Approve Return Requests"
+msgstr "אישור אוטומטי של בקשות החזרה"
+
+#: includes/customizer/customizer-admin.php:513
+msgid "Available Placeholders:"
+msgstr "מצייני מיקום זמינים:"
+
+#: templates/emails/customer-coupon-email.php:39
+msgid "Browse and add your favorite products to the cart."
+msgstr "עיין והוסף את המוצרים המועדפים עליך לעגלה."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:923
+#: includes/zorem-returns/class-return-common-functions.php:1602
+#: includes/zorem-returns/class-return-front.php:460
+msgid "Cancel Request"
+msgstr "ביטול בקשה"
+
+#: includes/class-return-exchange-admin.php:1291
+msgid "Change status to partial return"
+msgstr "שנה את הסטטוס להחזרה חלקית"
+
+#: includes/class-return-exchange-admin.php:1290
+msgid "Change status to return"
+msgstr "שנה סטטוס לחזרה"
+
+#: includes/class-return-exchange-admin.php:578
+msgid ""
+"Choose a page that outlines your return/exchange terms and conditions. This "
+"page will be shown to customers during the return request process."
+msgstr ""
+"בחרו דף המפרט את תנאי ההחזרה/החלפה שלכם. דף זה יוצג ללקוחות במהלך תהליך בקשת"
+" ההחזרה."
+
+#: includes/class-return-exchange-admin.php:504
+msgid "City"
+msgstr "עִיר"
+
+#: includes/admin-html/returns-exchanges-license-form.php:33
+msgid "Connect & Activate"
+msgstr "התחבר והפעל"
+
+#: includes/admin-html/returns-exchanges-center.php:62
+#: includes/admin-html/returns-exchanges-emails.php:129
+#: includes/admin-html/warranty-claims-dashboard.php:53
+msgid "Customer"
+msgstr "לָקוּחַ"
+
+#: templates/emails/admin-exchange-approved.php:59
+#: templates/emails/admin-exchange-cancelled.php:58
+#: templates/emails/admin-exchange-completed.php:54
+#: templates/emails/admin-exchange-rejected.php:56
+#: templates/emails/admin-exchange-requested.php:58
+#: templates/emails/admin-return-approved.php:59
+#: templates/emails/admin-return-cancelled.php:58
+#: templates/emails/admin-return-completed.php:54
+#: templates/emails/admin-return-rejected.php:56
+#: templates/emails/admin-return-requested.php:58
+msgid "Customer Email:"
+msgstr "דוא\"ל לקוח:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:696
+msgid "Customer Message:"
+msgstr "הודעת לקוח:"
+
+#. translators: %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:33
+#: templates/emails/admin-exchange-cancelled.php:33
+#: templates/emails/admin-exchange-completed.php:30
+#: templates/emails/admin-exchange-rejected.php:30
+#: templates/emails/admin-exchange-requested.php:33
+#: templates/emails/admin-return-approved.php:33
+#: templates/emails/admin-return-cancelled.php:33
+#: templates/emails/admin-return-completed.php:30
+#: templates/emails/admin-return-rejected.php:30
+#: templates/emails/admin-return-requested.php:33
+msgid "Customer Name: "
+msgstr "שם הלקוח: "
+
+#: includes/zorem-returns/class-return-common-functions.php:214
+#: templates/emails/admin-return-approved.php:71
+#: templates/emails/admin-return-cancelled.php:70
+#: templates/emails/admin-return-completed.php:65
+#: templates/emails/admin-return-rejected.php:67
+#: templates/emails/admin-return-requested.php:70
+msgid "Customer’s Reason for Return:"
+msgstr "סיבת ההחזרה של הלקוח:"
+
+#: includes/customizer/customizer-admin.php:158
+msgid "Customizing"
+msgstr "התאמה אישית"
+
+#: includes/admin-html/returns-exchanges-license-form.php:22
+msgid "Deactivate"
+msgstr "השבת"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:755
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1077
+msgid "Delete"
+msgstr "לִמְחוֹק"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:296
+#: includes/zorem-returns/htmls/returns-center-form.php:221
+msgid "Describe the issue with the product"
+msgstr "תאר את הבעיה עם המוצר"
+
+#: includes/class-return-exchange-admin.php:559
+msgid "Eligible Order Statuses for Returns/Exchanges"
+msgstr "סטטוסי הזמנות זכאים להחזרות/החלפות"
+
+#: includes/customizer/customizer-admin.php:440
+msgid "Email Content"
+msgstr "תוכן באימייל"
+
+#: includes/customizer/customizer-admin.php:427
+msgid "Email Heading"
+msgstr "כותרת אימייל"
+
+#: includes/admin-html/returns-exchanges-emails.php:79
+msgid "Email Notifications"
+msgstr "הודעות אימייל"
+
+#: includes/customizer/customizer-admin.php:414
+msgid "Email Subject"
+msgstr "נושא דוא\"ל"
+
+#: includes/customizer/customizer-admin.php:387
+msgid "Email Type"
+msgstr "סוג דוא\"ל"
+
+#: includes/class-return-exchange-admin.php:791
+msgid "Enable Exchange Requests"
+msgstr "הפעל בקשות Exchange"
+
+#: includes/class-return-exchange-admin.php:796
+msgid "Enable or disable the exchange request option for customers."
+msgstr "הפעלה או השבתה של אפשרות בקשת ההחלפה עבור לקוחות."
+
+#: includes/class-return-exchange-admin.php:812
+msgid "Enable this option to automatically approve all new exchange requests."
+msgstr "הפעל אפשרות זו כדי לאשר אוטומטית את כל בקשות ההחלפה החדשות."
+
+#: includes/class-return-exchange-admin.php:651
+msgid "Enable this option to automatically approve all new return requests."
+msgstr "הפעל אפשרות זו כדי לאשר אוטומטית את כל בקשות ההחזרה החדשות."
+
+#: includes/class-return-exchange-admin.php:691
+msgid ""
+"Enable this option to include the original shipping fee in the customer's "
+"refund."
+msgstr "הפעל אפשרות זו כדי לכלול את דמי המשלוח המקוריים בהחזר של הלקוח."
+
+#: templates/emails/customer-coupon-email.php:42
+#: templates/emails/customer-exchange-store-credit.php:69
+#: templates/emails/customer-return-store-credit.php:69
+msgid "Enjoy your discount!"
+msgstr "תהנה מההנחה שלך!"
+
+#: includes/class-return-exchange-admin.php:604
+msgid ""
+"Enter the store address where customers should send return or exchange "
+"items."
+msgstr "הזן את כתובת החנות שאליה על הלקוחות לשלוח פריטים להחזרה או החלפה."
+
+#: includes/admin-html/returns-exchanges-center.php:21
+#: includes/admin-html/returns-exchanges-emails.php:25
+#: includes/admin-html/returns-exchanges-emails.php:42
+msgid "Exchange Approved"
+msgstr "אושרה החלפה"
+
+#: includes/customizer/customizer-admin.php:359
+msgid "Exchange Approved (Customer)"
+msgstr "החלפה מאושרת (לקוח)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:708
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:359
+#: templates/emails/admin-exchange-approved.php:70
+#: templates/emails/customer-exchange-approved.php:40
+msgid "Exchange Approved Note:"
+msgstr "הערה שאושרה על ידי הבורסה:"
+
+#: includes/admin-html/returns-exchanges-center.php:23
+msgid "Exchange Cancelled"
+msgstr "ההחלפה בוטלה"
+
+#: includes/zorem-exchanges/class-exchange-front.php:176
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:21
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:23
+msgid "Exchange Entire Order"
+msgstr "החלפת הזמנה שלמה"
+
+#: includes/class-return-exchange-admin.php:914
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1220
+msgid "Exchange Guidelines"
+msgstr "הנחיות החלפה"
+
+#: templates/emails/admin-exchange-approved.php:69
+#: templates/emails/admin-exchange-cancelled.php:70
+#: templates/emails/admin-exchange-completed.php:64
+#: templates/emails/admin-exchange-rejected.php:66
+#: templates/emails/admin-exchange-requested.php:68
+msgid "Exchange Issue"
+msgstr "בעיית החלפה"
+
+#: includes/zorem-exchanges/class-exchange-front.php:176
+#: includes/zorem-exchanges/class-exchange-front.php:305
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:13
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:15
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1000
+msgid "Exchange Item"
+msgstr "פריט החלפה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1177
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1184
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:153
+msgid "Exchange Items Summary"
+msgstr "סיכום פריטי החלפה"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:355
+msgid "Exchange Message:"
+msgstr "הודעת החלפת:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1275
+msgid "Exchange Parent Order"
+msgstr "הזמנת אב להחלפה"
+
+#: templates/emails/admin-exchange-approved.php:65
+#: templates/emails/admin-exchange-approved.php:67
+#: templates/emails/admin-exchange-cancelled.php:66
+#: templates/emails/admin-exchange-cancelled.php:68
+#: templates/emails/admin-exchange-completed.php:60
+#: templates/emails/admin-exchange-completed.php:62
+#: templates/emails/admin-exchange-rejected.php:62
+#: templates/emails/admin-exchange-rejected.php:64
+#: templates/emails/admin-exchange-requested.php:64
+#: templates/emails/admin-exchange-requested.php:66
+msgid "Exchange Reason"
+msgstr "החלפת סיבה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:682
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:352
+msgid "Exchange Reason:"
+msgstr "סיבת החלפות:"
+
+#: includes/class-return-exchange-admin.php:922
+msgid "Exchange Reasons"
+msgstr "החלפת סיבות"
+
+#: includes/admin-html/returns-exchanges-center.php:22
+#: includes/admin-html/returns-exchanges-emails.php:27
+#: includes/admin-html/returns-exchanges-emails.php:44
+msgid "Exchange Rejected"
+msgstr "החלפה נדחתה"
+
+#: includes/customizer/customizer-admin.php:361
+msgid "Exchange Rejected (Customer)"
+msgstr "החלפה נדחתה (לקוח)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:706
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:363
+#: templates/emails/customer-exchange-rejected.php:39
+msgid "Exchange Rejected Note:"
+msgstr "פתק דחייה של החלפה:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:94
+msgid "Exchange Request "
+msgstr "בקשת החלפה "
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1188
+msgid "Exchange Request Approved"
+msgstr "בקשת החלפה אושרה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1216
+msgid "Exchange Request Approved - Instructions for Return"
+msgstr "אושרה בקשת החלפה - הוראות להחזרה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1189
+msgid "Exchange Request Approved – Return Instructions Inside"
+msgstr "בקשת החלפה אושרה – הוראות החזרה בפנים"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1195
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1196
+msgid "Exchange Request Cancelled"
+msgstr "בקשת החלפה בוטלה"
+
+#: includes/customizer/customizer-admin.php:358
+msgid "Exchange Request Received (Customer)"
+msgstr "בקשת חליפין התקבלה (לקוח)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1174
+msgid "Exchange Request Received – We're Reviewing Your Request!"
+msgstr "בקשת החלפה התקבלה - אנו בודקים את בקשתך!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1202
+msgid "Exchange Request Rejected – Order Not Eligible"
+msgstr "בקשת החלפה נדחתה – ההזמנה אינה כשירה"
+
+#: includes/admin-html/returns-exchanges-center.php:20
+msgid "Exchange Requested"
+msgstr "החלפה מבוקשת"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:57
+msgid "Exchange Requests"
+msgstr "בקשות החלפה"
+
+#: includes/admin-html/returns-exchanges-settings.php:36
+msgid "Exchange Settings"
+msgstr "הגדרות Exchange"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:142
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:125
+msgid "Exchange With"
+msgstr "החלפה עם"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:717
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:303
+msgid "Exchanged Product Summary"
+msgstr "סיכום מוצרים שהוחלפו"
+
+#: templates/emails/admin-exchange-approved.php:40
+#: templates/emails/admin-exchange-cancelled.php:40
+#: templates/emails/admin-exchange-completed.php:36
+#: templates/emails/admin-exchange-rejected.php:36
+#: templates/emails/admin-exchange-requested.php:40
+msgid "Exchanges request details"
+msgstr "פרטי בקשת החלפות"
+
+#: includes/class-return-exchange-admin.php:581
+msgid "Exclude Categories from Returns/Exchanges"
+msgstr "אי הכללת קטגוריות מהחזרות/החלפות"
+
+#: includes/admin-html/returns-exchanges-settings.php:26
+msgid "General Settings"
+msgstr "הגדרות כלליות"
+
+#: templates/emails/customer-coupon-email.php:37
+msgid "How to Use Your Store Credit:"
+msgstr "כיצד להשתמש באשראי החנות שלך:"
+
+#. Author URI of the plugin
+#: zorem-returns.php
+msgid "http://www.zorem.com/"
+msgstr "http://www.zorem.com/"
+
+#. Plugin URI of the plugin
+#: zorem-returns.php
+msgid "https://www.zorem.com/plugins/"
+msgstr "https://www.zorem.com/plugins/"
+
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:321
+#: includes/zorem-returns/htmls/returns-center-form.php:304
+#, php-format
+msgid "I agree to the %1$sterms and conditions%2$s."
+msgstr "אני מסכים/ה ל-%1$sתנאים וההגבלות%2$s."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1190
+msgid ""
+"I wanted to inform you that the exchange request for order #{order_number} "
+"has been approved by the admin. Below are the details:"
+msgstr ""
+"רציתי להודיע לך שבקשת ההחלפה להזמנה מס' {order_number} אושרה על ידי המנהל. "
+"להלן הפרטים:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1197
+msgid ""
+"I wanted to inform you that the exchange request for order #{order_number} "
+"has been cancelled by the customer. Below are the details:"
+msgstr ""
+"רציתי להודיע לך שבקשת ההחלפה להזמנה מס' {order_number} בוטלה על ידי הלקוח. "
+"להלן הפרטים:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1206
+msgid ""
+"I wanted to inform you that the return request for order #{order_number} has"
+" been approved by the admin. Below are the details:"
+msgstr ""
+"רציתי להודיע לך שבקשת ההחזרה להזמנה מס' {order_number} אושרה על ידי מנהל "
+"המערכת. להלן הפרטים:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1213
+msgid ""
+"I wanted to inform you that the return request for order #{order_number} has"
+" been cancelled by the customer. Below are the details:"
+msgstr ""
+"רציתי להודיע לך שבקשת ההחזרה להזמנה מס' {order_number} בוטלה על ידי הלקוח. "
+"להלן הפרטים:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1222
+msgid ""
+"If you have any questions or concerns about your exchange, feel free to "
+"contact our customer support team at [Customer Support Email/Phone "
+"Number].<br><br>Thank you for choosing"
+msgstr ""
+"אם יש לכם שאלות או חששות בנוגע להחלפה שלכם, אל תהססו לפנות לצוות תמיכת "
+"הלקוחות שלנו בכתובת [Customer Support Email/Phone Number].<br><br>תודה "
+"שבחרתם"
+
+#: includes/zorem-returns/class-return-common-functions.php:1238
+msgid ""
+"If you have any questions or concerns about your return, feel free to "
+"contact our customer support team at [Customer Support Email/Phone "
+"Number].<br><br>Thank you for choosing "
+msgstr ""
+"אם יש לכם שאלות או חששות בנוגע להחזרת המוצר, אל תהססו לפנות לצוות תמיכת "
+"הלקוחות שלנו בכתובת [Customer Support Email/Phone Number].<br><br>תודה "
+"שבחרתם"
+
+#: includes/class-return-exchange-admin.php:686
+msgid "Include Shipping Cost in Refund"
+msgstr "כלול את עלות המשלוח בהחזר"
+
+#: includes/zorem-exchanges/class-exchange-front.php:154
+#: includes/zorem-warranty/class-warranty.php:472
+#: includes/zorem-warranty/class-warranty.php:561
+msgid "Invalid order."
+msgstr "הזמנה לא חוקית."
+
+#: includes/class-return-exchange-admin.php:1335
+msgid "Invalid request. Security check failed."
+msgstr "בקשה לא חוקית. בדיקת האבטחה נכשלה."
+
+#: includes/class-return-exchange-common.php:244
+msgid "item"
+msgid_plural "items"
+msgstr[0] "פָּרִיט"
+msgstr[1] "פריטים"
+
+#: includes/admin-html/returns-exchanges-center.php:63
+msgid "Items"
+msgstr "פריטים"
+
+#: includes/zorem-returns/class-return-common-functions.php:1503
+#: includes/zorem-returns/class-return-front.php:423
+msgid "Items Approved for Return"
+msgstr "פריטים שאושרו להחזרה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1198
+msgid "Items from Cancelled Exchange Request"
+msgstr "פריטים מבקשת החלפה שבוטלה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1214
+msgid "Items from Cancelled Return Request"
+msgstr "פריטים מבקשת החזרה שבוטלה"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:333
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:337
+#: includes/zorem-returns/htmls/returns-center-form.php:315
+#: includes/zorem-returns/htmls/returns-center-form.php:319
+msgid "I’ll Keep This Item"
+msgstr "אני אשמור את הפריט הזה"
+
+#: includes/class-return-exchange-admin.php:1318
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:294
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:276
+msgid "Keep the Item"
+msgstr "שמור את הפריט"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1218
+msgid "Kindly return the exchange item(s) to the following address"
+msgstr "אנא החזירו את פריט/י ההחלפה לכתובת הבאה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1234
+msgid "Kindly return the item(s) to the following address"
+msgstr "אנא החזירו את הפריט/ים לכתובת הבאה"
+
+#: includes/admin-html/header.php:104
+msgid "License"
+msgstr "רִשָׁיוֹן"
+
+#: includes/class-return-exchange-common.php:197
+msgid "My Returns & Exchanges"
+msgstr "ההחזרות וההחלפות שלי"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:329
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:342
+msgid "N/A"
+msgstr "לא רלוונטי"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1181
+msgid "New Exchange Request Received – Order"
+msgstr "בקשת החלפה חדשה התקבלה – הזמנה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1197
+msgid "New Return Request Received – Order"
+msgstr "בקשת החזרה חדשה התקבלה – הזמנה"
+
+#. translators: %s: replace with settings page url
+#: includes/class-return-exchange-license.php:324
+#, php-format
+msgid ""
+"Opps! your <strong>Returns for WooCommerce</strong> licence key is not "
+"activated. To buy license %1$s click here %2$s to activate it."
+msgstr ""
+"אופס! מפתח הרישיון שלך ל<strong>החזרות עבור WooCommerce</strong> אינו מופעל."
+" כדי לרכוש את הרישיון %1$s לחץ כאן %2$s כדי להפעיל אותו."
+
+#: includes/admin-html/returns-exchanges-center.php:59
+#: includes/admin-html/warranty-claims-dashboard.php:51
+#: includes/class-return-exchange-common.php:212
+msgid "Order"
+msgstr "לְהַזמִין"
+
+#. translators: %s: Order ID.
+#: includes/admin-html/returns-exchanges-center.php:58
+#: templates/emails/admin-exchange-approved.php:31
+#: templates/emails/admin-exchange-cancelled.php:31
+#: templates/emails/admin-exchange-completed.php:29
+#: templates/emails/admin-exchange-rejected.php:29
+#: templates/emails/admin-exchange-requested.php:31
+#: templates/emails/admin-return-approved.php:31
+#: templates/emails/admin-return-cancelled.php:31
+#: templates/emails/admin-return-completed.php:29
+#: templates/emails/admin-return-rejected.php:29
+#: templates/emails/admin-return-requested.php:31
+msgid "Order Date"
+msgstr "תאריך הזמנה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1282
+#: includes/zorem-returns/class-return-front.php:724
+msgid "Order not found."
+msgstr "ההזמנה לא נמצאה."
+
+#. translators: %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:29
+#: templates/emails/admin-exchange-cancelled.php:29
+#: templates/emails/admin-exchange-completed.php:28
+#: templates/emails/admin-exchange-rejected.php:28
+#: templates/emails/admin-exchange-requested.php:29
+#: templates/emails/admin-return-approved.php:29
+#: templates/emails/admin-return-cancelled.php:29
+#: templates/emails/admin-return-completed.php:28
+#: templates/emails/admin-return-rejected.php:28
+#: templates/emails/admin-return-requested.php:29
+#: templates/emails/_warranty-email-body.php:69
+msgid "Order Number"
+msgstr "מספר הזמנה: "
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:134
+#: includes/zorem-exchanges/class-exchange-common-functions.php:722
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:307
+msgid "Original Item (Ordered)"
+msgstr "פריט מקורי (הוזמן)"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:285
+#: includes/zorem-returns/htmls/returns-center-form.php:210
+msgid "Other (add details below)"
+msgstr "אחר (הוסף פרטים למטה)"
+
+#: includes/class-return-exchange-admin.php:1282
+msgid "Partial Return"
+msgstr "חזרה חלקית"
+
+#: includes/class-return-exchange-admin.php:1254
+msgctxt "Partial Return"
+msgid "Partial Return"
+msgstr "חזרה חלקית"
+
+#. translators: %s: search term
+#: includes/class-return-exchange-admin.php:1260
+#, php-format
+msgid "Partial Return <span class=\"count\">(%s)</span>"
+msgid_plural "Partial Return <span class=\"count\">(%s)</span>"
+msgstr[0] "החזר חלקי <span class=\"count\">(%s)</span>"
+msgstr[1] "החזר חלקי <span class=\"count\">(%s)</span>"
+
+#: includes/class-return-exchange-admin.php:519
+msgid "Phone Number"
+msgstr "מספר טלפון"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:324
+#: includes/zorem-returns/htmls/returns-center-form.php:307
+msgid ""
+"Please agree to the terms and conditions before submitting your request."
+msgstr "נא להסכים לתנאים ולהגבלות לפני השליחה."
+
+#. translators: %s: search for a tag
+#: zorem-returns.php:302
+#, php-format
+msgid "Please install and activate %1$sWooCommerce%2$s for Zorem Returns."
+msgstr "אנא התקן והפעל את %1$sWooCommerce%2$s עבור Zorem Returns."
+
+#: includes/customizer/customizer-admin.php:164
+msgid "Please save your changes before sending a test email."
+msgstr "אנא שמור את השינויים שלך לפני שליחת דוא\"ל ניסיון."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:270
+#: includes/zorem-returns/htmls/returns-center-form.php:181
+msgid "Please select at least one product."
+msgstr "אנא בחר מוצר אחד לפחות."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:180
+msgid "Please select the minimum quantity required for return."
+msgstr "אנא בחר את הכמות המינימלית הנדרשת להחזרה."
+
+#: includes/class-return-exchange-admin.php:514
+msgid "Postcode / ZIP"
+msgstr "מיקוד"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:139
+#: includes/zorem-exchanges/class-exchange-common-functions.php:166
+#: includes/zorem-exchanges/class-exchange-common-functions.php:190
+#: includes/zorem-returns/class-return-common-functions.php:192
+msgid "Price"
+msgstr "מְחִיר"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:327
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:340
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:297
+msgid "Price:"
+msgstr "מְחִיר:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:136
+#: includes/zorem-exchanges/class-exchange-common-functions.php:163
+#: includes/zorem-exchanges/class-exchange-common-functions.php:187
+#: includes/zorem-exchanges/class-exchange-common-functions.php:241
+#: includes/zorem-returns/class-return-common-functions.php:178
+#: includes/zorem-returns/class-return-common-functions.php:283
+msgid "Product Name"
+msgstr "שם המוצר"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:242
+#: includes/zorem-returns/class-return-common-functions.php:284
+msgid "Product Price"
+msgstr "מחיר המוצר"
+
+#: includes/zorem-returns/class-return-front.php:104
+#: includes/zorem-returns/class-return-front.php:127
+#: includes/zorem-returns/htmls/returns-center-form.php:13
+#: includes/zorem-returns/htmls/returns-center-form.php:15
+msgid "Product Selected for Return"
+msgstr "מוצר שנבחר להחזרה"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:42
+#: includes/zorem-returns/htmls/guest-return-center-form.php:28
+#: includes/zorem-returns/htmls/returns-center-form.php:41
+msgid "Products in This Order"
+msgstr "מוצרים בהזמנה זו"
+
+#: includes/class-return-exchange-admin.php:590
+msgid "Products Not Eligible for Returns/Exchanges"
+msgstr "מוצרים שאינם זכאים להחזרות/החלפות"
+
+#: includes/class-return-exchange-admin.php:756
+msgid ""
+"Provide detailed guidelines that customers must follow when returning items."
+msgstr "ספקו הנחיות מפורטות שלקוחות חייבים לפעול לפיהן בעת החזרת פריטים."
+
+#: includes/class-return-exchange-admin.php:919
+msgid ""
+"Provide detailed guidelines that customers must follow when sending items "
+"for exchange."
+msgstr ""
+"ספקו הנחיות מפורטות שלקוחות חייבים לפעול לפיהן בעת שליחת פריטים להחלפה."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:110
+#: includes/zorem-returns/htmls/guest-return-center-form.php:82
+#: includes/zorem-returns/htmls/returns-center-form.php:102
+#: includes/zorem-returns/htmls/returns-center-form.php:166
+msgid "Qty. "
+msgstr "כמות:"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:326
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:339
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:296
+msgid "Qty:"
+msgstr "כמות:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:138
+#: includes/zorem-exchanges/class-exchange-common-functions.php:165
+#: includes/zorem-exchanges/class-exchange-common-functions.php:189
+#: includes/zorem-exchanges/class-exchange-common-functions.php:401
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:245
+#: includes/zorem-returns/class-return-common-functions.php:188
+msgid "Quantity"
+msgstr "כַּמוּת"
+
+#: templates/emails/customer-coupon-email.php:49
+msgid "Ready to start shopping?"
+msgstr "מוכנים להתחיל לקנות?"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:199
+msgid "Reason for Return"
+msgstr "סיבה להחזרה:"
+
+#: includes/customizer/customizer-admin.php:161
+msgid "Recipient Email Address(es) (separate multiple with commas)"
+msgstr "כתובת/ות הדוא\"ל של הנמען (יש להפריד בין מספר כתובות באמצעות פסיקים)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1094
+msgid "Refund"
+msgstr "הֶחזֵר"
+
+#: includes/class-return-exchange-admin.php:662
+msgid "Refund Method Preferences"
+msgstr "העדפות שיטת החזר"
+
+#: includes/class-return-exchange-admin.php:618
+#: includes/class-return-exchange-common.php:25
+#: includes/zorem-returns/htmls/returns-center-form.php:273
+msgid "Refund to Original Payment Method"
+msgstr "החזר כספי לשיטת התשלום המקורית"
+
+#: includes/class-return-exchange-admin.php:617
+#: includes/class-return-exchange-common.php:23
+#: includes/zorem-returns/htmls/returns-center-form.php:266
+msgid "Refund to Store Credit"
+msgstr "החזר לאשראי חנות"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:208
+#: includes/zorem-returns/class-return-common-functions.php:254
+msgid "Reject"
+msgstr "לִדחוֹת"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:385
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:387
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:737
+msgid "Reject Exchange"
+msgstr "דחה את ההחלפה"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:372
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:382
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1061
+msgid "Reject Return"
+msgstr "דחה את ההחזרה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1205
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1242
+msgid "Rejected Exchange Items"
+msgstr "פריטי החלפה מבוקשים"
+
+#: includes/zorem-returns/class-return-common-functions.php:1221
+#: includes/zorem-returns/class-return-common-functions.php:1258
+msgid "Rejected Return Items"
+msgstr "פריטי החזרה מבוקשים"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:309
+msgid "Request a Return"
+msgstr "בקש החזרה"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:327
+msgid "Request an Exchange"
+msgstr "בקש החלפה"
+
+#: includes/admin-html/returns-exchanges-center.php:57
+#: includes/class-return-exchange-common.php:212
+msgid "Request ID"
+msgstr "זיהוי בקשה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:161
+#: includes/zorem-exchanges/class-exchange-common-functions.php:185
+#: includes/zorem-exchanges/class-exchange-common-functions.php:723
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:308
+msgid "Requested Item (Exchange)"
+msgstr "פריט מבוקש (החלפה)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:243
+msgid "Requested Quantity"
+msgstr "כמות מבוקשת"
+
+#: includes/class-return-exchange-admin.php:1281
+#: includes/class-return-exchange-common.php:165
+#: includes/zorem-returns/class-return-front.php:264
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:923
+#: includes/zorem-returns/htmls/guest-return-center-form.php:92
+msgid "Return"
+msgstr "לַחֲזוֹר"
+
+#: includes/class-return-exchange-admin.php:1267
+msgctxt "Return"
+msgid "Return"
+msgstr "לַחֲזוֹר"
+
+#: includes/class-return-exchange-common.php:163
+msgid "Return & Exchange"
+msgstr "החזרה והחלפה"
+
+#. translators: %s: search term
+#: includes/class-return-exchange-admin.php:1273
+#, php-format
+msgid "Return <span class=\"count\">(%s)</span>"
+msgid_plural "Return <span class=\"count\">(%s)</span>"
+msgstr[0] "החזר <span class=\"count\">(%s)</span>"
+msgstr[1] "החזר <span class=\"count\">(%s)</span>"
+
+#: includes/customizer/customizer-admin.php:345
+msgid "Return and Exchange Emails"
+msgstr "החזרה והחלפת דוא\"ל"
+
+#: includes/admin-html/returns-exchanges-center.php:13
+#: includes/admin-html/returns-exchanges-emails.php:20
+#: includes/admin-html/returns-exchanges-emails.php:38
+msgid "Return Approved"
+msgstr "החזרה אושרה"
+
+#: includes/customizer/customizer-admin.php:354
+msgid "Return Approved (Customer)"
+msgstr "החזרה מאושרת (לקוח)"
+
+#: includes/zorem-returns/class-return-common-functions.php:218
+#: includes/zorem-returns/class-return-common-functions.php:1494
+#: includes/zorem-returns/class-return-front.php:414
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:323
+#: templates/emails/admin-return-approved.php:72
+#: templates/emails/customer-return-approved.php:40
+msgid "Return Approved Note:"
+msgstr "הערה שאושרה להחזרה:"
+
+#: includes/admin-html/returns-exchanges-center.php:16
+msgid "Return Cancelled"
+msgstr "החזרה בוטלה"
+
+#: includes/class-return-exchange-admin.php:751
+#: includes/zorem-returns/class-return-common-functions.php:1236
+msgid "Return Guidelines"
+msgstr "הנחיות להחזרה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1193
+#: includes/zorem-returns/class-return-common-functions.php:1200
+msgid "Return Items Requested"
+msgstr "פריטים מבוקשים להחזיר"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:319
+msgid "Return Message:"
+msgstr "הודעה חוזרת:"
+
+#: includes/zorem-returns/htmls/guest-return-center-form.php:102
+msgid "Return Order"
+msgstr "הזמנה חוזרת"
+
+#: includes/zorem-returns/class-return-common-functions.php:285
+msgid "Return Quantity"
+msgstr "כמות החזרה"
+
+#: includes/zorem-returns/class-return-common-functions.php:202
+#: templates/emails/admin-return-approved.php:67
+#: templates/emails/admin-return-approved.php:69
+#: templates/emails/admin-return-cancelled.php:66
+#: templates/emails/admin-return-cancelled.php:68
+#: templates/emails/admin-return-completed.php:61
+#: templates/emails/admin-return-completed.php:63
+#: templates/emails/admin-return-rejected.php:63
+#: templates/emails/admin-return-rejected.php:65
+#: templates/emails/admin-return-requested.php:66
+#: templates/emails/admin-return-requested.php:68
+msgid "Return Reason"
+msgstr "סיבת החזרה"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:307
+msgid "Return Reason:"
+msgstr "סיבת החזרה:"
+
+#: includes/class-return-exchange-admin.php:759
+msgid "Return Reasons"
+msgstr "סיבות להחזרה"
+
+#: includes/admin-html/returns-exchanges-center.php:15
+#: includes/admin-html/returns-exchanges-emails.php:22
+#: includes/admin-html/returns-exchanges-emails.php:40
+msgid "Return Rejected"
+msgstr "החזרה נדחתה"
+
+#: includes/customizer/customizer-admin.php:356
+msgid "Return Rejected (Customer)"
+msgstr "החזרה נדחתה (לקוח)"
+
+#: includes/zorem-returns/class-return-common-functions.php:222
+#: includes/zorem-returns/class-return-common-functions.php:1492
+#: includes/zorem-returns/class-return-front.php:412
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:327
+#: templates/emails/customer-return-rejected.php:39
+msgid "Return Rejected Note:"
+msgstr "הערה לגבי דחיית החזרה:"
+
+#: includes/zorem-returns/class-return-common-functions.php:99
+msgid "Return Request "
+msgstr "בקשה להחזרה "
+
+#: includes/zorem-returns/class-return-common-functions.php:1204
+#: includes/zorem-returns/class-return-common-functions.php:1205
+msgid "Return Request Approved"
+msgstr "בקשת החזרה אושרה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1232
+msgid "Return Request Approved – Instructions for Sending Items Back"
+msgstr "בקשת החזרה אושרה – הוראות לשליחת פריטים בחזרה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1211
+#: includes/zorem-returns/class-return-common-functions.php:1212
+msgid "Return Request Cancelled"
+msgstr "בקשת החזרה בוטלה"
+
+#: templates/emails/admin-return-approved.php:40
+#: templates/emails/admin-return-cancelled.php:40
+#: templates/emails/admin-return-completed.php:36
+#: templates/emails/admin-return-rejected.php:36
+#: templates/emails/admin-return-requested.php:40
+msgid "Return Request Details"
+msgstr "מחזיר את פרטי הבקשה"
+
+#: includes/customizer/customizer-admin.php:353
+msgid "Return Request Received (Customer)"
+msgstr "בקשת החזרה התקבלה (לקוח)"
+
+#: includes/admin-html/returns-exchanges-center.php:12
+msgid "Return Requested"
+msgstr "החזרה מבוקשת"
+
+#: includes/zorem-returns/class-return-common-functions.php:56
+msgid "Return Requests"
+msgstr "בקשות החזרה"
+
+#: includes/admin-html/returns-exchanges-settings.php:31
+msgid "Return Settings"
+msgstr "החזר הגדרות"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:915
+#: includes/zorem-returns/class-return-common-functions.php:1583
+msgid "Return Shipping Address"
+msgstr "כתובת למשלוח חזרה"
+
+#: includes/class-return-exchange-admin.php:598
+msgid "Return/Exchange Store Address"
+msgstr "כתובת חנות החזרה/החלפה"
+
+#: includes/class-return-exchange-admin.php:533
+msgid "Return/Exchange Window (Days)"
+msgstr "חלון החזרה/החלפה (ימים)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:285
+msgid "Returned Item (Ordered)"
+msgstr "פריט שהוחזר (הוזמן)"
+
+#: includes/zorem-returns/class-return-common-functions.php:172
+#: includes/zorem-returns/class-return-common-functions.php:1228
+#: includes/zorem-returns/class-return-common-functions.php:1251
+msgid "Returned Items"
+msgstr "פריטים שהוחזרו"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:195
+msgid "Returned Product Summary"
+msgstr "סיכום מוצרים שהוחזרו"
+
+#: includes/admin-html/header.php:45
+#: includes/class-return-exchange-admin.php:80
+msgid "Returns Center"
+msgstr "מרכז החזרות"
+
+#: includes/admin-html/header.php:84
+msgid "Returns Dashboard"
+msgstr "מחזיר את לוח המחוונים"
+
+#: includes/zorem-returns/class-return-common-functions.php:1482
+#: includes/zorem-returns/class-return-front.php:402
+msgid "Returns message:"
+msgstr "מחזיר הודעה:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1468
+#: includes/zorem-returns/class-return-front.php:388
+msgid "Returns reason:"
+msgstr "סיבת החזרה:"
+
+#: includes/admin-html/returns-exchanges-settings.php:134
+#: includes/admin-html/warranty-claims-dashboard.php:143
+#: includes/customizer/customizer-admin.php:156
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: includes/admin-html/returns-exchanges-center.php:42
+#: includes/admin-html/warranty-claims-dashboard.php:39
+msgid "Search by Order ID"
+msgstr "מזהה הזמנה לחיפוש"
+
+#: includes/zorem-returns/class-return-common-functions.php:755
+msgid "Search for a product..."
+msgstr "חפש מוצר..."
+
+#: includes/customizer/customizer-admin.php:470
+msgid "Section Title for Exchanged Items"
+msgstr "כותרת סעיף עבור פריטים שהוחלפו"
+
+#: includes/customizer/customizer-admin.php:484
+msgid "Section Title for Returned Items"
+msgstr "כותרת סעיף עבור פריטים מוחזרים"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:274
+msgid "Select a Reason for Exchange"
+msgstr "בחר סיבה להחלפה"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:259
+msgid "Select a Return Resolution"
+msgstr "בחר פתרון החזרה"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:149
+msgid "Select an Option"
+msgstr "בחר אפשרות"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:133
+msgid "Select Exchange Variant"
+msgstr "בחר גרסת Exchange"
+
+#: includes/class-return-exchange-admin.php:587
+msgid ""
+"Select product categories that are not eligible for return or exchange "
+"requests."
+msgstr "בחר קטגוריות מוצרים שאינן זכאיות לבקשות החזרה או החלפה."
+
+#: includes/class-return-exchange-admin.php:568
+msgid "Select Terms and Conditions Page"
+msgstr "בחר בדף התנאים וההגבלות"
+
+#: includes/class-return-exchange-admin.php:672
+msgid "Select the available refund methods you want to offer customers."
+msgstr "בחר את שיטות ההחזר הזמינות שברצונך להציע ללקוחות."
+
+#: includes/class-return-exchange-admin.php:565
+msgid ""
+"Select the order statuses that allow customers to request a return or "
+"exchange."
+msgstr "בחר את סטטוסי ההזמנה המאפשרים ללקוחות לבקש החזרה או החלפה."
+
+#: includes/class-return-exchange-admin.php:595
+msgid ""
+"Select the products that are not eligible for return or exchange requests."
+msgstr "בחר את המוצרים שאינם זכאים לבקשות החזרה או החלפה."
+
+#: includes/customizer/customizer-admin.php:162
+msgid "Send"
+msgstr "לִשְׁלוֹחַ"
+
+#: includes/customizer/customizer-admin.php:159
+#: includes/customizer/customizer-admin.php:160
+msgid "Send Test Email"
+msgstr "שלח אימייל לבדיקה"
+
+#: includes/class-return-exchange-admin.php:540
+msgid ""
+"Set the number of days customers are allowed to request a return or exchange"
+" after the order is placed."
+msgstr ""
+"הגדר את מספר הימים שבהם לקוחות רשאים לבקש החזרה או החלפה לאחר ביצוע ההזמנה."
+
+#: includes/admin-html/header.php:79 includes/admin-html/header.php:102
+msgid "Settings"
+msgstr "הגדרות"
+
+#: includes/customizer/customizer-admin.php:163
+msgid "Settings Successfully Saved."
+msgstr "ההגדרות נשמרו בהצלחה."
+
+#: includes/zorem-returns/class-return-front.php:102
+#: includes/zorem-returns/class-return-front.php:125
+#: includes/zorem-returns/class-return-front.php:212
+#: includes/zorem-returns/htmls/guest-return-center-form.php:6
+#: includes/zorem-returns/htmls/returns-center-form.php:21
+#: includes/zorem-returns/htmls/returns-center-form.php:23
+msgid "Start a Return"
+msgstr "התחל החזרה"
+
+#: includes/zorem-exchanges/class-exchange-front.php:265
+msgid "Start an Exchange"
+msgstr "התחל עסקת החלפה"
+
+#: includes/admin-html/returns-exchanges-center.php:60
+#: includes/admin-html/returns-exchanges-license-form.php:17
+#: includes/admin-html/warranty-claims-dashboard.php:52
+#: includes/class-return-exchange-common.php:212
+#: includes/zorem-exchanges/class-exchange-common-functions.php:100
+#: includes/zorem-returns/class-return-common-functions.php:165
+#: templates/emails/_warranty-email-body.php:76
+msgid "Status"
+msgstr "סטָטוּס"
+
+#: includes/class-return-exchange-admin.php:494
+msgid "Store Address Line 1"
+msgstr "שורת כתובת החנות"
+
+#: includes/class-return-exchange-admin.php:499
+msgid "Store Address Line 2"
+msgstr "שורת כתובת חנות 2"
+
+#: templates/emails/customer-coupon-email.php:46
+msgid "Store credit is redeemable exclusively on our website."
+msgstr "ניתן לממש את זיכוי החנות באופן בלעדי באתר שלנו."
+
+#: templates/emails/customer-coupon-email.php:44
+msgid "Terms and Conditions:"
+msgstr "תנאים והגבלות:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1178
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1185
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1192
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1199
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1206
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1213
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1236
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1243
+#: includes/zorem-returns/class-return-common-functions.php:1194
+#: includes/zorem-returns/class-return-common-functions.php:1201
+#: includes/zorem-returns/class-return-common-functions.php:1208
+#: includes/zorem-returns/class-return-common-functions.php:1215
+#: includes/zorem-returns/class-return-common-functions.php:1222
+#: includes/zorem-returns/class-return-common-functions.php:1252
+#: includes/zorem-returns/class-return-common-functions.php:1259
+#: includes/zorem-warranty/class-warranty.php:762
+#: includes/zorem-warranty/class-warranty.php:776
+#: includes/zorem-warranty/class-warranty.php:783
+#: includes/zorem-warranty/class-warranty.php:790
+msgid "Thank you"
+msgstr "תודה רבה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1192
+msgid ""
+"Thank you for submitting your return request!<br><br>We’ve received your "
+"request and our team is currently reviewing it. You’ll hear from us with an "
+"update as soon as possible."
+msgstr ""
+"תודה ששלחת את בקשת ההחזרה שלך!<br><br>קיבלנו את בקשתך ואנחנו בודקים אותה "
+"כעת. אנו נחזור אליך עם עדכון בהקדם האפשרי."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1176
+msgid ""
+"Thank you for your exchange request!<br><br>We've received your request and "
+"are currently reviewing it. You'll receive an update once it's processed."
+msgstr ""
+"תודה על בקשת ההחלפה שלך!<br><br>קיבלנו את בקשתך ואנחנו בודקים אותה כעת. תקבל"
+" עדכון לאחר שיעובד."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:653
+msgid ""
+"The exchange request has been rejected. Unfortunately, this order is not "
+"eligible for exchange based on our return/exchange policy."
+msgstr ""
+"בקשת ההחלפה נדחתה. לצערנו, הזמנה זו אינה זכאית להחלפה בהתאם למדיניות "
+"ההחזרה/החלפה שלנו."
+
+#: includes/zorem-returns/class-return-common-functions.php:1439
+#: includes/zorem-returns/class-return-front.php:358
+msgid ""
+"The return request has been rejected. Unfortunately, this order is not "
+"eligible for return based on our return/exchange policy."
+msgstr ""
+"בקשת ההחזרה נדחתה. לצערנו, הזמנה זו אינה זכאית להחזרה בהתאם למדיניות "
+"ההחזרה/החלפה שלנו."
+
+#: templates/emails/customer-coupon-email.php:47
+msgid "This credit does not apply to shipping fees."
+msgstr "זיכוי זה אינו חל על דמי משלוח."
+
+#: includes/zorem-returns/class-return-front.php:140
+msgid "This item is not availabale for return"
+msgstr "פריט זה אינו זמין להחזרה"
+
+#: includes/zorem-exchanges/class-exchange-front.php:204
+msgid "This item is not available for exchange."
+msgstr "פריט זה אינו זמין להחלפה"
+
+#. translators: %s: search for a tag
+#: includes/class-return-exchange-update-manager.php:180
+#, php-format
+msgid ""
+"To receive automatic updates license activation is required. Please visit "
+"%1$ssettings%2$s to activate your Return for WooCommerce."
+msgstr ""
+"כדי לקבל עדכונים אוטומטיים נדרשת הפעלת רישיון. אנא בקרו ב-%1$ssettings%2$s "
+"כדי להפעיל את החזרת הרישיון שלכם עבור WooCommerce."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:652
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:914
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:987
+msgid "Today at"
+msgstr "היום בשעה"
+
+#: includes/class-return-exchange-common.php:212
+msgid "Total"
+msgstr "סַך הַכֹּל"
+
+#: templates/emails/admin-exchange-approved.php:41
+#: templates/emails/admin-exchange-cancelled.php:41
+#: templates/emails/admin-exchange-completed.php:37
+#: templates/emails/admin-exchange-rejected.php:37
+#: templates/emails/admin-exchange-requested.php:41
+#: templates/emails/admin-return-approved.php:41
+#: templates/emails/admin-return-cancelled.php:41
+#: templates/emails/admin-return-completed.php:37
+#: templates/emails/admin-return-rejected.php:37
+#: templates/emails/admin-return-requested.php:41
+msgid "Tshirt x 1"
+msgstr "חולצה x 1"
+
+#: includes/admin-html/returns-exchanges-center.php:61
+#: includes/class-return-exchange-common.php:212
+msgid "Type"
+msgstr "סוּג"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:301
+#: includes/zorem-returns/htmls/returns-center-form.php:226
+msgid "Upload Photo"
+msgstr "העלה תמונה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:137
+#: includes/zorem-exchanges/class-exchange-common-functions.php:164
+#: includes/zorem-exchanges/class-exchange-common-functions.php:188
+#: includes/zorem-returns/class-return-common-functions.php:183
+msgid "Variation"
+msgstr "וָרִיאַצִיָה"
+
+#: includes/class-return-exchange-common.php:265
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:656
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:919
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:995
+msgid "View"
+msgstr "נוֹף"
+
+#: includes/zorem-exchanges/class-exchange-front.php:184
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:13
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:21
+#: includes/zorem-returns/class-return-front.php:102
+#: includes/zorem-returns/class-return-front.php:104
+#: includes/zorem-returns/class-return-front.php:125
+#: includes/zorem-returns/class-return-front.php:127
+#: includes/zorem-returns/htmls/returns-center-form.php:13
+#: includes/zorem-returns/htmls/returns-center-form.php:21
+msgid "View Order"
+msgstr "צפה בהזמנה"
+
+#: includes/admin-html/returns-exchanges-license-form.php:18
+#: includes/admin-html/returns-exchanges-license.php:166
+msgid "Want to deactivate the license for any reason?"
+msgstr "רוצה לבטל את הרישיון מכל סיבה שהיא?"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1204
+msgid ""
+"We're sorry to inform you that your exchange request has been "
+"rejected.<br><br> Please let us know if you have any questions or concerns."
+msgstr ""
+"אנו מצטערים להודיע לך שבקשת ההחלפה שלך נדחתה.<br><br> אנא הודע לנו אם יש לך "
+"שאלות או חששות."
+
+#: includes/zorem-returns/class-return-common-functions.php:1220
+msgid ""
+"We're sorry to inform you that your return request has been "
+"rejected.<br><br> Please let us know if you have any questions or concerns."
+msgstr ""
+"אנו מצטערים להודיע לך שבקשת ההחזרה שלך נדחתה.<br><br> אנא הודע לנו אם יש לך "
+"שאלות או חששות."
+
+#: templates/emails/customer-coupon-email.php:24
+msgid ""
+"We’re happy to let you know that your return has been approved and your "
+"refund has been issued as store credit for your convenience."
+msgstr ""
+"אנו שמחים להודיע לך כי ההחזרה שלך אושרה וההחזר הונפק כזיכוי בחנות לנוחיותך."
+
+#: includes/customizer/customizer-admin.php:157
+msgid "You are customizing"
+msgstr "אתה עושה התאמה אישית"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:199
+msgid "You can only exchange this item for a variant of equal value."
+msgstr "ניתן להחליף פריט זה רק בגרסה שווה ערך."
+
+#: includes/customizer/customizer-admin.php:451
+#: includes/customizer/customizer-admin.php:510
+msgid ""
+"You can use basic HTML tags such as <p>, <strong>, <br>, <ul>, <ol>, <li>, "
+"<a>."
+msgstr ""
+"אתה יכול להשתמש בתגי HTML בסיסיים כגון <p>, <strong>, <br>, <ul>, <ol>, "
+"<li>, <a>."
+
+#. translators: %s: The formatted credit amount.
+#: templates/emails/customer-coupon-email.php:31
+#: templates/emails/customer-return-store-credit.php:47
+#, php-format
+msgid ""
+"You can use this code during checkout to apply a credit of %s on your next "
+"purchase."
+msgstr ""
+"ניתן להשתמש בקוד זה במהלך התשלום כדי להחיל זיכוי של %s ברכישה הבאה שלך."
+
+#: includes/class-return-exchange-common.php:198
+msgid "You have no return or exchange requests yet."
+msgstr "אין לך עדיין בקשות החזרה או החלפה."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1217
+msgid "Your Exchange Request Has Been Approved!"
+msgstr "בקשת החלפה אושרה!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:651
+msgid ""
+"Your exchange request has been approved. Please ship the item(s) to the "
+"return address provided."
+msgstr "בקשת ההחלפה שלך אושרה. אנא שלח את הפריט/ים לכתובת ההחזרה שסופקה."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:654
+msgid "Your exchange request has been cancelled."
+msgstr "בקשת ההחלפה שלך בוטלה."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1175
+msgid "Your Exchange Request Has Been Received"
+msgstr "בקשת ההחלפה שלך התקבלה!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1203
+msgid "Your Exchange Request Has Been Rejected!"
+msgstr "בקשת ההחלפה שלך נדחתה!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1241
+#: includes/zorem-returns/class-return-common-functions.php:1242
+msgid "Your Refund Has Been Issued as Store Credit!"
+msgstr "ההחזר שלך הונפק כזיכוי בחנות!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:650
+#: includes/zorem-returns/class-return-common-functions.php:1436
+#: includes/zorem-returns/class-return-front.php:355
+msgid ""
+"Your request has been received. Our customer service team will review it and"
+" get back to you within a few business days."
+msgstr ""
+"בקשתך התקבלה. צוות שירות הלקוחות שלנו יבדוק אותה ויחזור אליך תוך מספר ימי "
+"עסקים."
+
+#: includes/zorem-returns/class-return-common-functions.php:1233
+msgid "Your Return Request Has Been Approved!"
+msgstr "בקשת החזרה אושרה!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1437
+#: includes/zorem-returns/class-return-front.php:356
+msgid ""
+"Your return request has been approved. Please proceed with shipping the "
+"return item(s) back to us."
+msgstr ""
+"בקשת ההחזרה שלך אושרה, ובבקשה המשך לשלוח את הפריט/ים להחזרה בחזרה אלינו."
+
+#: includes/zorem-returns/class-return-common-functions.php:1440
+#: includes/zorem-returns/class-return-front.php:359
+msgid "Your return request has been cancelled."
+msgstr "בקשת ההחזרה שלך בוטלה."
+
+#: includes/zorem-returns/class-return-common-functions.php:1190
+msgid "Your Return Request Has Been Received!"
+msgstr "בקשת ההחזרה שלך התקבלה!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1218
+msgid "Your Return Request Has Been Rejected!"
+msgstr "בקשת ההחזרה שלך נדחתה!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1191
+msgid "Your Return Request Received!"
+msgstr "בקשת ההחזרה שלך התקבלה!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1219
+msgid "Your Return Request Rejected!"
+msgstr "בקשת ההחזרה שלך נדחתה!"
+
+#: templates/emails/customer-coupon-email.php:25
+msgid "Your Store Credit Coupon Code: "
+msgstr "קוד קופון האשראי שלך בחנות: "
+
+#. Author of the plugin
+#: zorem-returns.php
+msgid "zorem"
+msgstr "זורם"
+
+#. Plugin Name of the plugin
+#: zorem-returns.php includes/admin-html/header.php:32
+#: includes/admin-html/header.php:46
+msgid "Zorem Returns"
+msgstr "זורם חוזר"
+
+#. Description of the plugin
+#: zorem-returns.php
+msgid ""
+"Your customer can request for Returns from My account > Orders. If you are "
+"selling a virtual product and you payment gateway support for automatic "
+"return & exchange so your customer get instant return & exchange."
+msgstr ""
+"הלקוח שלך יכול לבקש החזרה מהחשבון שלי > הזמנות. אם אתה מוכר מוצר וירטואלי "
+"ושער התשלום שלך תומך בהחזרות וחילופין אוטומטיים, הלקוח שלך יקבל החזרה וחילוף"
+" מיידיים."
+
+#: assets/zui/eco-plugins.php:49
+msgid ""
+"Take control of your post-shipping workflows, reduce customer service "
+"overhead and provide a premium post-purchase tracking experience directly "
+"inside WooCommerce. Keeps your tracking data up-to-date and sends automated "
+"status changes automatically."
+msgstr ""
+"קח שליטה על זרימות העבודה שלאחר המשלוח, הפחת את עומס שירות הלקוחות וספק "
+"חוויית מעקב פרימיום לאחר הרכישה ישירות ב-WooCommerce. מעדכן את נתוני המעקב "
+"שלך ושולח שינויי סטטוס אוטומטית."
+
+#: assets/zui/eco-plugins.php:51
+#: includes/admin-html/returns-exchanges-license.php:37
+msgid "Recommended"
+msgstr "מומלץ"
+
+#: assets/zui/eco-plugins.php:61
+msgid ""
+"Keep your shoppers perfectly aligned and updated with lightning fast "
+"automated SMS notifications for status updates, dispatched parcels, custom "
+"notes, and imminent local drop-offs. Integrates seamlessly with domestic and"
+" international gateways."
+msgstr ""
+"שמור את הקונים שלך מעודכנים עם התראות SMS אוטומטיות מהירות לעדכוני סטטוס, "
+"חבילות שנשלחו, הערות מותאמות אישית ומשלוחים מקומיים קרובים. משתלב בצורה חלקה"
+" עם שערים מקומיים ובינלאומיים."
+
+#: assets/zui/eco-plugins.php:73
+msgid ""
+"Supercharge pickup schedules, offer precise contact-free local pickup times,"
+" assign inventory reserves across dynamic multiple regional coordinates, "
+"configure localized discounts and split operational hours effortlessly."
+msgstr ""
+"ייעל לוחות זמנים לאיסוף, הצע שעות איסוף מקומי מגע-אפס מדויקות, הקצה עתודות "
+"מלאי במיקומים אזוריים דינמיים מרובים, הגדר הנחות מקומיות וחלק שעות פעולה ללא"
+" מאמץ."
+
+#: assets/zui/eco-plugins.php:85
+msgid ""
+"Control catalog visibility dynamically. Use safe IP geolocation heuristics "
+"to easily allow, restrict, or filter selected product availability across "
+"specific global geo environments and border codes."
+msgstr ""
+"שלוט בנראות הקטלוג באופן דינמי. השתמש בהיוריסטיקות גיאולוקציה IP מאובטחות "
+"כדי לאפשר, להגביל או לסנן בקלות את הזמינות של מוצרים נבחרים בסביבות "
+"גיאוגרפיות ספציפיות וקודי גבול."
+
+#: assets/zui/eco-plugins.php:97
+msgid ""
+"Block dummy checkouts, malicious registration scripts and spam sign-up "
+"queues by requiring multi-step verification code validation before customers"
+" complete purchases or establish accounts."
+msgstr ""
+"חסום תשלומים מזויפים, סקריפטים רישום זדוניים ותורי הרשמה לספאם על ידי דרישה "
+"לאימות קוד מרובה שלבים לפני שלקוחות משלימים רכישות או יוצרים חשבונות."
+
+#: assets/zui/eco-plugins.php:99
+msgid "Highly Rated"
+msgstr "מדורג גבוה"
+
+#: assets/zui/eco-plugins.php:109
+msgid ""
+"Receive high-fidelity operational digests directly in your inbox. Deliver "
+"elegant daily, weekly or custom periodic sales charts, average cart tracking"
+" metrics and order analytics on auto-pilot."
+msgstr ""
+"קבל תמצות תפעוליות איכותיות ישירות לתיבת הדואר הנכנס שלך. ספק גרפי מכירות "
+"יומיים, שבועיים או תקופתיים מותאמים אישית אלגנטיים, מדדי מעקב סל קניות ממוצע"
+" וניתוחי הזמנות בטייס אוטומטי."
+
+#: assets/zui/eco-plugins.php:130
+#: includes/admin-html/returns-exchanges-license.php:291
+msgid "Active in this store"
+msgstr "פעיל בחנות זו"
+
+#: includes/admin-html/header.php:30 zorem-returns.php:124
+msgid "Returns"
+msgstr "החזרות"
+
+#: includes/admin-html/header.php:45
+#: includes/admin-html/returns-exchanges-settings.php:62
+msgid "Returns Settings"
+msgstr "הגדרות החזרות"
+
+#: includes/admin-html/header.php:57
+msgid "Open settings menu"
+msgstr "פתח תפריט הגדרות"
+
+#: includes/admin-html/header.php:88
+msgid "Docs Portal"
+msgstr "פורטל תיעוד"
+
+#: includes/admin-html/header.php:95
+msgid "Returns modules"
+msgstr "מודולי החזרות"
+
+#: includes/admin-html/header.php:97
+msgid "Dashboard"
+msgstr "לוח בקרה"
+
+#: includes/admin-html/header.php:99
+msgid "Warranty Claims"
+msgstr "תביעות אחריות"
+
+#: includes/admin-html/header.php:103
+#: includes/admin-html/returns-exchanges-emails.php:68
+msgid "Notifications"
+msgstr "הודעות"
+
+#: includes/admin-html/returns-exchanges-center.php:14
+#: includes/admin-html/returns-exchanges-emails.php:21
+#: includes/admin-html/returns-exchanges-emails.php:39
+#: includes/zorem-returns/class-return-common-functions.php:1248
+#: includes/zorem-returns/class-return-common-functions.php:1249
+msgid "Return Completed"
+msgstr "ההחזרה הושלמה"
+
+#: includes/admin-html/returns-exchanges-emails.php:19
+#: includes/admin-html/returns-exchanges-emails.php:37
+msgid "Return Request Received"
+msgstr "בקשת החזרה התקבלה"
+
+#: includes/admin-html/returns-exchanges-emails.php:23
+msgid "Return Store Credit"
+msgstr "זיכוי חנות עבור החזרה"
+
+#: includes/admin-html/returns-exchanges-emails.php:24
+#: includes/admin-html/returns-exchanges-emails.php:41
+msgid "Exchange Request Received"
+msgstr "בקשת החלפה התקבלה"
+
+#: includes/admin-html/returns-exchanges-emails.php:26
+#: includes/admin-html/returns-exchanges-emails.php:43
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1232
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1233
+msgid "Exchange Completed"
+msgstr "ההחלפה הושלמה"
+
+#: includes/admin-html/returns-exchanges-emails.php:28
+msgid "Exchange Store Credit"
+msgstr "זיכוי חנות עבור החלפה"
+
+#: includes/admin-html/returns-exchanges-emails.php:29
+#: includes/admin-html/returns-exchanges-emails.php:45
+msgid "Warranty Claim Submitted"
+msgstr "תביעת אחריות הוגשה"
+
+#: includes/admin-html/returns-exchanges-emails.php:30
+#: includes/admin-html/returns-exchanges-emails.php:46
+#: includes/zorem-warranty/class-warranty.php:802
+msgid "Warranty Claim Under Review"
+msgstr "תביעת אחריות בבדיקה"
+
+#: includes/admin-html/returns-exchanges-emails.php:31
+#: includes/admin-html/returns-exchanges-emails.php:47
+#: includes/zorem-warranty/class-warranty.php:773
+#: includes/zorem-warranty/class-warranty.php:808
+#: includes/zorem-warranty/class-warranty.php:809
+msgid "Warranty Claim Approved"
+msgstr "תביעת אחריות אושרה"
+
+#: includes/admin-html/returns-exchanges-emails.php:32
+#: includes/admin-html/returns-exchanges-emails.php:48
+#: includes/zorem-warranty/class-warranty.php:780
+#: includes/zorem-warranty/class-warranty.php:815
+#: includes/zorem-warranty/class-warranty.php:816
+msgid "Warranty Claim Rejected"
+msgstr "תביעת אחריות נדחתה"
+
+#: includes/admin-html/returns-exchanges-emails.php:33
+#: includes/admin-html/returns-exchanges-emails.php:49
+#: includes/zorem-warranty/class-warranty.php:787
+#: includes/zorem-warranty/class-warranty.php:822
+#: includes/zorem-warranty/class-warranty.php:823
+msgid "Warranty Claim Resolved"
+msgstr "תביעת אחריות נפתרה"
+
+#: includes/admin-html/returns-exchanges-emails.php:69
+#: includes/admin-html/returns-exchanges-settings.php:63
+msgid "Close menu"
+msgstr "סגור תפריט"
+
+#: includes/admin-html/returns-exchanges-emails.php:74
+msgid "Notification channels"
+msgstr "ערוצי הודעות"
+
+#: includes/admin-html/returns-exchanges-emails.php:85
+msgid "SMS Notifications"
+msgstr "הודעות SMS"
+
+#: includes/admin-html/returns-exchanges-emails.php:90
+#: includes/admin-html/returns-exchanges-settings.php:78
+msgid "Quick Help"
+msgstr "עזרה מהירה"
+
+#: includes/admin-html/returns-exchanges-emails.php:91
+#: includes/admin-html/returns-exchanges-settings.php:79
+msgid "Learn how to configure Zorem Returns for best results."
+msgstr "למד כיצד להגדיר את Zorem Returns לקבלת התוצאות הטובות ביותר."
+
+#: includes/admin-html/returns-exchanges-emails.php:94
+#: includes/admin-html/returns-exchanges-settings.php:82
+msgid "View Documentation"
+msgstr "הצג תיעוד"
+
+#: includes/admin-html/returns-exchanges-emails.php:98
+#: includes/admin-html/returns-exchanges-settings.php:86
+msgid "Get Support"
+msgstr "קבל תמיכה"
+
+#: includes/admin-html/returns-exchanges-emails.php:132
+msgid "Admin"
+msgstr "מנהל"
+
+#: includes/admin-html/returns-exchanges-emails.php:158
+#: includes/admin-html/returns-exchanges-emails.php:189
+msgid "ACTIVE"
+msgstr "פעיל"
+
+#: includes/admin-html/returns-exchanges-emails.php:158
+#: includes/admin-html/returns-exchanges-emails.php:189
+msgid "INACTIVE"
+msgstr "לא פעיל"
+
+#: includes/admin-html/returns-exchanges-emails.php:164
+#: includes/admin-html/returns-exchanges-emails.php:195
+msgid "Customize"
+msgstr "התאמה אישית"
+
+#: includes/admin-html/returns-exchanges-emails.php:211
+msgid "SMS for WooCommerce is active"
+msgstr "SMS for WooCommerce פעיל"
+
+#: includes/admin-html/returns-exchanges-emails.php:212
+msgid ""
+"Configure Return &amp; Exchange SMS notifications from the SMS for "
+"WooCommerce settings."
+msgstr "הגדר הודעות SMS להחזרות &amp; חילופין מהגדרות SMS for WooCommerce."
+
+#: includes/admin-html/returns-exchanges-emails.php:213
+msgid "Open Returns SMS Settings"
+msgstr "פתח הגדרות SMS להחזרות"
+
+#: includes/admin-html/returns-exchanges-emails.php:220
+msgid "Send SMS Notifications for Returns &amp; Exchanges"
+msgstr "שלח הודעות SMS להחזרות &amp; חילופין"
+
+#: includes/admin-html/returns-exchanges-emails.php:221
+msgid ""
+"Keep your customers informed with instant SMS updates when their return or "
+"exchange request is received, approved, completed or rejected."
+msgstr ""
+"שמור את לקוחותיך מעודכנים עם עדכוני SMS מיידיים כאשר בקשת ההחזרה או ההחלפה "
+"שלהם התקבלה, אושרה, הושלמה או נדחתה."
+
+#: includes/admin-html/returns-exchanges-emails.php:223
+msgid "Return Request Received, Approved, Completed &amp; Rejected"
+msgstr "בקשת החזרה התקבלה, אושרה, הושלמה &amp; נדחתה"
+
+#: includes/admin-html/returns-exchanges-emails.php:224
+msgid "Exchange Request Received, Approved, Completed &amp; Rejected"
+msgstr "בקשת החלפה התקבלה, אושרה, הושלמה &amp; נדחתה"
+
+#: includes/admin-html/returns-exchanges-emails.php:225
+msgid "Customisable message templates with order variables"
+msgstr "תבניות הודעות הניתנות להתאמה אישית עם משתני הזמנה"
+
+#: includes/admin-html/returns-exchanges-emails.php:226
+msgid "Works alongside email notifications independently"
+msgstr "עובד באופן עצמאי לצד הודעות דואר אלקטרוני"
+
+#: includes/admin-html/returns-exchanges-emails.php:229
+msgid "Get SMS for WooCommerce"
+msgstr "קבל SMS for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:30
+msgid "Advanced Shipment Tracking PRO"
+msgstr "Advanced Shipment Tracking PRO"
+
+#: includes/admin-html/returns-exchanges-license.php:35
+msgid ""
+"AST PRO provides powerful features to easily add tracking info to "
+"WooCommerce orders, automate fulfillment workflows and keep your customers "
+"happy and informed."
+msgstr ""
+"AST PRO מספק תכונות עוצמתיות להוספת מידע מעקב בקלות להזמנות WooCommerce, "
+"אוטומציה של זרימות עבודה למילוי הזמנות ושמירה על שביעות רצון הלקוחות "
+"ועדכנותם."
+
+#: includes/admin-html/returns-exchanges-license.php:38
+msgid "15k+ active stores"
+msgstr "יותר מ-15,000 חנויות פעילות"
+
+#: includes/admin-html/returns-exchanges-license.php:41
+msgid "TrackShip for WooCommerce"
+msgstr "TrackShip for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:46
+msgid ""
+"Take control of post-shipping workflows, reduce time spent on customer "
+"service and provide a superior post-purchase experience to your customers."
+msgstr ""
+"קח שליטה על זרימות העבודה שלאחר המשלוח, הפחת את הזמן המוקדש לשירות לקוחות "
+"וספק ללקוחות שלך חוויה עדיפה לאחר הרכישה."
+
+#: includes/admin-html/returns-exchanges-license.php:49
+msgid "8k+ active stores"
+msgstr "יותר מ-8,000 חנויות פעילות"
+
+#: includes/admin-html/returns-exchanges-license.php:52
+msgid "SMS for WooCommerce"
+msgstr "SMS for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:57
+msgid ""
+"Keep your customers informed by sending them automated SMS text messages "
+"with order & delivery updates."
+msgstr ""
+"שמור את לקוחותיך מעודכנים על ידי שליחת הודעות SMS אוטומטיות עם עדכוני הזמנות"
+" ומשלוחים."
+
+#: includes/admin-html/returns-exchanges-license.php:60
+msgid "5k+ installs"
+msgstr "יותר מ-5,000 התקנות"
+
+#: includes/admin-html/returns-exchanges-license.php:63
+msgid "Sales Report Email Pro"
+msgstr "Sales Report Email Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:68
+msgid ""
+"Know how well your store is performing by sending daily, weekly, or monthly "
+"sales reports by email."
+msgstr ""
+"דע כיצד החנות שלך מתפקדת על ידי שליחת דוחות מכירות יומיים, שבועיים או "
+"חודשיים בדואר אלקטרוני."
+
+#: includes/admin-html/returns-exchanges-license.php:71
+msgid "3k+ active"
+msgstr "יותר מ-3,000 פעילים"
+
+#: includes/admin-html/returns-exchanges-license.php:74
+msgid "Country Based Restrictions Pro"
+msgstr "Country Based Restrictions Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:79
+msgid ""
+"Restrict products on your store by visitor country using WooCommerce "
+"Geolocation or the shipping country added by the customer."
+msgstr ""
+"הגבל מוצרים בחנות שלך לפי מדינת המבקר באמצעות גיאולוקציה WooCommerce או "
+"מדינת המשלוח שהוסיף הלקוח."
+
+#: includes/admin-html/returns-exchanges-license.php:82
+msgid "2k+ active"
+msgstr "יותר מ-2,000 פעילים"
+
+#: includes/admin-html/returns-exchanges-license.php:85
+msgid "Zorem Local Pickup Pro"
+msgstr "Zorem Local Pickup Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:90
+msgid ""
+"Advanced local pickup management with multiple locations, business hours and"
+" appointment slots for WooCommerce."
+msgstr ""
+"ניהול איסוף מקומי מתקדם עם מיקומים מרובים, שעות פעילות וחלונות תורים "
+"לWooCommerce."
+
+#: includes/admin-html/returns-exchanges-license.php:93
+msgid "4k+ installs"
+msgstr "יותר מ-4,000 התקנות"
+
+#: includes/admin-html/returns-exchanges-license.php:118
+msgid "Store Ecosystem Management"
+msgstr "ניהול מערכת האקולוגיה של החנות"
+
+#: includes/admin-html/returns-exchanges-license.php:120
+msgid "License & Extensions"
+msgstr "רישיון והרחבות"
+
+#: includes/admin-html/returns-exchanges-license.php:121
+msgid "Manage your secure zorem.com connection."
+msgstr "נהל את החיבור המאובטח שלך ל-zorem.com."
+
+#: includes/admin-html/returns-exchanges-license.php:129
+msgid "Secure Connection"
+msgstr "חיבור מאובטח"
+
+#: includes/admin-html/returns-exchanges-license.php:131
+msgid "Synchronized"
+msgstr "מסונכרן"
+
+#: includes/admin-html/returns-exchanges-license.php:131
+msgid "Unlinked"
+msgstr "לא מקושר"
+
+#: includes/admin-html/returns-exchanges-license.php:146
+msgid "Secure SSO Gateway Verification"
+msgstr "אימות שער SSO מאובטח"
+
+#: includes/admin-html/returns-exchanges-license.php:156
+msgid "Active Premium License"
+msgstr "רישיון פרימיום פעיל"
+
+#: includes/admin-html/returns-exchanges-license.php:157
+msgid "Zorem Returns Pro License"
+msgstr "רישיון Zorem Returns Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:161
+msgid "Licensed Domain:"
+msgstr "דומיין מורשה:"
+
+#: includes/admin-html/returns-exchanges-license.php:171
+msgid "Deactivate License"
+msgstr "השבת רישיון"
+
+#: includes/admin-html/returns-exchanges-license.php:181
+msgid "Action Needed"
+msgstr "נדרשת פעולה"
+
+#: includes/admin-html/returns-exchanges-license.php:183
+msgid "Activate your license"
+msgstr "הפעל את הרישיון שלך"
+
+#: includes/admin-html/returns-exchanges-license.php:184
+msgid ""
+"Securely connect your WooCommerce installation via zorem.com to receive "
+"automatic updates and premium support. We will authenticate your unique "
+"license and redirect you back instantly."
+msgstr ""
+"חבר את התקנת WooCommerce שלך בצורה מאובטחת דרך zorem.com לקבלת עדכונים "
+"אוטומטיים ותמיכת פרימיום. נאמת את הרישיון הייחודי שלך ונפנה אותך חזרה מיד."
+
+#: includes/admin-html/returns-exchanges-license.php:188
+msgid "Connect & Activate License"
+msgstr "חבר והפעל רישיון"
+
+#: includes/admin-html/returns-exchanges-license.php:190
+msgid "Redirects safely to the zorem.com gateway."
+msgstr "מפנה בצורה מאובטחת לשער zorem.com."
+
+#: includes/admin-html/returns-exchanges-license.php:197
+msgid "Free version"
+msgstr "גרסה חינמית"
+
+#: includes/admin-html/returns-exchanges-license.php:199
+msgid "Upgrade to Zorem Returns Pro"
+msgstr "שדרג ל-Zorem Returns Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:200
+msgid ""
+"Unlock the Warranty workflow, Fraud Prevention, extended notifications and "
+"premium support with the PRO version."
+msgstr ""
+"פתח את זרימת העבודה של האחריות, מניעת הונאה, הודעות מורחבות ותמיכת פרימיום "
+"עם גרסת PRO."
+
+#: includes/admin-html/returns-exchanges-license.php:204
+msgid "View PRO features"
+msgstr "הצג תכונות PRO"
+
+#: includes/admin-html/returns-exchanges-license.php:217
+msgid "Documentation & Help"
+msgstr "תיעוד ועזרה"
+
+#: includes/admin-html/returns-exchanges-license.php:221
+msgid "Browse Zorem Knowledge Base"
+msgstr "עיין במאגר הידע של Zorem"
+
+#: includes/admin-html/returns-exchanges-license.php:227
+msgid "Submit Helpdesk Support Ticket"
+msgstr "הגש כרטיס תמיכה"
+
+#: includes/admin-html/returns-exchanges-license.php:233
+msgid "TrackShip Fulfillment Engine Portal"
+msgstr "פורטל TrackShip Fulfillment Engine"
+
+#: includes/admin-html/returns-exchanges-license.php:251
+msgid "Fulfillment Workflow Platform Ecosystem"
+msgstr "מערכת האקולוגיה של פלטפורמת זרימת העבודה למילוי"
+
+#: includes/admin-html/returns-exchanges-license.php:252
+msgid "Install complimentary extensions developed by zorem."
+msgstr "התקן הרחבות חינמיות שפותחו על ידי zorem."
+
+#: includes/admin-html/returns-exchanges-license.php:256
+msgid "All"
+msgstr "הכל"
+
+#: includes/admin-html/returns-exchanges-license.php:257
+#: includes/admin-html/returns-exchanges-license.php:290
+msgid "Active"
+msgstr "פעיל"
+
+#: includes/admin-html/returns-exchanges-license.php:258
+msgid "Add-ons"
+msgstr "תוספות"
+
+#: includes/admin-html/returns-exchanges-license.php:266
+msgid "Search companion plugins…"
+msgstr "חפש תוספים נלווים…"
+
+#: includes/admin-html/returns-exchanges-license.php:280
+msgid "WOO EXTENSION"
+msgstr "הרחבת WOO"
+
+#: includes/admin-html/returns-exchanges-license.php:294
+msgid "Get Extension"
+msgstr "קבל הרחבה"
+
+#: includes/admin-html/returns-exchanges-license.php:303
+msgid "No store plugins matched your search."
+msgstr "לא נמצאו תוספי חנות התואמים לחיפוש שלך."
+
+#: includes/admin-html/returns-exchanges-settings.php:27
+msgid "Configure how returns and exchanges are displayed and handled."
+msgstr "הגדר כיצד מוצגות ומטופלות החזרות וחילופין."
+
+#: includes/admin-html/returns-exchanges-settings.php:32
+msgid "Refund methods, restocking fees, guidelines and return reasons."
+msgstr "שיטות החזר כספי, עמלות מילוי מחדש, הנחיות וסיבות להחזרה."
+
+#: includes/admin-html/returns-exchanges-settings.php:37
+msgid "Exchange rules, cross-product options, guidelines and reasons."
+msgstr "כללי החלפה, אפשרויות בין מוצרים, הנחיות וסיבות."
+
+#: includes/admin-html/returns-exchanges-settings.php:41
+msgid "Fraud Prevention"
+msgstr "מניעת הונאה"
+
+#: includes/admin-html/returns-exchanges-settings.php:42
+msgid "Per-customer return limits, blocklist and abuse controls."
+msgstr "מגבלות החזרה ללקוח, רשימת חסימה ובקרות שימוש לרעה."
+
+#: includes/admin-html/returns-exchanges-settings.php:46
+#: includes/zorem-warranty/class-warranty.php:425
+msgid "Warranty"
+msgstr "אחריות"
+
+#: includes/admin-html/returns-exchanges-settings.php:47
+msgid "Enable warranty workflow, default period and reasons."
+msgstr "הפעל זרימת עבודה לאחריות, תקופת ברירת מחדל וסיבות."
+
+#: includes/admin-html/returns-exchanges-settings.php:68
+msgid "Settings sections"
+msgstr "קטעי הגדרות"
+
+#: includes/admin-html/returns-exchanges-settings.php:178
+msgid "Bulk Upload to Blocklist"
+msgstr "העלאה בכמות לרשימת חסימה"
+
+#: includes/admin-html/returns-exchanges-settings.php:179
+msgid ""
+"Upload a CSV or TXT file containing one email address or numeric user ID per"
+" line. Headers are detected and skipped. Entries are merged into the "
+"blocklist (duplicates ignored)."
+msgstr ""
+"העלה קובץ CSV או TXT המכיל כתובת דואר אלקטרוני אחת או מזהה משתמש מספרי בכל "
+"שורה. כותרות מזוהות ומדולגות עליהן. ערכים ממוזגים לרשימת החסימה (כפילויות "
+"מתעלמות)."
+
+#: includes/admin-html/returns-exchanges-settings.php:181
+msgid ""
+"Upload a CSV or TXT file containing one email address or numeric user ID per"
+" line."
+msgstr ""
+"העלה קובץ CSV או TXT המכיל כתובת דואר אלקטרוני אחת או מזהה משתמש מספרי בכל "
+"שורה."
+
+#: includes/admin-html/returns-exchanges-settings.php:189
+msgid "Upload"
+msgstr "העלאה"
+
+#: includes/admin-html/returns-exchanges-settings.php:202
+msgid "Check Customer Return Count"
+msgstr "בדוק את ספירת החזרות של הלקוח"
+
+#: includes/admin-html/returns-exchanges-settings.php:203
+msgid ""
+"Look up a customer by email or numeric user ID to see how many return rows "
+"they have within the current time window and whether they would be blocked."
+msgstr ""
+"חפש לקוח לפי דואר אלקטרוני או מזהה משתמש מספרי כדי לראות כמה שורות החזרה יש "
+"לו בחלון הזמן הנוכחי והאם הוא יחסם."
+
+#: includes/admin-html/returns-exchanges-settings.php:205
+msgid ""
+"Look up a customer by email or numeric user ID to see how many return rows "
+"they have within the current time window."
+msgstr ""
+"חפש לקוח לפי דואר אלקטרוני או מזהה משתמש מספרי כדי לראות כמה שורות החזרה יש "
+"לו בחלון הזמן הנוכחי."
+
+#: includes/admin-html/returns-exchanges-settings.php:211
+msgid "customer@example.com OR 42"
+msgstr "customer@example.com או 42"
+
+#: includes/admin-html/returns-exchanges-settings.php:213
+msgid "Check"
+msgstr "בדוק"
+
+#: includes/admin-html/warranty-claims-dashboard.php:32
+msgid "All Claims"
+msgstr "כל התביעות"
+
+#: includes/admin-html/warranty-claims-dashboard.php:49
+msgid "ID"
+msgstr "מזהה"
+
+#: includes/admin-html/warranty-claims-dashboard.php:50
+#: includes/zorem-warranty/class-warranty.php:192
+#: templates/emails/_warranty-email-body.php:29
+msgid "Submitted"
+msgstr "הוגש"
+
+#: includes/admin-html/warranty-claims-dashboard.php:54
+#: templates/emails/_warranty-email-body.php:78
+msgid "Product"
+msgstr "מוצר"
+
+#: includes/admin-html/warranty-claims-dashboard.php:55
+#: includes/zorem-warranty/class-warranty.php:438
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:53
+#: templates/emails/_warranty-email-body.php:81
+msgid "Reason"
+msgstr "סיבה"
+
+#: includes/admin-html/warranty-claims-dashboard.php:62
+msgid "No warranty claims to show."
+msgstr "אין תביעות אחריות להצגה."
+
+#: includes/admin-html/warranty-claims-dashboard.php:97
+msgid "View / Update"
+msgstr "הצג / עדכן"
+
+#: includes/admin-html/warranty-claims-dashboard.php:105
+msgid "Customer description"
+msgstr "תיאור לקוח"
+
+#: includes/admin-html/warranty-claims-dashboard.php:122
+msgid "Update Claim"
+msgstr "עדכן תביעה"
+
+#: includes/admin-html/warranty-claims-dashboard.php:124
+msgid "New Status"
+msgstr "סטטוס חדש"
+
+#: includes/admin-html/warranty-claims-dashboard.php:131
+msgid "Resolution (required when resolving)"
+msgstr "פתרון (נדרש בעת פתרון)"
+
+#: includes/admin-html/warranty-claims-dashboard.php:133
+msgid "— Select —"
+msgstr "— בחר —"
+
+#: includes/admin-html/warranty-claims-dashboard.php:139
+msgid "Resolution note"
+msgstr "הערת פתרון"
+
+#: includes/admin-html/warranty-claims-dashboard.php:140
+msgid "Optional — sent to the customer in the notification email."
+msgstr "אופציונלי — נשלח ללקוח בהודעת הדואר האלקטרוני."
+
+#: includes/class-return-exchange-admin.php:204
+msgid "Search for a product…"
+msgstr "חפש מוצר…"
+
+#: includes/class-return-exchange-admin.php:205
+msgid "Searching…"
+msgstr "מחפש…"
+
+#: includes/class-return-exchange-admin.php:206
+msgid "No products found."
+msgstr "לא נמצאו מוצרים."
+
+#: includes/class-return-exchange-admin.php:207
+msgid "Select a variant"
+msgstr "בחר גרסה"
+
+#: includes/class-return-exchange-admin.php:208
+msgid "Choose an option"
+msgstr "בחר אפשרות"
+
+#: includes/class-return-exchange-admin.php:209
+msgid "Sorry, this combination is unavailable."
+msgstr "מצטערים, שילוב זה אינו זמין."
+
+#: includes/class-return-exchange-admin.php:210
+msgid "Additional payment required"
+msgstr "נדרש תשלום נוסף"
+
+#: includes/class-return-exchange-admin.php:211
+msgid "Store credit will be issued"
+msgstr "יוצא זיכוי חנות"
+
+#: includes/class-return-exchange-admin.php:212
+msgid "Even exchange"
+msgstr "החלפה שוות ערך"
+
+#: includes/class-return-exchange-admin.php:432
+msgid "Return Window Extension"
+msgstr "הארכת חלון החזרה"
+
+#: includes/class-return-exchange-admin.php:435
+msgid "Custom Return Window (Days)"
+msgstr "חלון החזרה מותאם אישית (ימים)"
+
+#: includes/class-return-exchange-admin.php:438
+msgid ""
+"Enter total return/exchange days for this user (max 90). Leave empty or 0 to"
+" use the global Return/Exchange Window (Days) setting."
+msgstr ""
+"הזן את סך ימי ההחזרה/החלפה למשתמש זה (מקס. 90). השאר ריק או 0 לשימוש בהגדרה "
+"הגלובלית חלון החזרה/החלפה (ימים)."
+
+#: includes/class-return-exchange-admin.php:534
+msgid ""
+"Days after the order date within which customers may request a return or "
+"exchange."
+msgstr ""
+"מספר הימים לאחר תאריך ההזמנה שבמהלכם לקוחות יכולים לבקש החזרה או החלפה."
+
+#: includes/class-return-exchange-admin.php:543
+msgid "Enable Per-User Return Window Extension"
+msgstr "הפעל הארכת חלון החזרה לפי משתמש"
+
+#: includes/class-return-exchange-admin.php:544
+msgid ""
+"Override the global window for individual customers from their user profile."
+msgstr "עקוף את החלון הגלובלי ללקוחות בודדים מפרופיל המשתמש שלהם."
+
+#: includes/class-return-exchange-admin.php:548
+msgid ""
+"When enabled, you can set a custom return/exchange window per customer from "
+"their user profile page."
+msgstr ""
+"כאשר מופעל, תוכל להגדיר חלון החזרה/החלפה מותאם אישית לכל לקוח מדף פרופיל "
+"המשתמש שלו."
+
+#: includes/class-return-exchange-admin.php:551
+msgid "Restock Completed Returns and Exchanges"
+msgstr "חדש את המלאי עבור החזרות והחלפות שהושלמו"
+
+#: includes/class-return-exchange-admin.php:552
+msgid ""
+"Automatically add stock back on completed returns and approved exchanges."
+msgstr "הוסף מלאי אוטומטית בהחזרות שהושלמו ובחילופין שאושרו."
+
+#: includes/class-return-exchange-admin.php:556
+msgid ""
+"Enable this option to automatically restock items when a return is marked as"
+" completed or an exchange is approved."
+msgstr ""
+"הפעל אפשרות זו כדי לחדש מלאי אוטומטית כאשר החזרה מסומנת כהושלמה או החלפה "
+"מאושרת."
+
+#: includes/class-return-exchange-admin.php:560
+msgid ""
+"Only orders in one of the selected statuses will show the return/exchange "
+"buttons."
+msgstr "רק הזמנות עם אחד הסטטוסים שנבחרו יציגו את כפתורי ההחזרה/החלפה."
+
+#: includes/class-return-exchange-admin.php:569
+msgid ""
+"Link customers open when they click the \"terms and conditions\" text on the"
+" return form."
+msgstr ""
+"קישור שלקוחות פותחים כאשר הם לוחצים על טקסט התנאים וההגבלות בטופס ההחזרה."
+
+#: includes/class-return-exchange-admin.php:582
+msgid ""
+"Products belonging to any of these categories cannot be returned or "
+"exchanged."
+msgstr "מוצרים השייכים לאחת מקטגוריות אלה אינם ניתנים להחזרה או החלפה."
+
+#: includes/class-return-exchange-admin.php:591
+msgid ""
+"Individual products that are excluded from the return/exchange workflow."
+msgstr "מוצרים בודדים שאינם נכללים בזרימת עבודה ההחזרה/החלפה."
+
+#: includes/class-return-exchange-admin.php:599
+msgid ""
+"Address shown to customers for shipping returned items back to your store."
+msgstr "כתובת המוצגת ללקוחות לשליחת פריטים שהוחזרו לחנות שלך."
+
+#: includes/class-return-exchange-admin.php:619
+msgid "Keep the Item & Receive a Partial Refund"
+msgstr "שמור את הפריט וקבל החזר כספי חלקי"
+
+#: includes/class-return-exchange-admin.php:623
+#: includes/class-return-exchange-common.php:27
+msgid "Refund to Wallet (TeraWallet)"
+msgstr "החזר כספי לארנק (TeraWallet)"
+
+#: includes/class-return-exchange-admin.php:639
+msgid "Include sale-priced items in the return workflow."
+msgstr "כלול פריטים מוזלים בזרימת עבודה ההחזרה."
+
+#: includes/class-return-exchange-admin.php:647
+msgid "Skip manual review — every new return is approved on submission."
+msgstr "דלג על בדיקה ידנית — כל החזרה חדשה מאושרת בעת הגשה."
+
+#: includes/class-return-exchange-admin.php:655
+msgid ""
+"Customer can choose individual items to return rather than the whole order."
+msgstr "הלקוח יכול לבחור פריטים בודדים להחזרה במקום את כל ההזמנה."
+
+#: includes/class-return-exchange-admin.php:663
+msgid ""
+"Refund destinations offered to the customer when the return is approved."
+msgstr "יעדי החזר כספי המוצעים ללקוח כאשר ההחזרה מאושרת."
+
+#: includes/class-return-exchange-admin.php:675
+msgid "Partial Refund Percentage"
+msgstr "אחוז החזר כספי חלקי"
+
+#: includes/class-return-exchange-admin.php:676
+msgid ""
+"Percentage of the item total refunded when the customer picks the \"Keep the"
+" Item\" resolution. Shown to the customer on the return form."
+msgstr ""
+"אחוז מסכום הפריט המוחזר כאשר הלקוח בוחר בפתרון שמור את הפריט. מוצג ללקוח "
+"בטופס ההחזרה."
+
+#: includes/class-return-exchange-admin.php:683
+msgid ""
+"Only used when \"Keep the Item & Receive a Partial Refund\" is enabled "
+"above. The plugin does not process this refund automatically — the admin "
+"issues it manually from the WooCommerce Edit Order page."
+msgstr ""
+"משמש רק כאשר שמור את הפריט וקבל החזר כספי חלקי מופעל למעלה. התוסף אינו מעבד "
+"החזר כספי זה אוטומטית — המנהל מנפיק אותו ידנית מדף עריכת הזמנה "
+"ב-WooCommerce."
+
+#: includes/class-return-exchange-admin.php:687
+msgid "Add the original shipping charge back into the refund total."
+msgstr "הוסף את עמלת המשלוח המקורית בחזרה לסך ההחזר הכספי."
+
+#: includes/class-return-exchange-admin.php:694
+msgid "Enable Restocking Fee"
+msgstr "הפעל עמלת מילוי מחדש"
+
+#: includes/class-return-exchange-admin.php:695
+msgid ""
+"Deduct a fee from every approved refund; shown to the customer up-front."
+msgstr "הפחת עמלה מכל החזר כספי מאושר; מוצגת ללקוח מראש."
+
+#: includes/class-return-exchange-admin.php:699
+msgid ""
+"Deduct a restocking fee from the refund amount when a return is approved. "
+"The fee is shown to the customer before they submit their return request."
+msgstr ""
+"הפחת עמלת מילוי מחדש מסכום ההחזר הכספי כאשר החזרה מאושרת. העמלה מוצגת ללקוח "
+"לפני הגשת בקשת ההחזרה."
+
+#: includes/class-return-exchange-admin.php:702
+msgid "Restocking Fee Type"
+msgstr "סוג עמלת מילוי מחדש"
+
+#: includes/class-return-exchange-admin.php:703
+msgid ""
+"How the fee is calculated: a percentage of item price or a flat per-item "
+"amount."
+msgstr "כיצד מחושבת העמלה: אחוז ממחיר הפריט או סכום קבוע לפריט."
+
+#: includes/class-return-exchange-admin.php:709
+#: includes/zorem-returns/class-restocking-fee.php:355
+#: includes/zorem-returns/class-restocking-fee.php:434
+#: includes/zorem-returns/class-restocking-fee.php:467
+msgid "Percentage (%)"
+msgstr "אחוז (%)"
+
+#: includes/class-return-exchange-admin.php:710
+#: includes/zorem-returns/class-restocking-fee.php:356
+#: includes/zorem-returns/class-restocking-fee.php:435
+#: includes/zorem-returns/class-restocking-fee.php:468
+msgid "Fixed amount per item"
+msgstr "סכום קבוע לפריט"
+
+#: includes/class-return-exchange-admin.php:712
+msgid ""
+"Choose how the restocking fee is calculated. Percentage applies to each "
+"returned item's price; Fixed deducts a flat amount per returned item "
+"(multiplied by quantity)."
+msgstr ""
+"בחר כיצד מחושבת עמלת מילוי המחדש. אחוז חל על מחיר כל פריט שהוחזר; קבוע מפחית"
+" סכום קבוע לפריט שהוחזר (מוכפל בכמות)."
+
+#: includes/class-return-exchange-admin.php:715
+msgid "Restocking Fee Amount"
+msgstr "סכום עמלת מילוי מחדש"
+
+#: includes/class-return-exchange-admin.php:716
+msgid ""
+"Value of the fee — a number for percentage, or a currency amount for fixed."
+msgstr "ערך העמלה — מספר לאחוז או סכום מטבע לקבוע."
+
+#: includes/class-return-exchange-admin.php:721
+msgid ""
+"For percentage: enter a number (e.g., 15 for 15%). For fixed: enter the "
+"amount in your store currency (e.g., 5 for ₹5/$5 per item)."
+msgstr ""
+"לאחוז: הזן מספר (למשל 15 עבור 15%). לקבוע: הזן את הסכום במטבע החנות שלך "
+"(למשל 5 עבור ₪5 לפריט)."
+
+#: includes/class-return-exchange-admin.php:724
+msgid "Restocking Fee Label"
+msgstr "תווית עמלת מילוי מחדש"
+
+#: includes/class-return-exchange-admin.php:725
+msgid "Text shown to the customer next to the fee line item."
+msgstr "טקסט המוצג ללקוח ליד שורת העמלה."
+
+#: includes/class-return-exchange-admin.php:728
+#: includes/class-return-exchange-admin.php:729
+#: includes/zorem-returns/class-restocking-fee.php:86
+#: includes/zorem-returns/class-restocking-fee.php:87
+#: includes/zorem-returns/class-restocking-fee.php:336
+#: includes/zorem-returns/class-restocking-fee.php:423
+#: includes/zorem-returns/class-restocking-fee.php:453
+#: includes/zorem-returns/class-return-common-functions.php:227
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:332
+msgid "Restocking Fee"
+msgstr "עמלת מילוי מחדש"
+
+#: includes/class-return-exchange-admin.php:730
+msgid ""
+"Label shown to the customer in the return summary, admin dashboard and "
+"refund emails."
+msgstr ""
+"תווית המוצגת ללקוח בסיכום ההחזרה, לוח הבקרה של המנהל ובאימיילי ההחזר הכספי."
+
+#: includes/class-return-exchange-admin.php:733
+msgid "Disable Returns for Payment Methods"
+msgstr "השבת החזרות לשיטות תשלום"
+
+#: includes/class-return-exchange-admin.php:734
+msgid ""
+"Hide the Return button for orders paid via any of the selected gateways."
+msgstr "הסתר את כפתור ההחזרה להזמנות ששולמו דרך אחד השערים שנבחרו."
+
+#: includes/class-return-exchange-admin.php:739
+msgid ""
+"Select payment gateways that are not eligible for returns. The Return button"
+" will be hidden for orders paid with these methods (e.g., Cash on Delivery)."
+msgstr ""
+"בחר שערי תשלום שאינם זכאים להחזרות. כפתור ההחזרה יוסתר להזמנות ששולמו בשיטות"
+" אלה (למשל תשלום במסירה)."
+
+#: includes/class-return-exchange-admin.php:742
+msgid "Return Disabled Message"
+msgstr "הודעת החזרות מושבת"
+
+#: includes/class-return-exchange-admin.php:743
+#: includes/class-return-exchange-admin.php:906
+msgid ""
+"Customer-facing text shown when the order was paid via a disabled gateway."
+msgstr "טקסט ללקוח המוצג כאשר ההזמנה שולמה דרך שער מושבת."
+
+#: includes/class-return-exchange-admin.php:746
+#: includes/class-return-exchange-admin.php:747
+#: includes/zorem-returns/class-return-common-functions.php:947
+msgid ""
+"Returns are not available for Cash on Delivery orders. Please contact us "
+"directly."
+msgstr "החזרות אינן זמינות להזמנות בתשלום במסירה. אנא צור קשר ישירות."
+
+#: includes/class-return-exchange-admin.php:748
+#: includes/class-return-exchange-admin.php:911
+msgid ""
+"Message shown to customers when their order is paid via a disabled payment "
+"method."
+msgstr "הודעה המוצגת ללקוחות כאשר הזמנתם שולמה דרך שיטת תשלום מושבתת."
+
+#: includes/class-return-exchange-admin.php:752
+msgid ""
+"Instructions included in the return-approved email sent to the customer."
+msgstr "הוראות הכלולות בדואר האלקטרוני לאישור החזרה הנשלח ללקוח."
+
+#: includes/class-return-exchange-admin.php:760
+msgid "Options shown in the reason dropdown on the customer return form."
+msgstr "אפשרויות המוצגות בתפריט הנפתח של הסיבות בטופס ההחזרה של הלקוח."
+
+#: includes/class-return-exchange-admin.php:792
+msgid "Master switch — hides the entire exchange workflow when off."
+msgstr "מתג ראשי — מסתיר את כל זרימת עבודה ההחלפה כשהוא כבוי."
+
+#: includes/class-return-exchange-admin.php:800
+msgid "Include sale-priced items in the exchange workflow."
+msgstr "כלול פריטים מוזלים בזרימת עבודה ההחלפה."
+
+#: includes/class-return-exchange-admin.php:808
+msgid "Skip manual review — every new exchange is approved on submission."
+msgstr "דלג על בדיקה ידנית — כל החלפה חדשה מאושרת בעת הגשה."
+
+#: includes/class-return-exchange-admin.php:816
+msgid ""
+"Customer can pick individual items to exchange rather than the whole order."
+msgstr "הלקוח יכול לבחור פריטים בודדים להחלפה במקום את כל ההזמנה."
+
+#: includes/class-return-exchange-admin.php:823
+msgid "Allow Cross-Product Exchange"
+msgstr "אפשר החלפה בין מוצרים"
+
+#: includes/class-return-exchange-admin.php:824
+msgid ""
+"Customer can exchange for any catalog product, not just other variations."
+msgstr "הלקוח יכול להחליף בכל מוצר בקטלוג, לא רק גרסאות אחרות."
+
+#: includes/class-return-exchange-admin.php:828
+msgid ""
+"Allow customers to exchange for any product in the catalog, not just the "
+"same product's variations."
+msgstr "אפשר ללקוחות להחליף בכל מוצר בקטלוג, לא רק גרסאות של אותו מוצר."
+
+#: includes/class-return-exchange-admin.php:831
+msgid "Show Original → Requested Exchange Table in Customer Emails"
+msgstr "הצג טבלה מקורי ← החלפה מבוקשת באימיילי לקוח"
+
+#: includes/class-return-exchange-admin.php:832
+msgid ""
+"Include a side-by-side comparison of original vs. requested product in "
+"emails."
+msgstr "כלול השוואה זה לצד זה של המוצר המקורי מול המבוקש באימיילים."
+
+#: includes/class-return-exchange-admin.php:836
+msgid ""
+"When enabled, customer exchange emails "
+"(requested/approved/completed/rejected) include a comparison table showing "
+"the original product alongside the requested exchange product. When "
+"disabled, only the basic original-item summary is shown."
+msgstr ""
+"כאשר מופעל, אימיילי ההחלפה של הלקוח כוללים טבלת השוואה המציגה את המוצר "
+"המקורי לצד מוצר ההחלפה המבוקש. כאשר מושבת, מוצג רק סיכום פריט מקורי בסיסי."
+
+#: includes/class-return-exchange-admin.php:839
+msgid "When new item costs more"
+msgstr "כשהפריט החדש יקר יותר"
+
+#: includes/class-return-exchange-admin.php:840
+msgid ""
+"How the price difference is collected when the replacement is more "
+"expensive."
+msgstr "כיצד גובים את הפרש המחיר כאשר התחליף יקר יותר."
+
+#: includes/class-return-exchange-admin.php:849
+msgid "Create pending payment order for the difference"
+msgstr "צור הזמנת תשלום ממתין עבור ההפרש"
+
+#: includes/class-return-exchange-admin.php:850
+msgid "Ship first and invoice later"
+msgstr "שלח תחילה וחשב מאוחר יותר"
+
+#: includes/class-return-exchange-admin.php:852
+msgid ""
+"Choose what happens when the replacement product costs more than the "
+"original item."
+msgstr "בחר מה קורה כאשר מוצר התחליף עולה יותר מהפריט המקורי."
+
+#: includes/class-return-exchange-admin.php:855
+msgid "When new item costs less"
+msgstr "כשהפריט החדש זול יותר"
+
+#: includes/class-return-exchange-admin.php:856
+msgid "How the leftover balance is handled when the replacement is cheaper."
+msgstr "כיצד מטפלים ביתרה שנותרת כאשר התחליף זול יותר."
+
+#: includes/class-return-exchange-admin.php:865
+msgid "Issue store credit coupon for the balance"
+msgstr "הנפק קופון זיכוי חנות עבור היתרה"
+
+#: includes/class-return-exchange-admin.php:866
+msgid "No credit — discard the difference"
+msgstr "ללא זיכוי — השלך את ההפרש"
+
+#: includes/class-return-exchange-admin.php:868
+msgid ""
+"Choose what happens when the replacement product costs less than the "
+"original item."
+msgstr "בחר מה קורה כאשר מוצר התחליף עולה פחות מהפריט המקורי."
+
+#: includes/class-return-exchange-admin.php:871
+msgid "Store credit coupon expiry (days)"
+msgstr "תפוגת קופון זיכוי חנות (ימים)"
+
+#: includes/class-return-exchange-admin.php:872
+msgid "Lifetime of the issued store-credit coupon (0 = never expires)."
+msgstr "משך חיי קופון זיכוי החנות שהונפק (0 = לא פג לעולם)."
+
+#: includes/class-return-exchange-admin.php:880
+msgid ""
+"Number of days before the store credit coupon expires. Enter 0 for no "
+"expiry."
+msgstr "מספר הימים עד לפקיעת קופון זיכוי החנות. הזן 0 לאי-תפוגה."
+
+#: includes/class-return-exchange-admin.php:883
+msgid "Preset Shipping Method for Exchange Orders"
+msgstr "שיטת משלוח מוגדרת מראש להזמנות חילוף"
+
+#: includes/class-return-exchange-admin.php:884
+msgid "Shipping method automatically applied to child exchange orders."
+msgstr "שיטת המשלוח המוחלת אוטומטית על הזמנות חילוף משניות."
+
+#: includes/class-return-exchange-admin.php:893
+msgid ""
+"Select the shipping method that should automatically be applied to exchange "
+"orders created by the plugin. If none selected, WooCommerce default shipping"
+" method will be used."
+msgstr ""
+"בחר את שיטת המשלוח שתוחל אוטומטית על הזמנות החלפה שנוצרו על ידי התוסף. אם לא"
+" נבחרה, תשמש שיטת המשלוח הברירת מחדל של WooCommerce."
+
+#: includes/class-return-exchange-admin.php:896
+msgid "Disable Exchanges for Payment Methods"
+msgstr "השבת חילופין לשיטות תשלום"
+
+#: includes/class-return-exchange-admin.php:897
+msgid ""
+"Hide the Exchange button for orders paid via any of the selected gateways."
+msgstr "הסתר את כפתור ההחלפה להזמנות ששולמו דרך אחד השערים שנבחרו."
+
+#: includes/class-return-exchange-admin.php:902
+msgid ""
+"Select payment gateways that are not eligible for exchanges. The Exchange "
+"button will be hidden for orders paid with these methods (e.g., Cash on "
+"Delivery)."
+msgstr ""
+"בחר שערי תשלום שאינם זכאים לחילופין. כפתור ההחלפה יוסתר להזמנות ששולמו "
+"בשיטות אלה (למשל תשלום במסירה)."
+
+#: includes/class-return-exchange-admin.php:905
+msgid "Exchange Disabled Message"
+msgstr "הודעת חילופין מושבת"
+
+#: includes/class-return-exchange-admin.php:909
+#: includes/class-return-exchange-admin.php:910
+#: includes/zorem-exchanges/class-exchange-common-functions.php:437
+msgid ""
+"Exchanges are not available for Cash on Delivery orders. Please contact us "
+"directly."
+msgstr "חילופין אינם זמינים להזמנות בתשלום במסירה. אנא צור קשר ישירות."
+
+#: includes/class-return-exchange-admin.php:915
+msgid ""
+"Instructions included in the exchange-approved email sent to the customer."
+msgstr "הוראות הכלולות בדואר האלקטרוני לאישור חילוף הנשלח ללקוח."
+
+#: includes/class-return-exchange-admin.php:923
+msgid "Options shown in the reason dropdown on the customer exchange form."
+msgstr "אפשרויות המוצגות בתפריט הנפתח של הסיבות בטופס ההחלפה של הלקוח."
+
+#: includes/class-return-exchange-admin.php:956
+msgid "Enable Fraud Prevention"
+msgstr "הפעל מניעת הונאה"
+
+#: includes/class-return-exchange-admin.php:957
+msgid "Master switch for the per-customer return limit and the blocklist."
+msgstr "מתג ראשי למגבלה לפי לקוח ורשימת החסימה."
+
+#: includes/class-return-exchange-admin.php:961
+msgid ""
+"Turn on per-customer return limits and the blocklist. When disabled, no "
+"fraud prevention checks are run."
+msgstr ""
+"הפעל מגבלות לפי לקוח ורשימת חסימה. כשמושבת, לא מתבצעות בדיקות מניעת הונאה."
+
+#: includes/class-return-exchange-admin.php:988
+msgid "Enable Per-Customer Return Limit"
+msgstr "הפעל מגבלת החזרות לפי לקוח"
+
+#: includes/class-return-exchange-admin.php:989
+msgid ""
+"Cap how many returns a single customer can submit inside a rolling window."
+msgstr "הגבל כמה החזרות לקוח בודד יכול להגיש בחלון גלגלן."
+
+#: includes/class-return-exchange-admin.php:993
+msgid ""
+"Limit how many returns a single customer can submit within a rolling time "
+"window."
+msgstr "הגבל כמה החזרות לקוח בודד יכול להגיש בחלון זמן גלגלן."
+
+#. translators: 1: max returns, 2: window in days
+#: includes/class-return-exchange-admin.php:1002
+#: includes/zorem-returns/class-fraud-prevention.php:319
+#, php-format
+msgid ""
+"You have reached the maximum of %1$d returns within the last %2$d days. "
+"Please contact our support team for assistance."
+msgstr ""
+"הגעת למקסימום של %1$d החזרות ב-%2$d הימים האחרונים. אנא צור קשר עם צוות "
+"התמיכה שלנו לקבלת עזרה."
+
+#: includes/class-return-exchange-admin.php:1006
+msgid "Maximum Returns per Customer"
+msgstr "מקסימום החזרות לפי לקוח"
+
+#: includes/class-return-exchange-admin.php:1007
+msgid "How many return requests a customer may submit before being blocked."
+msgstr "כמה בקשות החזרה לקוח יכול להגיש לפני שייחסם."
+
+#: includes/class-return-exchange-admin.php:1014
+msgid ""
+"Maximum number of return requests a single customer is allowed within the "
+"time window below."
+msgstr "מספר מקסימלי של בקשות החזרה המותר ללקוח בודד בחלון הזמן שלהלן."
+
+#: includes/class-return-exchange-admin.php:1017
+msgid "Time Window (Days)"
+msgstr "חלון זמן (ימים)"
+
+#: includes/class-return-exchange-admin.php:1018
+msgid "Rolling look-back window used to count a customer's recent returns."
+msgstr "חלון מבט לאחור גלגלן המשמש לספירת החזרות האחרונות של לקוח."
+
+#: includes/class-return-exchange-admin.php:1025
+msgid ""
+"Rolling window, in days, used to count a customer's recent returns (e.g. 90 "
+"= the last 90 days)."
+msgstr ""
+"חלון גלגלן בימים לספירת ההחזרות האחרונות של לקוח (למשל 90 = 90 הימים "
+"האחרונים)."
+
+#: includes/class-return-exchange-admin.php:1028
+msgid "Limit-Reached Message"
+msgstr "הודעת הגעה למגבלה"
+
+#: includes/class-return-exchange-admin.php:1029
+msgid "Message shown to customers who exceed the limit above."
+msgstr "הודעה המוצגת ללקוחות שחרגו מהמגבלה שלעיל."
+
+#: includes/class-return-exchange-admin.php:1034
+#, php-format
+msgid ""
+"Message shown to a customer who has reached the return limit. You may use "
+"%1$d for the max count and %2$d for the window in days."
+msgstr ""
+"הודעה המוצגת ללקוח שהגיע למגבלת ההחזרות. ניתן להשתמש ב-%1$d למספר המקסימלי "
+"וב-%2$d לחלון בימים."
+
+#: includes/class-return-exchange-admin.php:1045
+msgid "Email Admin When Limit Is Hit"
+msgstr "שלח אימייל למנהל כשהמגבלה מגיעה"
+
+#: includes/class-return-exchange-admin.php:1046
+msgid "Send an admin alert each time a customer trips the return limit."
+msgstr "שלח התראת מנהל בכל פעם שלקוח מגיע למגבלת ההחזרות."
+
+#: includes/class-return-exchange-admin.php:1050
+msgid ""
+"Send a notification email when a customer reaches the configured per-"
+"customer return limit. Throttled to one email per customer per day."
+msgstr ""
+"שלח אימייל הודעה כאשר לקוח מגיע למגבלה המוגדרת לפי לקוח. מוגבל לאימייל אחד "
+"לפי לקוח ביום."
+
+#: includes/class-return-exchange-admin.php:1061
+msgid "Admin Notification Email"
+msgstr "אימייל הודעה למנהל"
+
+#: includes/class-return-exchange-admin.php:1062
+msgid ""
+"Recipient of the limit-reached notification. Leave blank to use the site "
+"admin email."
+msgstr "נמען ההודעה על הגעה למגבלה. השאר ריק לשימוש באימייל מנהל האתר."
+
+#: includes/class-return-exchange-admin.php:1067
+msgid ""
+"Email address to receive limit-reached notifications. Leave blank to use the"
+" WordPress site admin email."
+msgstr ""
+"כתובת אימייל לקבלת הודעות על הגעה למגבלה. השאר ריק לשימוש באימייל מנהל אתר "
+"WordPress."
+
+#: includes/class-return-exchange-admin.php:1078
+msgid "Customer Blocklist"
+msgstr "רשימת חסימה של לקוחות"
+
+#: includes/class-return-exchange-admin.php:1079
+msgid ""
+"Emails or numeric user IDs banned from starting a return. One per line."
+msgstr ""
+"כתובות אימייל או מזהי משתמשים מספריים האסורים ביצוע החזרה. אחד בכל שורה."
+
+#: includes/class-return-exchange-admin.php:1084
+msgid ""
+"One entry per line. Accepts customer email addresses OR numeric user IDs. "
+"Blocked customers cannot submit return requests."
+msgstr ""
+"ערך אחד לכל שורה. מקבל כתובות אימייל של לקוחות או מזהי משתמשים מספריים. "
+"לקוחות חסומים אינם יכולים להגיש בקשות החזרה."
+
+#: includes/class-return-exchange-admin.php:1093
+#: includes/zorem-returns/class-fraud-prevention.php:304
+msgid ""
+"Returns are not available for your account. Please contact our support team "
+"for assistance."
+msgstr ""
+"החזרות אינן זמינות עבור חשבונך. אנא צור קשר עם צוות התמיכה שלנו לקבלת עזרה."
+
+#: includes/class-return-exchange-admin.php:1097
+msgid "Silently Hide Return Button"
+msgstr "הסתר את כפתור ההחזרה בשקט"
+
+#: includes/class-return-exchange-admin.php:1098
+msgid ""
+"Hide the Return button with no message (bypasses the Blocklist Message "
+"below)."
+msgstr "הסתר את כפתור ההחזרה ללא הודעה (עוקף את הודעת רשימת החסימה שלהלן)."
+
+#: includes/class-return-exchange-admin.php:1102
+msgid ""
+"When enabled, the Start a Return button is hidden without any message for "
+"blocked customers / customers over the limit. When disabled (default), the "
+"message above is shown."
+msgstr ""
+"כאשר מופעל, כפתור התחל החזרה מוסתר ללא הודעה ללקוחות חסומים / לקוחות מעל "
+"המגבלה. כשמושבת (ברירת מחדל), ההודעה שלעיל מוצגת."
+
+#: includes/class-return-exchange-admin.php:1105
+msgid "Blocklist Message"
+msgstr "הודעת רשימת חסימה"
+
+#: includes/class-return-exchange-admin.php:1106
+msgid "Message shown to blocked customers when they try to start a return."
+msgstr "הודעה המוצגת ללקוחות חסומים כאשר הם מנסים לפתוח החזרה."
+
+#: includes/class-return-exchange-admin.php:1111
+msgid ""
+"Message shown to customers who appear on the blocklist when they try to "
+"start a return."
+msgstr "הודעה המוצגת ללקוחות ברשימת החסימה כאשר הם מנסים לפתוח החזרה."
+
+#: includes/class-return-exchange-admin.php:1132
+msgid "Enable Warranty Workflow"
+msgstr "הפעל זרימת עבודה לאחריות"
+
+#: includes/class-return-exchange-admin.php:1133
+msgid ""
+"Add a warranty claim button after the standard return window has expired."
+msgstr "הוסף כפתור תביעת אחריות לאחר שחלון ההחזרה הסטנדרטי פג."
+
+#: includes/class-return-exchange-admin.php:1137
+msgid ""
+"Show a \"Submit Warranty Claim\" button on customer orders after the "
+"standard return window has expired (while the product is still under "
+"warranty)."
+msgstr ""
+"הצג כפתור הגש תביעת אחריות בהזמנות לקוחות לאחר שחלון ההחזרה הסטנדרטי פג "
+"(כשהמוצר עדיין באחריות)."
+
+#: includes/class-return-exchange-admin.php:1147
+#: includes/zorem-warranty/class-warranty.php:166
+msgid "Stopped working"
+msgstr "הפסיק לעבוד"
+
+#: includes/class-return-exchange-admin.php:1148
+#: includes/zorem-warranty/class-warranty.php:167
+#: templates/emails/_warranty-email-body.php:30
+msgid "Manufacturing defect"
+msgstr "ליקוי ייצור"
+
+#: includes/class-return-exchange-admin.php:1149
+#: includes/zorem-warranty/class-warranty.php:168
+msgid "Broken or damaged"
+msgstr "שבור או פגום"
+
+#: includes/class-return-exchange-admin.php:1150
+#: includes/zorem-warranty/class-warranty.php:169
+msgid "Missing parts after some use"
+msgstr "חלקים חסרים לאחר שימוש מסוים"
+
+#: includes/class-return-exchange-admin.php:1151
+#: includes/zorem-warranty/class-warranty.php:170
+msgid "Performance issue"
+msgstr "בעיית ביצועים"
+
+#: includes/class-return-exchange-admin.php:1156
+msgid "Default Warranty Period (Days)"
+msgstr "תקופת אחריות ברירת מחדל (ימים)"
+
+#: includes/class-return-exchange-admin.php:1157
+msgid ""
+"Fallback warranty length when a product or category doesn't override it. 0 "
+"disables by default."
+msgstr ""
+"משך אחריות גיבוי כאשר מוצר או קטגוריה אינם עוקפים אותה. 0 משבית כברירת מחדל."
+
+#: includes/class-return-exchange-admin.php:1164
+msgid ""
+"Default warranty length in days. Used when a product or category does not "
+"set its own. 0 = no warranty by default."
+msgstr ""
+"משך אחריות ברירת מחדל בימים. משמש כאשר מוצר או קטגוריה אינם מגדירים את שלהם."
+" 0 = ללא אחריות כברירת מחדל."
+
+#: includes/class-return-exchange-admin.php:1167
+msgid "Warranty Reasons"
+msgstr "סיבות אחריות"
+
+#: includes/class-return-exchange-admin.php:1168
+msgid "Options shown in the reason dropdown on the warranty claim form."
+msgstr "אפשרויות המוצגות בתפריט הנפתח של הסיבות בטופס תביעת האחריות."
+
+#: includes/class-return-exchange-admin.php:1175
+msgid "List of reasons a customer can pick when filing a warranty claim."
+msgstr "רשימת הסיבות שלקוח יכול לבחור בעת הגשת תביעת אחריות."
+
+#: includes/class-return-exchange-admin.php:1207
+msgid "Select Shipping Method"
+msgstr "בחר שיטת משלוח"
+
+#: includes/class-return-exchange-admin.php:1239
+msgid "Rest of the world"
+msgstr "שאר העולם"
+
+#. translators: %d — percentage of item total refunded when the customer keeps
+#. the product.
+#. translators: %d — partial refund percentage.
+#: includes/class-return-exchange-common.php:31
+#: includes/zorem-returns/htmls/returns-center-form.php:291
+#, php-format
+msgid "Keep the Item & Receive a %d%% Partial Refund"
+msgstr "שמור את הפריט וקבל %d%% החזר כספי חלקי"
+
+#: includes/class-return-exchange-common.php:200
+msgid "My Returns"
+msgstr "ההחזרות שלי"
+
+#: includes/class-return-exchange-common.php:201
+msgid "You have no return requests yet."
+msgstr "אין לך עדיין בקשות החזרה."
+
+#: includes/class-return-exchange-license.php:186
+msgid "Every day"
+msgstr "כל יום"
+
+#: includes/customizer/customizer-admin.php:82
+#: includes/customizer/customizer-admin.php:122
+msgid "Return & Exchange Customizer"
+msgstr "מותאם אישית להחזרות וחילופין"
+
+#: includes/customizer/customizer-admin.php:355
+msgid "Return Completed (Customer)"
+msgstr "ההחזרה הושלמה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:357
+msgid "Return Store Credit (Customer)"
+msgstr "זיכוי חנות עבור החזרה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:360
+msgid "Exchange Completed (Customer)"
+msgstr "ההחלפה הושלמה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:362
+msgid "Exchange Store Credit (Customer)"
+msgstr "זיכוי חנות עבור החלפה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:363
+msgid "Warranty Claim Submitted (Customer)"
+msgstr "תביעת אחריות הוגשה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:364
+msgid "Warranty Claim Under Review (Customer)"
+msgstr "תביעת אחריות בבדיקה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:365
+msgid "Warranty Claim Approved (Customer)"
+msgstr "תביעת אחריות אושרה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:366
+msgid "Warranty Claim Rejected (Customer)"
+msgstr "תביעת אחריות נדחתה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:367
+msgid "Warranty Claim Resolved (Customer)"
+msgstr "תביעת אחריות נפתרה (לקוח)"
+
+#: includes/customizer/customizer-admin.php:368
+msgid "Return Request Received (Admin)"
+msgstr "בקשת החזרה התקבלה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:369
+msgid "Return Approved (Admin)"
+msgstr "ההחזרה אושרה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:370
+msgid "Return Completed (Admin)"
+msgstr "ההחזרה הושלמה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:371
+msgid "Return Rejected (Admin)"
+msgstr "ההחזרה נדחתה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:372
+msgid "Exchange Request Received (Admin)"
+msgstr "בקשת החלפה התקבלה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:373
+msgid "Exchange Approved (Admin)"
+msgstr "ההחלפה אושרה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:374
+msgid "Exchange Completed (Admin)"
+msgstr "ההחלפה הושלמה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:375
+msgid "Exchange Rejected (Admin)"
+msgstr "ההחלפה נדחתה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:376
+msgid "Warranty Claim Submitted (Admin)"
+msgstr "תביעת אחריות הוגשה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:377
+msgid "Warranty Claim Under Review (Admin)"
+msgstr "תביעת אחריות בבדיקה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:378
+msgid "Warranty Claim Approved (Admin)"
+msgstr "תביעת אחריות אושרה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:379
+msgid "Warranty Claim Rejected (Admin)"
+msgstr "תביעת אחריות נדחתה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:380
+msgid "Warranty Claim Resolved (Admin)"
+msgstr "תביעת אחריות נפתרה (מנהל)"
+
+#: includes/customizer/customizer-admin.php:456
+msgid "Section Title for Warranty Claim"
+msgstr "כותרת סעיף לתביעת אחריות"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:396
+msgid "Exchange Request Summary"
+msgstr "סיכום בקשת החלפה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:399
+msgid "Original Product"
+msgstr "מוצר מקורי"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:400
+msgid "Requested Exchange"
+msgstr "החלפה מבוקשת"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:652
+msgid "Your exchange request has been completed successfully."
+msgstr "בקשת ההחלפה שלך הושלמה בהצלחה."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:672
+msgid ""
+"Your exchange request has been approved. You may keep the item. Your "
+"replacement will be dispatched automatically."
+msgstr ""
+"בקשת ההחלפה שלך אושרה. תוכל לשמור את הפריט. התחליף שלך יישלח אוטומטית."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:869
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:309
+#: includes/zorem-returns/class-return-common-functions.php:1566
+#: includes/zorem-returns/htmls/returns-center-form.php:233
+#: templates/emails/customer-exchange-approved.php:56
+#: templates/emails/customer-return-approved.php:56
+msgid "Keep Your Item"
+msgstr "שמור את הפריט שלך"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:870
+#: templates/emails/customer-exchange-approved.php:57
+msgid ""
+"No return shipping required. You may keep the item. Your replacement will be"
+" dispatched automatically."
+msgstr "לא נדרש משלוח החזרה. תוכל לשמור את הפריט. התחליף שלך יישלח אוטומטית."
+
+#. translators: %s: attribute label
+#. translators: %s: attribute label, e.g. "Any Size"
+#: includes/zorem-exchanges/class-exchange-common-functions.php:986
+#: includes/zorem-exchanges/class-exchange-product-search.php:136
+#, php-format
+msgid "Any %s"
+msgstr "כל %s"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1209
+msgid "Your Exchange Has Been Completed"
+msgstr "ההחלפה שלך הושלמה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1210
+msgid "Your Exchange Is Complete!"
+msgstr "ההחלפה שלך הושלמה!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1211
+msgid ""
+"Great news! Your exchange request has been completed successfully.<br><br>We"
+" hope you enjoy your new item. Don't hesitate to reach out if you need any "
+"further assistance."
+msgstr ""
+"חדשות נהדרות! בקשת ההחלפה שלך הושלמה בהצלחה.<br><br>אנו מקווים שתהנה מהפריט "
+"החדש שלך. אל תהסס לפנות אלינו אם תצטרך עזרה נוספת."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1212
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1235
+msgid "Exchanged Items"
+msgstr "פריטים שהוחלפו"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1218
+#: includes/zorem-returns/class-return-common-functions.php:1234
+msgid "Phone"
+msgstr "טלפון"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1225
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1226
+msgid "Your Exchange Store Credit Has Been Issued!"
+msgstr "זיכוי החנות שלך עבור החלפה הונפק!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1227
+msgid ""
+"Your exchange has been completed. Since the replacement item costs less than"
+" your original item, store credit has been issued for the difference."
+msgstr ""
+"ההחלפה שלך הושלמה. מכיוון שפריט התחליף עולה פחות מהפריט המקורי שלך, הוצא "
+"זיכוי חנות עבור ההפרש."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1228
+#: includes/zorem-returns/class-return-common-functions.php:1244
+msgid "How to Use Your Store Credit"
+msgstr "כיצד להשתמש בזיכוי החנות שלך"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1229
+#: includes/zorem-returns/class-return-common-functions.php:1245
+msgid ""
+"If you have any questions, feel free to reply to this email. <br><br>Thank "
+"you for shopping with "
+msgstr "אם יש לך שאלות, אל תהסס להשיב לאימייל זה. <br><br>תודה שרכשת ב-"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1234
+msgid ""
+"The exchange for order #{order_number} has been marked as completed. Below "
+"are the details:"
+msgstr "ההחלפה עבור הזמנה #{order_number} סומנה כהושלמה. להלן הפרטים:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1239
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1240
+msgid "Exchange Request Rejected"
+msgstr "בקשת החלפה נדחתה"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1241
+msgid ""
+"The exchange request for order #{order_number} has been rejected by the "
+"admin. Below are the details:"
+msgstr ""
+"בקשת ההחלפה עבור הזמנה #{order_number} נדחתה על ידי המנהל. להלן הפרטים:"
+
+#. translators: 1: Order edit URL, 2: Parent order ID
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1298
+#, php-format
+msgid ""
+"This is an exchange child order for <a href=\"%1$s\"><strong>Order "
+"#%2$d</strong></a>."
+msgstr ""
+"זו הזמנת החלפה משנית עבור <a href=\"%1$s\"><strong>הזמנה #%2$d</strong></a>."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1305
+msgid "Type:"
+msgstr "סוג:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1305
+msgid "Cross-Product Exchange"
+msgstr "החלפה בין מוצרים"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1311
+msgid "Awaiting customer payment"
+msgstr "ממתין לתשלום לקוח"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1312
+msgid "Share this payment link with the customer:"
+msgstr "שתף קישור תשלום זה עם הלקוח:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1317
+msgid "Open Payment Page"
+msgstr "פתח דף תשלום"
+
+#: includes/zorem-exchanges/class-exchange-front.php:399
+#: includes/zorem-exchanges/class-exchange-front.php:472
+msgid "No payment required (Exchange)"
+msgstr "לא נדרש תשלום (החלפה)"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:295
+msgid ""
+"No return shipping required for original item. Customer retains the original"
+" product. Replacement order will be created on approval."
+msgstr ""
+"לא נדרש משלוח החזרה עבור הפריט המקורי. הלקוח שומר על המוצר המקורי. הזמנת "
+"התחליף תיצור בעת האישור."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:368
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:745
+#: includes/zorem-returns/class-return-common-functions.php:262
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:393
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1069
+msgid "Mark as Completed"
+msgstr "סמן כהושלם"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:508
+msgid "Exchange marked completed in Returns Dashboard."
+msgstr "ההחלפה סומנה כהושלמה בלוח הבקרה של החזרות."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:662
+msgid "Cross-Product"
+msgstr "בין מוצרים"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:673
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:678
+msgid "Even"
+msgstr "שווה ערך"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:676
+msgid "Same Variant"
+msgstr "אותה גרסה"
+
+#. translators: %s: Payment URL sent to the customer
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:797
+#, php-format
+msgid "Payment request sent to customer. Payment link: %s"
+msgstr "בקשת תשלום נשלחה ללקוח. קישור תשלום: %s"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:804
+msgid "Payment request sent successfully. Order set to Pending Payment."
+msgstr "בקשת תשלום נשלחה בהצלחה. ההזמנה הוגדרה כממתינה לתשלום."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:269
+msgid "Exchange Credit (Original Item Value)"
+msgstr "זיכוי החלפה (ערך הפריט המקורי)"
+
+#. translators: %1$s: Balance amount (formatted) %2$s: Shop name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:311
+#, php-format
+msgid "Your exchange is on its way — balance of %1$s due | %2$s"
+msgstr "ההחלפה שלך בדרך — יתרה של %1$s לתשלום | %2$s"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:318
+msgid "Your exchange order has been shipped"
+msgstr "הזמנת ההחלפה שלך נשלחה"
+
+#. translators: %1$s: Customer name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:322
+#, php-format
+msgid "Hi <strong>%1$s</strong>,"
+msgstr "לקוח יקר <strong>%1$s</strong>,"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:325
+msgid ""
+"Good news — your exchange item has been approved and will be shipped to you "
+"shortly."
+msgstr "חדשות נהדרות — פריט ההחלפה שלך אושר וישלח אליך בקרוב."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:327
+msgid "Balance due:"
+msgstr "יתרה לתשלום:"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:328
+msgid ""
+"The replacement item costs more than your original item. Please pay the "
+"balance at your convenience using the link below."
+msgstr ""
+"פריט התחליף עולה יותר מהפריט המקורי שלך. אנא שלם את היתרה כשנוח לך דרך "
+"הקישור שלהלן."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:331
+msgid "Pay Balance Now"
+msgstr "שלם יתרה עכשיו"
+
+#. translators: %1$s: Payment link (HTML anchor tag)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:335
+#, php-format
+msgid "Payment link: %1$s"
+msgstr "קישור תשלום: %1$s"
+
+#. translators: %1$s: Balance amount (formatted HTML) %2$s: Customer payment
+#. URL
+#: includes/zorem-exchanges/class-exchange-price-handler.php:349
+#, php-format
+msgid ""
+"Ship first invoice sent to customer. Balance due: %1$s. Payment link: %2$s"
+msgstr "חשבונית שלח-קודם נשלחה ללקוח. יתרה לתשלום: %1$s. קישור תשלום: %2$s"
+
+#. translators: %1$s: Exchange payment amount (plain text, no HTML) %2$s:
+#. Customer payment URL
+#: includes/zorem-exchanges/class-exchange-price-handler.php:370
+#, php-format
+msgid "Exchange payment required: %1$s. Customer payment link: %2$s"
+msgstr "נדרש תשלום עבור החלפה: %1$s. קישור תשלום לקוח: %2$s"
+
+#. translators: %s: Shop name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:395
+#, php-format
+msgid "Payment required for your exchange — %s"
+msgstr "נדרש תשלום עבור ההחלפה שלך — %s"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:400
+msgid "Payment required for your exchange"
+msgstr "נדרש תשלום עבור ההחלפה שלך"
+
+#. translators: %s: Customer name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:403
+#, php-format
+msgid "Hi <strong>%s</strong>,"
+msgstr "לקוח יקר <strong>%s</strong>,"
+
+#. translators: %s: Additional payment amount (formatted HTML)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:408
+#, php-format
+msgid ""
+"Your exchange request has been approved. An additional payment of "
+"<strong>%s</strong> is required to complete your exchange."
+msgstr ""
+"בקשת ההחלפה שלך אושרה. נדרש תשלום נוסף של <strong>%s</strong> להשלמת ההחלפה "
+"שלך."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:414
+msgid "Pay Now"
+msgstr "שלם עכשיו"
+
+#. translators: %s: Payment link (HTML anchor tag)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:418
+#, php-format
+msgid "Or use this link: %s"
+msgstr "או השתמש בקישור זה: %s"
+
+#: includes/zorem-exchanges/class-exchange-product-search.php:149
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#. translators: %1$s: Additional charge amount (plain text, no HTML)
+#: includes/zorem-exchanges/class-exchange-product-search.php:253
+#, php-format
+msgid "You will be charged an additional <strong>%1$s</strong> upon approval."
+msgstr "תחויב נוסף <strong>%1$s</strong> עם האישור."
+
+#. translators: %1$s: Store credit amount (plain text, no HTML)
+#: includes/zorem-exchanges/class-exchange-product-search.php:260
+#, php-format
+msgid "You will receive <strong>%1$s</strong> in store credit."
+msgstr "תקבל <strong>%1$s</strong> בזיכוי חנות."
+
+#: includes/zorem-exchanges/class-exchange-product-search.php:266
+msgid "Even exchange — no additional payment needed."
+msgstr "החלפה שוות ערך — לא נדרש תשלום נוסף."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:214
+msgid "Search for a replacement product"
+msgstr "חפש מוצר תחליף"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:216
+msgid "Type a product name…"
+msgstr "הקלד שם מוצר…"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:237
+msgid "Select variant"
+msgstr "בחר גרסה"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:239
+msgid "— Select a variant —"
+msgstr "— בחר גרסה —"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:310
+msgid ""
+"You will receive your replacement item and you do not need to return your "
+"original product."
+msgstr "תקבל את פריט התחליף שלך ואין צורך להחזיר את המוצר המקורי שלך."
+
+#. translators: %s: site name
+#: includes/zorem-returns/class-fraud-prevention.php:394
+#, php-format
+msgid "[%s] Return limit reached by a customer"
+msgstr "[%s] לקוח הגיע למגבלת ההחזרות"
+
+#: includes/zorem-returns/class-fraud-prevention.php:399
+msgid "A customer has reached the per-customer return limit."
+msgstr "לקוח הגיע למגבלה לפי לקוח."
+
+#: includes/zorem-returns/class-fraud-prevention.php:401
+#, php-format
+msgid "Customer Email: %s"
+msgstr "אימייל לקוח: %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:402
+#, php-format
+msgid "Customer User ID: %s"
+msgstr "מזהה משתמש לקוח: %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:402
+msgid "guest"
+msgstr "אורח"
+
+#: includes/zorem-returns/class-fraud-prevention.php:403
+#, php-format
+msgid "Approved/requested returns within the last %1$d days: %2$d"
+msgstr "החזרות מאושרות/מבוקשות ב-%1$d הימים האחרונים: %2$d"
+
+#: includes/zorem-returns/class-fraud-prevention.php:404
+#, php-format
+msgid "Configured maximum: %d"
+msgstr "מקסימום מוגדר: %d"
+
+#: includes/zorem-returns/class-fraud-prevention.php:405
+#, php-format
+msgid "Latest Order ID: %s"
+msgstr "מזהה הזמנה אחרונה: %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:406
+#, php-format
+msgid "Return Request ID: %s"
+msgstr "מזהה בקשת החזרה: %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:408
+msgid "Review this customer's return history in your Returns Center."
+msgstr "סקור את היסטוריית ההחזרות של לקוח זה במרכז ההחזרות שלך."
+
+#: includes/zorem-returns/class-fraud-prevention.php:424
+#: includes/zorem-returns/class-fraud-prevention.php:519
+msgid "You do not have permission to do this."
+msgstr "אין לך הרשאה לבצע פעולה זו."
+
+#: includes/zorem-returns/class-fraud-prevention.php:429
+msgid "No file received. Please select a CSV or TXT file."
+msgstr "לא התקבל קובץ. אנא בחר קובץ CSV או TXT."
+
+#: includes/zorem-returns/class-fraud-prevention.php:435
+msgid "Upload error. Please try again."
+msgstr "שגיאת העלאה. אנא נסה שוב."
+
+#: includes/zorem-returns/class-fraud-prevention.php:440
+msgid "File too large. Maximum allowed size is 2 MB."
+msgstr "הקובץ גדול מדי. גודל מקסימלי מותר הוא 2 MB."
+
+#: includes/zorem-returns/class-fraud-prevention.php:445
+msgid "Only .csv and .txt files are allowed."
+msgstr "מותרים רק קבצי .csv ו-.txt."
+
+#: includes/zorem-returns/class-fraud-prevention.php:454
+msgid "Unable to read the uploaded file."
+msgstr "לא ניתן לקרוא את הקובץ שהועלה."
+
+#. translators: 1: added, 2: skipped duplicates, 3: rejected lines
+#: includes/zorem-returns/class-fraud-prevention.php:496
+#, php-format
+msgid ""
+"Blocklist updated. Added: %1$d. Skipped (duplicates): %2$d. Rejected "
+"(invalid): %3$d."
+msgstr ""
+"רשימת חסימה עודכנה. נוספו: %1$d. דולגו (כפילויות): %2$d. נדחו (לא חוקיים): "
+"%3$d."
+
+#: includes/zorem-returns/class-fraud-prevention.php:525
+msgid "Please enter a customer email or user ID."
+msgstr "אנא הזן אימייל לקוח או מזהה משתמש."
+
+#: includes/zorem-returns/class-fraud-prevention.php:543
+msgid "Enter a valid email address or numeric user ID."
+msgstr "הזן כתובת אימייל חוקית או מזהה משתמש מספרי."
+
+#: includes/zorem-returns/class-internal-notes.php:168
+msgid "(unknown user)"
+msgstr "(משתמש לא ידוע)"
+
+#. translators: %s: human time difference, e.g. "5 minutes"
+#: includes/zorem-returns/class-internal-notes.php:175
+#, php-format
+msgid "%s ago"
+msgstr "לפני %s"
+
+#: includes/zorem-returns/class-internal-notes.php:199
+msgid "You do not have permission to add notes."
+msgstr "אין לך הרשאה להוסיף הערות."
+
+#: includes/zorem-returns/class-internal-notes.php:209
+msgid "Note cannot be empty."
+msgstr "ההערה אינה יכולה להיות ריקה."
+
+#: includes/zorem-returns/class-internal-notes.php:215
+msgid "Return request not found."
+msgstr "בקשת ההחזרה לא נמצאה."
+
+#: includes/zorem-returns/class-internal-notes.php:220
+msgid "Could not save the note."
+msgstr "לא ניתן לשמור את ההערה."
+
+#: includes/zorem-returns/class-internal-notes.php:249
+#: includes/zorem-warranty/class-warranty.php:564
+#: includes/zorem-warranty/class-warranty.php:687
+msgid "You do not have permission."
+msgstr "אין לך הרשאה."
+
+#: includes/zorem-returns/class-internal-notes.php:256
+msgid "Could not delete note (you may not be the author)."
+msgstr "לא ניתן למחוק את ההערה (ייתכן שאינך המחבר)."
+
+#: includes/zorem-returns/class-internal-notes.php:327
+msgid "A team member"
+msgstr "חבר צוות"
+
+#. translators: 1: author name, 2: request id
+#: includes/zorem-returns/class-internal-notes.php:341
+#, php-format
+msgid "[%1$s] You were mentioned in a note on return request #%2$d"
+msgstr "[%1$s] הוזכרת בהערה על בקשת החזרה #%2$d"
+
+#. translators: %s: Customer display name.
+#: includes/zorem-returns/class-internal-notes.php:347
+#, php-format
+msgid "Hi %s,"
+msgstr "שלום %s,"
+
+#. translators: 1: author name, 2: order id, 3: request id
+#: includes/zorem-returns/class-internal-notes.php:351
+#, php-format
+msgid ""
+"%1$s mentioned you in an internal note on the return request for order #%2$d"
+" (request #%3$d)."
+msgstr ""
+"%1$s הזכיר/ה אותך בהערה פנימית על בקשת החזרה עבור הזמנה #%2$d (בקשה #%3$d)."
+
+#: includes/zorem-returns/class-internal-notes.php:357
+msgid "Open the return request:"
+msgstr "פתח את בקשת ההחזרה:"
+
+#: includes/zorem-returns/class-internal-notes.php:389
+msgid "Internal Admin Notes"
+msgstr "הערות מנהל פנימיות"
+
+#: includes/zorem-returns/class-internal-notes.php:392
+msgid ""
+"Private to your team. Customers never see these. Type @ to mention a "
+"teammate."
+msgstr "פרטיות לצוות שלך. לקוחות לא רואים אותן לעולם. הקלד @ להזכרת עמית."
+
+#: includes/zorem-returns/class-internal-notes.php:397
+msgid "No notes yet."
+msgstr "אין הערות עדיין."
+
+#: includes/zorem-returns/class-internal-notes.php:409
+msgid "Add an internal note…"
+msgstr "הוסף הערה פנימית…"
+
+#: includes/zorem-returns/class-internal-notes.php:413
+msgid "Add Note"
+msgstr "הוסף הערה"
+
+#: includes/zorem-returns/class-internal-notes.php:448
+msgid "Delete this note"
+msgstr "מחק הערה זו"
+
+#: includes/zorem-returns/class-restocking-fee.php:337
+msgid "Override the global restocking fee for this product, or exempt it."
+msgstr "עקוף את עמלת מילוי המחדש הגלובלית עבור מוצר זה או פטור אותו."
+
+#: includes/zorem-returns/class-restocking-fee.php:341
+#: includes/zorem-returns/class-restocking-fee.php:425
+#: includes/zorem-returns/class-restocking-fee.php:456
+msgid "Use global setting"
+msgstr "השתמש בהגדרה הגלובלית"
+
+#: includes/zorem-returns/class-restocking-fee.php:342
+#: includes/zorem-returns/class-restocking-fee.php:426
+#: includes/zorem-returns/class-restocking-fee.php:457
+msgid "Override (custom amount)"
+msgstr "עקוף (סכום מותאם אישית)"
+
+#: includes/zorem-returns/class-restocking-fee.php:343
+#: includes/zorem-returns/class-restocking-fee.php:427
+#: includes/zorem-returns/class-restocking-fee.php:458
+msgid "Exempt (no fee)"
+msgstr "פטור (ללא עמלה)"
+
+#: includes/zorem-returns/class-restocking-fee.php:351
+#: includes/zorem-returns/class-restocking-fee.php:432
+#: includes/zorem-returns/class-restocking-fee.php:464
+msgid "Fee Type"
+msgstr "סוג עמלה"
+
+#: includes/zorem-returns/class-restocking-fee.php:364
+#: includes/zorem-returns/class-restocking-fee.php:439
+#: includes/zorem-returns/class-restocking-fee.php:473
+msgid "Fee Amount"
+msgstr "סכום עמלה"
+
+#: includes/zorem-returns/class-restocking-fee.php:429
+#: includes/zorem-returns/class-restocking-fee.php:460
+msgid "Override the global restocking fee for products in this category."
+msgstr "עקוף את עמלת מילוי המחדש הגלובלית עבור מוצרים בקטגוריה זו."
+
+#: includes/zorem-returns/class-return-common-functions.php:207
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:312
+msgid "Selected Resolution:"
+msgstr "פתרון שנבחר:"
+
+#: includes/zorem-returns/class-return-common-functions.php:209
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:314
+msgid ""
+"Customer keeps the item. Process the partial refund manually from the "
+"WooCommerce Edit Order page — the plugin does not issue it automatically."
+msgstr ""
+"הלקוח שומר את הפריט. עבד את ההחזר הכספי החלקי ידנית מדף עריכת הזמנה "
+"ב-WooCommerce — התוסף אינו מנפיק אותו אוטומטית."
+
+#: includes/zorem-returns/class-return-common-functions.php:243
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:356
+msgid ""
+"Edit the restocking fee before approving the request. Leave 0 to refund the "
+"full amount."
+msgstr "ערוך את עמלת מילוי המחדש לפני אישור הבקשה. השאר 0 להחזר כספי מלא."
+
+#. translators: %s: order number
+#: includes/zorem-returns/class-return-common-functions.php:541
+#, php-format
+msgid "Wallet refund for return request on order #%s"
+msgstr "החזר כספי לארנק עבור בקשת החזרה להזמנה #%s"
+
+#. translators: 1: fee label, 2: fee amount
+#: includes/zorem-returns/class-return-common-functions.php:552
+#: includes/zorem-returns/class-return-common-functions.php:642
+#, php-format
+msgid "(%1$s deducted: %2$s)"
+msgstr "(%1$s הופחתו: %2$s)"
+
+#. translators: %1$s: refund amount, %2$s: order number
+#: includes/zorem-returns/class-return-common-functions.php:560
+#, php-format
+msgid "Refund of %1$s credited to customer wallet for return request #%2$s."
+msgstr "החזר כספי של %1$s זוכה לארנק הלקוח עבור בקשת החזרה #%2$s."
+
+#: includes/zorem-returns/class-return-common-functions.php:629
+msgid "Keep the Item — refund for return request"
+msgstr "שמור פריט — החזר כספי עבור בקשת החזרה"
+
+#. translators: %1$s: refund amount, %2$s: request ID
+#: includes/zorem-returns/class-return-common-functions.php:650
+#, php-format
+msgid ""
+"Keep the Item — refund of %1$s processed automatically for return request "
+"#%2$s. Customer retains the item."
+msgstr ""
+"שמור פריט — החזר כספי של %1$s עובד אוטומטית עבור בקשת החזרה #%2$s. הלקוח "
+"שומר את הפריט."
+
+#: includes/zorem-returns/class-return-common-functions.php:736
+msgid "Select…"
+msgstr "בחר…"
+
+#: includes/zorem-returns/class-return-common-functions.php:795
+msgid "Add"
+msgstr "הוסף"
+
+#: includes/zorem-returns/class-return-common-functions.php:962
+msgid ""
+"Returns and exchanges are not available for this payment method. Please "
+"contact us directly."
+msgstr "החזרות וחילופין אינם זמינים לשיטת תשלום זו. אנא צור קשר ישירות."
+
+#: includes/zorem-returns/class-return-common-functions.php:1225
+msgid "Your Return Has Been Completed"
+msgstr "ההחזרה שלך הושלמה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1226
+msgid "Your Return Has Been Completed!"
+msgstr "ההחזרה שלך הושלמה!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1227
+msgid ""
+"We are pleased to inform you that your return has been completed. The "
+"returned items have been received and verified. Your refund has been "
+"processed accordingly."
+msgstr ""
+"אנו שמחים לעדכן אותך שההחזרה שלך הושלמה. הפריטים שהוחזרו התקבלו ואומתו. "
+"ההחזר הכספי שלך עובד בהתאם."
+
+#: includes/zorem-returns/class-return-common-functions.php:1229
+msgid "Thank you for your patience."
+msgstr "תודה על סבלנותך."
+
+#: includes/zorem-returns/class-return-common-functions.php:1243
+msgid ""
+"We’re happy to let you know that your return has been completed and your "
+"refund has been issued as store credit for your convenience."
+msgstr ""
+"אנו שמחים לספר לך שההחזרה שלך הושלמה וההחזר הכספי שלך הונפק כזיכוי חנות "
+"לנוחיותך."
+
+#: includes/zorem-returns/class-return-common-functions.php:1250
+msgid ""
+"The return for order #{order_number} has been marked as completed. Below are"
+" the details:"
+msgstr "ההחזרה עבור הזמנה #{order_number} סומנה כהושלמה. להלן הפרטים:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1255
+#: includes/zorem-returns/class-return-common-functions.php:1256
+msgid "Return Request Rejected"
+msgstr "בקשת החזרה נדחתה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1257
+msgid ""
+"The return request for order #{order_number} has been rejected by the admin."
+" Below are the details:"
+msgstr ""
+"בקשת ההחזרה עבור הזמנה #{order_number} נדחתה על ידי המנהל. להלן הפרטים:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1438
+#: includes/zorem-returns/class-return-front.php:357
+msgid ""
+"Your return has been completed. The returned items have been received and "
+"restocked. Your refund has been processed."
+msgstr ""
+"ההחזרה שלך הושלמה. הפריטים שהוחזרו התקבלו ואוחסנו מחדש. ההחזר הכספי שלך "
+"עובד."
+
+#: includes/zorem-returns/class-return-common-functions.php:1458
+#: includes/zorem-returns/class-return-front.php:378
+msgid ""
+"Your return request has been approved. You may keep the item. Your refund "
+"will be processed automatically."
+msgstr ""
+"בקשת ההחזרה שלך אושרה. תוכל לשמור את הפריט. ההחזר הכספי שלך יעובד אוטומטית."
+
+#: includes/zorem-returns/class-return-common-functions.php:1567
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:277
+#: includes/zorem-returns/htmls/returns-center-form.php:234
+msgid ""
+"No return shipping required. Customer retains the product. Refund will be "
+"processed automatically on approval."
+msgstr ""
+"לא נדרש משלוח החזרה. הלקוח שומר את המוצר. ההחזר הכספי יעובד אוטומטית עם "
+"האישור."
+
+#: includes/zorem-returns/class-return-common-functions.php:1589
+#: templates/emails/customer-return-approved.php:70
+msgid "Return Shipping Label"
+msgstr "תווית משלוח החזרה"
+
+#: includes/zorem-returns/class-return-common-functions.php:1590
+msgid ""
+"A return shipping label has been provided. Please download, print, and "
+"attach it to your return package."
+msgstr "סופקה תווית משלוח החזרה. אנא הורד, הדפס והצמד לחבילת ההחזרה שלך."
+
+#: includes/zorem-returns/class-return-common-functions.php:1594
+msgid "Download Return Shipping Label"
+msgstr "הורד תווית משלוח החזרה"
+
+#: includes/zorem-returns/class-return-front.php:706
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1215
+msgid "Security check failed."
+msgstr "בדיקת האבטחה נכשלה."
+
+#: includes/zorem-returns/class-return-front.php:711
+#: includes/zorem-warranty/class-warranty.php:696
+msgid "Invalid request."
+msgstr "בקשה לא חוקית."
+
+#: includes/zorem-returns/class-return-front.php:716
+msgid "No return label found."
+msgstr "לא נמצאה תווית החזרה."
+
+#: includes/zorem-returns/class-return-front.php:728
+msgid "You do not have permission to access this file."
+msgstr "אין לך הרשאה לגשת לקובץ זה."
+
+#: includes/zorem-returns/class-return-front.php:740
+msgid "Invalid file name."
+msgstr "שם קובץ לא חוקי."
+
+#: includes/zorem-returns/class-return-front.php:749
+msgid "Invalid file path."
+msgstr "נתיב קובץ לא חוקי."
+
+#: includes/zorem-returns/class-return-front.php:753
+msgid "File not found."
+msgstr "הקובץ לא נמצא."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:365
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:376
+msgid "Attach Return Shipping Label (PDF)"
+msgstr "צרף תווית משלוח החזרה (PDF)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:367
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:378
+msgid ""
+"Upload a return shipping label PDF (max 10MB). The customer will be able to "
+"download this."
+msgstr "העלה תווית משלוח החזרה כ-PDF (מקס. 10 MB). הלקוח יוכל להוריד אותה."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:391
+msgid "Return shipping label attached."
+msgstr "תווית משלוח החזרה צורפה."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:391
+msgid "View PDF"
+msgstr "הצג PDF"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1219
+msgid "Permission denied."
+msgstr "גישה נדחתה."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1224
+msgid "Invalid request ID."
+msgstr "מזהה בקשה לא חוקי."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1229
+msgid ""
+"Failed to upload PDF. Please ensure the file is a valid PDF under 10MB."
+msgstr "העלאת ה-PDF נכשלה. ודא שהקובץ הוא PDF חוקי מתחת ל-10 MB."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1237
+msgid "Return shipping label uploaded successfully."
+msgstr "תווית משלוח החזרה הועלתה בהצלחה."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:242
+msgid "Refund Summary"
+msgstr "סיכום החזר כספי"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:244
+msgid "Items refund"
+msgstr "החזר כספי על פריט"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:252
+msgid "Estimated refund"
+msgstr "החזר כספי משוער"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:255
+msgid "Final refund amount may be adjusted by the store before approval."
+msgstr "סכום ההחזר הכספי הסופי יכול להיות מותאם על ידי החנות לפני האישור."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:280
+msgid "Refund to Wallet"
+msgstr "החזר כספי לארנק"
+
+#: includes/zorem-warranty/class-warranty.php:184
+msgid "Repair"
+msgstr "תיקון"
+
+#: includes/zorem-warranty/class-warranty.php:185
+msgid "Replacement Product"
+msgstr "מוצר תחליף"
+
+#: includes/zorem-warranty/class-warranty.php:186
+msgid "Partial Refund"
+msgstr "החזר כספי חלקי"
+
+#: includes/zorem-warranty/class-warranty.php:193
+msgid "Under Review"
+msgstr "בבדיקה"
+
+#: includes/zorem-warranty/class-warranty.php:194
+msgid "Approved"
+msgstr "מאושר"
+
+#: includes/zorem-warranty/class-warranty.php:195
+msgid "Rejected"
+msgstr "נדחה"
+
+#: includes/zorem-warranty/class-warranty.php:196
+msgid "Resolved"
+msgstr "נפתר"
+
+#: includes/zorem-warranty/class-warranty.php:319
+#: includes/zorem-warranty/class-warranty.php:352
+#: includes/zorem-warranty/class-warranty.php:363
+msgid "Warranty Period (Days)"
+msgstr "תקופת אחריות (ימים)"
+
+#: includes/zorem-warranty/class-warranty.php:320
+msgid ""
+"Days the warranty is valid from the order completion date. Leave blank or 0 "
+"to use the category / global default. Enter -1 to explicitly disable "
+"warranty for this product."
+msgstr ""
+"ימים שהאחריות בתוקף מתאריך השלמת ההזמנה. השאר ריק או 0 לשימוש בברירת מחדל של"
+" קטגוריה/גלובלי. הזן -1 להשבתת אחריות מפורשת עבור מוצר זה."
+
+#: includes/zorem-warranty/class-warranty.php:354
+#: includes/zorem-warranty/class-warranty.php:366
+msgid ""
+"Default warranty days for products in this category. Leave blank or 0 to "
+"inherit the global default. Enter -1 to disable warranty for this category."
+msgstr ""
+"ימי אחריות ברירת מחדל עבור מוצרים בקטגוריה זו. השאר ריק או 0 לירושת ברירת "
+"מחדל גלובלית. הזן -1 להשבתת אחריות עבור קטגוריה זו."
+
+#: includes/zorem-warranty/class-warranty.php:442
+#: templates/emails/_warranty-email-body.php:87
+msgid "Resolution"
+msgstr "פתרון"
+
+#: includes/zorem-warranty/class-warranty.php:457
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:17
+msgid "Submit Warranty Claim"
+msgstr "הגש תביעת אחריות"
+
+#: includes/zorem-warranty/class-warranty.php:459
+msgid ""
+"All eligible items for this order have an active warranty claim. Contact "
+"support if you need to file again."
+msgstr ""
+"לכל הפריטים הזכאים להזמנה זו יש תביעת אחריות פעילה. צור קשר עם התמיכה אם "
+"עליך להגיש מחדש."
+
+#: includes/zorem-warranty/class-warranty.php:477
+msgid "You do not have permission to view this order."
+msgstr "אין לך הרשאה לצפות בהזמנה זו."
+
+#: includes/zorem-warranty/class-warranty.php:483
+msgid "No items in this order are eligible for a warranty claim."
+msgstr "אין פריטים בהזמנה זו הזכאים לתביעת אחריות."
+
+#: includes/zorem-warranty/class-warranty.php:567
+msgid "Please choose a reason and describe the issue."
+msgstr "אנא בחר סיבה ותאר את הבעיה."
+
+#: includes/zorem-warranty/class-warranty.php:574
+msgid "This item is no longer covered by warranty."
+msgstr "פריט זה אינו מכוסה עוד על ידי אחריות."
+
+#: includes/zorem-warranty/class-warranty.php:614
+msgid "Could not save the claim."
+msgstr "לא ניתן לשמור את התביעה."
+
+#: includes/zorem-warranty/class-warranty.php:622
+msgid "Warranty claim submitted. We will review and contact you shortly."
+msgstr "תביעת האחריות הוגשה. נבדוק ונצור קשר בקרוב."
+
+#: includes/zorem-warranty/class-warranty.php:647
+msgid "Only image files (jpg, png, gif, webp) are allowed."
+msgstr "מותרים רק קבצי תמונה (jpg, png, gif, webp)."
+
+#: includes/zorem-warranty/class-warranty.php:650
+msgid "Each file must be under 5 MB."
+msgstr "כל קובץ חייב להיות קטן מ-5 MB."
+
+#: includes/zorem-warranty/class-warranty.php:700
+msgid "Claim not found."
+msgstr "התביעה לא נמצאה."
+
+#: includes/zorem-warranty/class-warranty.php:712
+msgid "Please choose a resolution type before resolving."
+msgstr "אנא בחר סוג פתרון לפני הפתרון."
+
+#. translators: %s: new status label
+#: includes/zorem-warranty/class-warranty.php:731
+#, php-format
+msgid "Claim updated to: %s."
+msgstr "התביעה עודכנה ל: %s."
+
+#: includes/zorem-warranty/class-warranty.php:758
+#: includes/zorem-warranty/class-warranty.php:759
+msgid "Your Warranty Claim Has Been Received"
+msgstr "תביעת האחריות שלך התקבלה"
+
+#: includes/zorem-warranty/class-warranty.php:760
+msgid ""
+"Thank you for submitting your warranty claim. Our team will review your "
+"request and get back to you shortly."
+msgstr ""
+"תודה על הגשת תביעת האחריות שלך. הצוות שלנו יבדוק את בקשתך ויצור קשר בקרוב."
+
+#: includes/zorem-warranty/class-warranty.php:761
+#: includes/zorem-warranty/class-warranty.php:768
+#: includes/zorem-warranty/class-warranty.php:782
+#: includes/zorem-warranty/class-warranty.php:797
+#: includes/zorem-warranty/class-warranty.php:804
+#: includes/zorem-warranty/class-warranty.php:818
+msgid "Warranty Claim Details"
+msgstr "פרטי תביעת אחריות"
+
+#: includes/zorem-warranty/class-warranty.php:765
+#: includes/zorem-warranty/class-warranty.php:766
+msgid "Your Warranty Claim Is Under Review"
+msgstr "תביעת האחריות שלך בבדיקה"
+
+#: includes/zorem-warranty/class-warranty.php:767
+msgid ""
+"We are currently reviewing your warranty claim. We will contact you as soon "
+"as we have an update."
+msgstr "אנו בודקים כעת את תביעת האחריות שלך. ניצור קשר ברגע שיהיה לנו עדכון."
+
+#: includes/zorem-warranty/class-warranty.php:769
+msgid "Thank you for your patience"
+msgstr "תודה על סבלנותך"
+
+#: includes/zorem-warranty/class-warranty.php:772
+msgid "Your Warranty Claim Has Been Approved"
+msgstr "תביעת האחריות שלך אושרה"
+
+#: includes/zorem-warranty/class-warranty.php:774
+msgid ""
+"Good news — your warranty claim has been approved. We will follow up shortly"
+" with next steps."
+msgstr ""
+"חדשות נהדרות — תביעת האחריות שלך אושרה. נעדכן אותך בקרוב עם השלבים הבאים."
+
+#: includes/zorem-warranty/class-warranty.php:775
+#: includes/zorem-warranty/class-warranty.php:811
+msgid "Approved Warranty Claim"
+msgstr "תביעת אחריות מאושרת"
+
+#: includes/zorem-warranty/class-warranty.php:779
+msgid "Update On Your Warranty Claim"
+msgstr "עדכון על תביעת האחריות שלך"
+
+#: includes/zorem-warranty/class-warranty.php:781
+msgid ""
+"We are sorry to inform you that your warranty claim was not approved. Please"
+" see the note below for more information, and feel free to reply with any "
+"questions."
+msgstr ""
+"אנו מצטערים להודיע לך שתביעת האחריות שלך לא אושרה. אנא עיין בהערה שלהלן "
+"למידע נוסף ואל תהסס להשיב עם שאלות."
+
+#: includes/zorem-warranty/class-warranty.php:786
+msgid "Your Warranty Claim Has Been Resolved"
+msgstr "תביעת האחריות שלך נפתרה"
+
+#: includes/zorem-warranty/class-warranty.php:788
+msgid ""
+"Your warranty claim has been resolved. Thank you for giving us the "
+"opportunity to make it right."
+msgstr "תביעת האחריות שלך נפתרה. תודה שנתת לנו את ההזדמנות לתקן."
+
+#: includes/zorem-warranty/class-warranty.php:789
+#: includes/zorem-warranty/class-warranty.php:825
+msgid "Resolved Warranty Claim"
+msgstr "תביעת אחריות שנפתרה"
+
+#: includes/zorem-warranty/class-warranty.php:794
+msgid "New Warranty Claim Received"
+msgstr "התקבלה תביעת אחריות חדשה"
+
+#: includes/zorem-warranty/class-warranty.php:795
+msgid "A New Warranty Claim Has Been Submitted"
+msgstr "הוגשה תביעת אחריות חדשה"
+
+#: includes/zorem-warranty/class-warranty.php:796
+msgid "A new warranty claim has just been submitted:"
+msgstr "תביעת אחריות חדשה הוגשה זה עתה:"
+
+#: includes/zorem-warranty/class-warranty.php:798
+msgid "Open the Warranty Claims dashboard to review and update the claim."
+msgstr "פתח את לוח הבקרה של תביעות האחריות לבדיקה ועדכון התביעה."
+
+#: includes/zorem-warranty/class-warranty.php:801
+msgid "Warranty Claim Moved To Under Review"
+msgstr "תביעת האחריות הועברה לבבדיקה"
+
+#: includes/zorem-warranty/class-warranty.php:803
+msgid "The following warranty claim has been moved to \"Under Review\":"
+msgstr "תביעת האחריות הבאה הועברה לבבדיקה:"
+
+#: includes/zorem-warranty/class-warranty.php:805
+msgid "Open the Warranty Claims dashboard to take the next step."
+msgstr "פתח את לוח הבקרה של תביעות האחריות לצעד הבא."
+
+#: includes/zorem-warranty/class-warranty.php:810
+msgid "The following warranty claim has been approved:"
+msgstr "תביעת האחריות הבאה אושרה:"
+
+#: includes/zorem-warranty/class-warranty.php:812
+msgid "Open the Warranty Claims dashboard to complete the resolution."
+msgstr "פתח את לוח הבקרה של תביעות האחריות להשלמת הפתרון."
+
+#: includes/zorem-warranty/class-warranty.php:817
+msgid "The following warranty claim has been rejected:"
+msgstr "תביעת האחריות הבאה נדחתה:"
+
+#: includes/zorem-warranty/class-warranty.php:819
+msgid "Open the Warranty Claims dashboard if you need to revisit this claim."
+msgstr "פתח את לוח הבקרה של תביעות האחריות אם עליך לסקור תביעה זו."
+
+#: includes/zorem-warranty/class-warranty.php:824
+msgid "The following warranty claim has been marked as resolved:"
+msgstr "תביעת האחריות הבאה סומנה כנפתרה:"
+
+#: includes/zorem-warranty/class-warranty.php:826
+msgid "No further action is required."
+msgstr "לא נדרשת פעולה נוספת."
+
+#. translators: %d: order number
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:22
+#, php-format
+msgid ""
+"For order #%d. Please choose the item, tell us what went wrong, and upload "
+"any helpful photos. We will review and contact you within a few business "
+"days."
+msgstr ""
+"עבור הזמנה #%d. אנא בחר את הפריט, ספר לנו מה השתבש והעלה תמונות מועילות. "
+"נבדוק ונצור קשר תוך ימי עבודה מספר."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:34
+msgid "Item"
+msgstr "פריט"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:36
+msgid "Select an item…"
+msgstr "בחר פריט…"
+
+#. translators: 1: product name, 2: days remaining
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:42
+#, php-format
+msgid "%1$s — %2$d days left on warranty"
+msgstr "%1$s — %2$d ימי אחריות שנותרו"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:55
+msgid "Select a reason…"
+msgstr "בחר סיבה…"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:63
+msgid "Describe the problem"
+msgstr "תאר את הבעיה"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:64
+msgid "Tell us what happened, when it started, what you have tried, etc."
+msgstr "ספר לנו מה קרה, מתי התחיל, מה ניסית וכו'."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:68
+msgid "Photos (optional)"
+msgstr "תמונות (אופציונלי)"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:70
+msgid "JPG, PNG, GIF or WEBP. Max 5 MB each."
+msgstr "JPG, PNG, GIF או WEBP. מקס. 5 MB כל אחת."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:74
+msgid "Submit Claim"
+msgstr "הגש תביעה"
+
+#: templates/emails/admin-exchange-rejected.php:69
+#: templates/emails/admin-return-rejected.php:70
+msgid "Rejection Note:"
+msgstr "הערת דחייה:"
+
+#: templates/emails/customer-exchange-completed.php:39
+msgid "Exchange Note:"
+msgstr "הערת החלפה:"
+
+#: templates/emails/customer-exchange-store-credit.php:44
+msgid "Coupon Code"
+msgstr "קוד קופון"
+
+#: templates/emails/customer-exchange-store-credit.php:48
+msgid "Credit Amount"
+msgstr "סכום זיכוי"
+
+#: templates/emails/customer-exchange-store-credit.php:59
+#: templates/emails/customer-return-store-credit.php:59
+msgid "Browse and add your favourite products to the cart."
+msgstr "עיין והוסף את המוצרים האהובים עליך לסל."
+
+#. translators: %s: Coupon code.
+#: templates/emails/customer-exchange-store-credit.php:64
+#: templates/emails/customer-return-store-credit.php:64
+#, php-format
+msgid "At checkout, enter the coupon code %s."
+msgstr "בעת התשלום, הזן את קוד הקופון %s."
+
+#: templates/emails/customer-return-approved.php:57
+msgid ""
+"No return shipping required. You may keep the item. Your refund will be "
+"processed automatically."
+msgstr ""
+"לא נדרש משלוח החזרה. תוכל לשמור את הפריט. ההחזר הכספי שלך יעובד אוטומטית."
+
+#: templates/emails/customer-return-approved.php:71
+msgid ""
+"A return shipping label (PDF) is attached to this email. Please download, "
+"print, and paste it on your return package."
+msgstr ""
+"תווית משלוח החזרה (PDF) מצורפת לאימייל זה. אנא הורד, הדפס והדבק על חבילת "
+"ההחזרה שלך."
+
+#: templates/emails/customer-return-completed.php:35
+msgid "Return Note:"
+msgstr "הערת החזרה:"
+
+#: templates/emails/customer-return-store-credit.php:42
+msgid "Your Store Credit Coupon Code:"
+msgstr "קוד קופון זיכוי החנות שלך:"
+
+#: templates/emails/_warranty-email-body.php:31
+msgid ""
+"The product stopped working two months after delivery. Please advise on next"
+" steps."
+msgstr "המוצר הפסיק לעבוד חודשיים לאחר המסירה. אנא ייעץ לגבי השלבים הבאים."
+
+#: templates/emails/_warranty-email-body.php:40
+msgid "Sample Product"
+msgstr "מוצר לדוגמה"
+
+#: templates/emails/_warranty-email-body.php:68
+msgid "Claim ID"
+msgstr "מזהה תביעה"
+
+#: templates/emails/_warranty-email-body.php:84
+msgid "Customer Description"
+msgstr "תיאור לקוח"
+
+#: templates/emails/_warranty-email-body.php:90
+msgid "Resolution Note"
+msgstr "הערת פתרון"
+
+#: templates/emails/_warranty-email-body.php:97
+msgid "Open Warranty Claims Dashboard"
+msgstr "פתח את לוח הבקרה של תביעות האחריות"
+
+#: includes/class-return-exchange-admin.php:500
+msgid ""
+"Enable this option to automatically restock items when a return or exchange "
+"is approved."
+msgstr "הפעל אפשרות זו כדי לחדש מלאי אוטומטית כאשר החזרה או החלפה מאושרת."
+
+#: includes/zorem-returns/class-return-common-functions.php:427
+msgid "Products"
+msgstr "מוצרים"
+
+#: includes/class-return-exchange-admin.php:496
+msgid "Restock Approved Returns and Exchanges"
+msgstr "חדש מלאי עבור החזרות והחלפות מאושרות"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:980
+msgid ""
+"This is an exchange order for <a href=\"%1$s\"><strong>Order "
+"#%2$d</strong></a>."
+msgstr "זו הזמנת החלפה עבור <a href=\"%1$s\"><strong>הזמנה #%2$d</strong></a>."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:985
+msgid "This is not an exchange order (no parent found)."
+msgstr "זו אינה הזמנת החלפה (לא נמצאה הזמנת אב)."
+
+#: includes/admin-html/header.php:22
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+msgid ""
+"Your customer can request for Returns form My account > Orders. If you are "
+"selling a virtual product and you payment getway support for automatic "
+"return & exchange so your custmer get instant return & exchange."
+msgstr ""
+"הלקוח שלך יכול לבקש החזרה מהחשבון שלי > הזמנות. אם אתה מוכר מוצר וירטואלי "
+"ושער התשלום שלך תומך בהחזרות וחילופין אוטומטיים, הלקוח שלך יקבל החזרה וחילוף"
+" מיידיים."
+
+#~ msgid ""
+#~ "Enable this option to automatically restock items when a return or exchange "
+#~ "is approved."
+#~ msgstr ""
+#~ "הפעל אפשרות זו כדי לחדש את מלאי הפריטים באופן אוטומטי לאחר אישור החזרה או "
+#~ "החלפה."
+
+#~ msgid "Products"
+#~ msgstr "מוצרים"
+
+#~ msgid "Restock Approved Returns and Exchanges"
+#~ msgstr "החזרות והחלפות שאושרו לחידוש מלאי"
+
+#, php-format
+#~ msgid ""
+#~ "This is an exchange order for <a href=\"%1$s\"><strong>Order "
+#~ "#%2$d</strong></a>."
+#~ msgstr ""
+#~ "זוהי הזמנת החלפה עבור <a href=\"%1$s\"><strong>הזמנה מספר %2$d</strong></a> "
+#~ "."
+
+#~ msgid "This is not an exchange order (no parent found)."
+#~ msgstr "זו אינה הזמנת החלפה (לא נמצאה הוראת אב)."
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid ""
+#~ "Your customer can request for Returns form My account > Orders. If you are "
+#~ "selling a virtual product and you payment getway support for automatic "
+#~ "return & exchange so your custmer get instant return & exchange."
+#~ msgstr ""
+#~ "הלקוח שלך יכול לבקש החזרות בטופס החשבון שלי > הזמנות. אם אתה מוכר מוצר "
+#~ "וירטואלי ואתה מקבל תמיכה בתשלום עבור החזרה והחלפה אוטומטית כך שהלקוח שלך "
+#~ "יקבל החזר והחלפה מיידיות."
+
+msgid "Email Address"
+msgstr "כתובת אימייל"
+
+msgid "Order ID"
+msgstr "מזהה הזמנה"
+
+msgid "Find My Order"
+msgstr "מציאת ההזמנה שלי"
+
+msgid "Return Portal"
+msgstr "פורטל החזרות"
+
+msgid "Let's track your order first"
+msgstr "בואו נאתר תחילה את ההזמנה שלך"
+
+msgid "This order number does not exist."
+msgstr "מספר הזמנה זה אינו קיים."
+
+msgid "This email address does not match the order number."
+msgstr "כתובת אימייל זו אינה תואמת את מספר ההזמנה."
+
+msgid "This order is not eligible for return and exchange."
+msgstr "הזמנה זו אינה זכאית להחזרה והחלפה."
+
+msgid "A return or exchange has already been requested for this order."
+msgstr "כבר הוגשה בקשת החזרה או החלפה עבור הזמנה זו."
+
+msgid "Invalid file type. Allowed types: %s"
+msgstr "סוג קובץ לא חוקי. סוגים מותרים: %s"
+
+msgid "File size exceeds the allowed limit (5 MB)"
+msgstr "גודל הקובץ חורג מהמגבלה המותרת (5 MB)"

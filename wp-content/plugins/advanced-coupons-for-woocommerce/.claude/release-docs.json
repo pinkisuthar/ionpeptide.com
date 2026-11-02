@@ -1,0 +1,109 @@
+{
+  "_comment": "Maps changed-file globs to documentation sections under docs/. Used by /release-docs.",
+  "docs_root": "docs/",
+  "sections": {
+    "rest-api": [
+      "Models/REST_API/**/*.php",
+      "packages/**/api/**/*.{ts,tsx,js}"
+    ],
+    "bogo-deals": [
+      "Models/BOGO/**/*.php"
+    ],
+    "cart-conditions": [
+      "Models/Cart_Conditions.php",
+      "Models/Cart_Conditions/**/*.php"
+    ],
+    "store-credits": [
+      "Models/Store_Credits.php",
+      "Models/Store_Credits/**/*.php"
+    ],
+    "reports": [
+      "Models/ACFW_Reports.php",
+      "Models/Reports/**/*.php"
+    ],
+    "coupon-restrictions": [
+      "Models/Allowed_Coupons.php",
+      "Models/Allowed_Customers.php",
+      "Models/Disallowed_Customers.php",
+      "Models/Disallowed_Emails.php",
+      "Models/Exclude_Coupons.php",
+      "Models/Mutually_Exclusive.php",
+      "Models/Payment_Methods_Restrict.php",
+      "Models/Usage_Limits.php"
+    ],
+    "application-engine": [
+      "Models/Apply_Notification.php",
+      "Models/Auto_Apply.php",
+      "Models/Force_Apply.php",
+      "Models/Defer_URL_Coupon.php",
+      "Models/Scheduler.php"
+    ],
+    "features": [
+      "Models/Add_Products.php",
+      "Models/Cashback_Coupon.php",
+      "Models/Coupon_Card.php",
+      "Models/Coupon_Label.php",
+      "Models/Coupon_Generator_Template_Manager.php",
+      "Models/Coupon_Tab.php",
+      "Models/Edit_Coupon.php",
+      "Models/Editor_Blocks.php",
+      "Models/Feature_Custom_Taxonomy.php",
+      "Models/Order_Pay.php",
+      "Models/Percent_Discount_Cap.php",
+      "Models/Product_Attributes.php",
+      "Models/Shipping_Overrides.php",
+      "Models/Sort_Coupons.php",
+      "Models/Objects/**/*.php",
+      "Models/Virtual_Coupon/**/*.php",
+      "Models/Third_Party_Integrations/**/*.php",
+      "Abstracts/**/*.php",
+      "Helpers/**/*.php",
+      "Traits/**/*.php",
+      "packages/acfwp-cart/**/*.{ts,tsx,js,jsx}",
+      "packages/acfwp-cart-block/**/*.{ts,tsx,js,jsx}",
+      "packages/acfwp-checkout-block/**/*.{ts,tsx,js,jsx}",
+      "packages/acfwp-edit-advanced-coupon/**/*.{ts,tsx,js,jsx}",
+      "packages/acfwp-edit-coupon-app/**/*.{ts,tsx,js,jsx}",
+      "packages/acfwp-order-pay/**/*.{ts,tsx,js,jsx}"
+    ]
+  },
+  "ignore": [
+    "tests/**",
+    "dist/**",
+    "node_modules/**",
+    "languages/**",
+    "logs/**",
+    "Legacy/**",
+    "images/**",
+    "views/**",
+    "templates/**",
+    "js/**",
+    "**/*.scss",
+    "**/*.css",
+    "Models/Bootstrap.php",
+    "Models/Script_Loader.php",
+    "Models/Module_Settings.php",
+    "Models/Notices.php",
+    "packages/acfwp-admin-app/**",
+    "packages/acfwp-license/**",
+    "packages/acfwp-mu-license/**",
+    "packages/acfwp-license-reminder/**",
+    "packages/shared/**",
+    "packages/hmr.txt",
+    "advanced-coupons-for-woocommerce.php",
+    "uninstall.php",
+    "index.php",
+    "vite.config.ts",
+    "*.md",
+    "*.lock",
+    "*.json",
+    "package.json",
+    "pnpm-lock.yaml",
+    "composer.lock",
+    "phpcs.xml",
+    ".gitattributes",
+    ".github/**"
+  ],
+  "branch_template": "docs/release-{tag}",
+  "commit_message_template": "Docs: Update documentation for {tag}\n\nRegenerated docs for sections affected by changes since {prev_tag}:\n{sections}"
+}

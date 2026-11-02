@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "WebFetch(domain:developer.woocommerce.com)",
+      "Bash(php -l includes/class-wc-gateway-sstg-payments.php)",
+      "Read(//Users/fahadyousaf/Sites/localhost/mpos/**)"
+    ]
+  }
+}

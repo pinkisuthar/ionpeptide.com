@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "extension/nmi-gateway-2",
+	"version": "1.0.0",
+	"title": "NMI Gateway 2 for WooCommerce",
+	"category": "widgets",
+	"textdomain": "wc-nmi2",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

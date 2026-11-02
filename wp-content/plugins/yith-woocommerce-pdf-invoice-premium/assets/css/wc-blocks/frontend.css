@@ -1,0 +1,122 @@
+.ywpi__fields-wrapper.ywpi__fields-wrapper-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 16px;
+    justify-content: space-between;
+}
+.ywpi__fields-wrapper.ywpi__fields-wrapper-inline .wc-block-components-pdf-invoices__text-field-with-error {
+    box-sizing: border-box;
+    flex: 1 0 calc(50% - 12px);
+}
+.ywpi__fields-wrapper.ywpi__fields-wrapper-inline > div {
+    margin-top: 0;
+}
+.ywpi__fields-wrapper.ywpi__fields-wrapper-inline .ywpi__components-document-type-input {
+    max-width: 49%;
+}
+
+.ywpi__components-combobox {
+    width: 100%;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper {
+    background: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 3.125em;
+    position: relative;
+    width: 100%;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper > div {
+    height: 100%;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .ywpi__components-combobox-control {
+    height: 100%;
+    font-size: inherit;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .ywpi__components-combobox-control .components-base-control__field {
+    margin-bottom: 0 !important;
+    height: 100%;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .ywpi__components-combobox-control input {
+    border: none !important;
+    min-height: unset !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    cursor: pointer;
+    width: 100%;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .ywpi__components-combobox-control input:focus-visible {
+    outline: none !important;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .ywpi__components-combobox-control .components-combobox-control__suggestions-container > div {
+    padding: 0 !important;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .ywpi__components-combobox-control .components-form-token-field__suggestions-list {
+    position: relative;
+    z-index: 9999;
+    background: #fff;
+    list-style: none;
+    padding-left: 0 !important;
+    margin-top: -25px;
+    border: 1px solid;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .ywpi__components-combobox-control .components-form-token-field__suggestions-list li {
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #1e1e1e;
+    display: block;
+    font-size: 13px;
+    margin: 0;
+    min-height: 32px;
+    padding: 8px 12px;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .ywpi__components-combobox-control .components-form-token-field__suggestions-list li:hover {
+    background: var(--wp-components-color-accent, var(--wp-admin-theme-color, #3858e9));
+    color: #fff;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .components-base-control__label {
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 13px;
+    font-style: inherit;
+    font-weight: inherit;
+    left: 10px;
+    letter-spacing: inherit;
+    line-height: inherit;
+    line-height: 1.4;
+    margin: 0;
+    max-width: calc(100% - 24px);
+    overflow: hidden;
+    position: absolute;
+    text-decoration: inherit;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    top: 6px;
+    white-space: nowrap;
+    z-index: 1;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper .components-combobox-control__suggestions-container {
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: 1px solid hsla(0, 0%, 7%, 0.8);
+    border-radius: 4px;
+    color: #2b2d2f;
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 1em;
+    font-style: inherit;
+    font-weight: inherit;
+    height: 100%;
+    letter-spacing: inherit;
+    line-height: inherit;
+    padding: 1em 0.5em 0;
+    text-decoration: inherit;
+    text-transform: inherit;
+    width: 100%;
+}
+.ywpi__components-combobox .ywpi__components-combobox-wrapper svg {
+    position: absolute;
+    right: 12px;
+    top: 30%;
+}

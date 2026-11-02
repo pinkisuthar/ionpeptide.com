@@ -1,0 +1,22 @@
+*** Payment Method Based Fee &amp; Discounts Change log ***
+
+2026-01-08 - version 1.2.0
+* Update - Compatibility with Cart and Checkout Blocks.
+* Add - Introduced rule-based restrictions for products, categories, and brands, with the ability to exclude specific customers.
+* Add - Added date range restrictions for rule applicability.
+* Fix - Enabled support for decimal values in the minimum fee field within rules.
+
+2025-10-01 - version 1.1.3
+* Update - Updated compatibility for latest WooCommerce versions.
+
+2025-02-28 - version 1.1.2
+* Fix - Fixed bug with payment method title.
+
+2024-10-30 - version 1.1.1
+* Fix - Resolved issue with minimum value fee/discount.
+
+2024-01-31 - version 1.1.0
+* Update - Compatibility updated for latest versions of WooCommerce and WordPress.
+
+2023-03-14 - version 1.0.0
+* Other - Initial release of the plugin.

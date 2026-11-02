@@ -1,0 +1,458 @@
+/* Monarch ACH Admin Styles */
+
+.monarch-admin-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.monarch-admin-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #23282d;
+    font-size: 18px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-badge.status-completed,
+.status-badge.status-success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.status-badge.status-pending {
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeaa7;
+}
+
+.status-badge.status-failed,
+.status-badge.status-error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.status-badge.status-processing {
+    background: #cce5ff;
+    color: #004085;
+    border: 1px solid #99d6ff;
+}
+
+.status-badge.status-test {
+    background: #cce5ff;
+    color: #004085;
+    border: 1px solid #99d6ff;
+}
+
+.status-badge.status-live {
+    background: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+.status-badge.status-refunded {
+    background: #e2e3e5;
+    color: #383d41;
+    border: 1px solid #d6d8db;
+}
+
+.status-badge.status-voided {
+    background: #e2e3e5;
+    color: #383d41;
+    border: 1px solid #d6d8db;
+}
+
+.monarch-test-connection {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.test-results {
+    margin: 15px 0;
+}
+
+.test-results .notice {
+    margin: 0;
+    padding: 12px;
+}
+
+.monarch-logs {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.monarch-logs pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Table styling */
+.wp-list-table th,
+.wp-list-table td {
+    vertical-align: middle;
+}
+
+.wp-list-table .button-small {
+    padding: 2px 8px;
+    font-size: 11px;
+    line-height: 1.5;
+    height: auto;
+}
+
+/* Navigation tabs */
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+/* Stats cards */
+.monarch-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.monarch-stat-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.monarch-stat-number {
+    font-size: 32px;
+    font-weight: 600;
+    color: #007cba;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.monarch-stat-label {
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Form styling */
+.form-table th {
+    width: 200px;
+    padding-left: 0;
+}
+
+.form-table td {
+    padding-left: 0;
+}
+
+/* Spinner styling */
+.spinner.is-active {
+    float: none;
+    margin-left: 10px;
+    visibility: visible;
+}
+
+/* Responsive design */
+@media (max-width: 782px) {
+    .monarch-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .monarch-stat-card {
+        margin-bottom: 15px;
+    }
+    
+    .wp-list-table {
+        font-size: 14px;
+    }
+    
+    .wp-list-table th,
+    .wp-list-table td {
+        padding: 8px;
+    }
+}
+
+/* Loading states */
+.monarch-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.monarch-loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #007cba;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Notices */
+.monarch-admin-notice {
+    margin: 15px 0;
+}
+
+.monarch-admin-notice.notice-warning {
+    border-left-color: #ffb900;
+}
+
+.monarch-admin-notice.notice-error {
+    border-left-color: #dc3232;
+}
+
+.monarch-admin-notice.notice-success {
+    border-left-color: #46b450;
+}
+
+.monarch-admin-notice.notice-info {
+    border-left-color: #00a0d2;
+}
+
+/* Button styling */
+.button.monarch-primary {
+    background: #007cba;
+    border-color: #007cba;
+    color: #fff;
+}
+
+.button.monarch-primary:hover,
+.button.monarch-primary:focus {
+    background: #005a87;
+    border-color: #005a87;
+    color: #fff;
+}
+
+/* Pagination */
+.tablenav-pages {
+    margin: 20px 0;
+}
+
+.tablenav-pages .page-numbers {
+    padding: 8px 12px;
+    margin: 0 2px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: #007cba;
+}
+
+.tablenav-pages .page-numbers:hover,
+.tablenav-pages .page-numbers.current {
+    background: #007cba;
+    color: #fff;
+    border-color: #007cba;
+}
+
+/* Transaction Details Modal */
+.monarch-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.monarch-modal-box {
+    background: #fff;
+    border-radius: 8px;
+    max-width: 700px;
+    width: 100%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.monarch-modal-header {
+    padding: 20px 25px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.monarch-modal-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #23282d;
+}
+
+.monarch-modal-close-btn {
+    background: #f0f0f1;
+    border: 1px solid #c3c4c7;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #50575e;
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    line-height: 1;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.monarch-modal-close-btn:hover {
+    background: #dcdcde;
+    border-color: #8c8f94;
+    color: #1d2327;
+}
+
+.monarch-modal-close-btn:focus {
+    outline: 2px solid #2271b1;
+    outline-offset: 1px;
+}
+
+/* Footer close button - different style */
+.monarch-modal-footer .monarch-modal-close-btn {
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    color: #2271b1;
+    font-size: 13px;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+
+.monarch-modal-footer .monarch-modal-close-btn:hover {
+    background: #f0f0f1;
+    border-color: #8c8f94;
+    color: #0a4b78;
+}
+
+.monarch-modal-body {
+    padding: 25px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.monarch-detail-section {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.monarch-detail-section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.monarch-detail-section h3 {
+    font-size: 14px;
+    color: #23282d;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.monarch-detail-section .form-table {
+    margin: 0;
+}
+
+.monarch-detail-section .form-table th {
+    font-weight: 600;
+    color: #666;
+    width: 140px;
+    padding: 8px 10px 8px 0;
+    vertical-align: top;
+}
+
+.monarch-detail-section .form-table td {
+    padding: 8px 0;
+}
+
+.monarch-detail-section .form-table code {
+    background: #f0f0f1;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    word-break: break-all;
+}
+
+.monarch-detail-section p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.monarch-modal-footer {
+    padding: 15px 25px;
+    border-top: 1px solid #e0e0e0;
+    background: #f8f9fa;
+    border-radius: 0 0 8px 8px;
+    text-align: right;
+}
+
+.monarch-modal-footer .button {
+    margin-left: 10px;
+}
+
+/* Responsive modal */
+@media (max-width: 600px) {
+    .monarch-modal-box {
+        max-height: 95vh;
+    }
+
+    .monarch-modal-body {
+        padding: 15px;
+    }
+
+    .monarch-detail-section .form-table th {
+        width: 100px;
+    }
+}

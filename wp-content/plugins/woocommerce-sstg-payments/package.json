@@ -1,0 +1,22 @@
+{
+  "name": "sstg-payments",
+  "version": "3.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/data": "^10.26.0",
+    "@wordpress/scripts": "^30.15.0",
+    "baseline-browser-mapping": "^2.9.18"
+  },
+  "dependencies": {
+    "@woocommerce/settings": "^1.0.0",
+    "@wordpress/element": "^6.22.0"
+  }
+}

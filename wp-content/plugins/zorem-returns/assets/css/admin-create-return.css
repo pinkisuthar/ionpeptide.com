@@ -1,0 +1,158 @@
+/* Admin-initiated return request — "Create Return Request" modal on the order edit screen. */
+
+.zorem-acr-open-wrap {
+	margin: 8px 0 4px;
+}
+
+#return_order_meta_box .zorem-acr-open-wrap + .return_request_item {
+	margin-top: 12px;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+}
+
+.zorem-acr-modal {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 100100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.zorem-acr-modal-content {
+	background: #fff;
+	width: 560px;
+	max-width: 92vw;
+	max-height: 85vh;
+	overflow-y: auto;
+	border-radius: 6px;
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.zorem-acr-modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 16px;
+	border-bottom: 1px solid #dcdcde;
+}
+
+/* Neutralize WP admin / WooCommerce heading styles inside the modal
+ * (#poststuff h2, .postbox .inside h2, body.woocommerce-admin-page h2, …).
+ * Those selectors are more specific, so !important is required here. */
+.zorem-acr-modal-header h2 {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 16px !important;
+	line-height: 1.4 !important;
+}
+
+.zorem-acr-modal-header .zorem-acr-close {
+	display: flex;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	background: #f0f0f1;
+	border: none;
+	border-radius: 50%;
+	font-size: 23px;
+	cursor: pointer;
+	line-height: 25px;
+	color: #646970;
+	transition: background 0.15s ease, color 0.15s ease;
+}
+
+.zorem-acr-modal-header .zorem-acr-close:hover,
+.zorem-acr-modal-header .zorem-acr-close:focus {
+	background: #dcdcde;
+	color: #1d2327;
+	outline: none;
+}
+
+.zorem-acr-modal-body {
+	padding: 16px;
+}
+
+.zorem-acr-modal-body h4 {
+	margin: 0 0 8px;
+}
+
+.zorem-acr-modal-body p {
+	margin: 0 0 14px;
+}
+
+.zorem-acr-modal-body p > label {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.zorem-acr-modal-body p > label input[type="checkbox"] {
+	margin-right: 6px;
+}
+
+.zorem-acr-modal-footer {
+	padding: 12px 16px;
+	border-top: 1px solid #dcdcde;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 8px;
+}
+
+.zorem-acr-warning {
+	background: #fcf9e8;
+	border-left: 4px solid #dba617;
+	padding: 8px 12px;
+	margin-bottom: 10px;
+}
+
+.zorem-acr-error {
+	background: #fcf0f1;
+	border-left: 4px solid #d63638;
+	padding: 8px 12px;
+	margin-top: 10px;
+}
+
+.zorem-acr-items {
+	margin-bottom: 8px;
+}
+
+.zorem-acr-items th,
+.zorem-acr-items td {
+	vertical-align: middle;
+}
+
+.zorem-acr-price-col,
+.zorem-acr-total-col,
+.zorem-acr-grand-label {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.zorem-acr-qty-col {
+	width: 70px;
+	text-align: center;
+}
+
+.zorem-acr-qty {
+	width: 60px;
+	min-width: 0;
+}
+
+.zorem-acr-items tfoot th {
+	border-top: 2px solid #dcdcde;
+	font-weight: 600;
+}
+
+.zorem-acr-tax-note {
+	margin: 0 0 14px;
+	color: #646970;
+	font-style: italic;
+}
+
+.zorem-acr-spinner.spinner {
+	float: none;
+	margin: 0;
+}

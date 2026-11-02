@@ -1,0 +1,88 @@
+<?php
+/**
+ * PDF Invoice Template
+ *
+ * Dettagliolinee XML.
+ *
+ * @author  YITH <plugins@yithemes.com>
+ * @package YITH\PDFInvoice\Templates
+ */
+
+$i = 1;
+
+foreach ( $invoice_details['order_items'] as $item_id => $item ) :
+	if ( $item instanceof WC_Order_Item_Product ) {
+		$tax_rate_amount = $item->get_subtotal_tax();
+	} else {
+		$tax_rate_amount = $item->get_total_tax();
+	}
+
+	if ( abs( $tax_rate_amount ) > 0 ) {
+		$order = isset( $invoice_details['main_order'] ) ? $invoice_details['main_order'] : $document->order; // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
+
+		if( $item instanceof WC_Order_Item_Product ){
+			$last_tax_class_used = $item->get_tax_class();
+		}
+
+		$tax_class = $item->get_tax_class() === 'inherit' ? $last_tax_class_used : $item->get_tax_class();
+
+		$tax_rates = WC_Tax::find_rates(
+			array(
+				'country'   => $order->get_billing_country(), // Use the main order in case of refund.
+				'state'     => $order->get_billing_state(),
+				'city'      => $order->get_billing_city(),
+				'postcode'  => $order->get_billing_postcode(),
+				'tax_class' => $tax_class,
+			)
+		);
+
+		if ( is_object( $item ) && apply_filters( 'yith_ywpi_apply_old_percentage_tax_calculation', false ) ) {
+			$tax_percentage = number_format( $item->get_total_tax() * 100 / $item->get_total(), 2, '.', '' );
+		} else {
+			foreach ( $tax_rates as $tax_rate ) {
+				$tax_percentage = number_format( $tax_rate['rate'], 2, '.', '' );
+			}
+		}
+
+	} else {
+		$tax_percentage = '0.00';
+	}
+
+	?>
+
+	<?php $quantity = YITH_Electronic_Invoice()->get_item_quantity( $item, $document, true ); ?>
+	<?php $price = YITH_Electronic_Invoice()->get_order_item_price( $item, true ); ?>
+	<?php $discount = ( $item instanceof WC_Order_Item_Product ) ? YITH_Electronic_Invoice()->get_discount_increment( $item, true ) : 0; ?>
+	<?php $total_price = number_format( abs( $item['total'] ), 2, '.', '' ); ?>
+	<?php $item_name = YITH_Electronic_Invoice()->get_order_item_name( $item ); ?>
+    <?php $sku = $item instanceof WC_Order_Item_Product ? $item->get_product()->get_sku() : ''; ?>
+
+	<DettaglioLinee>
+		<NumeroLinea><?php echo wp_kses_post( apply_filters( 'ywpi_electronic_invoice_field_value', $i, 'NumeroLinea', $document ) ); ?></NumeroLinea>
+		<?php if( apply_filters( 'yith_wcpdi_show_codice_articolo', false ) &&  '' !== $sku ): ?>
+            <CodiceArticolo>
+                <CodiceTipo>COD</CodiceTipo>
+                <CodiceValore><?php echo $sku; ?></CodiceValore>
+            </CodiceArticolo>
+		<?php endif; ?>
+
+        <Descrizione><?php echo wp_kses_post( apply_filters( 'ywpi_electronic_invoice_field_value', $item_name, 'Descrizione', $document ) ); ?></Descrizione>
+		<Quantita><?php echo wp_kses_post( apply_filters( 'ywpi_electronic_invoice_field_value', $quantity, 'Quantita', $document ) ); ?></Quantita>
+		<PrezzoUnitario><?php echo wp_kses_post( apply_filters( 'ywpi_electronic_invoice_field_value', $price, 'PrezzoUnitario', $document ) ); ?></PrezzoUnitario>
+		<?php if ( $discount > 0 ) : ?>
+			<ScontoMaggiorazione>
+				<Tipo>SC</Tipo>
+				<Importo><?php echo wp_kses_post( YITH_Electronic_Invoice()->get_discount_increment( $item, true, $quantity ) ); ?></Importo>
+			</ScontoMaggiorazione>
+		<?php endif; ?>
+
+
+		<PrezzoTotale><?php echo wp_kses_post( apply_filters( 'ywpi_electronic_invoice_field_value', $total_price, 'PrezzoTotale', $document ) ); ?></PrezzoTotale>
+		<AliquotaIVA><?php echo wp_kses_post( apply_filters( 'ywpi_electronic_invoice_field_value', $tax_percentage, 'AliquotaIVA', $document ) ); ?></AliquotaIVA>
+		<?php if ( '0.00' === $tax_percentage ) : ?>
+			<Natura><?php echo wp_kses_post( $invoice_details['natura'] ); ?></Natura>
+		<?php endif; ?>
+
+	</DettaglioLinee>
+	<?php ++$i; ?>
+<?php endforeach; ?>

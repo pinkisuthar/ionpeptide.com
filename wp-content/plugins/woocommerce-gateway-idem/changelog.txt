@@ -1,0 +1,224 @@
+*** Idem Payment Changelog ***
+
+2026.09.16 - version 4.9.0
+* New: the size of the payment method logo shown at checkout can now be set from the plugin settings (WooCommerce > Settings > Payments > Idem Payment > Checkout appearance > Logo height). Until now the size was decided by your theme, which often made the logo too small or too large. Enter a height in pixels, the width follows automatically; leave the field empty to keep your theme's default. Works on both the classic and the block checkout.
+
+2026.08.12 - version 4.8.7
+* Change: the gateway title is now "Pay by card (using IDEM Pay)" instead of "IDEM Pay" to better reflect the payment method.
+
+2026.08.12 - version 4.8.6
+* Change: the gateway title is now "Pay by card (using IDEM Pay)" instead of "IDEM Pay" to better reflect the payment method.
+
+2026.08.07 - version 4.8.5
+* Fix: a DECLINED renewal payment now reliably puts the subscription on hold. Two separate problems could stop that from happening. First, the "a renewal never acts on the original order" rule was applied to every notification, including declines, which silenced the suspension entirely; declined notifications are now let through to it, while every other kind — payments, refunds, and any status we do not explicitly recognise as a decline — stays covered by the rule. Second — and this one predates the previous release — the subscription behind a renewal order was looked up in a way that never finds it, so a redelivered decline suspended nothing.
+* Fix: a decline on a subscription whose amount was changed after the fact no longer goes unnoticed. The amount check compared the subscription total against the ORIGINAL order's total whenever no renewal order existed yet — which differs legitimately as soon as you change a subscription's amount — and the resulting mismatch stopped the suspension from running.
+* Fix: when a renewal payment is declined and no subscription can be found (WooCommerce Subscriptions inactive, or the link missing), the original order is no longer marked "failed". A later period being declined must never fail the order that created the subscription; the payment is recorded in a note instead.
+* Fix: a redelivered renewal notification is recognised as already processed based on whether the renewal was ever PAID, not on its current status. On a store configured to leave paid orders "on hold" — a supported setting — a redelivery could otherwise re-run the whole payment path on an already-paid renewal: notes, payment identifiers, subscription reactivation and payment date. Renewals genuinely awaiting payment are still paid by the next cycle payment.
+
+2026.08.07 - version 4.8.4
+* Fix: a subscription renewal payment can no longer act on the order that created the subscription. When no renewal order can be found or created for it — because renewal creation failed, or because WooCommerce Subscriptions is not active — the notification is now acknowledged and the order is left untouched, with a note recording the payment so you can reconcile it on the platform. This also covers refunds: a refund on a renewal used to be applied to the original order, refunding the wrong one.
+* Fix: a redelivery of a renewal payment notification no longer adds a duplicate note to the renewal order. The order state itself was never affected.
+* Fix: a renewal payment notification received while WooCommerce Subscriptions is inactive no longer causes a PHP fatal error.
+* Fix (security): payment notifications are checked for a valid structure before anything else reads them. A malformed notification is now refused up front instead of being processed with missing values — this matters most on stores that have signature verification turned off.
+
+2026.08.06 - version 4.8.3
+This release prepares the plugin for a platform change: subscription renewal payments are about to carry the key of the order that started the subscription. Until now they carried none, so none of the checks below applied to a renewal. Both items are therefore hardening ahead of that change, not fixes for something you have been experiencing.
+* Hardening: the order-key check is now correct for renewals. It compares against the order the payment was created for, so any renewal notification — a redelivery of the payment, or a later refund on it — is accepted by that check, whereas the previous logic would have compared against the renewal order and refused it as a session mismatch once renewals start carrying a key.
+* Hardening: the backup check against our API now ignores renewal payments outright. A renewal carries the original order's reference, so once renewals carry that order's key too, an original order left "pending payment" could otherwise be completed by a later renewal's payment whenever the two amounts matched — the normal case for a fixed-price subscription.
+
+2026.08.05 - version 4.8.2
+* Fix: payment notifications (IPN) are authenticated against the exact amounts signed when the payment form was generated (multi-tab safe), with strict currency validation and exact comparison at currency precision (no more 1-cent tolerance in payment decisions).
+* Fix: a captured payment that no longer matches the current order total places the order on hold with a note showing the paid amount, the signed amount and the current total — instead of silently staying "pending payment" until it gets cancelled. All amounts are always written to the WooCommerce logs.
+* Fix: the same protection now covers a captured payment whose currency does not match the order, and a payment whose amount matches none of the signed amounts: the order is placed on hold instead of being left "pending payment" and cancelled by the unpaid-order cleanup. This applies both to notifications and to the backup check against our API.
+* Fix: the backup check against our API only completes an order when the payment carries this store's own order key, is marked completed, and matches the current total exactly. Any correlated completed payment that cannot be safely applied is placed on hold for review; payments that are not this order's, or not completed, are simply ignored. Previously a completed-looking payment could be applied without that verification, and a refunded or still-pending payment with a matching amount could complete an order.
+* Fix: WooCommerce no longer cancels an order whose payment we can still find. The last-chance check that runs during the "unpaid orders" cleanup was attached to a WooCommerce event that never fires, so it never ran: past the first 15 minutes, a paid order whose notification never arrived could be cancelled. It is now attached to the event WooCommerce actually uses, and keeps the order alive when a payment is found.
+* Fix (security): the order-key correlation is now validated BEFORE any order change; an IPN with a wrong key can no longer complete an order or trigger a refund.
+* Fix: the subscription-renewal amount check now finds the subscription behind a renewal order (it previously looked only at parent orders and found none), so a renewal whose total was changed after the charge was scheduled is reported as a total mismatch instead of an amount mismatch.
+* Fix: a failed automatic refund now answers an error to the platform instead of "ok".
+* Fix: payment-link references (e.g. "12345.1") are refused with a distinct "reference-not-an-order" code instead of being mistaken for a store order.
+* Fix: IPN response codes are now stable machine codes, no longer affected by the site language.
+* New: an audit note is added when a second, different payment is received for an already-paid order (possible duplicate charge).
+
+2026.07.20 - version 4.8.1
+* New: dynamic checkout description for trusted customers; customers with at least one paid order on the store (checked locally, no external HTTP request) see it instead of the standard description. Classic checkout is fully dynamic; the blocks checkout applies it for logged-in customers and session-known emails.
+
+2026.07.08 - version 4.8.0
+* New: The plugin now proactively detects when a firewall or CDN (e.g. Cloudflare) blocks payment notifications (IPN). A one-click "Test notification reachability" button (in the Security section, and run automatically once right after you connect) checks whether our servers can reach your store and lists the exact IPs to allow if they cannot.
+* New: When our own Cloudflare blocks your server's calls to us, the plugin now shows a clear message with the Cloudflare Ray ID and your server IP to send support — instead of dumping the raw block page.
+* New: A dismissible admin notice warns when several recent paid orders were confirmed only by the backup check (no IPN arrived), a strong sign your firewall is blocking our notifications.
+
+2026.07.08 - version 4.7.5
+* New: The Customer Support editor now follows the sub-account selector — pick a sub-account and you edit that store's own support phone/email/message (pre-filled from your account default); pick "— None —" and you edit the account default.
+
+2026.07.07 - version 4.7.4
+* Fix: after the one-time per-environment credential migration, credentials no longer fall back to the other environment's values.
+* Fix: production API operations honor a custom Production Gateway URL (matching the Connect flow).
+
+2026.07.07 - version 4.7.3
+* Fix: Minor bug fix.
+
+2026.07.07 - version 4.7.2
+* Change: "Validate that IPN requests come from IDEM servers" (IPN IP validation) is now OFF by default - most stores sit behind Cloudflare or a proxy/CDN, which makes the source IP fail the check. Existing installs keep their current setting.
+* Improve: Settings are grouped into clearer sections - "Order & Notification Settings", "Plugin Settings" and "Security" - separated by horizontal rules.
+
+2026.07.07 - version 4.7.1
+* Improve: Once an environment is connected, the Connect panel shows a Disconnect button instead of keeping the login form visible; disconnecting brings the form back (your saved credentials are kept until you reconnect).
+
+2026.07.07 - version 4.7.0
+* New: Customer Support editor in the plugin settings - set your support phone, email and message (shown to customers on the IDEM payment page) per environment, without opening your EasyProcess account. A support email and message are required for the gateway to process payments.
+* Change: Removed the confusing optional "Customer support message" field from the Connect box; customer support is now its own clearly-labelled, required section below the sub-account field.
+
+2026.07.07 - version 4.6.1
+* Fix: The "set your notification URL" reminder now only appears when the active environment has not been connected (Connect sets it automatically), and points to the Connect panel.
+* Fix: Sub-account field alignment on the settings page (the dropdown no longer drifts far right of its label).
+
+2026.07.06 - version 4.6.0
+* New: Per-environment sub-account selection — pick your store's sub-account from a dropdown of your EasyProcess sub-accounts (Sandbox and Production keep separate IDs).
+* New: "Create a sub-account for this store" button — provisions a sub-account in EasyProcess seeded from your store (name, URL, webhook, logo) and selects it automatically.
+* Change: The Sub-account field is now stored per environment; the previous shared value is migrated automatically into the active environment on upgrade.
+
+2026.07.02 - version 4.5.0
+* New: One-click "Connect to EasyProcess" onboarding — auto-fills credentials, notification URL, checkout logo and site info per environment.
+* Change: Credentials are now stored separately per environment (Sandbox vs Production), selected by the Sandbox/test mode toggle.
+
+2026.04.10 - version 4.4.2
+* New: Support for GBP, EUR and CAD store currencies in addition to USD.
+* Fix: IPN and API payment verification now correctly handle FX-converted amounts for non-USD orders.
+
+2026.03.25 - version 4.4.1
+* Restored: Test API button on settings page to verify API connectivity and credentials.
+* Removed: Verify Order Identifiers maintenance utility (one-time tool, no longer needed).
+
+2026.02.25 - version 4.4.0
+* Fix (critical): Admin order pages no longer trigger a 30-second API timeout for non-IDEM orders. The meta box condition was incorrectly making API calls for all orders when the plugin was enabled.
+* Enhancement: Reduced API timeout for admin meta box from 30s to 5s to prevent slow page loads when the IDEM API is unreachable.
+* Enhancement: Version check now cached via transient (1 check/day) instead of hitting the API on every admin page load.
+* Removed: Subscription synchronization utility (admin UI, AJAX handlers, and JS). The sync tool was deprecated in favor of platform-side management.
+
+2025.12.16 - version 4.3.7
+* Fix (critical): Prevent duplicate EP subscriptions when customers manually retry failed renewal orders through the gateway. The plugin now correctly identifies renewal orders using wcs_order_contains_renewal() and skips sending recurring data (which would create a new subscription). Only initial subscription orders now trigger EP subscription creation.
+
+2025.12.10 - version 4.3.6
+* Enhancement (recurring): Added hook for 'pending-cancel' status to stop EasyProcess subscription when customer initiates cancellation from WooCommerce My Account page.
+
+2025.12.08 - version 4.3.5
+* Fix (recurring): Corrected WCS scheduler conflict detection. The v4.3.4 fix checked for pending renewal orders, but WCS creates the renewal order AFTER changing status to on-hold, not before. Now uses doing_action('woocommerce_scheduled_subscription_payment') to reliably detect scheduler context.
+
+2025.12.05 - version 4.3.4
+* Fix (recurring): Prevent incorrect EP suspension when WCS scheduler fires. The plugin now checks for pending renewal orders before calling the IDEM suspend API, avoiding false pauses during WCS scheduled renewals.
+
+2025.12.02 - version 4.3.3
+* Fix (recurring): Prevent duplicate order creation when IPN is received multiple times. Now checks for existing order with same IDEM request ID before creating new orders.
+* Fix (recurring): Ensure payment method is explicitly set on fallback-created renewal orders.
+* Fix (recurring): Cycle payment order creation now only triggers for completed payments, preventing ghost orders from refund/chargeback IPNs.
+
+2025.12.02 - version 4.3.2
+* Fix (recurring): Corrected subscription retrieval order in IPN handler to properly set the next payment date when WooCommerce renewal order was not found.
+
+2025.12.02 - version 4.3.1
+* Enhancement: Automatically sync subscription's next payment date from EasyProcess IPN data (recurring_next field) during cycle payment processing. This ensures WooCommerce Subscriptions displays accurate next payment dates when EasyProcess manages the recurring schedule.
+
+2025.12.02 - version 4.3.0
+* Feature: Added renewal order fallback mechanism for cycle payment IPNs. When a recurring payment IPN arrives and no pending renewal order exists, the plugin now automatically finds existing pending renewal orders or creates new ones using wcs_create_renewal_order().
+* Enhancement: Improved subscription handling during cycle payments - properly reactivates on-hold subscriptions and updates subscription metadata.
+* Enhancement: Added comprehensive logging for cycle payment processing to help diagnose WC Subscriptions scheduler issues.
+
+2025.11.24 - version 4.2.6
+* Fix (minor): linting errors.
+
+2025.10.01 - version 4.2.5
+* Fix (critical): standardized order identifiers to prevent refunds targeting the wrong IDEM payment (Woo transaction_id = IDEM tr_id; _idem_request_id = IDEM mr_id). Also added a new maintenance utility to standardize the order identifiers for all past IDEM orders.
+* Fix (minor): invalid version number in the class-wc-idem-auto-updater.php file.
+* Fix (medium): fix IPN not properly processed when order key was missing.
+
+2025.09.02 - version 4.2.4
+* Fix (minor): linting errors.
+
+2025.08.27 - version 4.2.3
+* Enhancement: Improved subscription synchronization to allow re-opening woo subscriptions.
+
+2025.08.26 - version 4.2.2
+* Feature: Add support for updating the interval and periodicity of a recurring payment.
+* Enhancement: Severals enhancements in the sync utility and subscriptions sync process.
+
+2025.08.21 - version 4.2.1
+* Fix: remove the "not found" flag on subscriptions that may leave the sync utility in a broken state.
+* Critical Fix: perpetual subscriptions (cycles=0 or null) now display correctly as "∞" in sync utility instead of "0 | N/A | N/A | Invalid Date".
+* Critical Fix: update cycles action no longer incorrectly sets end dates for perpetual subscriptions, preventing immediate subscription termination.
+* Enhancement: improved null value handling for recurring_cycles and recurring_end fields throughout the plugin.
+* Enhancement: exclude abandoned carts (pending/pending) and failed initial payments (pending/unpaid) from sync utility display as they require no synchronization action.
+
+2025.08.20 - version 4.2.0
+* Feature: Auto-update the plugin on new releases with secure backup and error handling.
+* Feature: Add support for custom subscription intervals (e.g., "every 3 months", "every 6 weeks").
+* Enhancement: Support for expired subscription status in sync utility.
+* Enhancement: Subscription end date and number of cycles reconciliation in sync utility.
+* Enhancement: Improved pending subscription mismatch handling in sync tool.
+
+2025.08.14 - version 4.1.3
+* Enhancement: improve performance of the subscription sync process.
+* Fix: prevent the sync utility from being displayed if WooCommerce Subscriptions is not active.
+
+2025.08.14 - version 4.1.2
+* Enhancement: more reliable request ID resolution for (older) subscriptions.
+
+2025.08.14 - version 4.1.1
+* Feature: Add a ping button to the gateway settings page to check if the API is reachable and credentials are valid.
+
+2025.08.13 - version 4.1.0
+* Feature: Add subscription management actions (update amount, update cycles, skip payment) to the WooCommerce admin subscription details page.
+* Fix: Implement order status update when the payment is completed at a later time via the IDEM gateway.
+
+2025.07.11 - version 4.0.8
+* Improvements in the recurring payment process
+
+2025.05.23 - version 4.0.7
+* Fix a code annotation not compatible with PHP 7.4
+
+2025.05.21 - version 4.0.6
+* (re)Change gateway name and description
+
+2025.05.12 - version 4.0.5
+* Change gateway name and description
+
+2025.05.12 - version 4.0.4
+* Change gateway icon URL
+* Fix an issue with the cron payment verification ('verify_payment_status' now accept the order ID to avoid serializing the order object)
+
+2025.03.31 - version 4.0.3
+* Removed a code annotation that was making the plugin incompatible with PHP versions below 8.0.
+
+2025.03.17 - version 4.0.2
+* Fix version number ... sorry for that.
+
+2025.03.11 - version 4.0.1
+* Change gateway URL
+
+2025.01.10 - version 4.0.0
+* Merchant API features (beta)
+* Make some security checkpoints optional for the IPN
+* Fix a bug when "only visible for admin" is enabled
+
+2024.11.27 - version 3.0.0
+* Plugin renamed to follow the WooCommerce conventions
+* Add support for WooCommerce Checkout Blocks
+* Add sub-account parameter
+
+2024.08.02 - version 2.0.3
+* Change default service URL
+
+2024.08.02 - version 2.0.1 and 2.0.2
+* Make sure constants are already defined in setup_constants() to avoid warning messages if the plugin is called twice.
+
+2024.07.09 - version 2.0.0
+* Support of WooCommerce Subscriptions (https://woocommerce.com/fr/products/woocommerce-subscriptions/) for recurring payments
+* Automatic order refund via IPN
+
+2023.12.12 - version 1.1.1
+* Fix an undefined variable warning
+
+2023.12.04 - version 1.1
+* New option to choose the order status after a successful payment
+
+2023.10.10 - version 1.0
+* First Release

@@ -1,0 +1,246 @@
+/**
+ * Internal Admin Notes — styling for the per-request notes section
+ * rendered inside the Returns Dashboard preview modal.
+ */
+
+.zorem-internal-notes-section {
+	margin-top: 24px;
+	padding: 16px 16px 12px;
+	border: 1px solid #e0e3e6;
+	border-radius: 6px;
+	background: #fafbfc;
+}
+
+.zorem-internal-notes-heading {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin: 0 0 4px 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.zorem-internal-notes-heading .dashicons {
+	color: #50575e;
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+}
+
+.zorem-internal-notes-count {
+	color: #50575e;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.zorem-internal-notes-tip {
+	margin: 0 0 12px 0;
+	color: #646970;
+	font-size: 12px;
+	font-style: italic;
+}
+
+/* ---------- Notes list ---------- */
+
+.zorem-internal-notes-list {
+	max-height: 280px;
+	overflow-y: auto;
+	margin-bottom: 14px;
+}
+
+.zorem-internal-notes-empty {
+	padding: 12px 4px;
+	color: #8c8f94;
+	font-size: 13px;
+	text-align: center;
+	font-style: italic;
+}
+
+.zorem-internal-note {
+	display: flex;
+	gap: 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #eef0f2;
+}
+
+.zorem-internal-note:last-child {
+	border-bottom: none;
+}
+
+.zorem-internal-note-avatar img {
+	display: block;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+}
+
+.zorem-internal-note-body {
+	flex: 1;
+	min-width: 0;
+}
+
+.zorem-internal-note-meta {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 12px;
+	color: #50575e;
+	margin-bottom: 2px;
+}
+
+.zorem-internal-note-author {
+	color: #1d2327;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.zorem-internal-note-date {
+	color: #8c8f94;
+}
+
+.zorem-internal-note-delete {
+	margin-left: auto;
+	color: #b32d2e;
+	text-decoration: none;
+	opacity: 0.6;
+	transition: opacity 0.15s ease;
+}
+
+.zorem-internal-note-delete:hover,
+.zorem-internal-note-delete:focus {
+	opacity: 1;
+}
+
+.zorem-internal-note-delete .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+.zorem-internal-note-content {
+	margin-top: 2px;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #2c3338;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.zorem-internal-note-content a {
+	color: #2271b1;
+}
+
+/* ---------- Add-note form ---------- */
+
+.zorem-internal-notes-form {
+	padding-top: 8px;
+	border-top: 1px solid #eef0f2;
+}
+
+.zorem-internal-notes-input-wrap {
+	position: relative;
+}
+
+.zorem-internal-notes-input {
+	width: 100%;
+	min-height: 70px;
+	padding: 8px 10px;
+	box-sizing: border-box;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	background: #fff;
+	font-size: 13px;
+	font-family: inherit;
+	resize: vertical;
+}
+
+.zorem-internal-notes-input:focus {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: none;
+}
+
+.zorem-internal-notes-actions {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 8px;
+}
+
+.zorem-internal-notes-status {
+	font-size: 12px;
+}
+
+/* ---------- @mention dropdown ---------- */
+
+.zorem-mention-dropdown {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	z-index: 100;
+	width: 100%;
+	max-height: 220px;
+	overflow-y: auto;
+	margin-top: 2px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	box-shadow: 0 4px 14px rgba( 0, 0, 0, 0.1 );
+}
+
+.zorem-mention-item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 10px;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.zorem-mention-item:hover {
+	background: #f6f7f7;
+}
+
+.zorem-mention-avatar {
+	border-radius: 50%;
+	display: block;
+}
+
+.zorem-mention-name {
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.zorem-mention-email {
+	color: #8c8f94;
+	font-size: 12px;
+	margin-left: auto;
+}
+
+.zorem-mention-empty {
+	padding: 8px 10px;
+	color: #8c8f94;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* ---------- Action button row in the return preview modal ----------
+ * Forces Reject + Approve buttons onto a single horizontal line.
+ * !important needed to override fulfillment.css `.wc-action-button` rules
+ * that otherwise force them to display block / full-width.
+ */
+.zorem-return-action-buttons-row {
+	display: flex !important;
+	flex-wrap: wrap;
+	gap: 5px;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.zorem-return-action-buttons-row .wc-action-button {
+	display: inline-flex !important;
+	width: auto !important;
+	margin: 0 !important;
+	float: none !important;
+}

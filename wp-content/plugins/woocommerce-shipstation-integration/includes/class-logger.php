@@ -1,0 +1,140 @@
+<?php
+/**
+ * Logger class.
+ *
+ * Centralized logger for the ShipStation integration.
+ *
+ * @package WC_ShipStation
+ */
+
+namespace WooCommerce\Shipping\ShipStation;
+
+use WC_Logger_Interface;
+use WC_ShipStation_Integration;
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
+/**
+ * Logger class.
+ */
+class Logger {
+	/**
+	 * WC Logger instance.
+	 *
+	 * Typed to the interface, not to WC_Logger: woocommerce_logging_class
+	 * accepts any WC_Logger_Interface implementation, and wc_get_logger()
+	 * checks against the interface too. A narrower type rejects a logger
+	 * WooCommerce itself considers valid, which fatals every request that
+	 * writes to the log.
+	 *
+	 * @var WC_Logger_Interface|null
+	 */
+	private static ?WC_Logger_Interface $logger = null;
+
+	/**
+	 * Is debug enabled.
+	 *
+	 * @var bool
+	 */
+	private static bool $is_debug_enabled = false;
+
+	/**
+	 * Constructor.
+	 */
+	private function __construct() {
+		// No need to instantiate this class.
+	}
+
+	/**
+	 * Initialize the logger.
+	 *
+	 * @return void
+	 */
+	private static function init(): void {
+		if ( is_null( self::$logger ) ) {
+			self::$logger = wc_get_logger();
+
+			self::$is_debug_enabled = class_exists( 'WC_ShipStation_Integration' )
+				? WC_ShipStation_Integration::$logging_enabled
+				: false;
+		}
+	}
+
+	/**
+	 * Merge default data with provided data.
+	 *
+	 * @param array $data Data to merge.
+	 *
+	 * @return array
+	 */
+	private static function get_merged_data( array $data ): array {
+		$default_data = array( 'source' => 'shipstation' );
+
+		return wp_parse_args( $data, $default_data );
+	}
+
+	/**
+	 * Add a debug log entry if logging is enabled.
+	 *
+	 * @param string $message Message to log.
+	 * @param array  $data    Additional contextual data (e.g., array( 'source' => 'shipstation' ) ).
+	 *
+	 * @return void
+	 */
+	public static function debug( string $message, array $data = array() ): void {
+		self::init();
+
+		if ( ! self::$is_debug_enabled ) {
+			return;
+		}
+
+		self::$logger->debug( $message, self::get_merged_data( $data ) );
+	}
+
+	/**
+	 * Add an info log entry. Always logged, regardless of the debug-logging setting.
+	 *
+	 * @param string $message Message to log.
+	 * @param array  $data    Additional contextual data (e.g., array( 'source' => 'shipstation' ) ).
+	 *
+	 * @return void
+	 */
+	public static function info( string $message, array $data = array() ): void {
+		self::init();
+
+		self::$logger->info( $message, self::get_merged_data( $data ) );
+	}
+
+	/**
+	 * Add a warning log entry. Always logged, regardless of the debug-logging setting.
+	 *
+	 * Use for non-error conditions the merchant should see — e.g. a fallback being
+	 * triggered because the primary input was invalid.
+	 *
+	 * @param string $message Message to log.
+	 * @param array  $data    Additional contextual data (e.g., array( 'source' => 'shipstation' ) ).
+	 *
+	 * @return void
+	 */
+	public static function warning( string $message, array $data = array() ): void {
+		self::init();
+
+		self::$logger->warning( $message, self::get_merged_data( $data ) );
+	}
+
+	/**
+	 * Handles error logging or reporting with a message and optional associated data.
+	 *
+	 * @param string $message The error message to log or report.
+	 * @param array  $data    Optional additional data relevant to the error.
+	 *
+	 * @return void
+	 */
+	public static function error( string $message, array $data = array() ): void {
+		self::init();
+
+		self::$logger->error( $message, self::get_merged_data( $data ) );
+	}
+}

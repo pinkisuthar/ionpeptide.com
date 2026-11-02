@@ -1,0 +1,263 @@
+# Copyright (C) 2026 YITH
+# This file is distributed under the same license as the YITH Infinite Scrolling package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Infinite Scrolling 2.12.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/yith-infinite-scrolling\n"
+"POT-Creation-Date: 2026-08-26 11:32:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.4\n"
+
+#: includes/class.yith-infs-admin.php:163
+msgid "General Settings"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:165
+msgid "Set the general behaviour of the plugin."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:172
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:175
+msgid "Sections"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:179
+msgid "Add sections and set its options."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:314
+msgid "Enable an infinite scrolling feature on your products and posts."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:319
+msgid "Create a section where you want to apply the infinite scrolling effect"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:320
+msgid "...and embark on this new adventure!"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:346
+msgid "Infinite sections"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:347
+msgid ""
+"Do not be restricted to choose if you want to activate the scrolling in the "
+"comments, in the shop\r\n"
+"\t\t\t\t\tproducts or in the posts of your blog. You can create infinite "
+"sections for the contents of your\r\n"
+"\t\t\t\t\tsite and have a settings panel for each of these. "
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:352
+msgid "The loader as you want"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:353
+msgid ""
+"Four different loader types for the scrolling of your page, and in case you "
+"are not pleased by them,\r\n"
+"\t\t\t\t\tyou can always load a custom one with the related button."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:357
+msgid "Types of pagination"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:358
+msgid ""
+"The Infinite scrolling is not the only option for the paging of you "
+"contents. You can choose to load\r\n"
+"\t\t\t\t\tthem gradually in the same page with the related button, or offer "
+"an Ajax paging to your users."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:362
+msgid "Loading effect"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:363
+msgid ""
+"Choose the animation effect you want for the loading of the contents of "
+"your section. You can choose\r\n"
+"\t\t\t\t\tamong seven different options."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:367
+msgid "Page URL"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:368
+msgid ""
+"The main purpose of the infinite scrolling is to allow users to consult "
+"several pages contents\r\n"
+"\t\t\t\t\twithout waiting for the new loading of the webpage. Now, page url "
+"becomes dynamic too thanks to its\r\n"
+"\t\t\t\t\tautomatic update when the contents of next page are loaded."
+msgstr ""
+
+#: init.php:32
+msgid ""
+"You can't activate the free version of YITH Infinite Scrolling while you "
+"are using the premium one."
+msgstr ""
+
+#: plugin-options/general-options.php:19
+msgid "Plugin options"
+msgstr ""
+
+#: plugin-options/general-options.php:21
+msgid "Enable the plugin and set sections."
+msgstr ""
+
+#: plugin-options/general-options.php:26
+msgid "Enable Infinite Scrolling on mobile devices"
+msgstr ""
+
+#: plugin-options/general-options.php:34
+msgid "Navigation Selector"
+msgstr ""
+
+#: plugin-options/general-options.php:35
+msgid "The selector containing your theme's navigation."
+msgstr ""
+
+#: plugin-options/general-options.php:46
+msgid "Next Selector"
+msgstr ""
+
+#: plugin-options/general-options.php:47
+msgid "The link to the next page with content."
+msgstr ""
+
+#: plugin-options/general-options.php:58
+msgid "Item Selector"
+msgstr ""
+
+#: plugin-options/general-options.php:59
+msgid "The selector containing a single post or product."
+msgstr ""
+
+#: plugin-options/general-options.php:70
+msgid "Content Selector"
+msgstr ""
+
+#: plugin-options/general-options.php:71
+msgid "The selector containing your theme's content."
+msgstr ""
+
+#: plugin-options/general-options.php:82
+msgid "Loader"
+msgstr ""
+
+#: plugin-options/general-options.php:83
+msgid "Upload a custom loader."
+msgstr ""
+
+#: plugin-options/video-box.php:13
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr ""
+
+#: plugin-options/video-box.php:17
+msgid "Discover the Advanced Features"
+msgstr ""
+
+#: plugin-options/video-box.php:18
+msgid ""
+"Upgrade to the PREMIUM VERSION of YITH Infinite Scrolling to benefit from "
+"all features!"
+msgstr ""
+
+#: plugin-options/video-box.php:24
+msgid "Get Support and Pro Features"
+msgstr ""
+
+#: plugin-options/video-box.php:25
+msgid ""
+"By purchasing the premium version of the plugin, you will take advantage of "
+"the advanced features of the product and you will get one year of free "
+"updates and support through our platform available 24h/24."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>YITH Infinite Scrolling</strong></code> plugin lets you "
+"easily add infinite scroll on your pages. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:211
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Search"
+msgid ""
+"Add an <strong>intelligent search engine</strong> to your store so that "
+"your customers can quickly find the products they are looking for."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:223
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Gift Cards"
+msgid "Sell gift cards to increase your store's revenue and win new customers."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:235
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Product "
+"Filter"
+msgid ""
+"Help your customers to easily find the products they are looking for and "
+"improve the user experience of your shop."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:247
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Wishlist"
+msgid ""
+"Allow your customers to create lists of products they want and share them "
+"with family and friends."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:259
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Product "
+"Add-Ons"
+msgid ""
+"Add paid or free advanced options to your product pages using fields like "
+"radio buttons, checkboxes, drop-downs, custom text inputs, and more."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:271
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Request a "
+"Quote"
+msgid ""
+"Hide prices and/or the \"Add to cart\" button and let your customers "
+"request a custom quote for every product."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:283
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Dynamic "
+"Pricing & Discounts"
+msgid ""
+"The best-selling plugin for creating promotions and upsell strategies in "
+"your store: 3x2, 2x1, BOGO, free products in the cart, quantity discounts, "
+"last-minute offers, and more."
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:296
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Customize My "
+"Account"
+msgid ""
+"Customize the My Account page of your customers by creating custom sections "
+"with promotions and ad-hoc content based on your needs."
+msgstr ""

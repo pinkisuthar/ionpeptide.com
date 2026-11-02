@@ -1,0 +1,1777 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zorem Returns\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-14 05:53+0000\n"
+"PO-Revision-Date: 2025-11-12 10:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: Gujarati\n"
+"Language: gu\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.3.23\n"
+"X-Domain: zorem-returns"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:539
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:538
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:582
+msgid " at "
+msgstr "ખાતે"
+
+#. %1$s is total price (formatted), %2$d is quantity, %3$s is "item"/"items"
+#: includes/class-return-exchange-common.php:122
+#, php-format
+msgid "%1$s for %2$d %3$s"
+msgstr "%2$d %3$s માટે %1$s"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:929
+#: includes/zorem-returns/class-return-common-functions.php:834
+msgid ""
+". We truly appreciate your business and look forward to serving you again "
+"soon."
+msgstr ""
+". અમે ખરેખર તમારા વ્યવસાયની પ્રશંસા કરીએ છીએ અને ટૂંક સમયમાં ફરીથી તમારી "
+"સેવા કરવા આતુર છીએ."
+
+#: includes/class-return-exchange-admin.php:677
+#: includes/zorem-exchanges/class-exchange-common-functions.php:928
+msgid ""
+"<strong>Exchange Guidelines:</strong><ul><li>Securely package the item you "
+"are returning for exchange to prevent damage during transit. Use the "
+"original packaging if possible.</li><li>Use a reliable shipping service to "
+"send the package back to us. We recommend a service that provides tracking "
+"information. This helps ensure the package reaches us safely and allows you "
+"to track its status.</li><li>After shipping your exchange package, please "
+"notify us by replying to the initial email or contacting our support team "
+"with the tracking number.</li><li>Upon receiving the exchanged items, we "
+"will inspect them to ensure they meet our exchange policy criteria. If the "
+"items are in good condition and meet the criteria, we will process the "
+"exchange.</li><li>Once the exchange is approved, we will ship the "
+"replacement item to you. You will receive a confirmation email with tracking "
+"information once the new item is dispatched.</li><li>Exchanges will be "
+"processed within 5-7 business days of receiving the returned items. The "
+"shipping time for the new item may vary depending on your location.</li></ul>"
+msgstr ""
+"<strong>એક્સચેન્જ માર્ગદર્શિકા:</strong><ul><li>ટ્રાન્સપોર્ટ દરમિયાન નુકસાન "
+"અટકાવવા માટે તમે જે વસ્તુ પરત કરી રહ્યા છો તેને સુરક્ષિત રીતે પેકેજ કરો. "
+"શક્ય હોય તો મૂળ પેકેજિંગનો ઉપયોગ કરો.</li><li>પેકેજ અમને પાછું મોકલવા માટે "
+"વિશ્વસનીય શિપિંગ સેવાનો ઉપયોગ કરો. અમે એવી સેવાની ભલામણ કરીએ છીએ જે ટ્રેકિંગ "
+"માહિતી પ્રદાન કરે છે. આ ખાતરી કરવામાં મદદ કરે છે કે પેકેજ અમને સુરક્ષિત રીતે "
+"પહોંચે છે અને તમને તેની સ્થિતિ ટ્રેક કરવાની મંજૂરી આપે છે.</li><li>તમારા "
+"એક્સચેન્જ પેકેજને શિપિંગ કર્યા પછી, કૃપા કરીને પ્રારંભિક ઇમેઇલનો જવાબ આપીને "
+"અથવા ટ્રેકિંગ નંબર સાથે અમારી સપોર્ટ ટીમનો સંપર્ક કરીને અમને સૂચિત કરો.</li>"
+"<li>એક્સચેન્જ કરેલી વસ્તુઓ પ્રાપ્ત કર્યા પછી, અમે તેમની તપાસ કરીશું કે તેઓ "
+"અમારા એક્સચેન્જ નીતિ માપદંડોને પૂર્ણ કરે છે. જો વસ્તુઓ સારી સ્થિતિમાં હોય "
+"અને માપદંડોને પૂર્ણ કરે છે, તો અમે એક્સચેન્જની પ્રક્રિયા કરીશું.</li><li>"
+"એક્સચેન્જ મંજૂર થયા પછી, અમે રિપ્લેસમેન્ટ આઇટમ તમને મોકલીશું. નવી વસ્તુ "
+"મોકલ્યા પછી તમને ટ્રેકિંગ માહિતી સાથેનો પુષ્ટિકરણ ઇમેઇલ પ્રાપ્ત થશે.</li><li>"
+"પાછલી વસ્તુઓ પ્રાપ્ત થયાના 5-7 કાર્યકારી દિવસોમાં એક્સચેન્જની પ્રક્રિયા "
+"કરવામાં આવશે. નવી વસ્તુ માટે શિપિંગ સમય તમારા સ્થાનના આધારે બદલાઈ શકે છે."
+"</li></ul>"
+
+#: includes/class-return-exchange-admin.php:613
+#: includes/zorem-returns/class-return-common-functions.php:833
+#| msgid ""
+#| "<strong>Return Guidelines:</strong><ul><li>Ensure all items being "
+#| "returned are securely packaged to prevent damage during transit.</li><li>"
+#| "Use a reliable shipping service to send the package back to us. We "
+#| "recommend using a service that provides tracking information.</li><li>"
+#| "Once your return package is shipped, please notify us by replying to this "
+#| "email with the tracking number.</li><li>Upon receiving the returned items,"
+#| " we will inspect them to ensure they meet our return policy criteria.</li>"
+#| "<li>Refunds or store credits will be processed within 5-7 business days "
+#| "of receiving the returned items.</li></ul>"
+msgid ""
+"<strong>Return Guidelines:</strong><ul><li>Ensure all items being returned "
+"are securely packaged to prevent damage during transit.</li><li>Use a "
+"reliable shipping service to send the package back to us. We recommend using "
+"a service that provides tracking information.</li><li>Once your return "
+"package is shipped, please notify us by replying to this email with the "
+"tracking number.</li><li>Upon receiving the returned items, we will inspect "
+"them to ensure they meet our return policy criteria.</li><li>Refunds or "
+"store credits will be processed within 5–7 business days of receiving the "
+"returned items.</li></ul>"
+msgstr ""
+"<strong>રીટર્ન માર્ગદર્શિકા:</strong><ul><li>રીટર્ન દરમિયાન નુકસાન અટકાવવા "
+"માટે પરત કરવામાં આવતી બધી વસ્તુઓ સુરક્ષિત રીતે પેક કરવામાં આવે તેની ખાતરી "
+"કરો.</li><li>પેકેજ અમને પાછું મોકલવા માટે વિશ્વસનીય શિપિંગ સેવાનો ઉપયોગ કરો. "
+"અમે ટ્રેકિંગ માહિતી પ્રદાન કરતી સેવાનો ઉપયોગ કરવાની ભલામણ કરીએ છીએ.</li><li>"
+"એકવાર તમારું રીટર્ન પેકેજ મોકલાઈ જાય, પછી કૃપા કરીને ટ્રેકિંગ નંબર સાથે આ "
+"ઇમેઇલનો જવાબ આપીને અમને સૂચિત કરો.</li><li>રીટર્ન આઇટમ્સ પ્રાપ્ત થયા પછી, "
+"અમે ખાતરી કરીશું કે તે અમારા રીટર્ન પોલિસી માપદંડોને પૂર્ણ કરે છે.</li><li>"
+"રીટર્ન આઇટમ્સ પ્રાપ્ત થયાના 5-7 કાર્યકારી દિવસોમાં રિફંડ અથવા સ્ટોર "
+"ક્રેડિટ્સ પર પ્રક્રિયા કરવામાં આવશે.</li></ul>"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:896
+#| msgid "A new exchange request has been received:"
+msgid "A New Exchange Request Has Been Received"
+msgstr "એક નવી વિનિમય વિનંતી પ્રાપ્ત થઈ છે:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:897
+#| msgid "New Exchange Request Received"
+msgid "A new exchange request received:"
+msgstr "નવી એક્સચેન્જ વિનંતી પ્રાપ્ત થઈ"
+
+#: includes/zorem-returns/class-return-common-functions.php:801
+#| msgid "A new return request has been received:"
+msgid "A New Return Request Has Been Received"
+msgstr "નવી પરત વિનંતી પ્રાપ્ત થઈ છે:"
+
+#: includes/zorem-returns/class-return-common-functions.php:802
+#| msgid "New Return Request Received"
+msgid "A new return request received:"
+msgstr "નવી પરત કરવાની વિનંતી પ્રાપ્ત થઈ"
+
+#: includes/class-return-exchange-common.php:96
+#: includes/admin-html/returns-exchanges-center.php:48
+msgid "Actions"
+msgstr "ક્રિયાઓ"
+
+#: includes/admin-html/returns-exchanges-license-form.php:26
+#: includes/admin-html/returns-exchanges-license-form.php:28
+#: includes/admin-html/returns-exchanges-license-form.php:30
+msgid "Activate License"
+msgstr "લાઇસન્સ સક્રિય કરો"
+
+#: includes/admin-html/returns-exchanges-license-form.php:27
+#: includes/admin-html/returns-exchanges-license-form.php:31
+msgid "Activate your license to receive automatic updates and premium support."
+msgstr ""
+"ઓટોમેટિક અપડેટ્સ અને પ્રીમિયમ સપોર્ટ મેળવવા માટે તમારા લાઇસન્સ સક્રિય કરો."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:180
+msgid "Add a note for exchange approval or rejection..."
+msgstr "વિનિમય મંજૂરી અથવા અસ્વીકાર માટે એક નોંધ ઉમેરો..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:319
+msgid "Add a note for exchange approval..."
+msgstr "વિનિમય મંજૂરી માટે એક નોંધ ઉમેરો..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:321
+msgid "Add a note for exchange rejection..."
+msgstr "એક્સચેન્જ અસ્વીકાર માટે એક નોંધ ઉમેરો..."
+
+#: includes/zorem-returns/class-return-common-functions.php:192
+msgid "Add a note for return approval or rejection..."
+msgstr "પરત કરવાની મંજૂરી અથવા અસ્વીકાર માટે એક નોંધ ઉમેરો..."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:257
+msgid "Add a note for return approval..."
+msgstr "પરત મંજૂરી માટે એક નોંધ ઉમેરો..."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:259
+msgid "Add a note for return rejection..."
+msgstr "પરત અસ્વીકાર માટે એક નોંધ ઉમેરો..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:316
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:254
+msgid "Add a note..."
+msgstr "નોંધ ઉમેરો..."
+
+#: includes/class-return-exchange-admin.php:688
+msgid ""
+"Add or remove custom reasons that customers can select when requesting an "
+"exchange."
+msgstr ""
+"એક્સચેન્જની વિનંતી કરતી વખતે ગ્રાહકો પસંદ કરી શકે તેવા કસ્ટમ કારણો ઉમેરો "
+"અથવા દૂર કરો."
+
+#: includes/class-return-exchange-admin.php:624
+msgid ""
+"Add or remove custom reasons that customers can select when requesting an "
+"return."
+msgstr ""
+"ગ્રાહકો રિટર્નની વિનંતી કરતી વખતે પસંદ કરી શકે તેવા કસ્ટમ કારણો ઉમેરો અથવા "
+"દૂર કરો."
+
+#: templates/emails/customer-coupon-email.php:40
+msgid "Add products to your cart."
+msgstr "તમારા કાર્ટમાં ઉત્પાદનો ઉમેરો."
+
+#: includes/class-return-exchange-admin.php:623
+#: includes/class-return-exchange-admin.php:687
+msgid "Add Reason"
+msgstr "કારણ ઉમેરો"
+
+#: includes/customizer/customizer-admin.php:420
+#| msgid "Additional content"
+msgid "Additional Content"
+msgstr "વધારાની સામગ્રી"
+
+#: includes/admin-html/returns-exchanges-center.php:27
+msgid "All Orders"
+msgstr "બધા ઓર્ડર"
+
+#: includes/class-return-exchange-admin.php:653
+msgid "Allow exchanges for sale products"
+msgstr "વેચાણ ઉત્પાદનો માટે વિનિમયની મંજૂરી આપો"
+
+#: includes/class-return-exchange-admin.php:667
+#| msgid "Allow partial exchange"
+msgid "Allow Partial Exchange"
+msgstr "આંશિક વિનિમયની મંજૂરી આપો"
+
+#: includes/class-return-exchange-admin.php:584
+#| msgid "Allow partial return"
+msgid "Allow Partial Return"
+msgstr "આંશિક વળતરની મંજૂરી આપો"
+
+#: includes/class-return-exchange-admin.php:570
+#| msgid "Allow returns for sale products"
+msgid "Allow Returns for Sale Products"
+msgstr "વેચાણ ઉત્પાદનો માટે પરત કરવાની મંજૂરી આપો"
+
+#: includes/class-return-exchange-admin.php:761
+msgid ""
+"Allow the customer to keep this item when a return or exchange is requested"
+msgstr ""
+"જ્યારે પરત અથવા વિનિમયની વિનંતી કરવામાં આવે ત્યારે ગ્રાહકને આ વસ્તુ રાખવાની "
+"મંજૂરી આપો."
+
+#: includes/class-return-exchange-admin.php:657
+msgid "Allows customers to request exchanges for items purchased on sale"
+msgstr ""
+"ગ્રાહકોને વેચાણ પર ખરીદેલી વસ્તુઓ માટે એક્સચેન્જની વિનંતી કરવાની મંજૂરી આપે "
+"છે."
+
+#: includes/class-return-exchange-admin.php:671
+msgid ""
+"Allows customers to request partial exchanges for individual items in an "
+"order."
+msgstr ""
+"ગ્રાહકોને ઓર્ડરમાં વ્યક્તિગત વસ્તુઓ માટે આંશિક વિનિમયની વિનંતી કરવાની મંજૂરી "
+"આપે છે."
+
+#: includes/class-return-exchange-admin.php:588
+msgid ""
+"Allows customers to request partial return for individual items in an order."
+msgstr ""
+"ગ્રાહકોને ઓર્ડરમાં વ્યક્તિગત વસ્તુઓ માટે આંશિક વળતરની વિનંતી કરવાની મંજૂરી "
+"આપે છે."
+
+#: includes/class-return-exchange-admin.php:574
+msgid "Allows customers to request return for items purchased on sale"
+msgstr ""
+"ગ્રાહકોને વેચાણ પર ખરીદેલી વસ્તુઓ પરત કરવાની વિનંતી કરવાની મંજૂરી આપે છે."
+
+#: templates/emails/admin-exchange-approved.php:38
+#: templates/emails/admin-exchange-approved.php:39
+#: templates/emails/admin-return-requested.php:38
+#: templates/emails/admin-return-requested.php:39
+#: templates/emails/admin-exchange-requested.php:38
+#: templates/emails/admin-exchange-requested.php:39
+#: templates/emails/admin-exchange-cancelled.php:38
+#: templates/emails/admin-exchange-cancelled.php:39
+#: templates/emails/admin-return-approved.php:38
+#: templates/emails/admin-return-approved.php:39
+#: templates/emails/admin-return-cancelled.php:38
+#: templates/emails/admin-return-cancelled.php:39
+msgid "Already purchased the product"
+msgstr "પહેલેથી જ ઉત્પાદન ખરીદી લીધું છે"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:182
+#: includes/zorem-returns/class-return-common-functions.php:195
+msgid "Approve"
+msgstr "મંજૂર કરો"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:327
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:332
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:332
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:596
+msgid "Approve this exchange request"
+msgstr "આ એક્સચેન્જ વિનંતીને મંજૂરી આપો"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:265
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:270
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:270
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:653
+msgid "Approve this return request"
+msgstr "આ પરત કરવાની વિનંતી મંજૂર કરો"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:905
+#: includes/zorem-exchanges/class-exchange-common-functions.php:926
+msgid "Approved Exchange Items"
+msgstr "મંજૂર એક્સચેન્જ વસ્તુઓ"
+
+#: includes/zorem-returns/class-return-common-functions.php:810
+#: includes/zorem-returns/class-return-common-functions.php:831
+msgid "Approved Return Items"
+msgstr "મંજૂર રીટર્ન વસ્તુઓ"
+
+#: templates/emails/customer-coupon-email.php:41
+#| msgid "During checkout, enter the coupon code "
+msgid "At checkout, enter the coupon code"
+msgstr "ચેકઆઉટ દરમિયાન, કૂપન કોડ દાખલ કરો"
+
+#: includes/admin-html/returns-exchanges-center.php:47
+msgid "Attachments"
+msgstr "જોડાણો"
+
+#: includes/class-return-exchange-admin.php:660
+msgid "Automatically Approve Exchange Requests"
+msgstr "એક્સચેન્જ વિનંતીઓને આપમેળે મંજૂર કરો"
+
+#: includes/class-return-exchange-admin.php:577
+msgid "Automatically Approve Return Requests"
+msgstr "પરત કરવાની વિનંતીઓ આપમેળે મંજૂર કરો"
+
+#: includes/customizer/customizer-admin.php:434
+msgid "Available Placeholders:"
+msgstr "ઉપલબ્ધ પ્લેસહોલ્ડર્સ:"
+
+#: templates/emails/customer-coupon-email.php:39
+msgid "Browse and add your favorite products to the cart."
+msgstr "બ્રાઉઝ કરો અને તમારા મનપસંદ ઉત્પાદનોને કાર્ટમાં ઉમેરો."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:699
+#: includes/zorem-returns/class-return-common-functions.php:1175
+#: includes/zorem-returns/class-return-front.php:404
+msgid "Cancel Request"
+msgstr "વિનંતી રદ કરો"
+
+#: includes/class-return-exchange-admin.php:734
+#| msgid "Change status to Partial Return"
+msgid "Change status to partial return"
+msgstr "સ્થિતિને આંશિક વળતરમાં બદલો"
+
+#: includes/class-return-exchange-admin.php:733
+#| msgid "Change status to Return"
+msgid "Change status to return"
+msgstr "સ્થિતિને પરત કરો"
+
+#: includes/class-return-exchange-admin.php:520
+msgid ""
+"Choose a page that outlines your return/exchange terms and conditions. This "
+"page will be shown to customers during the return request process."
+msgstr ""
+"તમારા રિટર્ન/એક્સચેન્જ નિયમો અને શરતો દર્શાવતું પેજ પસંદ કરો. રિટર્ન વિનંતી "
+"પ્રક્રિયા દરમિયાન ગ્રાહકોને આ પેજ બતાવવામાં આવશે."
+
+#: includes/class-return-exchange-admin.php:458
+msgid "City"
+msgstr "શહેર"
+
+#: includes/admin-html/returns-exchanges-license-form.php:32
+msgid "Connect & Activate"
+msgstr "કનેક્ટ કરો અને સક્રિય કરો"
+
+#: includes/admin-html/returns-exchanges-center.php:45
+msgid "Customer"
+msgstr "ગ્રાહક"
+
+#: templates/emails/admin-exchange-approved.php:60
+#: templates/emails/admin-return-requested.php:59
+#: templates/emails/admin-exchange-requested.php:59
+#: templates/emails/admin-exchange-cancelled.php:59
+#: templates/emails/admin-return-approved.php:60
+#: templates/emails/admin-return-cancelled.php:59
+msgid "Customer Email:"
+msgstr "ગ્રાહક ઇમેઇલ:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:497
+msgid "Customer Message:"
+msgstr "ગ્રાહક સંદેશ:"
+
+#. %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:33
+#: templates/emails/admin-return-requested.php:33
+#: templates/emails/admin-exchange-requested.php:33
+#: templates/emails/admin-exchange-cancelled.php:33
+#: templates/emails/admin-return-approved.php:33
+#: templates/emails/admin-return-cancelled.php:33
+msgid "Customer Name: "
+msgstr "ગ્રાહકનું નામ:"
+
+#: templates/emails/admin-return-requested.php:71
+#: templates/emails/admin-return-approved.php:72
+#: templates/emails/admin-return-cancelled.php:71
+#: includes/zorem-returns/class-return-common-functions.php:179
+msgid "Customer’s Reason for Return:"
+msgstr "ગ્રાહકનું પરત કરવાનું કારણ:"
+
+#: includes/customizer/customizer-admin.php:133
+msgid "Customizing"
+msgstr "કસ્ટમાઇઝ કરી રહ્યા છીએ"
+
+#: includes/admin-html/returns-exchanges-license-form.php:21
+msgid "Deactivate"
+msgstr "નિષ્ક્રિય કરો"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:609
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:666
+msgid "Delete"
+msgstr "કાઢી નાખો"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:213
+#: includes/zorem-returns/htmls/returns-center-form.php:216
+msgid "Describe the issue with the product"
+msgstr "પ્રોડક્ટમાં રહેલી સમસ્યાનું વર્ણન કરો"
+
+#: includes/class-return-exchange-admin.php:503
+msgid "Eligible Order Statuses for Returns/Exchanges"
+msgstr "રિટર્ન/એક્સચેન્જ માટે યોગ્ય ઓર્ડર સ્થિતિઓ"
+
+#: includes/customizer/customizer-admin.php:375
+#| msgid "Email content"
+msgid "Email Content"
+msgstr "ઇમેઇલ સામગ્રી"
+
+#: includes/customizer/customizer-admin.php:362
+#| msgid "Email heading"
+msgid "Email Heading"
+msgstr "ઇમેઇલ મથાળું"
+
+#: includes/class-return-exchange-admin.php:233
+#: includes/class-return-exchange-admin.php:234
+#: includes/admin-html/header.php:14
+msgid "Email Notifications"
+msgstr "ઇમેઇલ સૂચનાઓ"
+
+#: includes/customizer/customizer-admin.php:349
+msgid "Email Subject"
+msgstr "ઇમેઇલ વિષય"
+
+#: includes/customizer/customizer-admin.php:334
+#| msgid "Email type"
+msgid "Email Type"
+msgstr "ઇમેઇલ પ્રકાર"
+
+#: includes/class-return-exchange-admin.php:646
+msgid "Enable Exchange Requests"
+msgstr "એક્સચેન્જ વિનંતીઓ સક્ષમ કરો"
+
+#: includes/class-return-exchange-admin.php:650
+msgid "Enable or disable the exchange request option for customers."
+msgstr "ગ્રાહકો માટે એક્સચેન્જ વિનંતી વિકલ્પને સક્ષમ અથવા અક્ષમ કરો."
+
+#: includes/class-return-exchange-admin.php:664
+msgid "Enable this option to automatically approve all new exchange requests."
+msgstr ""
+"બધી નવી એક્સચેન્જ વિનંતીઓને આપમેળે મંજૂર કરવા માટે આ વિકલ્પને સક્ષમ કરો."
+
+#: includes/class-return-exchange-admin.php:581
+msgid "Enable this option to automatically approve all new return requests."
+msgstr "બધી નવી પરત વિનંતીઓને આપમેળે મંજૂર કરવા માટે આ વિકલ્પને સક્ષમ કરો."
+
+#: includes/class-return-exchange-admin.php:500
+msgid ""
+"Enable this option to automatically restock items when a return or exchange "
+"is approved."
+msgstr ""
+"જ્યારે રિટર્ન અથવા એક્સચેન્જ મંજૂર થાય ત્યારે વસ્તુઓ આપમેળે ફરીથી સ્ટોક કરવા "
+"માટે આ વિકલ્પને સક્ષમ કરો."
+
+#: includes/class-return-exchange-admin.php:607
+msgid ""
+"Enable this option to include the original shipping fee in the customer's "
+"refund."
+msgstr ""
+"ગ્રાહકના રિફંડમાં મૂળ શિપિંગ ફીનો સમાવેશ કરવા માટે આ વિકલ્પને સક્ષમ કરો."
+
+#: templates/emails/customer-coupon-email.php:42
+msgid "Enjoy your discount!"
+msgstr "તમારા ડિસ્કાઉન્ટનો આનંદ માણો!"
+
+#: includes/class-return-exchange-admin.php:543
+msgid ""
+"Enter the store address where customers should send return or exchange items."
+msgstr ""
+"ગ્રાહકોએ જ્યાં વસ્તુઓ પરત મોકલવી અથવા એક્સચેન્જ કરવી તે દુકાનનું સરનામું "
+"દાખલ કરો."
+
+#: includes/admin-html/returns-exchanges-center.php:16
+#| msgid "Exchange approved"
+msgid "Exchange Approved"
+msgstr "એક્સચેન્જ મંજૂર થયું"
+
+#: includes/admin-html/returns-exchanges-emails.php:20
+#: includes/customizer/customizer-admin.php:327
+msgid "Exchange Approved (Customer)"
+msgstr "એક્સચેન્જ મંજૂર (ગ્રાહક)"
+
+#: templates/emails/admin-exchange-approved.php:73
+#: templates/emails/customer-exchange-approved.php:38
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:307
+#: includes/zorem-exchanges/class-exchange-common-functions.php:509
+msgid "Exchange Approved Note:"
+msgstr "એક્સચેન્જ મંજૂર નોંધ:"
+
+#: includes/admin-html/returns-exchanges-center.php:18
+#| msgid "Exchange cancelled"
+msgid "Exchange Cancelled"
+msgstr "એક્સચેન્જ રદ થયું"
+
+#: includes/zorem-exchanges/class-exchange-front.php:103
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:17
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:19
+msgid "Exchange Entire Order"
+msgstr "સમગ્ર ઓર્ડરનું વિનિમય કરો"
+
+#: includes/class-return-exchange-admin.php:674
+#: includes/zorem-exchanges/class-exchange-common-functions.php:927
+#| msgid "Exchange guidelines"
+msgid "Exchange Guidelines"
+msgstr "વિનિમય માર્ગદર્શિકા"
+
+#: templates/emails/admin-exchange-approved.php:72
+#: templates/emails/admin-exchange-requested.php:71
+#: templates/emails/admin-exchange-cancelled.php:71
+msgid "Exchange Issue"
+msgstr "એક્સચેન્જ ઇશ્યૂ"
+
+#: includes/zorem-exchanges/class-exchange-front.php:103
+#: includes/zorem-exchanges/class-exchange-front.php:207
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:594
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:9
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:11
+msgid "Exchange Item"
+msgstr "વસ્તુની આપ-લે કરો"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:152
+#: includes/zorem-exchanges/class-exchange-common-functions.php:891
+#: includes/zorem-exchanges/class-exchange-common-functions.php:898
+msgid "Exchange Items Summary"
+msgstr "એક્સચેન્જ વસ્તુઓનો સારાંશ"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:303
+#| msgid "Exchanges message:"
+msgid "Exchange Message:"
+msgstr "સંદેશાઓની આપ-લે:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:961
+msgid "Exchange Parent Order"
+msgstr "એક્સચેન્જ પેરેન્ટ ઓર્ડર"
+
+#: templates/emails/admin-exchange-approved.php:68
+#: templates/emails/admin-exchange-approved.php:70
+#: templates/emails/admin-exchange-requested.php:67
+#: templates/emails/admin-exchange-requested.php:69
+#: templates/emails/admin-exchange-cancelled.php:67
+#: templates/emails/admin-exchange-cancelled.php:69
+#| msgid "Exchange reason"
+msgid "Exchange Reason"
+msgstr "વિનિમય કારણ"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:300
+#: includes/zorem-exchanges/class-exchange-common-functions.php:483
+#| msgid "Exchanges reason:"
+msgid "Exchange Reason:"
+msgstr "વિનિમયનું કારણ:"
+
+#: includes/class-return-exchange-admin.php:681
+#| msgid "Exchange reasons"
+msgid "Exchange Reasons"
+msgstr "વિનિમય કારણો"
+
+#: includes/admin-html/returns-exchanges-center.php:17
+#| msgid "Exchange rejected"
+msgid "Exchange Rejected"
+msgstr "એક્સચેન્જ નકારવામાં આવી"
+
+#: includes/admin-html/returns-exchanges-emails.php:21
+#: includes/customizer/customizer-admin.php:328
+msgid "Exchange Rejected (Customer)"
+msgstr "એક્સચેન્જ નકારવામાં આવ્યું (ગ્રાહક)"
+
+#. %s: Customer billing full name
+#: templates/emails/customer-exchange-rejected.php:38
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:311
+#: includes/zorem-exchanges/class-exchange-common-functions.php:507
+msgid "Exchange Rejected Note:"
+msgstr "એક્સચેન્જ નકારાયેલ નોંધ:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:94
+#| msgid "Exchange request "
+msgid "Exchange Request "
+msgstr "એક્સચેન્જ વિનંતી"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:902
+msgid "Exchange Request Approved"
+msgstr "એક્સચેન્જ વિનંતી મંજૂર થઈ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:923
+msgid "Exchange Request Approved - Instructions for Return"
+msgstr "વિનિમય વિનંતી મંજૂર - પરત કરવા માટેની સૂચનાઓ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:903
+msgid "Exchange Request Approved – Return Instructions Inside"
+msgstr "એક્સચેન્જ વિનંતી મંજૂર - પરત કરવાની સૂચનાઓ અંદર"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:909
+#: includes/zorem-exchanges/class-exchange-common-functions.php:910
+msgid "Exchange Request Cancelled"
+msgstr "વિનિમય વિનંતી રદ કરવામાં આવી"
+
+#: includes/admin-html/returns-exchanges-emails.php:19
+#: includes/customizer/customizer-admin.php:326
+msgid "Exchange Request Received (Customer)"
+msgstr "એક્સચેન્જ વિનંતી પ્રાપ્ત થઈ (ગ્રાહક)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:888
+msgid "Exchange Request Received – We're Reviewing Your Request!"
+msgstr ""
+"એક્સચેન્જ વિનંતી પ્રાપ્ત થઈ - અમે તમારી વિનંતીની સમીક્ષા કરી રહ્યા છીએ!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:916
+msgid "Exchange Request Rejected – Order Not Eligible"
+msgstr "એક્સચેન્જ વિનંતી નકારી - ઓર્ડર પાત્ર નથી"
+
+#: includes/admin-html/returns-exchanges-center.php:15
+#| msgid "Exchange requested"
+msgid "Exchange Requested"
+msgstr "વિનિમયની વિનંતી કરી"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:57
+msgid "Exchange Requests"
+msgstr "વિનિમય વિનંતીઓ"
+
+#: includes/admin-html/returns-exchanges-settings.php:51
+msgid "Exchange Settings"
+msgstr "એક્સચેન્જ સેટિંગ્સ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:142
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:112
+msgid "Exchange With"
+msgstr "સાથે વિનિમય કરો"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:255
+#: includes/zorem-exchanges/class-exchange-common-functions.php:518
+msgid "Exchanged Product Summary"
+msgstr "વિનિમયિત ઉત્પાદન સારાંશ"
+
+#: templates/emails/admin-exchange-approved.php:40
+#: templates/emails/admin-exchange-requested.php:40
+#: templates/emails/admin-exchange-cancelled.php:40
+msgid "Exchanges request details"
+msgstr "એક્સચેન્જ વિનંતી વિગતો"
+
+#: includes/class-return-exchange-admin.php:523
+msgid "Exclude Categories from Returns/Exchanges"
+msgstr "રિટર્ન/એક્સચેન્જમાંથી શ્રેણીઓ બાકાત રાખો"
+
+#: includes/admin-html/returns-exchanges-settings.php:14
+msgid "General Settings"
+msgstr "સામાન્ય સેટિંગ્સ"
+
+#: templates/emails/customer-coupon-email.php:37
+msgid "How to Use Your Store Credit:"
+msgstr "તમારા સ્ટોર ક્રેડિટનો ઉપયોગ કેવી રીતે કરવો:"
+
+#. Author URI of the plugin
+msgid "http://www.zorem.com/"
+msgstr "http://www.zorem.com/"
+
+#. URI of the plugin
+msgid "https://www.zorem.com/plugins/"
+msgstr "https://www.zorem.com/પ્લગઇન્સ/"
+
+#. %1$s: opening anchor tag, %2$s: closing anchor tag
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:230
+#: includes/zorem-returns/htmls/returns-center-form.php:254
+#, php-format
+msgid "I agree to the %1$sterms and conditions%2$s."
+msgstr "હું %1$sની શરતો અને નિયમો%2$s સાથે સંમત છું."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:904
+msgid ""
+"I wanted to inform you that the exchange request for order #{order_number} "
+"has been approved by the admin. Below are the details:"
+msgstr ""
+"હું તમને જણાવવા માંગુ છું કે ઓર્ડર #{order_number} ની એક્સચેન્જ વિનંતી એડમિન "
+"દ્વારા મંજૂર કરવામાં આવી છે. નીચે વિગતો છે:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:911
+msgid ""
+"I wanted to inform you that the exchange request for order #{order_number} "
+"has been cancelled by the customer. Below are the details:"
+msgstr ""
+"હું તમને જણાવવા માંગુ છું કે ગ્રાહક દ્વારા ઓર્ડર #{order_number} ની "
+"એક્સચેન્જ વિનંતી રદ કરવામાં આવી છે. નીચે વિગતો આપેલ છે:"
+
+#: includes/zorem-returns/class-return-common-functions.php:809
+msgid ""
+"I wanted to inform you that the return request for order #{order_number} has "
+"been approved by the admin. Below are the details:"
+msgstr ""
+"હું તમને જણાવવા માંગુ છું કે ઓર્ડર #{order_number} પરત કરવાની વિનંતી એડમિન "
+"દ્વારા મંજૂર કરવામાં આવી છે. નીચે વિગતો આપેલ છે:"
+
+#: includes/zorem-returns/class-return-common-functions.php:816
+msgid ""
+"I wanted to inform you that the return request for order #{order_number} has "
+"been cancelled by the customer. Below are the details:"
+msgstr ""
+"હું તમને જણાવવા માંગુ છું કે ગ્રાહક દ્વારા ઓર્ડર #{order_number} પરત કરવાની "
+"વિનંતી રદ કરવામાં આવી છે. નીચે વિગતો આપેલ છે:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:929
+msgid ""
+"If you have any questions or concerns about your exchange, feel free to "
+"contact our customer support team at [Customer Support Email/Phone Number]."
+"<br><br>Thank you for choosing"
+msgstr ""
+"જો તમને તમારા એક્સચેન્જ વિશે કોઈ પ્રશ્નો અથવા ચિંતાઓ હોય, તો [ગ્રાહક સપોર્ટ "
+"ઇમેઇલ/ફોન નંબર] પર અમારી ગ્રાહક સપોર્ટ ટીમનો સંપર્ક કરવા માટે નિઃસંકોચ રહો."
+"<br><br>પસંદ કરવા બદલ આભાર"
+
+#: includes/zorem-returns/class-return-common-functions.php:834
+msgid ""
+"If you have any questions or concerns about your return, feel free to "
+"contact our customer support team at [Customer Support Email/Phone Number]."
+"<br><br>Thank you for choosing "
+msgstr ""
+"જો તમને તમારા રિટર્ન વિશે કોઈ પ્રશ્નો કે ચિંતાઓ હોય, તો [ગ્રાહક સપોર્ટ "
+"ઇમેઇલ/ફોન નંબર] પર અમારી ગ્રાહક સપોર્ટ ટીમનો સંપર્ક કરવા માટે નિઃસંકોચ રહો."
+"<br><br>પસંદ કરવા બદલ આભાર"
+
+#: includes/class-return-exchange-admin.php:603
+msgid "Include Shipping Cost in Refund"
+msgstr "રિફંડમાં શિપિંગ ખર્ચનો સમાવેશ કરો"
+
+#: includes/zorem-exchanges/class-exchange-front.php:81
+msgid "Invalid order."
+msgstr "અમાન્ય ઓર્ડર."
+
+#: includes/class-return-exchange-admin.php:777
+msgid "Invalid request. Security check failed."
+msgstr "અમાન્ય વિનંતી. સુરક્ષા તપાસ નિષ્ફળ ગઈ."
+
+#: includes/class-return-exchange-common.php:125
+msgid "item"
+msgid_plural "items"
+msgstr[0] "વસ્તુ"
+msgstr[1] "વસ્તુઓ"
+
+#: includes/admin-html/returns-exchanges-center.php:46
+msgid "Items"
+msgstr "વસ્તુઓ"
+
+#: includes/zorem-returns/class-return-common-functions.php:1062
+#: includes/zorem-returns/class-return-front.php:366
+msgid "Items Approved for Return"
+msgstr "પરત કરવા માટે મંજૂર કરાયેલી વસ્તુઓ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:912
+msgid "Items from Cancelled Exchange Request"
+msgstr "રદ કરાયેલ વિનિમય વિનંતીમાંથી વસ્તુઓ"
+
+#: includes/zorem-returns/class-return-common-functions.php:817
+msgid "Items from Cancelled Return Request"
+msgstr "રદ કરાયેલ પરત વિનંતીમાંથી વસ્તુઓ"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:242
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:246
+#: includes/zorem-returns/htmls/returns-center-form.php:265
+#: includes/zorem-returns/htmls/returns-center-form.php:269
+msgid "I’ll Keep This Item"
+msgstr "હું આ વસ્તુ રાખીશ."
+
+#: includes/class-return-exchange-admin.php:760
+#| msgid "Keep the item"
+msgid "Keep the Item"
+msgstr "વસ્તુ રાખો."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:925
+msgid "Kindly return the exchange item(s) to the following address"
+msgstr "કૃપા કરીને એક્સચેન્જ વસ્તુઓ નીચેના સરનામે પરત કરો."
+
+#: includes/zorem-returns/class-return-common-functions.php:830
+msgid "Kindly return the item(s) to the following address"
+msgstr "કૃપા કરીને નીચેના સરનામે વસ્તુ(ઓ) પરત કરો."
+
+#: includes/class-return-exchange-admin.php:131
+#: includes/class-return-exchange-admin.php:132
+#: includes/class-return-exchange-admin.php:235
+#: includes/class-return-exchange-admin.php:236
+#: includes/admin-html/header.php:15
+msgid "License"
+msgstr "લાઇસન્સ"
+
+#: includes/class-return-exchange-common.php:88
+msgid "My Returns & Exchanges"
+msgstr "મારા રિટર્ન અને એક્સચેન્જ"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:279
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:290
+msgid "N/A"
+msgstr "લાગુ નથી"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:895
+msgid "New Exchange Request Received – Order"
+msgstr "નવી એક્સચેન્જ વિનંતી પ્રાપ્ત થઈ - ઓર્ડર"
+
+#: includes/zorem-returns/class-return-common-functions.php:800
+msgid "New Return Request Received – Order"
+msgstr "નવી રીટર્ન વિનંતી પ્રાપ્ત થઈ - ઓર્ડર"
+
+#. %s: replace with settings page url
+#: includes/class-return-exchange-license.php:328
+#, php-format
+msgid ""
+"Opps! your <strong>Returns for WooCommerce</strong> licence key is not "
+"activated. To buy license %1$s click here %2$s to activate it."
+msgstr ""
+"અરેરે! તમારી <strong>WooCommerce માટે રિટર્ન</strong> લાઇસન્સ કી સક્રિય થયેલ "
+"નથી. લાઇસન્સ %1$s ખરીદવા માટે અહીં ક્લિક કરો %2$s તેને સક્રિય કરવા માટે."
+
+#: includes/class-return-exchange-common.php:96
+msgid "Order"
+msgstr "ઓર્ડર"
+
+#. %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:31
+#: templates/emails/admin-return-requested.php:31
+#: templates/emails/admin-exchange-requested.php:31
+#: templates/emails/admin-exchange-cancelled.php:31
+#: templates/emails/admin-return-approved.php:31
+#: templates/emails/admin-return-cancelled.php:31
+#: includes/admin-html/returns-exchanges-center.php:41
+msgid "Order Date"
+msgstr "ઓર્ડર તારીખ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:968
+msgid "Order not found."
+msgstr "ઓર્ડર મળ્યો નથી."
+
+#. %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:29
+#: templates/emails/admin-return-requested.php:29
+#: templates/emails/admin-exchange-requested.php:29
+#: templates/emails/admin-exchange-cancelled.php:29
+#: templates/emails/admin-return-approved.php:29
+#: templates/emails/admin-return-cancelled.php:29
+#| msgid "Order Number: "
+msgid "Order Number"
+msgstr "ઓર્ડર નંબર:"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:259
+#: includes/zorem-exchanges/class-exchange-common-functions.php:134
+#: includes/zorem-exchanges/class-exchange-common-functions.php:523
+msgid "Original Item (Ordered)"
+msgstr "મૂળ વસ્તુ (ઓર્ડર કરેલી)"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:202
+#: includes/zorem-returns/htmls/returns-center-form.php:205
+msgid "Other (add details below)"
+msgstr "અન્ય (નીચે વિગતો ઉમેરો)"
+
+#: includes/class-return-exchange-admin.php:725
+msgid "Partial Return"
+msgstr "આંશિક વળતર"
+
+#: includes/class-return-exchange-admin.php:701
+msgctxt "Partial Return"
+msgid "Partial Return"
+msgstr "આંશિક વળતર"
+
+#. %s: search term
+#: includes/class-return-exchange-admin.php:707
+#, php-format
+msgid "Partial Return <span class=\"count\">(%s)</span>"
+msgid_plural "Partial Return <span class=\"count\">(%s)</span>"
+msgstr[0] "આંશિક વળતર <span class=\"count\">(%s)</span>"
+msgstr[1] "આંશિક વળતર <span class=\"count\">(%s)</span>"
+
+#: includes/class-return-exchange-admin.php:473
+msgid "Phone Number"
+msgstr "ફોન નંબર"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:233
+#: includes/zorem-returns/htmls/returns-center-form.php:257
+#| msgid "Please agree to the terms and conditions before submitting."
+msgid ""
+"Please agree to the terms and conditions before submitting your request."
+msgstr "સબમિટ કરતા પહેલા કૃપા કરીને નિયમો અને શરતો સાથે સંમત થાઓ."
+
+#. %s: search for a tag
+#: zorem-returns.php:212
+#, php-format
+msgid "Please install and activate %1$sWooCommerce%2$s for Zorem Returns."
+msgstr ""
+"કૃપા કરીને Zorem Returns માટે %1$sWooCommerce%2$s ઇન્સ્ટોલ કરો અને સક્રિય "
+"કરો."
+
+#: includes/customizer/customizer-admin.php:139
+msgid "Please save your changes before sending a test email."
+msgstr "કૃપા કરીને ટેસ્ટ ઈમેલ મોકલતા પહેલા તમારા ફેરફારો સાચવો."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:187
+#: includes/zorem-returns/htmls/returns-center-form.php:176
+msgid "Please select at least one product."
+msgstr "કૃપા કરીને ઓછામાં ઓછું એક ઉત્પાદન પસંદ કરો."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:175
+msgid "Please select the minimum quantity required for return."
+msgstr "કૃપા કરીને પરત કરવા માટે જરૂરી ન્યૂનતમ જથ્થો પસંદ કરો."
+
+#: includes/class-return-exchange-admin.php:468
+msgid "Postcode / ZIP"
+msgstr "પોસ્ટકોડ / ઝીપ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:139
+#: includes/zorem-exchanges/class-exchange-common-functions.php:166
+#: includes/zorem-returns/class-return-common-functions.php:166
+msgid "Price"
+msgstr "કિંમત"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:277
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:288
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:228
+msgid "Price:"
+msgstr "કિંમત:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:136
+#: includes/zorem-exchanges/class-exchange-common-functions.php:163
+#: includes/zorem-exchanges/class-exchange-common-functions.php:205
+#: includes/zorem-returns/class-return-common-functions.php:154
+#: includes/zorem-returns/class-return-common-functions.php:219
+msgid "Product Name"
+msgstr "ઉત્પાદન નામ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:206
+#: includes/zorem-returns/class-return-common-functions.php:220
+msgid "Product Price"
+msgstr "ઉત્પાદન કિંમત"
+
+#: includes/zorem-returns/class-return-front.php:101
+#: includes/zorem-returns/class-return-front.php:124
+#: includes/zorem-returns/class-return-front.php:124
+#: includes/zorem-returns/htmls/returns-center-form.php:9
+#: includes/zorem-returns/htmls/returns-center-form.php:11
+msgid "Product Selected for Return"
+msgstr "પરત કરવા માટે પસંદ કરેલ ઉત્પાદન"
+
+#: includes/zorem-returns/class-return-common-functions.php:427
+msgid "Products"
+msgstr "પ્રોડક્ટ્સ"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:35
+#: includes/zorem-returns/htmls/returns-center-form.php:37
+#: includes/zorem-returns/htmls/guest-return-center-form.php:24
+msgid "Products in This Order"
+msgstr "આ ક્રમમાં ઉત્પાદનો"
+
+#: includes/class-return-exchange-admin.php:531
+#| msgid "Products that are not eligible for returns/exchanges"
+msgid "Products Not Eligible for Returns/Exchanges"
+msgstr "એવા ઉત્પાદનો કે જે વળતર/વિનિમય માટે પાત્ર નથી"
+
+#: includes/class-return-exchange-admin.php:614
+msgid ""
+"Provide detailed guidelines that customers must follow when returning items."
+msgstr ""
+"ગ્રાહકોએ વસ્તુઓ પરત કરતી વખતે જે વિગતવાર માર્ગદર્શિકાઓનું પાલન કરવું જોઈએ તે "
+"પ્રદાન કરો."
+
+#: includes/class-return-exchange-admin.php:678
+msgid ""
+"Provide detailed guidelines that customers must follow when sending items "
+"for exchange."
+msgstr ""
+"એક્સચેન્જ માટે વસ્તુઓ મોકલતી વખતે ગ્રાહકોએ અનુસરવા જોઈએ તેવી વિગતવાર "
+"માર્ગદર્શિકા પ્રદાન કરો."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:98
+#: includes/zorem-returns/htmls/returns-center-form.php:97
+#: includes/zorem-returns/htmls/returns-center-form.php:161
+#: includes/zorem-returns/htmls/guest-return-center-form.php:78
+msgid "Qty. "
+msgstr "જથ્થો."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:276
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:287
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:227
+msgid "Qty:"
+msgstr "જથ્થો:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:138
+#: includes/zorem-exchanges/class-exchange-common-functions.php:165
+#: includes/zorem-returns/class-return-common-functions.php:162
+#| msgid "Quantity:"
+msgid "Quantity"
+msgstr "જથ્થો"
+
+#: templates/emails/customer-coupon-email.php:49
+msgid "Ready to start shopping?"
+msgstr "ખરીદી શરૂ કરવા માટે તૈયાર છો?"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:194
+#| msgid "Reason for Return:"
+msgid "Reason for Return"
+msgstr "પરત કરવાનું કારણ:"
+
+#: includes/customizer/customizer-admin.php:136
+msgid "Recipient Email Address(es) (separate multiple with commas)"
+msgstr "પ્રાપ્તકર્તાનું ઇમેઇલ સરનામું (બહુવિધને અલ્પવિરામથી અલગ કરો)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:684
+msgid "Refund"
+msgstr "રિફંડ"
+
+#: includes/class-return-exchange-admin.php:591
+#| msgid "Refund method preferences"
+msgid "Refund Method Preferences"
+msgstr "રિફંડ પદ્ધતિ પસંદગીઓ"
+
+#: includes/class-return-exchange-admin.php:557
+#: includes/zorem-returns/htmls/returns-center-form.php:242
+msgid "Refund to Original Payment Method"
+msgstr "મૂળ ચુકવણી પદ્ધતિમાં રિફંડ"
+
+#: includes/class-return-exchange-admin.php:556
+#: includes/zorem-returns/htmls/returns-center-form.php:235
+#| msgid "Refund to store credit"
+msgid "Refund to Store Credit"
+msgstr "સ્ટોર ક્રેડિટમાં રિફંડ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:183
+#: includes/zorem-returns/class-return-common-functions.php:198
+msgid "Reject"
+msgstr "નકારો"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:329
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:331
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:331
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:601
+#| msgid "Reject the exchange"
+msgid "Reject Exchange"
+msgstr "એક્સચેન્જ નકારો"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:267
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:269
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:269
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:658
+#| msgid "Reject the return"
+msgid "Reject Return"
+msgstr "રિટર્ન નકારો"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:919
+#| msgid "Requested Exchange Items"
+msgid "Rejected Exchange Items"
+msgstr "વિનંતી કરેલ એક્સચેન્જ વસ્તુઓ"
+
+#: includes/zorem-returns/class-return-common-functions.php:824
+#| msgid "Requested Return Items"
+msgid "Rejected Return Items"
+msgstr "પરત કરવા માટે વિનંતી કરેલી વસ્તુઓ"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:259
+msgid "Request a Return"
+msgstr "પરત કરવાની વિનંતી કરો"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:236
+#| msgid "Request a Exchange"
+msgid "Request an Exchange"
+msgstr "એક્સચેન્જની વિનંતી કરો"
+
+#: includes/class-return-exchange-common.php:96
+#: includes/admin-html/returns-exchanges-center.php:40
+msgid "Request ID"
+msgstr "વિનંતી ID"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:260
+#: includes/zorem-exchanges/class-exchange-common-functions.php:161
+#: includes/zorem-exchanges/class-exchange-common-functions.php:524
+msgid "Requested Item (Exchange)"
+msgstr "વિનંતી કરેલી વસ્તુ (એક્સચેન્જ)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:207
+msgid "Requested Quantity"
+msgstr "વિનંતી કરેલ જથ્થો"
+
+#: includes/class-return-exchange-admin.php:496
+msgid "Restock Approved Returns and Exchanges"
+msgstr "રિસ્ટોક મંજૂર રિટર્ન અને એક્સચેન્જ"
+
+#: includes/class-return-exchange-admin.php:724
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:547
+#: includes/zorem-returns/class-return-front.php:220
+#: includes/zorem-returns/htmls/guest-return-center-form.php:88
+msgid "Return"
+msgstr "પરત"
+
+#: includes/class-return-exchange-admin.php:711
+msgctxt "Return"
+msgid "Return"
+msgstr "પરત"
+
+#: includes/class-return-exchange-common.php:63
+msgid "Return & Exchange"
+msgstr "પરત અને વિનિમય"
+
+#. %s: search term
+#: includes/class-return-exchange-admin.php:717
+#, php-format
+msgid "Return <span class=\"count\">(%s)</span>"
+msgid_plural "Return <span class=\"count\">(%s)</span>"
+msgstr[0] "પરત <span class=\"count\">(%s)</span>"
+msgstr[1] "પરત <span class=\"count\">(%s)</span>"
+
+#: includes/customizer/customizer-admin.php:315
+#| msgid "Return & Exchange Emails"
+msgid "Return and Exchange Emails"
+msgstr "પરત કરો અને ઇમેઇલ્સ બદલો"
+
+#: includes/admin-html/returns-exchanges-center.php:12
+#| msgid "Return approved"
+msgid "Return Approved"
+msgstr "રિટર્ન મંજૂર થયું"
+
+#: includes/admin-html/returns-exchanges-emails.php:17
+#: includes/customizer/customizer-admin.php:324
+msgid "Return Approved (Customer)"
+msgstr "પરત મંજૂર (ગ્રાહક)"
+
+#: templates/emails/customer-return-approved.php:38
+#: templates/emails/admin-return-approved.php:73
+#: includes/zorem-returns/class-return-common-functions.php:183
+#: includes/zorem-returns/class-return-common-functions.php:1053
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:245
+#: includes/zorem-returns/class-return-front.php:357
+msgid "Return Approved Note:"
+msgstr "પરત મંજૂર નોંધ:"
+
+#: includes/admin-html/returns-exchanges-center.php:14
+#| msgid "Return cancelled"
+msgid "Return Cancelled"
+msgstr "પરત કરવાની પ્રક્રિયા રદ કરી"
+
+#: includes/class-return-exchange-admin.php:610
+#: includes/zorem-returns/class-return-common-functions.php:832
+#| msgid "Return guidelines"
+msgid "Return Guidelines"
+msgstr "પરત કરવા માટેની માર્ગદર્શિકા"
+
+#: includes/zorem-returns/class-return-common-functions.php:796
+#: includes/zorem-returns/class-return-common-functions.php:803
+msgid "Return Items Requested"
+msgstr "વિનંતી કરેલી વસ્તુઓ પરત કરો"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:241
+msgid "Return Message:"
+msgstr "જવાબ સંદેશ:"
+
+#: includes/zorem-returns/htmls/guest-return-center-form.php:98
+msgid "Return Order"
+msgstr "ઓર્ડર પરત કરો"
+
+#: includes/zorem-returns/class-return-common-functions.php:221
+msgid "Return Quantity"
+msgstr "પરત કરવાની માત્રા"
+
+#: templates/emails/admin-return-requested.php:67
+#: templates/emails/admin-return-requested.php:69
+#: templates/emails/admin-return-approved.php:68
+#: templates/emails/admin-return-approved.php:70
+#: templates/emails/admin-return-cancelled.php:67
+#: templates/emails/admin-return-cancelled.php:69
+#: includes/zorem-returns/class-return-common-functions.php:176
+#| msgid "Return reason"
+msgid "Return Reason"
+msgstr "પરત કરવાનું કારણ"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:238
+msgid "Return Reason:"
+msgstr "પરત કરવાનું કારણ:"
+
+#: includes/class-return-exchange-admin.php:617
+#| msgid "Return reasons"
+msgid "Return Reasons"
+msgstr "પરત કરવાના કારણો"
+
+#: includes/admin-html/returns-exchanges-center.php:13
+#| msgid "Return rejected"
+msgid "Return Rejected"
+msgstr "પરત કરવાનો અસ્વીકાર કર્યો"
+
+#: includes/admin-html/returns-exchanges-emails.php:18
+#: includes/customizer/customizer-admin.php:325
+msgid "Return Rejected (Customer)"
+msgstr "પરત નકારાયેલ (ગ્રાહક)"
+
+#. %s: Customer billing full name
+#: templates/emails/customer-return-rejected.php:38
+#: includes/zorem-returns/class-return-common-functions.php:187
+#: includes/zorem-returns/class-return-common-functions.php:1051
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:249
+#: includes/zorem-returns/class-return-front.php:355
+msgid "Return Rejected Note:"
+msgstr "નકારાયેલ નોંધ પરત કરો:"
+
+#: includes/zorem-returns/class-return-common-functions.php:98
+#| msgid "Return request "
+msgid "Return Request "
+msgstr "પરત કરવાની વિનંતી"
+
+#: includes/zorem-returns/class-return-common-functions.php:807
+#: includes/zorem-returns/class-return-common-functions.php:808
+msgid "Return Request Approved"
+msgstr "પરત કરવાની વિનંતી મંજૂર થઈ"
+
+#: includes/zorem-returns/class-return-common-functions.php:828
+msgid "Return Request Approved – Instructions for Sending Items Back"
+msgstr "પરત કરવાની વિનંતી મંજૂર - વસ્તુઓ પાછી મોકલવા માટેની સૂચનાઓ"
+
+#: includes/zorem-returns/class-return-common-functions.php:814
+#: includes/zorem-returns/class-return-common-functions.php:815
+msgid "Return Request Cancelled"
+msgstr "પરત કરવાની વિનંતી રદ કરવામાં આવી"
+
+#: templates/emails/admin-return-requested.php:40
+#: templates/emails/admin-return-approved.php:40
+#: templates/emails/admin-return-cancelled.php:40
+#| msgid "Returns request details"
+msgid "Return Request Details"
+msgstr "વિનંતીની વિગતો પરત કરે છે"
+
+#: includes/admin-html/returns-exchanges-emails.php:16
+#: includes/customizer/customizer-admin.php:323
+msgid "Return Request Received (Customer)"
+msgstr "પરત કરવાની વિનંતી પ્રાપ્ત થઈ (ગ્રાહક)"
+
+#: includes/admin-html/returns-exchanges-center.php:11
+#| msgid "Return requested"
+msgid "Return Requested"
+msgstr "પરત કરવાની વિનંતી કરી"
+
+#: includes/zorem-returns/class-return-common-functions.php:55
+msgid "Return Requests"
+msgstr "પરત કરવાની વિનંતીઓ"
+
+#: includes/admin-html/returns-exchanges-settings.php:34
+msgid "Return Settings"
+msgstr "રીટર્ન સેટિંગ્સ"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:692
+#: includes/zorem-returns/class-return-common-functions.php:1167
+msgid "Return Shipping Address"
+msgstr "પરત શિપિંગ સરનામું"
+
+#: includes/class-return-exchange-admin.php:538
+#| msgid "Return/Exchange store address"
+msgid "Return/Exchange Store Address"
+msgstr "રીટર્ન/એક્સચેન્જ સ્ટોરનું સરનામું"
+
+#: includes/class-return-exchange-admin.php:487
+msgid "Return/Exchange Window (Days)"
+msgstr "રીટર્ન/એક્સચેન્જ વિન્ડો (દિવસો)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:218
+msgid "Returned Item (Ordered)"
+msgstr "પરત કરેલી વસ્તુ (ઓર્ડર કરેલી)"
+
+#: includes/zorem-returns/class-return-common-functions.php:148
+msgid "Returned Items"
+msgstr "પરત કરેલી વસ્તુઓ"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:157
+msgid "Returned Product Summary"
+msgstr "પરત કરેલ ઉત્પાદન સારાંશ"
+
+#: includes/class-return-exchange-admin.php:74
+msgid "Returns Center"
+msgstr "રિટર્ન સેન્ટર"
+
+#: includes/class-return-exchange-admin.php:182
+#: includes/class-return-exchange-admin.php:183
+#: includes/admin-html/header.php:22 includes/admin-html/header.php:26
+msgid "Returns Dashboard"
+msgstr "ડેશબોર્ડ પરત કરે છે"
+
+#: includes/zorem-returns/class-return-common-functions.php:1041
+#: includes/zorem-returns/class-return-front.php:345
+msgid "Returns message:"
+msgstr "સંદેશ પરત કરે છે:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1027
+#: includes/zorem-returns/class-return-front.php:331
+msgid "Returns reason:"
+msgstr "પરત કરવાનું કારણ:"
+
+#: includes/zorem-returns/class-return-common-functions.php:361
+#: includes/admin-html/returns-exchanges-settings.php:17
+#: includes/admin-html/returns-exchanges-settings.php:37
+#: includes/admin-html/returns-exchanges-settings.php:54
+#: includes/customizer/customizer-admin.php:131
+msgid "Save Changes"
+msgstr "ફેરફારો સાચવો"
+
+#: includes/admin-html/returns-exchanges-center.php:32
+#| msgid "Search Order ID"
+msgid "Search by Order ID"
+msgstr "ઓર્ડર ID શોધો"
+
+#: includes/zorem-returns/class-return-common-functions.php:427
+msgid "Search for a product..."
+msgstr "ઉત્પાદન શોધો..."
+
+#: includes/customizer/customizer-admin.php:391
+msgid "Section Title for Exchanged Items"
+msgstr "એક્સચેન્જ કરેલી વસ્તુઓ માટે વિભાગ શીર્ષક"
+
+#: includes/customizer/customizer-admin.php:405
+msgid "Section Title for Returned Items"
+msgstr "પરત કરેલી વસ્તુઓ માટે વિભાગ શીર્ષક"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:191
+msgid "Select a Reason for Exchange"
+msgstr "વિનિમય માટેનું કારણ પસંદ કરો"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:228
+msgid "Select a Return Resolution"
+msgstr "રીટર્ન રિઝોલ્યુશન પસંદ કરો"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:136
+msgid "Select an Option"
+msgstr "એક વિકલ્પ પસંદ કરો"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:120
+msgid "Select Exchange Variant"
+msgstr "એક્સચેન્જ વેરિઅન્ટ પસંદ કરો"
+
+#: includes/class-return-exchange-admin.php:528
+msgid ""
+"Select product categories that are not eligible for return or exchange "
+"requests."
+msgstr ""
+"એવી પ્રોડક્ટ શ્રેણીઓ પસંદ કરો જે રિટર્ન અથવા એક્સચેન્જ વિનંતીઓ માટે યોગ્ય "
+"નથી."
+
+#: includes/class-return-exchange-admin.php:511
+#| msgid "Select terms and conditions page"
+msgid "Select Terms and Conditions Page"
+msgstr "નિયમો અને શરતો પૃષ્ઠ પસંદ કરો"
+
+#: includes/class-return-exchange-admin.php:600
+msgid "Select the available refund methods you want to offer customers."
+msgstr "તમે ગ્રાહકોને ઓફર કરવા માંગો છો તે ઉપલબ્ધ રિફંડ પદ્ધતિઓ પસંદ કરો."
+
+#: includes/class-return-exchange-admin.php:508
+msgid ""
+"Select the order statuses that allow customers to request a return or "
+"exchange."
+msgstr ""
+"ગ્રાહકોને રિટર્ન અથવા એક્સચેન્જની વિનંતી કરવાની મંજૂરી આપતી ઓર્ડર સ્થિતિઓ "
+"પસંદ કરો."
+
+#: includes/class-return-exchange-admin.php:535
+msgid ""
+"Select the products that are not eligible for return or exchange requests."
+msgstr "એવા ઉત્પાદનો પસંદ કરો જે પરત અથવા વિનિમય વિનંતીઓ માટે યોગ્ય નથી."
+
+#: includes/customizer/customizer-admin.php:137
+msgid "Send"
+msgstr "મોકલો"
+
+#: includes/customizer/customizer-admin.php:134
+#: includes/customizer/customizer-admin.php:135
+msgid "Send Test Email"
+msgstr "ટેસ્ટ ઇમેઇલ મોકલો"
+
+#: includes/class-return-exchange-admin.php:493
+msgid ""
+"Set the number of days customers are allowed to request a return or exchange "
+"after the order is placed."
+msgstr ""
+"ઓર્ડર આપ્યા પછી ગ્રાહકોને રિટર્ન અથવા એક્સચેન્જની વિનંતી કરવાની મંજૂરી આપેલા "
+"દિવસોની સંખ્યા સેટ કરો."
+
+#: includes/class-return-exchange-admin.php:231
+#: includes/class-return-exchange-admin.php:232
+#: includes/admin-html/header.php:13 includes/admin-html/header.php:32
+msgid "Settings"
+msgstr "સેટિંગ્સ"
+
+#: includes/customizer/customizer-admin.php:138
+msgid "Settings Successfully Saved."
+msgstr "સેટિંગ્સ સફળતાપૂર્વક સાચવી."
+
+#: includes/zorem-returns/class-return-front.php:99
+#: includes/zorem-returns/class-return-front.php:122
+#: includes/zorem-returns/class-return-front.php:122
+#: includes/zorem-returns/class-return-front.php:181
+#: includes/zorem-returns/htmls/returns-center-form.php:17
+#: includes/zorem-returns/htmls/returns-center-form.php:19
+#: includes/zorem-returns/htmls/guest-return-center-form.php:2
+msgid "Start a Return"
+msgstr "રીટર્ન શરૂ કરો"
+
+#: includes/zorem-exchanges/class-exchange-front.php:172
+msgid "Start an Exchange"
+msgstr "એક્સચેન્જ શરૂ કરો"
+
+#: includes/class-return-exchange-common.php:96
+#: includes/zorem-exchanges/class-exchange-common-functions.php:100
+#: includes/zorem-returns/class-return-common-functions.php:141
+#: includes/admin-html/returns-exchanges-center.php:43
+#: includes/admin-html/returns-exchanges-license-form.php:16
+msgid "Status"
+msgstr "સ્થિતિ"
+
+#: includes/class-return-exchange-admin.php:448
+#| msgid "Store address line"
+msgid "Store Address Line 1"
+msgstr "સ્ટોર સરનામાં રેખા"
+
+#: includes/class-return-exchange-admin.php:453
+#| msgid "Store address line 2"
+msgid "Store Address Line 2"
+msgstr "સ્ટોર સરનામાં લાઇન 2"
+
+#: templates/emails/customer-coupon-email.php:46
+msgid "Store credit is redeemable exclusively on our website."
+msgstr "સ્ટોર ક્રેડિટ ફક્ત અમારી વેબસાઇટ પર જ રિડીમ કરી શકાય છે."
+
+#: templates/emails/customer-coupon-email.php:44
+msgid "Terms and Conditions:"
+msgstr "નિયમો અને શરત:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:892
+#: includes/zorem-exchanges/class-exchange-common-functions.php:899
+#: includes/zorem-exchanges/class-exchange-common-functions.php:906
+#: includes/zorem-exchanges/class-exchange-common-functions.php:913
+#: includes/zorem-exchanges/class-exchange-common-functions.php:920
+#: includes/zorem-returns/class-return-common-functions.php:797
+#: includes/zorem-returns/class-return-common-functions.php:804
+#: includes/zorem-returns/class-return-common-functions.php:811
+#: includes/zorem-returns/class-return-common-functions.php:818
+#: includes/zorem-returns/class-return-common-functions.php:825
+msgid "Thank you"
+msgstr "આભાર"
+
+#: includes/zorem-returns/class-return-common-functions.php:795
+#| msgid ""
+#| "Thank you for submitting your return request!<br><br>We've received your "
+#| "request and are currently reviewing it. We'll get back to you with an "
+#| "update as soon as possible."
+msgid ""
+"Thank you for submitting your return request!<br><br>We’ve received your "
+"request and our team is currently reviewing it. You’ll hear from us with an "
+"update as soon as possible."
+msgstr ""
+"તમારી પરત કરવાની વિનંતી સબમિટ કરવા બદલ આભાર!<br><br>અમને તમારી વિનંતી મળી છે "
+"અને હાલમાં અમે તેની સમીક્ષા કરી રહ્યા છીએ. અમે શક્ય તેટલી વહેલી તકે અપડેટ "
+"સાથે તમારો સંપર્ક કરીશું."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:890
+msgid ""
+"Thank you for your exchange request!<br><br>We've received your request and "
+"are currently reviewing it. You'll receive an update once it's processed."
+msgstr ""
+"તમારી વિનિમય વિનંતી બદલ આભાર!<br><br>અમને તમારી વિનંતી મળી છે અને હાલમાં "
+"તેની સમીક્ષા કરી રહ્યા છીએ. એકવાર તેની પ્રક્રિયા થઈ જાય પછી તમને અપડેટ "
+"પ્રાપ્ત થશે."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:460
+msgid ""
+"The exchange request has been rejected. Unfortunately, this order is not "
+"eligible for exchange based on our return/exchange policy."
+msgstr ""
+"એક્સચેન્જ વિનંતી નકારવામાં આવી છે. કમનસીબે, અમારી રિટર્ન/એક્સચેન્જ નીતિના "
+"આધારે આ ઓર્ડર એક્સચેન્જ માટે પાત્ર નથી."
+
+#: includes/zorem-returns/class-return-common-functions.php:1004
+#: includes/zorem-returns/class-return-front.php:307
+msgid ""
+"The return request has been rejected. Unfortunately, this order is not "
+"eligible for return based on our return/exchange policy."
+msgstr ""
+"પરત કરવાની વિનંતી નકારવામાં આવી છે. કમનસીબે, અમારી પરત/વિનિમય નીતિના આધારે આ "
+"ઓર્ડર પરત કરવા યોગ્ય નથી."
+
+#: templates/emails/customer-coupon-email.php:47
+msgid "This credit does not apply to shipping fees."
+msgstr "આ ક્રેડિટ શિપિંગ ફી પર લાગુ પડતી નથી."
+
+#. 1: Order edit URL, 2: Parent order ID
+#: includes/zorem-exchanges/class-exchange-common-functions.php:980
+#, php-format
+msgid ""
+"This is an exchange order for <a href=\"%1$s\"><strong>Order #%2$d</strong>"
+"</a>."
+msgstr ""
+"આ <a href=\"%1$s\"><strong>ઓર્ડર #%2$d</strong></a> માટેનો એક્સચેન્જ ઓર્ડર "
+"છે."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:985
+msgid "This is not an exchange order (no parent found)."
+msgstr "આ કોઈ એક્સચેન્જ ઓર્ડર નથી (કોઈ પેરેન્ટ મળ્યું નથી)."
+
+#: includes/zorem-returns/class-return-front.php:139
+msgid "This item is not availabale for return"
+msgstr "આ વસ્તુ પરત કરવા માટે ઉપલબ્ધ નથી."
+
+#. Fallback: No valid data found
+#: includes/zorem-exchanges/class-exchange-front.php:131
+#| msgid "This item is not availabale for exchange"
+msgid "This item is not available for exchange."
+msgstr "આ વસ્તુ એક્સચેન્જ માટે ઉપલબ્ધ નથી."
+
+#. %s: search for a tag
+#: includes/class-return-exchange-update-manager.php:174
+#, php-format
+msgid ""
+"To receive automatic updates license activation is required. Please visit "
+"%1$ssettings%2$s to activate your Return for WooCommerce."
+msgstr ""
+"ઓટોમેટિક અપડેટ્સ મેળવવા માટે લાઇસન્સ સક્રિયકરણ જરૂરી છે. WooCommerce માટે "
+"તમારા રીટર્નને સક્રિય કરવા માટે કૃપા કરીને %1$ssettings%2$s ની મુલાકાત લો."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:539
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:538
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:582
+msgid "Today at"
+msgstr "આજે વાગ્યે"
+
+#: includes/class-return-exchange-common.php:96
+msgid "Total"
+msgstr "કુલ"
+
+#: templates/emails/admin-exchange-approved.php:41
+#: templates/emails/admin-return-requested.php:41
+#: templates/emails/admin-exchange-requested.php:41
+#: templates/emails/admin-exchange-cancelled.php:41
+#: templates/emails/admin-return-approved.php:41
+#: templates/emails/admin-return-cancelled.php:41
+msgid "Tshirt x 1"
+msgstr "ટીશર્ટ x ૧"
+
+#: includes/class-return-exchange-common.php:96
+#: includes/admin-html/returns-exchanges-center.php:44
+msgid "Type"
+msgstr "પ્રકાર"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:218
+#: includes/zorem-returns/htmls/returns-center-form.php:221
+msgid "Upload Photo"
+msgstr "ફોટો અપલોડ કરો"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:137
+#: includes/zorem-exchanges/class-exchange-common-functions.php:164
+#: includes/zorem-returns/class-return-common-functions.php:158
+#| msgid "Variation:"
+msgid "Variation"
+msgstr "વિવિધતા"
+
+#: includes/class-return-exchange-common.php:142
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:543
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:543
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:589
+msgid "View"
+msgstr "જુઓ"
+
+#: includes/zorem-exchanges/class-exchange-front.php:111
+#: includes/zorem-returns/class-return-front.php:99
+#: includes/zorem-returns/class-return-front.php:101
+#: includes/zorem-returns/class-return-front.php:122
+#: includes/zorem-returns/class-return-front.php:124
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:9
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:17
+#: includes/zorem-returns/htmls/returns-center-form.php:9
+#: includes/zorem-returns/htmls/returns-center-form.php:17
+msgid "View Order"
+msgstr "ઓર્ડર જુઓ"
+
+#: includes/admin-html/returns-exchanges-license-form.php:17
+msgid "Want to deactivate the license for any reason?"
+msgstr "કોઈપણ કારણોસર લાઇસન્સ નિષ્ક્રિય કરવા માંગો છો?"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:918
+msgid ""
+"We're sorry to inform you that your exchange request has been rejected.<br>"
+"<br> Please let us know if you have any questions or concerns."
+msgstr ""
+"અમને તમને જણાવતા દુઃખ થાય છે કે તમારી વિનિમય વિનંતી નકારવામાં આવી છે.<br><br>"
+" જો તમને કોઈ પ્રશ્નો કે ચિંતાઓ હોય તો કૃપા કરીને અમને જણાવો."
+
+#: includes/zorem-returns/class-return-common-functions.php:823
+msgid ""
+"We're sorry to inform you that your return request has been rejected.<br><br>"
+" Please let us know if you have any questions or concerns."
+msgstr ""
+"અમને તમને જણાવતા દુઃખ થાય છે કે તમારી પરત કરવાની વિનંતી નકારવામાં આવી છે.<br>"
+"<br> જો તમને કોઈ પ્રશ્નો કે ચિંતાઓ હોય તો કૃપા કરીને અમને જણાવો."
+
+#: templates/emails/customer-coupon-email.php:24
+msgid ""
+"We’re happy to let you know that your return has been approved and your "
+"refund has been issued as store credit for your convenience."
+msgstr ""
+"અમને તમને જણાવતા આનંદ થાય છે કે તમારું રિટર્ન મંજૂર થઈ ગયું છે અને તમારી "
+"સુવિધા માટે સ્ટોર ક્રેડિટ તરીકે તમારું રિફંડ જારી કરવામાં આવ્યું છે."
+
+#: includes/admin-html/header.php:22
+msgid "WooCommerce"
+msgstr "વૂકોમર્સ"
+
+#: includes/customizer/customizer-admin.php:132
+msgid "You are customizing"
+msgstr "તમે કસ્ટમાઇઝ કરી રહ્યા છો"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:169
+msgid "You can only exchange this item for a variant of equal value."
+msgstr "તમે આ વસ્તુને ફક્ત સમાન મૂલ્યના પ્રકાર માટે બદલી શકો છો."
+
+#: includes/customizer/customizer-admin.php:386
+#: includes/customizer/customizer-admin.php:431
+msgid ""
+"You can use basic HTML tags such as <p>, <strong>, <br>, <ul>, <ol>, <li>, "
+"<a>."
+msgstr ""
+"તમે મૂળભૂત HTML ટૅગ્સનો ઉપયોગ કરી શકો છો જેમ કે <p>, <strong>, <br>, <ul>, "
+"<ol>, <li>, <a>."
+
+#. %s: The formatted credit amount.
+#: templates/emails/customer-coupon-email.php:31
+#, php-format
+msgid ""
+"You can use this code during checkout to apply a credit of %s on your next "
+"purchase."
+msgstr ""
+"તમે તમારી આગામી ખરીદી પર %s ક્રેડિટ લાગુ કરવા માટે ચેકઆઉટ દરમિયાન આ કોડનો "
+"ઉપયોગ કરી શકો છો."
+
+#: includes/class-return-exchange-common.php:91
+msgid "You have no return or exchange requests yet."
+msgstr "તમારી પાસે હજુ સુધી કોઈ પરત કે વિનિમય વિનંતીઓ નથી."
+
+#. Description of the plugin
+#| msgid ""
+#| "Your customer can request for Returns form My account > Orders. If you "
+#| "are selling a virtual product and you payment getway support for "
+#| "automatic return so your custmer get instant return."
+msgid ""
+"Your customer can request for Returns form My account > Orders. If you are "
+"selling a virtual product and you payment getway support for automatic "
+"return & exchange so your custmer get instant return & exchange."
+msgstr ""
+"તમારા ગ્રાહક મારું એકાઉન્ટ > ઓર્ડર્સ દ્વારા રિટર્ન માટે વિનંતી કરી શકે છે. "
+"જો તમે વર્ચ્યુઅલ પ્રોડક્ટ વેચી રહ્યા છો અને તમે પેમેન્ટ ગેટવે સપોર્ટ આપોઆપ "
+"રિટર્ન માટે સપોર્ટ કરો છો જેથી તમારા ગ્રાહકને તાત્કાલિક રિટર્ન મળે."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:924
+#| msgid "Exchange request has been approved!"
+msgid "Your Exchange Request Has Been Approved!"
+msgstr "એક્સચેન્જ વિનંતી મંજૂર થઈ ગઈ છે!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:459
+msgid ""
+"Your exchange request has been approved. Please ship the item(s) to the "
+"return address provided."
+msgstr ""
+"તમારી એક્સચેન્જ વિનંતી મંજૂર થઈ ગઈ છે. કૃપા કરીને આપેલા પરત સરનામા પર "
+"વસ્તુ(ઓ) મોકલો."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:461
+msgid "Your exchange request has been cancelled."
+msgstr "તમારી એક્સચેન્જ વિનંતી રદ કરવામાં આવી છે."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:889
+#| msgid "Your Exchange Request Has Been Received!"
+msgid "Your Exchange Request Has Been Received"
+msgstr "તમારી એક્સચેન્જ વિનંતી પ્રાપ્ત થઈ ગઈ છે!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:917
+msgid "Your Exchange Request Has Been Rejected!"
+msgstr "તમારી એક્સચેન્જ વિનંતી નકારવામાં આવી છે!"
+
+#: includes/zorem-returns/class-return-common-functions.php:331
+#: includes/zorem-returns/class-return-common-functions.php:332
+msgid "Your Refund Has Been Issued as Store Credit!"
+msgstr "તમારું રિફંડ સ્ટોર ક્રેડિટ તરીકે જારી કરવામાં આવ્યું છે!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:458
+#: includes/zorem-returns/class-return-common-functions.php:1002
+#: includes/zorem-returns/class-return-front.php:305
+msgid ""
+"Your request has been received. Our customer service team will review it and "
+"get back to you within a few business days."
+msgstr ""
+"તમારી વિનંતી પ્રાપ્ત થઈ ગઈ છે. અમારી ગ્રાહક સેવા ટીમ તેની સમીક્ષા કરશે અને "
+"થોડા કાર્યકારી દિવસોમાં તમારો સંપર્ક કરશે."
+
+#: includes/zorem-returns/class-return-common-functions.php:829
+#| msgid "Return request has been approved!"
+msgid "Your Return Request Has Been Approved!"
+msgstr "પરત કરવાની વિનંતી મંજૂર થઈ ગઈ છે!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1003
+#: includes/zorem-returns/class-return-front.php:306
+#| msgid ""
+#| "Your return request has been approved, and Please proceed with shipping "
+#| "the return item(s) back to us."
+msgid ""
+"Your return request has been approved. Please proceed with shipping the "
+"return item(s) back to us."
+msgstr ""
+"તમારી પરત કરવાની વિનંતી મંજૂર થઈ ગઈ છે, અને કૃપા કરીને પરત કરવાની વસ્તુ(ઓ) "
+"અમને પાછી મોકલવાનું ચાલુ રાખો."
+
+#: includes/zorem-returns/class-return-common-functions.php:1005
+#: includes/zorem-returns/class-return-front.php:308
+msgid "Your return request has been cancelled."
+msgstr "તમારી પરત કરવાની વિનંતી રદ કરવામાં આવી છે."
+
+#: includes/zorem-returns/class-return-common-functions.php:793
+msgid "Your Return Request Has Been Received!"
+msgstr "તમારી પરત કરવાની વિનંતી પ્રાપ્ત થઈ ગઈ છે!"
+
+#: includes/zorem-returns/class-return-common-functions.php:821
+msgid "Your Return Request Has Been Rejected!"
+msgstr "તમારી પરત કરવાની વિનંતી નકારવામાં આવી છે!"
+
+#: includes/zorem-returns/class-return-common-functions.php:794
+msgid "Your Return Request Received!"
+msgstr "તમારી પરત કરવાની વિનંતી મળી!"
+
+#: includes/zorem-returns/class-return-common-functions.php:822
+msgid "Your Return Request Rejected!"
+msgstr "તમારી પરત કરવાની વિનંતી નકારાઈ!"
+
+#: templates/emails/customer-coupon-email.php:25
+msgid "Your Store Credit Coupon Code: "
+msgstr "તમારા સ્ટોર ક્રેડિટ કૂપન કોડ:"
+
+#. Author of the plugin
+msgid "zorem"
+msgstr "ઝોરેમ"
+
+#. Name of the plugin
+msgid "Zorem Returns"
+msgstr "ઝોરેમ રિટર્ન્સ"
+
+msgid "Email Address"
+msgstr "ઇમેઇલ સરનામું"
+
+msgid "Order ID"
+msgstr "ઓર્ડર ID"
+
+msgid "Find My Order"
+msgstr "મારો ઓર્ડર શોધો"
+
+msgid "Return Portal"
+msgstr "રિટર્ન પોર્ટલ"
+
+msgid "Let's track your order first"
+msgstr "ચાલો પહેલા તમારો ઓર્ડર ટ્રૅક કરીએ"
+
+msgid "This order number does not exist."
+msgstr "આ ઓર્ડર નંબર અસ્તિત્વમાં નથી."
+
+msgid "This email address does not match the order number."
+msgstr "આ ઇમેઇલ સરનામું ઓર્ડર નંબર સાથે મેળ ખાતું નથી."
+
+msgid "This order is not eligible for return and exchange."
+msgstr "આ ઓર્ડર રિટર્ન અને એક્સચેન્જ માટે પાત્ર નથી."
+
+msgid "A return or exchange has already been requested for this order."
+msgstr "આ ઓર્ડર માટે રિટર્ન અથવા એક્સચેન્જની વિનંતી પહેલેથી જ કરવામાં આવી છે."
+
+msgid "Invalid file type. Allowed types: %s"
+msgstr "અમાન્ય ફાઇલ પ્રકાર. માન્ય પ્રકારો: %s"
+
+msgid "File size exceeds the allowed limit (5 MB)"
+msgstr "ફાઇલનું કદ માન્ય મર્યાદા (5 MB) કરતાં વધારે છે"

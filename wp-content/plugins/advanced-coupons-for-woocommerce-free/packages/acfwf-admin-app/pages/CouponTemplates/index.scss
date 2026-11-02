@@ -1,0 +1,352 @@
+.coupon-templates-page {
+  .coupon-templates-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px 20px;
+
+    @media (max-width: 1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+    .coupon-template-card {
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      border-radius: 5px;
+      overflow: hidden;
+
+      .close-icon {
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        font-size: 0.9em;
+        color: #fff;
+        background-color: #00000028;
+        padding: 0.2em 0.5em;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #0000005c;
+        }
+      }
+
+      &:hover {
+        .close-icon {
+          opacity: 1;
+        }
+      }
+
+      .template-image {
+        position: relative;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-color: #f4f4f4;
+
+        .image-svg {
+          display: flex;
+          padding: 2em;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+
+          svg {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .premium-badge {
+          position: absolute;
+          display: inline-block;
+          bottom: 0.8em;
+          right: 0.6em;
+          padding: 0.3em 0.7em;
+          background: #3ea380;
+          color: #fff;
+          border-radius: 5px;
+          font-size: 0.8em;
+        }
+      }
+
+      .template-content {
+        padding: 10px;
+
+        h3 {
+          font-weight: bold;
+          margin: 0;
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .ant-skeleton {
+      ul.ant-skeleton-paragraph {
+        margin: 0.5em 0 0;
+
+        li {
+          margin: 0.5em 0 0;
+          height: 13px;
+        }
+      }
+    }
+  }
+
+  .templates-list-pagination {
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  .coupon-templates-sidebar {
+    background-color: #fafafa;
+    border: 1px solid #d5d5d5;
+    padding: 1em 1.3em;
+
+    .categories-list {
+      margin: 0 -0.5em;
+
+      li {
+        margin: 0;
+        border-bottom: 1px dotted #d5d5d5;
+        cursor: pointer;
+
+        span {
+          display: block;
+          padding: 0.7em 0.5em;
+          border-radius: 5px;
+          transition: all 0.3s ease-in-out;
+        }
+
+        &:hover span {
+          color: #1393a6;
+        }
+
+        &.current span {
+          background-color: #1393a6;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// fix CSS conflict with WP.
+.ant-checkbox-disabled .ant-checkbox-input {
+  opacity: 0 !important;
+}
+
+.coupon-templates-premium-modal {
+  .ant-modal-content {
+    width: 600px;
+    padding: 3em 2em;
+    text-align: center;
+
+    .acfw-logo-div {
+      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 2em;
+    }
+  }
+}
+
+// Search Filter Styles
+.coupon-templates-search-filter {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  .ant-input-affix-wrapper {
+    border-radius: 6px;
+
+    &:hover,
+    &:focus {
+      border-color: #1890ff;
+      box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    }
+  }
+
+  .ant-select {
+    .ant-select-selector {
+      border-radius: 6px;
+
+      &:hover,
+      &:focus {
+        border-color: #1890ff;
+        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+      }
+    }
+  }
+}
+
+// Sort Control Styles
+.coupon-templates-sort-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .sort-label {
+    font-size: 13px;
+    color: #666;
+    white-space: nowrap;
+  }
+
+  .ant-select {
+    min-width: 120px;
+
+    .ant-select-selection-item {
+      font-size: 13px;
+    }
+  }
+
+  .sort-order-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      border-color: #40a9ff;
+      color: #40a9ff;
+    }
+
+    &.asc {
+      .anticon {
+        color: #1890ff;
+      }
+    }
+
+    &.desc {
+      .anticon {
+        color: #1890ff;
+      }
+    }
+
+    .anticon {
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+  }
+
+  // AI Generate Button
+  .ai-generate-btn.ant-btn {
+    background: #f4e5a0 !important;
+    border: 1px solid #e5d68f !important;
+    color: #000 !important;
+    font-weight: 600;
+    border-radius: 6px !important;
+    padding: 6px 20px !important;
+    height: auto !important;
+    font-size: 15px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px;
+    box-shadow: none !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: #ead989 !important;
+      border-color: #d9c77a !important;
+      color: #000 !important;
+      box-shadow: none !important;
+    }
+
+    svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    .anticon {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+}
+
+// Coupon Templates Header Styles
+.coupon-templates-header {
+  .page-header-title-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    h1 {
+      margin: 0;
+      margin-right: 16px;
+      flex-shrink: 0;
+    }
+
+    .page-header-actions {
+      flex-shrink: 0;
+    }
+  }
+
+  // AI button styles when in header
+  .ai-generate-btn.ant-btn {
+    background: #f4e5a0 !important;
+    border: 1px solid #d4c589 !important;
+    color: #000 !important;
+    font-weight: 600;
+    border-radius: 8px !important;
+    padding: 10px 24px !important;
+    height: auto !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+    transition: all 0.2s ease !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: #fff9d9 !important;
+      border-color: #d4c589 !important;
+      color: #000 !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08) !important;
+      transform: translateY(-1px);
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    .anticon {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+
+  .ai-continue-btn.ant-btn {
+    border-radius: 6px !important;
+    padding: 6px 16px !important;
+    height: auto !important;
+    font-size: 15px !important;
+  }
+}

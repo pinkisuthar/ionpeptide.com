@@ -1,0 +1,4665 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zorem Returns\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-04 04:26+0000\n"
+"PO-Revision-Date: 2026-07-13 12:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Domain: zorem-returns\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.3.23\n"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:652
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:914
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:987
+msgid " at "
+msgstr " в "
+
+#. translators: %1$s is total price (formatted), %2$d is quantity, %3$s is
+#. "item"/"items"
+#: includes/class-return-exchange-common.php:241
+#, php-format
+msgid "%1$s for %2$d %3$s"
+msgstr "%1$s для %2$d %3$s"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1222
+#: includes/zorem-returns/class-return-common-functions.php:1238
+msgid ""
+". We truly appreciate your business and look forward to serving you again "
+"soon."
+msgstr ""
+". Мы искренне ценим то, что вы обратились к нам, и с нетерпением ждем "
+"возможности снова оказать вам услуги."
+
+#: includes/class-return-exchange-admin.php:918
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1221
+msgid ""
+"<strong>Exchange Guidelines:</strong><ul><li>Securely package the item you "
+"are returning for exchange to prevent damage during transit. Use the "
+"original packaging if possible.</li><li>Use a reliable shipping service to "
+"send the package back to us. We recommend a service that provides tracking "
+"information. This helps ensure the package reaches us safely and allows you "
+"to track its status.</li><li>After shipping your exchange package, please "
+"notify us by replying to the initial email or contacting our support team "
+"with the tracking number.</li><li>Upon receiving the exchanged items, we "
+"will inspect them to ensure they meet our exchange policy criteria. If the "
+"items are in good condition and meet the criteria, we will process the "
+"exchange.</li><li>Once the exchange is approved, we will ship the "
+"replacement item to you. You will receive a confirmation email with tracking"
+" information once the new item is dispatched.</li><li>Exchanges will be "
+"processed within 5-7 business days of receiving the returned items. The "
+"shipping time for the new item may vary depending on your "
+"location.</li></ul>"
+msgstr ""
+"<strong>Инструкции по обмену:</strong><ul><li>Надежно упакуйте возвращаемый "
+"для обмена товар, чтобы предотвратить его повреждение во время "
+"транспортировки. По возможности используйте оригинальную "
+"упаковку.</li><li>Используйте надежную службу доставки, чтобы отправить "
+"посылку обратно к нам. Мы рекомендуем службу, которая предоставляет "
+"информацию для отслеживания. Это поможет гарантировать, что посылка дойдет "
+"до нас в целости и сохранности, и позволит вам отслеживать ее "
+"статус.</li><li>После отправки посылки для обмена, пожалуйста, сообщите нам "
+"об этом, ответив на первое электронное письмо или связавшись с нашей службой"
+" поддержки и предоставив номер отслеживания.</li><li>После получения "
+"обмененных товаров мы проверим их, чтобы убедиться, что они соответствуют "
+"нашим критериям политики обмена. Если товары находятся в хорошем состоянии и"
+" соответствуют критериям, мы обработаем обмен.</li><li>После одобрения "
+"обмена мы отправим вам товар на замену. Вы получите электронное письмо с "
+"подтверждением и информацией для отслеживания после отправки нового "
+"товара.</li><li>Обмены будут обработаны в течение 5–7 рабочих дней с момента"
+" получения возвращенных товаров. Время доставки нового товара может "
+"варьироваться в зависимости от вашего местоположения.</li></ul>"
+
+#: includes/class-return-exchange-admin.php:755
+#: includes/zorem-returns/class-return-common-functions.php:1237
+msgid ""
+"<strong>Return Guidelines:</strong><ul><li>Ensure all items being returned "
+"are securely packaged to prevent damage during transit.</li><li>Use a "
+"reliable shipping service to send the package back to us. We recommend using"
+" a service that provides tracking information.</li><li>Once your return "
+"package is shipped, please notify us by replying to this email with the "
+"tracking number.</li><li>Upon receiving the returned items, we will inspect "
+"them to ensure they meet our return policy criteria.</li><li>Refunds or "
+"store credits will be processed within 5–7 business days of receiving the "
+"returned items.</li></ul>"
+msgstr ""
+"<strong>Правила возврата:</strong><ul><li>Убедитесь, что все возвращаемые "
+"товары надежно упакованы, чтобы предотвратить повреждения при "
+"транспортировке.</li><li>Воспользуйтесь надежной службой доставки для "
+"обратной отправки. Мы рекомендуем использовать службу, предоставляющую "
+"информацию для отслеживания.</li><li>После отправки возвращаемой посылки, "
+"пожалуйста, сообщите нам об этом, ответив на это электронное письмо и указав"
+" номер отслеживания.</li><li>После получения возвращенных товаров мы "
+"проверим их на соответствие нашим условиям возврата.</li><li>Возврат средств"
+" или возврат средств на магазин будут обработаны в течение 5–7 рабочих дней "
+"с момента получения возвращенных товаров.</li></ul>"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1182
+msgid "A New Exchange Request Has Been Received"
+msgstr "Получен новый запрос на обмен"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1183
+msgid "A new exchange request received:"
+msgstr "Получен новый запрос на обмен:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1198
+msgid "A New Return Request Has Been Received"
+msgstr "Получен новый запрос на возврат"
+
+#: includes/zorem-returns/class-return-common-functions.php:1199
+msgid "A new return request received:"
+msgstr "Получен новый запрос на возврат:"
+
+#: includes/admin-html/returns-exchanges-center.php:65
+#: includes/admin-html/warranty-claims-dashboard.php:56
+#: includes/class-return-exchange-common.php:212
+msgid "Actions"
+msgstr "Действия"
+
+#: includes/admin-html/returns-exchanges-license-form.php:27
+#: includes/admin-html/returns-exchanges-license-form.php:29
+#: includes/admin-html/returns-exchanges-license-form.php:31
+#: includes/admin-html/returns-exchanges-license.php:188
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: includes/admin-html/returns-exchanges-license-form.php:28
+#: includes/admin-html/returns-exchanges-license-form.php:32
+msgid ""
+"Activate your license to receive automatic updates and premium support."
+msgstr ""
+"Активируйте свою лицензию, чтобы получать автоматические обновления и "
+"премиум-поддержку."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:205
+msgid "Add a note for exchange approval or rejection..."
+msgstr "Добавьте примечание для одобрения или отклонения обмена..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:375
+msgid "Add a note for exchange approval..."
+msgstr "Добавить примечание для одобрения обмена..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:377
+msgid "Add a note for exchange rejection..."
+msgstr "Добавить примечание об отклонении обмена..."
+
+#: includes/zorem-returns/class-return-common-functions.php:236
+msgid "Add a note for return approval or rejection..."
+msgstr "Добавьте примечание для одобрения или отклонения возврата..."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:344
+msgid "Add a note for return approval..."
+msgstr "Добавьте примечание для одобрения возврата..."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:346
+msgid "Add a note for return rejection..."
+msgstr "Добавить примечание об отклонении возврата..."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:372
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:341
+msgid "Add a note..."
+msgstr "Добавить заметку..."
+
+#: includes/class-return-exchange-admin.php:930
+msgid ""
+"Add or remove custom reasons that customers can select when requesting an "
+"exchange."
+msgstr ""
+"Добавьте или удалите индивидуальные причины, которые клиенты могут выбрать "
+"при запросе обмена."
+
+#: includes/class-return-exchange-admin.php:767
+msgid ""
+"Add or remove custom reasons that customers can select when requesting an "
+"return."
+msgstr ""
+"Добавьте или удалите индивидуальные причины, которые клиенты могут выбрать "
+"при запросе возврата."
+
+#: templates/emails/customer-coupon-email.php:40
+msgid "Add products to your cart."
+msgstr "Добавьте товары в корзину."
+
+#: includes/class-return-exchange-admin.php:766
+#: includes/class-return-exchange-admin.php:929
+#: includes/class-return-exchange-admin.php:1174
+msgid "Add Reason"
+msgstr "Добавить причину"
+
+#: includes/customizer/customizer-admin.php:499
+msgid "Additional Content"
+msgstr "Дополнительный контент"
+
+#: includes/admin-html/returns-exchanges-center.php:35
+msgid "All Orders"
+msgstr "Все заказы"
+
+#: includes/class-return-exchange-admin.php:799
+msgid "Allow exchanges for sale products"
+msgstr "Разрешить обмен на распродажные товары"
+
+#: includes/class-return-exchange-admin.php:815
+msgid "Allow Partial Exchange"
+msgstr "Разрешить частичный обмен"
+
+#: includes/class-return-exchange-admin.php:654
+msgid "Allow Partial Return"
+msgstr "Разрешить частичный возврат"
+
+#: includes/class-return-exchange-admin.php:638
+msgid "Allow Returns for Sale Products"
+msgstr "Разрешить возврат товаров, проданных по сниженной цене"
+
+#: includes/class-return-exchange-admin.php:1319
+msgid ""
+"Allow the customer to keep this item when a return or exchange is requested"
+msgstr ""
+"Разрешить клиенту сохранить этот товар при запросе возврата или обмена."
+
+#: includes/class-return-exchange-admin.php:804
+msgid "Allows customers to request exchanges for items purchased on sale"
+msgstr "Позволяет клиентам запрашивать обмен товаров, купленных на распродаже"
+
+#: includes/class-return-exchange-admin.php:820
+msgid ""
+"Allows customers to request partial exchanges for individual items in an "
+"order."
+msgstr ""
+"Позволяет клиентам запрашивать частичный обмен отдельных товаров в заказе."
+
+#: includes/class-return-exchange-admin.php:659
+msgid ""
+"Allows customers to request partial return for individual items in an order."
+msgstr ""
+"Позволяет клиентам запрашивать частичный возврат отдельных товаров в заказе."
+
+#: includes/class-return-exchange-admin.php:643
+msgid "Allows customers to request return for items purchased on sale"
+msgstr ""
+"Позволяет клиентам запрашивать возврат товаров, купленных по распродаже"
+
+#: templates/emails/admin-exchange-approved.php:38
+#: templates/emails/admin-exchange-approved.php:39
+#: templates/emails/admin-exchange-cancelled.php:38
+#: templates/emails/admin-exchange-cancelled.php:39
+#: templates/emails/admin-exchange-completed.php:34
+#: templates/emails/admin-exchange-completed.php:35
+#: templates/emails/admin-exchange-rejected.php:34
+#: templates/emails/admin-exchange-rejected.php:35
+#: templates/emails/admin-exchange-requested.php:38
+#: templates/emails/admin-exchange-requested.php:39
+#: templates/emails/admin-return-approved.php:38
+#: templates/emails/admin-return-approved.php:39
+#: templates/emails/admin-return-cancelled.php:38
+#: templates/emails/admin-return-cancelled.php:39
+#: templates/emails/admin-return-completed.php:34
+#: templates/emails/admin-return-completed.php:35
+#: templates/emails/admin-return-rejected.php:34
+#: templates/emails/admin-return-rejected.php:35
+#: templates/emails/admin-return-requested.php:38
+#: templates/emails/admin-return-requested.php:39
+msgid "Already purchased the product"
+msgstr "Уже приобрели продукт"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:207
+#: includes/zorem-returns/class-return-common-functions.php:251
+msgid "Approve"
+msgstr "Утвердить"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:383
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:388
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:732
+msgid "Approve this exchange request"
+msgstr "Одобрить этот запрос на обмен"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:370
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:383
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1056
+msgid "Approve this return request"
+msgstr "Одобрить этот запрос на возврат"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1191
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1219
+msgid "Approved Exchange Items"
+msgstr "Одобренные товары для обмена"
+
+#: includes/zorem-returns/class-return-common-functions.php:1207
+#: includes/zorem-returns/class-return-common-functions.php:1235
+msgid "Approved Return Items"
+msgstr "Одобренные возвратные товары"
+
+#: templates/emails/customer-coupon-email.php:41
+msgid "At checkout, enter the coupon code"
+msgstr "При оформлении заказа введите код купона"
+
+#: includes/admin-html/returns-exchanges-center.php:64
+#: includes/admin-html/warranty-claims-dashboard.php:111
+msgid "Attachments"
+msgstr "Вложения"
+
+#: includes/class-return-exchange-admin.php:807
+msgid "Automatically Approve Exchange Requests"
+msgstr "Автоматически одобрять запросы на обмен"
+
+#: includes/class-return-exchange-admin.php:646
+msgid "Automatically Approve Return Requests"
+msgstr "Автоматически одобрять запросы на возврат"
+
+#: includes/customizer/customizer-admin.php:513
+msgid "Available Placeholders:"
+msgstr "Доступные заполнители:"
+
+#: templates/emails/customer-coupon-email.php:39
+msgid "Browse and add your favorite products to the cart."
+msgstr "Просмотрите и добавьте понравившиеся товары в корзину."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:923
+#: includes/zorem-returns/class-return-common-functions.php:1602
+#: includes/zorem-returns/class-return-front.php:460
+msgid "Cancel Request"
+msgstr "Отменить запрос"
+
+#: includes/class-return-exchange-admin.php:1291
+msgid "Change status to partial return"
+msgstr "Изменить статус на частичный возврат"
+
+#: includes/class-return-exchange-admin.php:1290
+msgid "Change status to return"
+msgstr "Изменить статус на возврат"
+
+#: includes/class-return-exchange-admin.php:578
+msgid ""
+"Choose a page that outlines your return/exchange terms and conditions. This "
+"page will be shown to customers during the return request process."
+msgstr ""
+"Выберите страницу с условиями возврата/обмена. Эта страница будет показана "
+"покупателям при оформлении запроса на возврат."
+
+#: includes/class-return-exchange-admin.php:504
+msgid "City"
+msgstr "Город"
+
+#: includes/admin-html/returns-exchanges-license-form.php:33
+msgid "Connect & Activate"
+msgstr "Подключить и активировать"
+
+#: includes/admin-html/returns-exchanges-center.php:62
+#: includes/admin-html/returns-exchanges-emails.php:129
+#: includes/admin-html/warranty-claims-dashboard.php:53
+msgid "Customer"
+msgstr "Клиент"
+
+#: templates/emails/admin-exchange-approved.php:59
+#: templates/emails/admin-exchange-cancelled.php:58
+#: templates/emails/admin-exchange-completed.php:54
+#: templates/emails/admin-exchange-rejected.php:56
+#: templates/emails/admin-exchange-requested.php:58
+#: templates/emails/admin-return-approved.php:59
+#: templates/emails/admin-return-cancelled.php:58
+#: templates/emails/admin-return-completed.php:54
+#: templates/emails/admin-return-rejected.php:56
+#: templates/emails/admin-return-requested.php:58
+msgid "Customer Email:"
+msgstr "Электронная почта клиента:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:696
+msgid "Customer Message:"
+msgstr "Сообщение клиента:"
+
+#. translators: %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:33
+#: templates/emails/admin-exchange-cancelled.php:33
+#: templates/emails/admin-exchange-completed.php:30
+#: templates/emails/admin-exchange-rejected.php:30
+#: templates/emails/admin-exchange-requested.php:33
+#: templates/emails/admin-return-approved.php:33
+#: templates/emails/admin-return-cancelled.php:33
+#: templates/emails/admin-return-completed.php:30
+#: templates/emails/admin-return-rejected.php:30
+#: templates/emails/admin-return-requested.php:33
+msgid "Customer Name: "
+msgstr "Имя клиента:"
+
+#: includes/zorem-returns/class-return-common-functions.php:214
+#: templates/emails/admin-return-approved.php:71
+#: templates/emails/admin-return-cancelled.php:70
+#: templates/emails/admin-return-completed.php:65
+#: templates/emails/admin-return-rejected.php:67
+#: templates/emails/admin-return-requested.php:70
+msgid "Customer’s Reason for Return:"
+msgstr "Причина возврата товара клиентом:"
+
+#: includes/customizer/customizer-admin.php:158
+msgid "Customizing"
+msgstr "Настройка"
+
+#: includes/admin-html/returns-exchanges-license-form.php:22
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:755
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1077
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:296
+#: includes/zorem-returns/htmls/returns-center-form.php:221
+msgid "Describe the issue with the product"
+msgstr "Опишите проблему с продуктом"
+
+#: includes/class-return-exchange-admin.php:559
+msgid "Eligible Order Statuses for Returns/Exchanges"
+msgstr "Статусы заказов, подлежащие возврату/обмену"
+
+#: includes/customizer/customizer-admin.php:440
+msgid "Email Content"
+msgstr "Содержание электронной почты"
+
+#: includes/customizer/customizer-admin.php:427
+msgid "Email Heading"
+msgstr "Заголовок электронного письма"
+
+#: includes/admin-html/returns-exchanges-emails.php:79
+msgid "Email Notifications"
+msgstr "Уведомления по электронной почте"
+
+#: includes/customizer/customizer-admin.php:414
+msgid "Email Subject"
+msgstr "Тема электронного письма"
+
+#: includes/customizer/customizer-admin.php:387
+msgid "Email Type"
+msgstr "Тип электронной почты"
+
+#: includes/class-return-exchange-admin.php:791
+msgid "Enable Exchange Requests"
+msgstr "Включить запросы на обмен"
+
+#: includes/class-return-exchange-admin.php:796
+msgid "Enable or disable the exchange request option for customers."
+msgstr "Включить или отключить возможность запроса обмена для клиентов."
+
+#: includes/class-return-exchange-admin.php:812
+msgid "Enable this option to automatically approve all new exchange requests."
+msgstr ""
+"Включите эту опцию, чтобы автоматически одобрять все новые запросы на обмен."
+
+#: includes/class-return-exchange-admin.php:651
+msgid "Enable this option to automatically approve all new return requests."
+msgstr ""
+"Включите эту опцию, чтобы автоматически одобрять все новые запросы на "
+"возврат."
+
+#: includes/class-return-exchange-admin.php:691
+msgid ""
+"Enable this option to include the original shipping fee in the customer's "
+"refund."
+msgstr ""
+"Включите эту опцию, чтобы включить первоначальную стоимость доставки в "
+"возвращаемую клиенту сумму."
+
+#: templates/emails/customer-coupon-email.php:42
+#: templates/emails/customer-exchange-store-credit.php:69
+#: templates/emails/customer-return-store-credit.php:69
+msgid "Enjoy your discount!"
+msgstr "Наслаждайтесь скидкой!"
+
+#: includes/class-return-exchange-admin.php:604
+msgid ""
+"Enter the store address where customers should send return or exchange "
+"items."
+msgstr ""
+"Введите адрес магазина, куда клиенты должны отправить возврат или обмен "
+"товара."
+
+#: includes/admin-html/returns-exchanges-center.php:21
+#: includes/admin-html/returns-exchanges-emails.php:25
+#: includes/admin-html/returns-exchanges-emails.php:42
+msgid "Exchange Approved"
+msgstr "Обмен одобрен"
+
+#: includes/customizer/customizer-admin.php:359
+msgid "Exchange Approved (Customer)"
+msgstr "Обмен одобрен (Клиент)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:708
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:359
+#: templates/emails/admin-exchange-approved.php:70
+#: templates/emails/customer-exchange-approved.php:40
+msgid "Exchange Approved Note:"
+msgstr "Примечание об одобрении обмена:"
+
+#: includes/admin-html/returns-exchanges-center.php:23
+msgid "Exchange Cancelled"
+msgstr "Обмен отменен"
+
+#: includes/zorem-exchanges/class-exchange-front.php:176
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:21
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:23
+msgid "Exchange Entire Order"
+msgstr "Обменять весь заказ"
+
+#: includes/class-return-exchange-admin.php:914
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1220
+msgid "Exchange Guidelines"
+msgstr "Правила обмена"
+
+#: templates/emails/admin-exchange-approved.php:69
+#: templates/emails/admin-exchange-cancelled.php:70
+#: templates/emails/admin-exchange-completed.php:64
+#: templates/emails/admin-exchange-rejected.php:66
+#: templates/emails/admin-exchange-requested.php:68
+msgid "Exchange Issue"
+msgstr "Выпуск обмена"
+
+#: includes/zorem-exchanges/class-exchange-front.php:176
+#: includes/zorem-exchanges/class-exchange-front.php:305
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:13
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:15
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1000
+msgid "Exchange Item"
+msgstr "Обмен товара"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1177
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1184
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:153
+msgid "Exchange Items Summary"
+msgstr "Сводка по обмену предметами"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:355
+msgid "Exchange Message:"
+msgstr "Обмен сообщениями:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1275
+msgid "Exchange Parent Order"
+msgstr "Обмен родительским приказом"
+
+#: templates/emails/admin-exchange-approved.php:65
+#: templates/emails/admin-exchange-approved.php:67
+#: templates/emails/admin-exchange-cancelled.php:66
+#: templates/emails/admin-exchange-cancelled.php:68
+#: templates/emails/admin-exchange-completed.php:60
+#: templates/emails/admin-exchange-completed.php:62
+#: templates/emails/admin-exchange-rejected.php:62
+#: templates/emails/admin-exchange-rejected.php:64
+#: templates/emails/admin-exchange-requested.php:64
+#: templates/emails/admin-exchange-requested.php:66
+msgid "Exchange Reason"
+msgstr "Причина обмена"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:682
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:352
+msgid "Exchange Reason:"
+msgstr "Причина обмена:"
+
+#: includes/class-return-exchange-admin.php:922
+msgid "Exchange Reasons"
+msgstr "Причины обмена"
+
+#: includes/admin-html/returns-exchanges-center.php:22
+#: includes/admin-html/returns-exchanges-emails.php:27
+#: includes/admin-html/returns-exchanges-emails.php:44
+msgid "Exchange Rejected"
+msgstr "Обмен отклонен"
+
+#: includes/customizer/customizer-admin.php:361
+msgid "Exchange Rejected (Customer)"
+msgstr "Обмен отклонен (Клиент)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:706
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:363
+#: templates/emails/customer-exchange-rejected.php:39
+msgid "Exchange Rejected Note:"
+msgstr "Примечание: Обмен отклонен."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:94
+msgid "Exchange Request "
+msgstr "Запрос на обмен"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1188
+msgid "Exchange Request Approved"
+msgstr "Запрос на обмен одобрен"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1216
+msgid "Exchange Request Approved - Instructions for Return"
+msgstr "Запрос на обмен одобрен — инструкции по возврату"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1189
+msgid "Exchange Request Approved – Return Instructions Inside"
+msgstr "Запрос на обмен одобрен — инструкции по возврату внутри"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1195
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1196
+msgid "Exchange Request Cancelled"
+msgstr "Запрос на обмен отменен"
+
+#: includes/customizer/customizer-admin.php:358
+msgid "Exchange Request Received (Customer)"
+msgstr "Запрос на обмен получен (Клиент)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1174
+msgid "Exchange Request Received – We're Reviewing Your Request!"
+msgstr "Запрос на обмен получен — мы рассматриваем ваш запрос!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1202
+msgid "Exchange Request Rejected – Order Not Eligible"
+msgstr "Запрос на обмен отклонен – заказ не соответствует требованиям"
+
+#: includes/admin-html/returns-exchanges-center.php:20
+msgid "Exchange Requested"
+msgstr "Запрос на обмен"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:57
+msgid "Exchange Requests"
+msgstr "Запросы на обмен"
+
+#: includes/admin-html/returns-exchanges-settings.php:36
+msgid "Exchange Settings"
+msgstr "Настройки обмена"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:142
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:125
+msgid "Exchange With"
+msgstr "Обмен с"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:717
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:303
+msgid "Exchanged Product Summary"
+msgstr "Сводка обмененного продукта"
+
+#: templates/emails/admin-exchange-approved.php:40
+#: templates/emails/admin-exchange-cancelled.php:40
+#: templates/emails/admin-exchange-completed.php:36
+#: templates/emails/admin-exchange-rejected.php:36
+#: templates/emails/admin-exchange-requested.php:40
+msgid "Exchanges request details"
+msgstr "Запросить детали обмена"
+
+#: includes/class-return-exchange-admin.php:581
+msgid "Exclude Categories from Returns/Exchanges"
+msgstr "Исключить категории из возврата/обмена"
+
+#: includes/admin-html/returns-exchanges-settings.php:26
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: templates/emails/customer-coupon-email.php:37
+msgid "How to Use Your Store Credit:"
+msgstr "Как использовать кредит вашего магазина:"
+
+#. Author URI of the plugin
+#: zorem-returns.php
+msgid "http://www.zorem.com/"
+msgstr "http://www.zorem.com/"
+
+#. Plugin URI of the plugin
+#: zorem-returns.php
+msgid "https://www.zorem.com/plugins/"
+msgstr "https://www.zorem.com/plugins/"
+
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:321
+#: includes/zorem-returns/htmls/returns-center-form.php:304
+#, php-format
+msgid "I agree to the %1$sterms and conditions%2$s."
+msgstr "Я согласен с %1$sусловиями%2$s."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1190
+msgid ""
+"I wanted to inform you that the exchange request for order #{order_number} "
+"has been approved by the admin. Below are the details:"
+msgstr ""
+"Хочу сообщить, что запрос на обмен по заказу № {order_number} одобрен "
+"администратором. Ниже приведены подробности:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1197
+msgid ""
+"I wanted to inform you that the exchange request for order #{order_number} "
+"has been cancelled by the customer. Below are the details:"
+msgstr ""
+"Сообщаю вам, что запрос на обмен по заказу № {order_number} был отменён "
+"клиентом. Ниже приведены подробности:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1206
+msgid ""
+"I wanted to inform you that the return request for order #{order_number} has"
+" been approved by the admin. Below are the details:"
+msgstr ""
+"Хочу сообщить вам, что запрос на возврат заказа № {order_number} был одобрен"
+" администратором. Ниже приведены подробности:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1213
+msgid ""
+"I wanted to inform you that the return request for order #{order_number} has"
+" been cancelled by the customer. Below are the details:"
+msgstr ""
+"Сообщаю вам, что запрос на возврат по заказу № {order_number} был отменён "
+"клиентом. Ниже приведены подробности:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1222
+msgid ""
+"If you have any questions or concerns about your exchange, feel free to "
+"contact our customer support team at [Customer Support Email/Phone "
+"Number].<br><br>Thank you for choosing"
+msgstr ""
+"Если у вас возникли вопросы или сомнения по поводу обмена, обращайтесь в "
+"нашу службу поддержки клиентов по адресу [адрес электронной почты/номер "
+"телефона службы поддержки клиентов].<br><br>Спасибо за выбор"
+
+#: includes/zorem-returns/class-return-common-functions.php:1238
+msgid ""
+"If you have any questions or concerns about your return, feel free to "
+"contact our customer support team at [Customer Support Email/Phone "
+"Number].<br><br>Thank you for choosing "
+msgstr ""
+"Если у вас возникли вопросы или сомнения по поводу возврата, обращайтесь в "
+"нашу службу поддержки клиентов по адресу [адрес электронной почты/номер "
+"телефона службы поддержки клиентов].<br><br>Спасибо за выбор"
+
+#: includes/class-return-exchange-admin.php:686
+msgid "Include Shipping Cost in Refund"
+msgstr "Включить стоимость доставки в возврат"
+
+#: includes/zorem-exchanges/class-exchange-front.php:154
+#: includes/zorem-warranty/class-warranty.php:472
+#: includes/zorem-warranty/class-warranty.php:561
+msgid "Invalid order."
+msgstr "Неверный заказ."
+
+#: includes/class-return-exchange-admin.php:1335
+msgid "Invalid request. Security check failed."
+msgstr "Неверный запрос. Проверка безопасности не пройдена."
+
+#: includes/class-return-exchange-common.php:244
+msgid "item"
+msgid_plural "items"
+msgstr[0] "элемент"
+msgstr[1] "предметы"
+msgstr[2] "предметы"
+
+#: includes/admin-html/returns-exchanges-center.php:63
+msgid "Items"
+msgstr "Предметы"
+
+#: includes/zorem-returns/class-return-common-functions.php:1503
+#: includes/zorem-returns/class-return-front.php:423
+msgid "Items Approved for Return"
+msgstr "Товары, одобренные для возврата"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1198
+msgid "Items from Cancelled Exchange Request"
+msgstr "Товары из отмененного запроса на обмен"
+
+#: includes/zorem-returns/class-return-common-functions.php:1214
+msgid "Items from Cancelled Return Request"
+msgstr "Товары из отмененного запроса на возврат"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:333
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:337
+#: includes/zorem-returns/htmls/returns-center-form.php:315
+#: includes/zorem-returns/htmls/returns-center-form.php:319
+msgid "I’ll Keep This Item"
+msgstr "Я сохраню этот предмет"
+
+#: includes/class-return-exchange-admin.php:1318
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:294
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:276
+msgid "Keep the Item"
+msgstr "Сохранить предмет"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1218
+msgid "Kindly return the exchange item(s) to the following address"
+msgstr "Пожалуйста, верните обмененный товар(ы) по следующему адресу"
+
+#: includes/zorem-returns/class-return-common-functions.php:1234
+msgid "Kindly return the item(s) to the following address"
+msgstr "Пожалуйста, верните товар(ы) по следующему адресу"
+
+#: includes/admin-html/header.php:104
+msgid "License"
+msgstr "Лицензия"
+
+#: includes/class-return-exchange-common.php:197
+msgid "My Returns & Exchanges"
+msgstr "Мои возвраты и обмены"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:329
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:342
+msgid "N/A"
+msgstr "Н/Д"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1181
+msgid "New Exchange Request Received – Order"
+msgstr "Получен новый запрос на обмен – Заказ"
+
+#: includes/zorem-returns/class-return-common-functions.php:1197
+msgid "New Return Request Received – Order"
+msgstr "Получен новый запрос на возврат – Заказ"
+
+#. translators: %s: replace with settings page url
+#: includes/class-return-exchange-license.php:324
+#, php-format
+msgid ""
+"Opps! your <strong>Returns for WooCommerce</strong> licence key is not "
+"activated. To buy license %1$s click here %2$s to activate it."
+msgstr ""
+"Упс! Ваш лицензионный ключ <strong>Returns for WooCommerce</strong> не "
+"активирован. Чтобы купить лицензию %1$s, нажмите здесь %2$s для её "
+"активации."
+
+#: includes/admin-html/returns-exchanges-center.php:59
+#: includes/admin-html/warranty-claims-dashboard.php:51
+#: includes/class-return-exchange-common.php:212
+msgid "Order"
+msgstr "Заказ"
+
+#. translators: %s: Order ID.
+#: includes/admin-html/returns-exchanges-center.php:58
+#: templates/emails/admin-exchange-approved.php:31
+#: templates/emails/admin-exchange-cancelled.php:31
+#: templates/emails/admin-exchange-completed.php:29
+#: templates/emails/admin-exchange-rejected.php:29
+#: templates/emails/admin-exchange-requested.php:31
+#: templates/emails/admin-return-approved.php:31
+#: templates/emails/admin-return-cancelled.php:31
+#: templates/emails/admin-return-completed.php:29
+#: templates/emails/admin-return-rejected.php:29
+#: templates/emails/admin-return-requested.php:31
+msgid "Order Date"
+msgstr "Дата заказа"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1282
+#: includes/zorem-returns/class-return-front.php:724
+msgid "Order not found."
+msgstr "Заказ не найден."
+
+#. translators: %s: Order ID.
+#: templates/emails/admin-exchange-approved.php:29
+#: templates/emails/admin-exchange-cancelled.php:29
+#: templates/emails/admin-exchange-completed.php:28
+#: templates/emails/admin-exchange-rejected.php:28
+#: templates/emails/admin-exchange-requested.php:29
+#: templates/emails/admin-return-approved.php:29
+#: templates/emails/admin-return-cancelled.php:29
+#: templates/emails/admin-return-completed.php:28
+#: templates/emails/admin-return-rejected.php:28
+#: templates/emails/admin-return-requested.php:29
+#: templates/emails/_warranty-email-body.php:69
+msgid "Order Number"
+msgstr "Номер заказа"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:134
+#: includes/zorem-exchanges/class-exchange-common-functions.php:722
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:307
+msgid "Original Item (Ordered)"
+msgstr "Оригинальный товар (заказанный)"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:285
+#: includes/zorem-returns/htmls/returns-center-form.php:210
+msgid "Other (add details below)"
+msgstr "Другое (добавьте подробности ниже)"
+
+#: includes/class-return-exchange-admin.php:1282
+msgid "Partial Return"
+msgstr "Частичный возврат"
+
+#: includes/class-return-exchange-admin.php:1254
+msgctxt "Partial Return"
+msgid "Partial Return"
+msgstr "Частичный возврат"
+
+#. translators: %s: search term
+#: includes/class-return-exchange-admin.php:1260
+#, php-format
+msgid "Partial Return <span class=\"count\">(%s)</span>"
+msgid_plural "Partial Return <span class=\"count\">(%s)</span>"
+msgstr[0] "Частичный возврат <span class=\"count\">(%s)</span>"
+msgstr[1] "Частичный возврат <span class=\"count\">(%s)</span>"
+msgstr[2] "Частичный возврат <span class=\"count\">(%s)</span>"
+
+#: includes/class-return-exchange-admin.php:519
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:324
+#: includes/zorem-returns/htmls/returns-center-form.php:307
+msgid ""
+"Please agree to the terms and conditions before submitting your request."
+msgstr "Пожалуйста, согласитесь с условиями перед отправкой запроса."
+
+#. translators: %s: search for a tag
+#: zorem-returns.php:302
+#, php-format
+msgid "Please install and activate %1$sWooCommerce%2$s for Zorem Returns."
+msgstr ""
+"Пожалуйста, установите и активируйте %1$sWooCommerce%2$s для Zorem Returns."
+
+#: includes/customizer/customizer-admin.php:164
+msgid "Please save your changes before sending a test email."
+msgstr "Пожалуйста, сохраните изменения перед отправкой тестового письма."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:270
+#: includes/zorem-returns/htmls/returns-center-form.php:181
+msgid "Please select at least one product."
+msgstr "Пожалуйста, выберите хотя бы один продукт."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:180
+msgid "Please select the minimum quantity required for return."
+msgstr ""
+"Пожалуйста, выберите минимальное количество, необходимое для возврата."
+
+#: includes/class-return-exchange-admin.php:514
+msgid "Postcode / ZIP"
+msgstr "Почтовый индекс"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:139
+#: includes/zorem-exchanges/class-exchange-common-functions.php:166
+#: includes/zorem-exchanges/class-exchange-common-functions.php:190
+#: includes/zorem-returns/class-return-common-functions.php:192
+msgid "Price"
+msgstr "Цена"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:327
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:340
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:297
+msgid "Price:"
+msgstr "Цена:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:136
+#: includes/zorem-exchanges/class-exchange-common-functions.php:163
+#: includes/zorem-exchanges/class-exchange-common-functions.php:187
+#: includes/zorem-exchanges/class-exchange-common-functions.php:241
+#: includes/zorem-returns/class-return-common-functions.php:178
+#: includes/zorem-returns/class-return-common-functions.php:283
+msgid "Product Name"
+msgstr "Название продукта"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:242
+#: includes/zorem-returns/class-return-common-functions.php:284
+msgid "Product Price"
+msgstr "Цена продукта"
+
+#: includes/zorem-returns/class-return-front.php:104
+#: includes/zorem-returns/class-return-front.php:127
+#: includes/zorem-returns/htmls/returns-center-form.php:13
+#: includes/zorem-returns/htmls/returns-center-form.php:15
+msgid "Product Selected for Return"
+msgstr "Товар выбран для возврата"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:42
+#: includes/zorem-returns/htmls/guest-return-center-form.php:28
+#: includes/zorem-returns/htmls/returns-center-form.php:41
+msgid "Products in This Order"
+msgstr "Товары в этом заказе"
+
+#: includes/class-return-exchange-admin.php:590
+msgid "Products Not Eligible for Returns/Exchanges"
+msgstr "Товары, не подлежащие возврату/обмену"
+
+#: includes/class-return-exchange-admin.php:756
+msgid ""
+"Provide detailed guidelines that customers must follow when returning items."
+msgstr ""
+"Предоставьте подробные инструкции, которым клиенты должны следовать при "
+"возврате товаров."
+
+#: includes/class-return-exchange-admin.php:919
+msgid ""
+"Provide detailed guidelines that customers must follow when sending items "
+"for exchange."
+msgstr ""
+"Предоставьте подробные инструкции, которым должны следовать клиенты при "
+"отправке товаров на обмен."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:110
+#: includes/zorem-returns/htmls/guest-return-center-form.php:82
+#: includes/zorem-returns/htmls/returns-center-form.php:102
+#: includes/zorem-returns/htmls/returns-center-form.php:166
+msgid "Qty. "
+msgstr "Кол-во"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:326
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:339
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:296
+msgid "Qty:"
+msgstr "Кол-во:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:138
+#: includes/zorem-exchanges/class-exchange-common-functions.php:165
+#: includes/zorem-exchanges/class-exchange-common-functions.php:189
+#: includes/zorem-exchanges/class-exchange-common-functions.php:401
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:245
+#: includes/zorem-returns/class-return-common-functions.php:188
+msgid "Quantity"
+msgstr "Количество"
+
+#: templates/emails/customer-coupon-email.php:49
+msgid "Ready to start shopping?"
+msgstr "Готовы приступить к покупкам?"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:199
+msgid "Reason for Return"
+msgstr "Причина возврата"
+
+#: includes/customizer/customizer-admin.php:161
+msgid "Recipient Email Address(es) (separate multiple with commas)"
+msgstr "Адрес(а) электронной почты получателя (разделяйте запятыми)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1094
+msgid "Refund"
+msgstr "Возвращать деньги"
+
+#: includes/class-return-exchange-admin.php:662
+msgid "Refund Method Preferences"
+msgstr "Настройки метода возврата средств"
+
+#: includes/class-return-exchange-admin.php:618
+#: includes/class-return-exchange-common.php:25
+#: includes/zorem-returns/htmls/returns-center-form.php:273
+msgid "Refund to Original Payment Method"
+msgstr "Возврат к первоначальному способу оплаты"
+
+#: includes/class-return-exchange-admin.php:617
+#: includes/class-return-exchange-common.php:23
+#: includes/zorem-returns/htmls/returns-center-form.php:266
+msgid "Refund to Store Credit"
+msgstr "Возврат в магазинный кредит"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:208
+#: includes/zorem-returns/class-return-common-functions.php:254
+msgid "Reject"
+msgstr "Отклонять"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:385
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:387
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:737
+msgid "Reject Exchange"
+msgstr "Отклонить обмен"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:372
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:382
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1061
+msgid "Reject Return"
+msgstr "Отклонить возврат"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1205
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1242
+msgid "Rejected Exchange Items"
+msgstr "Отклоненные товары для обмена"
+
+#: includes/zorem-returns/class-return-common-functions.php:1221
+#: includes/zorem-returns/class-return-common-functions.php:1258
+msgid "Rejected Return Items"
+msgstr "Отклоненные возвратные товары"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:309
+msgid "Request a Return"
+msgstr "Запросить возврат"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:327
+msgid "Request an Exchange"
+msgstr "Запросить обмен"
+
+#: includes/admin-html/returns-exchanges-center.php:57
+#: includes/class-return-exchange-common.php:212
+msgid "Request ID"
+msgstr "Запрос идентификатора"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:161
+#: includes/zorem-exchanges/class-exchange-common-functions.php:185
+#: includes/zorem-exchanges/class-exchange-common-functions.php:723
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:308
+msgid "Requested Item (Exchange)"
+msgstr "Запрошенный товар (обмен)"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:243
+msgid "Requested Quantity"
+msgstr "Запрошенное количество"
+
+#: includes/class-return-exchange-admin.php:1281
+#: includes/class-return-exchange-common.php:165
+#: includes/zorem-returns/class-return-front.php:264
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:923
+#: includes/zorem-returns/htmls/guest-return-center-form.php:92
+msgid "Return"
+msgstr "Возвращаться"
+
+#: includes/class-return-exchange-admin.php:1267
+msgctxt "Return"
+msgid "Return"
+msgstr "Возвращаться"
+
+#: includes/class-return-exchange-common.php:163
+msgid "Return & Exchange"
+msgstr "Возврат и обмен"
+
+#. translators: %s: search term
+#: includes/class-return-exchange-admin.php:1273
+#, php-format
+msgid "Return <span class=\"count\">(%s)</span>"
+msgid_plural "Return <span class=\"count\">(%s)</span>"
+msgstr[0] "Возврат <span class=\"count\">(%s)</span>"
+msgstr[1] "Возврат <span class=\"count\">(%s)</span>"
+msgstr[2] "Возврат <span class=\"count\">(%s)</span>"
+
+#: includes/customizer/customizer-admin.php:345
+msgid "Return and Exchange Emails"
+msgstr "Возврат и обмен электронными письмами"
+
+#: includes/admin-html/returns-exchanges-center.php:13
+#: includes/admin-html/returns-exchanges-emails.php:20
+#: includes/admin-html/returns-exchanges-emails.php:38
+msgid "Return Approved"
+msgstr "Возврат одобрен"
+
+#: includes/customizer/customizer-admin.php:354
+msgid "Return Approved (Customer)"
+msgstr "Возврат одобрен (Клиент)"
+
+#: includes/zorem-returns/class-return-common-functions.php:218
+#: includes/zorem-returns/class-return-common-functions.php:1494
+#: includes/zorem-returns/class-return-front.php:414
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:323
+#: templates/emails/admin-return-approved.php:72
+#: templates/emails/customer-return-approved.php:40
+msgid "Return Approved Note:"
+msgstr "Примечание об одобрении возврата:"
+
+#: includes/admin-html/returns-exchanges-center.php:16
+msgid "Return Cancelled"
+msgstr "Возврат отменен"
+
+#: includes/class-return-exchange-admin.php:751
+#: includes/zorem-returns/class-return-common-functions.php:1236
+msgid "Return Guidelines"
+msgstr "Правила возврата"
+
+#: includes/zorem-returns/class-return-common-functions.php:1193
+#: includes/zorem-returns/class-return-common-functions.php:1200
+msgid "Return Items Requested"
+msgstr "Возврат запрошенных товаров"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:319
+msgid "Return Message:"
+msgstr "Ответное сообщение:"
+
+#: includes/zorem-returns/htmls/guest-return-center-form.php:102
+msgid "Return Order"
+msgstr "Возврат заказа"
+
+#: includes/zorem-returns/class-return-common-functions.php:285
+msgid "Return Quantity"
+msgstr "Количество возврата"
+
+#: includes/zorem-returns/class-return-common-functions.php:202
+#: templates/emails/admin-return-approved.php:67
+#: templates/emails/admin-return-approved.php:69
+#: templates/emails/admin-return-cancelled.php:66
+#: templates/emails/admin-return-cancelled.php:68
+#: templates/emails/admin-return-completed.php:61
+#: templates/emails/admin-return-completed.php:63
+#: templates/emails/admin-return-rejected.php:63
+#: templates/emails/admin-return-rejected.php:65
+#: templates/emails/admin-return-requested.php:66
+#: templates/emails/admin-return-requested.php:68
+msgid "Return Reason"
+msgstr "Причина возврата"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:307
+msgid "Return Reason:"
+msgstr "Причина возврата:"
+
+#: includes/class-return-exchange-admin.php:759
+msgid "Return Reasons"
+msgstr "Причины возврата"
+
+#: includes/admin-html/returns-exchanges-center.php:15
+#: includes/admin-html/returns-exchanges-emails.php:22
+#: includes/admin-html/returns-exchanges-emails.php:40
+msgid "Return Rejected"
+msgstr "Возврат отклонен"
+
+#: includes/customizer/customizer-admin.php:356
+msgid "Return Rejected (Customer)"
+msgstr "Возврат отклонен (Клиент)"
+
+#: includes/zorem-returns/class-return-common-functions.php:222
+#: includes/zorem-returns/class-return-common-functions.php:1492
+#: includes/zorem-returns/class-return-front.php:412
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:327
+#: templates/emails/customer-return-rejected.php:39
+msgid "Return Rejected Note:"
+msgstr "Примечание: Возврат отклонен."
+
+#: includes/zorem-returns/class-return-common-functions.php:99
+msgid "Return Request "
+msgstr "Запрос на возврат"
+
+#: includes/zorem-returns/class-return-common-functions.php:1204
+#: includes/zorem-returns/class-return-common-functions.php:1205
+msgid "Return Request Approved"
+msgstr "Запрос на возврат одобрен"
+
+#: includes/zorem-returns/class-return-common-functions.php:1232
+msgid "Return Request Approved – Instructions for Sending Items Back"
+msgstr "Запрос на возврат одобрен – Инструкции по отправке товаров обратно"
+
+#: includes/zorem-returns/class-return-common-functions.php:1211
+#: includes/zorem-returns/class-return-common-functions.php:1212
+msgid "Return Request Cancelled"
+msgstr "Запрос на возврат отменен"
+
+#: templates/emails/admin-return-approved.php:40
+#: templates/emails/admin-return-cancelled.php:40
+#: templates/emails/admin-return-completed.php:36
+#: templates/emails/admin-return-rejected.php:36
+#: templates/emails/admin-return-requested.php:40
+msgid "Return Request Details"
+msgstr "Подробности запроса на возврат"
+
+#: includes/customizer/customizer-admin.php:353
+msgid "Return Request Received (Customer)"
+msgstr "Запрос на возврат получен (от клиента)"
+
+#: includes/admin-html/returns-exchanges-center.php:12
+msgid "Return Requested"
+msgstr "Возврат запрошен"
+
+#: includes/zorem-returns/class-return-common-functions.php:56
+msgid "Return Requests"
+msgstr "Запросы на возврат"
+
+#: includes/admin-html/returns-exchanges-settings.php:31
+msgid "Return Settings"
+msgstr "Настройки возврата"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:915
+#: includes/zorem-returns/class-return-common-functions.php:1583
+msgid "Return Shipping Address"
+msgstr "Адрес для обратной доставки"
+
+#: includes/class-return-exchange-admin.php:598
+msgid "Return/Exchange Store Address"
+msgstr "Адрес магазина возврата/обмена"
+
+#: includes/class-return-exchange-admin.php:533
+msgid "Return/Exchange Window (Days)"
+msgstr "Срок возврата/обмена (дней)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:285
+msgid "Returned Item (Ordered)"
+msgstr "Возвращенный товар (заказанный)"
+
+#: includes/zorem-returns/class-return-common-functions.php:172
+#: includes/zorem-returns/class-return-common-functions.php:1228
+#: includes/zorem-returns/class-return-common-functions.php:1251
+msgid "Returned Items"
+msgstr "Возвращенные товары"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:195
+msgid "Returned Product Summary"
+msgstr "Сводка по возвращенному продукту"
+
+#: includes/admin-html/header.php:45
+#: includes/class-return-exchange-admin.php:80
+msgid "Returns Center"
+msgstr "Центр возвратов"
+
+#: includes/admin-html/header.php:84
+msgid "Returns Dashboard"
+msgstr "Панель управления возвратами"
+
+#: includes/zorem-returns/class-return-common-functions.php:1482
+#: includes/zorem-returns/class-return-front.php:402
+msgid "Returns message:"
+msgstr "Возвращает сообщение:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1468
+#: includes/zorem-returns/class-return-front.php:388
+msgid "Returns reason:"
+msgstr "Причина возврата:"
+
+#: includes/admin-html/returns-exchanges-settings.php:134
+#: includes/admin-html/warranty-claims-dashboard.php:143
+#: includes/customizer/customizer-admin.php:156
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: includes/admin-html/returns-exchanges-center.php:42
+#: includes/admin-html/warranty-claims-dashboard.php:39
+msgid "Search by Order ID"
+msgstr "Поиск по идентификатору заказа"
+
+#: includes/zorem-returns/class-return-common-functions.php:755
+msgid "Search for a product..."
+msgstr "Поиск продукта..."
+
+#: includes/customizer/customizer-admin.php:470
+msgid "Section Title for Exchanged Items"
+msgstr "Название раздела для обмененных предметов"
+
+#: includes/customizer/customizer-admin.php:484
+msgid "Section Title for Returned Items"
+msgstr "Название раздела «Возвращенные товары»"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:274
+msgid "Select a Reason for Exchange"
+msgstr "Выберите причину обмена"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:259
+msgid "Select a Return Resolution"
+msgstr "Выберите решение о возврате"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:149
+msgid "Select an Option"
+msgstr "Выберите вариант"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:133
+msgid "Select Exchange Variant"
+msgstr "Выбрать вариант обмена"
+
+#: includes/class-return-exchange-admin.php:587
+msgid ""
+"Select product categories that are not eligible for return or exchange "
+"requests."
+msgstr "Выберите категории товаров, которые не подлежат возврату или обмену."
+
+#: includes/class-return-exchange-admin.php:568
+msgid "Select Terms and Conditions Page"
+msgstr "Выберите страницу «Условия и положения»"
+
+#: includes/class-return-exchange-admin.php:672
+msgid "Select the available refund methods you want to offer customers."
+msgstr ""
+"Выберите доступные способы возврата средств, которые вы хотите предложить "
+"клиентам."
+
+#: includes/class-return-exchange-admin.php:565
+msgid ""
+"Select the order statuses that allow customers to request a return or "
+"exchange."
+msgstr ""
+"Выберите статусы заказа, которые позволяют клиентам запросить возврат или "
+"обмен."
+
+#: includes/class-return-exchange-admin.php:595
+msgid ""
+"Select the products that are not eligible for return or exchange requests."
+msgstr "Выберите товары, которые не подлежат возврату или обмену."
+
+#: includes/customizer/customizer-admin.php:162
+msgid "Send"
+msgstr "Отправлять"
+
+#: includes/customizer/customizer-admin.php:159
+#: includes/customizer/customizer-admin.php:160
+msgid "Send Test Email"
+msgstr "Отправить тестовое письмо"
+
+#: includes/class-return-exchange-admin.php:540
+msgid ""
+"Set the number of days customers are allowed to request a return or exchange"
+" after the order is placed."
+msgstr ""
+"Установите количество дней, в течение которых клиенты могут запросить "
+"возврат или обмен товара после размещения заказа."
+
+#: includes/admin-html/header.php:79 includes/admin-html/header.php:102
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/customizer/customizer-admin.php:163
+msgid "Settings Successfully Saved."
+msgstr "Настройки успешно сохранены."
+
+#: includes/zorem-returns/class-return-front.php:102
+#: includes/zorem-returns/class-return-front.php:125
+#: includes/zorem-returns/class-return-front.php:212
+#: includes/zorem-returns/htmls/guest-return-center-form.php:6
+#: includes/zorem-returns/htmls/returns-center-form.php:21
+#: includes/zorem-returns/htmls/returns-center-form.php:23
+msgid "Start a Return"
+msgstr "Начать возврат"
+
+#: includes/zorem-exchanges/class-exchange-front.php:265
+msgid "Start an Exchange"
+msgstr "Начать обмен"
+
+#: includes/admin-html/returns-exchanges-center.php:60
+#: includes/admin-html/returns-exchanges-license-form.php:17
+#: includes/admin-html/warranty-claims-dashboard.php:52
+#: includes/class-return-exchange-common.php:212
+#: includes/zorem-exchanges/class-exchange-common-functions.php:100
+#: includes/zorem-returns/class-return-common-functions.php:165
+#: templates/emails/_warranty-email-body.php:76
+msgid "Status"
+msgstr "Статус"
+
+#: includes/class-return-exchange-admin.php:494
+msgid "Store Address Line 1"
+msgstr "Адрес магазина, строка 1"
+
+#: includes/class-return-exchange-admin.php:499
+msgid "Store Address Line 2"
+msgstr "Адрес магазина, строка 2"
+
+#: templates/emails/customer-coupon-email.php:46
+msgid "Store credit is redeemable exclusively on our website."
+msgstr "Магазинный кредит можно использовать исключительно на нашем сайте."
+
+#: templates/emails/customer-coupon-email.php:44
+msgid "Terms and Conditions:"
+msgstr "Условия и положения:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1178
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1185
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1192
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1199
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1206
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1213
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1236
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1243
+#: includes/zorem-returns/class-return-common-functions.php:1194
+#: includes/zorem-returns/class-return-common-functions.php:1201
+#: includes/zorem-returns/class-return-common-functions.php:1208
+#: includes/zorem-returns/class-return-common-functions.php:1215
+#: includes/zorem-returns/class-return-common-functions.php:1222
+#: includes/zorem-returns/class-return-common-functions.php:1252
+#: includes/zorem-returns/class-return-common-functions.php:1259
+#: includes/zorem-warranty/class-warranty.php:762
+#: includes/zorem-warranty/class-warranty.php:776
+#: includes/zorem-warranty/class-warranty.php:783
+#: includes/zorem-warranty/class-warranty.php:790
+msgid "Thank you"
+msgstr "Спасибо"
+
+#: includes/zorem-returns/class-return-common-functions.php:1192
+msgid ""
+"Thank you for submitting your return request!<br><br>We’ve received your "
+"request and our team is currently reviewing it. You’ll hear from us with an "
+"update as soon as possible."
+msgstr ""
+"Благодарим вас за отправку запроса на возврат!<br><br>Мы получили ваш "
+"запрос, и наша команда в настоящее время его рассматривает. Мы сообщим вам "
+"об этом как можно скорее."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1176
+msgid ""
+"Thank you for your exchange request!<br><br>We've received your request and "
+"are currently reviewing it. You'll receive an update once it's processed."
+msgstr ""
+"Благодарим вас за запрос на обмен!<br><br>Мы получили ваш запрос и сейчас "
+"его рассматриваем. Вы получите уведомление, как только он будет обработан."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:653
+msgid ""
+"The exchange request has been rejected. Unfortunately, this order is not "
+"eligible for exchange based on our return/exchange policy."
+msgstr ""
+"Запрос на обмен отклонен. К сожалению, этот заказ не подлежит обмену в "
+"соответствии с нашей политикой возврата/обмена."
+
+#: includes/zorem-returns/class-return-common-functions.php:1439
+#: includes/zorem-returns/class-return-front.php:358
+msgid ""
+"The return request has been rejected. Unfortunately, this order is not "
+"eligible for return based on our return/exchange policy."
+msgstr ""
+"Запрос на возврат отклонен. К сожалению, этот заказ не подлежит возврату в "
+"соответствии с нашей политикой возврата/обмена."
+
+#: templates/emails/customer-coupon-email.php:47
+msgid "This credit does not apply to shipping fees."
+msgstr "Данный кредит не распространяется на стоимость доставки."
+
+#: includes/zorem-returns/class-return-front.php:140
+msgid "This item is not availabale for return"
+msgstr "Этот товар не подлежит возврату."
+
+#: includes/zorem-exchanges/class-exchange-front.php:204
+msgid "This item is not available for exchange."
+msgstr "Этот товар обмену не подлежит."
+
+#. translators: %s: search for a tag
+#: includes/class-return-exchange-update-manager.php:180
+#, php-format
+msgid ""
+"To receive automatic updates license activation is required. Please visit "
+"%1$ssettings%2$s to activate your Return for WooCommerce."
+msgstr ""
+"Для получения автоматических обновлений требуется активация лицензии. Чтобы "
+"активировать Return для WooCommerce, перейдите в раздел %1$ssettings%2$s."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:652
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:914
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:987
+msgid "Today at"
+msgstr "Сегодня в"
+
+#: includes/class-return-exchange-common.php:212
+msgid "Total"
+msgstr "Общий"
+
+#: templates/emails/admin-exchange-approved.php:41
+#: templates/emails/admin-exchange-cancelled.php:41
+#: templates/emails/admin-exchange-completed.php:37
+#: templates/emails/admin-exchange-rejected.php:37
+#: templates/emails/admin-exchange-requested.php:41
+#: templates/emails/admin-return-approved.php:41
+#: templates/emails/admin-return-cancelled.php:41
+#: templates/emails/admin-return-completed.php:37
+#: templates/emails/admin-return-rejected.php:37
+#: templates/emails/admin-return-requested.php:41
+msgid "Tshirt x 1"
+msgstr "Футболка х 1"
+
+#: includes/admin-html/returns-exchanges-center.php:61
+#: includes/class-return-exchange-common.php:212
+msgid "Type"
+msgstr "Тип"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:301
+#: includes/zorem-returns/htmls/returns-center-form.php:226
+msgid "Upload Photo"
+msgstr "Загрузить фото"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:137
+#: includes/zorem-exchanges/class-exchange-common-functions.php:164
+#: includes/zorem-exchanges/class-exchange-common-functions.php:188
+#: includes/zorem-returns/class-return-common-functions.php:183
+msgid "Variation"
+msgstr "Вариация"
+
+#: includes/class-return-exchange-common.php:265
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:656
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:919
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:995
+msgid "View"
+msgstr "Вид"
+
+#: includes/zorem-exchanges/class-exchange-front.php:184
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:13
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:21
+#: includes/zorem-returns/class-return-front.php:102
+#: includes/zorem-returns/class-return-front.php:104
+#: includes/zorem-returns/class-return-front.php:125
+#: includes/zorem-returns/class-return-front.php:127
+#: includes/zorem-returns/htmls/returns-center-form.php:13
+#: includes/zorem-returns/htmls/returns-center-form.php:21
+msgid "View Order"
+msgstr "Посмотреть заказ"
+
+#: includes/admin-html/returns-exchanges-license-form.php:18
+#: includes/admin-html/returns-exchanges-license.php:166
+msgid "Want to deactivate the license for any reason?"
+msgstr "Хотите деактивировать лицензию по какой-либо причине?"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1204
+msgid ""
+"We're sorry to inform you that your exchange request has been "
+"rejected.<br><br> Please let us know if you have any questions or concerns."
+msgstr ""
+"С сожалением сообщаем вам, что ваш запрос на обмен отклонен.<br><br> "
+"Пожалуйста, дайте нам знать, если у вас возникнут какие-либо вопросы или "
+"опасения."
+
+#: includes/zorem-returns/class-return-common-functions.php:1220
+msgid ""
+"We're sorry to inform you that your return request has been "
+"rejected.<br><br> Please let us know if you have any questions or concerns."
+msgstr ""
+"С сожалением сообщаем вам, что ваш запрос на возврат отклонен.<br><br> "
+"Пожалуйста, дайте нам знать, если у вас возникнут какие-либо вопросы или "
+"опасения."
+
+#: templates/emails/customer-coupon-email.php:24
+msgid ""
+"We’re happy to let you know that your return has been approved and your "
+"refund has been issued as store credit for your convenience."
+msgstr ""
+"Мы рады сообщить вам, что ваш возврат был одобрен, и для вашего удобства "
+"возврат средств был оформлен в виде кредита на счет магазина."
+
+#: includes/customizer/customizer-admin.php:157
+msgid "You are customizing"
+msgstr "Вы настраиваете"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:199
+msgid "You can only exchange this item for a variant of equal value."
+msgstr "Вы можете обменять этот товар только на аналог равной стоимости."
+
+#: includes/customizer/customizer-admin.php:451
+#: includes/customizer/customizer-admin.php:510
+msgid ""
+"You can use basic HTML tags such as <p>, <strong>, <br>, <ul>, <ol>, <li>, "
+"<a>."
+msgstr ""
+"Вы можете использовать основные теги HTML, такие как <p>, <strong>, <br>, "
+"<ul>, <ol>, <li>, <a>."
+
+#. translators: %s: The formatted credit amount.
+#: templates/emails/customer-coupon-email.php:31
+#: templates/emails/customer-return-store-credit.php:47
+#, php-format
+msgid ""
+"You can use this code during checkout to apply a credit of %s on your next "
+"purchase."
+msgstr ""
+"Вы можете использовать этот код при оформлении заказа, чтобы применить "
+"кредит в размере %s к следующей покупке."
+
+#: includes/class-return-exchange-common.php:198
+msgid "You have no return or exchange requests yet."
+msgstr "У вас пока нет запросов на возврат или обмен."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1217
+msgid "Your Exchange Request Has Been Approved!"
+msgstr "Ваш запрос на обмен одобрен!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:651
+msgid ""
+"Your exchange request has been approved. Please ship the item(s) to the "
+"return address provided."
+msgstr ""
+"Ваш запрос на обмен одобрен. Пожалуйста, отправьте товар(ы) по указанному "
+"обратному адресу."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:654
+msgid "Your exchange request has been cancelled."
+msgstr "Ваш запрос на обмен отменен."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1175
+msgid "Your Exchange Request Has Been Received"
+msgstr "Ваш запрос на обмен получен"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1203
+msgid "Your Exchange Request Has Been Rejected!"
+msgstr "Ваш запрос на обмен отклонен!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1241
+#: includes/zorem-returns/class-return-common-functions.php:1242
+msgid "Your Refund Has Been Issued as Store Credit!"
+msgstr "Ваш возврат средств был оформлен как кредит магазина!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:650
+#: includes/zorem-returns/class-return-common-functions.php:1436
+#: includes/zorem-returns/class-return-front.php:355
+msgid ""
+"Your request has been received. Our customer service team will review it and"
+" get back to you within a few business days."
+msgstr ""
+"Ваш запрос получен. Наша служба поддержки клиентов рассмотрит его и свяжется"
+" с вами в течение нескольких рабочих дней."
+
+#: includes/zorem-returns/class-return-common-functions.php:1233
+msgid "Your Return Request Has Been Approved!"
+msgstr "Ваш запрос на возврат одобрен!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1437
+#: includes/zorem-returns/class-return-front.php:356
+msgid ""
+"Your return request has been approved. Please proceed with shipping the "
+"return item(s) back to us."
+msgstr ""
+"Ваш запрос на возврат одобрен. Пожалуйста, отправьте нам возвращаемые "
+"товары."
+
+#: includes/zorem-returns/class-return-common-functions.php:1440
+#: includes/zorem-returns/class-return-front.php:359
+msgid "Your return request has been cancelled."
+msgstr "Ваш запрос на возврат был отменен."
+
+#: includes/zorem-returns/class-return-common-functions.php:1190
+msgid "Your Return Request Has Been Received!"
+msgstr "Ваш запрос на возврат получен!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1218
+msgid "Your Return Request Has Been Rejected!"
+msgstr "Ваш запрос на возврат отклонен!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1191
+msgid "Your Return Request Received!"
+msgstr "Ваш запрос на возврат получен!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1219
+msgid "Your Return Request Rejected!"
+msgstr "Ваш запрос на возврат отклонен!"
+
+#: templates/emails/customer-coupon-email.php:25
+msgid "Your Store Credit Coupon Code: "
+msgstr "Код купона на скидку в вашем магазине:"
+
+#. Author of the plugin
+#: zorem-returns.php
+msgid "zorem"
+msgstr "зорем"
+
+#. Plugin Name of the plugin
+#: zorem-returns.php includes/admin-html/header.php:32
+#: includes/admin-html/header.php:46
+msgid "Zorem Returns"
+msgstr "Зорем возвращается"
+
+#. Description of the plugin
+#: zorem-returns.php
+msgid ""
+"Your customer can request for Returns from My account > Orders. If you are "
+"selling a virtual product and you payment gateway support for automatic "
+"return & exchange so your customer get instant return & exchange."
+msgstr ""
+"Ваш покупатель может запросить возврат в разделе Мой аккаунт > Заказы. Если "
+"вы продаёте виртуальный товар и ваш платёжный шлюз поддерживает "
+"автоматические возвраты и обмены, покупатель получит мгновенный возврат и "
+"обмен."
+
+#: assets/zui/eco-plugins.php:49
+msgid ""
+"Take control of your post-shipping workflows, reduce customer service "
+"overhead and provide a premium post-purchase tracking experience directly "
+"inside WooCommerce. Keeps your tracking data up-to-date and sends automated "
+"status changes automatically."
+msgstr ""
+"Возьмите под контроль рабочие процессы после отправки, снизьте нагрузку на "
+"службу поддержки и обеспечьте первоклассный опыт отслеживания после покупки "
+"прямо в WooCommerce. Данные отслеживания обновляются автоматически, "
+"изменения статуса отправляются мгновенно."
+
+#: assets/zui/eco-plugins.php:51
+#: includes/admin-html/returns-exchanges-license.php:37
+msgid "Recommended"
+msgstr "Рекомендуется"
+
+#: assets/zui/eco-plugins.php:61
+msgid ""
+"Keep your shoppers perfectly aligned and updated with lightning fast "
+"automated SMS notifications for status updates, dispatched parcels, custom "
+"notes, and imminent local drop-offs. Integrates seamlessly with domestic and"
+" international gateways."
+msgstr ""
+"Держите покупателей в курсе с помощью молниеносных автоматических SMS-"
+"уведомлений об обновлениях статуса, отправленных посылках, пользовательских "
+"заметках и предстоящих местных доставках. Бесшовно интегрируется с "
+"отечественными и международными шлюзами."
+
+#: assets/zui/eco-plugins.php:73
+msgid ""
+"Supercharge pickup schedules, offer precise contact-free local pickup times,"
+" assign inventory reserves across dynamic multiple regional coordinates, "
+"configure localized discounts and split operational hours effortlessly."
+msgstr ""
+"Оптимизируйте расписания самовывоза, предлагайте точные бесконтактные "
+"временные слоты, распределяйте складские резервы по нескольким динамическим "
+"региональным точкам, настраивайте локальные скидки и делите рабочие часы без"
+" усилий."
+
+#: assets/zui/eco-plugins.php:85
+msgid ""
+"Control catalog visibility dynamically. Use safe IP geolocation heuristics "
+"to easily allow, restrict, or filter selected product availability across "
+"specific global geo environments and border codes."
+msgstr ""
+"Динамически управляйте видимостью каталога. Используйте безопасную "
+"геолокацию по IP для разрешения, ограничения или фильтрации доступности "
+"выбранных товаров для конкретных географических регионов и кодов стран."
+
+#: assets/zui/eco-plugins.php:97
+msgid ""
+"Block dummy checkouts, malicious registration scripts and spam sign-up "
+"queues by requiring multi-step verification code validation before customers"
+" complete purchases or establish accounts."
+msgstr ""
+"Блокируйте фиктивные оформления заказов, вредоносные скрипты регистрации и "
+"спам-очереди подписок, требуя многоэтапную верификацию перед завершением "
+"покупки или созданием аккаунта."
+
+#: assets/zui/eco-plugins.php:99
+msgid "Highly Rated"
+msgstr "Высокий рейтинг"
+
+#: assets/zui/eco-plugins.php:109
+msgid ""
+"Receive high-fidelity operational digests directly in your inbox. Deliver "
+"elegant daily, weekly or custom periodic sales charts, average cart tracking"
+" metrics and order analytics on auto-pilot."
+msgstr ""
+"Получайте подробные операционные отчёты прямо в почтовый ящик. Ежедневные, "
+"еженедельные или настраиваемые графики продаж, метрики среднего чека и "
+"аналитика заказов — всё в автоматическом режиме."
+
+#: assets/zui/eco-plugins.php:130
+#: includes/admin-html/returns-exchanges-license.php:291
+msgid "Active in this store"
+msgstr "Активен в этом магазине"
+
+#: includes/admin-html/header.php:30 zorem-returns.php:124
+msgid "Returns"
+msgstr "Возвраты"
+
+#: includes/admin-html/header.php:45
+#: includes/admin-html/returns-exchanges-settings.php:62
+msgid "Returns Settings"
+msgstr "Настройки возвратов"
+
+#: includes/admin-html/header.php:57
+msgid "Open settings menu"
+msgstr "Открыть меню настроек"
+
+#: includes/admin-html/header.php:88
+msgid "Docs Portal"
+msgstr "Портал документации"
+
+#: includes/admin-html/header.php:95
+msgid "Returns modules"
+msgstr "Модули возвратов"
+
+#: includes/admin-html/header.php:97
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: includes/admin-html/header.php:99
+msgid "Warranty Claims"
+msgstr "Гарантийные обращения"
+
+#: includes/admin-html/header.php:103
+#: includes/admin-html/returns-exchanges-emails.php:68
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: includes/admin-html/returns-exchanges-center.php:14
+#: includes/admin-html/returns-exchanges-emails.php:21
+#: includes/admin-html/returns-exchanges-emails.php:39
+#: includes/zorem-returns/class-return-common-functions.php:1248
+#: includes/zorem-returns/class-return-common-functions.php:1249
+msgid "Return Completed"
+msgstr "Возврат выполнен"
+
+#: includes/admin-html/returns-exchanges-emails.php:19
+#: includes/admin-html/returns-exchanges-emails.php:37
+msgid "Return Request Received"
+msgstr "Запрос на возврат получен"
+
+#: includes/admin-html/returns-exchanges-emails.php:23
+msgid "Return Store Credit"
+msgstr "Магазинный кредит за возврат"
+
+#: includes/admin-html/returns-exchanges-emails.php:24
+#: includes/admin-html/returns-exchanges-emails.php:41
+msgid "Exchange Request Received"
+msgstr "Запрос на обмен получен"
+
+#: includes/admin-html/returns-exchanges-emails.php:26
+#: includes/admin-html/returns-exchanges-emails.php:43
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1232
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1233
+msgid "Exchange Completed"
+msgstr "Обмен выполнен"
+
+#: includes/admin-html/returns-exchanges-emails.php:28
+msgid "Exchange Store Credit"
+msgstr "Магазинный кредит за обмен"
+
+#: includes/admin-html/returns-exchanges-emails.php:29
+#: includes/admin-html/returns-exchanges-emails.php:45
+msgid "Warranty Claim Submitted"
+msgstr "Гарантийное обращение подано"
+
+#: includes/admin-html/returns-exchanges-emails.php:30
+#: includes/admin-html/returns-exchanges-emails.php:46
+#: includes/zorem-warranty/class-warranty.php:802
+msgid "Warranty Claim Under Review"
+msgstr "Гарантийное обращение на рассмотрении"
+
+#: includes/admin-html/returns-exchanges-emails.php:31
+#: includes/admin-html/returns-exchanges-emails.php:47
+#: includes/zorem-warranty/class-warranty.php:773
+#: includes/zorem-warranty/class-warranty.php:808
+#: includes/zorem-warranty/class-warranty.php:809
+msgid "Warranty Claim Approved"
+msgstr "Гарантийное обращение одобрено"
+
+#: includes/admin-html/returns-exchanges-emails.php:32
+#: includes/admin-html/returns-exchanges-emails.php:48
+#: includes/zorem-warranty/class-warranty.php:780
+#: includes/zorem-warranty/class-warranty.php:815
+#: includes/zorem-warranty/class-warranty.php:816
+msgid "Warranty Claim Rejected"
+msgstr "Гарантийное обращение отклонено"
+
+#: includes/admin-html/returns-exchanges-emails.php:33
+#: includes/admin-html/returns-exchanges-emails.php:49
+#: includes/zorem-warranty/class-warranty.php:787
+#: includes/zorem-warranty/class-warranty.php:822
+#: includes/zorem-warranty/class-warranty.php:823
+msgid "Warranty Claim Resolved"
+msgstr "Гарантийное обращение решено"
+
+#: includes/admin-html/returns-exchanges-emails.php:69
+#: includes/admin-html/returns-exchanges-settings.php:63
+msgid "Close menu"
+msgstr "Закрыть меню"
+
+#: includes/admin-html/returns-exchanges-emails.php:74
+msgid "Notification channels"
+msgstr "Каналы уведомлений"
+
+#: includes/admin-html/returns-exchanges-emails.php:85
+msgid "SMS Notifications"
+msgstr "SMS-уведомления"
+
+#: includes/admin-html/returns-exchanges-emails.php:90
+#: includes/admin-html/returns-exchanges-settings.php:78
+msgid "Quick Help"
+msgstr "Быстрая помощь"
+
+#: includes/admin-html/returns-exchanges-emails.php:91
+#: includes/admin-html/returns-exchanges-settings.php:79
+msgid "Learn how to configure Zorem Returns for best results."
+msgstr ""
+"Узнайте, как настроить Zorem Returns для достижения наилучших результатов."
+
+#: includes/admin-html/returns-exchanges-emails.php:94
+#: includes/admin-html/returns-exchanges-settings.php:82
+msgid "View Documentation"
+msgstr "Смотреть документацию"
+
+#: includes/admin-html/returns-exchanges-emails.php:98
+#: includes/admin-html/returns-exchanges-settings.php:86
+msgid "Get Support"
+msgstr "Получить поддержку"
+
+#: includes/admin-html/returns-exchanges-emails.php:132
+msgid "Admin"
+msgstr "Администратор"
+
+#: includes/admin-html/returns-exchanges-emails.php:158
+#: includes/admin-html/returns-exchanges-emails.php:189
+msgid "ACTIVE"
+msgstr "АКТИВЕН"
+
+#: includes/admin-html/returns-exchanges-emails.php:158
+#: includes/admin-html/returns-exchanges-emails.php:189
+msgid "INACTIVE"
+msgstr "НЕАКТИВЕН"
+
+#: includes/admin-html/returns-exchanges-emails.php:164
+#: includes/admin-html/returns-exchanges-emails.php:195
+msgid "Customize"
+msgstr "Настроить"
+
+#: includes/admin-html/returns-exchanges-emails.php:211
+msgid "SMS for WooCommerce is active"
+msgstr "SMS for WooCommerce активен"
+
+#: includes/admin-html/returns-exchanges-emails.php:212
+msgid ""
+"Configure Return &amp; Exchange SMS notifications from the SMS for "
+"WooCommerce settings."
+msgstr ""
+"Настройте SMS-уведомления о возвратах &amp; обменах в настройках SMS for "
+"WooCommerce."
+
+#: includes/admin-html/returns-exchanges-emails.php:213
+msgid "Open Returns SMS Settings"
+msgstr "Открыть настройки SMS для возвратов"
+
+#: includes/admin-html/returns-exchanges-emails.php:220
+msgid "Send SMS Notifications for Returns &amp; Exchanges"
+msgstr "Отправлять SMS-уведомления о возвратах &amp; обменах"
+
+#: includes/admin-html/returns-exchanges-emails.php:221
+msgid ""
+"Keep your customers informed with instant SMS updates when their return or "
+"exchange request is received, approved, completed or rejected."
+msgstr ""
+"Информируйте клиентов мгновенными SMS при получении, одобрении, выполнении "
+"или отклонении запроса на возврат или обмен."
+
+#: includes/admin-html/returns-exchanges-emails.php:223
+msgid "Return Request Received, Approved, Completed &amp; Rejected"
+msgstr "Запрос на возврат получен, одобрен, выполнен &amp; отклонён"
+
+#: includes/admin-html/returns-exchanges-emails.php:224
+msgid "Exchange Request Received, Approved, Completed &amp; Rejected"
+msgstr "Запрос на обмен получен, одобрен, выполнен &amp; отклонён"
+
+#: includes/admin-html/returns-exchanges-emails.php:225
+msgid "Customisable message templates with order variables"
+msgstr "Настраиваемые шаблоны сообщений с переменными заказа"
+
+#: includes/admin-html/returns-exchanges-emails.php:226
+msgid "Works alongside email notifications independently"
+msgstr "Работает независимо наряду с email-уведомлениями"
+
+#: includes/admin-html/returns-exchanges-emails.php:229
+msgid "Get SMS for WooCommerce"
+msgstr "Получить SMS for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:30
+msgid "Advanced Shipment Tracking PRO"
+msgstr "Advanced Shipment Tracking PRO"
+
+#: includes/admin-html/returns-exchanges-license.php:35
+msgid ""
+"AST PRO provides powerful features to easily add tracking info to "
+"WooCommerce orders, automate fulfillment workflows and keep your customers "
+"happy and informed."
+msgstr ""
+"AST PRO предлагает мощные функции для простого добавления информации "
+"отслеживания к заказам WooCommerce, автоматизации рабочих процессов "
+"выполнения и поддержания клиентов довольными и информированными."
+
+#: includes/admin-html/returns-exchanges-license.php:38
+msgid "15k+ active stores"
+msgstr "Более 15 000 активных магазинов"
+
+#: includes/admin-html/returns-exchanges-license.php:41
+msgid "TrackShip for WooCommerce"
+msgstr "TrackShip for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:46
+msgid ""
+"Take control of post-shipping workflows, reduce time spent on customer "
+"service and provide a superior post-purchase experience to your customers."
+msgstr ""
+"Возьмите под контроль рабочие процессы после отправки, сократите время на "
+"поддержку клиентов и обеспечьте превосходный опыт после покупки."
+
+#: includes/admin-html/returns-exchanges-license.php:49
+msgid "8k+ active stores"
+msgstr "Более 8 000 активных магазинов"
+
+#: includes/admin-html/returns-exchanges-license.php:52
+msgid "SMS for WooCommerce"
+msgstr "SMS for WooCommerce"
+
+#: includes/admin-html/returns-exchanges-license.php:57
+msgid ""
+"Keep your customers informed by sending them automated SMS text messages "
+"with order & delivery updates."
+msgstr ""
+"Держите клиентов в курсе, отправляя им автоматические SMS с обновлениями "
+"заказа и доставки."
+
+#: includes/admin-html/returns-exchanges-license.php:60
+msgid "5k+ installs"
+msgstr "Более 5 000 установок"
+
+#: includes/admin-html/returns-exchanges-license.php:63
+msgid "Sales Report Email Pro"
+msgstr "Sales Report Email Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:68
+msgid ""
+"Know how well your store is performing by sending daily, weekly, or monthly "
+"sales reports by email."
+msgstr ""
+"Узнайте о результатах магазина, получая ежедневные, еженедельные или "
+"ежемесячные отчёты о продажах по email."
+
+#: includes/admin-html/returns-exchanges-license.php:71
+msgid "3k+ active"
+msgstr "Более 3 000 активных"
+
+#: includes/admin-html/returns-exchanges-license.php:74
+msgid "Country Based Restrictions Pro"
+msgstr "Country Based Restrictions Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:79
+msgid ""
+"Restrict products on your store by visitor country using WooCommerce "
+"Geolocation or the shipping country added by the customer."
+msgstr ""
+"Ограничивайте товары в магазине по стране посетителя, используя геолокацию "
+"WooCommerce или указанную покупателем страну доставки."
+
+#: includes/admin-html/returns-exchanges-license.php:82
+msgid "2k+ active"
+msgstr "Более 2 000 активных"
+
+#: includes/admin-html/returns-exchanges-license.php:85
+msgid "Zorem Local Pickup Pro"
+msgstr "Zorem Local Pickup Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:90
+msgid ""
+"Advanced local pickup management with multiple locations, business hours and"
+" appointment slots for WooCommerce."
+msgstr ""
+"Расширенное управление самовывозом с несколькими точками, рабочими часами и "
+"временными слотами для WooCommerce."
+
+#: includes/admin-html/returns-exchanges-license.php:93
+msgid "4k+ installs"
+msgstr "Более 4 000 установок"
+
+#: includes/admin-html/returns-exchanges-license.php:118
+msgid "Store Ecosystem Management"
+msgstr "Управление экосистемой магазина"
+
+#: includes/admin-html/returns-exchanges-license.php:120
+msgid "License & Extensions"
+msgstr "Лицензия и расширения"
+
+#: includes/admin-html/returns-exchanges-license.php:121
+msgid "Manage your secure zorem.com connection."
+msgstr "Управляйте своим защищённым подключением к zorem.com."
+
+#: includes/admin-html/returns-exchanges-license.php:129
+msgid "Secure Connection"
+msgstr "Защищённое соединение"
+
+#: includes/admin-html/returns-exchanges-license.php:131
+msgid "Synchronized"
+msgstr "Синхронизировано"
+
+#: includes/admin-html/returns-exchanges-license.php:131
+msgid "Unlinked"
+msgstr "Не привязан"
+
+#: includes/admin-html/returns-exchanges-license.php:146
+msgid "Secure SSO Gateway Verification"
+msgstr "Проверка безопасного SSO-шлюза"
+
+#: includes/admin-html/returns-exchanges-license.php:156
+msgid "Active Premium License"
+msgstr "Активная премиум-лицензия"
+
+#: includes/admin-html/returns-exchanges-license.php:157
+msgid "Zorem Returns Pro License"
+msgstr "Лицензия Zorem Returns Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:161
+msgid "Licensed Domain:"
+msgstr "Лицензированный домен:"
+
+#: includes/admin-html/returns-exchanges-license.php:171
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: includes/admin-html/returns-exchanges-license.php:181
+msgid "Action Needed"
+msgstr "Требуется действие"
+
+#: includes/admin-html/returns-exchanges-license.php:183
+msgid "Activate your license"
+msgstr "Активируйте лицензию"
+
+#: includes/admin-html/returns-exchanges-license.php:184
+msgid ""
+"Securely connect your WooCommerce installation via zorem.com to receive "
+"automatic updates and premium support. We will authenticate your unique "
+"license and redirect you back instantly."
+msgstr ""
+"Безопасно подключите установку WooCommerce через zorem.com для получения "
+"автоматических обновлений и премиум-поддержки. Мы аутентифицируем вашу "
+"уникальную лицензию и немедленно перенаправим вас обратно."
+
+#: includes/admin-html/returns-exchanges-license.php:188
+msgid "Connect & Activate License"
+msgstr "Подключить и активировать лицензию"
+
+#: includes/admin-html/returns-exchanges-license.php:190
+msgid "Redirects safely to the zorem.com gateway."
+msgstr "Безопасное перенаправление на шлюз zorem.com."
+
+#: includes/admin-html/returns-exchanges-license.php:197
+msgid "Free version"
+msgstr "Бесплатная версия"
+
+#: includes/admin-html/returns-exchanges-license.php:199
+msgid "Upgrade to Zorem Returns Pro"
+msgstr "Обновить до Zorem Returns Pro"
+
+#: includes/admin-html/returns-exchanges-license.php:200
+msgid ""
+"Unlock the Warranty workflow, Fraud Prevention, extended notifications and "
+"premium support with the PRO version."
+msgstr ""
+"Откройте возможности гарантийного рабочего процесса, защиты от "
+"мошенничества, расширенных уведомлений и премиум-поддержки с версией PRO."
+
+#: includes/admin-html/returns-exchanges-license.php:204
+msgid "View PRO features"
+msgstr "Просмотреть функции PRO"
+
+#: includes/admin-html/returns-exchanges-license.php:217
+msgid "Documentation & Help"
+msgstr "Документация и справка"
+
+#: includes/admin-html/returns-exchanges-license.php:221
+msgid "Browse Zorem Knowledge Base"
+msgstr "Просмотр базы знаний Zorem"
+
+#: includes/admin-html/returns-exchanges-license.php:227
+msgid "Submit Helpdesk Support Ticket"
+msgstr "Отправить заявку в поддержку"
+
+#: includes/admin-html/returns-exchanges-license.php:233
+msgid "TrackShip Fulfillment Engine Portal"
+msgstr "Портал TrackShip Fulfillment Engine"
+
+#: includes/admin-html/returns-exchanges-license.php:251
+msgid "Fulfillment Workflow Platform Ecosystem"
+msgstr "Экосистема платформы рабочих процессов выполнения"
+
+#: includes/admin-html/returns-exchanges-license.php:252
+msgid "Install complimentary extensions developed by zorem."
+msgstr "Установите бесплатные дополнения от zorem."
+
+#: includes/admin-html/returns-exchanges-license.php:256
+msgid "All"
+msgstr "Все"
+
+#: includes/admin-html/returns-exchanges-license.php:257
+#: includes/admin-html/returns-exchanges-license.php:290
+msgid "Active"
+msgstr "Активные"
+
+#: includes/admin-html/returns-exchanges-license.php:258
+msgid "Add-ons"
+msgstr "Дополнения"
+
+#: includes/admin-html/returns-exchanges-license.php:266
+msgid "Search companion plugins…"
+msgstr "Поиск сопутствующих плагинов…"
+
+#: includes/admin-html/returns-exchanges-license.php:280
+msgid "WOO EXTENSION"
+msgstr "РАСШИРЕНИЕ WOO"
+
+#: includes/admin-html/returns-exchanges-license.php:294
+msgid "Get Extension"
+msgstr "Получить расширение"
+
+#: includes/admin-html/returns-exchanges-license.php:303
+msgid "No store plugins matched your search."
+msgstr "Плагины магазина не найдены."
+
+#: includes/admin-html/returns-exchanges-settings.php:27
+msgid "Configure how returns and exchanges are displayed and handled."
+msgstr "Настройте отображение и обработку возвратов и обменов."
+
+#: includes/admin-html/returns-exchanges-settings.php:32
+msgid "Refund methods, restocking fees, guidelines and return reasons."
+msgstr ""
+"Методы возврата средств, сборы за пополнение, правила и причины возвратов."
+
+#: includes/admin-html/returns-exchanges-settings.php:37
+msgid "Exchange rules, cross-product options, guidelines and reasons."
+msgstr "Правила обмена, межпродуктовые опции, правила и причины."
+
+#: includes/admin-html/returns-exchanges-settings.php:41
+msgid "Fraud Prevention"
+msgstr "Защита от мошенничества"
+
+#: includes/admin-html/returns-exchanges-settings.php:42
+msgid "Per-customer return limits, blocklist and abuse controls."
+msgstr ""
+"Лимиты возвратов на клиента, чёрный список и контроль злоупотреблений."
+
+#: includes/admin-html/returns-exchanges-settings.php:46
+#: includes/zorem-warranty/class-warranty.php:425
+msgid "Warranty"
+msgstr "Гарантия"
+
+#: includes/admin-html/returns-exchanges-settings.php:47
+msgid "Enable warranty workflow, default period and reasons."
+msgstr "Включить гарантийный рабочий процесс, стандартный период и причины."
+
+#: includes/admin-html/returns-exchanges-settings.php:68
+msgid "Settings sections"
+msgstr "Разделы настроек"
+
+#: includes/admin-html/returns-exchanges-settings.php:178
+msgid "Bulk Upload to Blocklist"
+msgstr "Массовая загрузка в чёрный список"
+
+#: includes/admin-html/returns-exchanges-settings.php:179
+msgid ""
+"Upload a CSV or TXT file containing one email address or numeric user ID per"
+" line. Headers are detected and skipped. Entries are merged into the "
+"blocklist (duplicates ignored)."
+msgstr ""
+"Загрузите файл CSV или TXT, содержащий один адрес электронной почты или "
+"числовой ID пользователя в строке. Заголовки автоматически обнаруживаются и "
+"пропускаются. Записи объединяются с чёрным списком (дубликаты игнорируются)."
+
+#: includes/admin-html/returns-exchanges-settings.php:181
+msgid ""
+"Upload a CSV or TXT file containing one email address or numeric user ID per"
+" line."
+msgstr ""
+"Загрузите файл CSV или TXT, содержащий один адрес электронной почты или "
+"числовой ID пользователя в строке."
+
+#: includes/admin-html/returns-exchanges-settings.php:189
+msgid "Upload"
+msgstr "Загрузить"
+
+#: includes/admin-html/returns-exchanges-settings.php:202
+msgid "Check Customer Return Count"
+msgstr "Проверить количество возвратов клиента"
+
+#: includes/admin-html/returns-exchanges-settings.php:203
+msgid ""
+"Look up a customer by email or numeric user ID to see how many return rows "
+"they have within the current time window and whether they would be blocked."
+msgstr ""
+"Найдите клиента по email или числовому ID пользователя, чтобы узнать "
+"количество его возвратов в текущем временном окне и будет ли он "
+"заблокирован."
+
+#: includes/admin-html/returns-exchanges-settings.php:205
+msgid ""
+"Look up a customer by email or numeric user ID to see how many return rows "
+"they have within the current time window."
+msgstr ""
+"Найдите клиента по email или числовому ID пользователя, чтобы узнать "
+"количество его возвратов в текущем временном окне."
+
+#: includes/admin-html/returns-exchanges-settings.php:211
+msgid "customer@example.com OR 42"
+msgstr "клиент@пример.ру ИЛИ 42"
+
+#: includes/admin-html/returns-exchanges-settings.php:213
+msgid "Check"
+msgstr "Проверить"
+
+#: includes/admin-html/warranty-claims-dashboard.php:32
+msgid "All Claims"
+msgstr "Все обращения"
+
+#: includes/admin-html/warranty-claims-dashboard.php:49
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin-html/warranty-claims-dashboard.php:50
+#: includes/zorem-warranty/class-warranty.php:192
+#: templates/emails/_warranty-email-body.php:29
+msgid "Submitted"
+msgstr "Подано"
+
+#: includes/admin-html/warranty-claims-dashboard.php:54
+#: templates/emails/_warranty-email-body.php:78
+msgid "Product"
+msgstr "Товар"
+
+#: includes/admin-html/warranty-claims-dashboard.php:55
+#: includes/zorem-warranty/class-warranty.php:438
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:53
+#: templates/emails/_warranty-email-body.php:81
+msgid "Reason"
+msgstr "Причина"
+
+#: includes/admin-html/warranty-claims-dashboard.php:62
+msgid "No warranty claims to show."
+msgstr "Нет гарантийных обращений для отображения."
+
+#: includes/admin-html/warranty-claims-dashboard.php:97
+msgid "View / Update"
+msgstr "Просмотреть / Обновить"
+
+#: includes/admin-html/warranty-claims-dashboard.php:105
+msgid "Customer description"
+msgstr "Описание клиента"
+
+#: includes/admin-html/warranty-claims-dashboard.php:122
+msgid "Update Claim"
+msgstr "Обновить обращение"
+
+#: includes/admin-html/warranty-claims-dashboard.php:124
+msgid "New Status"
+msgstr "Новый статус"
+
+#: includes/admin-html/warranty-claims-dashboard.php:131
+msgid "Resolution (required when resolving)"
+msgstr "Решение (требуется при решении)"
+
+#: includes/admin-html/warranty-claims-dashboard.php:133
+msgid "— Select —"
+msgstr "— Выбрать —"
+
+#: includes/admin-html/warranty-claims-dashboard.php:139
+msgid "Resolution note"
+msgstr "Заметка о решении"
+
+#: includes/admin-html/warranty-claims-dashboard.php:140
+msgid "Optional — sent to the customer in the notification email."
+msgstr "Необязательно — отправляется клиенту в уведомлении по email."
+
+#: includes/class-return-exchange-admin.php:204
+msgid "Search for a product…"
+msgstr "Поиск товара…"
+
+#: includes/class-return-exchange-admin.php:205
+msgid "Searching…"
+msgstr "Поиск…"
+
+#: includes/class-return-exchange-admin.php:206
+msgid "No products found."
+msgstr "Товары не найдены."
+
+#: includes/class-return-exchange-admin.php:207
+msgid "Select a variant"
+msgstr "Выбрать вариант"
+
+#: includes/class-return-exchange-admin.php:208
+msgid "Choose an option"
+msgstr "Выбрать опцию"
+
+#: includes/class-return-exchange-admin.php:209
+msgid "Sorry, this combination is unavailable."
+msgstr "К сожалению, такая комбинация недоступна."
+
+#: includes/class-return-exchange-admin.php:210
+msgid "Additional payment required"
+msgstr "Требуется доплата"
+
+#: includes/class-return-exchange-admin.php:211
+msgid "Store credit will be issued"
+msgstr "Будет выпущен магазинный кредит"
+
+#: includes/class-return-exchange-admin.php:212
+msgid "Even exchange"
+msgstr "Равнозначный обмен"
+
+#: includes/class-return-exchange-admin.php:432
+msgid "Return Window Extension"
+msgstr "Продление окна возврата"
+
+#: includes/class-return-exchange-admin.php:435
+msgid "Custom Return Window (Days)"
+msgstr "Пользовательское окно возврата (дни)"
+
+#: includes/class-return-exchange-admin.php:438
+msgid ""
+"Enter total return/exchange days for this user (max 90). Leave empty or 0 to"
+" use the global Return/Exchange Window (Days) setting."
+msgstr ""
+"Введите общее количество дней для возврата/обмена для этого пользователя "
+"(макс. 90). Оставьте пустым или 0, чтобы использовать глобальную настройку "
+"Окно возврата/обмена (дни)."
+
+#: includes/class-return-exchange-admin.php:534
+msgid ""
+"Days after the order date within which customers may request a return or "
+"exchange."
+msgstr ""
+"Количество дней после даты заказа, в течение которых клиенты могут "
+"запрашивать возврат или обмен."
+
+#: includes/class-return-exchange-admin.php:543
+msgid "Enable Per-User Return Window Extension"
+msgstr "Включить продление окна возврата для пользователя"
+
+#: includes/class-return-exchange-admin.php:544
+msgid ""
+"Override the global window for individual customers from their user profile."
+msgstr "Переопределите глобальное окно для отдельных клиентов в их профиле."
+
+#: includes/class-return-exchange-admin.php:548
+msgid ""
+"When enabled, you can set a custom return/exchange window per customer from "
+"their user profile page."
+msgstr ""
+"При включении вы можете установить пользовательское окно возврата/обмена для"
+" каждого клиента на странице профиля."
+
+#: includes/class-return-exchange-admin.php:551
+msgid "Restock Completed Returns and Exchanges"
+msgstr "Восстановить запасы по завершённым возвратам и обменам"
+
+#: includes/class-return-exchange-admin.php:552
+msgid ""
+"Automatically add stock back on completed returns and approved exchanges."
+msgstr ""
+"Автоматически добавлять товар обратно при завершённых возвратах и одобренных"
+" обменах."
+
+#: includes/class-return-exchange-admin.php:556
+msgid ""
+"Enable this option to automatically restock items when a return is marked as"
+" completed or an exchange is approved."
+msgstr ""
+"Включите эту опцию для автоматического восстановления запасов при завершении"
+" возврата или одобрении обмена."
+
+#: includes/class-return-exchange-admin.php:560
+msgid ""
+"Only orders in one of the selected statuses will show the return/exchange "
+"buttons."
+msgstr ""
+"Кнопки возврата/обмена отображаются только для заказов с одним из выбранных "
+"статусов."
+
+#: includes/class-return-exchange-admin.php:569
+msgid ""
+"Link customers open when they click the \"terms and conditions\" text on the"
+" return form."
+msgstr ""
+"Ссылка, которую клиенты открывают, нажав на текст условий и положений в "
+"форме возврата."
+
+#: includes/class-return-exchange-admin.php:582
+msgid ""
+"Products belonging to any of these categories cannot be returned or "
+"exchanged."
+msgstr "Товары из любой из этих категорий не подлежат возврату или обмену."
+
+#: includes/class-return-exchange-admin.php:591
+msgid ""
+"Individual products that are excluded from the return/exchange workflow."
+msgstr "Отдельные товары, исключённые из рабочего процесса возврата/обмена."
+
+#: includes/class-return-exchange-admin.php:599
+msgid ""
+"Address shown to customers for shipping returned items back to your store."
+msgstr ""
+"Адрес, отображаемый клиентам для отправки возвращённых товаров в ваш "
+"магазин."
+
+#: includes/class-return-exchange-admin.php:619
+msgid "Keep the Item & Receive a Partial Refund"
+msgstr "Оставить товар и получить частичный возврат средств"
+
+#: includes/class-return-exchange-admin.php:623
+#: includes/class-return-exchange-common.php:27
+msgid "Refund to Wallet (TeraWallet)"
+msgstr "Возврат на кошелёк (TeraWallet)"
+
+#: includes/class-return-exchange-admin.php:639
+msgid "Include sale-priced items in the return workflow."
+msgstr "Включить товары со скидкой в рабочий процесс возврата."
+
+#: includes/class-return-exchange-admin.php:647
+msgid "Skip manual review — every new return is approved on submission."
+msgstr ""
+"Пропустить ручную проверку — каждый новый возврат одобряется при подаче."
+
+#: includes/class-return-exchange-admin.php:655
+msgid ""
+"Customer can choose individual items to return rather than the whole order."
+msgstr "Клиент может выбрать отдельные товары для возврата, а не весь заказ."
+
+#: includes/class-return-exchange-admin.php:663
+msgid ""
+"Refund destinations offered to the customer when the return is approved."
+msgstr ""
+"Направления возврата средств, предлагаемые клиенту при одобрении возврата."
+
+#: includes/class-return-exchange-admin.php:675
+msgid "Partial Refund Percentage"
+msgstr "Процент частичного возврата"
+
+#: includes/class-return-exchange-admin.php:676
+msgid ""
+"Percentage of the item total refunded when the customer picks the \"Keep the"
+" Item\" resolution. Shown to the customer on the return form."
+msgstr ""
+"Процент от суммы товара, возвращаемый клиенту при выборе решения оставить "
+"товар. Отображается клиенту в форме возврата."
+
+#: includes/class-return-exchange-admin.php:683
+msgid ""
+"Only used when \"Keep the Item & Receive a Partial Refund\" is enabled "
+"above. The plugin does not process this refund automatically — the admin "
+"issues it manually from the WooCommerce Edit Order page."
+msgstr ""
+"Используется только когда включена опция оставить товар и получить частичный"
+" возврат выше. Плагин не обрабатывает этот возврат автоматически — "
+"администратор выдаёт его вручную на странице редактирования заказа "
+"WooCommerce."
+
+#: includes/class-return-exchange-admin.php:687
+msgid "Add the original shipping charge back into the refund total."
+msgstr "Добавить исходную стоимость доставки обратно к сумме возврата."
+
+#: includes/class-return-exchange-admin.php:694
+msgid "Enable Restocking Fee"
+msgstr "Включить сбор за пополнение"
+
+#: includes/class-return-exchange-admin.php:695
+msgid ""
+"Deduct a fee from every approved refund; shown to the customer up-front."
+msgstr ""
+"Вычитать сбор из каждого одобренного возврата; отображается клиенту заранее."
+
+#: includes/class-return-exchange-admin.php:699
+msgid ""
+"Deduct a restocking fee from the refund amount when a return is approved. "
+"The fee is shown to the customer before they submit their return request."
+msgstr ""
+"Вычитать сбор за пополнение из суммы возврата при одобрении возврата. Сбор "
+"отображается клиенту перед подачей запроса."
+
+#: includes/class-return-exchange-admin.php:702
+msgid "Restocking Fee Type"
+msgstr "Тип сбора за пополнение"
+
+#: includes/class-return-exchange-admin.php:703
+msgid ""
+"How the fee is calculated: a percentage of item price or a flat per-item "
+"amount."
+msgstr ""
+"Как рассчитывается сбор: процент от цены товара или фиксированная сумма за "
+"товар."
+
+#: includes/class-return-exchange-admin.php:709
+#: includes/zorem-returns/class-restocking-fee.php:355
+#: includes/zorem-returns/class-restocking-fee.php:434
+#: includes/zorem-returns/class-restocking-fee.php:467
+msgid "Percentage (%)"
+msgstr "Процент (%)"
+
+#: includes/class-return-exchange-admin.php:710
+#: includes/zorem-returns/class-restocking-fee.php:356
+#: includes/zorem-returns/class-restocking-fee.php:435
+#: includes/zorem-returns/class-restocking-fee.php:468
+msgid "Fixed amount per item"
+msgstr "Фиксированная сумма за товар"
+
+#: includes/class-return-exchange-admin.php:712
+msgid ""
+"Choose how the restocking fee is calculated. Percentage applies to each "
+"returned item's price; Fixed deducts a flat amount per returned item "
+"(multiplied by quantity)."
+msgstr ""
+"Выберите способ расчёта сбора за пополнение. Процент применяется к цене "
+"каждого возвращаемого товара; фиксированный вычитает фиксированную сумму за "
+"возвращаемый товар (умноженную на количество)."
+
+#: includes/class-return-exchange-admin.php:715
+msgid "Restocking Fee Amount"
+msgstr "Сумма сбора за пополнение"
+
+#: includes/class-return-exchange-admin.php:716
+msgid ""
+"Value of the fee — a number for percentage, or a currency amount for fixed."
+msgstr ""
+"Значение сбора — число для процента или сумма в валюте для фиксированного."
+
+#: includes/class-return-exchange-admin.php:721
+msgid ""
+"For percentage: enter a number (e.g., 15 for 15%). For fixed: enter the "
+"amount in your store currency (e.g., 5 for ₹5/$5 per item)."
+msgstr ""
+"Для процента: введите число (например, 15 для 15%). Для фиксированного: "
+"введите сумму в валюте магазина (например, 5 для ₹5/5$ за товар)."
+
+#: includes/class-return-exchange-admin.php:724
+msgid "Restocking Fee Label"
+msgstr "Метка сбора за пополнение"
+
+#: includes/class-return-exchange-admin.php:725
+msgid "Text shown to the customer next to the fee line item."
+msgstr "Текст, отображаемый клиенту рядом со строкой сбора."
+
+#: includes/class-return-exchange-admin.php:728
+#: includes/class-return-exchange-admin.php:729
+#: includes/zorem-returns/class-restocking-fee.php:86
+#: includes/zorem-returns/class-restocking-fee.php:87
+#: includes/zorem-returns/class-restocking-fee.php:336
+#: includes/zorem-returns/class-restocking-fee.php:423
+#: includes/zorem-returns/class-restocking-fee.php:453
+#: includes/zorem-returns/class-return-common-functions.php:227
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:332
+msgid "Restocking Fee"
+msgstr "Сбор за пополнение"
+
+#: includes/class-return-exchange-admin.php:730
+msgid ""
+"Label shown to the customer in the return summary, admin dashboard and "
+"refund emails."
+msgstr ""
+"Метка, отображаемая клиенту в сводке возврата, панели администратора и "
+"письмах о возврате."
+
+#: includes/class-return-exchange-admin.php:733
+msgid "Disable Returns for Payment Methods"
+msgstr "Отключить возвраты для способов оплаты"
+
+#: includes/class-return-exchange-admin.php:734
+msgid ""
+"Hide the Return button for orders paid via any of the selected gateways."
+msgstr ""
+"Скрыть кнопку возврата для заказов, оплаченных через любой из выбранных "
+"шлюзов."
+
+#: includes/class-return-exchange-admin.php:739
+msgid ""
+"Select payment gateways that are not eligible for returns. The Return button"
+" will be hidden for orders paid with these methods (e.g., Cash on Delivery)."
+msgstr ""
+"Выберите платёжные шлюзы, не дающие право на возврат. Кнопка возврата будет "
+"скрыта для заказов, оплаченных этими методами (например, наложенный платёж)."
+
+#: includes/class-return-exchange-admin.php:742
+msgid "Return Disabled Message"
+msgstr "Сообщение об отключённых возвратах"
+
+#: includes/class-return-exchange-admin.php:743
+#: includes/class-return-exchange-admin.php:906
+msgid ""
+"Customer-facing text shown when the order was paid via a disabled gateway."
+msgstr "Текст для клиента, отображаемый при оплате через отключённый шлюз."
+
+#: includes/class-return-exchange-admin.php:746
+#: includes/class-return-exchange-admin.php:747
+#: includes/zorem-returns/class-return-common-functions.php:947
+msgid ""
+"Returns are not available for Cash on Delivery orders. Please contact us "
+"directly."
+msgstr ""
+"Возвраты недоступны для заказов с наложенным платежом. Пожалуйста, свяжитесь"
+" с нами напрямую."
+
+#: includes/class-return-exchange-admin.php:748
+#: includes/class-return-exchange-admin.php:911
+msgid ""
+"Message shown to customers when their order is paid via a disabled payment "
+"method."
+msgstr ""
+"Сообщение, отображаемое клиентам, чей заказ оплачен через отключённый способ"
+" оплаты."
+
+#: includes/class-return-exchange-admin.php:752
+msgid ""
+"Instructions included in the return-approved email sent to the customer."
+msgstr "Инструкции в письме об одобрении возврата, отправляемом клиенту."
+
+#: includes/class-return-exchange-admin.php:760
+msgid "Options shown in the reason dropdown on the customer return form."
+msgstr "Опции в выпадающем списке причин в форме возврата клиента."
+
+#: includes/class-return-exchange-admin.php:792
+msgid "Master switch — hides the entire exchange workflow when off."
+msgstr ""
+"Главный переключатель — скрывает весь рабочий процесс обмена при отключении."
+
+#: includes/class-return-exchange-admin.php:800
+msgid "Include sale-priced items in the exchange workflow."
+msgstr "Включить товары со скидкой в рабочий процесс обмена."
+
+#: includes/class-return-exchange-admin.php:808
+msgid "Skip manual review — every new exchange is approved on submission."
+msgstr ""
+"Пропустить ручную проверку — каждый новый обмен одобряется при подаче."
+
+#: includes/class-return-exchange-admin.php:816
+msgid ""
+"Customer can pick individual items to exchange rather than the whole order."
+msgstr "Клиент может выбрать отдельные товары для обмена, а не весь заказ."
+
+#: includes/class-return-exchange-admin.php:823
+msgid "Allow Cross-Product Exchange"
+msgstr "Разрешить обмен между товарами"
+
+#: includes/class-return-exchange-admin.php:824
+msgid ""
+"Customer can exchange for any catalog product, not just other variations."
+msgstr ""
+"Клиент может выбрать любой товар из каталога, а не только другие варианты."
+
+#: includes/class-return-exchange-admin.php:828
+msgid ""
+"Allow customers to exchange for any product in the catalog, not just the "
+"same product's variations."
+msgstr ""
+"Разрешите клиентам обмениваться на любой товар в каталоге, а не только "
+"варианты того же товара."
+
+#: includes/class-return-exchange-admin.php:831
+msgid "Show Original → Requested Exchange Table in Customer Emails"
+msgstr "Показывать таблицу Оригинал → Запрошенный обмен в письмах клиентам"
+
+#: includes/class-return-exchange-admin.php:832
+msgid ""
+"Include a side-by-side comparison of original vs. requested product in "
+"emails."
+msgstr "Включить сравнение оригинального и запрошенного товаров в письма."
+
+#: includes/class-return-exchange-admin.php:836
+msgid ""
+"When enabled, customer exchange emails "
+"(requested/approved/completed/rejected) include a comparison table showing "
+"the original product alongside the requested exchange product. When "
+"disabled, only the basic original-item summary is shown."
+msgstr ""
+"При включении письма об обмене клиенту содержат сравнительную таблицу с "
+"оригинальным и запрошенным товарами. При отключении отображается только "
+"базовая сводка оригинального товара."
+
+#: includes/class-return-exchange-admin.php:839
+msgid "When new item costs more"
+msgstr "Когда новый товар дороже"
+
+#: includes/class-return-exchange-admin.php:840
+msgid ""
+"How the price difference is collected when the replacement is more "
+"expensive."
+msgstr "Как взимается разница в цене, если замена дороже."
+
+#: includes/class-return-exchange-admin.php:849
+msgid "Create pending payment order for the difference"
+msgstr "Создать заказ с ожидающей оплатой за разницу"
+
+#: includes/class-return-exchange-admin.php:850
+msgid "Ship first and invoice later"
+msgstr "Отправить сначала, выставить счёт позже"
+
+#: includes/class-return-exchange-admin.php:852
+msgid ""
+"Choose what happens when the replacement product costs more than the "
+"original item."
+msgstr "Выберите, что происходит, когда товар-замена стоит дороже оригинала."
+
+#: includes/class-return-exchange-admin.php:855
+msgid "When new item costs less"
+msgstr "Когда новый товар дешевле"
+
+#: includes/class-return-exchange-admin.php:856
+msgid "How the leftover balance is handled when the replacement is cheaper."
+msgstr "Как обрабатывается остаток, если замена дешевле."
+
+#: includes/class-return-exchange-admin.php:865
+msgid "Issue store credit coupon for the balance"
+msgstr "Выпустить купон на магазинный кредит за разницу"
+
+#: includes/class-return-exchange-admin.php:866
+msgid "No credit — discard the difference"
+msgstr "Без кредита — отменить разницу"
+
+#: includes/class-return-exchange-admin.php:868
+msgid ""
+"Choose what happens when the replacement product costs less than the "
+"original item."
+msgstr "Выберите, что происходит, когда товар-замена стоит дешевле оригинала."
+
+#: includes/class-return-exchange-admin.php:871
+msgid "Store credit coupon expiry (days)"
+msgstr "Срок действия купона на магазинный кредит (дни)"
+
+#: includes/class-return-exchange-admin.php:872
+msgid "Lifetime of the issued store-credit coupon (0 = never expires)."
+msgstr "Срок действия выданного купона (0 = никогда не истекает)."
+
+#: includes/class-return-exchange-admin.php:880
+msgid ""
+"Number of days before the store credit coupon expires. Enter 0 for no "
+"expiry."
+msgstr "Количество дней до истечения срока купона. Введите 0 для бессрочного."
+
+#: includes/class-return-exchange-admin.php:883
+msgid "Preset Shipping Method for Exchange Orders"
+msgstr "Предустановленный способ доставки для заказов на обмен"
+
+#: includes/class-return-exchange-admin.php:884
+msgid "Shipping method automatically applied to child exchange orders."
+msgstr ""
+"Способ доставки, автоматически применяемый к дочерним заказам на обмен."
+
+#: includes/class-return-exchange-admin.php:893
+msgid ""
+"Select the shipping method that should automatically be applied to exchange "
+"orders created by the plugin. If none selected, WooCommerce default shipping"
+" method will be used."
+msgstr ""
+"Выберите способ доставки, автоматически применяемый к заказам на обмен. Если"
+" не выбран, используется стандартный способ WooCommerce."
+
+#: includes/class-return-exchange-admin.php:896
+msgid "Disable Exchanges for Payment Methods"
+msgstr "Отключить обмены для способов оплаты"
+
+#: includes/class-return-exchange-admin.php:897
+msgid ""
+"Hide the Exchange button for orders paid via any of the selected gateways."
+msgstr ""
+"Скрыть кнопку обмена для заказов, оплаченных через любой из выбранных "
+"шлюзов."
+
+#: includes/class-return-exchange-admin.php:902
+msgid ""
+"Select payment gateways that are not eligible for exchanges. The Exchange "
+"button will be hidden for orders paid with these methods (e.g., Cash on "
+"Delivery)."
+msgstr ""
+"Выберите платёжные шлюзы, не дающие право на обмен. Кнопка обмена будет "
+"скрыта для заказов, оплаченных этими методами (например, наложенный платёж)."
+
+#: includes/class-return-exchange-admin.php:905
+msgid "Exchange Disabled Message"
+msgstr "Сообщение об отключённых обменах"
+
+#: includes/class-return-exchange-admin.php:909
+#: includes/class-return-exchange-admin.php:910
+#: includes/zorem-exchanges/class-exchange-common-functions.php:437
+msgid ""
+"Exchanges are not available for Cash on Delivery orders. Please contact us "
+"directly."
+msgstr ""
+"Обмены недоступны для заказов с наложенным платежом. Пожалуйста, свяжитесь с"
+" нами напрямую."
+
+#: includes/class-return-exchange-admin.php:915
+msgid ""
+"Instructions included in the exchange-approved email sent to the customer."
+msgstr "Инструкции в письме об одобрении обмена, отправляемом клиенту."
+
+#: includes/class-return-exchange-admin.php:923
+msgid "Options shown in the reason dropdown on the customer exchange form."
+msgstr "Опции в выпадающем списке причин в форме обмена клиента."
+
+#: includes/class-return-exchange-admin.php:956
+msgid "Enable Fraud Prevention"
+msgstr "Включить защиту от мошенничества"
+
+#: includes/class-return-exchange-admin.php:957
+msgid "Master switch for the per-customer return limit and the blocklist."
+msgstr "Главный переключатель для лимита на клиента и чёрного списка."
+
+#: includes/class-return-exchange-admin.php:961
+msgid ""
+"Turn on per-customer return limits and the blocklist. When disabled, no "
+"fraud prevention checks are run."
+msgstr ""
+"Активировать лимиты на клиента и чёрный список. При отключении проверки "
+"защиты от мошенничества не выполняются."
+
+#: includes/class-return-exchange-admin.php:988
+msgid "Enable Per-Customer Return Limit"
+msgstr "Включить лимит возвратов на клиента"
+
+#: includes/class-return-exchange-admin.php:989
+msgid ""
+"Cap how many returns a single customer can submit inside a rolling window."
+msgstr ""
+"Ограничить количество возвратов от одного клиента в скользящем временном "
+"окне."
+
+#: includes/class-return-exchange-admin.php:993
+msgid ""
+"Limit how many returns a single customer can submit within a rolling time "
+"window."
+msgstr ""
+"Ограничить количество возвратов, которые один клиент может подать в "
+"скользящем временном окне."
+
+#. translators: 1: max returns, 2: window in days
+#: includes/class-return-exchange-admin.php:1002
+#: includes/zorem-returns/class-fraud-prevention.php:319
+#, php-format
+msgid ""
+"You have reached the maximum of %1$d returns within the last %2$d days. "
+"Please contact our support team for assistance."
+msgstr ""
+"Вы достигли максимума в %1$d возвратов за последние %2$d дней. Пожалуйста, "
+"свяжитесь с нашей службой поддержки."
+
+#: includes/class-return-exchange-admin.php:1006
+msgid "Maximum Returns per Customer"
+msgstr "Максимум возвратов на клиента"
+
+#: includes/class-return-exchange-admin.php:1007
+msgid "How many return requests a customer may submit before being blocked."
+msgstr "Сколько запросов на возврат клиент может подать до блокировки."
+
+#: includes/class-return-exchange-admin.php:1014
+msgid ""
+"Maximum number of return requests a single customer is allowed within the "
+"time window below."
+msgstr ""
+"Максимальное количество запросов на возврат, разрешённых одному клиенту в "
+"указанном временном окне."
+
+#: includes/class-return-exchange-admin.php:1017
+msgid "Time Window (Days)"
+msgstr "Временное окно (дни)"
+
+#: includes/class-return-exchange-admin.php:1018
+msgid "Rolling look-back window used to count a customer's recent returns."
+msgstr "Скользящий период для подсчёта недавних возвратов клиента."
+
+#: includes/class-return-exchange-admin.php:1025
+msgid ""
+"Rolling window, in days, used to count a customer's recent returns (e.g. 90 "
+"= the last 90 days)."
+msgstr ""
+"Скользящий период в днях для подсчёта недавних возвратов клиента (например, "
+"90 = последние 90 дней)."
+
+#: includes/class-return-exchange-admin.php:1028
+msgid "Limit-Reached Message"
+msgstr "Сообщение о достижении лимита"
+
+#: includes/class-return-exchange-admin.php:1029
+msgid "Message shown to customers who exceed the limit above."
+msgstr "Сообщение, отображаемое клиентам, превысившим лимит."
+
+#: includes/class-return-exchange-admin.php:1034
+#, php-format
+msgid ""
+"Message shown to a customer who has reached the return limit. You may use "
+"%1$d for the max count and %2$d for the window in days."
+msgstr ""
+"Сообщение, отображаемое клиенту, достигшему лимита возвратов. Используйте "
+"%1$d для максимального количества и %2$d для периода в днях."
+
+#: includes/class-return-exchange-admin.php:1045
+msgid "Email Admin When Limit Is Hit"
+msgstr "Отправлять email администратору при достижении лимита"
+
+#: includes/class-return-exchange-admin.php:1046
+msgid "Send an admin alert each time a customer trips the return limit."
+msgstr ""
+"Отправлять уведомление администратору каждый раз, когда клиент достигает "
+"лимита возвратов."
+
+#: includes/class-return-exchange-admin.php:1050
+msgid ""
+"Send a notification email when a customer reaches the configured per-"
+"customer return limit. Throttled to one email per customer per day."
+msgstr ""
+"Отправлять уведомление по email при достижении клиентом настроенного лимита."
+" Ограничено одним письмом на клиента в день."
+
+#: includes/class-return-exchange-admin.php:1061
+msgid "Admin Notification Email"
+msgstr "Email для уведомлений администратора"
+
+#: includes/class-return-exchange-admin.php:1062
+msgid ""
+"Recipient of the limit-reached notification. Leave blank to use the site "
+"admin email."
+msgstr ""
+"Получатель уведомления о достижении лимита. Оставьте пустым, чтобы "
+"использовать email администратора сайта."
+
+#: includes/class-return-exchange-admin.php:1067
+msgid ""
+"Email address to receive limit-reached notifications. Leave blank to use the"
+" WordPress site admin email."
+msgstr ""
+"Адрес email для получения уведомлений о достижении лимита. Оставьте пустым "
+"для использования email администратора WordPress."
+
+#: includes/class-return-exchange-admin.php:1078
+msgid "Customer Blocklist"
+msgstr "Чёрный список клиентов"
+
+#: includes/class-return-exchange-admin.php:1079
+msgid ""
+"Emails or numeric user IDs banned from starting a return. One per line."
+msgstr ""
+"Email-адреса или числовые ID пользователей, которым запрещено инициировать "
+"возврат. По одному в строке."
+
+#: includes/class-return-exchange-admin.php:1084
+msgid ""
+"One entry per line. Accepts customer email addresses OR numeric user IDs. "
+"Blocked customers cannot submit return requests."
+msgstr ""
+"Одна запись в строке. Принимает email-адреса клиентов ИЛИ числовые ID "
+"пользователей. Заблокированные клиенты не могут подавать запросы на возврат."
+
+#: includes/class-return-exchange-admin.php:1093
+#: includes/zorem-returns/class-fraud-prevention.php:304
+msgid ""
+"Returns are not available for your account. Please contact our support team "
+"for assistance."
+msgstr ""
+"Возвраты недоступны для вашего аккаунта. Пожалуйста, свяжитесь с нашей "
+"службой поддержки."
+
+#: includes/class-return-exchange-admin.php:1097
+msgid "Silently Hide Return Button"
+msgstr "Скрыть кнопку возврата без уведомления"
+
+#: includes/class-return-exchange-admin.php:1098
+msgid ""
+"Hide the Return button with no message (bypasses the Blocklist Message "
+"below)."
+msgstr ""
+"Скрыть кнопку возврата без сообщения (минуя сообщение чёрного списка ниже)."
+
+#: includes/class-return-exchange-admin.php:1102
+msgid ""
+"When enabled, the Start a Return button is hidden without any message for "
+"blocked customers / customers over the limit. When disabled (default), the "
+"message above is shown."
+msgstr ""
+"При включении кнопка Начать возврат скрыта без сообщения для заблокированных"
+" клиентов и клиентов, превысивших лимит. При отключении (по умолчанию) "
+"отображается сообщение выше."
+
+#: includes/class-return-exchange-admin.php:1105
+msgid "Blocklist Message"
+msgstr "Сообщение чёрного списка"
+
+#: includes/class-return-exchange-admin.php:1106
+msgid "Message shown to blocked customers when they try to start a return."
+msgstr ""
+"Сообщение, отображаемое заблокированным клиентам при попытке инициировать "
+"возврат."
+
+#: includes/class-return-exchange-admin.php:1111
+msgid ""
+"Message shown to customers who appear on the blocklist when they try to "
+"start a return."
+msgstr ""
+"Сообщение, отображаемое клиентам из чёрного списка при попытке начать "
+"возврат."
+
+#: includes/class-return-exchange-admin.php:1132
+msgid "Enable Warranty Workflow"
+msgstr "Включить гарантийный рабочий процесс"
+
+#: includes/class-return-exchange-admin.php:1133
+msgid ""
+"Add a warranty claim button after the standard return window has expired."
+msgstr ""
+"Добавить кнопку гарантийного обращения после истечения стандартного периода "
+"возврата."
+
+#: includes/class-return-exchange-admin.php:1137
+msgid ""
+"Show a \"Submit Warranty Claim\" button on customer orders after the "
+"standard return window has expired (while the product is still under "
+"warranty)."
+msgstr ""
+"Показывать кнопку подачи гарантийного обращения в заказах клиентов после "
+"истечения стандартного периода возврата (пока товар ещё на гарантии)."
+
+#: includes/class-return-exchange-admin.php:1147
+#: includes/zorem-warranty/class-warranty.php:166
+msgid "Stopped working"
+msgstr "Перестал работать"
+
+#: includes/class-return-exchange-admin.php:1148
+#: includes/zorem-warranty/class-warranty.php:167
+#: templates/emails/_warranty-email-body.php:30
+msgid "Manufacturing defect"
+msgstr "Производственный дефект"
+
+#: includes/class-return-exchange-admin.php:1149
+#: includes/zorem-warranty/class-warranty.php:168
+msgid "Broken or damaged"
+msgstr "Сломан или повреждён"
+
+#: includes/class-return-exchange-admin.php:1150
+#: includes/zorem-warranty/class-warranty.php:169
+msgid "Missing parts after some use"
+msgstr "Отсутствующие части после некоторого использования"
+
+#: includes/class-return-exchange-admin.php:1151
+#: includes/zorem-warranty/class-warranty.php:170
+msgid "Performance issue"
+msgstr "Проблема с производительностью"
+
+#: includes/class-return-exchange-admin.php:1156
+msgid "Default Warranty Period (Days)"
+msgstr "Стандартный гарантийный период (дни)"
+
+#: includes/class-return-exchange-admin.php:1157
+msgid ""
+"Fallback warranty length when a product or category doesn't override it. 0 "
+"disables by default."
+msgstr ""
+"Резервная длительность гарантии, когда товар или категория не переопределяют"
+" её. 0 отключает по умолчанию."
+
+#: includes/class-return-exchange-admin.php:1164
+msgid ""
+"Default warranty length in days. Used when a product or category does not "
+"set its own. 0 = no warranty by default."
+msgstr ""
+"Стандартная длительность гарантии в днях. Используется, когда товар или "
+"категория не задают собственную. 0 = гарантия отключена по умолчанию."
+
+#: includes/class-return-exchange-admin.php:1167
+msgid "Warranty Reasons"
+msgstr "Причины гарантийного обращения"
+
+#: includes/class-return-exchange-admin.php:1168
+msgid "Options shown in the reason dropdown on the warranty claim form."
+msgstr "Опции в выпадающем списке причин в форме гарантийного обращения."
+
+#: includes/class-return-exchange-admin.php:1175
+msgid "List of reasons a customer can pick when filing a warranty claim."
+msgstr ""
+"Список причин, которые клиент может выбрать при подаче гарантийного "
+"обращения."
+
+#: includes/class-return-exchange-admin.php:1207
+msgid "Select Shipping Method"
+msgstr "Выбрать способ доставки"
+
+#: includes/class-return-exchange-admin.php:1239
+msgid "Rest of the world"
+msgstr "Остальной мир"
+
+#. translators: %d — percentage of item total refunded when the customer keeps
+#. the product.
+#. translators: %d — partial refund percentage.
+#: includes/class-return-exchange-common.php:31
+#: includes/zorem-returns/htmls/returns-center-form.php:291
+#, php-format
+msgid "Keep the Item & Receive a %d%% Partial Refund"
+msgstr "Оставить товар и получить %d%% частичного возврата"
+
+#: includes/class-return-exchange-common.php:200
+msgid "My Returns"
+msgstr "Мои возвраты"
+
+#: includes/class-return-exchange-common.php:201
+msgid "You have no return requests yet."
+msgstr "У вас пока нет запросов на возврат."
+
+#: includes/class-return-exchange-license.php:186
+msgid "Every day"
+msgstr "Каждый день"
+
+#: includes/customizer/customizer-admin.php:82
+#: includes/customizer/customizer-admin.php:122
+msgid "Return & Exchange Customizer"
+msgstr "Настройщик возвратов и обменов"
+
+#: includes/customizer/customizer-admin.php:355
+msgid "Return Completed (Customer)"
+msgstr "Возврат выполнен (клиент)"
+
+#: includes/customizer/customizer-admin.php:357
+msgid "Return Store Credit (Customer)"
+msgstr "Магазинный кредит за возврат (клиент)"
+
+#: includes/customizer/customizer-admin.php:360
+msgid "Exchange Completed (Customer)"
+msgstr "Обмен выполнен (клиент)"
+
+#: includes/customizer/customizer-admin.php:362
+msgid "Exchange Store Credit (Customer)"
+msgstr "Магазинный кредит за обмен (клиент)"
+
+#: includes/customizer/customizer-admin.php:363
+msgid "Warranty Claim Submitted (Customer)"
+msgstr "Гарантийное обращение подано (клиент)"
+
+#: includes/customizer/customizer-admin.php:364
+msgid "Warranty Claim Under Review (Customer)"
+msgstr "Гарантийное обращение на рассмотрении (клиент)"
+
+#: includes/customizer/customizer-admin.php:365
+msgid "Warranty Claim Approved (Customer)"
+msgstr "Гарантийное обращение одобрено (клиент)"
+
+#: includes/customizer/customizer-admin.php:366
+msgid "Warranty Claim Rejected (Customer)"
+msgstr "Гарантийное обращение отклонено (клиент)"
+
+#: includes/customizer/customizer-admin.php:367
+msgid "Warranty Claim Resolved (Customer)"
+msgstr "Гарантийное обращение решено (клиент)"
+
+#: includes/customizer/customizer-admin.php:368
+msgid "Return Request Received (Admin)"
+msgstr "Запрос на возврат получен (администратор)"
+
+#: includes/customizer/customizer-admin.php:369
+msgid "Return Approved (Admin)"
+msgstr "Возврат одобрен (администратор)"
+
+#: includes/customizer/customizer-admin.php:370
+msgid "Return Completed (Admin)"
+msgstr "Возврат выполнен (администратор)"
+
+#: includes/customizer/customizer-admin.php:371
+msgid "Return Rejected (Admin)"
+msgstr "Возврат отклонён (администратор)"
+
+#: includes/customizer/customizer-admin.php:372
+msgid "Exchange Request Received (Admin)"
+msgstr "Запрос на обмен получен (администратор)"
+
+#: includes/customizer/customizer-admin.php:373
+msgid "Exchange Approved (Admin)"
+msgstr "Обмен одобрен (администратор)"
+
+#: includes/customizer/customizer-admin.php:374
+msgid "Exchange Completed (Admin)"
+msgstr "Обмен выполнен (администратор)"
+
+#: includes/customizer/customizer-admin.php:375
+msgid "Exchange Rejected (Admin)"
+msgstr "Обмен отклонён (администратор)"
+
+#: includes/customizer/customizer-admin.php:376
+msgid "Warranty Claim Submitted (Admin)"
+msgstr "Гарантийное обращение подано (администратор)"
+
+#: includes/customizer/customizer-admin.php:377
+msgid "Warranty Claim Under Review (Admin)"
+msgstr "Гарантийное обращение на рассмотрении (администратор)"
+
+#: includes/customizer/customizer-admin.php:378
+msgid "Warranty Claim Approved (Admin)"
+msgstr "Гарантийное обращение одобрено (администратор)"
+
+#: includes/customizer/customizer-admin.php:379
+msgid "Warranty Claim Rejected (Admin)"
+msgstr "Гарантийное обращение отклонено (администратор)"
+
+#: includes/customizer/customizer-admin.php:380
+msgid "Warranty Claim Resolved (Admin)"
+msgstr "Гарантийное обращение решено (администратор)"
+
+#: includes/customizer/customizer-admin.php:456
+msgid "Section Title for Warranty Claim"
+msgstr "Заголовок раздела гарантийного обращения"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:396
+msgid "Exchange Request Summary"
+msgstr "Сводка запроса на обмен"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:399
+msgid "Original Product"
+msgstr "Оригинальный товар"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:400
+msgid "Requested Exchange"
+msgstr "Запрошенный обмен"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:652
+msgid "Your exchange request has been completed successfully."
+msgstr "Ваш запрос на обмен успешно выполнен."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:672
+msgid ""
+"Your exchange request has been approved. You may keep the item. Your "
+"replacement will be dispatched automatically."
+msgstr ""
+"Ваш запрос на обмен одобрен. Вы можете оставить товар. Замена будет "
+"отправлена автоматически."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:869
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:309
+#: includes/zorem-returns/class-return-common-functions.php:1566
+#: includes/zorem-returns/htmls/returns-center-form.php:233
+#: templates/emails/customer-exchange-approved.php:56
+#: templates/emails/customer-return-approved.php:56
+msgid "Keep Your Item"
+msgstr "Оставьте свой товар"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:870
+#: templates/emails/customer-exchange-approved.php:57
+msgid ""
+"No return shipping required. You may keep the item. Your replacement will be"
+" dispatched automatically."
+msgstr ""
+"Возврат не требуется. Вы можете оставить товар. Замена будет отправлена "
+"автоматически."
+
+#. translators: %s: attribute label
+#. translators: %s: attribute label, e.g. "Any Size"
+#: includes/zorem-exchanges/class-exchange-common-functions.php:986
+#: includes/zorem-exchanges/class-exchange-product-search.php:136
+#, php-format
+msgid "Any %s"
+msgstr "Любой %s"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1209
+msgid "Your Exchange Has Been Completed"
+msgstr "Ваш обмен выполнен"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1210
+msgid "Your Exchange Is Complete!"
+msgstr "Ваш обмен выполнен!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1211
+msgid ""
+"Great news! Your exchange request has been completed successfully.<br><br>We"
+" hope you enjoy your new item. Don't hesitate to reach out if you need any "
+"further assistance."
+msgstr ""
+"Отличные новости! Ваш запрос на обмен успешно выполнен.<br><br>Надеемся, вам"
+" понравится новый товар. Не стесняйтесь обращаться, если потребуется помощь."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1212
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1235
+msgid "Exchanged Items"
+msgstr "Обменянные товары"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1218
+#: includes/zorem-returns/class-return-common-functions.php:1234
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1225
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1226
+msgid "Your Exchange Store Credit Has Been Issued!"
+msgstr "Ваш магазинный кредит за обмен выпущен!"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1227
+msgid ""
+"Your exchange has been completed. Since the replacement item costs less than"
+" your original item, store credit has been issued for the difference."
+msgstr ""
+"Ваш обмен выполнен. Поскольку товар-замена стоит дешевле оригинала, "
+"магазинный кредит за разницу выпущен."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1228
+#: includes/zorem-returns/class-return-common-functions.php:1244
+msgid "How to Use Your Store Credit"
+msgstr "Как использовать магазинный кредит"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1229
+#: includes/zorem-returns/class-return-common-functions.php:1245
+msgid ""
+"If you have any questions, feel free to reply to this email. <br><br>Thank "
+"you for shopping with "
+msgstr ""
+"Если у вас есть вопросы, ответьте на это письмо. <br><br>Спасибо за покупку "
+"в "
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1234
+msgid ""
+"The exchange for order #{order_number} has been marked as completed. Below "
+"are the details:"
+msgstr ""
+"Обмен по заказу #{order_number} отмечен как выполненный. Подробности ниже:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1239
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1240
+msgid "Exchange Request Rejected"
+msgstr "Запрос на обмен отклонён"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1241
+msgid ""
+"The exchange request for order #{order_number} has been rejected by the "
+"admin. Below are the details:"
+msgstr ""
+"Запрос на обмен по заказу #{order_number} отклонён администратором. "
+"Подробности ниже:"
+
+#. translators: 1: Order edit URL, 2: Parent order ID
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1298
+#, php-format
+msgid ""
+"This is an exchange child order for <a href=\"%1$s\"><strong>Order "
+"#%2$d</strong></a>."
+msgstr ""
+"Это дочерний заказ на обмен для <a href=\"%1$s\"><strong>заказа "
+"#%2$d</strong></a>."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1305
+msgid "Type:"
+msgstr "Тип:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1305
+msgid "Cross-Product Exchange"
+msgstr "Обмен между товарами"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1311
+msgid "Awaiting customer payment"
+msgstr "Ожидание оплаты клиентом"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1312
+msgid "Share this payment link with the customer:"
+msgstr "Поделитесь этой ссылкой для оплаты с клиентом:"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:1317
+msgid "Open Payment Page"
+msgstr "Открыть страницу оплаты"
+
+#: includes/zorem-exchanges/class-exchange-front.php:399
+#: includes/zorem-exchanges/class-exchange-front.php:472
+msgid "No payment required (Exchange)"
+msgstr "Оплата не требуется (обмен)"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:295
+msgid ""
+"No return shipping required for original item. Customer retains the original"
+" product. Replacement order will be created on approval."
+msgstr ""
+"Возврат оригинального товара не требуется. Клиент оставляет оригинальный "
+"товар. Заказ-замена создаётся при одобрении."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:368
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:745
+#: includes/zorem-returns/class-return-common-functions.php:262
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:393
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1069
+msgid "Mark as Completed"
+msgstr "Отметить как выполненное"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:508
+msgid "Exchange marked completed in Returns Dashboard."
+msgstr "Обмен отмечен как выполненный на панели управления возвратами."
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:662
+msgid "Cross-Product"
+msgstr "Между товарами"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:673
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:678
+msgid "Even"
+msgstr "Равнозначный"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:676
+msgid "Same Variant"
+msgstr "Тот же вариант"
+
+#. translators: %s: Payment URL sent to the customer
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:797
+#, php-format
+msgid "Payment request sent to customer. Payment link: %s"
+msgstr "Запрос на оплату отправлен клиенту. Ссылка для оплаты: %s"
+
+#: includes/zorem-exchanges/class-exchange-fulfillment-dashboard.php:804
+msgid "Payment request sent successfully. Order set to Pending Payment."
+msgstr ""
+"Запрос на оплату успешно отправлен. Заказ переведён в статус Ожидание "
+"оплаты."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:269
+msgid "Exchange Credit (Original Item Value)"
+msgstr "Кредит за обмен (стоимость оригинального товара)"
+
+#. translators: %1$s: Balance amount (formatted) %2$s: Shop name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:311
+#, php-format
+msgid "Your exchange is on its way — balance of %1$s due | %2$s"
+msgstr "Ваш обмен в пути — остаток к оплате %1$s | %2$s"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:318
+msgid "Your exchange order has been shipped"
+msgstr "Ваш заказ на обмен отправлен"
+
+#. translators: %1$s: Customer name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:322
+#, php-format
+msgid "Hi <strong>%1$s</strong>,"
+msgstr "Уважаемый(ая) <strong>%1$s</strong>,"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:325
+msgid ""
+"Good news — your exchange item has been approved and will be shipped to you "
+"shortly."
+msgstr ""
+"Отличные новости — ваш товар-замена одобрен и будет отправлен вам в "
+"ближайшее время."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:327
+msgid "Balance due:"
+msgstr "Остаток к оплате:"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:328
+msgid ""
+"The replacement item costs more than your original item. Please pay the "
+"balance at your convenience using the link below."
+msgstr ""
+"Товар-замена стоит дороже оригинала. Пожалуйста, оплатите разницу при "
+"удобстве, используя ссылку ниже."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:331
+msgid "Pay Balance Now"
+msgstr "Оплатить остаток сейчас"
+
+#. translators: %1$s: Payment link (HTML anchor tag)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:335
+#, php-format
+msgid "Payment link: %1$s"
+msgstr "Ссылка для оплаты: %1$s"
+
+#. translators: %1$s: Balance amount (formatted HTML) %2$s: Customer payment
+#. URL
+#: includes/zorem-exchanges/class-exchange-price-handler.php:349
+#, php-format
+msgid ""
+"Ship first invoice sent to customer. Balance due: %1$s. Payment link: %2$s"
+msgstr ""
+"Счёт на предоплату отправлен клиенту. Остаток к оплате: %1$s. Ссылка для "
+"оплаты: %2$s"
+
+#. translators: %1$s: Exchange payment amount (plain text, no HTML) %2$s:
+#. Customer payment URL
+#: includes/zorem-exchanges/class-exchange-price-handler.php:370
+#, php-format
+msgid "Exchange payment required: %1$s. Customer payment link: %2$s"
+msgstr "Требуется оплата за обмен: %1$s. Ссылка для оплаты клиента: %2$s"
+
+#. translators: %s: Shop name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:395
+#, php-format
+msgid "Payment required for your exchange — %s"
+msgstr "Требуется оплата за ваш обмен — %s"
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:400
+msgid "Payment required for your exchange"
+msgstr "Требуется оплата за ваш обмен"
+
+#. translators: %s: Customer name
+#: includes/zorem-exchanges/class-exchange-price-handler.php:403
+#, php-format
+msgid "Hi <strong>%s</strong>,"
+msgstr "Уважаемый(ая) <strong>%s</strong>,"
+
+#. translators: %s: Additional payment amount (formatted HTML)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:408
+#, php-format
+msgid ""
+"Your exchange request has been approved. An additional payment of "
+"<strong>%s</strong> is required to complete your exchange."
+msgstr ""
+"Ваш запрос на обмен одобрен. Для завершения обмена необходима дополнительная"
+" оплата в размере <strong>%s</strong>."
+
+#: includes/zorem-exchanges/class-exchange-price-handler.php:414
+msgid "Pay Now"
+msgstr "Оплатить сейчас"
+
+#. translators: %s: Payment link (HTML anchor tag)
+#: includes/zorem-exchanges/class-exchange-price-handler.php:418
+#, php-format
+msgid "Or use this link: %s"
+msgstr "Или используйте эту ссылку: %s"
+
+#: includes/zorem-exchanges/class-exchange-product-search.php:149
+msgid "Default"
+msgstr "По умолчанию"
+
+#. translators: %1$s: Additional charge amount (plain text, no HTML)
+#: includes/zorem-exchanges/class-exchange-product-search.php:253
+#, php-format
+msgid "You will be charged an additional <strong>%1$s</strong> upon approval."
+msgstr ""
+"При одобрении с вас будет списано дополнительно <strong>%1$s</strong>."
+
+#. translators: %1$s: Store credit amount (plain text, no HTML)
+#: includes/zorem-exchanges/class-exchange-product-search.php:260
+#, php-format
+msgid "You will receive <strong>%1$s</strong> in store credit."
+msgstr "Вы получите <strong>%1$s</strong> в виде магазинного кредита."
+
+#: includes/zorem-exchanges/class-exchange-product-search.php:266
+msgid "Even exchange — no additional payment needed."
+msgstr "Равнозначный обмен — дополнительная оплата не требуется."
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:214
+msgid "Search for a replacement product"
+msgstr "Поиск товара-замены"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:216
+msgid "Type a product name…"
+msgstr "Введите название товара…"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:237
+msgid "Select variant"
+msgstr "Выбрать вариант"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:239
+msgid "— Select a variant —"
+msgstr "— Выбрать вариант —"
+
+#: includes/zorem-exchanges/htmls/exchanges-center-form.php:310
+msgid ""
+"You will receive your replacement item and you do not need to return your "
+"original product."
+msgstr "Вы получите товар-замену и не должны возвращать оригинал."
+
+#. translators: %s: site name
+#: includes/zorem-returns/class-fraud-prevention.php:394
+#, php-format
+msgid "[%s] Return limit reached by a customer"
+msgstr "[%s] Клиент достиг лимита возвратов"
+
+#: includes/zorem-returns/class-fraud-prevention.php:399
+msgid "A customer has reached the per-customer return limit."
+msgstr "Клиент достиг лимита возвратов на клиента."
+
+#: includes/zorem-returns/class-fraud-prevention.php:401
+#, php-format
+msgid "Customer Email: %s"
+msgstr "Email клиента: %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:402
+#, php-format
+msgid "Customer User ID: %s"
+msgstr "ID пользователя клиента: %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:402
+msgid "guest"
+msgstr "гость"
+
+#: includes/zorem-returns/class-fraud-prevention.php:403
+#, php-format
+msgid "Approved/requested returns within the last %1$d days: %2$d"
+msgstr "Одобренных/запрошенных возвратов за последние %1$d дней: %2$d"
+
+#: includes/zorem-returns/class-fraud-prevention.php:404
+#, php-format
+msgid "Configured maximum: %d"
+msgstr "Настроенный максимум: %d"
+
+#: includes/zorem-returns/class-fraud-prevention.php:405
+#, php-format
+msgid "Latest Order ID: %s"
+msgstr "ID последнего заказа: %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:406
+#, php-format
+msgid "Return Request ID: %s"
+msgstr "ID запроса на возврат: %s"
+
+#: includes/zorem-returns/class-fraud-prevention.php:408
+msgid "Review this customer's return history in your Returns Center."
+msgstr "Просмотрите историю возвратов этого клиента в центре возвратов."
+
+#: includes/zorem-returns/class-fraud-prevention.php:424
+#: includes/zorem-returns/class-fraud-prevention.php:519
+msgid "You do not have permission to do this."
+msgstr "У вас нет прав для этого действия."
+
+#: includes/zorem-returns/class-fraud-prevention.php:429
+msgid "No file received. Please select a CSV or TXT file."
+msgstr "Файл не получен. Выберите файл CSV или TXT."
+
+#: includes/zorem-returns/class-fraud-prevention.php:435
+msgid "Upload error. Please try again."
+msgstr "Ошибка загрузки. Пожалуйста, попробуйте ещё раз."
+
+#: includes/zorem-returns/class-fraud-prevention.php:440
+msgid "File too large. Maximum allowed size is 2 MB."
+msgstr "Файл слишком большой. Максимальный допустимый размер — 2 МБ."
+
+#: includes/zorem-returns/class-fraud-prevention.php:445
+msgid "Only .csv and .txt files are allowed."
+msgstr "Допускаются только файлы .csv и .txt."
+
+#: includes/zorem-returns/class-fraud-prevention.php:454
+msgid "Unable to read the uploaded file."
+msgstr "Не удалось прочитать загруженный файл."
+
+#. translators: 1: added, 2: skipped duplicates, 3: rejected lines
+#: includes/zorem-returns/class-fraud-prevention.php:496
+#, php-format
+msgid ""
+"Blocklist updated. Added: %1$d. Skipped (duplicates): %2$d. Rejected "
+"(invalid): %3$d."
+msgstr ""
+"Чёрный список обновлён. Добавлено: %1$d. Пропущено (дубликаты): %2$d. "
+"Отклонено (недействительные): %3$d."
+
+#: includes/zorem-returns/class-fraud-prevention.php:525
+msgid "Please enter a customer email or user ID."
+msgstr "Пожалуйста, введите email клиента или ID пользователя."
+
+#: includes/zorem-returns/class-fraud-prevention.php:543
+msgid "Enter a valid email address or numeric user ID."
+msgstr "Введите действительный адрес email или числовой ID пользователя."
+
+#: includes/zorem-returns/class-internal-notes.php:168
+msgid "(unknown user)"
+msgstr "(неизвестный пользователь)"
+
+#. translators: %s: human time difference, e.g. "5 minutes"
+#: includes/zorem-returns/class-internal-notes.php:175
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: includes/zorem-returns/class-internal-notes.php:199
+msgid "You do not have permission to add notes."
+msgstr "У вас нет прав для добавления заметок."
+
+#: includes/zorem-returns/class-internal-notes.php:209
+msgid "Note cannot be empty."
+msgstr "Заметка не может быть пустой."
+
+#: includes/zorem-returns/class-internal-notes.php:215
+msgid "Return request not found."
+msgstr "Запрос на возврат не найден."
+
+#: includes/zorem-returns/class-internal-notes.php:220
+msgid "Could not save the note."
+msgstr "Не удалось сохранить заметку."
+
+#: includes/zorem-returns/class-internal-notes.php:249
+#: includes/zorem-warranty/class-warranty.php:564
+#: includes/zorem-warranty/class-warranty.php:687
+msgid "You do not have permission."
+msgstr "У вас нет прав."
+
+#: includes/zorem-returns/class-internal-notes.php:256
+msgid "Could not delete note (you may not be the author)."
+msgstr "Не удалось удалить заметку (возможно, вы не являетесь автором)."
+
+#: includes/zorem-returns/class-internal-notes.php:327
+msgid "A team member"
+msgstr "Член команды"
+
+#. translators: 1: author name, 2: request id
+#: includes/zorem-returns/class-internal-notes.php:341
+#, php-format
+msgid "[%1$s] You were mentioned in a note on return request #%2$d"
+msgstr "[%1$s] Вас упомянули в заметке о запросе на возврат #%2$d"
+
+#. translators: %s: Customer display name.
+#: includes/zorem-returns/class-internal-notes.php:347
+#, php-format
+msgid "Hi %s,"
+msgstr "Здравствуйте, %s,"
+
+#. translators: 1: author name, 2: order id, 3: request id
+#: includes/zorem-returns/class-internal-notes.php:351
+#, php-format
+msgid ""
+"%1$s mentioned you in an internal note on the return request for order #%2$d"
+" (request #%3$d)."
+msgstr ""
+"%1$s упомянул(а) вас во внутренней заметке о запросе на возврат по заказу "
+"#%2$d (запрос #%3$d)."
+
+#: includes/zorem-returns/class-internal-notes.php:357
+msgid "Open the return request:"
+msgstr "Открыть запрос на возврат:"
+
+#: includes/zorem-returns/class-internal-notes.php:389
+msgid "Internal Admin Notes"
+msgstr "Внутренние заметки администратора"
+
+#: includes/zorem-returns/class-internal-notes.php:392
+msgid ""
+"Private to your team. Customers never see these. Type @ to mention a "
+"teammate."
+msgstr ""
+"Приватно для вашей команды. Клиенты их никогда не видят. Введите @ для "
+"упоминания коллеги."
+
+#: includes/zorem-returns/class-internal-notes.php:397
+msgid "No notes yet."
+msgstr "Заметок пока нет."
+
+#: includes/zorem-returns/class-internal-notes.php:409
+msgid "Add an internal note…"
+msgstr "Добавить внутреннюю заметку…"
+
+#: includes/zorem-returns/class-internal-notes.php:413
+msgid "Add Note"
+msgstr "Добавить заметку"
+
+#: includes/zorem-returns/class-internal-notes.php:448
+msgid "Delete this note"
+msgstr "Удалить эту заметку"
+
+#: includes/zorem-returns/class-restocking-fee.php:337
+msgid "Override the global restocking fee for this product, or exempt it."
+msgstr ""
+"Переопределить глобальный сбор за пополнение для этого товара или освободить"
+" его."
+
+#: includes/zorem-returns/class-restocking-fee.php:341
+#: includes/zorem-returns/class-restocking-fee.php:425
+#: includes/zorem-returns/class-restocking-fee.php:456
+msgid "Use global setting"
+msgstr "Использовать глобальную настройку"
+
+#: includes/zorem-returns/class-restocking-fee.php:342
+#: includes/zorem-returns/class-restocking-fee.php:426
+#: includes/zorem-returns/class-restocking-fee.php:457
+msgid "Override (custom amount)"
+msgstr "Переопределить (пользовательская сумма)"
+
+#: includes/zorem-returns/class-restocking-fee.php:343
+#: includes/zorem-returns/class-restocking-fee.php:427
+#: includes/zorem-returns/class-restocking-fee.php:458
+msgid "Exempt (no fee)"
+msgstr "Освободить (без сбора)"
+
+#: includes/zorem-returns/class-restocking-fee.php:351
+#: includes/zorem-returns/class-restocking-fee.php:432
+#: includes/zorem-returns/class-restocking-fee.php:464
+msgid "Fee Type"
+msgstr "Тип сбора"
+
+#: includes/zorem-returns/class-restocking-fee.php:364
+#: includes/zorem-returns/class-restocking-fee.php:439
+#: includes/zorem-returns/class-restocking-fee.php:473
+msgid "Fee Amount"
+msgstr "Сумма сбора"
+
+#: includes/zorem-returns/class-restocking-fee.php:429
+#: includes/zorem-returns/class-restocking-fee.php:460
+msgid "Override the global restocking fee for products in this category."
+msgstr ""
+"Переопределить глобальный сбор за пополнение для товаров в этой категории."
+
+#: includes/zorem-returns/class-return-common-functions.php:207
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:312
+msgid "Selected Resolution:"
+msgstr "Выбранное решение:"
+
+#: includes/zorem-returns/class-return-common-functions.php:209
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:314
+msgid ""
+"Customer keeps the item. Process the partial refund manually from the "
+"WooCommerce Edit Order page — the plugin does not issue it automatically."
+msgstr ""
+"Клиент оставляет товар. Обработайте частичный возврат вручную на странице "
+"редактирования заказа WooCommerce — плагин не выдаёт его автоматически."
+
+#: includes/zorem-returns/class-return-common-functions.php:243
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:356
+msgid ""
+"Edit the restocking fee before approving the request. Leave 0 to refund the "
+"full amount."
+msgstr ""
+"Отредактируйте сбор за пополнение перед одобрением запроса. Оставьте 0 для "
+"полного возврата суммы."
+
+#. translators: %s: order number
+#: includes/zorem-returns/class-return-common-functions.php:541
+#, php-format
+msgid "Wallet refund for return request on order #%s"
+msgstr "Возврат на кошелёк по запросу на возврат заказа #%s"
+
+#. translators: 1: fee label, 2: fee amount
+#: includes/zorem-returns/class-return-common-functions.php:552
+#: includes/zorem-returns/class-return-common-functions.php:642
+#, php-format
+msgid "(%1$s deducted: %2$s)"
+msgstr "(%1$s вычтено: %2$s)"
+
+#. translators: %1$s: refund amount, %2$s: order number
+#: includes/zorem-returns/class-return-common-functions.php:560
+#, php-format
+msgid "Refund of %1$s credited to customer wallet for return request #%2$s."
+msgstr "Возврат %1$s зачислен на кошелёк клиента по запросу на возврат #%2$s."
+
+#: includes/zorem-returns/class-return-common-functions.php:629
+msgid "Keep the Item — refund for return request"
+msgstr "Оставить товар — возврат по запросу на возврат"
+
+#. translators: %1$s: refund amount, %2$s: request ID
+#: includes/zorem-returns/class-return-common-functions.php:650
+#, php-format
+msgid ""
+"Keep the Item — refund of %1$s processed automatically for return request "
+"#%2$s. Customer retains the item."
+msgstr ""
+"Оставить товар — возврат %1$s обработан автоматически по запросу на возврат "
+"#%2$s. Клиент оставляет товар."
+
+#: includes/zorem-returns/class-return-common-functions.php:736
+msgid "Select…"
+msgstr "Выбрать…"
+
+#: includes/zorem-returns/class-return-common-functions.php:795
+msgid "Add"
+msgstr "Добавить"
+
+#: includes/zorem-returns/class-return-common-functions.php:962
+msgid ""
+"Returns and exchanges are not available for this payment method. Please "
+"contact us directly."
+msgstr ""
+"Возвраты и обмены недоступны для этого способа оплаты. Пожалуйста, свяжитесь"
+" с нами напрямую."
+
+#: includes/zorem-returns/class-return-common-functions.php:1225
+msgid "Your Return Has Been Completed"
+msgstr "Ваш возврат выполнен"
+
+#: includes/zorem-returns/class-return-common-functions.php:1226
+msgid "Your Return Has Been Completed!"
+msgstr "Ваш возврат выполнен!"
+
+#: includes/zorem-returns/class-return-common-functions.php:1227
+msgid ""
+"We are pleased to inform you that your return has been completed. The "
+"returned items have been received and verified. Your refund has been "
+"processed accordingly."
+msgstr ""
+"Рады сообщить, что ваш возврат выполнен. Возвращённые товары получены и "
+"проверены. Возврат средств обработан."
+
+#: includes/zorem-returns/class-return-common-functions.php:1229
+msgid "Thank you for your patience."
+msgstr "Благодарим за терпение."
+
+#: includes/zorem-returns/class-return-common-functions.php:1243
+msgid ""
+"We’re happy to let you know that your return has been completed and your "
+"refund has been issued as store credit for your convenience."
+msgstr ""
+"Рады сообщить, что ваш возврат выполнен, а средства возвращены в виде "
+"магазинного кредита для вашего удобства."
+
+#: includes/zorem-returns/class-return-common-functions.php:1250
+msgid ""
+"The return for order #{order_number} has been marked as completed. Below are"
+" the details:"
+msgstr ""
+"Возврат по заказу #{order_number} отмечен как выполненный. Подробности ниже:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1255
+#: includes/zorem-returns/class-return-common-functions.php:1256
+msgid "Return Request Rejected"
+msgstr "Запрос на возврат отклонён"
+
+#: includes/zorem-returns/class-return-common-functions.php:1257
+msgid ""
+"The return request for order #{order_number} has been rejected by the admin."
+" Below are the details:"
+msgstr ""
+"Запрос на возврат по заказу #{order_number} отклонён администратором. "
+"Подробности ниже:"
+
+#: includes/zorem-returns/class-return-common-functions.php:1438
+#: includes/zorem-returns/class-return-front.php:357
+msgid ""
+"Your return has been completed. The returned items have been received and "
+"restocked. Your refund has been processed."
+msgstr ""
+"Ваш возврат выполнен. Возвращённые товары получены и возвращены на склад. "
+"Возврат средств обработан."
+
+#: includes/zorem-returns/class-return-common-functions.php:1458
+#: includes/zorem-returns/class-return-front.php:378
+msgid ""
+"Your return request has been approved. You may keep the item. Your refund "
+"will be processed automatically."
+msgstr ""
+"Ваш запрос на возврат одобрен. Вы можете оставить товар. Возврат средств "
+"будет обработан автоматически."
+
+#: includes/zorem-returns/class-return-common-functions.php:1567
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:277
+#: includes/zorem-returns/htmls/returns-center-form.php:234
+msgid ""
+"No return shipping required. Customer retains the product. Refund will be "
+"processed automatically on approval."
+msgstr ""
+"Возврат товара не требуется. Клиент оставляет товар. Возврат средств "
+"обрабатывается автоматически при одобрении."
+
+#: includes/zorem-returns/class-return-common-functions.php:1589
+#: templates/emails/customer-return-approved.php:70
+msgid "Return Shipping Label"
+msgstr "Этикетка возврата"
+
+#: includes/zorem-returns/class-return-common-functions.php:1590
+msgid ""
+"A return shipping label has been provided. Please download, print, and "
+"attach it to your return package."
+msgstr ""
+"Предоставлена этикетка возврата. Загрузите, распечатайте и прикрепите к "
+"посылке."
+
+#: includes/zorem-returns/class-return-common-functions.php:1594
+msgid "Download Return Shipping Label"
+msgstr "Скачать этикетку возврата"
+
+#: includes/zorem-returns/class-return-front.php:706
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1215
+msgid "Security check failed."
+msgstr "Проверка безопасности не пройдена."
+
+#: includes/zorem-returns/class-return-front.php:711
+#: includes/zorem-warranty/class-warranty.php:696
+msgid "Invalid request."
+msgstr "Недействительный запрос."
+
+#: includes/zorem-returns/class-return-front.php:716
+msgid "No return label found."
+msgstr "Этикетка возврата не найдена."
+
+#: includes/zorem-returns/class-return-front.php:728
+msgid "You do not have permission to access this file."
+msgstr "У вас нет прав для доступа к этому файлу."
+
+#: includes/zorem-returns/class-return-front.php:740
+msgid "Invalid file name."
+msgstr "Недействительное имя файла."
+
+#: includes/zorem-returns/class-return-front.php:749
+msgid "Invalid file path."
+msgstr "Недействительный путь к файлу."
+
+#: includes/zorem-returns/class-return-front.php:753
+msgid "File not found."
+msgstr "Файл не найден."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:365
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:376
+msgid "Attach Return Shipping Label (PDF)"
+msgstr "Прикрепить этикетку возврата (PDF)"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:367
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:378
+msgid ""
+"Upload a return shipping label PDF (max 10MB). The customer will be able to "
+"download this."
+msgstr ""
+"Загрузите этикетку возврата в формате PDF (макс. 10 МБ). Клиент сможет её "
+"скачать."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:391
+msgid "Return shipping label attached."
+msgstr "Этикетка возврата прикреплена."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:391
+msgid "View PDF"
+msgstr "Просмотреть PDF"
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1219
+msgid "Permission denied."
+msgstr "Доступ запрещён."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1224
+msgid "Invalid request ID."
+msgstr "Недействительный ID запроса."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1229
+msgid ""
+"Failed to upload PDF. Please ensure the file is a valid PDF under 10MB."
+msgstr ""
+"Не удалось загрузить PDF. Убедитесь, что файл является допустимым PDF "
+"размером менее 10 МБ."
+
+#: includes/zorem-returns/class-return-fulfillment-dashboard.php:1237
+msgid "Return shipping label uploaded successfully."
+msgstr "Этикетка возврата успешно загружена."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:242
+msgid "Refund Summary"
+msgstr "Сводка возврата средств"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:244
+msgid "Items refund"
+msgstr "Возврат за товар"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:252
+msgid "Estimated refund"
+msgstr "Предполагаемый возврат"
+
+#: includes/zorem-returns/htmls/returns-center-form.php:255
+msgid "Final refund amount may be adjusted by the store before approval."
+msgstr ""
+"Итоговая сумма возврата может быть скорректирована магазином до одобрения."
+
+#: includes/zorem-returns/htmls/returns-center-form.php:280
+msgid "Refund to Wallet"
+msgstr "Возврат на кошелёк"
+
+#: includes/zorem-warranty/class-warranty.php:184
+msgid "Repair"
+msgstr "Ремонт"
+
+#: includes/zorem-warranty/class-warranty.php:185
+msgid "Replacement Product"
+msgstr "Товар-замена"
+
+#: includes/zorem-warranty/class-warranty.php:186
+msgid "Partial Refund"
+msgstr "Частичный возврат"
+
+#: includes/zorem-warranty/class-warranty.php:193
+msgid "Under Review"
+msgstr "На рассмотрении"
+
+#: includes/zorem-warranty/class-warranty.php:194
+msgid "Approved"
+msgstr "Одобрено"
+
+#: includes/zorem-warranty/class-warranty.php:195
+msgid "Rejected"
+msgstr "Отклонено"
+
+#: includes/zorem-warranty/class-warranty.php:196
+msgid "Resolved"
+msgstr "Решено"
+
+#: includes/zorem-warranty/class-warranty.php:319
+#: includes/zorem-warranty/class-warranty.php:352
+#: includes/zorem-warranty/class-warranty.php:363
+msgid "Warranty Period (Days)"
+msgstr "Гарантийный период (дни)"
+
+#: includes/zorem-warranty/class-warranty.php:320
+msgid ""
+"Days the warranty is valid from the order completion date. Leave blank or 0 "
+"to use the category / global default. Enter -1 to explicitly disable "
+"warranty for this product."
+msgstr ""
+"Количество дней действия гарантии с даты выполнения заказа. Оставьте пустым "
+"или 0 для использования стандарта категории/глобального. Введите -1 для "
+"явного отключения гарантии для этого товара."
+
+#: includes/zorem-warranty/class-warranty.php:354
+#: includes/zorem-warranty/class-warranty.php:366
+msgid ""
+"Default warranty days for products in this category. Leave blank or 0 to "
+"inherit the global default. Enter -1 to disable warranty for this category."
+msgstr ""
+"Стандартные дни гарантии для товаров в этой категории. Оставьте пустым или 0"
+" для наследования глобального стандарта. Введите -1 для отключения гарантии "
+"для этой категории."
+
+#: includes/zorem-warranty/class-warranty.php:442
+#: templates/emails/_warranty-email-body.php:87
+msgid "Resolution"
+msgstr "Решение"
+
+#: includes/zorem-warranty/class-warranty.php:457
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:17
+msgid "Submit Warranty Claim"
+msgstr "Подать гарантийное обращение"
+
+#: includes/zorem-warranty/class-warranty.php:459
+msgid ""
+"All eligible items for this order have an active warranty claim. Contact "
+"support if you need to file again."
+msgstr ""
+"Все подходящие товары в этом заказе имеют активное гарантийное обращение. "
+"Обратитесь в поддержку для повторной подачи."
+
+#: includes/zorem-warranty/class-warranty.php:477
+msgid "You do not have permission to view this order."
+msgstr "У вас нет прав для просмотра этого заказа."
+
+#: includes/zorem-warranty/class-warranty.php:483
+msgid "No items in this order are eligible for a warranty claim."
+msgstr "Ни один товар в этом заказе не подходит для гарантийного обращения."
+
+#: includes/zorem-warranty/class-warranty.php:567
+msgid "Please choose a reason and describe the issue."
+msgstr "Пожалуйста, выберите причину и опишите проблему."
+
+#: includes/zorem-warranty/class-warranty.php:574
+msgid "This item is no longer covered by warranty."
+msgstr "Этот товар больше не находится на гарантии."
+
+#: includes/zorem-warranty/class-warranty.php:614
+msgid "Could not save the claim."
+msgstr "Не удалось сохранить обращение."
+
+#: includes/zorem-warranty/class-warranty.php:622
+msgid "Warranty claim submitted. We will review and contact you shortly."
+msgstr ""
+"Гарантийное обращение подано. Мы рассмотрим и свяжемся с вами в ближайшее "
+"время."
+
+#: includes/zorem-warranty/class-warranty.php:647
+msgid "Only image files (jpg, png, gif, webp) are allowed."
+msgstr "Допускаются только файлы изображений (jpg, png, gif, webp)."
+
+#: includes/zorem-warranty/class-warranty.php:650
+msgid "Each file must be under 5 MB."
+msgstr "Каждый файл должен быть менее 5 МБ."
+
+#: includes/zorem-warranty/class-warranty.php:700
+msgid "Claim not found."
+msgstr "Обращение не найдено."
+
+#: includes/zorem-warranty/class-warranty.php:712
+msgid "Please choose a resolution type before resolving."
+msgstr "Пожалуйста, выберите тип решения перед решением."
+
+#. translators: %s: new status label
+#: includes/zorem-warranty/class-warranty.php:731
+#, php-format
+msgid "Claim updated to: %s."
+msgstr "Обращение обновлено до: %s."
+
+#: includes/zorem-warranty/class-warranty.php:758
+#: includes/zorem-warranty/class-warranty.php:759
+msgid "Your Warranty Claim Has Been Received"
+msgstr "Ваше гарантийное обращение получено"
+
+#: includes/zorem-warranty/class-warranty.php:760
+msgid ""
+"Thank you for submitting your warranty claim. Our team will review your "
+"request and get back to you shortly."
+msgstr ""
+"Спасибо за подачу гарантийного обращения. Наша команда рассмотрит ваш запрос"
+" и свяжется с вами в ближайшее время."
+
+#: includes/zorem-warranty/class-warranty.php:761
+#: includes/zorem-warranty/class-warranty.php:768
+#: includes/zorem-warranty/class-warranty.php:782
+#: includes/zorem-warranty/class-warranty.php:797
+#: includes/zorem-warranty/class-warranty.php:804
+#: includes/zorem-warranty/class-warranty.php:818
+msgid "Warranty Claim Details"
+msgstr "Детали гарантийного обращения"
+
+#: includes/zorem-warranty/class-warranty.php:765
+#: includes/zorem-warranty/class-warranty.php:766
+msgid "Your Warranty Claim Is Under Review"
+msgstr "Ваше гарантийное обращение на рассмотрении"
+
+#: includes/zorem-warranty/class-warranty.php:767
+msgid ""
+"We are currently reviewing your warranty claim. We will contact you as soon "
+"as we have an update."
+msgstr ""
+"Мы рассматриваем ваше гарантийное обращение. Мы свяжемся с вами, как только "
+"появится обновление."
+
+#: includes/zorem-warranty/class-warranty.php:769
+msgid "Thank you for your patience"
+msgstr "Спасибо за терпение"
+
+#: includes/zorem-warranty/class-warranty.php:772
+msgid "Your Warranty Claim Has Been Approved"
+msgstr "Ваше гарантийное обращение одобрено"
+
+#: includes/zorem-warranty/class-warranty.php:774
+msgid ""
+"Good news — your warranty claim has been approved. We will follow up shortly"
+" with next steps."
+msgstr ""
+"Отличные новости — ваше гарантийное обращение одобрено. Мы свяжемся с вами в"
+" ближайшее время с дальнейшими шагами."
+
+#: includes/zorem-warranty/class-warranty.php:775
+#: includes/zorem-warranty/class-warranty.php:811
+msgid "Approved Warranty Claim"
+msgstr "Одобренное гарантийное обращение"
+
+#: includes/zorem-warranty/class-warranty.php:779
+msgid "Update On Your Warranty Claim"
+msgstr "Обновление по вашему гарантийному обращению"
+
+#: includes/zorem-warranty/class-warranty.php:781
+msgid ""
+"We are sorry to inform you that your warranty claim was not approved. Please"
+" see the note below for more information, and feel free to reply with any "
+"questions."
+msgstr ""
+"Сожалеем сообщить, что ваше гарантийное обращение не было одобрено. "
+"Ознакомьтесь с заметкой ниже для получения дополнительной информации и не "
+"стесняйтесь задавать вопросы."
+
+#: includes/zorem-warranty/class-warranty.php:786
+msgid "Your Warranty Claim Has Been Resolved"
+msgstr "Ваше гарантийное обращение решено"
+
+#: includes/zorem-warranty/class-warranty.php:788
+msgid ""
+"Your warranty claim has been resolved. Thank you for giving us the "
+"opportunity to make it right."
+msgstr ""
+"Ваше гарантийное обращение решено. Спасибо, что дали нам возможность "
+"исправить ситуацию."
+
+#: includes/zorem-warranty/class-warranty.php:789
+#: includes/zorem-warranty/class-warranty.php:825
+msgid "Resolved Warranty Claim"
+msgstr "Решённое гарантийное обращение"
+
+#: includes/zorem-warranty/class-warranty.php:794
+msgid "New Warranty Claim Received"
+msgstr "Получено новое гарантийное обращение"
+
+#: includes/zorem-warranty/class-warranty.php:795
+msgid "A New Warranty Claim Has Been Submitted"
+msgstr "Подано новое гарантийное обращение"
+
+#: includes/zorem-warranty/class-warranty.php:796
+msgid "A new warranty claim has just been submitted:"
+msgstr "Только что было подано новое гарантийное обращение:"
+
+#: includes/zorem-warranty/class-warranty.php:798
+msgid "Open the Warranty Claims dashboard to review and update the claim."
+msgstr ""
+"Откройте панель управления гарантийными обращениями для проверки и "
+"обновления."
+
+#: includes/zorem-warranty/class-warranty.php:801
+msgid "Warranty Claim Moved To Under Review"
+msgstr "Гарантийное обращение переведено в статус На рассмотрении"
+
+#: includes/zorem-warranty/class-warranty.php:803
+msgid "The following warranty claim has been moved to \"Under Review\":"
+msgstr "Следующее гарантийное обращение переведено в статус На рассмотрении:"
+
+#: includes/zorem-warranty/class-warranty.php:805
+msgid "Open the Warranty Claims dashboard to take the next step."
+msgstr ""
+"Откройте панель управления гарантийными обращениями для следующего шага."
+
+#: includes/zorem-warranty/class-warranty.php:810
+msgid "The following warranty claim has been approved:"
+msgstr "Следующее гарантийное обращение одобрено:"
+
+#: includes/zorem-warranty/class-warranty.php:812
+msgid "Open the Warranty Claims dashboard to complete the resolution."
+msgstr ""
+"Откройте панель управления гарантийными обращениями для завершения решения."
+
+#: includes/zorem-warranty/class-warranty.php:817
+msgid "The following warranty claim has been rejected:"
+msgstr "Следующее гарантийное обращение отклонено:"
+
+#: includes/zorem-warranty/class-warranty.php:819
+msgid "Open the Warranty Claims dashboard if you need to revisit this claim."
+msgstr ""
+"Откройте панель управления гарантийными обращениями, если нужно пересмотреть"
+" это обращение."
+
+#: includes/zorem-warranty/class-warranty.php:824
+msgid "The following warranty claim has been marked as resolved:"
+msgstr "Следующее гарантийное обращение отмечено как решённое:"
+
+#: includes/zorem-warranty/class-warranty.php:826
+msgid "No further action is required."
+msgstr "Дополнительных действий не требуется."
+
+#. translators: %d: order number
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:22
+#, php-format
+msgid ""
+"For order #%d. Please choose the item, tell us what went wrong, and upload "
+"any helpful photos. We will review and contact you within a few business "
+"days."
+msgstr ""
+"По заказу #%d. Выберите товар, опишите проблему и загрузите полезные "
+"фотографии. Мы рассмотрим и свяжемся с вами в течение нескольких рабочих "
+"дней."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:34
+msgid "Item"
+msgstr "Товар"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:36
+msgid "Select an item…"
+msgstr "Выбрать товар…"
+
+#. translators: 1: product name, 2: days remaining
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:42
+#, php-format
+msgid "%1$s — %2$d days left on warranty"
+msgstr "%1$s — %2$d дней гарантии осталось"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:55
+msgid "Select a reason…"
+msgstr "Выбрать причину…"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:63
+msgid "Describe the problem"
+msgstr "Описать проблему"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:64
+msgid "Tell us what happened, when it started, what you have tried, etc."
+msgstr ""
+"Расскажите, что произошло, когда это началось, что вы пробовали и т.д."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:68
+msgid "Photos (optional)"
+msgstr "Фотографии (необязательно)"
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:70
+msgid "JPG, PNG, GIF or WEBP. Max 5 MB each."
+msgstr "JPG, PNG, GIF или WEBP. Макс. 5 МБ каждое."
+
+#: includes/zorem-warranty/htmls/warranty-claim-form.php:74
+msgid "Submit Claim"
+msgstr "Подать обращение"
+
+#: templates/emails/admin-exchange-rejected.php:69
+#: templates/emails/admin-return-rejected.php:70
+msgid "Rejection Note:"
+msgstr "Заметка об отклонении:"
+
+#: templates/emails/customer-exchange-completed.php:39
+msgid "Exchange Note:"
+msgstr "Заметка об обмене:"
+
+#: templates/emails/customer-exchange-store-credit.php:44
+msgid "Coupon Code"
+msgstr "Код купона"
+
+#: templates/emails/customer-exchange-store-credit.php:48
+msgid "Credit Amount"
+msgstr "Сумма кредита"
+
+#: templates/emails/customer-exchange-store-credit.php:59
+#: templates/emails/customer-return-store-credit.php:59
+msgid "Browse and add your favourite products to the cart."
+msgstr "Просматривайте и добавляйте любимые товары в корзину."
+
+#. translators: %s: Coupon code.
+#: templates/emails/customer-exchange-store-credit.php:64
+#: templates/emails/customer-return-store-credit.php:64
+#, php-format
+msgid "At checkout, enter the coupon code %s."
+msgstr "При оформлении заказа введите код купона %s."
+
+#: templates/emails/customer-return-approved.php:57
+msgid ""
+"No return shipping required. You may keep the item. Your refund will be "
+"processed automatically."
+msgstr ""
+"Возврат не требуется. Вы можете оставить товар. Возврат средств будет "
+"обработан автоматически."
+
+#: templates/emails/customer-return-approved.php:71
+msgid ""
+"A return shipping label (PDF) is attached to this email. Please download, "
+"print, and paste it on your return package."
+msgstr ""
+"К этому письму прикреплена этикетка возврата (PDF). Загрузите, распечатайте "
+"и наклейте на посылку."
+
+#: templates/emails/customer-return-completed.php:35
+msgid "Return Note:"
+msgstr "Заметка о возврате:"
+
+#: templates/emails/customer-return-store-credit.php:42
+msgid "Your Store Credit Coupon Code:"
+msgstr "Ваш код купона на магазинный кредит:"
+
+#: templates/emails/_warranty-email-body.php:31
+msgid ""
+"The product stopped working two months after delivery. Please advise on next"
+" steps."
+msgstr ""
+"Товар перестал работать через два месяца после доставки. Пожалуйста, "
+"проконсультируйте о дальнейших шагах."
+
+#: templates/emails/_warranty-email-body.php:40
+msgid "Sample Product"
+msgstr "Образец товара"
+
+#: templates/emails/_warranty-email-body.php:68
+msgid "Claim ID"
+msgstr "ID обращения"
+
+#: templates/emails/_warranty-email-body.php:84
+msgid "Customer Description"
+msgstr "Описание клиента"
+
+#: templates/emails/_warranty-email-body.php:90
+msgid "Resolution Note"
+msgstr "Заметка о решении"
+
+#: templates/emails/_warranty-email-body.php:97
+msgid "Open Warranty Claims Dashboard"
+msgstr "Открыть панель управления гарантийными обращениями"
+
+#: includes/class-return-exchange-admin.php:500
+msgid ""
+"Enable this option to automatically restock items when a return or exchange "
+"is approved."
+msgstr ""
+"Включите эту опцию для автоматического пополнения запасов при одобрении "
+"возврата или обмена."
+
+#: includes/zorem-returns/class-return-common-functions.php:427
+msgid "Products"
+msgstr "Товары"
+
+#: includes/class-return-exchange-admin.php:496
+msgid "Restock Approved Returns and Exchanges"
+msgstr "Пополнять запасы по одобренным возвратам и обменам"
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:980
+msgid ""
+"This is an exchange order for <a href=\"%1$s\"><strong>Order "
+"#%2$d</strong></a>."
+msgstr ""
+"Это заказ на обмен для <a href=\"%1$s\"><strong>заказа #%2$d</strong></a>."
+
+#: includes/zorem-exchanges/class-exchange-common-functions.php:985
+msgid "This is not an exchange order (no parent found)."
+msgstr "Это не заказ на обмен (родительский заказ не найден)."
+
+#: includes/admin-html/header.php:22
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+msgid ""
+"Your customer can request for Returns form My account > Orders. If you are "
+"selling a virtual product and you payment getway support for automatic "
+"return & exchange so your custmer get instant return & exchange."
+msgstr ""
+"Ваш покупатель может запросить возврат в разделе Мой аккаунт > Заказы. Если "
+"вы продаёте виртуальный товар и ваш платёжный шлюз поддерживает "
+"автоматические возвраты и обмены, покупатель получит мгновенный возврат и "
+"обмен."
+
+#~ msgid ""
+#~ "Enable this option to automatically restock items when a return or exchange "
+#~ "is approved."
+#~ msgstr ""
+#~ "Включите эту опцию, чтобы автоматически пополнять запасы товаров после "
+#~ "одобрения возврата или обмена."
+
+#~ msgid "Products"
+#~ msgstr "Продукты"
+
+#~ msgid "Restock Approved Returns and Exchanges"
+#~ msgstr "Возврат и обмен товара по одобренным ценам"
+
+#, php-format
+#~ msgid ""
+#~ "This is an exchange order for <a href=\"%1$s\"><strong>Order "
+#~ "#%2$d</strong></a>."
+#~ msgstr "Это ордер на обмен <a href=\"%1$s\"><strong>ордера №%2$d</strong></a> ."
+
+#~ msgid "This is not an exchange order (no parent found)."
+#~ msgstr "Это не заказ на обмен (родитель не найден)."
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid ""
+#~ "Your customer can request for Returns form My account > Orders. If you are "
+#~ "selling a virtual product and you payment getway support for automatic "
+#~ "return & exchange so your custmer get instant return & exchange."
+#~ msgstr ""
+#~ "Ваш клиент может запросить возврат в разделе «Мой аккаунт» > «Заказы». Если "
+#~ "вы продаёте виртуальный товар и используете платёжную систему Getway, "
+#~ "воспользуйтесь поддержкой автоматического возврата и обмена, чтобы ваш "
+#~ "клиент мог мгновенно вернуть или обменять товар."
+
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+msgid "Order ID"
+msgstr "ID заказа"
+
+msgid "Find My Order"
+msgstr "Найти мой заказ"
+
+msgid "Return Portal"
+msgstr "Портал возвратов"
+
+msgid "Let's track your order first"
+msgstr "Сначала давайте отследим ваш заказ"
+
+msgid "This order number does not exist."
+msgstr "Такой номер заказа не существует."
+
+msgid "This email address does not match the order number."
+msgstr "Этот адрес электронной почты не соответствует номеру заказа."
+
+msgid "This order is not eligible for return and exchange."
+msgstr "Этот заказ не подлежит возврату и обмену."
+
+msgid "A return or exchange has already been requested for this order."
+msgstr "Для этого заказа уже запрошен возврат или обмен."
+
+msgid "Invalid file type. Allowed types: %s"
+msgstr "Недопустимый тип файла. Разрешённые типы: %s"
+
+msgid "File size exceeds the allowed limit (5 MB)"
+msgstr "Размер файла превышает допустимый лимит (5 МБ)"

@@ -1,0 +1,55 @@
+.help-page {
+  max-width: 1211px;
+
+  .page-header {
+    margin-bottom: 30px;
+  }
+
+  .ant-row {
+    margin-bottom: 15px;
+  }
+
+  .help-cards {
+    .acfw-border-box {
+      display: flex;
+    }
+
+    .help-card {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border-color: #d5d5d5;
+      border-radius: 0;
+      box-shadow: none;
+
+      .ant-card-body {
+        flex: 1;
+        padding: 24px;
+      }
+
+      h2 {
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      p {
+        font-size: 15px;
+        color: #000;
+        line-height: 1.3em;
+      }
+
+      .ant-btn {
+        background: #035e6b;
+        border: 0;
+        border-radius: 0;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,225 @@
+*** Zorem Returns Changelog ***
+
+2026-09-08 - version 1.7.4
+* Improved - Exchange child orders: custom "Exchange Shipping" label + cost (hidden from checkout).
+* Fix - Fatal error on WooCommerce Orders page in translated locales (broken .l10n.php plural format).
+* Improved - Cross-product exchange: credit actual-paid (after coupon) + re-apply coupon to replacement.
+* Improved - Exchange request preview: include preset shipping fee + total due.
+* Dev - Tested compatibility with WooCommerce 11.1.0.
+* Dev - Tested compatibility with WordPress 7.1.
+
+2026-08-25 - version 1.7.3
+* Improved – Multi-product Exchange (per-item replacement) + frontend/admin fixes.
+* Enhancement - Add MCP integration for AI-powered features roadmap.
+* Dev - Tested compatibility with WooCommerce 11.0.1.
+* Dev - Tested compatibility with WordPress 7.1.
+
+2026-08-17 - version 1.7.2
+* Enhancement - Add hook: request-form fields filter (per order item, product/category context).
+* Enhancement - Add hook: request validation filter (reject submission with custom message).
+* Enhancement - Add hook: action on exchange child order before final calculate_totals (custom fee).
+* Enhancement - Add WPML integration (register customer-facing strings + emails for String Translation).
+* Enhancement - Add shipping label attachment to exchange requests (parity with returns).
+* Enhancement - Admin Create Return/Exchange Requests from Order Edit Screen + Fixes.
+* Fix - Guideline content fields accumulate backslash-escaping on every save.
+* Fix - Missing "Create Exchange Request" button on Edit Order page.
+* Dev - Tested compatibility with WooCommerce 11.0.1.
+* Dev - Tested compatibility with WordPress 7.0.4.
+
+2026-08-04 - version 1.7.1
+* Fix - Returns license activation redirect loop (site stays Unlinked after activating).
+* Dev - Tested compatibility with WooCommerce 10.9.4.
+* Dev - Tested compatibility with WordPress 7.0.2.
+
+2026-07-27 - version 1.7
+* Enhancement - Add shortcode for warranty claim (guest warranty submissions).
+* Enhancement - Admin-initiated return request from order edit page.
+* Enhancement - Feature request: "Keep the Item + Discount Coupon" return resolution option.
+* Fix - Return Portal: fix Find My Order AJAX stall + translate portal heading & error messages (all 21 languages).
+* Fix - broken License tab design when license is not activated.
+* Fix - Xero sync fails for exchange child orders — "→" in order number rejected as invalid character in Xero InvoiceNumber.
+* Improved – Upgrade the setting page design.
+* Dev - Tested compatibility with WooCommerce 10.9.4.
+* Dev - Tested compatibility with WordPress 7.0.2.
+
+2026-07-06 - version 1.6.6
+* Fix - Cross-Product Exchange price difference uses wrong order item.
+* Fix - Return Portal not working — frontend assets not enqueued on [return-center] shortcode page (fixed, needs QA).
+* Improved – cross-product exchange attribute pickers, price calc fixes, chosen-value persistence.
+* Dev - Tested compatibility with WooCommerce 10.9.3.
+* Dev - Tested compatibility with WordPress 7.0.
+
+2026-07-02 - version 1.6.5
+* Improved – Harden admin script dependencies so admin.js can't silently fail to load.
+* Fix - "Start a Return" button missing on View Order page when Cross-Product Exchange is disabled.
+* Dev - Tested compatibility with WooCommerce 10.9.1.
+* Dev - Tested compatibility with WordPress 7.0.
+
+2026-06-23 - version 1.6.4
+* Enhancement - Add compatibility with Sequential Order Number for WooCommerce plugin.
+* Enhancement - Internal Admin Notes per Return Request.
+* Enhancement - Fraud Prevention — Per-Customer Return Limit & Blocklist.
+* Enhancement - Warranty Request Workflow.
+* Improved – Display Sequential Order Number on Returns & Exchanges Account Page.
+* Improved – Include Requested Exchange Products in Exchange Request Notification Email.
+* Improved – Include Requested Exchange Item Details in Exchange Approved Customer Email.
+* Improved – Display Requested Exchange Item in Admin Order Exchange Section.
+* Improved – Display VAT-Inclusive Total on Customer Returns & Exchanges Page.
+* Improved – Display Exchange Item Price Including VAT on Customer Returns & Exchanges Page.
+* Improved – Include Requested Exchange Item Details in “Your Exchange Request Has Been Received” Customer Email.
+* Improved – Display “No Payment Required” for Exchange Orders Instead of Original Payment Method.
+* Fix - My Returns & Exchanges page shows all multisite network sites.
+* Fix - Exchange Credit Calculation Including Incorrect VAT Amount.
+* Fix - Store Credit Coupon Generation When Exchange Status is Completed from Returns Dashboard.
+* Fix - Incorrect Pending Payment Amount Calculation for Exchange Orders.
+* Dev - Tested compatibility with WooCommerce 10.8.1.
+* Dev - Tested compatibility with WordPress 7.0.
+
+2026-05-20 - version 1.6.3
+* Enhancement - Add Shop Manager Access for Returns Management.
+* Enhancement - Restocking Fee Deducted from Refund.
+* Enhancement - Restrict Returns by Payment Method (e.g., Disable for COD Orders).
+* Improved – Return Approval Refund Flow & Notification Controls.
+* Improved - Redesign Returns Dashboard Data Table UI.
+
+2026-04-27 - version 1.6.2
+* Fixed -  Corrected typos in plugin description.
+* Enhancement - Add Keep the Item option at product level.
+* Enhancement - Extend Return Window for Premium Customers.
+* Enhancement - Added Returns Analytics Dashboard.
+* Enhancement - SMS Notifications for Return Status Updates (SMS Plugin Integration).
+* Enhancement - Cross-Product Exchange (Exchange for a Different Product).
+* Dev - Tested compatibility with WooCommerce 10.7.0.
+* Dev - Tested compatibility with WordPress 6.9.4.
+
+2026-03-30 - version 1.6.1
+* Fixed - Resolved DataTables warning in Returns Center caused by missing request_id field in fulfillments table response.
+* Improved - Updated return workflow to restock items only when marked as “Return Completed,” introducing a structured two-step approval process.
+* Enhancement – Option to calculate return window from a selected order status instead of the original order date.
+* Enhancement – Add compatibility with TeraWallet plugin.
+* Enhancement – Support for attaching parcel guide / return shipping label PDFs to return requests for customer download.
+* Fix – Ajax Error on Search & Scrolling Issue on Large Returns.
+
+2026-02-02 - version 1.6
+* Enhancement – Added the ability to preset a shipping method for all exchange orders. Merchants can now choose which shipping method should automatically be applied when generating exchange orders.
+* Enhancement – Added alphabetical sorting for variation attributes in the exchange request interface to improve usability and consistency.
+* Improved – Added dynamic “Returns” My Account menu behavior. The tab now only appears for customers with return history and is renamed when exchanges are disabled.
+* Fix – Corrected return window validation to properly prevent return requests submitted after the allowed number of days.
+
+2025-11-13 - version 1.5.9
+* Fix – Prevent normal coupons from being reduced after checkout by ensuring only store-credit coupons are updated.
+* Fix – Resolved DataTables script conflict by renaming Returns plugin DataTable handles (e.g., “Returns_dataTable”) to prevent clashes with AST PRO and ensure Buttons extension loads correctly in the Fulfillment Dashboard.
+
+2025-11-12 - version 1.5.8
+* Enhancement – Add filter to customize “I’ll Keep This Item” label (e.g., “Cancel Return Request”).
+* Enhancement – Add filter to customize Exchange Request success message.
+* Enhancement – Add filter to rename “Return” to “Refund” (or custom label).
+* Enhancement - Add Filter to Change Child Order Status During Exchange.
+* Enhancement – Improve variant display format in Exchange Interface.
+* Enhancement – Add CSV export to Returns Dashboard.
+* Improved – Link back to Exchange Order from Original Order.
+* Dev - Add Shipping Line to Exchange Orders.
+* Dev - Display Exchange Order Prices Including VAT.
+* Fix – Update deprecated WooCommerce script handles to new handles (WC 10.3.0+).
+* Fix - Incorrect Product Price Display for Exchange Item.
+
+2025-09-02 - version 1.5.7
+* Enhancement - Update transtions in all languages.
+* Enhancement - Return Request Email Filter to Support Dynamic Vendor Notifications.
+* Improved - Improved UI design of setting pages.
+* Dev - Tested compatibility with WooCommerce 10.1.2.
+* Dev - Tested compatibility with WordPress 6.8.2.
+* Fix - Tooltip Not Working with WooCommerce 10.
+
+2025-07-02 - version 1.5.6
+* Enhancement - Update transtions in all languages.
+* Fix - Resolved the issue of return status update and sent wrong email.
+* Fix - Resolved the error on get_image_id() Call.
+* Fix - Resolved the deprecated Warning for preg_replace().
+
+2025-06-26 - version 1.5.5
+* Enhancement - Update transtions in all languages.
+* Enhancement - Added Custom Message Option When Approving or Rejecting Return/Exchange Requests.
+* Enhancement - Make the all template overrides from child theme.
+* Improved - Improved UI design of Upload media button.
+* Dev - Tested compatibility with WooCommerce 9.9.5.
+* Fix - Resolved the issue of Version update and Changlog view.
+* Fix - Resolved the issue of order search in fulfillment dashboard.
+
+2025-05-29 - version 1.5.4
+* Enhancement – Displayed Return/Exchange Reason in the Order Details Page widget.
+* Enhancement - Added Return Address section to the Return/Exchange Approved widget.
+* Enhancement - Displayed product variation details on the Return & Exchange page.
+* Improved – Improved exchange price comparison logic.
+* Fix – Resolved UI formatting and icon display issues on the Return/Exchange Request form.
+* Fix – Resolved the find order details issues due to case mismatches in email.
+
+2025-05-13 - version 1.5.3
+* Enhancement – Display Return/Exchange Instructions on Return & Exchange Page Widget.
+* Dev – Tested compatibility with WooCommerce 9.8.5.
+* Dev – Tested compatibility with WordPress 6.8.1.
+* Fix – Resolved the Deprecated Warning for preg_replace().
+* Fix – Resolved the undefined variable warning.
+* Fix – Resolved the Return Approval Email Not Sent to Customer.
+
+2025-04-17 - version 1.5.2
+* Dev – Tested compatibility with WooCommerce 9.8.1.
+* Dev – Tested compatibility with WordPress 6.8.
+* Fix – Resolved the TypeError: Cannot read properties of undefined (reading 'analytics').
+
+2025-04-14 - version 1.5.1
+* Enhancement – Added support for additional languages for translation compatibility.
+* Fix – Resolved an issue where both options were being stored under the same key.
+
+2025-03-18 - version 1.5
+* Enhancement – Added support for sending emails to multiple recipients using a comma-separated list and introduced filter hooks to modify recipients for admin.
+* Enhancement – Created endpoints to display return and exchange request details on the "My Account" page.
+* Enhancement – Added admin email notifications when a return or exchange request is approved.
+* Improved – Enhanced handling of return and exchange requests for multiple items.
+* Improved – Improved display of available exchange variations by price.
+* Improved – Enhanced the display of exchange and return request item details in the Meta Box.
+* Improved – Removed validation requirements for description and media uploads in the return and exchange request form.
+* Fix – Resolved fatal errors and warnings.
+* Fix – Fixed the exchange button visibility issue.
+* Dev – Tested compatibility with WooCommerce 9.7.1.
+* Dev – Tested compatibility with WordPress 6.7.2.
+
+
+2025-02-05 - version 1.4.1
+* Improved - remove the inline CSS from the buttons and move the styles to frontend.css
+* Fix - The print_r from the class-exchange-front.php file
+* Dev - WC tested up to 9.6.0
+* Dev - WordPress tested up to 6.7.1
+
+2024-12-23 - version 1.4
+* Enhancement - Added an option to request a return and exchange for guest user
+* Enhancement - Added an option to enable/disable for exchange features
+* Improvement - Updated a return dashboard design
+* Fix - The settings page not open if large number of products
+* Dev - WC tested upto 9.5.1
+* Dev - Wordpress tested upto 6.7
+
+2024-11-08 - version 1.3.1
+* Fix - issue of crash license setting page
+
+2024-09-03 - version 1.3
+* Enhancement - Added an Exchange Request feature with a submission form for customers, configuration options for managing requests, and automated email notifications
+* Enhancement - Added an option of Refund method preferences (like a refund store credit and refund to payment method)
+* Improvement - Updated a return request form design
+* Improvement - Updated the design of return and exchange options and separated
+* Dev - WC tested upto 9.3.2
+* Dev - Wordpress tested upto 6.6.2
+
+2024-05-20 - version 1.2
+* Enhancement - Users can now cancel their return requests when the return item's status is 'Return Requested'
+* Enhancement - Admins now have the capability to permanently delete unapproved or canceled requests from the database
+* Enhancement - Added a checkbox to the request form, requiring users to accept the terms and conditions before submission
+* Enhancement - Added an option to include the terms and conditions page in the return request form
+* Improvement - Implemented the use of WebP image files within the request form for better performance and efficiency
+* Dev - WC tested upto 8.8.3
+
+2024-04-05 - version 1.1
+* Fix - The improper display of the show settings page and CSS
+
+2024-03-05 - version 1.0
+* Launch it!

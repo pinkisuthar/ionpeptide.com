@@ -1,0 +1,7 @@
+*** Yoast SEO premium Changelog ***
+
+
+2026-08-04 - version 28.2
+* fix -  Fixes a bug where editing a redirect or saving the redirect settings would fail when the site was behind a proxy that strips the X-HTTP-Method-Override header.
+* update -  Bumps the minimum required version of Yoast SEO to 28.2.
+

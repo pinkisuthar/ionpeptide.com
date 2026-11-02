@@ -1,0 +1,81 @@
+/**
+ * Invoice CSS
+ *
+ * @author  YITH <plugins@yithemes.com>
+ * @package YITH\Affiliates\Styles
+ * @version 2.0.0
+ */
+
+body{
+    font-family: sans-serif;
+}
+
+.invoice-container .invoice-heading,
+.invoice-container .invoice-date,
+.invoice-container .invoice-addresses,
+.invoice-content,
+.invoice-totals{
+    margin-bottom: 45px;
+}
+
+.invoice-container .invoice-heading h1,
+.invoice-container .invoice-heading h2,
+.invoice-container .invoice-heading h3{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.invoice-container .invoice-heading h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.invoice-container .invoice-heading .invoice-date {
+    text-align: center;
+}
+
+.invoice-container .invoice-addresses table.addresses {
+    width: 100%;
+}
+
+.invoice-container .invoice-addresses table.addresses,
+.invoice-container .invoice-addresses table.addresses tr,
+.invoice-container .invoice-addresses table.addresses tr td{
+    border: none;
+}
+
+.invoice-container .invoice-addresses table.addresses td{
+    text-align: left;
+    width: 50%;
+}
+
+.invoice-container .invoice-addresses table.addresses td h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.invoice-totals table.totals {
+    width: 100%;
+}
+
+.invoice-totals table.totals,
+.invoice-totals table.totals tr,
+.invoice-totals table.totals tr td{
+    border: none;
+}
+
+.invoice-totals table.totals tr td{
+    padding: 5px;
+    text-align: right;
+}
+
+.invoice-totals table.totals tr.grand-total td {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.invoice-totals table.totals tr.grand-total td.total-description{
+    width: 80%
+}

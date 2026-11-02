@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.wp.element,n=window.wp.components;window.wp["components/buildStyle/style.css"];(0,e.render)((0,e.createElement)(function(){return(0,e.createElement)(e.Fragment,null,(0,e.createElement)(n.Button,{isPrimary:!0,onClick:function(){return console.log("Hello World")}},"Hello World"))},null),document.getElementById("bwfcrm-public"))})();

@@ -1,0 +1,6260 @@
+# Copyright (C) 2026 Rymera Web Co
+# This file is distributed under the same license as the Advanced Coupons for WooCommerce Free plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Coupons for WooCommerce Free 4.7.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/advanced-coupons-for-woocommerce-free\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-19T08:32:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: advanced-coupons-for-woocommerce-free\n"
+
+#. Plugin Name of the plugin
+#: advanced-coupons-for-woocommerce-free.php
+msgid "Advanced Coupons for WooCommerce Free"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: advanced-coupons-for-woocommerce-free.php
+msgid "https://advancedcouponsplugin.com"
+msgstr ""
+
+#. Description of the plugin
+#: advanced-coupons-for-woocommerce-free.php
+msgid "Advanced Coupons for WooCommerce (Free Version) gives WooCommerce store owners extra coupon features so they can market their stores better."
+msgstr ""
+
+#. Author of the plugin
+#: advanced-coupons-for-woocommerce-free.php
+msgid "Rymera Web Co"
+msgstr ""
+
+#. Author URI of the plugin
+#: advanced-coupons-for-woocommerce-free.php
+msgid "https://rymera.com.au"
+msgstr ""
+
+#. Translators: %s: Coupon usage total value
+#: Abstracts/Abstract_Coupons_Report_Widget.php:158
+#, php-format
+msgid "%s use"
+msgid_plural "%s uses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Abstracts/Abstract_Import_Store_Credits_Tool.php:83
+msgid "There are no customer store credits data to be imported."
+msgstr ""
+
+#. translators: %s: plugin name
+#: Abstracts/Abstract_Import_Store_Credits_Tool.php:128
+#, php-format
+msgid "Imported store credits from %s"
+msgstr ""
+
+#: advanced-coupons-for-woocommerce-free.php:248
+msgid "Activate this plugin"
+msgstr ""
+
+#: advanced-coupons-for-woocommerce-free.php:248
+msgid "Click here to activate →"
+msgstr ""
+
+#: advanced-coupons-for-woocommerce-free.php:249
+#: Models/Upsell.php:1730
+msgid "Plugin detected"
+msgstr ""
+
+#: advanced-coupons-for-woocommerce-free.php:251
+msgid "Install this plugin"
+msgstr ""
+
+#: advanced-coupons-for-woocommerce-free.php:251
+msgid "Click here to install from WordPress.org repo →"
+msgstr ""
+
+#. Translators: %1$s: Plugin link. %2$s: Plugin name.
+#: advanced-coupons-for-woocommerce-free.php:256
+#, php-format
+msgid "Please ensure you have the <a href=\"%1$s\" target=\"_blank\">%2$s</a> plugin installed and activated.<br/>"
+msgstr ""
+
+#: data/coupon-fields/auto-apply.php:8
+#: Models/Upsell.php:1035
+msgid "Auto Apply"
+msgstr ""
+
+#: data/coupon-fields/auto-apply.php:15
+msgid "Auto apply coupon"
+msgstr ""
+
+#: data/coupon-fields/auto-apply.php:16
+#: Models/Upsell.php:122
+msgid "Enable auto apply for this coupon."
+msgstr ""
+
+#: data/coupon-fields/general.php:8
+#: Models/Objects/ACFW_Settings.php:75
+#: Models/Objects/ACFW_Settings.php:407
+#: Models/REST_API/API_Settings.php:462
+msgid "General"
+msgstr ""
+
+#: data/coupon-fields/general.php:15
+msgid "Coupon Code"
+msgstr ""
+
+#: data/coupon-fields/general.php:19
+#: Models/Coupon_Templates.php:119
+msgid "Generate"
+msgstr ""
+
+#: data/coupon-fields/general.php:23
+#: Models/Script_Loader.php:336
+msgid "Discount Type"
+msgstr ""
+
+#: data/coupon-fields/general.php:27
+msgid "Fixed Cart Discount"
+msgstr ""
+
+#: data/coupon-fields/general.php:28
+msgid "Percentage Discount"
+msgstr ""
+
+#: data/coupon-fields/general.php:29
+msgid "Fixed Product Discount"
+msgstr ""
+
+#: data/coupon-fields/general.php:30
+msgid "Percentage Cashback (store credits)"
+msgstr ""
+
+#: data/coupon-fields/general.php:31
+msgid "Fixed Cashback (store credits)"
+msgstr ""
+
+#: data/coupon-fields/general.php:37
+msgid "Coupon Amount"
+msgstr ""
+
+#: data/coupon-fields/general.php:40
+msgid "Value of the coupon"
+msgstr ""
+
+#: data/coupon-fields/general.php:44
+msgid "Free Shipping"
+msgstr ""
+
+#: data/coupon-fields/general.php:47
+msgid "Check this box if the coupon grants free shipping. A free shipping method must be enabled in your shipping zone and be set to require \"a valid free shipping coupon\" (see WooCommerce > Settings > Shipping > Shipping Zones)."
+msgstr ""
+
+#: data/coupon-fields/general.php:51
+msgid "Force Apply URL Coupon"
+msgstr ""
+
+#: data/coupon-fields/general.php:55
+msgid "Disable"
+msgstr ""
+
+#: data/coupon-fields/general.php:56
+msgid "When applied via URL only"
+msgstr ""
+
+#: data/coupon-fields/general.php:57
+msgid "Always"
+msgstr ""
+
+#: data/coupon-fields/general.php:59
+msgid "When enabled, conflicting coupons that are already applied to the cart will be replaced with this coupon instead. This is useful especially if you have an auto applied coupon that you want to be removed when a conflicting coupon is applied."
+msgstr ""
+
+#: data/coupon-fields/general.php:63
+msgid "Coupon Label"
+msgstr ""
+
+#: data/coupon-fields/general.php:66
+msgid "Modify the label displayed for the coupon on the cart totals table. Add the {coupon_code} tag to this text and it will be replaced with the actual coupon code."
+msgstr ""
+
+#: data/coupon-fields/general.php:69
+msgid "Show on my coupons page"
+msgstr ""
+
+#: data/coupon-fields/general.php:72
+msgid "When checked, this will show the coupon in all customers my coupons page."
+msgstr ""
+
+#: data/coupon-fields/general.php:76
+msgid "Percentage discount cap"
+msgstr ""
+
+#: data/coupon-fields/general.php:79
+msgid "The maximum discount amount value allowed for this percentage type coupon."
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:8
+msgid "One Click Apply"
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:15
+msgid "Enable one click apply"
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:18
+msgid "When checked, this will enable one click apply notifications for this coupon which will then show a notification for customers in the cart when the coupon can be applied."
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:22
+msgid "Notification nessage"
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:25
+msgid "The notification message that will be displayed after checking that the coupon is elegible in the customer’s cart."
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:29
+msgid "Notification Button Text"
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:32
+msgid "The text for the button to apply the coupon."
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:36
+msgid "Notification type"
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:40
+#: Models/Edit_Coupon.php:670
+#: Models/Objects/ACFW_Settings.php:334
+#: views/coupons/view-cart-conditions-data-panel.php:71
+msgid "Info"
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:41
+#: Models/Edit_Coupon.php:671
+#: Models/Objects/ACFW_Settings.php:335
+#: views/coupons/view-cart-conditions-data-panel.php:72
+msgid "Success"
+msgstr ""
+
+#: data/coupon-fields/one-click-apply.php:42
+#: Models/Edit_Coupon.php:672
+#: Models/Objects/ACFW_Settings.php:336
+#: views/coupons/view-cart-conditions-data-panel.php:70
+msgid "Error"
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:8
+msgid "Role restrictions"
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:15
+msgid "Enable Role Restriction"
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:18
+#: Models/Edit_Coupon.php:498
+msgid "When checked, will enable role restrictions check when coupon is applied"
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:22
+#: Models/Edit_Coupon.php:507
+msgid "Type"
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:26
+#: Models/Edit_Coupon.php:512
+msgid "Allowed"
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:27
+#: Models/Edit_Coupon.php:513
+msgid "Disallowed"
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:29
+#: Models/Edit_Coupon.php:508
+msgid "The type of implementation for this restriction. Select \"allowed\" to allow coupon only to users under the selected roles. Select \"disallowed\" to only allow coupon to users that don't fall under the selected roles."
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:36
+#: Models/Edit_Coupon.php:525
+msgid "The user roles that should/shouldn't have access to this coupon. Make sure you include admin and shop manager roles if you want them to be able to test this coupon. Guests are defined as logged out users."
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:39
+#: Models/Edit_Coupon.php:537
+msgid "Invalid role error message"
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:42
+#: Models/Edit_Coupon.php:538
+msgid "The message that should be displayed to users if they are not allowed to apply this coupon."
+msgstr ""
+
+#: data/coupon-fields/role-restrictions.php:43
+#: Models/Edit_Coupon.php:541
+#: Models/Objects/ACFW_Settings.php:685
+#: Models/Role_Restrictions.php:139
+msgid "You are not allowed to use this coupon."
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:8
+#: Models/Edit_Coupon.php:719
+#: Models/Edit_Coupon.php:738
+#: Models/Objects/ACFW_Settings.php:84
+#: Models/Objects/ACFW_Settings.php:254
+#: Models/Objects/ACFW_Settings.php:510
+#: Models/REST_API/API_Settings.php:483
+msgid "Scheduler"
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:15
+msgid "Enable Scheduler"
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:18
+msgid "When checked, this will enable scheduler for this coupon which will then show a notification for customers in the cart when the coupon can be applied."
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:26
+#: Models/Edit_Coupon.php:749
+msgid "Coupon start date"
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:29
+msgid "The exact date the coupon will be available from. Based on the timezone in this WordPress installation’s settings."
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:33
+#: Models/Edit_Coupon.php:762
+msgid "Coupon start error message"
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:35
+#: Models/Edit_Coupon.php:763
+msgid "Show a custom error message to customers that try to apply this coupon before it is available."
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:39
+#: Models/Edit_Coupon.php:774
+msgid "Coupon expiry date"
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:42
+msgid "The exact date the coupon will be expired. Based on the timezone in this WordPress installation’s settings."
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:46
+#: Models/Edit_Coupon.php:787
+msgid "Coupon expire error message"
+msgstr ""
+
+#: data/coupon-fields/scheduler.php:48
+#: Models/Edit_Coupon.php:788
+msgid "Show a custom error message to customers that try to apply this coupon after it has expired."
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:8
+#: Models/Edit_Coupon.php:291
+#: Models/Edit_Coupon.php:338
+#: Models/Objects/ACFW_Settings.php:92
+#: Models/Objects/ACFW_Settings.php:214
+#: Models/Objects/ACFW_Settings.php:557
+#: Models/REST_API/API_Settings.php:497
+#: views/getting-started/index.php:138
+msgid "URL Coupons"
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:15
+msgid "Enable coupon URL"
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:18
+#: Models/Edit_Coupon.php:349
+msgid "When checked, it enables the coupon url functionality for the current coupon."
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:22
+msgid "Coupon URL override"
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:23
+#: Models/Edit_Coupon.php:371
+msgid "Customize the coupon code on the coupon url. Leave blank to disable feature."
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:29
+msgid "Redirect to URL"
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:30
+msgid "This will redirect the user to the provided URL after it has been attempted to be applied. You can also pass query args to the URL for the following variables: {acfw_coupon_code}, {acfw_coupon_is_applied} or {acfw_coupon_error_message} and they will be replaced with proper data. Eg. ?foo={acfw_coupon_error_message}, then test the \"foo\" query arg to get the message if there is one."
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:36
+msgid "Success message"
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:39
+#: Models/Edit_Coupon.php:396
+msgid "Message that will be displayed when a coupon has been applied successfully. Leave blank to use the default message."
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:43
+#: Models/Edit_Coupon.php:408
+msgid "Redirect back to origin"
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:46
+#: Models/Edit_Coupon.php:409
+msgid "When checked, the user will be redirected back to the original page they were in after the coupon has been applied to the cart. This is useful for adding the coupon URL as a button in a blog post or a page that you want your customers to do additional actions."
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:50
+msgid "Defer apply"
+msgstr ""
+
+#: data/coupon-fields/url-coupons.php:53
+#: Models/Upsell.php:910
+msgid "When checked, the coupon will not be applied to the cart until its conditions and/or restrictions are met."
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:8
+msgid "Usage limits"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:16
+msgid "Usage Limit"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:19
+msgid "How many times this coupon can be used before it is void"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:23
+msgid "Usage Limit per User"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:26
+msgid "How many times this coupon can be used by an individual user. Uses billing email for guests, and user ID for logged in users."
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:30
+msgid "Limit Usage to X Items"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:33
+msgid "The maximum number of individual items this coupon can apply to when using product discounts. Leave blank to apply to all qualifying items in cart."
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:37
+msgid "Reset usage count every"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:41
+msgid "None"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:42
+msgid "Yearly"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:43
+msgid "Monthly"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:44
+msgid "Weekly"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:45
+msgid "Daily"
+msgstr ""
+
+#: data/coupon-fields/usage-limits.php:47
+msgid "Set the time period to reset the usage limit count. <strong>Yearly:</strong> resets at start of the year. <strong>Monthly:</strong> resets at start of the month. <strong>Weekly:</strong> resets at the start of every week (day depends on the <em>&quot;Week Starts On&quot;</em> setting). <strong>Daily:</strong> resets everyday. Time is always set at 12:00am of the local timezone settings."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:8
+msgid "Usage restrictions"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:12
+msgid "Minimum spend"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:15
+msgid "This field allows you to set the minimum spend (subtotal) allowed to use the coupon."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:19
+msgid "Maximum spend"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:22
+msgid "This field allows you to set the maximum spend (subtotal) allowed when using the coupon."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:26
+msgid "Individual use only"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:29
+msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:33
+msgid "Exclude Coupons"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:36
+msgid "This is the advanced version of the \"Individual use only\" field. Coupons listed here or coupons under the categories listed cannot be used in conjunction with this coupon."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:37
+msgid "Search coupons and/or coupon categories…"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:41
+msgid "Exclude sale items"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:44
+msgid "Check this box if the coupon should not apply to items on sale. Per-item coupons will only work if the item is not on sale. Per-item coupons will only work if the item is not on sale. Per-cart coupons will only work if there are items in the cart that are not on sale."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:48
+#: Models/Cart_Conditions.php:789
+#: Models/Script_Loader.php:331
+msgid "Products"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:51
+msgid "Products that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied. Leave blank to apply to all products."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:52
+#: data/coupon-fields/usage-restrictions.php:60
+msgid "Search products…"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:56
+msgid "Exclude products"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:59
+msgid "Products that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied. Leave blank to apply to all products."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:64
+msgid "Product categories"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:67
+msgid "Product categories that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied. Leave blank to apply to all categories."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:68
+#: data/coupon-fields/usage-restrictions.php:76
+msgid "Search product categories…"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:72
+msgid "Exclude categories"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:75
+msgid "Product categories that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied. Leave blank to apply to all categories."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:80
+msgid "Product attributes"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:83
+msgid "Product attributes that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:87
+msgid "Exclude product attributes"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:90
+msgid "Product attributes that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:94
+msgid "Email restrictions"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:97
+msgid "List of allowed emails separated by commas. Leave blank to allow all emails."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:101
+msgid "Allowed customers"
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:104
+#: Models/Upsell.php:380
+msgid "Search and select customers that are eligible to only use this coupon."
+msgstr ""
+
+#: data/coupon-fields/usage-restrictions.php:105
+msgid "Search customers…"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:322
+#: Models/Cart_Conditions.php:734
+msgid "Guest"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:1345
+msgid "Invalid customer or email"
+msgstr ""
+
+#. Translators: %d is the number of years.
+#: Helpers/Helper_Functions.php:1721
+#, php-format
+msgid "%d year ago"
+msgid_plural "%d years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %d is the number of months.
+#: Helpers/Helper_Functions.php:1725
+#, php-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %d is the number of days.
+#: Helpers/Helper_Functions.php:1729
+#, php-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %d is the number of hours.
+#: Helpers/Helper_Functions.php:1733
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %d is the number of minutes.
+#: Helpers/Helper_Functions.php:1737
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: This refers to a very short time interval (less than a minute).
+#: Helpers/Helper_Functions.php:1740
+msgid "just now"
+msgstr ""
+
+#: Models/Abilities.php:68
+#: Models/Admin_App.php:195
+#: Models/Admin_App.php:253
+#: Models/Admin_App.php:430
+#: Models/Edit_Coupon.php:217
+#: Models/Edit_Coupon.php:227
+#: Models/Network_Admin.php:120
+#: Models/Network_Admin.php:121
+#: Models/Objects/ACFW_Settings.php:61
+#: Models/Upsell.php:1608
+msgid "Advanced Coupons"
+msgstr ""
+
+#: Models/Abilities.php:69
+msgid "Abilities for the Advanced Coupons plugin family."
+msgstr ""
+
+#: Models/Abilities.php:85
+msgid "List coupons"
+msgstr ""
+
+#: Models/Abilities.php:86
+msgid "Retrieve a filtered list of WooCommerce coupons with their core details."
+msgstr ""
+
+#: Models/Abilities.php:119
+msgid "Get coupon"
+msgstr ""
+
+#: Models/Abilities.php:120
+msgid "Retrieve the full configuration of a single coupon, including Advanced Coupons settings."
+msgstr ""
+
+#: Models/Abilities.php:145
+msgid "Create coupon"
+msgstr ""
+
+#: Models/Abilities.php:146
+msgid "Create a new WooCommerce coupon with optional Advanced Coupons configuration."
+msgstr ""
+
+#: Models/Abilities.php:180
+msgid "Update coupon"
+msgstr ""
+
+#: Models/Abilities.php:181
+msgid "Update an existing coupon. Only the fields provided are changed."
+msgstr ""
+
+#: Models/Abilities.php:215
+msgid "Delete coupon"
+msgstr ""
+
+#: Models/Abilities.php:216
+msgid "Move a coupon to the trash."
+msgstr ""
+
+#: Models/Abilities.php:242
+msgid "Set coupon URL trigger"
+msgstr ""
+
+#: Models/Abilities.php:243
+msgid "Enable or disable the URL coupon trigger and its related settings on a coupon."
+msgstr ""
+
+#: Models/Abilities.php:275
+msgid "Set coupon schedule"
+msgstr ""
+
+#: Models/Abilities.php:276
+msgid "Enable or disable the date range schedule on a coupon and set its start and end dates."
+msgstr ""
+
+#: Models/Abilities.php:308
+msgid "Get coupons summary"
+msgstr ""
+
+#: Models/Abilities.php:309
+msgid "Retrieve coupon usage and discount summary metrics for a date range."
+msgstr ""
+
+#: Models/Abilities.php:558
+msgid "A coupon code is required."
+msgstr ""
+
+#: Models/Abilities.php:562
+msgid "A coupon with this code already exists."
+msgstr ""
+
+#: Models/Abilities.php:598
+msgid "Another coupon already uses that code."
+msgstr ""
+
+#: Models/Abilities.php:651
+msgid "The URL Coupons module is not enabled."
+msgstr ""
+
+#: Models/Abilities.php:706
+msgid "The Scheduler module is not enabled."
+msgstr ""
+
+#: Models/Abilities.php:840
+msgid "A coupon id or code is required."
+msgstr ""
+
+#: Models/Abilities.php:844
+msgid "Coupon not found."
+msgstr ""
+
+#: Models/Abilities.php:849
+msgid "You do not have permission to access this coupon."
+msgstr ""
+
+#: Models/Admin_App.php:144
+msgid "Manage Store Credits"
+msgstr ""
+
+#: Models/Admin_App.php:149
+#: Models/Admin_App.php:255
+#: Models/Admin_App.php:312
+#: Models/Bootstrap.php:475
+msgid "Settings"
+msgstr ""
+
+#: Models/Admin_App.php:154
+#: Models/Upsell.php:935
+#: Models/Upsell.php:1144
+msgid "License"
+msgstr ""
+
+#: Models/Admin_App.php:159
+#: Models/Objects/ACFW_Settings.php:100
+#: Models/Objects/ACFW_Settings.php:895
+#: Models/Script_Loader.php:362
+msgid "Help"
+msgstr ""
+
+#: Models/Admin_App.php:164
+msgid "About"
+msgstr ""
+
+#: Models/Admin_App.php:256
+msgid "Adjust the global settings options for Advanced Coupons for WooCommerce."
+msgstr ""
+
+#: Models/Admin_App.php:261
+#: Models/Edit_Coupon.php:170
+#: Models/Edit_Coupon.php:171
+#: views/orders/order-preview-popup-coupons-list.php:11
+msgid "Coupons"
+msgstr ""
+
+#: Models/Admin_App.php:262
+#: Models/Admin_App.php:288
+#: Models/Admin_App.php:598
+#: Models/Edit_Coupon.php:181
+#: Models/Edit_Coupon.php:182
+msgid "Dashboard"
+msgstr ""
+
+#: Models/Admin_App.php:266
+#: Models/Edit_Coupon.php:190
+#: Models/Edit_Coupon.php:191
+msgid "All Coupons"
+msgstr ""
+
+#: Models/Admin_App.php:270
+#: Models/Edit_Coupon.php:199
+msgid "Add New"
+msgstr ""
+
+#: Models/Admin_App.php:274
+#: Models/Edit_Coupon.php:206
+#: Models/Edit_Coupon.php:207
+#: Models/Edit_Coupon.php:1041
+#: Models/Script_Loader.php:575
+msgid "Coupon Categories"
+msgstr ""
+
+#: Models/Admin_App.php:279
+msgid "Please enter a valid value."
+msgstr ""
+
+#: Models/Admin_App.php:283
+msgid "successfully updated"
+msgstr ""
+
+#: Models/Admin_App.php:284
+msgid "failed to update"
+msgstr ""
+
+#: Models/Admin_App.php:289
+#: Models/REST_API/API_Reports.php:254
+msgid "The report data could not be loaded. Please reload the page to try again."
+msgstr ""
+
+#: Models/Admin_App.php:291
+msgid "Quick Create"
+msgstr ""
+
+#: Models/Admin_App.php:292
+msgid "New % Coupon"
+msgstr ""
+
+#: Models/Admin_App.php:293
+msgid "New Fixed Coupon"
+msgstr ""
+
+#: Models/Admin_App.php:294
+msgid "New BOGO Coupon"
+msgstr ""
+
+#: Models/Admin_App.php:300
+msgid "Getting Started Guides"
+msgstr ""
+
+#: Models/Admin_App.php:306
+msgid "Read Documentation"
+msgstr ""
+
+#: Models/Admin_App.php:318
+msgid "Contact Support"
+msgstr ""
+
+#: Models/Admin_App.php:323
+msgid "Coupon"
+msgstr ""
+
+#: Models/Admin_App.php:324
+msgid "Uses"
+msgstr ""
+
+#: Models/Admin_App.php:325
+msgid "Discounted"
+msgstr ""
+
+#: Models/Admin_App.php:326
+#: Models/Admin_App.php:569
+msgid "Active"
+msgstr ""
+
+#: Models/Admin_App.php:327
+msgid "Inactive"
+msgstr ""
+
+#: Models/Admin_App.php:328
+msgid "Expired"
+msgstr ""
+
+#: Models/Admin_App.php:329
+#: Models/Objects/Report_Widgets/Gift_Cards_Upsell.php:41
+#: Models/Objects/Report_Widgets/Loyalty_Points_Upsell.php:41
+msgid "Learn more →"
+msgstr ""
+
+#: Models/Admin_App.php:330
+msgid "Helpful Resources"
+msgstr ""
+
+#: Models/Admin_App.php:331
+msgid "License Activation Status"
+msgstr ""
+
+#: Models/Admin_App.php:332
+msgid "View Licenses →"
+msgstr ""
+
+#: Models/Admin_App.php:333
+msgid "Notices"
+msgstr ""
+
+#: Models/Admin_App.php:334
+#: views/notices/view-generic-notice.php:42
+#: views/notices/view-saveto-wishlist-notice.php:129
+#: views/notices/view-storeagent-notice.php:129
+msgid "Dismiss"
+msgstr ""
+
+#: Models/Admin_App.php:335
+msgid "View all"
+msgstr ""
+
+#: Models/Admin_App.php:336
+msgid "Hide"
+msgstr ""
+
+#: Models/Admin_App.php:337
+#: Models/Upsell.php:1916
+#: views/premium/view-upgrade-settings-page.php:21
+msgid "Free Plugin"
+msgstr ""
+
+#: Models/Admin_App.php:338
+#: Models/Admin_App.php:457
+msgid "Recommended"
+msgstr ""
+
+#: Models/Admin_App.php:339
+#: Models/Notices/SaveTo_Wishlist_Notice.php:160
+msgid "Install & Activate"
+msgstr ""
+
+#: Models/Admin_App.php:340
+msgid "has been installed successfully!"
+msgstr ""
+
+#: Models/Admin_App.php:348
+msgid "Complete wholesale solution for WooCommerce with pricing, user roles, and order management."
+msgstr ""
+
+#: Models/Admin_App.php:357
+msgid "Create a multivendor marketplace and earn commission from every sale."
+msgstr ""
+
+#: Models/Admin_App.php:366
+msgid "Essential WooCommerce admin tools for bulk operations and store management."
+msgstr ""
+
+#: Models/Admin_App.php:375
+msgid "Generate and manage product feeds for Google Shopping, Facebook, and more."
+msgstr ""
+
+#: Models/Admin_App.php:384
+msgid "AI-powered automation for WooCommerce stores with intelligent agents."
+msgstr ""
+
+#: Models/Admin_App.php:393
+msgid "Adds a wishlist button to product and shop pages so customers can save items, manage their wishlist, and return later to purchase—helping boost engagement and sales."
+msgstr ""
+
+#: Models/Admin_App.php:401
+#: views/premium/view-license-placeholder-settings-page.php:7
+msgid "Advanced Coupons License Activation"
+msgstr ""
+
+#: Models/Admin_App.php:402
+#: views/premium/view-license-placeholder-settings-page.php:8
+msgid "Advanced Coupons comes in two versions - the free version (with feature limitations) and the Premium add-on."
+msgstr ""
+
+#: Models/Admin_App.php:405
+#: views/premium/view-license-placeholder-settings-page.php:10
+msgid "See feature comparison "
+msgstr ""
+
+#: Models/Admin_App.php:408
+#: views/premium/view-license-placeholder-settings-page.php:18
+msgid "Your current license for Advanced Coupons:"
+msgstr ""
+
+#: Models/Admin_App.php:410
+#: Models/Script_Loader.php:374
+#: Models/Upsell.php:1273
+#: views/premium/view-license-placeholder-settings-page.php:22
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: Models/Admin_App.php:413
+#: Models/Admin_App.php:419
+#: views/premium/view-license-placeholder-settings-page.php:29
+#: views/premium/view-license-placeholder-settings-page.php:38
+msgid "Free Version"
+msgstr ""
+
+#: Models/Admin_App.php:414
+#: views/premium/view-license-placeholder-settings-page.php:30
+msgid "You are currently using Advanced Coupons for WooCommerce Free on a GPL license. The free version includes a heap of great extra features for your WooCommerce coupons. The only requirement for the free version is that you have WooCommerce installed."
+msgstr ""
+
+#: Models/Admin_App.php:418
+#: views/premium/view-license-placeholder-settings-page.php:34
+msgid "Plan"
+msgstr ""
+
+#: Models/Admin_App.php:422
+#: views/premium/view-license-placeholder-settings-page.php:35
+msgid "Version"
+msgstr ""
+
+#: Models/Admin_App.php:434
+msgid "Getting Help"
+msgstr ""
+
+#: Models/Admin_App.php:435
+msgid "We're here to help you get the most out of Advanced Coupons for WooCommerce."
+msgstr ""
+
+#: Models/Admin_App.php:438
+#: Models/Objects/ACFW_Settings.php:902
+#: Models/Objects/ACFW_Settings.php:911
+msgid "Knowledge Base"
+msgstr ""
+
+#: Models/Admin_App.php:439
+msgid "Access our self-service help documentation via the Knowledge Base. You'll find answers and solutions for a wide range of well known situations. You'll also find a Getting Started guide here for the plugin."
+msgstr ""
+
+#: Models/Admin_App.php:442
+msgid "Open Knowledge Base"
+msgstr ""
+
+#: Models/Admin_App.php:446
+msgid "Free Version WordPress.org Help Forums"
+msgstr ""
+
+#: Models/Admin_App.php:447
+msgid "Our support staff regularly check and help our free users at the official plugin WordPress.org help forums. Submit a post there with your question and we'll get back to you as soon as possible."
+msgstr ""
+
+#: Models/Admin_App.php:450
+msgid "Visit WordPress.org Forums"
+msgstr ""
+
+#: Models/Admin_App.php:458
+msgid "FREE GUIDE: How To Grow A WooCommerce Store Using Coupons"
+msgstr ""
+
+#: Models/Admin_App.php:459
+msgid "The key to growing an online store is promoting it!"
+msgstr ""
+
+#. Translators: %1$s: opening bold tag. %2$s: closing bold tag.
+#: Models/Admin_App.php:462
+#, php-format
+msgid "If you've ever wanted to grow a store to 6, 7 or 8-figures and beyond %1$sdownload this guide%2$s now. You'll learn how smart store owners are using coupons to grow their WooCommerce stores."
+msgstr ""
+
+#: Models/Admin_App.php:469
+msgid "Get FREE Training Guide"
+msgstr ""
+
+#: Models/Admin_App.php:473
+msgid "How \"smart store owners\" use coupons differently"
+msgstr ""
+
+#: Models/Admin_App.php:474
+msgid "3x hot deals that you can implement NOW to increase sales permanently"
+msgstr ""
+
+#: Models/Admin_App.php:475
+msgid "How to get 4-10x the sales on your next once-off coupon campaign"
+msgstr ""
+
+#: Models/Admin_App.php:476
+msgid "The tools you need to run these deals in your WooCommerce store"
+msgstr ""
+
+#: Models/Admin_App.php:483
+msgid "Enter your first name here..."
+msgstr ""
+
+#: Models/Admin_App.php:484
+msgid "Enter your email here..."
+msgstr ""
+
+#: Models/Admin_App.php:487
+msgid "Please fill out your name and/or email correctly."
+msgstr ""
+
+#: Models/Admin_App.php:488
+#: Models/Admin_App.php:1154
+msgid "There was an error trying to process your request. Please refresh the page and try again."
+msgstr ""
+
+#: Models/Admin_App.php:491
+msgid "About Advanced Coupons"
+msgstr ""
+
+#: Models/Admin_App.php:492
+msgid "Hello and welcome to Advanced Coupons, the plugin that makes your WooCommerce coupons better!"
+msgstr ""
+
+#: Models/Admin_App.php:494
+msgid "About The Makers - Rymera Web Co"
+msgstr ""
+
+#: Models/Admin_App.php:496
+msgid "Over the years we've worked with thousands of smart store owners that were frustrated with the options for promoting their WooCommerce stores."
+msgstr ""
+
+#: Models/Admin_App.php:497
+msgid "That's why we decided to make Advanced Coupons - a state of the art coupon feature extension plugin that delivers on the promise of \"making your store's marketing better.\""
+msgstr ""
+
+#: Models/Admin_App.php:498
+msgid "Advanced Coupons is brought to you by the same team that's behind the largest and most comprehensive wholesale plugin for WooCommerce, Wholesale Suite. We've also been in the WordPress space for over a decade."
+msgstr ""
+
+#: Models/Admin_App.php:499
+msgid "We're thrilled you're using our tool and invite you to try our other tools as well."
+msgstr ""
+
+#: Models/Admin_App.php:506
+msgid "Advanced Coupons (Premium Version)"
+msgstr ""
+
+#: Models/Admin_App.php:507
+msgid "Premium adds even more great coupon features, unlocks all of the Cart Conditions, advanced BOGO functionality, lets you add products with a coupon, gives you auto-apply and one-click notifications and loads more."
+msgstr ""
+
+#: Models/Admin_App.php:512
+msgid "WooCommerce Wholesale Prices"
+msgstr ""
+
+#: Models/Admin_App.php:513
+msgid "WooCommerce Wholesale Prices gives WooCommerce store owners the ability to supply specific users with wholesale pricing for their product range. We've made entering wholesale prices as simple as it should be."
+msgstr ""
+
+#: Models/Admin_App.php:518
+msgid "StoreAgent AI for WooCommerce"
+msgstr ""
+
+#: Models/Admin_App.php:519
+msgid "Get AI Agents for WooCommerce with StoreAgent.ai, the free AI-powered plugin designed to automate tasks, personalize customer interactions, and optimize your eCommerce operations."
+msgstr ""
+
+#: Models/Admin_App.php:524
+msgid "Product Feed Pro"
+msgstr ""
+
+#: Models/Admin_App.php:525
+msgid "Helps you generate and manage product feeds for various marketing channels, such as Google Shopping, Facebook, and more, to optimize your eCommerce store's visibility and sales."
+msgstr ""
+
+#: Models/Admin_App.php:530
+msgid "WC Vendors Marketplace"
+msgstr ""
+
+#: Models/Admin_App.php:531
+msgid "Easiest way to create your multivendor marketplace and earn commission from every sale. Create a WooCommerce marketplace with multi-seller, product vendor & multi vendor commissions."
+msgstr ""
+
+#: Models/Admin_App.php:536
+msgid "Invoice Gateway for WooCommerce"
+msgstr ""
+
+#: Models/Admin_App.php:537
+msgid "Accept orders via a special invoice payment gateway method which lets your customer enter their order without upfront payment. Then just issue an invoice from your accounting system and paste in the number."
+msgstr ""
+
+#: Models/Admin_App.php:542
+msgid "Store Toolkit for WooCommerce"
+msgstr ""
+
+#: Models/Admin_App.php:543
+msgid "A growing set of commonly-used WooCommerce admin tools such as deleting WooCommerce data in bulk, such as products, orders, coupons, and customers. It also adds extra small features, order filtering, and more."
+msgstr ""
+
+#: Models/Admin_App.php:548
+msgid "Store Exporter for WooCommerce"
+msgstr ""
+
+#: Models/Admin_App.php:549
+msgid "Easily export Orders, Subscriptions, Coupons, Products, Categories, Tags to a variety of formats. The deluxe version also adds scheduled exporting for easy reporting and syncing with other systems."
+msgstr ""
+
+#: Models/Admin_App.php:554
+msgid "SaveTo Wishlist Lite for WooCommerce"
+msgstr ""
+
+#: Models/Admin_App.php:555
+msgid "Adds a wishlist button to product and shop pages so customers can save items, manage their wishlist, and return later to purchase, helping boost engagement and sales."
+msgstr ""
+
+#: Models/Admin_App.php:559
+msgid "Status"
+msgstr ""
+
+#: Models/Admin_App.php:561
+msgid "Not installed"
+msgstr ""
+
+#: Models/Admin_App.php:565
+msgid "Installed"
+msgstr ""
+
+#: Models/Admin_App.php:575
+#: Models/Notices.php:245
+msgid "Install Plugin"
+msgstr ""
+
+#: Models/Admin_App.php:579
+#: Models/Notices.php:242
+msgid "Activate Plugin"
+msgstr ""
+
+#: Models/Admin_App.php:586
+msgid "Store Credits Dashboard"
+msgstr ""
+
+#: Models/Admin_App.php:602
+#: Models/Cart_Conditions.php:797
+msgid "Customers"
+msgstr ""
+
+#: Models/Admin_App.php:606
+msgid "Automations"
+msgstr ""
+
+#: Models/Admin_App.php:610
+msgid "Bulk Adjust"
+msgstr ""
+
+#: Models/Admin_App.php:615
+msgid "Bulk Adjust Store Credits"
+msgstr ""
+
+#: Models/Admin_App.php:616
+msgid "Adjust store credit balances in bulk for groups of customers based on filters such as user roles, balance ranges, registration date, and last order date. This feature is available in the Premium version."
+msgstr ""
+
+#: Models/Admin_App.php:617
+#: Models/Coupon_Templates.php:161
+#: Models/Upsell.php:1117
+#: Models/Upsell.php:1650
+#: Models/Upsell.php:1868
+#: Models/Upsell.php:1902
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: Models/Admin_App.php:622
+msgid "Week to Date"
+msgstr ""
+
+#: Models/Admin_App.php:626
+msgid "Month to Date"
+msgstr ""
+
+#: Models/Admin_App.php:630
+msgid "Quarter to Date"
+msgstr ""
+
+#: Models/Admin_App.php:634
+msgid "Year to Date"
+msgstr ""
+
+#: Models/Admin_App.php:638
+msgid "Last Week"
+msgstr ""
+
+#: Models/Admin_App.php:642
+msgid "Last Month"
+msgstr ""
+
+#: Models/Admin_App.php:646
+msgid "Last Quarter"
+msgstr ""
+
+#: Models/Admin_App.php:650
+msgid "Last Year"
+msgstr ""
+
+#: Models/Admin_App.php:654
+msgid "Custom Range"
+msgstr ""
+
+#: Models/Admin_App.php:659
+msgid "Adjust Store Credit"
+msgstr ""
+
+#: Models/Admin_App.php:663
+msgid "Adjust Store credit for this user. Remember store credits are worth the same as your base currency in the store."
+msgstr ""
+
+#: Models/Admin_App.php:667
+msgid "Current balance: {balance}"
+msgstr ""
+
+#: Models/Admin_App.php:671
+msgid "New balance: {balance}"
+msgstr ""
+
+#: Models/Admin_App.php:675
+msgid "Increase Store Credit"
+msgstr ""
+
+#: Models/Admin_App.php:679
+msgid "Decrease Store Credit"
+msgstr ""
+
+#: Models/Admin_App.php:683
+msgid "The price entered is not valid"
+msgstr ""
+
+#: Models/Admin_App.php:687
+msgid "Make Adjustment"
+msgstr ""
+
+#: Models/Admin_App.php:691
+msgid "Add Note"
+msgstr ""
+
+#: Models/Admin_App.php:695
+msgid "Enter a note for this adjustment"
+msgstr ""
+
+#: Models/Admin_App.php:699
+msgid "Send email notification to customer"
+msgstr ""
+
+#: Models/Admin_App.php:705
+msgid "Store Credits Status"
+msgstr ""
+
+#: Models/Admin_App.php:709
+msgid "Store Credits Statistics"
+msgstr ""
+
+#: Models/Admin_App.php:713
+msgid "Store Credits Sources"
+msgstr ""
+
+#: Models/Admin_App.php:717
+msgid "Source"
+msgstr ""
+
+#. Translators: %s: store currency symbol.
+#. Translators: %s: Currency symbol
+#: Models/Admin_App.php:723
+#: Models/Script_Loader.php:528
+#, php-format
+msgid "Amount (%s)"
+msgstr ""
+
+#: Models/Admin_App.php:729
+msgid "Customers List"
+msgstr ""
+
+#: Models/Admin_App.php:733
+msgid "Search by name or email"
+msgstr ""
+
+#: Models/Admin_App.php:737
+msgid "Customer Name"
+msgstr ""
+
+#: Models/Admin_App.php:741
+#: Models/Send_Coupon.php:92
+#: Models/Send_Coupon.php:106
+msgid "Email"
+msgstr ""
+
+#: Models/Admin_App.php:745
+msgid "Store Credit Balance"
+msgstr ""
+
+#: Models/Admin_App.php:749
+msgid "View Stats"
+msgstr ""
+
+#: Models/Admin_App.php:753
+msgid "Adjust"
+msgstr ""
+
+#: Models/Admin_App.php:757
+msgid "Store Credit History"
+msgstr ""
+
+#: Models/Admin_App.php:761
+#: Models/Coupon_Templates.php:143
+#: Models/Script_Loader.php:529
+msgid "Date"
+msgstr ""
+
+#: Models/Admin_App.php:765
+#: Models/Script_Loader.php:530
+msgid "Activity"
+msgstr ""
+
+#: Models/Admin_App.php:769
+#: Models/Script_Loader.php:531
+msgid "Related"
+msgstr ""
+
+#: Models/Admin_App.php:776
+#: Models/Script_Loader.php:339
+msgid "EXACTLY"
+msgstr ""
+
+#: Models/Admin_App.php:780
+#: Models/Script_Loader.php:340
+msgid "ANYTHING EXCEPT"
+msgstr ""
+
+#: Models/Admin_App.php:784
+#: Models/Script_Loader.php:341
+msgid "MORE THAN"
+msgstr ""
+
+#: Models/Admin_App.php:788
+#: Models/Script_Loader.php:342
+msgid "LESS THAN"
+msgstr ""
+
+#: Models/Admin_App.php:792
+msgid "AT LEAST"
+msgstr ""
+
+#: Models/Admin_App.php:796
+msgid "ALL"
+msgstr ""
+
+#: Models/Admin_App.php:800
+msgid "Within a period"
+msgstr ""
+
+#: Models/Admin_App.php:804
+msgid "Number of orders"
+msgstr ""
+
+#: Models/Admin_App.php:826
+msgid "Generate Coupon with AI"
+msgstr ""
+
+#: Models/Admin_App.php:827
+msgid "Describe the promotion you want to create and let AI generate a coupon template for you."
+msgstr ""
+
+#: Models/Admin_App.php:828
+msgid "e.g., \"20% off for first-time customers who spend over $50\""
+msgstr ""
+
+#: Models/Admin_App.php:829
+#: Models/Coupon_Templates.php:164
+#: Models/Script_Loader.php:388
+msgid "Generate with AI"
+msgstr ""
+
+#: Models/Admin_App.php:830
+msgid "Continue with AI Template"
+msgstr ""
+
+#: Models/Admin_App.php:831
+msgid "Generating..."
+msgstr ""
+
+#: Models/Admin_App.php:832
+msgid "Note: Currently does not support BOGO, shipping overrides, or adding products."
+msgstr ""
+
+#: Models/Admin_App.php:833
+msgid "Example prompts:"
+msgstr ""
+
+#: Models/Admin_App.php:835
+msgid "20% off for first-time customers on orders over $50"
+msgstr ""
+
+#: Models/Admin_App.php:836
+msgid "10% discount for VIP members on all products"
+msgstr ""
+
+#: Models/Admin_App.php:837
+msgid "$15 off on Electronics category for orders above $100"
+msgstr ""
+
+#: Models/Admin_App.php:838
+msgid "25% off for newsletter subscribers this weekend"
+msgstr ""
+
+#: Models/Admin_App.php:839
+msgid "30% discount on Fall collection for returning customers"
+msgstr ""
+
+#: Models/Admin_App.php:840
+msgid "Buy from Home Decor category and get 15% off"
+msgstr ""
+
+#: Models/Admin_App.php:841
+msgid "$20 off for wholesale customers on orders over $200"
+msgstr ""
+
+#: Models/Admin_App.php:842
+msgid "10% off site-wide for loyalty program members"
+msgstr ""
+
+#: Models/Admin_App.php:843
+msgid "40% discount on Clearance items for all customers"
+msgstr ""
+
+#: Models/Admin_App.php:844
+msgid "15% off for customers who spent over $500 in the past"
+msgstr ""
+
+#: Models/Admin_App.php:845
+msgid "$10 off on first purchase for new registered users"
+msgstr ""
+
+#: Models/Admin_App.php:846
+msgid "20% discount on Apparel category this month only"
+msgstr ""
+
+#: Models/Admin_App.php:848
+msgid "Please provide a more detailed description (at least 10 characters)."
+msgstr ""
+
+#: Models/Admin_App.php:849
+msgid "Failed to generate coupon. Please try again."
+msgstr ""
+
+#: Models/Admin_App.php:852
+msgid "Create Coupons with AI"
+msgstr ""
+
+#: Models/Admin_App.php:853
+msgid "Generate ready-to-use coupons in seconds just by describing your promotion. Powered by StoreAgent AI — a free plugin that brings AI Coupon Generation, Product Descriptions, Review Summaries, and more to your WooCommerce store."
+msgstr ""
+
+#: Models/Admin_App.php:854
+msgid "Install StoreAgent AI (Free)"
+msgstr ""
+
+#: Models/Admin_App.php:855
+msgid "StoreAgent AI installed and activated successfully!"
+msgstr ""
+
+#: Models/Admin_App.php:856
+msgid "Failed to install StoreAgent AI. Please try again."
+msgstr ""
+
+#: Models/Admin_App.php:857
+msgid "Almost There! Activate StoreAgent AI"
+msgstr ""
+
+#: Models/Admin_App.php:858
+msgid "StoreAgent AI is installed and ready to go. Activate it to start generating coupons with AI in just a few clicks."
+msgstr ""
+
+#: Models/Admin_App.php:859
+msgid "Activate StoreAgent AI"
+msgstr ""
+
+#: Models/Admin_App.php:860
+msgid "StoreAgent AI activated successfully!"
+msgstr ""
+
+#: Models/Admin_App.php:861
+msgid "One Last Step — Connect StoreAgent AI"
+msgstr ""
+
+#: Models/Admin_App.php:862
+msgid "Connect your store to StoreAgent AI to unlock AI-powered coupon generation and other smart features for your WooCommerce store."
+msgstr ""
+
+#: Models/Admin_App.php:863
+msgid "Connect StoreAgent AI"
+msgstr ""
+
+#: Models/Admin_App.php:864
+#: views/getting-started/index.php:244
+#: views/getting-started/index.php:287
+#: views/getting-started/index.php:322
+#: views/notices/view-saveto-wishlist-notice.php:124
+#: views/notices/view-storeagent-notice.php:124
+msgid "Learn More"
+msgstr ""
+
+#: Models/Admin_App.php:865
+#: Models/Coupon_Templates.php:117
+#: Models/Script_Loader.php:301
+#: Models/Script_Loader.php:377
+msgid "Cancel"
+msgstr ""
+
+#: Models/Admin_App.php:1057
+#: Models/BOGO/Admin.php:295
+#: Models/BOGO/Admin.php:362
+#: Models/Cart_Conditions.php:642
+#: Models/Emails.php:270
+#: Models/Store_Credits/Checkout.php:1366
+msgid "Invalid AJAX call"
+msgstr ""
+
+#: Models/Admin_App.php:1062
+#: Models/BOGO/Admin.php:300
+#: Models/BOGO/Admin.php:367
+#: Models/Cart_Conditions.php:647
+#: Models/Emails.php:272
+msgid "You are not allowed to do this"
+msgstr ""
+
+#: Models/Admin_App.php:1138
+msgid "Please check your email to get the download link."
+msgstr ""
+
+#: Models/BOGO/Admin.php:152
+msgid "Buy X Get X Deal (BOGO)"
+msgstr ""
+
+#: Models/BOGO/Admin.php:240
+#: Models/Edit_Coupon.php:676
+#: Models/Objects/ACFW_Settings.php:309
+msgid "Your current cart is eligible to redeem deals"
+msgstr ""
+
+#: Models/BOGO/Admin.php:244
+#: Models/BOGO/Frontend.php:899
+#: Models/Edit_Coupon.php:677
+#: Models/Objects/ACFW_Settings.php:317
+msgid "View Deals"
+msgstr ""
+
+#: Models/BOGO/Admin.php:305
+#: Models/BOGO/Admin.php:372
+#: Models/Cart_Conditions.php:652
+#: Models/Store_Credits/Checkout.php:1384
+msgid "Missing required post data"
+msgstr ""
+
+#: Models/BOGO/Admin.php:342
+msgid "BOGO deals has been saved successfully!"
+msgstr ""
+
+#: Models/BOGO/Admin.php:384
+msgid "BOGO deals has been cleared successfully!"
+msgstr ""
+
+#: Models/BOGO/Admin.php:389
+msgid "Failed on clearing or there were no changes to save."
+msgstr ""
+
+#. Translators: %s is the coupon code.
+#: Models/BOGO/Frontend.php:159
+#, php-format
+msgid "Sorry, coupon \"%s\" cannot be used in conjunction with the other coupons already applied."
+msgstr ""
+
+#. Translators: %s is the product name.
+#: Models/BOGO/Frontend.php:772
+#, php-format
+msgid "\"%s\" was removed from your cart because the deal no longer applies."
+msgstr ""
+
+#. Translators: 1: quantity removed, 2: product name.
+#: Models/BOGO/Frontend.php:774
+#, php-format
+msgid "%1$d × \"%2$s\" was removed from your cart because the deal no longer applies."
+msgstr ""
+
+#: Models/BOGO/Frontend.php:777
+msgid "A deal item was removed from your cart because the deal no longer applies."
+msgstr ""
+
+#. Translators: %d is the quantity removed.
+#: Models/BOGO/Frontend.php:779
+#, php-format
+msgid "%d deal item(s) were removed from your cart because the deal no longer applies."
+msgstr ""
+
+#: Models/BOGO/Frontend.php:895
+msgid "Your current cart is eligible to redeem deals."
+msgstr ""
+
+#. Translators: %1$s: Category slug, %2$s: Category name.
+#: Models/Cart_Conditions.php:79
+#, php-format
+msgid "[Slug: %1$s] %2$s"
+msgstr ""
+
+#: Models/Cart_Conditions.php:547
+#: Models/Edit_Coupon.php:599
+msgid "Your current cart hasn't met the conditions set for this coupon."
+msgstr ""
+
+#: Models/Cart_Conditions.php:666
+msgid "Cart conditions has been saved successfully!"
+msgstr ""
+
+#: Models/Cart_Conditions.php:723
+msgid "Product Categories Exists In Cart"
+msgstr ""
+
+#: Models/Cart_Conditions.php:724
+msgid "Select product categories"
+msgstr ""
+
+#: Models/Cart_Conditions.php:726
+#: Models/Coupon_Templates.php:112
+#: Models/Edit_Coupon.php:1224
+msgid "Categories"
+msgstr ""
+
+#: Models/Cart_Conditions.php:731
+msgid "Customer Logged In Status"
+msgstr ""
+
+#: Models/Cart_Conditions.php:733
+msgid "Logged In"
+msgstr ""
+
+#: Models/Cart_Conditions.php:740
+msgid "Allowed Customer User Role"
+msgstr ""
+
+#: Models/Cart_Conditions.php:741
+#: Models/Cart_Conditions.php:747
+msgid "Select user roles"
+msgstr ""
+
+#: Models/Cart_Conditions.php:746
+msgid "Disallowed Customer User Role"
+msgstr ""
+
+#: Models/Cart_Conditions.php:752
+#: Models/Cart_Conditions.php:754
+msgid "Cart Quantity"
+msgstr ""
+
+#: Models/Cart_Conditions.php:753
+msgid "Total number of cart items"
+msgstr ""
+
+#: Models/Cart_Conditions.php:759
+msgid "Cart Subtotal"
+msgstr ""
+
+#: Models/Cart_Conditions.php:760
+msgid "After any price modifications"
+msgstr ""
+
+#. Translators: %s: Currency symbol.
+#: Models/Cart_Conditions.php:762
+#, php-format
+msgid "Cart Subtotal (%s)"
+msgstr ""
+
+#: Models/Cart_Conditions.php:763
+msgid "Include Tax?"
+msgstr ""
+
+#: Models/Cart_Conditions.php:785
+msgid "Cart Items"
+msgstr ""
+
+#: Models/Cart_Conditions.php:793
+#: Models/Script_Loader.php:332
+msgid "Product Categories"
+msgstr ""
+
+#: Models/Cart_Conditions.php:801
+#: Models/Objects/ACFW_Settings.php:99
+#: Models/Objects/ACFW_Settings.php:838
+#: Models/REST_API/API_Settings.php:518
+msgid "Advanced"
+msgstr ""
+
+#: Models/Cart_Conditions.php:805
+msgid "Others"
+msgstr ""
+
+#: Models/Checkout.php:60
+#: Models/Objects/Blocks/Checkout_Integration.php:111
+#: templates/acfw-store-credits/redeem-form.php:26
+msgid "Apply"
+msgstr ""
+
+#. Translators: %s User store credit balance
+#. Translators: %s: Available store credits amount.
+#: Models/Checkout.php:164
+#: Models/Checkout.php:189
+#, php-format
+msgid "%s available store credits."
+msgstr ""
+
+#: Models/Checkout.php:186
+msgid "Apply store credit discounts?"
+msgstr ""
+
+#: Models/Checkout.php:187
+#: templates/acfw-store-credits/redeem-form.php:25
+msgid "Enter amount"
+msgstr ""
+
+#: Models/Checkout.php:190
+#: templates/acfw-store-credits/redeem-form.php:24
+msgid "Enter the amount of store credits you want to apply as discount for this order."
+msgstr ""
+
+#: Models/Coupon_Templates.php:64
+#: Models/Coupon_Templates.php:85
+#: Models/Coupon_Templates.php:107
+msgid "Coupon Templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:87
+msgid "Effortlessly create coupons based on a wide-variety of pre defined templates in your store."
+msgstr ""
+
+#: Models/Coupon_Templates.php:109
+msgid "Recently Used Templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:110
+msgid "Available Templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:111
+msgid "Review Templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:113
+msgid "All templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:114
+#: Models/Upsell.php:736
+#: Models/Upsell.php:1550
+#: Models/Upsell.php:1568
+msgid "Premium"
+msgstr ""
+
+#: Models/Coupon_Templates.php:115
+msgid "Please fill in the highlighted fields"
+msgstr ""
+
+#: Models/Coupon_Templates.php:116
+msgid "Create Coupon"
+msgstr ""
+
+#: Models/Coupon_Templates.php:118
+msgid "Go back"
+msgstr ""
+
+#: Models/Coupon_Templates.php:120
+msgid "Saving AI-generated coupon templates is a premium feature. Upgrade to Advanced Coupons Premium to save and reuse your custom templates."
+msgstr ""
+
+#: Models/Coupon_Templates.php:121
+msgid "See all features and pricing ⟶"
+msgstr ""
+
+#: Models/Coupon_Templates.php:122
+msgid "Below are the details for the coupon:"
+msgstr ""
+
+#: Models/Coupon_Templates.php:123
+msgid "Create Another Coupon"
+msgstr ""
+
+#: Models/Coupon_Templates.php:124
+msgid "Using the same template"
+msgstr ""
+
+#: Models/Coupon_Templates.php:125
+msgid "Edit Coupon"
+msgstr ""
+
+#: Models/Coupon_Templates.php:126
+#: Models/Send_Coupon.php:65
+msgid "Send Coupon"
+msgstr ""
+
+#: Models/Coupon_Templates.php:127
+msgid "View Templates List"
+msgstr ""
+
+#: Models/Coupon_Templates.php:128
+msgid "The selected template doesn’t exist."
+msgstr ""
+
+#: Models/Coupon_Templates.php:129
+msgid "No templates found."
+msgstr ""
+
+#: Models/Coupon_Templates.php:130
+msgid "Coupon Details"
+msgstr ""
+
+#: Models/Coupon_Templates.php:131
+#: Models/Edit_Coupon.php:573
+#: Models/Objects/ACFW_Settings.php:230
+#: views/coupons/view-cart-conditions-data-panel.php:28
+#: views/getting-started/index.php:149
+msgid "Cart Conditions"
+msgstr ""
+
+#: Models/Coupon_Templates.php:132
+#: Models/Script_Loader.php:330
+msgid "Product"
+msgstr ""
+
+#: Models/Coupon_Templates.php:133
+#: Models/Script_Loader.php:279
+msgid "Condition"
+msgstr ""
+
+#: Models/Coupon_Templates.php:134
+#: Models/Script_Loader.php:328
+msgid "Quantity"
+msgstr ""
+
+#: Models/Coupon_Templates.php:135
+msgid "Search Product"
+msgstr ""
+
+#: Models/Coupon_Templates.php:136
+msgid "Search templates by title or description..."
+msgstr ""
+
+#: Models/Coupon_Templates.php:137
+msgid "Free Templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:138
+msgid "Premium Templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:139
+msgid "Sort by"
+msgstr ""
+
+#: Models/Coupon_Templates.php:140
+msgid "Ascending"
+msgstr ""
+
+#: Models/Coupon_Templates.php:141
+msgid "Descending"
+msgstr ""
+
+#: Models/Coupon_Templates.php:142
+#: Models/Coupon_Templates.php:148
+#: Models/Send_Coupon.php:115
+msgid "Title"
+msgstr ""
+
+#: Models/Coupon_Templates.php:144
+msgid "Template Settings"
+msgstr ""
+
+#: Models/Coupon_Templates.php:145
+msgid "(Premium)"
+msgstr ""
+
+#: Models/Coupon_Templates.php:146
+msgid "Save as Template"
+msgstr ""
+
+#: Models/Coupon_Templates.php:147
+msgid "Save this AI-generated template for future reuse"
+msgstr ""
+
+#: Models/Coupon_Templates.php:149
+msgid "Description"
+msgstr ""
+
+#: Models/Coupon_Templates.php:150
+msgid "Template title"
+msgstr ""
+
+#: Models/Coupon_Templates.php:151
+msgid "Template description"
+msgstr ""
+
+#: Models/Coupon_Templates.php:152
+msgid "Template saved successfully!"
+msgstr ""
+
+#: Models/Coupon_Templates.php:153
+msgid "Unable to save template: Permission denied. Please ensure Advanced Coupons Premium is properly activated and licensed."
+msgstr ""
+
+#: Models/Coupon_Templates.php:154
+msgid "Failed to save template. Please try again."
+msgstr ""
+
+#: Models/Coupon_Templates.php:155
+msgid "Save Your AI Generated Templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:156
+msgid "Upgrade to Advanced Coupons Premium to save your AI-generated coupon templates for reuse and easily manage them all in one place."
+msgstr ""
+
+#: Models/Coupon_Templates.php:157
+msgid "Save unlimited AI-generated templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:158
+msgid "Reuse templates to create coupons quickly"
+msgstr ""
+
+#: Models/Coupon_Templates.php:159
+msgid "Organize and manage all your templates"
+msgstr ""
+
+#: Models/Coupon_Templates.php:160
+msgid "Access premium coupon features"
+msgstr ""
+
+#: Models/Coupon_Templates.php:162
+msgid "No saved AI templates yet"
+msgstr ""
+
+#: Models/Coupon_Templates.php:163
+msgid "Generate a coupon with AI and save it as a template for future use"
+msgstr ""
+
+#: Models/Coupon_Templates.php:165
+msgid "Use Template"
+msgstr ""
+
+#: Models/Coupon_Templates.php:166
+msgid "Delete"
+msgstr ""
+
+#: Models/Coupon_Templates.php:167
+msgid "Delete this template?"
+msgstr ""
+
+#: Models/Coupon_Templates.php:168
+msgid "This action cannot be undone."
+msgstr ""
+
+#: Models/Coupon_Templates.php:169
+msgid "AI Generated"
+msgstr ""
+
+#: Models/Coupon_Templates.php:170
+msgid "AI Templates"
+msgstr ""
+
+#: Models/Editor_Blocks.php:118
+#: Models/Script_Loader.php:570
+msgid "Display a grid of advanced coupons from your selected categories."
+msgstr ""
+
+#: Models/Editor_Blocks.php:129
+#: Models/Script_Loader.php:588
+msgid "Display a single advanced coupon that you've selected."
+msgstr ""
+
+#: Models/Editor_Blocks.php:140
+#: Models/Script_Loader.php:583
+msgid "Display a grid of coupons and/or virtual coupons that is assigned to a customer."
+msgstr ""
+
+#: Models/Edit_Coupon.php:270
+msgid "Edit_Coupon::add_coupons_list_in_order_preview_popup method is now deprecated. Please use Order_Details::add_coupons_list_in_order_preview_popup method instead."
+msgstr ""
+
+#: Models/Edit_Coupon.php:334
+msgid "Allow your customers to apply this coupon by visiting a URL. This coupon will generate a unique coupon URL which can be used in all sorts of scenarios (eg. email marketing, blog links, live chat support)."
+msgstr ""
+
+#: Models/Edit_Coupon.php:339
+msgid "Learn more."
+msgstr ""
+
+#: Models/Edit_Coupon.php:347
+msgid "Enable Coupon URL"
+msgstr ""
+
+#: Models/Edit_Coupon.php:358
+#: Models/REST_API/API_Coupon_Templates.php:258
+msgid "Coupon URL"
+msgstr ""
+
+#: Models/Edit_Coupon.php:359
+msgid "Visitors to this link will have the coupon code applied to their cart automatically."
+msgstr ""
+
+#: Models/Edit_Coupon.php:370
+msgid "Code URL Override"
+msgstr ""
+
+#: Models/Edit_Coupon.php:382
+msgid "Redirect To URL"
+msgstr ""
+
+#: Models/Edit_Coupon.php:383
+msgid "This will redirect the user to the provided URL after it has been attempted to be applied. You can also pass query args to the URL for the following variables: {acfw_coupon_code}, {acfw_coupon_is_applied} or {acfw_coupon_error_message} and they will be replaced with proper data. Eg. ?foo={acfw_coupon_error_message}, then test the 'foo' query arg to get the message if there is one."
+msgstr ""
+
+#: Models/Edit_Coupon.php:395
+msgid "Custom Success Message"
+msgstr ""
+
+#: Models/Edit_Coupon.php:400
+#: Models/Objects/ACFW_Settings.php:600
+#: Models/URL_Coupons.php:185
+msgid "Coupon applied successfully"
+msgstr ""
+
+#. Translators: %1$s: opening bold tag. %2$s: closing bold tag.
+#: Models/Edit_Coupon.php:442
+#, php-format
+msgid "%1$sWarning:%2$s The URL for this coupon may not work as it contains special symbols. Please remove it from the coupon code or use the code override field below."
+msgstr ""
+
+#: Models/Edit_Coupon.php:465
+#: Models/Edit_Coupon.php:487
+#: Models/Objects/ACFW_Settings.php:88
+#: Models/Objects/ACFW_Settings.php:222
+#: Models/REST_API/API_Settings.php:490
+#: views/getting-started/index.php:160
+msgid "Role Restrictions"
+msgstr ""
+
+#: Models/Edit_Coupon.php:484
+msgid "Role restrictions are tested prior to a coupon being applied and will stop customers using this coupon if they don’t satisfy the user role rules below."
+msgstr ""
+
+#: Models/Edit_Coupon.php:497
+msgid "Enable role restrictions"
+msgstr ""
+
+#: Models/Edit_Coupon.php:524
+msgid "User Roles"
+msgstr ""
+
+#: Models/Edit_Coupon.php:615
+msgid "Rules"
+msgstr ""
+
+#: Models/Edit_Coupon.php:616
+#: views/coupons/view-cart-conditions-data-panel.php:46
+msgid "Non-Qualifying Settings"
+msgstr ""
+
+#: Models/Edit_Coupon.php:685
+#: Models/Edit_Coupon.php:692
+msgid "Specific Product/s"
+msgstr ""
+
+#: Models/Edit_Coupon.php:739
+msgid "The scheduler gives you fine grained control over when this coupon is valid. Choose the start date & time, along with the end date & time. Optionally, show a WooCommerce notification message when the coupon is attempted to be applied outside of the allowed schedule."
+msgstr ""
+
+#: Models/Edit_Coupon.php:750
+msgid "The exact date the coupon will be available from. Based on the timezone in this WordPress installation's settings."
+msgstr ""
+
+#: Models/Edit_Coupon.php:767
+#: Models/Objects/ACFW_Settings.php:522
+#: Models/Scheduler.php:118
+msgid "This coupon has not started yet."
+msgstr ""
+
+#: Models/Edit_Coupon.php:775
+msgid "The exact date the coupon will be expired. Based on the timezone in this WordPress installation's settings."
+msgstr ""
+
+#: Models/Edit_Coupon.php:792
+#: Models/Objects/ACFW_Settings.php:531
+#: Models/Scheduler.php:121
+msgid "This coupon has expired."
+msgstr ""
+
+#: Models/Edit_Coupon.php:1039
+msgctxt "Taxonomy General Name"
+msgid "Coupon Categories"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1040
+msgctxt "Taxonomy Singular Name"
+msgid "Coupon Category"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1042
+msgid "All Categories"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1043
+msgid "Parent Category"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1044
+msgid "Parent Category:"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1045
+msgid "New Category Name"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1046
+msgid "Add New Category"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1047
+msgid "Edit Category"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1048
+msgid "Update Category"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1049
+msgid "View Category"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1050
+msgid "Separate categories with commas"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1051
+msgid "Add or remove categories"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1052
+msgid "Choose from the most used"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1053
+msgid "Popular Categories"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1054
+msgid "Search Categories"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1055
+msgid "Not Found"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1056
+msgid "No categories"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1057
+msgid "Categories list"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1058
+msgid "Categories list navigation"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1131
+#: Models/Edit_Coupon.php:1312
+msgid "Uncategorized"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1286
+#: Models/Objects/ACFW_Settings.php:419
+msgid "Select a category"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1374
+msgid "Clone Coupon"
+msgstr ""
+
+#: Models/Edit_Coupon.php:1406
+msgid "Clone"
+msgstr ""
+
+#: Models/Emails.php:274
+msgid "Missing required parameters."
+msgstr ""
+
+#: Models/Feature_Custom_Taxonomy.php:1048
+#: Models/Upsell.php:1915
+#: views/premium/view-upgrade-settings-page.php:18
+msgid "Features"
+msgstr ""
+
+#. translators: %s: feature display name
+#: Models/Feature_Custom_Taxonomy.php:1100
+#, php-format
+msgid "Filter by %s feature"
+msgstr ""
+
+#: Models/Getting_Started.php:65
+#: Models/Getting_Started.php:68
+msgid "Getting Started"
+msgstr ""
+
+#: Models/Getting_Started.php:69
+msgid "NEW"
+msgstr ""
+
+#: Models/Help_Links.php:131
+msgid "There was an error trying to load the content."
+msgstr ""
+
+#. Translators: %1$s: opening anchor tag linking to the WC status page. %2$s: 'cURL' feature name (non-translatable) wrapped in bold. %3$s: closing anchor tag.
+#: Models/Help_Links.php:134
+#, php-format
+msgid "Please make sure %1$s%2$s is working on your server%3$s."
+msgstr ""
+
+#: Models/Help_Links.php:139
+msgid "Refresh the page and try again."
+msgstr ""
+
+#: Models/Help_Links.php:140
+msgid "An administrator or shop manager account is required to do this action."
+msgstr ""
+
+#: Models/Notices.php:207
+msgid "IMPORTANT INFORMATION"
+msgstr ""
+
+#: Models/Notices.php:209
+msgid "Thank you for choosing Advanced Coupons for WooCommerce – the free Advanced Coupons plugin gives WooCommerce store owners extra features on their WooCommerce coupons so they can market their stores better. Would you like to find out how to drive it?"
+msgstr ""
+
+#: Models/Notices.php:215
+msgid "Read The Getting Started Guide →"
+msgstr ""
+
+#: Models/Notices.php:254
+msgid "FREE PLUGIN AVAILABLE"
+msgstr ""
+
+#. Translators: %1$s: opening bold tag. %2$s: closing bold tag.
+#: Models/Notices.php:258
+#, php-format
+msgid "Hey store owner! Do you sell to wholesale customers? Did you know that Advanced Coupons has a sister plugin called %1$sWholesale Suite%2$s which lets you add wholesale pricing to your existing WooCommerce products? Best of all, it's free! You can add basic wholesale pricing to your store and have your wholesale customers make their orders online. "
+msgstr ""
+
+#: Models/Notices.php:261
+msgid "Click here to install WooCommerce Wholesale Prices"
+msgstr ""
+
+#. Translators: %1$s: opening bold tag. %2$s: closing bold tag.
+#: Models/Notices.php:291
+#, php-format
+msgid "Hey, I noticed you have been using %1$sAdvanced Coupons%2$s for some time - that's awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr ""
+
+#: Models/Notices.php:301
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: Models/Notices.php:307
+msgid "Nope, maybe later"
+msgstr ""
+
+#: Models/Notices.php:313
+msgid "I already did"
+msgstr ""
+
+#: Models/Notices.php:740
+#: Models/Third_Party_Integrations/FunnelKit.php:168
+msgid "Did you know?"
+msgstr ""
+
+#: Models/Notices.php:743
+msgid "Learn More ⟶"
+msgstr ""
+
+#: Models/Notices/SaveTo_Wishlist_Notice.php:160
+msgid "Activate"
+msgstr ""
+
+#: Models/Notices/SaveTo_Wishlist_Notice.php:181
+#: Models/Notices/StoreAgent_Notice.php:155
+msgid "Insufficient permissions."
+msgstr ""
+
+#: Models/Notices/StoreAgent_Notice.php:133
+msgid "Install Now"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:74
+#: Models/Objects/ACFW_Settings.php:267
+#: Models/REST_API/API_Settings.php:511
+msgid "Modules"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:76
+#: Models/Objects/ACFW_Settings.php:483
+#: Models/REST_API/API_Settings.php:469
+msgid "Checkout"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:80
+#: Models/Objects/ACFW_Settings.php:238
+#: Models/Objects/ACFW_Settings.php:297
+#: Models/REST_API/API_Settings.php:476
+#: views/getting-started/index.php:116
+msgid "BOGO Deals"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:96
+#: Models/Objects/ACFW_Settings.php:246
+#: Models/Objects/ACFW_Settings.php:714
+#: Models/REST_API/API_Settings.php:504
+#: Models/Store_Credits/My_Account.php:139
+#: Models/Store_Credits/My_Account.php:199
+#: Models/Third_Party_Integrations/FunnelKit.php:61
+#: Models/Third_Party_Integrations/FunnelKit.php:62
+#: views/getting-started/index.php:127
+msgid "Store Credits"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:216
+msgid "Create apply links for your URLs for use in email campaigns, social media sharing, etc."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:224
+msgid "Restrict coupons to be used by certain user roles only."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:232
+msgid "Create conditions that must be satisfied before a coupon is allowed to be applied."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:240
+msgid "Buy one, get one style deals where you can set conditions if a customer has a certain amount of a product in the cart, they get another product for a special deal."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:248
+msgid "Adds a store credit account to your customer’s profile that you can credit for them to use toward purchases. Store credits can be used during checkout towards payment."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:256
+msgid "Schedule exact start and end dates/times for your coupons. Choose specific days/times your coupon is valid (premium)."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:269
+msgid "You can control which parts of the Advanced Coupons interface are shown in the Coupon edit screen. It can be helpful to users and better for overall performance to turn off features that aren't in use if you or your staff don't use them."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:304
+msgid "Global notice message"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:306
+msgid "Message of the notice to show customer when they have triggered the BOGO deal but the \"Apply products\" are not present in the cart."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:307
+#: views/coupons/view-bogo-deals-data-panel.php:102
+msgid "Custom variables available: {acfw_bogo_remaining_deals_quantity} to display the count of product deals that can be added to the cart, and {acfw_bogo_coupon_code} for displaying the coupon code that offered the deal."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:314
+msgid "Global notice button text"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:322
+msgid "Global notice button URL"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:330
+msgid "Global notice type"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:341
+msgid "Maximum number of BOGO Deal coupons allowed to be applied in the cart"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:344
+msgid "This is the number of BOGO Deal coupons that can be applied to the cart. If the customer tries to add more than this number, they will get an error message."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:345
+msgid "By default the feature is limited to only allow 1 BOGO Deal coupon per order to ensure smooth server performance and a straightforward customer experience. You have the flexibility to increase this limit if needed, but be mindful that higher limits may impact server resources, especially during peak traffic."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:351
+msgid "Discount application mode"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:353
+msgid "Choose how BOGO deal discounts are applied on the cart. \"Price modification\" adjusts the price of the deal products directly. \"Coupon amount\" keeps product prices unchanged and applies the discount to the coupon total instead, so it is visible on the coupon line and included in coupon reporting."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:357
+msgid "Price modification — adjust the deal product prices directly (default)."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:358
+msgid "Coupon amount — keep product prices unchanged and apply the discount to the coupon total."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:414
+msgid "Default coupon category"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:416
+msgid "If a coupon is saved without specifying a category, give it this default category. This is useful when third-party tools create coupons or for coupons created via API."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:425
+msgid "Additional product types in search"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:427
+msgid "Include extra product types (e.g. registered by third-party plugins) in the product search used by Cart Conditions, BOGO Deals, and Add Products. The default product types are always searchable."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:436
+msgid "Always use regular price"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:438
+msgid "Always ensure the Regular Price is used and ignore the Sale Price if present."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:442
+msgid "Use the sale price, if present (default)."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:443
+msgid "Always use the regular price, but only for products discounted via BOGO and Add Products coupons."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:444
+msgid "Always use the regular price, for all coupon types."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:449
+msgid "Automatically remove coupons for failed/cancelled orders"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:451
+msgid "If checked, removes coupons from orders that have failed or been cancelled."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:457
+msgid "Hide coupon creation popup"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:459
+msgid "If checked, hides the popup that appears when creating a new coupon."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:489
+msgid "Display store credits redeem form"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:492
+msgid "When checked, the store credits redeem form will be displayed on the checkout page."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:517
+msgid "Schedule Start Error Message (global)"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:519
+msgid "Optional. Message that will be displayed when the coupon being applied hasnt started yet. Leave blank to use the default message."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:526
+msgid "Schedule Expire Error Message (global)"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:528
+msgid "Optional. Message that will be displayed when the coupon being applied has already expired. Leave blank to use the default message."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:551
+msgid "[coupon-name]"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:564
+msgid "URL prefix"
+msgstr ""
+
+#. Translators: %s: Coupon url example.
+#: Models/Objects/ACFW_Settings.php:568
+#, php-format
+msgid "The prefix to be used before the coupon code. Eg. %s"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:577
+msgid "Redirect to URL after applying coupon"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:579
+msgid "Optional. This will redirect the user to the provided URL after the has been attempted to be applied. You can also pass query args to the URL for the following variables: {acfw_coupon_code}, {acfw_coupon_is_applied} or {acfw_coupon_error_message} and they will be replaced with proper data. Eg. ?foo={acfw_coupon_error_message}, then test the 'foo' query arg to get the message if there is one."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:586
+msgid "Redirect to URL if invalid coupon is visited"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:588
+msgid "Optional. Will redirect the user to the provided URL when an invalid coupon has been attempted. You can also pass query args to the URL for the following variables {acfw_coupon_code} or {acfw_coupon_error_message} and it will be replaced with proper data. Eg. ?foo={acfw_coupon_error_message}, then test the 'foo' query arg to get the message if there is one."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:595
+msgid "Custom success message"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:597
+msgid "Optional. Message that will be displayed when a coupon has been applied successfully. Leave blank to use the default message."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:604
+msgid "Custom disable message"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:606
+msgid "Optional. Message that will be displayed when the coupon url functionality is disabled. Leave blank to use the default message."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:609
+#: Models/Objects/Advanced_Coupon.php:465
+msgid "Inactive coupon url"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:613
+msgid "Hide coupon fields"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:615
+msgid "Hide the coupon fields from the cart and checkout pages on the front end."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:620
+msgid "Enable coupon URL QR code"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:622
+msgid "When enabled, the QR code equivalent for the coupon URL will be displayed on the right side of the URL Coupon tab in the coupon editor."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:628
+msgid "Apply coupons via query string"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:635
+msgid "Enable applying coupon via query string"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:637
+msgid "Enable this option to allow applying coupons via query string. Eg. ?coupon=COUPONCODE"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:642
+msgid "Redirect after applying coupon via query string"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:644
+msgid "Redirect to the cart or checkout page after applying a coupon via query string."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:646
+msgid "Stay on the same page"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:647
+msgid "Redirect to cart"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:648
+msgid "Redirect to checkout"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:673
+msgid "Role Restriction"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:680
+msgid "Invalid user role error message (global)"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:682
+msgid "Optional. Message that will be displayed when the coupon being applied is not valid for the current user. Leave blank to use the default message."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:706
+msgid "Day(s)"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:707
+msgid "Month(s)"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:708
+msgid "Year(s)"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:721
+msgid "Hide store credits on checkout if zero balance"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:723
+msgid "Hides the store credit section on the checkout totals box if the logged in customer has zero balance."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:728
+msgid "Hide store credits on My Account if zero balance"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:730
+msgid "Hides the store credit section on the My Account page if the logged in customer has zero balance."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:735
+msgid "Auto-display Store Credits Redemption Form"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:737
+msgid "Automatically display the form for redeeming store credits on the checkout page upon page load. This eliminates the need for the customer to click on the label to make the form visible."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:742
+msgid "Store credit apply type"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:744
+msgid "Lets you choose how Store Credit is applied on the checkout based on your local tax regulations. By default most countries are fine to apply Store Credit as a discount before taxes and shipping, but some countries may require you do apply it similar to a payment after taxes and shipping."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:748
+msgid "Apply store credit on checkout before tax and shipping."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:749
+msgid "Apply store credit on checkout after tax and shipping."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:754
+msgid "Store credits expiry"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:756
+msgid "Number of days/months/years from a customer's last activity before their store credits expire. Set to 0 to never expire (default), which covers most countries. It is your responsibility to ensure you abide by your local store credit expiry laws."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:766
+msgid "Store credits expiry unit"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:768
+msgid "The unit of time used together with the store credits expiry value above."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:776
+msgid "Minimum order total allowed"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:778
+msgid "This setting determines the minimum order total that must remain after applying store credit. It effectively limits the amount of store credit a user can use by ensuring that the order total never falls below this set minimum."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:784
+msgid "Delete store credits on user deletion"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:786
+msgid "When enabled, all store credit entries for a user will be deleted when the user is deleted."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:787
+msgid "This helps maintain database cleanliness by removing store credit data for deleted users. Note that this action cannot be undone."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:793
+msgid "Total paid deducted with store credit payments"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:795
+msgid "Exclude the store credit portion from the Total Paid amount shown on the order."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:796
+msgid "Applies to Processing, Completed and Refunded orders that have a payment date recorded. When enabled, the Total Paid amount excludes the portion covered by store credit, so it reflects only what was collected through the payment gateway."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:802
+msgid "Import store credits data from other plugins"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:805
+msgid "Choose a plugin to migrate customers’ store credits data to Advanced Coupons for WooCommerce."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:806
+msgid "Select a plugin..."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:810
+msgid "Import"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:811
+msgid "No compatible third-party plugins found. Please install one to enable store credit imports."
+msgstr ""
+
+#. Translators: %s: Plugin name to import store credits from.
+#: Models/Objects/ACFW_Settings.php:813
+#, php-format
+msgid "Import progress for %s plugin"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:814
+msgid "Deactivate plugin after importing"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:815
+msgid "Processed"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:816
+msgid "Failed"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:817
+msgid "users"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:818
+msgid "store credits"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:819
+msgid "Total imported store credits"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:845
+msgid "Clean up plugin data on un-installation"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:847
+msgid "If checked, removes all plugin data when this plugin is uninstalled. Warning: This process is irreversible."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:853
+msgid "Enable JS/CSS file integrity check"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:855
+msgid "Activate this setting to verify the integrity of JavaScript and CSS files, ensuring they are untampered and secure."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:861
+msgid "Delete invalid store credit entries"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:864
+msgid "Deletes invalid entries in the store credit table relating to deleted users that are no longer present."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:866
+msgid "Running..."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:867
+msgid "Run"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:908
+msgid "Documentation"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:910
+msgid "Guides, troubleshooting, FAQ and more."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:916
+msgid "Our Blog"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:918
+msgid "Learn & grow your store – covering coupon marketing ideas, strategies, management, tutorials & more."
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:920
+msgid "Advanced Coupons Marketing Blog"
+msgstr ""
+
+#: Models/Objects/ACFW_Settings.php:925
+msgid "Join the Community"
+msgstr ""
+
+#. Translators: %s: Coupon code.
+#: Models/Objects/Advanced_Coupon.php:457
+#, php-format
+msgid "Coupon \"%s\" is either incorrect, disabled or does not exist."
+msgstr ""
+
+#: Models/Objects/Advanced_Coupon.php:982
+msgid "BOGO Deal"
+msgstr ""
+
+#. Translators: %1$s: Schedule start date, %2$s: Schedule end date.
+#: Models/Objects/Advanced_Coupon.php:1005
+#, php-format
+msgid "Valid from %1$s until %2$s"
+msgstr ""
+
+#. Translators: %s: Schedule start date.
+#: Models/Objects/Advanced_Coupon.php:1008
+#, php-format
+msgid "Valid from %s"
+msgstr ""
+
+#. Translators: %s: Schedule end date.
+#: Models/Objects/Advanced_Coupon.php:1011
+#, php-format
+msgid "Valid until %s"
+msgstr ""
+
+#: Models/Objects/Blocks/Checkout_Integration.php:112
+#: templates/acfw-store-credits/checkout-discount.php:36
+msgid "Pay with Store Credits"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:39
+msgid "Advanced Coupons - send to customer"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:40
+msgid "Email of the coupon that is sent to the customer."
+msgstr ""
+
+#. Translators: %s: Site title
+#: Models/Objects/Emails/Coupon.php:64
+#, php-format
+msgid "%s: You just received a coupon!"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:76
+msgid "You just received a coupon!"
+msgstr ""
+
+#. Translators: %s: Site title
+#: Models/Objects/Emails/Coupon.php:89
+#, php-format
+msgid "Congrats! You just received a coupon from %s."
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:101
+msgid "Click here to redeem"
+msgstr ""
+
+#. Translators: %s: list of available placeholder tags
+#: Models/Objects/Emails/Coupon.php:342
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:394
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:345
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:399
+msgid "Enable/Disable"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:347
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:401
+msgid "Enable this email"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:351
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:405
+msgid "Subject"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:359
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:413
+msgid "Email heading"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:367
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:421
+#: Models/Send_Coupon.php:114
+#: Models/Send_Coupon.php:116
+msgid "Message"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:375
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:429
+msgid "Button text"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:383
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:437
+msgid "Additional content"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:384
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:438
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:386
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:440
+msgid "N/A"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:392
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:446
+msgid "Email type"
+msgstr ""
+
+#: Models/Objects/Emails/Coupon.php:394
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:448
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:47
+msgid "Advanced Coupons - store credit adjustment"
+msgstr ""
+
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:48
+msgid "Email of the store credit adjustment that is sent to the customer."
+msgstr ""
+
+#. Translators: %s: Site title
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:75
+#, php-format
+msgid "%s: Your store credit balance has been updated!"
+msgstr ""
+
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:87
+msgid "Your store credit balance has been updated!"
+msgstr ""
+
+#. Translators: %s: Site title
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:100
+#, php-format
+msgid "Your store credit balance at %s has been updated."
+msgstr ""
+
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:112
+msgid "Shop Now"
+msgstr ""
+
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:144
+msgid "increased"
+msgstr ""
+
+#: Models/Objects/Emails/Store_Credit_Adjustment.php:145
+msgid "decreased"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Amount_Discounted.php:35
+#: Models/Objects/Report_Widgets/Amount_Discounted.php:37
+msgid "Amount Discounted"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Coupons_Used.php:34
+#: Models/Objects/Report_Widgets/Coupons_Used.php:36
+msgid "Coupons Used"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Discounted_Order_Revenue.php:34
+#: Models/Objects/Report_Widgets/Discounted_Order_Revenue.php:36
+msgid "Discounted Order Revenue"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Gift_Cards_Upsell.php:36
+#: Models/Objects/Report_Widgets/Gift_Cards_Upsell.php:37
+msgid "Sell Gift Cards"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Loyalty_Points_Upsell.php:36
+#: Models/Objects/Report_Widgets/Loyalty_Points_Upsell.php:37
+msgid "Create a Loyalty Program"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Orders_Discounted.php:34
+#: Models/Objects/Report_Widgets/Orders_Discounted.php:36
+msgid "Orders Discounted"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Recent_Coupons.php:34
+#: Models/Objects/Report_Widgets/Recent_Coupons.php:36
+msgid "Recently Created Coupons"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Store_Credits_Added.php:35
+#: Models/Objects/Report_Widgets/Store_Credits_Added.php:37
+msgid "Store Credits Added"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Store_Credits_Used.php:35
+#: Models/Objects/Report_Widgets/Store_Credits_Used.php:37
+msgid "Store Credits Used"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Top_Coupons.php:34
+msgid "Top Coupons"
+msgstr ""
+
+#: Models/Objects/Report_Widgets/Top_Coupons.php:36
+msgid "Most Used Coupons"
+msgstr ""
+
+#: Models/Objects/Store_Credit_Entry.php:442
+msgid "The user's store credit balance is insufficient."
+msgstr ""
+
+#: Models/Objects/Store_Credit_Entry.php:489
+msgid "There was an error trying to add store credits for user."
+msgstr ""
+
+#: Models/Objects/Store_Credit_Entry.php:545
+msgid "There was an error updating the store credit entry."
+msgstr ""
+
+#: Models/Objects/Store_Credit_Entry.php:571
+msgid "Unable to save store credit entry due to missing or invalid required parameters."
+msgstr ""
+
+#: Models/Objects/Store_Credit_Entry.php:611
+msgid "The store credit entry requires a valid ID to proceed."
+msgstr ""
+
+#: Models/Objects/Store_Credit_Entry.php:632
+msgid "There was an error deleting the store credit entry."
+msgstr ""
+
+#: Models/Objects/Vite_App.php:346
+msgid "Manifest file not found. Did you run the build script from package.json file?"
+msgstr ""
+
+#: Models/Order_Details.php:147
+msgid "Coupons:"
+msgstr ""
+
+#: Models/REST_API/API_Coupon_Templates.php:182
+#: Models/REST_API/API_Emails.php:153
+#: Models/REST_API/API_Reports.php:207
+#: Models/REST_API/API_Settings.php:246
+#: Models/REST_API/API_Settings.php:263
+#: Models/Third_Party_Integrations/PushEngage.php:90
+msgid "Sorry, you are not allowed to edit settings options."
+msgstr ""
+
+#: Models/REST_API/API_Coupon_Templates.php:270
+msgid "Coupon was created successfully!"
+msgstr ""
+
+#: Models/REST_API/API_Coupon_Templates.php:272
+msgid "Can only be applied once the conditions match"
+msgstr ""
+
+#: Models/REST_API/API_Coupon_Templates.php:344
+msgid "Coupon template is invalid."
+msgstr ""
+
+#: Models/REST_API/API_Coupon_Templates.php:401
+msgid "Coupon template category doesn’t exist."
+msgstr ""
+
+#: Models/REST_API/API_Coupon_Templates.php:479
+msgid "Coupon template doesn’t exist."
+msgstr ""
+
+#: Models/REST_API/API_Coupon_Templates.php:642
+msgid "Failed to create coupon."
+msgstr ""
+
+#: Models/REST_API/API_Emails.php:182
+msgid "There was an error in the process of sending the email to the customer. Please try again."
+msgstr ""
+
+#: Models/REST_API/API_Emails.php:196
+#: Models/Third_Party_Integrations/PushEngage.php:127
+msgid "Invalid coupon."
+msgstr ""
+
+#. Translators: %s: Customer name and email.
+#: Models/REST_API/API_Emails.php:251
+#, php-format
+msgid "The coupon has been successfully emailed to %s."
+msgstr ""
+
+#: Models/REST_API/API_Emails.php:272
+msgid "An account is already registered for the given email address."
+msgstr ""
+
+#: Models/REST_API/API_Reports.php:281
+#: Models/Upsell.php:1380
+#: Models/Upsell.php:1885
+#: Models/Upsell.php:1886
+msgid "Advanced Coupons Premium"
+msgstr ""
+
+#: Models/REST_API/API_Reports.php:287
+#: Models/Upsell.php:2004
+#: views/getting-started/index.php:266
+msgid "Loyalty Program"
+msgstr ""
+
+#: Models/REST_API/API_Reports.php:293
+#: Models/Upsell.php:2083
+msgid "Advanced Gift Cards"
+msgstr ""
+
+#: Models/REST_API/API_Reports.php:338
+msgid "Coupon Activity"
+msgstr ""
+
+#: Models/REST_API/API_Reports.php:345
+msgid "Store Credits Activity"
+msgstr ""
+
+#: Models/REST_API/API_Settings.php:194
+msgid "Unique identified for the settings option"
+msgstr ""
+
+#: Models/REST_API/API_Settings.php:331
+#: Models/REST_API/API_Settings.php:364
+#: Models/REST_API/API_Settings.php:426
+msgid "The provided ID is not a valid Advanced Coupons setting."
+msgstr ""
+
+#: Models/REST_API/API_Settings.php:386
+msgid "The provided URL is not valid."
+msgstr ""
+
+#: Models/REST_API/API_Settings.php:560
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: Models/REST_API/API_Settings.php:630
+msgid "Store credits table does not exist."
+msgstr ""
+
+#: Models/REST_API/API_Settings.php:642
+msgid "The cleanup has been started and is running in the background."
+msgstr ""
+
+#: Models/REST_API/API_Settings.php:646
+msgid "The cleanup has been completed."
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Customer.php:224
+#: Models/REST_API/API_Store_Credit_Customer.php:245
+#: Models/REST_API/API_Store_Credit_Entry.php:268
+#: Models/REST_API/API_Store_Credit_Entry.php:289
+#: Models/REST_API/API_Store_Credit_Entry.php:310
+#: Models/REST_API/API_Tools.php:132
+#: Models/REST_API/API_Tools.php:149
+msgid "Sorry, you are not allowed access to this endpoint."
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Customer.php:335
+msgid "Unclaimed"
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Customer.php:341
+msgid "Added in Period"
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Customer.php:347
+msgid "Used in Period"
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Customer.php:490
+msgid "There was an error loading customer store credit data."
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Entry.php:157
+#: Models/REST_API/API_Store_Credit_Entry.php:226
+msgid "Unique identifier for the store credit entry."
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Entry.php:430
+msgid "Successfully created store credit entry."
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Entry.php:502
+msgid "Successfully updated store credit entry."
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Entry.php:541
+msgid "Successfully deleted store credit entry."
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Entry.php:568
+msgid "Required parameters are missing"
+msgstr ""
+
+#: Models/REST_API/API_Store_Credit_Entry.php:581
+msgid "Store credit entry doesn't exist."
+msgstr ""
+
+#: Models/REST_API/API_Tools.php:183
+msgid "There are no detected import process for the selected plugin. Please try again."
+msgstr ""
+
+#: Models/REST_API/API_Tools.php:200
+msgid "Store credits have been imported successfully!"
+msgstr ""
+
+#: Models/REST_API/API_Tools.php:254
+msgid "Importing customer store credits..."
+msgstr ""
+
+#: Models/REST_API/API_Tools.php:311
+msgid "The selected plugin is not supported."
+msgstr ""
+
+#: Models/REST_API/API_Tools.php:319
+msgid "The selected plugin is not active."
+msgstr ""
+
+#: Models/REST_API/API_Tools.php:340
+msgid "Import process for the selected plugin is not yet running."
+msgstr ""
+
+#: Models/REST_API/API_Tools.php:352
+msgid "Advanced Coupons: store credits importer"
+msgstr ""
+
+#: Models/Script_Loader.php:258
+msgid "This is an empty condition group, just waiting for you to add some conditions to it…"
+msgstr ""
+
+#: Models/Script_Loader.php:259
+msgid "No condition group"
+msgstr ""
+
+#: Models/Script_Loader.php:260
+msgid "No products added"
+msgstr ""
+
+#: Models/Script_Loader.php:261
+msgid "No categories added"
+msgstr ""
+
+#: Models/Script_Loader.php:262
+msgid "Remove condition group"
+msgstr ""
+
+#: Models/Script_Loader.php:263
+msgid "Remove condition field"
+msgstr ""
+
+#: Models/Script_Loader.php:264
+msgid "Please fill the form properly"
+msgstr ""
+
+#: Models/Script_Loader.php:265
+msgid "Discount value must not be 0 for fixed or percentage discount types."
+msgstr ""
+
+#: Models/Script_Loader.php:266
+msgid "Product has already been added to the table"
+msgstr ""
+
+#: Models/Script_Loader.php:267
+msgid "The set cart conditions data or part of it is invalid. Please fill the form properly."
+msgstr ""
+
+#: Models/Script_Loader.php:268
+msgid "The value set in \"Non-qualifying button URL\" is not a valid url."
+msgstr ""
+
+#: Models/Script_Loader.php:269
+msgid "You saved the data on an unpublished coupon. To make sure your changes won't be lost, the coupon will need to be saved. The page will now refresh."
+msgstr ""
+
+#: Models/Script_Loader.php:270
+msgid "Error on saving. Please fill up the conditions, deals and type properly."
+msgstr ""
+
+#: Models/Script_Loader.php:271
+msgid "Product selected have already been added."
+msgstr ""
+
+#: Models/Script_Loader.php:272
+msgid "Category selected have already been added."
+msgstr ""
+
+#: Models/Script_Loader.php:273
+msgid "No. of previous days"
+msgstr ""
+
+#: Models/Script_Loader.php:274
+msgid "No. of orders"
+msgstr ""
+
+#: Models/Script_Loader.php:275
+msgid "Add Product"
+msgstr ""
+
+#: Models/Script_Loader.php:276
+msgid "Add Category"
+msgstr ""
+
+#: Models/Script_Loader.php:277
+msgid "No shipping overrides added"
+msgstr ""
+
+#: Models/Script_Loader.php:278
+msgid "No shipping overrides to save."
+msgstr ""
+
+#: Models/Script_Loader.php:280
+msgid "Selected shipping zone is already added."
+msgstr ""
+
+#: Models/Script_Loader.php:281
+msgid "Failed to add condition field."
+msgstr ""
+
+#: Models/Script_Loader.php:282
+msgid "Add a New 'AND' Rule"
+msgstr ""
+
+#. Translators: %1$s: opening emphasis tag. %2$s: closing emphasis tag.
+#: Models/Script_Loader.php:285
+#, php-format
+msgid "Any products trigger type based on each product's quantity can only work with %1$sSame Products%2$s apply type."
+msgstr ""
+
+#: Models/Script_Loader.php:289
+msgid "Copied"
+msgstr ""
+
+#: Models/Script_Loader.php:290
+msgid "Download QR Image"
+msgstr ""
+
+#: Models/Script_Loader.php:291
+msgid "Coupon code is too long, failed to generate QR Code."
+msgstr ""
+
+#. Translators: %1$s: opening bold tag. %2$s: closing bold tag.
+#: Models/Script_Loader.php:294
+#, php-format
+msgid "%1$sScheduler:%2$s Please enter a valid date and time range."
+msgstr ""
+
+#: Models/Script_Loader.php:299
+msgid "Add"
+msgstr ""
+
+#: Models/Script_Loader.php:300
+msgid "Edit"
+msgstr ""
+
+#: Models/Script_Loader.php:304
+msgid "AND"
+msgstr ""
+
+#: Models/Script_Loader.php:305
+msgid "OR"
+msgstr ""
+
+#: Models/Script_Loader.php:308
+msgid "When all of the following products and quantities are matched, trigger the deal."
+msgstr ""
+
+#: Models/Script_Loader.php:309
+msgid "Once the deal is triggered, apply the following products to the cart."
+msgstr ""
+
+#: Models/Script_Loader.php:310
+msgid "If multiple items are eligible, the cheapest will be given."
+msgstr ""
+
+#: Models/Script_Loader.php:311
+msgid "If a customer adds all of the products from the following list to the cart, they will be eligible for \"Get\" portion of the BOGO deal."
+msgstr ""
+
+#: Models/Script_Loader.php:312
+msgid "Once the \"Buy\" portion of the BOGO deal is satisfied, grant the following discounts on specific product/s in the cart. Since the products are known, if you wish to automatically add the products, simply select the checkbox below and they will be added once the \"Buy\" portion is satisfied."
+msgstr ""
+
+#: Models/Script_Loader.php:313
+msgid "If any products from the following list are in the cart, they will be eligible for \"Get\" portion of the BOGO deal."
+msgstr ""
+
+#: Models/Script_Loader.php:314
+msgid "Once the \"Buy\" portion of the BOGO deal is satisfied, grant the following discounts on any of the listed products if they appear in the cart. If multiple items are present and eligible for the discount, the cheapest product will get the discount first. You can configure which product to be discounted in the additional settings option."
+msgstr ""
+
+#: Models/Script_Loader.php:315
+msgid "Since it's not known which the products the customer wishes to use for the \"Get\" portion of the deal, they will need to add the products to the cart. You can communicate this with the Notice settings below which will be shown if they haven't added them yet."
+msgstr ""
+
+#: Models/Script_Loader.php:316
+msgid "If any products from the following categories are in the cart, they will be eligible for \"Get\" portion of the BOGO deal."
+msgstr ""
+
+#: Models/Script_Loader.php:317
+msgid "Once the \"Buy\" portion of the BOGO deal is satisfied, grant the following discounts on additional products belonging to the following categories in the cart. If multiple items are present and eligible for the discount, the cheapest product will get the discount first. You can configure which product to be discounted in the additional settings option."
+msgstr ""
+
+#: Models/Script_Loader.php:318
+msgid "If any products from the following brands are in the cart, they will be eligible for \"Get\" portion of the BOGO deal."
+msgstr ""
+
+#: Models/Script_Loader.php:319
+msgid "Once the \"Buy\" portion of the BOGO deal is satisfied, grant the following discounts on additional products belonging to the following brands in the cart. If multiple items are present and eligible for the discount, the cheapest product will get the discount first. You can configure which product to be discounted in the additional settings option."
+msgstr ""
+
+#: Models/Script_Loader.php:320
+msgid "If the quantity of all products in the cart is met, they will be eligible for \"Get\" portion of the BOGO deal."
+msgstr ""
+
+#: Models/Script_Loader.php:321
+msgid "Once the \"Buy\" portion of the BOGO deal is satisfied, grant the following discount on any product in the cart. If multiple items are present and eligible for the discount, the cheapest product will get the discount first. You can configure which product to be discounted in the additional settings option."
+msgstr ""
+
+#: Models/Script_Loader.php:322
+msgid "Once the \"Buy\" portion of the BOGO deal is satisfied, grant the following discounts on the same product(s) already in the cart. You can configure which product to be discounted in the additional settings option."
+msgstr ""
+
+#: Models/Script_Loader.php:325
+msgid "Product in cart"
+msgstr ""
+
+#: Models/Script_Loader.php:326
+msgid "Product category in cart"
+msgstr ""
+
+#: Models/Script_Loader.php:327
+msgid "Type to search"
+msgstr ""
+
+#: Models/Script_Loader.php:329
+msgid "Trigger Quantity"
+msgstr ""
+
+#: Models/Script_Loader.php:333
+msgid "Product Category"
+msgstr ""
+
+#: Models/Script_Loader.php:334
+msgid "Product Brands"
+msgstr ""
+
+#: Models/Script_Loader.php:335
+msgid "Price/Discount"
+msgstr ""
+
+#: Models/Script_Loader.php:345
+msgid "Override price"
+msgstr ""
+
+#: Models/Script_Loader.php:346
+msgid "Percentage discount"
+msgstr ""
+
+#: Models/Script_Loader.php:347
+msgid "Fixed discount"
+msgstr ""
+
+#: Models/Script_Loader.php:348
+msgid "No discount"
+msgstr ""
+
+#: Models/Script_Loader.php:367
+msgid "Loading help content…"
+msgstr ""
+
+#: Models/Script_Loader.php:368
+msgid "Loading videos…"
+msgstr ""
+
+#: Models/Script_Loader.php:369
+msgid "Relevant Links"
+msgstr ""
+
+#: Models/Script_Loader.php:370
+msgid "Knowledge Base Articles"
+msgstr ""
+
+#: Models/Script_Loader.php:371
+msgid "Tutorials & Guides"
+msgstr ""
+
+#: Models/Script_Loader.php:372
+msgid "Search Knowledge Base"
+msgstr ""
+
+#: Models/Script_Loader.php:373
+msgid "No results"
+msgstr ""
+
+#: Models/Script_Loader.php:375
+msgid "Grant permission to fetch and show help content. Click the button below to proceed."
+msgstr ""
+
+#: Models/Script_Loader.php:376
+msgid "Show Help Content"
+msgstr ""
+
+#: Models/Script_Loader.php:378
+msgid "There was an issue trying to embed the video. Please click the image to watch the video directly in youtube.com"
+msgstr ""
+
+#: Models/Script_Loader.php:382
+msgid "Create New Coupon"
+msgstr ""
+
+#: Models/Script_Loader.php:383
+msgid "Choose how you'd like to create your coupon. Start from scratch or use a pre-built template to save time."
+msgstr ""
+
+#: Models/Script_Loader.php:384
+msgid "Create Coupon Manually"
+msgstr ""
+
+#: Models/Script_Loader.php:385
+msgid "Build your coupon from the ground up with complete control over every setting and option."
+msgstr ""
+
+#: Models/Script_Loader.php:386
+msgid "Choose Coupon Template"
+msgstr ""
+
+#: Models/Script_Loader.php:387
+msgid "Select from pre-configured templates to quickly create common coupon types with proven settings."
+msgstr ""
+
+#: Models/Script_Loader.php:389
+msgid "Use AI to generate a coupon based on a natural language description of your promotion."
+msgstr ""
+
+#. Translators: %s: Customer's store credit balance
+#: Models/Script_Loader.php:428
+#, php-format
+msgid "Enter the amount of store credits to apply. Customer's store credits balance is %s"
+msgstr ""
+
+#. Translators: %1$s: opening amount span tag. %2$s: 0.00 amount in site currency. %3$s: closing span tag.
+#: Models/Script_Loader.php:433
+#, php-format
+msgid "Refund %1$s%2$s%3$s to Store Credits"
+msgstr ""
+
+#: Models/Script_Loader.php:489
+msgid "Please enter a valid price"
+msgstr ""
+
+#: Models/Script_Loader.php:569
+msgid "Advanced Coupons by Category"
+msgstr ""
+
+#: Models/Script_Loader.php:571
+msgid "No coupons were found that matched your selection."
+msgstr ""
+
+#: Models/Script_Loader.php:572
+msgid "Select at least one category to display its coupons."
+msgstr ""
+
+#: Models/Script_Loader.php:574
+msgid "Clear all coupon categories"
+msgstr ""
+
+#: Models/Script_Loader.php:576
+msgid "Your store doesn't have any coupon categories"
+msgstr ""
+
+#: Models/Script_Loader.php:577
+msgid "Search for coupon categories"
+msgstr ""
+
+#: Models/Script_Loader.php:579
+msgid "Select categories"
+msgstr ""
+
+#: Models/Script_Loader.php:582
+msgid "Advanced Coupons by Customer"
+msgstr ""
+
+#: Models/Script_Loader.php:582
+msgid "Advanced Coupons by Customer (Premium)"
+msgstr ""
+
+#: Models/Script_Loader.php:584
+msgid "No coupons were found for the currently logged in customer."
+msgstr ""
+
+#: Models/Script_Loader.php:587
+msgid "Single Advanced Coupon"
+msgstr ""
+
+#: Models/Script_Loader.php:589
+msgid "No coupon to display."
+msgstr ""
+
+#: Models/Script_Loader.php:590
+msgid "Search and select a coupon to display it."
+msgstr ""
+
+#: Models/Script_Loader.php:593
+msgid "Order by"
+msgstr ""
+
+#: Models/Script_Loader.php:595
+msgid "Newest to oldest"
+msgstr ""
+
+#: Models/Script_Loader.php:596
+msgid "Oldest to newest"
+msgstr ""
+
+#: Models/Script_Loader.php:597
+msgid "A → Z"
+msgstr ""
+
+#: Models/Script_Loader.php:598
+msgid "Z → A"
+msgstr ""
+
+#: Models/Script_Loader.php:599
+msgid "Earliest to expire"
+msgstr ""
+
+#: Models/Script_Loader.php:603
+msgid "Display type"
+msgstr ""
+
+#: Models/Script_Loader.php:605
+msgid "Coupons and virtual coupons"
+msgstr ""
+
+#: Models/Script_Loader.php:606
+msgid "Coupons only"
+msgstr ""
+
+#: Models/Script_Loader.php:607
+msgid "Virtual coupons only"
+msgstr ""
+
+#: Models/Script_Loader.php:610
+msgid "Number of items"
+msgstr ""
+
+#: Models/Script_Loader.php:611
+msgid "Number of columns"
+msgstr ""
+
+#: Models/Script_Loader.php:613
+msgid "Content display settings"
+msgstr ""
+
+#: Models/Script_Loader.php:614
+msgid "Display discount value"
+msgstr ""
+
+#: Models/Script_Loader.php:615
+msgid "Display description"
+msgstr ""
+
+#: Models/Script_Loader.php:616
+msgid "Display usage limit"
+msgstr ""
+
+#: Models/Script_Loader.php:617
+msgid "Display schedule"
+msgstr ""
+
+#: Models/Script_Loader.php:618
+msgid "Hide expired coupons"
+msgstr ""
+
+#: Models/Script_Loader.php:620
+msgid "Currently selected coupon:"
+msgstr ""
+
+#: Models/Script_Loader.php:621
+msgid "Search and select coupon"
+msgstr ""
+
+#. Translators: %1$s: opening anchor tag linking to the premium pricing page. %2$s: closing anchor tag.
+#: Models/Script_Loader.php:624
+#, php-format
+msgid "This block is only available in the %1$sPremium add-on for Advanced Coupons.%2$s"
+msgstr ""
+
+#: Models/Script_Loader.php:629
+msgid "No coupons found."
+msgstr ""
+
+#: Models/Script_Loader.php:630
+msgid "Done"
+msgstr ""
+
+#: Models/Send_Coupon.php:67
+msgid "Deliver this coupon via email to a customer."
+msgstr ""
+
+#: Models/Send_Coupon.php:68
+msgid "Deliver this coupon via PushEngage."
+msgstr ""
+
+#: Models/Send_Coupon.php:72
+msgid "Please install and activate the PushEngage plugin to enable push notification integration."
+msgstr ""
+
+#: Models/Send_Coupon.php:73
+msgid "Click Here to Install PushEngage"
+msgstr ""
+
+#: Models/Send_Coupon.php:78
+msgid "Please connect your site to enable push notification integration."
+msgstr ""
+
+#: Models/Send_Coupon.php:80
+msgid "Click Here to Connect Your Site"
+msgstr ""
+
+#: Models/Send_Coupon.php:83
+msgid "Next"
+msgstr ""
+
+#: Models/Send_Coupon.php:84
+msgid "Send coupon to"
+msgstr ""
+
+#: Models/Send_Coupon.php:85
+#: Models/Send_Coupon.php:126
+msgid "Confirm & send"
+msgstr ""
+
+#: Models/Send_Coupon.php:86
+msgid "Installing"
+msgstr ""
+
+#: Models/Send_Coupon.php:88
+msgid "Send via: "
+msgstr ""
+
+#: Models/Send_Coupon.php:96
+msgid "PushEngage"
+msgstr ""
+
+#: Models/Send_Coupon.php:101
+msgid "Existing customer account"
+msgstr ""
+
+#: Models/Send_Coupon.php:102
+msgid "New customer (no account)"
+msgstr ""
+
+#: Models/Send_Coupon.php:103
+#: Models/Send_Coupon.php:113
+msgid "Customer details"
+msgstr ""
+
+#: Models/Send_Coupon.php:104
+#: Models/Send_Coupon.php:125
+msgid "Search"
+msgstr ""
+
+#: Models/Send_Coupon.php:105
+msgid "Name"
+msgstr ""
+
+#: Models/Send_Coupon.php:107
+msgid "Create new user account"
+msgstr ""
+
+#: Models/Send_Coupon.php:108
+msgid "Customer"
+msgstr ""
+
+#: Models/Send_Coupon.php:109
+msgid "Preview email"
+msgstr ""
+
+#: Models/Send_Coupon.php:110
+msgid "Send Email"
+msgstr ""
+
+#: Models/Send_Coupon.php:117
+msgid "URL"
+msgstr ""
+
+#: Models/Send_Coupon.php:118
+msgid "Any customer"
+msgstr ""
+
+#: Models/Send_Coupon.php:119
+msgid "Enter title ..."
+msgstr ""
+
+#: Models/Send_Coupon.php:120
+msgid "Enter message ..."
+msgstr ""
+
+#: Models/Send_Coupon.php:121
+msgid "Enter URL ..."
+msgstr ""
+
+#: Models/Send_Coupon.php:122
+msgid "Segments"
+msgstr ""
+
+#: Models/Send_Coupon.php:123
+msgid "Create new segment"
+msgstr ""
+
+#: Models/Send_Coupon.php:124
+msgid "Subscribers"
+msgstr ""
+
+#: Models/Send_Coupon.php:127
+msgid "Preview Push Notification"
+msgstr ""
+
+#: Models/Send_Coupon.php:128
+msgid "Send PushEngage"
+msgstr ""
+
+#. Translators: %1$s: Payment date, %2$s: Payment gateway
+#: Models/Store_Credits/Admin.php:231
+#, php-format
+msgctxt "Paid on {date} via {payment gateway}"
+msgid "Paid on %1$s via %2$s"
+msgstr ""
+
+#: Models/Store_Credits/Admin.php:240
+msgid "Pending amount to be paid"
+msgstr ""
+
+#: Models/Store_Credits/Admin.php:308
+msgid "Refunded to Store Credits"
+msgstr ""
+
+#: Models/Store_Credits/Admin.php:366
+msgid "Recalculate"
+msgstr ""
+
+#: Models/Store_Credits/Calculate.php:539
+msgid "There was an error loading store credits data."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:148
+msgid "Some of the items in your cart are not allowed to be paid via store credit."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:159
+#: Models/Store_Credits/Checkout.php:210
+msgid "The provided amount is invalid or the store credits balance is insufficient."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:182
+msgid "There was an error trying to apply the store credit discount. Please try again."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:405
+msgid "Store Credit Discount"
+msgstr ""
+
+#. translators: %1$s: opening link tag, %2$s: closing link tag.
+#: Models/Store_Credits/Checkout.php:539
+#, php-format
+msgid "The total of your order changed, please click here to %1$sreapply the store credit discount%2$s."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:989
+msgid "Discount (Store Credit)"
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:1040
+#: Models/Store_Credits/Checkout.php:1078
+msgid "Paid with Store Credits"
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:1087
+msgid "Pending Amount"
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:1133
+msgid "Refund (Store Credits):"
+msgstr ""
+
+#. Translators: 1: residual unpaid amount, 2: customer's available store credit balance, 3: order total after tax recalculation
+#: Models/Store_Credits/Checkout.php:1197
+#, php-format
+msgid "Store credit balance (%2$s) is insufficient to fully cover the order total (%3$s) after tax recalculation. Residual unpaid amount: %1$s — please collect via another payment method or top up the customer's store credit balance."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:1371
+msgid "You must be logged in to redeem store credits."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:1379
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:1398
+msgid "Store credit discount was applied successfully."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:1399
+msgid "Store credit discount has been removed."
+msgstr ""
+
+#: Models/Store_Credits/Checkout.php:1572
+msgid "Order resumed after a failed payment. Status reset to pending payment to apply the store credit again."
+msgstr ""
+
+#: Models/Store_Credits/My_Account.php:277
+msgid "Please log in to view your store credits."
+msgstr ""
+
+#: Models/Store_Credits/My_Account.php:279
+msgid "Login here"
+msgstr ""
+
+#: Models/Store_Credits/Queries.php:143
+msgid "There was an error loading total store credit entries data."
+msgstr ""
+
+#: Models/Store_Credits/Queries.php:189
+msgid "There was an error loading store credit entries data."
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:122
+msgid "Total Credits"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:123
+msgid "Unclaimed Credits"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:124
+msgid "Claimed Credits"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:125
+msgid "Expired Credits"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:126
+msgid "Deducted Credits"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:149
+msgid "Purchased gift cards"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:153
+#: Models/Store_Credits/Registry.php:154
+#: Models/Store_Credits/Registry.php:164
+#: Models/Store_Credits/Registry.php:165
+#: Models/Store_Credits/Registry.php:186
+#: Models/Store_Credits/Registry.php:187
+#: Models/Store_Credits/Registry.php:229
+#: Models/Store_Credits/Registry.php:230
+msgid "View Order"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:160
+msgid "Refunded order"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:171
+msgid "Admin adjustment (increase)"
+msgstr ""
+
+#. Translators: %s: User's display name.
+#: Models/Store_Credits/Registry.php:176
+#: Models/Store_Credits/Registry.php:245
+#, php-format
+msgid "Admin: %s"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:182
+msgid "Cancelled order"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:193
+msgid "Imported store credits"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:225
+msgid "Order Discount"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:236
+msgid "Credits expired"
+msgstr ""
+
+#: Models/Store_Credits/Registry.php:240
+msgid "Admin adjustment (decrease)"
+msgstr ""
+
+#: Models/Store_Credits/Traits/Admin_Apply_Store_Credits.php:45
+msgid "Apply Store Credits"
+msgstr ""
+
+#: Models/Store_Credits/Traits/Admin_Apply_Store_Credits.php:49
+msgid "Update Store Credits"
+msgstr ""
+
+#: Models/Store_Credits/Traits/Admin_Apply_Store_Credits.php:76
+#: Models/Store_Credits/Traits/Admin_Apply_Store_Credits.php:143
+msgid "Store credits amount is invalid."
+msgstr ""
+
+#: Models/Store_Credits/Traits/Admin_Apply_Store_Credits.php:155
+msgid "The order doesn't have a valid store credit discount applied."
+msgstr ""
+
+#: Models/Store_Credits/Traits/Admin_Apply_Store_Credits.php:267
+#: Models/Store_Credits/Traits/Admin_Refund_Store_Credits_Discount.php:115
+msgid "Invalid request."
+msgstr ""
+
+#. Translators: %s: Available applied store credits amount to be refunded.
+#: Models/Store_Credits/Traits/Admin_Refund_Store_Credits_Discount.php:55
+#, php-format
+msgid "Enter the amount of store credits discount to refund. Available amount: %s"
+msgstr ""
+
+#: Models/Store_Credits/Traits/Admin_Refund_Store_Credits_Discount.php:61
+msgid "Refund store credits discount"
+msgstr ""
+
+#: Models/Store_Credits/Traits/Admin_Refund_Store_Credits_Discount.php:125
+msgid "The amount provided is invalid."
+msgstr ""
+
+#. translators: %s: FunnelKit Builder
+#: Models/Third_Party_Integrations/FunnelKit.php:171
+#, php-format
+msgid "%s lets you create a custom checkout that is optimized for conversions? Better yet, you can also easily add upsells, cross-sell and down sell funnels to increase the average order value of your customers. It’s fully compatible with Advanced Coupons as one of our first-tier integrations."
+msgstr ""
+
+#: Models/Third_Party_Integrations/FunnelKit.php:174
+msgid "Install & Activate Free Plugin"
+msgstr ""
+
+#: Models/Third_Party_Integrations/FunnelKit.php:179
+#: Models/Upsell.php:2248
+msgid "Plugin installed and activated successfully!"
+msgstr ""
+
+#: Models/Third_Party_Integrations/PushEngage.php:113
+msgid "There was an error in the process of sending the pushengage to the customer. Please try again."
+msgstr ""
+
+#. Translators: %s: Segment names.
+#: Models/Third_Party_Integrations/PushEngage.php:208
+#, php-format
+msgid "The coupon has been successfully sent to segments: %s."
+msgstr ""
+
+#. Translators: %s: Subscriber IDs.
+#: Models/Third_Party_Integrations/PushEngage.php:210
+#, php-format
+msgid "The coupon has been successfully sent to subscribers: %s."
+msgstr ""
+
+#. Translators: %s: storename.
+#: Models/Third_Party_Integrations/PushEngage.php:266
+#, php-format
+msgid "You have received a coupon from %s"
+msgstr ""
+
+#. Translators: %s: coupon code.
+#: Models/Third_Party_Integrations/PushEngage.php:268
+#, php-format
+msgid "Get a discount with your next order using the coupon %s"
+msgstr ""
+
+#: Models/Third_Party_Integrations/PushEngage.php:286
+msgid "Click Here to Check PushEngage Connection"
+msgstr ""
+
+#: Models/Third_Party_Integrations/SaveTo_Wishlist.php:128
+msgid "This coupon requires at least one product from your wishlist to be in your cart."
+msgstr ""
+
+#: Models/Third_Party_Integrations/SaveTo_Wishlist.php:481
+msgid "Wishlisted products only"
+msgstr ""
+
+#: Models/Third_Party_Integrations/SaveTo_Wishlist.php:482
+msgid "When checked, this coupon only applies if the cart contains at least one product that is in the logged in customer's SaveTo Wishlist. Guests cannot use the coupon, because they have no saved wishlist."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Wholesale_Suite.php:59
+msgid "Exclude wholesale items"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Wholesale_Suite.php:60
+msgid "Check this box if the coupon should not apply to wholesale items. Per-item coupons will only work if the item is not on wholesale. Per-cart coupons will only work if there are items in the cart that are not on wholesale."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Wholesale_Suite.php:141
+msgid "Sorry, this coupon is not valid for wholesale items"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:191
+msgid "URL Coupon: success message"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:201
+msgid "URL Coupon: Redirect To URL"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:211
+msgid "Role restrictions error message"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:224
+msgid "Cart Conditions: Non-qualifying message"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:233
+msgid "Cart Conditions: Non-qualifying button text"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:242
+msgid "Cart Conditions: Non-qualifying button URL"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:256
+msgid "BOGO Deals: Notice message"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:265
+msgid "BOGO Deals: Notice button text"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:274
+msgid "BOGO Deals: Notice button url"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:333
+msgid "BOGO Deals: Global notice message"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:339
+msgid "BOGO Deals: Global notice button text"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:345
+msgid "BOGO Deals: Global notice button URL"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:351
+msgid "Role Restrictions: Invalid user role error message (global)"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:357
+msgid "URL Coupons: Custom success message"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:363
+msgid "URL Coupons: Custom disable message"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:369
+msgid "URL Coupons: Redirect to URL after applying coupon"
+msgstr ""
+
+#: Models/Third_Party_Integrations/WPML_Support.php:375
+msgid "URL Coupons: Redirect to URL if invalid coupon is visited"
+msgstr ""
+
+#: Models/Tools/Plugin_Installer.php:62
+msgid "You do not have sufficient permissions to install and activate plugins."
+msgstr ""
+
+#: Models/Tools/Plugin_Installer.php:67
+msgid "The plugin is not valid."
+msgstr ""
+
+#: Models/Tools/Plugin_Installer.php:80
+msgid "The plugin is already installed and active."
+msgstr ""
+
+#. translators: %s is the plugin basename.
+#: Models/Tools/Plugin_Installer.php:186
+#, php-format
+msgid "Cannot activate the plugin because the file %s does not exist."
+msgstr ""
+
+#. translators: %s is the plugin basename.
+#: Models/Tools/Plugin_Installer.php:203
+#, php-format
+msgid "The plugin was not activated. Plugin file: %s"
+msgstr ""
+
+#. translators: %s: plugin slug.
+#: Models/Tools/Plugin_Installer.php:285
+#, php-format
+msgid "Plugin %s is already installed and active."
+msgstr ""
+
+#. translators: %s: plugin slug.
+#: Models/Tools/Plugin_Installer.php:316
+#, php-format
+msgid "Plugin %s installed and activated successfully."
+msgstr ""
+
+#: Models/Upsell.php:70
+msgid "Auto Apply Coupon (premium)"
+msgstr ""
+
+#: Models/Upsell.php:78
+msgid "Virtual Coupons (premium)"
+msgstr ""
+
+#: Models/Upsell.php:86
+msgid "Upgrade to premium"
+msgstr ""
+
+#: Models/Upsell.php:135
+msgid "Virtual coupons are other codes that are also valid for this coupon. It’s great when you need lots of unique codes for the same deal."
+msgstr ""
+
+#: Models/Upsell.php:139
+msgid "Enable virtual coupons"
+msgstr ""
+
+#: Models/Upsell.php:164
+msgid "Add Products (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:169
+msgid "Payment Methods Restriction (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:174
+msgid "Shipping Overrides (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:179
+msgid "One Click Apply (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:242
+msgid "You can unlock even more advanced coupon types & features."
+msgstr ""
+
+#: Models/Upsell.php:261
+msgid "You can also use auto apply or one-click apply notifications to apply coupons without manually typing."
+msgstr ""
+
+#: Models/Upsell.php:280
+msgid "Reset usage count every:"
+msgstr ""
+
+#: Models/Upsell.php:282
+msgid "Never reset"
+msgstr ""
+
+#: Models/Upsell.php:283
+msgid "Every year (premium)"
+msgstr ""
+
+#: Models/Upsell.php:284
+msgid "Every month (premium)"
+msgstr ""
+
+#: Models/Upsell.php:285
+msgid "Every week (premium)"
+msgstr ""
+
+#: Models/Upsell.php:286
+msgid "Every day (premium)"
+msgstr ""
+
+#. Translators: %1$s: opening bold tag. %2$s: closing bold tag. %3$s: opening emphasis tag. %4$s: closing emphasis tag.
+#: Models/Upsell.php:290
+#, php-format
+msgid "Set the time period to reset the usage limit count. %1$sYearly:%2$s resets at start of the year. %1$sMonthly:%2$s resets at start of the month. %1$sWeekly:%2$s resets at the start of every week (day depends on the %3$s\"Week Starts On\"%4$s setting). %1$sDaily:%2$s resets everyday. Time is always set at 12:00am of the local timezone settings."
+msgstr ""
+
+#: Models/Upsell.php:304
+msgid "You can reset usage limits on a timer either daily, weekly, monthly, or yearly."
+msgstr ""
+
+#: Models/Upsell.php:324
+msgid "Exclude coupons (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:325
+msgid "This is the advanced version of the \"Individual use only\" field. Coupons listed here cannot be used in conjunction with this coupon."
+msgstr ""
+
+#: Models/Upsell.php:330
+msgid "Search coupons&hellip;"
+msgstr ""
+
+#: Models/Upsell.php:351
+msgid "Disallowed emails (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:352
+msgid "List of disallowed billing email addresses. Separate multiple email addresses with commas. Wildcards like *@gmail.com are supported."
+msgstr ""
+
+#: Models/Upsell.php:357
+msgid "No restrictions"
+msgstr ""
+
+#: Models/Upsell.php:379
+msgid "Allowed customers (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:385
+#: Models/Upsell.php:413
+msgid "Search customers&hellip;"
+msgstr ""
+
+#: Models/Upsell.php:407
+msgid "Disallowed customers (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:408
+msgid "Search and select customers that are NOT allowed to use this coupon."
+msgstr ""
+
+#: Models/Upsell.php:438
+msgid "Affiliate discount?"
+msgstr ""
+
+#: Models/Upsell.php:439
+msgid "If you would like to connect this discount to and affiliate, enter the name of the affiliate it belongs to"
+msgstr ""
+
+#: Models/Upsell.php:443
+msgid "Enter affiliate name"
+msgstr ""
+
+#: Models/Upsell.php:462
+msgid "Product attributes (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:463
+msgid "Search and select product attributes that are eligible to only use this coupon."
+msgstr ""
+
+#: Models/Upsell.php:468
+#: Models/Upsell.php:496
+msgid "Search product attributes&hellip;"
+msgstr ""
+
+#: Models/Upsell.php:490
+msgid "Exclude product attributes (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:491
+msgid "Search and select product attributes that will be excluded from using this coupon."
+msgstr ""
+
+#: Models/Upsell.php:519
+msgid "Cart Weight (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:524
+msgid "Cart Total (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:529
+msgid "Category Subtotal (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:534
+msgid "Product Quantities Exists In Cart (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:539
+#: Models/Upsell.php:656
+msgid "Within Hours After Customer Registered (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:544
+#: Models/Upsell.php:660
+msgid "Within Hours After Customer Last Order (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:549
+#: Models/Upsell.php:664
+msgid "Total Customer Spend (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:554
+msgid "Total Customer Spend On A Certain Product Category (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:559
+#: Models/Upsell.php:668
+msgid "Product Stock Availability Exists In Cart (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:564
+msgid "Customer Has Ordered Products Before (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:569
+#: Models/Upsell.php:676
+msgid "Has Ordered Product Categories Before (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:574
+#: Models/Upsell.php:688
+msgid "Shipping Zone And Region (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:579
+msgid "Number of Customer Orders (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:584
+msgid "Custom Taxonomy Exists In Cart (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:589
+#: Models/Upsell.php:680
+msgid "Custom User Meta (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:594
+#: Models/Upsell.php:684
+msgid "Custom Cart Item Meta (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:599
+msgid "Coupons Applied In Cart (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:611
+#: Models/Upsell.php:699
+msgid "WC Memberships: Allowed Membership Plans (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:616
+#: Models/Upsell.php:703
+msgid "WC Memberships: Disallowed Membership Plans (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:635
+#: views/premium/view-more-cart-conditions-panel.php:7
+msgid "More Cart Conditions (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:648
+msgid "Product Quantity In The Cart (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:649
+msgid "Check for the product (or products) and measure their quantity to see if the customer is eligible to use that coupon based on that."
+msgstr ""
+
+#: Models/Upsell.php:652
+msgid "Custom Taxonomy In The Cart (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:653
+msgid "If you have a custom taxonomy on Products, for example “Brands”, this would let you check on those before applying a coupon."
+msgstr ""
+
+#: Models/Upsell.php:657
+msgid "It can be useful to check when a customer was registered on your store before applying a coupon."
+msgstr ""
+
+#: Models/Upsell.php:661
+msgid "Restrict a coupon for use within a certain time period to encourage a follow-up order."
+msgstr ""
+
+#: Models/Upsell.php:665
+msgid "Create a coupon that is only allowed if they’ve spent a certain historical amount."
+msgstr ""
+
+#: Models/Upsell.php:669
+msgid "Create a coupon that checks if cart quantity matches product stock to prevent overselling and stock management issues."
+msgstr ""
+
+#: Models/Upsell.php:672
+msgid "Has Ordered Before (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:673
+msgid "Check if a customer has ordered something before letting them apply a coupon."
+msgstr ""
+
+#: Models/Upsell.php:677
+msgid "Create a coupon that checks if customer has ordered products from specified categories before to enable targeted marketing."
+msgstr ""
+
+#: Models/Upsell.php:681
+msgid "Great for developers, test any extra user metadata on customer user records before applying a coupon."
+msgstr ""
+
+#: Models/Upsell.php:685
+msgid "Great for developers, in specific situations where custom cart item meta has been added and you need to target a coupon for that."
+msgstr ""
+
+#: Models/Upsell.php:689
+msgid "Restricting coupons based on the shipping zone is great when you need to apply coupons geographically."
+msgstr ""
+
+#: Models/Upsell.php:700
+msgid "Restrict the coupon to be only applied to customers that are members of the specified membership plan(s)."
+msgstr ""
+
+#: Models/Upsell.php:704
+msgid "Restrict the coupon to be only applied to customers that are not a member of the specified membership plan(s)."
+msgstr ""
+
+#. Translators: %s: Premium link markup
+#: Models/Upsell.php:739
+#, php-format
+msgid "Combination of Products (%s) – good when dealing with variable products or multiple products"
+msgstr ""
+
+#. Translators: %s: Premium link markup
+#: Models/Upsell.php:741
+#, php-format
+msgid "Product Categories (%s) – good when you want to trigger or apply a range of products from a particular category or set of categories"
+msgstr ""
+
+#. Translators: %s: Premium link markup
+#: Models/Upsell.php:743
+#, php-format
+msgid "Any Products (%s) – good when you want to trigger or apply all of the products present in the cart"
+msgstr ""
+
+#: Models/Upsell.php:760
+msgid "Any Combination of Products (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:761
+msgid "Product Categories (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:762
+msgid "Any Products (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:766
+msgid "Same Products (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:822
+msgid "Monday"
+msgstr ""
+
+#: Models/Upsell.php:823
+msgid "Tuesday"
+msgstr ""
+
+#: Models/Upsell.php:824
+msgid "Wednesday"
+msgstr ""
+
+#: Models/Upsell.php:825
+msgid "Thursday"
+msgstr ""
+
+#: Models/Upsell.php:826
+msgid "Friday"
+msgstr ""
+
+#: Models/Upsell.php:827
+msgid "Saturday"
+msgstr ""
+
+#: Models/Upsell.php:828
+msgid "Sunday"
+msgstr ""
+
+#: Models/Upsell.php:862
+msgid "Percentage cashback (premium)"
+msgstr ""
+
+#: Models/Upsell.php:863
+msgid "Fixed cashback (premium)"
+msgstr ""
+
+#: Models/Upsell.php:882
+msgid "Allowed coupons (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:883
+msgid "Select the coupons that can be used with this coupon when the individual use option is enabled."
+msgstr ""
+
+#: Models/Upsell.php:888
+msgid "Search coupons and/or coupon categories&hellip;"
+msgstr ""
+
+#: Models/Upsell.php:909
+msgid "Defer Apply (Premium)"
+msgstr ""
+
+#: Models/Upsell.php:936
+#: Models/Upsell.php:1185
+#: Models/Upsell.php:1913
+msgid "Upgrade"
+msgstr ""
+
+#: Models/Upsell.php:1011
+msgid "You can apply BOGO deals on combinations of products, product categories, or even on any product in the store."
+msgstr ""
+
+#: Models/Upsell.php:1037
+msgid "Have your coupon automatically apply once it's able to be applied."
+msgstr ""
+
+#: Models/Upsell.php:1043
+msgid "Advanced Usage Limits"
+msgstr ""
+
+#: Models/Upsell.php:1045
+msgid "Improves the usage limits feature of coupons, allowing you to set a time period to reset the usage counts."
+msgstr ""
+
+#: Models/Upsell.php:1051
+#: views/premium/view-shipping-overrides-panel.php:10
+msgid "Shipping Overrides"
+msgstr ""
+
+#: Models/Upsell.php:1053
+msgid "Lets you provide coupons that can discount shipping prices for any shipping method."
+msgstr ""
+
+#: Models/Upsell.php:1059
+#: views/premium/view-add-products-panel.php:11
+msgid "Add Products"
+msgstr ""
+
+#: Models/Upsell.php:1061
+msgid "On application of the coupon add certain products to the cart automatically after applying coupon."
+msgstr ""
+
+#: Models/Upsell.php:1067
+msgid "One Click Apply Notification"
+msgstr ""
+
+#: Models/Upsell.php:1069
+msgid "Lets you show a WooCommerce notice to a customer if the coupon is able to be applied with a button to apply it."
+msgstr ""
+
+#: Models/Upsell.php:1075
+#: views/premium/view-payment-methods-restriction-panel.php:11
+msgid "Payment Methods Restriction"
+msgstr ""
+
+#: Models/Upsell.php:1077
+msgid "Restrict coupons to be used by certain payment method gateways only."
+msgstr ""
+
+#: Models/Upsell.php:1083
+msgid "Sort Coupons in Cart"
+msgstr ""
+
+#: Models/Upsell.php:1085
+msgid "Set priority for each coupon and automatically sort the applied coupons on cart/checkout. This will also sort coupons under auto apply and apply notifications."
+msgstr ""
+
+#: Models/Upsell.php:1091
+msgid "Virtual Coupons"
+msgstr ""
+
+#: Models/Upsell.php:1093
+msgid "Bulk generate 100's or 1000's of unique alternative coupon codes for a coupon to use in welcome sequences, abandoned cart sequences, and other scenarios."
+msgstr ""
+
+#: Models/Upsell.php:1112
+msgid "Premium Module"
+msgstr ""
+
+#: Models/Upsell.php:1114
+msgid "You are currently using Advanced Coupons for WooCommerce (Free Version). This module is only available for Premium license holders."
+msgstr ""
+
+#: Models/Upsell.php:1115
+msgid "Upgrade to premium today and gain access to this module & more!"
+msgstr ""
+
+#: Models/Upsell.php:1148
+msgid "You're using Advanced Coupons for WooCommerce Free - no license needed. Enjoy! 🙂"
+msgstr ""
+
+#. Translators: %1$s: opening anchor tag linking to the premium upgrade page. %2$s: closing anchor tag.
+#: Models/Upsell.php:1151
+#, php-format
+msgid "To unlock more features consider %1$supgrading to Premium%2$s"
+msgstr ""
+
+#. Translators: %1$s: opening emphasis tag. %2$s: closing emphasis tag.
+#: Models/Upsell.php:1157
+#, php-format
+msgid "As a valued Advanced Coupons for WooCommerce Free user you receive up to %1$s50%% off%2$s, automatically applied at checkout!"
+msgstr ""
+
+#: Models/Upsell.php:1191
+#: Models/Upsell.php:1917
+#: views/premium/view-upgrade-settings-page.php:24
+msgid "Premium Add-on"
+msgstr ""
+
+#: Models/Upsell.php:1193
+msgid "Advanced Coupons Premium adds even more advanced features to your coupons so you can market your store better."
+msgstr ""
+
+#: Models/Upsell.php:1194
+msgid "Click here to read more and upgrade →"
+msgstr ""
+
+#. Translators: %1$s: opening bold tag. %2$s: closing bold tag.
+#: Models/Upsell.php:1277
+#, php-format
+msgid "%1$sBonus:%2$s Advanced Coupons free version users get up to 50%% off the regular price, automatically applied at checkout."
+msgstr ""
+
+#: Models/Upsell.php:1283
+msgid "Unlock more coupon features with Advanced Coupons Premium"
+msgstr ""
+
+#. Translators: %s: 5 star icons markup
+#: Models/Upsell.php:1286
+#: Models/Upsell.php:1294
+#, php-format
+msgid "Advanced Coupons Premium is the 5-star %s add-on that adds even more features to your coupons. Gain access to premium Cart Conditions, advanced BOGO deals, adding products during coupon apply, one-click notices, auto apply coupons, better scheduling, and more!"
+msgstr ""
+
+#: Models/Upsell.php:1291
+msgid "Recommended coupon extensions"
+msgstr ""
+
+#: Models/Upsell.php:1404
+msgid "Premium Cart Condition"
+msgstr ""
+
+#: Models/Upsell.php:1406
+msgid "This premium cart condition and more are available in the Premium add-on for Advanced Coupons"
+msgstr ""
+
+#: Models/Upsell.php:1410
+#: Models/Upsell.php:1431
+#: Models/Upsell.php:1444
+#: Models/Upsell.php:1456
+#: Models/Upsell.php:1468
+#: Models/Upsell.php:1480
+#: Models/Upsell.php:1492
+#: Models/Upsell.php:1504
+#: Models/Upsell.php:1516
+#: Models/Upsell.php:1528
+#: views/premium/view-add-products-panel.php:28
+#: views/premium/view-apply-notifications-panel.php:27
+#: views/premium/view-payment-methods-restriction-panel.php:28
+#: views/premium/view-shipping-overrides-panel.php:27
+msgid "See all features & pricing →"
+msgstr ""
+
+#. Translators: %1$s: opening anchor tag linking to the pricing page. %2$s: closing anchor tag.
+#: Models/Upsell.php:1418
+#, php-format
+msgid "You can do advanced BOGO deals in the %1$sPremium add-on for Advanced Coupons%2$s."
+msgstr ""
+
+#: Models/Upsell.php:1425
+msgid "Upgrade To Reset Coupon Usage On Timer"
+msgstr ""
+
+#: Models/Upsell.php:1427
+msgid "In Advanced Coupons Premium you can reset the usage counts of a coupon on a timer. This is great for running recurring deals such as daily deals, giving coupons to influencers to redeem samples and more."
+msgstr ""
+
+#: Models/Upsell.php:1437
+msgid "Upgrade To Get Advanced Coupons Restrictions"
+msgstr ""
+
+#: Models/Upsell.php:1439
+msgid "In Advanced Coupons Premium you can restrict the usage of this coupon more granularly with other specific coupons and/or restrict it to a specifc list of customers."
+msgstr ""
+
+#: Models/Upsell.php:1440
+msgid "This is great if you have a coupon that is allowed to work with some coupons but not others and/or only allow it to be used by certain customers registered on your store."
+msgstr ""
+
+#: Models/Upsell.php:1450
+msgid "Upgrade To Apply Coupons Automatically"
+msgstr ""
+
+#: Models/Upsell.php:1452
+msgid "In Advanced Coupons Premium you can have coupons automatically apply to a customer’s cart once the Cart Conditions match! Surprise and delight your customers with auto apply coupons."
+msgstr ""
+
+#: Models/Upsell.php:1462
+msgid "Upgrade To Get Virtual Coupons"
+msgstr ""
+
+#: Models/Upsell.php:1464
+msgid "In Advanced Coupons Premium you can have virtual coupons which are other codes that are also valid for this coupon. Bulk generate 100’s or 1000’s of unique alternative coupon codes for a coupon to use in welcome sequences, abandoned cart sequences, and other scenarios."
+msgstr ""
+
+#: Models/Upsell.php:1474
+msgid "Upgrade To Apply \"Get\" Product Automatically"
+msgstr ""
+
+#: Models/Upsell.php:1476
+msgid "In Advanced Coupons Premium, BOGO coupons with the Specific Product \"Get\" type can automatically apply the product to a customer’s cart! This is only available for Specific Product type. It’s a great user experience upgrade for your customers to have it done for them."
+msgstr ""
+
+#: Models/Upsell.php:1486
+msgid "Upgrade To Apply Discount to the Least or Most Expensive Eligible Products First"
+msgstr ""
+
+#: Models/Upsell.php:1488
+msgid "In Advanced Coupons Premium, you can configure which product to be discounted in the additional settings option."
+msgstr ""
+
+#: Models/Upsell.php:1498
+msgid "Day/Time Schedules"
+msgstr ""
+
+#: Models/Upsell.php:1500
+msgid "Set more advanced day and time schedules to control exactly when your coupon is valid using Advanced Coupons Premium."
+msgstr ""
+
+#: Models/Upsell.php:1510
+msgid "Cashback Coupon"
+msgstr ""
+
+#: Models/Upsell.php:1512
+msgid "In Advanced Coupons Premium you can create cashback coupons which give a customer a percentage of their order back as store credit. This is a great way to incentivize customers to come back and shop again."
+msgstr ""
+
+#: Models/Upsell.php:1522
+msgid "Defer Apply URL Coupon"
+msgstr ""
+
+#: Models/Upsell.php:1524
+msgid "In Advanced Coupons Premium you can defer the application of URL coupons until the customer visits the cart or checkout page. This gives you more control over when coupons are applied and can improve the customer experience."
+msgstr ""
+
+#: Models/Upsell.php:1552
+msgid "Hey there, thank you for choosing Advanced Coupons for WooCommerce! We wanted to remind you that you have the premium plugin installed, which offers even more advanced features for your WooCommerce coupons to help you market your products more effectively."
+msgstr ""
+
+#: Models/Upsell.php:1553
+msgid "We noticed that you have not yet activated your copy of Advanced Coupons for WooCommerce Premium. Once you activate the plugin, you can start creating unique and attractive coupons for your store, including {{premium}}."
+msgstr ""
+
+#: Models/Upsell.php:1554
+msgid "So, do not wait any longer! Activate your copy of Advanced Coupons for WooCommerce Premium today and take your marketing efforts to the next level."
+msgstr ""
+
+#: Models/Upsell.php:1558
+#: Models/Upsell.php:1729
+msgid "Click here to activate  →"
+msgstr ""
+
+#: Models/Upsell.php:1570
+msgid "Hey there, thank you for choosing Advanced Coupons for WooCommerce! We wanted to remind you that a premium cart condition {{premium}} has been applied to your coupon, but it appears that you have not yet installed the premium version of the plugin."
+msgstr ""
+
+#: Models/Upsell.php:1571
+msgid "Our premium plugin offers advanced features for WooCommerce coupons, helping store owners like you to market their products more effectively. Once you install & activate the plugin, you can start creating unique and attractive coupons for your store, including BOGO deals and percentage discounts, and many more."
+msgstr ""
+
+#: Models/Upsell.php:1575
+#: Models/WC_Admin_Notes.php:183
+msgid "Learn more"
+msgstr ""
+
+#: Models/Upsell.php:1584
+msgid "Please activate the premium plugin to continue using this cart condition"
+msgstr ""
+
+#: Models/Upsell.php:1610
+msgid "Affiliate Coupon"
+msgstr ""
+
+#: Models/Upsell.php:1613
+msgid "Link your coupons to affiliates in AffiliateWP and track which affiliates are driving sales through coupon usage."
+msgstr ""
+
+#: Models/Upsell.php:1617
+msgid "AffiliateWP integrates seamlessly with Advanced Coupons to help you manage your affiliate marketing program."
+msgstr ""
+
+#: Models/Upsell.php:1622
+msgid "Learn More About AffiliateWP →"
+msgstr ""
+
+#: Models/Upsell.php:1736
+msgid "Click here to see pricing & features  →"
+msgstr ""
+
+#: Models/Upsell.php:1749
+msgid "We hope you’ve been enjoying the free version of Advanced Coupons. Did you know there is a Premium add-on? It adds even more advanced features to your coupon so you can market your store better."
+msgstr ""
+
+#: Models/Upsell.php:1815
+msgid "How To Setup Wholesale On Your WooCommerce Store"
+msgstr ""
+
+#: Models/Upsell.php:1837
+msgid "How To Grow A WooCommerce Store Using Coupon Deals"
+msgstr ""
+
+#. Translators: %1$s: opening bold tag. %2$s: closing bold tag.
+#: Models/Upsell.php:1908
+#, php-format
+msgid "%1$sFree%2$s vs %1$sPremium%2$s"
+msgstr ""
+
+#: Models/Upsell.php:1912
+#: views/premium/view-upgrade-settings-page.php:11
+msgid "If you are serious about growing your sales within your WooCommerce store then the Premium add-on to the free Advanced Coupons for WooCommerce plugin that you are currently using can help you."
+msgstr ""
+
+#: Models/Upsell.php:1921
+#: views/premium/view-upgrade-settings-page.php:31
+msgid "Restrict Applying Coupons Using Cart Conditions"
+msgstr ""
+
+#: Models/Upsell.php:1922
+#: views/premium/view-upgrade-settings-page.php:34
+msgid "Basic set of cart conditions only"
+msgstr ""
+
+#: Models/Upsell.php:1923
+#: views/premium/view-upgrade-settings-page.php:37
+msgid "Advanced cart conditions to let you control exactly when coupons should be allowed to apply."
+msgstr ""
+
+#: Models/Upsell.php:1926
+#: views/premium/view-upgrade-settings-page.php:42
+msgid "Run BOGO deals with coupons"
+msgstr ""
+
+#: Models/Upsell.php:1927
+#: views/premium/view-upgrade-settings-page.php:45
+msgid "Simple BOGO deals only"
+msgstr ""
+
+#: Models/Upsell.php:1928
+#: views/premium/view-upgrade-settings-page.php:48
+msgid "Run advanced BOGO deals with multiple products or across product categories."
+msgstr ""
+
+#: Models/Upsell.php:1931
+#: views/premium/view-upgrade-settings-page.php:64
+msgid "Schedule coupon start and end date"
+msgstr ""
+
+#: Models/Upsell.php:1932
+#: views/premium/view-upgrade-settings-page.php:67
+msgid "Only WordPress scheduled post"
+msgstr ""
+
+#: Models/Upsell.php:1933
+#: views/premium/view-upgrade-settings-page.php:70
+msgid "Show a nice message before and after specific start/end dates so you can recapture lost sales."
+msgstr ""
+
+#: Models/Upsell.php:1936
+#: views/premium/view-upgrade-settings-page.php:75
+msgid "One-click Apply Notifications"
+msgstr ""
+
+#: Models/Upsell.php:1937
+#: Models/Upsell.php:1942
+#: Models/Upsell.php:1947
+#: Models/Upsell.php:1952
+#: views/premium/view-upgrade-settings-page.php:56
+#: views/premium/view-upgrade-settings-page.php:78
+#: views/premium/view-upgrade-settings-page.php:89
+#: views/premium/view-upgrade-settings-page.php:100
+#: views/premium/view-upgrade-settings-page.php:111
+msgid "Not available"
+msgstr ""
+
+#: Models/Upsell.php:1938
+#: views/premium/view-upgrade-settings-page.php:81
+msgid "Show a message at the cart with a one-click apply button when the customer is eligible for a coupon."
+msgstr ""
+
+#: Models/Upsell.php:1941
+#: views/premium/view-upgrade-settings-page.php:86
+msgid "Auto Apply Coupons"
+msgstr ""
+
+#: Models/Upsell.php:1943
+#: views/premium/view-upgrade-settings-page.php:92
+msgid "Automatically apply a coupon to the cart when a customer becomes eligible."
+msgstr ""
+
+#: Models/Upsell.php:1946
+#: views/premium/view-upgrade-settings-page.php:97
+msgid "Shipping Override Coupons"
+msgstr ""
+
+#: Models/Upsell.php:1948
+#: views/premium/view-upgrade-settings-page.php:103
+msgid "Run more creative discounts on your store's shipping methods."
+msgstr ""
+
+#: Models/Upsell.php:1951
+#: views/premium/view-upgrade-settings-page.php:108
+msgid "Timed Usage Resets"
+msgstr ""
+
+#: Models/Upsell.php:1953
+#: views/premium/view-upgrade-settings-page.php:114
+msgid "Give coupons with usage limits that reset after a time - great for influencer marketing or daily deals."
+msgstr ""
+
+#: Models/Upsell.php:1957
+#: views/premium/view-upgrade-settings-page.php:122
+msgid "+ 100's of other premium features"
+msgstr ""
+
+#: Models/Upsell.php:1958
+#: views/premium/view-upgrade-settings-page.php:126
+msgid "See the full feature list →"
+msgstr ""
+
+#: Models/Upsell.php:2025
+msgid "Increase Customer Loyalty & Repeat Orders With A Loyalty Program"
+msgstr ""
+
+#: Models/Upsell.php:2026
+msgid "Advanced Loyalty Program is proven to increase customer loyalty and help you get more repeat orders. It’s a great way to incentivize your customers without having to give steep discounts."
+msgstr ""
+
+#: Models/Upsell.php:2029
+msgid "Loyalty Program plugin icon"
+msgstr ""
+
+#: Models/Upsell.php:2032
+msgid "❤️ Trusted by over 15,000+ stores"
+msgstr ""
+
+#: Models/Upsell.php:2033
+msgid "⭐ 5-star customer satisfaction rating"
+msgstr ""
+
+#: Models/Upsell.php:2034
+msgid "🚀️ Lots of options for customer to earn points"
+msgstr ""
+
+#: Models/Upsell.php:2035
+msgid "📱 Control how points are valued"
+msgstr ""
+
+#: Models/Upsell.php:2036
+msgid "🔍 Hooks into your existing store"
+msgstr ""
+
+#: Models/Upsell.php:2041
+msgid "Purchase & Install Advanced Loyalty Program"
+msgstr ""
+
+#: Models/Upsell.php:2042
+msgid "Your customers will love being able to earn points for their orders so they can redeem them for coupons on future orders. Get set up and running in a few minutes."
+msgstr ""
+
+#: Models/Upsell.php:2044
+msgid "Get Loyalty Program"
+msgstr ""
+
+#: Models/Upsell.php:2050
+msgid "Configure Loyalty Program Settings"
+msgstr ""
+
+#: Models/Upsell.php:2051
+msgid "Advanced Loyalty Program lets you configure an amazing points & rewards program in minutes. It comes mostly configured out of the box, but there’s loads of great customizations you can deploy."
+msgstr ""
+
+#: Models/Upsell.php:2053
+#: Models/Upsell.php:2132
+#: Models/Upsell.php:2211
+msgid "Start Setup"
+msgstr ""
+
+#: Models/Upsell.php:2104
+msgid "Sell WooCommerce Gift Cards On Your Store Easily"
+msgstr ""
+
+#: Models/Upsell.php:2105
+msgid "Advanced Gift Cards for WooCommerce lets you sell digital gift cards on your WooCommerce store that are redeemable for store credits. It’s a great way to virally spread your store plus gain guaranteed sales."
+msgstr ""
+
+#: Models/Upsell.php:2108
+msgid "Advanced Gift Cards plugin icon"
+msgstr ""
+
+#: Models/Upsell.php:2111
+msgid "❤️ Trusted plugin, 5-star rating over 15,000+ stores"
+msgstr ""
+
+#: Models/Upsell.php:2112
+msgid "💳 Sell digital gift cards for your store easily"
+msgstr ""
+
+#: Models/Upsell.php:2113
+msgid "👩🏻‍❤️‍👨🏽 Let customers send gift cards to friends"
+msgstr ""
+
+#: Models/Upsell.php:2114
+msgid "💝 Timed delivery option for special occasions"
+msgstr ""
+
+#: Models/Upsell.php:2115
+msgid "🔥 Bonus: 85+ extra gift card designs"
+msgstr ""
+
+#: Models/Upsell.php:2120
+msgid "Purchase & Install Advanced Gift Cards plugin"
+msgstr ""
+
+#: Models/Upsell.php:2121
+msgid "Your customers will love being able to purchase gift cards for their friends and family. It’s also a great way to virally spread your store while guaranteeing a future sale today."
+msgstr ""
+
+#: Models/Upsell.php:2123
+msgid "Get Advanced Gift Cards"
+msgstr ""
+
+#: Models/Upsell.php:2129
+msgid "Create A Gift Card Product"
+msgstr ""
+
+#: Models/Upsell.php:2130
+msgid "Advanced Gift Cards for WooCommerce lets you create new digital gift card products in minutes. You’ll be selling gift cards redeemable for store credit in no time."
+msgstr ""
+
+#: Models/Upsell.php:2162
+msgid "Advanced Promo Kit"
+msgstr ""
+
+#: Models/Upsell.php:2183
+msgid "Highlight Product Labels & Badges For Your Promotions"
+msgstr ""
+
+#: Models/Upsell.php:2184
+msgid "Advanced Promo Kit gives you powerful product label and badge features so you can draw attention to your promotions and boost conversions on your WooCommerce store."
+msgstr ""
+
+#: Models/Upsell.php:2187
+msgid "Advanced Promo Kit plugin icon"
+msgstr ""
+
+#: Models/Upsell.php:2190
+msgid "🏷️ Add eye-catching product labels and badges"
+msgstr ""
+
+#: Models/Upsell.php:2191
+msgid "🎨 Fully customizable label designs and colors"
+msgstr ""
+
+#: Models/Upsell.php:2192
+msgid "🛒 Highlight sale items, new arrivals, and bestsellers"
+msgstr ""
+
+#: Models/Upsell.php:2193
+msgid "⚡ Conditional display rules for targeted promotions"
+msgstr ""
+
+#: Models/Upsell.php:2194
+msgid "🔗 Seamless integration with Advanced Coupons"
+msgstr ""
+
+#: Models/Upsell.php:2199
+msgid "Purchase & Install Advanced Promo Kit"
+msgstr ""
+
+#: Models/Upsell.php:2200
+msgid "Advanced Promo Kit lets you create product labels and badges that draw attention to your promotions and help boost conversions on your store."
+msgstr ""
+
+#: Models/Upsell.php:2202
+msgid "Get Advanced Promo Kit"
+msgstr ""
+
+#: Models/Upsell.php:2208
+msgid "Create Your First Label"
+msgstr ""
+
+#: Models/Upsell.php:2209
+msgid "Once installed, you can create product labels and badges in minutes. Draw attention to your best deals and watch your conversions grow."
+msgstr ""
+
+#. Translators: %s: <br/> html.
+#: Models/Upsell.php:2241
+#, php-format
+msgid "Put your store credits on autopilot with Uncanny Automator.%s It’s fully compatible with Advanced Coupons as one of our first-party integrations."
+msgstr ""
+
+#: Models/Upsell.php:2242
+msgid "Install & Activate (FREE)"
+msgstr ""
+
+#: Models/Upsell.php:2249
+msgid "Add New Recipe"
+msgstr ""
+
+#: Models/Upsell.php:2250
+msgid "PRO"
+msgstr ""
+
+#: Models/Upsell.php:2251
+msgid "Sample automations:"
+msgstr ""
+
+#: Models/Upsell.php:2252
+msgid "Requires:"
+msgstr ""
+
+#: Models/Upsell.php:2256
+#: Models/Upsell.php:2261
+#: Models/Upsell.php:2266
+#: Models/Upsell.php:2271
+msgid "Trigger"
+msgstr ""
+
+#: Models/Upsell.php:2257
+msgid "A user receives greater than, less than, or equal to a specific amount of store credit"
+msgstr ""
+
+#: Models/Upsell.php:2262
+msgid "A user’s current store credit exceeds a specific amount"
+msgstr ""
+
+#: Models/Upsell.php:2267
+msgid "A user spends greater than, less than, or equal to a specific amount of store credit"
+msgstr ""
+
+#: Models/Upsell.php:2272
+msgid "A user’s lifetime store credit exceeds a specific amount"
+msgstr ""
+
+#: Models/Upsell.php:2276
+#: Models/Upsell.php:2281
+msgid "Action"
+msgstr ""
+
+#: Models/Upsell.php:2277
+msgid "Add a specific amount of store credit to the user’s account"
+msgstr ""
+
+#: Models/Upsell.php:2282
+msgid "Remove a specific amount of store credit from the user’s account"
+msgstr ""
+
+#: Models/Upsell.php:2288
+msgid "When a users receive exactly $10 in store credit, notify them by SMS"
+msgstr ""
+
+#: Models/Upsell.php:2292
+msgid "When users spend any store credit, log the records in Google Sheets"
+msgstr ""
+
+#: Models/Upsell.php:2296
+msgid "When a user reviews a product, add $5 store credit to their account"
+msgstr ""
+
+#: Models/URL_Coupons.php:176
+msgid "Invalid Coupon"
+msgstr ""
+
+#: Models/Usage.php:397
+msgid "Once Weekly"
+msgstr ""
+
+#: Models/Usage.php:523
+msgid "Allow usage tracking"
+msgstr ""
+
+#. Translators: %s: Link to allow usage documentation.
+#: Models/Usage.php:527
+#, php-format
+msgid "By allowing us to track usage data we can better help you because we know with which WordPress configurations, themes and plugins we should test. Complete documentation on usage tracking is available <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: Models/Usage.php:574
+msgid "USAGE TRACKING PERMISSION"
+msgstr ""
+
+#. Translators: %s: Link to allow usage documentation.
+#: Models/Usage.php:578
+#, php-format
+msgid "Allow Advanced Coupon to track plugin usage? Opt-in to let us track usage data so we know with which WordPress configurations, themes and plugins we should test with. Complete documentation on usage tracking is available <a href=\"%s\">here</a>."
+msgstr ""
+
+#: Models/Usage.php:587
+msgid "Allow tracking"
+msgstr ""
+
+#: Models/Usage.php:593
+msgid "Do not allow"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:71
+msgid "Install Wholesale Prices (FREE PLUGIN)"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:72
+msgid "This free plugin lets you easily add wholesale pricing to your existing WooCommerce products. Install the free plugin now."
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:83
+msgid "Get Advanced Coupons Premium"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:84
+msgid "Get more advanced BOGO deals, premium cart conditions, auto-apply, 1-click coupons, free gifts & more with the best WooCommerce coupon plugin."
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:95
+msgid "Join Store Owner Tips Facebook Group"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:96
+msgid "Want tips on how to grow your store? Come and join the Store Owner Tips Facebook group. Tips, articles and more, just for store owners."
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:102
+msgid "Join Store Owner Tips on Facebook"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:113
+msgid "Follow Advanced Coupons on Youtube"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:114
+msgid "Get all the WooCommerce coupon tips, store growth tips & more at the Advanced Coupons Youtube channel. Click here to join."
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:120
+msgid "Advanced Coupons Youtube Channel"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:131
+#: Models/WC_Admin_Notes.php:138
+msgid "Review Advanced Coupons"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:132
+msgid "We notice you’ve been using Advanced Coupons for a couple of weeks now. We’d love to get your review on our plugin! Your review helps give others the confidence to try our plugin."
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:192
+#: Models/WC_Admin_Notes.php:231
+msgid "Activate plugin"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:201
+msgid "Install now"
+msgstr ""
+
+#: Models/WC_Admin_Notes.php:240
+msgid "See features & pricing"
+msgstr ""
+
+#. translators: %s: number of remaining uses for the coupon
+#: templates/acfw-blocks/single-coupon.php:38
+#, php-format
+msgid "%s use remaining"
+msgid_plural "%s uses remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/acfw-blocks/single-coupon.php:45
+msgid "Coupon already used"
+msgstr ""
+
+#: templates/acfw-store-credits/checkout-discount.php:30
+msgid "Order Total"
+msgstr ""
+
+#: templates/acfw-store-credits/checkout-discount.php:40
+msgid "[Remove]"
+msgstr ""
+
+#: templates/acfw-store-credits/my-account.php:26
+msgid "Store credit can be used to purchase items on this store."
+msgstr ""
+
+#: templates/acfw-store-credits/my-account.php:29
+msgid "You currently have a store credit balance of {user_balance}."
+msgstr ""
+
+#. translators: %s: expire date.
+#: templates/acfw-store-credits/my-account.php:36
+#, php-format
+msgid "Store credits are valid until %s. Use or earn more store credits to extend validity."
+msgstr ""
+
+#: templates/acfw-store-credits/my-account.php:46
+msgid "Continue Shopping →"
+msgstr ""
+
+#: templates/emails/acfw-email-footer.php:34
+#: templates/emails/plain/email-advanced-coupon.php:32
+#: templates/emails/plain/store-credit-adjustment.php:55
+msgid "Powered by"
+msgstr ""
+
+#: templates/emails/plain/email-advanced-coupon.php:20
+msgid "Coupon code:"
+msgstr ""
+
+#: templates/emails/plain/store-credit-adjustment.php:20
+#: templates/emails/store-credit-adjustment.php:22
+msgid "credited to"
+msgstr ""
+
+#: templates/emails/plain/store-credit-adjustment.php:20
+#: templates/emails/store-credit-adjustment.php:22
+msgid "deducted from"
+msgstr ""
+
+#. Translators: %1$s: formatted amount, %2$s: credited to/deducted from
+#. Translators: %1$s: formatted amount HTML, %2$s: credited to/deducted from
+#: templates/emails/plain/store-credit-adjustment.php:31
+#: templates/emails/store-credit-adjustment.php:36
+#, php-format
+msgid "%1$s has been %2$s your store credit balance."
+msgstr ""
+
+#: templates/emails/plain/store-credit-adjustment.php:39
+#: templates/emails/store-credit-adjustment.php:45
+msgid "Note:"
+msgstr ""
+
+#: templates/emails/plain/store-credit-adjustment.php:43
+msgid "Your New Balance:"
+msgstr ""
+
+#: templates/emails/store-credit-adjustment.php:52
+msgid "Your New Balance"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:17
+msgid "Buy X Get X (BOGO) Deal"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:18
+msgid "BOGO (Buy One, Get One) style deals let you define a \"Buy\" Type which says what activates the deal, and a \"Get\" type that says what the customer will get when fulfilling the deal."
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:19
+msgid "The \"Buy\" products must be present in the cart before the BOGO deal becomes eligible, they are not part of the \"Get\" products. The customer must add the \"Get\" products to the cart to fully satisfy the BOGO coupon and get the discount. If multiple products are eligible, the cheapest product is always given the discount first. You can configure which product to be discounted in the additional settings option."
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:25
+msgid "Customer Buys:"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:43
+msgid "Customer Gets:"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:58
+msgid "Additional Settings"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:63
+msgid "How should the BOGO deal be applied?"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:67
+msgid "Only once"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:68
+msgid "Only apply the coupon once when one of the conditions is met (even multiple times)"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:72
+msgid "Repeatedly"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:73
+msgid "Everytime the condition is met, apply the coupon repeatedly."
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:77
+msgid "Repeated BOGO maximum limit"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:78
+msgid "No limit"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:83
+msgid "When the deal no longer applies:"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:87
+msgid "Keep the item in the cart at its original price"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:88
+msgid "Default. When the deal stops qualifying, the deal item stays in the cart and reverts to its original price."
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:92
+msgid "Remove the free item from the cart"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:93
+msgid "When the deal stops qualifying, the deal-granted quantity is removed from the cart instead of reverting to the original price. Quantities the customer added independently of the deal are kept."
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:100
+msgid "Notice shown when BOGO deal is eligible, but \"Get\" products are not in the cart:"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:105
+msgid "Button Text:"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:109
+msgid "Button URL:"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:113
+msgid "Notice Type:"
+msgstr ""
+
+#. Translators: %s: Global notice type value
+#: views/coupons/view-bogo-deals-data-panel.php:120
+#, php-format
+msgid "Global setting (%s)"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:138
+msgid "Save BOGO Deals"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:140
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+#: views/coupons/view-bogo-deals-data-panel.php:143
+msgid "Clear BOGO Deals"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:29
+msgid "Apply this coupon to be applied if the following condition groups and conditions are true."
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:31
+msgid "If…"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:37
+msgid "Add a New 'OR' Group"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:41
+msgid "…Then allow coupon to be applied"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:47
+msgid "If the cart conditions rules are found to be false, optionally show a WooCommerce notification to the user."
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:51
+msgid "Non-qualifying message"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:55
+msgid "Non-qualifying button text"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:59
+msgid "Non-qualifying button URL"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:64
+msgid "Display notice when auto applied"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:68
+msgid "Non-qualifying notice type (for Auto Apply)"
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:74
+msgid "If the notice type is error, this will stop the user from checking out, so make sure you adjust your wording as necessary to communicate this to the customer."
+msgstr ""
+
+#: views/coupons/view-cart-conditions-data-panel.php:83
+msgid "Save Cart Conditions"
+msgstr ""
+
+#: views/coupons/view-feature-filter-dropdown.php:7
+msgid "Show all features"
+msgstr ""
+
+#: views/coupons/view-scheduler-data-panel.php:20
+msgid "Date Range Schedules"
+msgstr ""
+
+#: views/coupons/view-scheduler-input-field.php:41
+#: views/coupons/view-scheduler-input-field.php:42
+msgid "Clear field values"
+msgstr ""
+
+#: views/getting-started/index.php:44
+msgid "Welcome to "
+msgstr ""
+
+#: views/getting-started/index.php:44
+msgid "Advanced Coupons!"
+msgstr ""
+
+#: views/getting-started/index.php:48
+msgid "Thank you for choosing Advanced Coupons. By selecting our plugins, you've taken the first step towards leveling up your WooCommerce store’s promotions!"
+msgstr ""
+
+#: views/getting-started/index.php:50
+msgid "At Advanced Coupons, we believe every small store has the potential to grow. 🌱"
+msgstr ""
+
+#: views/getting-started/index.php:52
+msgid "That's why we've built tools that help you go beyond basic discounts. Our FREE plugin extends the default coupon features of WooCommerce-letting you create powerful promotions like BOGO deals and URL coupons, grant store credits, and set advanced cart conditions."
+msgstr ""
+
+#: views/getting-started/index.php:68
+msgid "Trusted by 20k Store Owners"
+msgstr ""
+
+#: views/getting-started/index.php:74
+msgid "We're here to support you every step of the way."
+msgstr ""
+
+#: views/getting-started/index.php:76
+msgid "So, buckle up! Your next big promotion begins here."
+msgstr ""
+
+#: views/getting-started/index.php:84
+msgid "Read Getting Started Guide"
+msgstr ""
+
+#: views/getting-started/index.php:92
+msgid "Start Creating "
+msgstr ""
+
+#: views/getting-started/index.php:93
+msgid "Smarter Coupons "
+msgstr ""
+
+#: views/getting-started/index.php:94
+msgid "Today!"
+msgstr ""
+
+#: views/getting-started/index.php:101
+msgid "Advanced Coupons Free can help you create irresistible offers that keep customers coming back. It's easy to use, packed with essential features, and absolutely free to get started."
+msgstr ""
+
+#: views/getting-started/index.php:119
+msgid "Launch irresistible \"Buy One, Get One\" offers to boost sales and move inventory."
+msgstr ""
+
+#: views/getting-started/index.php:130
+msgid "Grant store credits to encourage repeat purchases and build loyalty."
+msgstr ""
+
+#: views/getting-started/index.php:141
+msgid "Share coupon links that automatically apply discounts — perfect for email or social campaigns!"
+msgstr ""
+
+#: views/getting-started/index.php:152
+msgid "Control when and how coupons can be applied with advanced cart conditions."
+msgstr ""
+
+#: views/getting-started/index.php:163
+msgid "Set coupons to work only for specific customer roles, like VIPs or wholesale buyers."
+msgstr ""
+
+#: views/getting-started/index.php:171
+msgid "Coupon Scheduler"
+msgstr ""
+
+#: views/getting-started/index.php:174
+msgid "Automate your promotions by scheduling coupons to start and end exactly when you want."
+msgstr ""
+
+#: views/getting-started/index.php:182
+msgid "Launch Your First Promotion Today"
+msgstr ""
+
+#: views/getting-started/index.php:193
+msgid "Imagine What You Can Achieve "
+msgstr ""
+
+#: views/getting-started/index.php:195
+msgid "With Our "
+msgstr ""
+
+#: views/getting-started/index.php:195
+msgid "Complete Suite Of Tools!"
+msgstr ""
+
+#: views/getting-started/index.php:202
+msgid "Advanced Coupons FREE is just the beginning! With our premium plugins, you can unlock powerful features to help you grow sales, build customer loyalty, and scale your store to new heights."
+msgstr ""
+
+#: views/getting-started/index.php:217
+msgid "Advanced "
+msgstr ""
+
+#: views/getting-started/index.php:218
+msgid "Coupons Premium"
+msgstr ""
+
+#: views/getting-started/index.php:222
+msgid "Take your promotions to a whole new level!"
+msgstr ""
+
+#. translators: %1$s, %2$s, %3$s, %4$s, and %5$s are feature names that will be bolded.
+#: views/getting-started/index.php:229
+#, php-format
+msgid "Upgrading to the premium version gives you access to game-changing features like %1$s, %2$s, %3$s, %4$s, and %5$s."
+msgstr ""
+
+#: views/getting-started/index.php:230
+msgid "Shipping Discounts"
+msgstr ""
+
+#: views/getting-started/index.php:231
+msgid "Auto-apply Coupons"
+msgstr ""
+
+#: views/getting-started/index.php:232
+msgid "Advanced Cart Conditions"
+msgstr ""
+
+#: views/getting-started/index.php:233
+msgid "Cashback Coupons"
+msgstr ""
+
+#: views/getting-started/index.php:234
+msgid "Advanced BOGO Offers"
+msgstr ""
+
+#: views/getting-started/index.php:239
+msgid "This tool has everything you need to create advanced, high-performing campaigns that drive results!"
+msgstr ""
+
+#: views/getting-started/index.php:265
+#: views/getting-started/index.php:302
+msgid "WooCommerce "
+msgstr ""
+
+#: views/getting-started/index.php:270
+msgid "Turn one-time shoppers into loyal brand advocates."
+msgstr ""
+
+#. translators: %1$s is "Points-Based Loyalty System", %2$s and %3$s are "Purchases" and "Referrals", which will be bolded.
+#: views/getting-started/index.php:277
+#, php-format
+msgid "Our plugin allows you to launch a %1$s in minutes! Reward points for %2$s, %3$s, or other actions. Perfect for building long-term relationships."
+msgstr ""
+
+#: views/getting-started/index.php:278
+msgid "Points-Based Loyalty System"
+msgstr ""
+
+#: views/getting-started/index.php:279
+msgid "Purchases"
+msgstr ""
+
+#: views/getting-started/index.php:280
+msgid "Referrals"
+msgstr ""
+
+#: views/getting-started/index.php:303
+msgid "Gift Cards"
+msgstr ""
+
+#: views/getting-started/index.php:307
+msgid "Make gifting easier for customers, while spreading love for your brand."
+msgstr ""
+
+#. translators: %1$s is "Digital Gift Cards" which will be bolded.
+#: views/getting-started/index.php:314
+#, php-format
+msgid "This easy-to-use plugin allows you to sell %1$s, adding another revenue stream for your store. Perfect for Holidays, Special Occasions, and year-round promotions!"
+msgstr ""
+
+#: views/getting-started/index.php:315
+msgid "Digital Gift Cards"
+msgstr ""
+
+#: views/getting-started/index.php:339
+msgid "Everything You Need To Grow Your Store "
+msgstr ""
+
+#: views/getting-started/index.php:341
+msgid "In "
+msgstr ""
+
+#: views/getting-started/index.php:341
+msgid "One Bundle"
+msgstr ""
+
+#: views/getting-started/index.php:347
+msgid "Save time, save money, and scale your store like never before."
+msgstr ""
+
+#: views/getting-started/index.php:349
+msgid "Our All-Access Bundle includes all the plugins you need to create smarter promotions, build customer loyalty, and boost your revenue-at an unbeatable value!"
+msgstr ""
+
+#: views/getting-started/index.php:361
+msgid "Get All Access Bundle"
+msgstr ""
+
+#: views/getting-started/index.php:372
+msgid "Loved by Over "
+msgstr ""
+
+#: views/getting-started/index.php:372
+msgid "20,000 WooCommerce"
+msgstr ""
+
+#: views/getting-started/index.php:374
+msgid "Store Owners"
+msgstr ""
+
+#: views/getting-started/index.php:380
+msgid "Don't just take our word for it—see what real store owners have to say about how Advanced Coupons transformed their marketing game:"
+msgstr ""
+
+#: views/getting-started/index.php:403
+msgid "\"For most shop owners, using coupons on their WooCommerce online stores is essential. But basic coupon features don't always give enough flexibility and creativity for running the best customer deals. That's where WooCommerce Advanced Coupons plugin comes in.\""
+msgstr ""
+
+#: views/getting-started/index.php:416
+msgid "\"If you offer a lot of deals at your store, you'll love the flexibility that the plugin gives you. And because Advanced Coupons is based on the native WooCommerce coupon functionality, you can keep using any other coupon workflows at your store.\""
+msgstr ""
+
+#: views/getting-started/index.php:429
+msgid "\"Coupons have such great ability to transform your WooCommerce store into a money-making powerhouse, you just have to structure them right and have the right tools behind you.\""
+msgstr ""
+
+#: views/network/view-network-licenses-page.php:9
+msgid "Advanced Coupons logo"
+msgstr ""
+
+#: views/network/view-network-licenses-page.php:10
+msgid "Advanced Coupons Licenses"
+msgstr ""
+
+#: views/notices/view-acfw-review-request.php:29
+#: views/notices/view-generic-notice.php:47
+msgid "Dismiss this notice..."
+msgstr ""
+
+#: views/notices/view-acfwp-failed-dependancy-notice.php:60
+#: views/notices/view-old-acfw-plugin-notice.php:62
+#: views/notices/view-unsupported-acfwp-version-notice.php:62
+msgid "Action required"
+msgstr ""
+
+#: views/notices/view-acfwp-failed-dependancy-notice.php:62
+msgid "<b>Advanced Coupons for WooCommerce Free</b> plugin missing dependency.<br/>"
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:64
+msgid "Hey there! Welcome to Advanced Coupons (Free Version). We noticed you already have the old Advanced Coupons premium plugin installed. The Premium version is now an add-on to the free version so you’ll need to make sure you have the latest version of both installed and active."
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:66
+msgid "You need to update your old copy of Advanced Coupons for WooCommerce now to access all the new features."
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:70
+#: views/notices/view-old-acfw-plugin-notice.php:75
+#: views/notices/view-unsupported-acfwp-version-notice.php:69
+#: views/notices/view-unsupported-acfwp-version-notice.php:74
+msgid "Update Plugin"
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:72
+#: views/notices/view-unsupported-acfwp-version-notice.php:71
+msgid "License detected. Update ready to proceed."
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:77
+#: views/notices/view-unsupported-acfwp-version-notice.php:76
+msgid "License detected, but update data was not yet fetched. Please try refreshing the page."
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:81
+msgid "Please install a license so you can update, or deactivate this old plugin."
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:83
+#: views/notices/view-unsupported-acfwp-version-notice.php:82
+msgid "Install License"
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:84
+#: views/notices/view-unsupported-acfwp-version-notice.php:83
+msgid "Deactivate"
+msgstr ""
+
+#: views/notices/view-old-acfw-plugin-notice.php:85
+#: views/notices/view-unsupported-acfwp-version-notice.php:84
+msgid "A valid license is required to update."
+msgstr ""
+
+#: views/notices/view-saveto-wishlist-notice.php:106
+msgid "SaveTo Wishlist"
+msgstr ""
+
+#: views/notices/view-saveto-wishlist-notice.php:110
+msgid "Boost Your Sales with SaveTo Wishlist"
+msgstr ""
+
+#: views/notices/view-saveto-wishlist-notice.php:113
+msgid "Let customers save their favorite products and come back to buy later. Our sister plugin, SaveTo Wishlist, adds beautiful wishlist functionality to your WooCommerce store — helping you increase conversions and customer engagement."
+msgstr ""
+
+#: views/notices/view-saveto-wishlist-notice.php:150
+#: views/notices/view-storeagent-notice.php:150
+msgid "Installing..."
+msgstr ""
+
+#: views/notices/view-saveto-wishlist-notice.php:164
+#: views/notices/view-storeagent-notice.php:159
+msgid "Activated! Reloading..."
+msgstr ""
+
+#: views/notices/view-storeagent-notice.php:106
+msgid "StoreAgent"
+msgstr ""
+
+#: views/notices/view-storeagent-notice.php:110
+msgid "Boost Your Store with AI-Powered Customer Support"
+msgstr ""
+
+#: views/notices/view-storeagent-notice.php:113
+msgid "Want to cut down on repetitive support questions and give your customers instant answers? Our sister plugin, StoreAgent, adds an AI-powered chat assistant to your store. It learns from your products and policies to deliver accurate, 24/7 support—saving you time and boosting conversions."
+msgstr ""
+
+#: views/notices/view-unsupported-acfwp-version-notice.php:64
+msgid "Please update your copy of the Advanced Coupons premium plugin. The new features and changes added in the free version will not work properly with the old version of the premium plugin."
+msgstr ""
+
+#: views/notices/view-unsupported-acfwp-version-notice.php:80
+msgid "Please install a license so you can update, or deactivate this plugin."
+msgstr ""
+
+#: views/orders/order-preview-popup-coupons-list.php:15
+msgid "No coupons used"
+msgstr ""
+
+#: views/orders/order-preview-popup-store-credit-summary.php:8
+msgid "Store Credit Used"
+msgstr ""
+
+#. translators: %s: URL to the premium version of the plugin
+#: views/premium/view-add-products-panel.php:18
+#, php-format
+msgid "In the <a href=\"%s\" target=\"_blank\">Premium add-on of Advanced Coupons</a> you make coupons that automatically add products to the cart."
+msgstr ""
+
+#: views/premium/view-add-products-panel.php:25
+msgid "This can also be combined with other features like Cart Conditions and Auto Apply to make products appear in the customer's cart like magic once conditions are met."
+msgstr ""
+
+#. translators: 1: opening link tag, 2: closing link tag
+#: views/premium/view-admin-notice-bar-lite.php:91
+#, php-format
+msgid "You're using the free version of the Advanced Coupons plugin. To unlock more features consider %1$supgrading to Premium%2$s"
+msgstr ""
+
+#: views/premium/view-apply-notifications-panel.php:10
+msgid "One-Click Apply Notifications"
+msgstr ""
+
+#. translators: %s: URL to the premium version of the plugin
+#: views/premium/view-apply-notifications-panel.php:17
+#, php-format
+msgid "In the <a href=\"%s\" target=\"_blank\">Premium add-on of Advanced Coupons</a> you make coupons that are applied by clicking a notice message on the cart."
+msgstr ""
+
+#: views/premium/view-apply-notifications-panel.php:24
+msgid "You can also combine this feature with cart conditions to only show the message when customers qualify."
+msgstr ""
+
+#: views/premium/view-coupon-bogo-additional-settings.php:7
+msgid "Automatically add deal products to cart (Premium):"
+msgstr ""
+
+#: views/premium/view-coupon-bogo-additional-settings.php:11
+msgid "Apply discount to (Premium):"
+msgstr ""
+
+#: views/premium/view-coupon-bogo-additional-settings.php:14
+msgid "Any eligible products"
+msgstr ""
+
+#: views/premium/view-coupon-bogo-additional-settings.php:17
+msgid "Cheapest eligible products"
+msgstr ""
+
+#: views/premium/view-coupon-bogo-additional-settings.php:20
+msgid "Most expensive eligible products"
+msgstr ""
+
+#: views/premium/view-coupon-bogo-additional-settings.php:23
+msgid "Choose whether to apply the BOGO discount to the least or most expensive eligible products first"
+msgstr ""
+
+#: views/premium/view-daytime-schedules-panel.php:6
+msgid "Day/Time Schedules (Premium)"
+msgstr ""
+
+#: views/premium/view-daytime-schedules-panel.php:10
+msgid "Days and time range"
+msgstr ""
+
+#: views/premium/view-daytime-schedules-panel.php:18
+msgid "from"
+msgstr ""
+
+#: views/premium/view-daytime-schedules-panel.php:20
+msgid "to"
+msgstr ""
+
+#: views/premium/view-daytime-schedules-panel.php:25
+msgid "Restrict the coupon to only be valid only on certain days and time of the week."
+msgstr ""
+
+#: views/premium/view-daytime-schedules-panel.php:28
+msgid "Invalid days and time error message"
+msgstr ""
+
+#: views/premium/view-daytime-schedules-panel.php:29
+msgid "Show a custom error message to customers that try to apply this coupon on days and/or times that are not valid."
+msgstr ""
+
+#: views/premium/view-daytime-schedules-panel.php:30
+msgid "This coupon is not valid for this day."
+msgstr ""
+
+#. translators: %s: URL to Advanced Coupons Premium pricing page
+#: views/premium/view-more-cart-conditions-panel.php:13
+#, php-format
+msgid "Unlock the full power of Cart Conditions with <a href=\"%s\" target=\"_blank\" rel=\"norefer noopener\">Advanced Coupons Premium</a>. Restrict your coupons using these premium cart conditions."
+msgstr ""
+
+#: views/premium/view-more-cart-conditions-panel.php:37
+msgid "You can unlock a whole range of extra cart conditions."
+msgstr ""
+
+#. translators: %s: URL to the premium version of the plugin
+#: views/premium/view-payment-methods-restriction-panel.php:18
+#, php-format
+msgid "In the <a href=\"%s\" target=\"_blank\">Premium add-on of Advanced Coupons</a> you can make coupons that automatically filter the available payment gateways visible on the checkout."
+msgstr ""
+
+#: views/premium/view-payment-methods-restriction-panel.php:25
+msgid "If the coupon is applied, the list of gateways is filtered, effectively restricting which payment options are allowed to be used when alongside this coupon."
+msgstr ""
+
+#. translators: %s: URL to the premium version of the plugin
+#: views/premium/view-shipping-overrides-panel.php:17
+#, php-format
+msgid "In the <a href=\"%s\" target=\"_blank\">Premium add-on of Advanced Coupons</a> you can give discounts on any shipping method in your store."
+msgstr ""
+
+#: views/premium/view-shipping-overrides-panel.php:24
+msgid "Get more creative with your shipping discounts beyond just your usual \"free shipping\" offer. Give short term discounts on express shipping, specific carriers or even just certain areas. Shipping offers are extremely effective and in Premium you will be able to do more creative shipping offers."
+msgstr ""
+
+#: views/premium/view-upgrade-settings-page.php:10
+msgid "<strong>Free</strong> vs <strong>Premium</strong>"
+msgstr ""
+
+#: views/premium/view-upgrade-settings-page.php:53
+msgid "Add products upon applying a coupon"
+msgstr ""
+
+#: views/premium/view-upgrade-settings-page.php:59
+msgid "Automatically add a product to the cart on applying a coupon and optionally override the price of that product."
+msgstr ""
+
+#: views/store-credits/view-edit-order-store-credit-discounts-row.php:7
+msgid "Old store credit data was detected on this order, please recalculate the totals if you wish to refund"
+msgstr ""
+
+#: views/store-credits/view-edit-order-store-credit-discounts-row.php:8
+msgid "Discount (Store Credit):"
+msgstr ""
+
+#: views/store-credits/view-edit-order-store-credit-paid-row.php:7
+#: views/store-credits/view-edit-order-store-credit-payment-summary.php:11
+msgid "Paid via Store Credits"
+msgstr ""
+
+#: views/store-credits/view-edit-order-store-credit-payment-summary.php:31
+msgid "Total Paid"
+msgstr ""
+
+#: views/store-credits/view-edit-refunded-store-credit-discount.php:11
+msgid "Paid/discounted in store credits"
+msgstr ""
+
+#: views/store-credits/view-edit-refunded-store-credit-discount.php:21
+msgid "Refunded store credit discount/payment"
+msgstr ""
+
+#: views/store-credits/view-edit-refunded-store-credit-discount.php:31
+msgid "Total paid/discounted in store credits"
+msgstr ""

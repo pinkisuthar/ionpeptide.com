@@ -1,0 +1,43 @@
+/**** Custom CSS ****/
+
+.wordpress-to-back:hover {
+    border-top: 4px solid #008BC5 !important;
+}
+
+.wordpress-to-back:hover a.zoremmail-back-wordpress-link {
+    color: #008BC5 !important;
+}
+
+button.customize-section-back:focus,
+button.customize-section-back:hover {
+    background: #008BC5 !important;
+    border-left: 4px solid #008BC5 !important;
+}
+
+.zoremmail-layout-slider-content li.zoremmail-panel-title:hover,
+.zoremmail-layout-slider-content li.zoremmail-sub-panel-title:hover {
+    border-left: 4px solid #008BC5 !important;
+}
+
+.wp-core-ui .efc-save-content .efc-btn.efc-save {
+    background: #008BC5 !important;
+    border-color: #008BC5 !important;
+    box-shadow: none;
+}
+
+#send_to_email_option_html button.button-primary.send-test-email {
+    background: #008BC5;
+    border-color: #008BC5;
+}
+
+.tgl-flat:checked+.tgl-btn:after {
+    background: #008BC5 !important;
+}
+
+.zoremmail-panel-title:hover .dashicons,
+.zoremmail-sub-panel-title:hover .dashicons,
+.wordpress-to-back:hover a.zoremmail-back-wordpress-link {
+    color: #008BC5 !important;
+}
+
+/**** End Custom CSS ****/ 

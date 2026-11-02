@@ -1,0 +1,142 @@
+<wpml-config>
+	<admin-texts>
+		<!--
+		General settings — customer-facing texts stored inside the
+		`return_general_settings_option` array. Only text the customer can
+		see is registered; toggles/IDs/numeric settings are left alone.
+		-->
+		<key name="return_general_settings_option">
+			<key name="return_guideline_content" />
+			<key name="exchange_guideline_content" />
+			<key name="return_disabled_payment_message" />
+			<key name="exchange_disabled_payment_message" />
+			<key name="restocking_fee_label" />
+			<key name="fraud_prevention_block_message" />
+			<key name="fraud_prevention_limit_message" />
+			<!-- Reason dropdowns shown on the return / exchange / warranty request forms (numeric arrays). -->
+			<key name="return_reasons">
+				<key name="*" />
+			</key>
+			<key name="exchange_reasons">
+				<key name="*" />
+			</key>
+			<key name="warranty_reasons">
+				<key name="*" />
+			</key>
+			<key name="return_store_address">
+				<key name="line" />
+				<key name="line_2" />
+				<key name="city" />
+			</key>
+		</key>
+
+		<!--
+		Email content options. Every option below stores only text fields
+		(subject / heading / email_content / *_items_title / additional_content /
+		guideline title + content), so a wildcard sub-key registers all of them
+		and stays future-proof when new text fields are added.
+		-->
+
+		<!-- Returns — customer emails -->
+		<key name="rt4wc_customer_return_requested_settings">
+			<key name="*" />
+		</key>
+		<key name="rt4wc_customer_return_approved_settings">
+			<key name="*" />
+		</key>
+		<key name="rt4wc_customer_return_rejected_settings">
+			<key name="*" />
+		</key>
+		<key name="rt4wc_customer_return_completed_settings">
+			<key name="*" />
+		</key>
+		<key name="rt4wc_customer_return_store_credit_settings">
+			<key name="*" />
+		</key>
+
+		<!-- Returns — admin emails -->
+		<key name="rt4wc_admin_return_requested_settings">
+			<key name="*" />
+		</key>
+		<key name="rt4wc_admin_return_approved_settings">
+			<key name="*" />
+		</key>
+		<key name="rt4wc_admin_return_rejected_settings">
+			<key name="*" />
+		</key>
+		<key name="rt4wc_admin_return_completed_settings">
+			<key name="*" />
+		</key>
+		<key name="rt4wc_admin_return_cancelled_settings">
+			<key name="*" />
+		</key>
+
+		<!-- Exchanges — customer emails -->
+		<key name="ex4wc_customer_exchange_requested_settings">
+			<key name="*" />
+		</key>
+		<key name="ex4wc_customer_exchange_approved_settings">
+			<key name="*" />
+		</key>
+		<key name="ex4wc_customer_exchange_rejected_settings">
+			<key name="*" />
+		</key>
+		<key name="ex4wc_customer_exchange_completed_settings">
+			<key name="*" />
+		</key>
+		<key name="ex4wc_customer_exchange_store_credit_settings">
+			<key name="*" />
+		</key>
+
+		<!-- Exchanges — admin emails -->
+		<key name="ex4wc_admin_exchange_requested_settings">
+			<key name="*" />
+		</key>
+		<key name="ex4wc_admin_exchange_approved_settings">
+			<key name="*" />
+		</key>
+		<key name="ex4wc_admin_exchange_rejected_settings">
+			<key name="*" />
+		</key>
+		<key name="ex4wc_admin_exchange_completed_settings">
+			<key name="*" />
+		</key>
+		<key name="ex4wc_admin_exchange_cancelled_settings">
+			<key name="*" />
+		</key>
+
+		<!-- Warranty — customer emails -->
+		<key name="wt4wc_customer_warranty_submitted_settings">
+			<key name="*" />
+		</key>
+		<key name="wt4wc_customer_warranty_under_review_settings">
+			<key name="*" />
+		</key>
+		<key name="wt4wc_customer_warranty_approved_settings">
+			<key name="*" />
+		</key>
+		<key name="wt4wc_customer_warranty_rejected_settings">
+			<key name="*" />
+		</key>
+		<key name="wt4wc_customer_warranty_resolved_settings">
+			<key name="*" />
+		</key>
+
+		<!-- Warranty — admin emails -->
+		<key name="wt4wc_admin_warranty_submitted_settings">
+			<key name="*" />
+		</key>
+		<key name="wt4wc_admin_warranty_under_review_settings">
+			<key name="*" />
+		</key>
+		<key name="wt4wc_admin_warranty_approved_settings">
+			<key name="*" />
+		</key>
+		<key name="wt4wc_admin_warranty_rejected_settings">
+			<key name="*" />
+		</key>
+		<key name="wt4wc_admin_warranty_resolved_settings">
+			<key name="*" />
+		</key>
+	</admin-texts>
+</wpml-config>

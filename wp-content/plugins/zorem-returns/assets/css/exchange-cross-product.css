@@ -1,0 +1,326 @@
+/* ============================================================
+   Cross-Product Exchange — Frontend Search Widget
+   exchange-cross-product.css
+   @since 1.7.0
+   ============================================================ */
+
+/* ── Divider between same-variation and cross-product sections ─ */
+.zre-cp-divider {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 20px 0 14px;
+	color: #888;
+	font-size: 13px;
+}
+.zre-cp-divider::before,
+.zre-cp-divider::after {
+	content: '';
+	flex: 1;
+	height: 1px;
+	background: #e0e0e0;
+}
+
+/* ── Section label ─────────────────────────────────────────── */
+.zre-cross-product-wrap {
+	margin-top: 10px;
+}
+.zre-cp-label {
+	display: block;
+	font-size: 13.5px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 8px;
+}
+
+/* ── Search input + results dropdown ─────────────────────────── */
+.zre-cp-search-box {
+	position: relative;
+}
+.zre-cp-search-input {
+	width: 100%;
+	padding: 9px 12px;
+	font-size: 14px;
+	border: 1px solid #c9d4df;
+	border-radius: 5px;
+	background: #fafafa;
+	color: #333;
+	outline: none;
+	box-sizing: border-box;
+	transition: border-color .15s;
+}
+.zre-cp-search-input:focus {
+	border-color: #3b64d3;
+	background: #fff;
+}
+.zre-cp-results {
+	position: absolute;
+	top: calc(100% + 4px);
+	left: 0;
+	right: 0;
+	background: #fff;
+	border: 1px solid #dde3ec;
+	border-radius: 6px;
+	box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+	z-index: 9999;
+	max-height: 280px;
+	overflow-y: auto;
+}
+.zre-cp-result-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 10px 14px;
+	cursor: pointer;
+	border-bottom: 1px solid #f0f0f0;
+	transition: background .12s;
+}
+.zre-cp-result-row:last-child {
+	border-bottom: none;
+}
+.zre-cp-result-row:hover,
+.zre-cp-result-row:focus {
+	background: #f0f4ff;
+	outline: none;
+}
+.zre-cp-result-img {
+	width: 44px;
+	height: 44px;
+	object-fit: cover;
+	border-radius: 4px;
+	flex-shrink: 0;
+	border: 1px solid #eee;
+}
+.zre-cp-result-info {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	min-width: 0;
+}
+.zre-cp-result-name {
+	font-size: 13.5px;
+	font-weight: 500;
+	color: #222;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.zre-cp-result-price {
+	font-size: 12.5px;
+	color: #666;
+}
+.zre-cp-loading,
+.zre-cp-no-results {
+	padding: 14px;
+	font-size: 13px;
+	color: #888;
+	text-align: center;
+}
+
+/* ── Selected product card ────────────────────────────────────── */
+.zre-cp-selected {
+	margin-top: 12px;
+	border: 1px solid #d0d8f5;
+	border-radius: 7px;
+	background: #f0f4ff;
+	padding: 12px 14px;
+}
+.zre-cp-selected-inner {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.zre-cp-selected-img {
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+	border-radius: 5px;
+	border: 1px solid #c5d0e8;
+	flex-shrink: 0;
+}
+.zre-cp-selected-info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	min-width: 0;
+}
+.zre-cp-selected-name {
+	font-size: 14px;
+	font-weight: 600;
+	color: #1a2a4a;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.zre-cp-selected-price {
+	font-size: 13px;
+	color: #555;
+}
+.zre-cp-clear {
+	background: none;
+	border: none;
+	color: #999;
+	font-size: 20px;
+	cursor: pointer;
+	line-height: 1;
+	padding: 0 4px;
+	flex-shrink: 0;
+	transition: color .12s;
+}
+.zre-cp-clear:hover {
+	color: #c00;
+}
+
+/* ── Variation picker ─────────────────────────────────────────── */
+.zre-cp-variation-wrap {
+	margin-top: 12px;
+}
+.zre-cp-variation-wrap label,
+.zre-cp-qty-wrap label {
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	color: #444;
+	margin-bottom: 5px;
+}
+.zre-cp-variation-select {
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 13.5px;
+	border: 1px solid #c9d4df;
+	border-radius: 5px;
+	background: #fff;
+	color: #333;
+	box-sizing: border-box;
+}
+
+/* ── Qty selector ─────────────────────────────────────────────── */
+.zre-cp-qty-wrap {
+	margin-top: 10px;
+}
+.zre-cp-qty {
+	width: 80px;
+	padding: 7px 10px;
+	font-size: 14px;
+	border: 1px solid #c9d4df;
+	border-radius: 5px;
+	background: #fff;
+	color: #333;
+	box-sizing: border-box;
+}
+
+/* ── Price difference banner ──────────────────────────────────── */
+.zre-cp-price-banner {
+	margin-top: 12px;
+	padding: 10px 14px;
+	border-radius: 6px;
+	font-size: 13.5px;
+	line-height: 1.6;
+	border: 1px solid transparent;
+}
+.zre-cp-price-banner.zre-banner-pay-more {
+	background: #fff1f0;
+	border-color: #ffb3b0;
+	color: #b91c1c;
+}
+.zre-cp-price-banner.zre-banner-store-credit {
+	background: #f0fdf4;
+	border-color: #86efac;
+	color: #15803d;
+}
+.zre-cp-price-banner.zre-banner-even {
+	background: #f0f9ff;
+	border-color: #bae6fd;
+	color: #0369a1;
+}
+.zre-cp-price-banner strong {
+	font-weight: 700;
+}
+
+/* ============================================================
+   Fulfillment Dashboard — Exchange Type Badges
+   Added to fulfillment.css via this file via admin enqueue
+   ============================================================ */
+.zre-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 3px 9px;
+	border-radius: 4px;
+	font-size: 11.5px;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: .2px;
+	white-space: nowrap;
+}
+.zre-badge-cross {
+	background: #ede9fe;
+	color: #5b21b6;
+	border: 1px solid #c4b5fd;
+}
+.zre-badge-same {
+	background: #f0f9ff;
+	color: #0369a1;
+	border: 1px solid #bae6fd;
+}
+.zre-badge-pay-more {
+	background: #fee2e2;
+	color: #b91c1c;
+	border: 1px solid #fca5a5;
+}
+.zre-badge-credit {
+	background: #dcfce7;
+	color: #15803d;
+	border: 1px solid #86efac;
+}
+.zre-badge-even {
+	background: #f1f5f9;
+	color: #475569;
+	border: 1px solid #cbd5e1;
+}
+
+/* ── Per-attribute variation pickers (WooCommerce product-page style) ── */
+.zre-cp-attr-row {
+	margin-bottom: 12px;
+}
+.zre-cp-attr-label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+.zre-cp-attr-select {
+	width: 100%;
+	max-width: 320px;
+}
+.zre-cp-attr-price {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 8px 0;
+}
+.zre-cp-attr-msg {
+	color: #b32d2e;
+	margin: 8px 0;
+}
+
+/* ── Per-item widgets: one search box inside every exchanged item's block ── */
+.request_item_details .zre-cross-product-wrap {
+	width: 100%;
+	margin: 12px 0 4px;
+	box-sizing: border-box;
+}
+.request_item_details .zre-cp-search-box {
+	position: relative;
+}
+.request_item_details .zre-cp-results {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+	max-height: 240px;
+	overflow-y: auto;
+}

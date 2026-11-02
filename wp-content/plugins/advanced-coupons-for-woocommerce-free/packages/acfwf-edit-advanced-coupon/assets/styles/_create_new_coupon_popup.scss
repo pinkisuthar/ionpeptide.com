@@ -1,0 +1,166 @@
+.acfw-new-coupon-popup {
+  p {
+    color: #6b7280 !important;
+  }
+
+  h2 {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+    margin-bottom: 0px !important;
+  }
+
+  h3 {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    margin: 8px !important;
+    font-weight: 500 !important;
+  }
+
+  button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .vex-content {
+    border-radius: 12px;
+    width: 900px !important;
+    max-width: 90vw;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .acfw-new-coupon-popup-header {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .acfw-new-coupon-popup-buttons {
+    padding: 10px 10px 0px 10px;
+  }
+
+  .acfw-options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+
+  /* Option Cards */
+  .acfw-option-card {
+    padding: 32px;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .acfw-option-card:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 10px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
+  .acfw-option-card-manual:hover {
+    border-color: #3b82f6;
+    background-color: #eff6ff;
+  }
+
+  .acfw-option-card-template:hover {
+    border-color: #8b5cf6;
+    background-color: #faf5ff;
+  }
+
+  .acfw-option-card-ai:hover {
+    border-color: #f59e0b;
+    background-color: #fffbeb;
+  }
+
+  /* Option Content */
+  .acfw-option-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  /* Option Icons */
+  .acfw-option-icon {
+    padding: 16px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+
+  .acfw-option-icon-manual {
+    background-color: #dbeafe;
+  }
+
+  .acfw-option-icon-template {
+    background-color: #f3e8ff;
+  }
+
+  .acfw-option-card-manual:hover .acfw-option-icon-manual {
+    background-color: #bfdbfe;
+  }
+
+  .acfw-option-card-template:hover .acfw-option-icon-template {
+    background-color: #e9d5ff;
+  }
+
+  .acfw-option-icon-ai {
+    background-color: #fef3c7;
+  }
+
+  .acfw-option-card-ai:hover .acfw-option-icon-ai {
+    background-color: #fde68a;
+  }
+
+  .acfw-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .acfw-icon-manual {
+    color: #2563eb;
+  }
+
+  .acfw-icon-template {
+    color: #7c3aed;
+  }
+
+  .acfw-icon-ai {
+    color: #d97706;
+  }
+
+  /* Option Text */
+  .acfw-option-text {
+    flex: 1;
+  }
+
+  .acfw-option-description {
+    margin: 0;
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .acfw-options-container {
+      padding: 20px;
+    }
+
+    .acfw-options-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .acfw-option-card {
+      padding: 24px;
+    }
+  }
+}

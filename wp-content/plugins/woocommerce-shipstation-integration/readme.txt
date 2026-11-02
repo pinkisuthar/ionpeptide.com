@@ -1,0 +1,388 @@
+=== ShipStation for WooCommerce ===
+Contributors: woocommerce, automattic, royho, akeda, mattyza, bor0, woothemes, dwainm, laurendavissmith001, Kloon
+Tags: shipping, woocommerce, woo, automattic
+Requires at least: 7.0
+Tested up to: 7.1
+WC tested up to: 11.2
+WC requires at least: 11.0
+Requires PHP: 7.4
+Requires Plugins: woocommerce
+Stable tag: 5.4.0
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+Power your entire shipping operation from one platform.
+
+== Description ==
+
+Power your entire shipping operation from one platform.
+
+https://www.youtube.com/watch?v=V50bZh_o3uo
+
+= The smarter way to ship, every time =
+Our comprehensive shipping platform connects directly to your Woo store, consolidating all your orders into a single, intuitive dashboard. From there, you can process orders, generate shipping labels from a wide range of carriers, and automatically update tracking information back to your customers. With a centralized view of your entire shipping workflow, you can easily manage fulfillment, returns, and inventory across multiple channels. This integration simplifies complex logistics and provides the visibility you need to make informed decisions and scale your operations with confidence.
+
+Available in local languages for the United States, Canada, United Kingdom, Australia, New Zealand, France, and Germany. [Try it for free for 30 days!](https://www.shipstation.com/?ref=partner-woocommerce&utm_campaign=partner-referrals&utm_source=woocommerce&utm_medium=partner).
+
+= Why use ShipStation =
+- __Automatically import orders__ from your Woo store and other sales channels to a single platform.
+- __Access a wide network of shipping carriers__ to generate labels, compare rates, and track packages.
+- __Create custom rules__ to automatically apply shipping preferences, allocate orders, and streamline repetitive tasks.
+- __Generate hundreds of labels__ at once and manage fulfillment in batches to maximize productivity.
+- __Simplify the returns process__ by generating return labels and managing shipments from a single dashboard.
+
+= Get started in minutes =
+1. Sign up for a [no-risk, free ShipStation trial](https://www.shipstation.com/?ref=partner-woocommerce&utm_campaign=partner-referrals&utm_source=woocommerce&utm_medium=partner).
+2. Install the extension and connect your store.
+3. Immediately enable discounted carrier rates or connect your own accounts.
+4. Sync orders from WooCommerce and other channels and automate your order management.
+5. Batch-print labels.
+6. Update your customers with customized, branded emails and tracking.
+7. Delight your customers, and rinse and repeat when they buy again!
+
+== Frequently Asked Questions ==
+
+= Where can I find documentation and a setup guide? =
+You’ve come to the right place. [Our documentation](https://woocommerce.com/document/shipstation-for-woocommerce/) for ShipStation for WooCommerce includes detailed setup instructions, troubleshooting tips, and more.
+
+= Where can I get support? =
+To start, [review our troubleshooting tips](https://woocommerce.com/document/shipstation-for-woocommerce/#troubleshooting) for answers to common questions. Then, if you need further assistance, get in touch via the [official support forum](https://wordpress.org/support/plugin/woocommerce-shipstation-integration/).
+
+= Do I need a ShipStation account? =
+Yes; [sign up for a free 30-day trial](https://www.shipstation.com/?ref=partner-woocommerce&utm_campaign=partner-referrals&utm_source=woocommerce&utm_medium=partner).
+
+= Does this extension provide real-time shipping quotes at checkout? =
+No. Merchants will need a _real-time shipping quote extension_ (such as USPS, FedEx, UPS, etc.) or an alternate method (e.g. [flat rate charges](https://woocommerce.com/document/flat-rate-shipping/).
+
+= Does ShipStation send data when not in use (e.g. for free shipping)? =
+Yes; conditional exporting is not currently available.
+
+= Why are multiple line items in a WooCommerce order combined when they reach ShipStation? =
+This commonly occurs when products and variations do not have a unique [stock-keeping unit (SKU)](https://woocommerce.com/document/managing-products/product-editor-settings/#what-is-sku) assigned to them. Allocate a unique SKU to each product — and each variation of that product — to ensure order line items show up correctly in ShipStation.
+
+= My question is not listed; where can I find more answers? =
+[Review our general FAQ](https://woocommerce.com/document/shipstation-for-woocommerce/#frequently-asked-questions) or [contact support](https://wordpress.org/support/plugin/woocommerce-shipstation-integration/).
+
+== Screenshots ==
+
+1. Streamline not just labels, but your entire e-commerce logistics operation.
+2. Delight customers with branded returns, easy tracking, and more.
+3. Compare rates and save up to 90% off on top carriers.
+4. Eliminate manual work, automate tasks, and ship more orders, faster.
+5. Power complex international shipments with confidence.
+6. Manage every order from one dashboard, with a single login.
+
+== Changelog ==
+
+= 5.4.0 - 2026-10-14 =
+* Fix   - Request ShipStation rates as soon as the customer has entered a country and ZIP code, instead of waiting for a city, and stop logging errors while the address is still incomplete.
+
+= 5.3.9 - 2026-10-07 =
+* Add   - Filter woocommerce_shipstation_checkout_rates_is_checkout_context, which lets other checkout requests receive ShipStation rates.
+* Fix   - Return ShipStation checkout rates in WooCommerce PayPal Payments checkout requests, where paying could fail with "No shipping method has been selected".
+* Fix   - Keep the shipping rate the customer chose when ShipStation quotes the rates again during checkout, including when the services come back in a different order, instead of switching the order to the first rate.
+* Fix   - Clear an incomplete refund list from the object cache after an orders export or shipment notification skips a refund it cannot read.
+
+= 5.3.8 - 2026-10-01 =
+* Tweak - WooCommerce 11.2 Compatibility.
+* Tweak - Include composer.json in the plugin package.
+* Tweak - Sanitize the export and shipment notification request values with sanitize_text_field(), and bind the order IDs in the order items cache warm.
+
+= 5.3.7 - 2026-09-22 =
+* Fix   - Stop a ShipStation status mapping that matches none of the enabled export statuses from exporting every order on stores using the older post-based order storage. Export settings with no usable order status now return an empty page on both order storages, with a warning in the ShipStation log, instead of the whole store. An enabled export status that is no longer registered on the store is now left out of both exports with a warning in the ShipStation log, where the XML export on high-performance order storage used to include its orders.
+
+= 5.3.6 - 2026-09-16 =
+* Tweak - Update the Jetpack Connection package to 9.1.2.
+
+= 5.3.5 - 2026-09-03 =
+* Fix   - Return a logged error when the orders export fails instead of failing silently, stop counting refunds as orders in the export page totals, and log a warning when ShipStation requests only statuses that are not enabled for export.
+* Fix   - Stop another plugin's output during an orders export from reaching ShipStation as a valid-looking response. The output is kept out of the export, ShipStation receives an error it will retry, and the discarded output is written to the ShipStation log so the plugin responsible can be identified.
+* Fix   - Stop another plugin's error while adding the "Order has been exported to Shipstation" order note from costing the rest of the export batch its notes. The failure is logged with the file and line that caused it.
+* Fix   - Stop another plugin's replacement WooCommerce logger from breaking a ShipStation request. A logger that prints or errors while ShipStation writes to the log can no longer reach the response or end the request, and a custom logger no longer causes a fatal error.
+* Fix   - Stop subscriptions and other non-order records from taking up room on the export page. On stores running WooCommerce Subscriptions, subscriptions on hold or cancelled counted toward the page size and the reported total, so a page could deliver far fewer orders than ShipStation asked for.
+* Tweak - Log entries carrying another plugin's error text are now written as a single entry, so a line break in that text can no longer appear as a separate log line.
+* Tweak - When an export page carries fewer orders than the store found, the ShipStation log now says so once for the page, naming how many were skipped and why, instead of one entry per order.
+* Tweak - WooCommerce 11.1 Compatibility.
+
+= 5.3.4 - 2026-08-24 =
+* Fix   - Stop a corrupted refund record from failing the whole orders export (REST and XML). An unreadable refund is logged and skipped: its order exports without that refund's data (so its item quantities and returns will not reflect the skipped refund) and the rest of the page is unaffected. Shipment notifications count shipped items from the readable refunds; an unreadable refund's quantity is still missing until the record is repaired.
+* Tweak - WordPress 7.1 Compatibility.
+
+= 5.3.3 - 2026-08-17 =
+* Fix   - Stop another plugin's error on the order note, or on its customer email, from failing the whole shipment notification. The shipment is still recorded, and the error is written to the ShipStation log with the file and line that caused it. Note that woocommerce_shipstation_shipnotify_status_updated now fires only when the order actually reached the shipped status.
+* Fix   - Complete the order after a shipment notification even when another plugin's error interrupts a write to the order. On stores using the older post-based order storage this could previously leave the order in its old status, with the shipment recorded but never marked complete.
+* Tweak - On WooCommerce 10.8 and above, send the emails a shipment notification triggers in the background rather than during the request, so a slow or memory-heavy email template can no longer fail it. Use the new woocommerce_shipstation_defer_shipment_emails filter to send them inline again.
+* Fix   - Stop the connection list reporting a ShipStation route as Active while its requests were in fact being rejected. A connection is now recorded only once a request has authenticated.
+
+= 5.3.2 - 2026-08-10 =
+* Fix   - Bound the order notes fetched per order during export, so a large note history can no longer exhaust PHP memory. Exports now send each order's most recent notes, up to 50 internal and 50 customer notes per order, instead of loading every note on the page.
+
+= 5.3.1 - 2026-07-27 =
+* Fix   - Stop duplicate "exported to Shipstation" order notes on stores with a persistent object cache and HPOS.
+* Tweak - WooCommerce 11.0 Compatibility.
+* Fix   - Prevent duplicate shipment tracking notes and an inflated shipped-item count when ShipStation retries a shipment notification for the same order. Note that the woocommerce_shipstation_shipnotify_send_tracking_note filter no longer runs on a duplicate retry.
+
+= 5.3.0 - 2026-07-15 =
+* Add   - Checkout Rates: merchants can now enable ShipStation live shipping rates at checkout from the ShipStation integration settings; defaults to off and requires ShipStation provisioning before it can be activated.
+* Fix   - Prevent a fatal error on WooCommerce versions older than the plugin's supported minimum that could take the whole site down; ShipStation now falls back to built-in order-status and product-type values instead of failing to load.
+
+= 5.2.0 - 2026-06-25 =
+* Add   - A settings toggle to enable the WordPress.com transport, no developer feature flag required.
+* Add   - Manage credentials, monitor connection health, and troubleshoot issues from a new connection section on the ShipStation settings tab.
+* Fix   - Restore ShipStation shipment notifications for orders containing a Product Bundle that was changed from Assembled to Unassembled after purchase.
+
+= 5.1.1 - 2026-06-22 =
+* Tweak - WooCommerce 10.9 Compatibility.
+
+= 5.1.0 - 2026-06-15 =
+* Add   - GET /orders now accepts order_ids[] to fetch specific orders by ID, bypassing the status filter and pagination.
+* Fix   - Diagnostics endpoint caused excessive database queries on high-traffic sites; now reads environment data directly from PHP/WC/WP constants with a 5-minute transient cache.
+
+= 5.0.9 - 2026-06-01 =
+* Fix   - REST shipnotify: fire the legacy API action so third-party compatibility modules (e.g. WooCommerce Composite Products, Product Bundles) that register item-filtering hooks on `woocommerce_api_wc_shipstation` are active when shippable item counts are calculated.
+* Fix   - Export orders whose WooCommerce status has no ShipStation mapping as "OnHold" instead of the invalid "Unknown" value that made ShipStation reject the entire REST import batch. "OnHold" holds the order for review rather than auto-shipping a status whose meaning is unknown.
+* Fix   - WPCOM transport: only enforce the strict ShipStation Basic Auth gate on `/wc-shipstation/v1/*` requests relayed through the WordPress.com proxy (identified by the `X-ShipStation-Authorization` header). Direct REST calls now defer to WooCommerce core authentication, restoring the query-string consumer key/secret fallback that misconfigured hosts (CGI/FastCGI, header-stripping WAFs) rely on when the transport flag is enabled.
+
+= 5.0.8 - 2026-05-25 =
+* Fix   - Harden REST API key handling: prevent duplicate key rows on Connection Details dialog open (most visible on Multisite), tag plugin-generated keys with `ck_wcss_` / `cs_wcss_`, and show the truncated key in the dialog.
+* Fix   - Preserve custom order statuses across status-mapping syncs when Status Mapping Mode is "ShipStation".
+* Fix   - In "Plugin" Status Mapping Mode, ignore the `status_mapping` query parameter on `/wc-shipstation/v1/orders` so the merchant's export-statuses list (including custom statuses) is the source of truth and orders with merchant-added statuses are no longer dropped on export.
+* Tweak - Status Mapping Mode: rename the "API" option to "ShipStation" and clarify the description; the mapping fields are disabled when "ShipStation" is selected.
+
+= 5.0.7 - 2026-05-20 =
+* Tweak - WordPress 7.0 Compatibility.
+
+= 5.0.6 - 2026-05-18 =
+* Fix   - Restore tracking updates from ShipStation when the original items have been replaced before shipping.
+* Tweak - WooCommerce 10.8 Compatibility.
+
+= 5.0.5 - 2026-05-11 =
+* Add   - When the WPCOM transport flag is on, the `/wc-shipstation/v1/*` REST namespace requires a WooCommerce Basic Auth credential that matches a row in `woocommerce_api_keys` on every request. Other authentication paths (App Passwords, cookies, Jetpack-signed requests on their own) cannot reach these routes. The lookup is by hashed `consumer_key` against the table, so installs that issued a ShipStation key before the auth modal landed continue to authenticate. With the flag off, the existing `wc_shipstation_user_can_manage_wc` filter remains the sole authority and behaviour matches previous releases.
+* Add   - Auth modal now surfaces the WPCOM proxy URL (`https://public-api.wordpress.com/wpcom/v2/sites/{blog_id}/shipstation`) as the "Site URL" when the WPCOM transport flag is on AND the site is Jetpack-connected, so ShipStation routes traffic through WordPress.com instead of the merchant URL.
+
+= 5.0.4 - 2026-05-05 =
+* Fix   - Prevent the "exported to ShipStation" marker from bumping the order's modified date, so ShipStation's incremental `modified_after` polls no longer re-fetch orders it already received.
+* Tweak - Enhance REST-API `/orders` endpoint performance.
+
+= 5.0.3 - 2026-04-27 =
+* Add   - Experimental WPCOM-brokered transport scaffolding (behind the `WC_SHIPSTATION_WPCOM_TRANSPORT` feature flag). Adds a "WordPress.com Connection" settings section that lets stores connect to WordPress.com via the Jetpack Connection package. No traffic is routed over the new channel yet.
+* Fix   - Avoid fatal error in REST shipnotify when an order line item references a deleted product.
+* Fix   - Enable WooCommerce consumer key/secret authentication for REST API requests made via the `?rest_route=` query parameter (plain permalink fallback).
+
+= 5.0.2 - 2026-04-17 =
+* Fix   - Decode HTML entities in order customer notes, internal notes, and gift messages before export so special characters (e.g. &, £, ') appear correctly in ShipStation rather than as HTML entities.
+* Fix   - Separate customer-facing order notes from internal notes in the REST API response so notes added for the buyer are exported as `NotesToBuyer` instead of being mixed into `InternalNotes`.
+* Fix   - Fall back to user account and shipping details for buyer name, email, and phone when billing fields are not populated.
+
+= 5.0.1 - 2026-04-15 =
+* Fix   - Assign REST API credentials to the site's first administrator to prevent `rest_forbidden` errors when key generation is triggered by a shop manager or other non-administrator account.
+
+= 5.0.0 - 2026-04-13 =
+* Add   - `returns` field to the REST API order response to expose refund and return data, enabling ShipStation to detect fully refunded/cancelled orders and update their status accordingly.
+* Fix   - Orders with fractional item quantities (e.g. 0.375 yards of fabric) now export correctly to ShipStation, with the original amount visible in the product details panel.
+* Fix   - Use the order's billing name and email for buyer details in the REST API response so ShipStation reflects the actual order contact rather than the linked customer account profile.
+* Tweak - WooCommerce 10.7 Compatibility.
+
+= 4.9.8 - 2026-03-23 =
+* Fix   - Decode HTML entities in item option names and values before export to prevent special characters (e.g. & and £) from appearing as HTML entities on ShipStation packing slips.
+* Fix   - Prevent API credentials from being displayed when the database write fails, and ensure old keys are not deleted until new ones are successfully saved.
+
+= 4.9.7 - 2026-03-16 =
+* Fix   - Eliminate redundant order item lookups in the REST API.
+
+= 4.9.6 - 2026-03-16 =
+* Fix   - Trigger `woocommerce_api_wc_shipstation` action when calling REST API orders export endpoint for 3rd party plugins compatibility.
+
+= 4.9.5 - 2026-03-09 =
+* Tweak - WooCommerce 10.6 Compatibility.
+
+= 4.9.4 - 2026-03-05 =
+* Fix   - REST API payment adjustments now correctly use negative values for cart discounts.
+* Fix   - Prevent spurious log warnings when retrieving cost of goods sold on stores with the COGS feature disabled.
+
+= 4.9.3 - 2026-03-04 =
+* Add   - Populate shipping service name in REST API order export fulfillment data.
+* Fix   - Order dates exported to ShipStation via the XML and REST APIs now correctly reflect UTC time.
+* Fix   - REST API order export now correctly places cart discounts in payment adjustments instead of as separate line items.
+
+= 4.9.2 - 2026-02-16 =
+* Fix   - XML API date filtering incorrectly interpreted dates using server timezone instead of ShipStation's PST/PDT timezone.
+
+= 4.9.1 - 2026-02-03 =
+* Tweak - WooCommerce 10.5 Compatibility.
+
+= 4.9.0 - 2026-01-12 =
+* Add   - REST API endpoints to export and import order data.
+
+= 4.8.3 - 2025-12-10 =
+* Tweak - WordPress 6.9 and WooCommerce 10.4 Compatibility.
+
+= 4.8.2 - 2025-11-17 =
+* Fix   - Authentication Data modal could fail to load on some environments.
+
+= 4.8.1 - 2025-10-15 =
+* Tweak - WooCommerce 10.3 compatibility.
+
+= 4.8.0 - 2025-10-07 =
+* Add   - Enhanced ShipStation authentication interface for a smoother user experience.
+
+= 4.7.8 - 2025-09-16 =
+* Fix   - Error when processing renewal via WooCommerce Subscription.
+
+= 4.7.7 - 2025-09-15 =
+* Tweak - WooCommerce 10.2 compatibility.
+
+= 4.7.6 - 2025-08-11 =
+* Tweak - WooCommerce 10.1 compatibility.
+
+= 4.7.5 - 2025-08-05 =
+* Fix   - Out of memory allocation error on checkout page.
+* Fix   - Remove deprecated load_plugin_textdomain() call.
+
+= 4.7.4 - 2025-07-07 =
+* Tweak - WooCommerce 10.0 compatibility.
+
+= 4.7.3 - 2025-06-30 =
+* Fix   - Compatibility issue with WooCommerce version lower than 8.9.
+
+= 4.7.2 - 2025-06-24 =
+* Fix   - Fatal error on Checkout page.
+
+= 4.7.1 - 2025-06-18 =
+* Fix   - Fatal error on WooCommerce Subscriptions edit page.
+
+= 4.7.0 - 2025-06-17 =
+* Add   - REST API endpoints to update and retrieve product inventory data.
+* Add   - Gift feature.
+
+= 4.6.1 - 2025-06-09 =
+* Tweak - WooCommerce 9.9 compatibility.
+
+= 4.6.0 - 2025-06-02 =
+* Add   - New hook `woocommerce_shipstation_shipnotify_status_updated` that will be called after the order status is changed.
+* Add   - REST API endpoints to update and retrieve product inventory data.
+
+= 4.5.2 - 2025-05-26 =
+* Fix   - Security updates.
+* Tweak - Update ShipStation branding.
+
+= 4.5.1 - 2025-04-22 =
+* Add   - Include the product dimensions when exporting an order to ShipStation.
+* Tweak - Added a filter to allow the user to disable exporting order discounts as a separate line item to ShipStation.
+
+= 4.5.0 - 2025-04-14 =
+* Add   - woocommerce_shipstation_shipnotify_order_shipped filter - Allow to override is order shipped.
+* Add   - woocommerce_shipstation_shipnotify_tracking_note filter - Allow to override tracking note.
+* Add   - woocommerce_shipstation_shipnotify_send_tracking_note filter - Allow to override should tracking note be sent to customer.
+* Tweak - Move woocommerce_shipstation_shipnotify action before order status is updated.
+
+= 4.4.9 - 2025-04-07 =
+* Tweak - WooCommerce 9.8 compatibility.
+
+= 4.4.8 - 2025-03-10 =
+* Fix   - Make the value of `woocommerce_shipstation_get_order_id` filter consistent by removing the conversion function.
+
+= 4.4.7 - 2025-03-04 =
+* Tweak - PHP 8.4 Compatibility.
+* Tweak - WooCommerce 9.7 Compatibility.
+
+= 4.4.6 - 2024-11-27 =
+* Tweak - Reimplemented compatibility with WordPress 6.7 while maintaining unchanged execution priorities.
+
+= 4.4.5 - 2024-10-28 =
+* Tweak - WordPress 6.7 Compatibility.
+
+= 4.4.4 - 2024-07-02 =
+* Fix   - Security updates.
+* Tweak - WooCommerce 9.0 and WordPress 6.6 Compatibility.
+
+= 4.4.3 - 2024-05-27 =
+* Tweak - Performance enhancement.
+
+= 4.4.2 - 2024-04-09 =
+* Fix - Cannot retrieve order number on from GET variable.
+
+= 4.4.1 - 2024-03-25 =
+* Tweak - WordPress 6.5 compatibility.
+
+= 4.4.0 - 2024-03-19 =
+* Fix - Applying WordPress coding standards.
+
+= 4.3.9 - 2023-09-05 =
+* Fix - Security updates.
+* Tweaks - Developer dependencies update.
+* Add - Developer QIT workflow.
+
+= 4.3.8 - 2023-08-09 =
+* Fix - Security updates.
+
+= 4.3.7 - 2023-05-08 =
+* Fix - Allow filtering the order exchange rate and currency code before exporting to ShipStation.
+
+= 4.3.6 - 2023-04-20 =
+* Fix - Compatibility for Sequential Order Numbers by WebToffee.
+* Add - New query var for WC_Order_Query called `wt_order_number` to search order number.
+
+= 4.3.5 - 2023-04-17 =
+* Fix - Revert version 4.3.4's compatibility update for Sequential Order Numbers by WebToffee.
+
+= 4.3.4 - 2023-04-12 =
+* Fix   - Compatibility for Sequential Order Numbers by WebToffee.
+
+= 4.3.3 - 2023-03-29 =
+* Fix   - Fatal error when product image does not exist.
+
+= 4.3.2 - 2022-11-29 =
+* Fix   - Use product variation name when exporting a product variation.
+
+= 4.3.1 - 2022-10-25 =
+* Add   - Declared HPOS compatibility.
+
+= 4.3.0 - 2022-10-13 =
+* Add   - High-Performance Order Storage compatibility.
+
+= 4.2.0 - 2022-09-07 =
+* Add   - Filter for manipulating address export data.
+* Fix   - Remove unnecessary files from plugin zip file.
+* Tweak - Transition version numbering to WordPress versioning.
+* Tweak - WC 6.7.0 and WP 6.0.1 compatibility.
+* Fix - Remove 'translate : true' in package.json.
+
+= 4.1.48 - 2021-11-03 =
+* Fix - Critical Error when null value is passed to appendChild method.
+* Fix - $logging_enabled compared against string instead of boolean.
+
+= 4.1.47 - 2021-09-29 =
+* Fix - Change API Export order search to be accurate down to the second, not just the date.
+
+= 4.1.46 - 2021-09-10 =
+* Fix   - Order is not changed to completed when the order has partial refund and is marked as shipped in ShipStation.
+
+= 4.1.45 - 2021-08-24 =
+* Fix    - Remove all usage of deprecated $HTTP_RAW_POST_DATA.
+
+= 4.1.44 - 2021-08-12 =
+* Fix    - Changing text domain to "woocommerce-shipstation-integration" to match with plugin slug.
+* Fix    - Order product quantities do not sync to Shipstation when using a refund.
+* Fix    - PHP notice error "wc_cog_order_total_cost" was called incorrectly.
+
+= 4.1.43 - 2021-07-27 =
+* Fix   - API returns status code 200 even when errors exist.
+* Tweak - Add version compare for deprecated Order::get_product_from_item().
+
+= 4.1.42 - 2021-04-20 =
+* Fix - Use order currency code instead of store currency.
+
+= 4.1.41 - 2021-03-02 =
+* Add - Add currency code and weight units to orders XML.
+
+= 4.1.40 - 2020-11-24 =
+* Tweak - PHP 8 compatibility fixes.
+
+= 4.1.39 - 2020-10-06 =
+* Add   - Add woocommerce_shipstation_export_order_xml filter.
+* Tweak - Update Readme.
+* Tweak - WC 4.5 compatibility.
+* Fix   - Updated shop_thumbnail to woocommerce_gallery_thumbnail for thumbnail export.
+
+[See changelog for all versions](https://github.com/woocommerce/woocommerce-shipstation/raw/master/changelog.txt).

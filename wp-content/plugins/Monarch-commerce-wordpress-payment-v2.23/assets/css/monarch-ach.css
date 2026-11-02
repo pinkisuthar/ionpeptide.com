@@ -1,0 +1,1132 @@
+/* Monarch ACH Payment Gateway Styles */
+
+#monarch-ach-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+#monarch-ach-form p {
+    margin-bottom: 15px;
+}
+
+/* Editable Fields with Edit Button */
+.monarch-editable-field {
+    margin-bottom: 15px;
+}
+
+.monarch-editable-field label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.monarch-field-display {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #28a745;
+    border-radius: 4px;
+    padding: 10px 12px;
+}
+
+.monarch-field-value {
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.monarch-edit-btn {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #007cba;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.monarch-edit-btn:hover {
+    background: #007cba;
+    color: white;
+    border-color: #007cba;
+}
+
+.monarch-editable-field.confirmed .monarch-field-input {
+    display: none;
+}
+
+.monarch-editable-field.confirmed .monarch-field-display {
+    display: flex;
+}
+
+#monarch-ach-form label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#monarch-ach-form input,
+#monarch-ach-form select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+#monarch-ach-form input:focus,
+#monarch-ach-form select:focus {
+    outline: none;
+    border-color: #007cba;
+    box-shadow: 0 0 5px rgba(0, 124, 186, 0.3);
+}
+
+#monarch-ach-form input.error,
+#monarch-ach-form select.error {
+    border-color: #dc3545;
+    background-color: #fff5f5;
+}
+
+#monarch-ach-form input.error:focus,
+#monarch-ach-form select.error:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.3);
+}
+
+#monarch-ach-errors {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #f5c6cb;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+/* Email mismatch notice (scoped) */
+.woocommerce-checkout .monarch-email-mismatch-notice {
+    position: relative;
+    list-style: none;
+    margin: 12px 0;
+    padding: 12px 14px 12px 46px;
+    border-radius: 6px;
+    border: 1px solid #f5c6cb;
+    background: #f8d7da;
+    color: #721c24;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Disable theme/Woo default icon and use our compact one */
+.woocommerce-checkout .monarch-email-mismatch-notice.woocommerce-error::before,
+.woocommerce-checkout .monarch-email-mismatch-notice::before {
+    content: "" !important;
+}
+
+.woocommerce-checkout .monarch-email-mismatch-notice::after {
+    content: "!";
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #b32d2e;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.monarch-connected-status {
+    background: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #c3e6cb;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.monarch-connected-status::before {
+    content: "✓";
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.monarch-bank-section {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+    background: white;
+}
+
+.monarch-bank-section h4 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.monarch-additional-info {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.monarch-additional-info h4 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.monarch-security-notice {
+    background: #e7f3ff;
+    color: #0073aa;
+    padding: 12px;
+    border-radius: 4px;
+    border-left: 4px solid #0073aa;
+    margin: 15px 0;
+    font-size: 13px;
+}
+
+.monarch-security-notice::before {
+    content: "🔒";
+    margin-right: 8px;
+}
+
+.required {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Loading states */
+.monarch-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.monarch-loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #007cba;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Bank connection modal */
+/* Block themes: body/wrappers often use transform, which makes position:fixed children attach to that
+   ancestor — modal then renders at end of page flow. Pin to viewport + allow hosting under <html>. */
+#bank-connection-modal,
+#bank-connection-modal.monarch-bank-connection-modal,
+html > #bank-connection-modal {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    transform: none !important;
+    z-index: 2147483647 !important;
+    isolation: isolate;
+    pointer-events: auto;
+    /* Block themes: predictable font/text so WC/block globals don’t blow up typography */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    color: #333 !important;
+    text-align: left !important;
+}
+
+#bank-connection-modal *,
+#bank-connection-modal *::before,
+#bank-connection-modal *::after {
+    box-sizing: border-box !important;
+}
+
+.monarch-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+    pointer-events: auto;
+}
+
+.monarch-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 95%;
+    max-width: 500px;
+    max-height: 90vh;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: auto;
+}
+
+/* Block / WC Blocks: scope + !important so theme & .wc-block-* button/flex rules don’t break the modal */
+#bank-connection-modal .monarch-modal-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: rgba(0, 0, 0, 0.65) !important;
+    z-index: 0 !important;
+    pointer-events: auto !important;
+}
+
+#bank-connection-modal .monarch-modal-content {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: translate(-50%, -50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    background: #fff !important;
+    width: min(95%, 920px) !important;
+    max-width: 920px !important;
+    min-width: 0 !important;
+    height: 85vh !important;
+    max-height: 90vh !important;
+    min-height: 280px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35) !important;
+    overflow: hidden !important;
+    z-index: 1 !important;
+    pointer-events: auto !important;
+}
+
+#bank-connection-modal .monarch-modal-header {
+    position: relative !important;
+    flex-shrink: 0 !important;
+    display: block !important;
+    padding: 20px 25px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #eee !important;
+    background: #f8f9fa !important;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+#bank-connection-modal .monarch-modal-header h3 {
+    margin: 0 !important;
+    padding: 0 40px 0 0 !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
+    color: #333 !important;
+}
+
+#bank-connection-modal #close-bank-modal.monarch-modal-close,
+#bank-connection-modal .monarch-modal-close {
+    position: absolute !important;
+    top: 15px !important;
+    right: 15px !important;
+    left: auto !important;
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 36px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 50% !important;
+    font-size: 28px !important;
+    line-height: 1 !important;
+    color: #999 !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    z-index: 2 !important;
+}
+
+#bank-connection-modal .monarch-modal-toggle {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-bottom: 1px solid #eee !important;
+    background: #f8f9fa !important;
+}
+
+#bank-connection-modal .monarch-modal-method-btn {
+    flex: 1 1 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 15px 20px !important;
+    border: none !important;
+    border-bottom: 3px solid transparent !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: #666 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    line-height: 1.3 !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+}
+
+#bank-connection-modal .monarch-modal-method-btn.active {
+    color: #007cba !important;
+    background: #fff !important;
+    border-bottom-color: #007cba !important;
+}
+
+/* Tab panels: never use display:flex on .monarch-modal-section alone — it overrides .hide() vs !important.
+   Only the visible panel gets flex; hidden uses --hidden (toggled in JS). */
+#bank-connection-modal .monarch-modal-section.monarch-modal-section--hidden {
+    display: none !important;
+}
+
+#bank-connection-modal .monarch-modal-section:not(.monarch-modal-section--hidden) {
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#bank-connection-modal .monarch-modal-iframe-content .monarch-iframe-container {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    background: transparent !important;
+}
+
+#bank-connection-modal #monarch-bank-iframe {
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    min-height: 200px !important;
+    height: 100% !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+}
+
+#bank-connection-modal .monarch-modal-footer {
+    flex-shrink: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 15px 25px !important;
+    text-align: center !important;
+    border-top: 1px solid #eee !important;
+    background: #f8f9fa !important;
+    border-radius: 0 0 12px 12px !important;
+}
+
+#bank-connection-modal #monarch-bank-connected-btn,
+#bank-connection-modal .monarch-modal-footer .button.alt {
+    width: auto !important;
+    max-width: 100% !important;
+    display: inline-block !important;
+    margin: 0 auto !important;
+    padding: 12px 30px !important;
+    background: #28a745 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+
+/* Manual tab: flex min-width:auto + overflow:hidden on the section clips the left edge in block checkout */
+#bank-connection-modal #modal-manual-section:not(.monarch-modal-section--hidden) {
+    min-width: 0 !important;
+    width: 100% !important;
+    align-self: stretch !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+#bank-connection-modal .monarch-modal-manual-form {
+    flex: 1 1 auto !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 24px 24px 28px 24px !important;
+}
+
+#bank-connection-modal .monarch-manual-form-inner {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+}
+
+#bank-connection-modal .monarch-manual-form-inner .form-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+#bank-connection-modal .monarch-manual-form-inner .form-row label {
+    display: block !important;
+}
+
+#bank-connection-modal .monarch-manual-form-inner .form-row input,
+#bank-connection-modal .monarch-manual-form-inner .form-row select {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Iframe modal specific styles */
+.monarch-modal-iframe-content {
+    max-width: 520px;
+    height: 85vh;
+    max-height: 85vh;
+}
+
+.monarch-modal-iframe-content #modal-auto-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.monarch-modal-iframe-content .monarch-iframe-container {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    background: transparent;
+    overflow: hidden;
+}
+
+.monarch-modal-iframe-content #monarch-bank-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+}
+
+.monarch-modal-header {
+    padding: 20px 25px;
+    border-bottom: 1px solid #eee;
+    background: #f8f9fa;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+}
+
+.monarch-modal-header h3 {
+    margin: 0 0 5px 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.monarch-modal-header p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.monarch-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #999;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.monarch-modal-close:hover {
+    background: #eee;
+    color: #333;
+}
+
+.monarch-modal-body {
+    flex: 1;
+    overflow: hidden;
+}
+
+.monarch-modal-body iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.monarch-modal-footer {
+    padding: 15px 25px;
+    border-top: 1px solid #eee;
+    background: #f8f9fa;
+    border-radius: 0 0 12px 12px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.monarch-modal-footer p {
+    margin: 0 0 10px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Instructions styling */
+.monarch-modal-instructions {
+    background: #e7f3ff;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: left;
+    border: 1px solid #b8daff;
+}
+
+.monarch-modal-instructions p {
+    margin: 0 0 10px 0;
+    color: #004085;
+    font-size: 14px;
+}
+
+.monarch-modal-instructions ol {
+    margin: 0;
+    padding-left: 20px;
+    color: #004085;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.monarch-modal-instructions ol li {
+    margin-bottom: 5px;
+}
+
+#monarch-bank-connected-btn {
+    background: #28a745;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#monarch-bank-connected-btn:hover {
+    background: #218838;
+}
+
+#monarch-bank-connected-btn:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Success pulse animation */
+#monarch-bank-connected-btn.success-pulse {
+    animation: successPulse 1s ease-in-out infinite;
+}
+
+@keyframes successPulse {
+    0%, 100% {
+        background: #28a745;
+        box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+    }
+    50% {
+        background: #218838;
+        box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+    }
+}
+
+#close-bank-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #666;
+    z-index: 1000;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+#close-bank-modal:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Connect Bank Account button */
+#monarch-connect-bank {
+    background: #007cba;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#monarch-connect-bank:hover {
+    background: #005a87;
+}
+
+#monarch-connect-bank:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Test mode indicator */
+.monarch-test-mode {
+    background: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ffeaa7;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.monarch-test-mode::before {
+    content: "⚠️";
+    margin-right: 8px;
+}
+
+/* Connect bank account button */
+.monarch-connect-btn {
+    background: #007cba;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.monarch-connect-btn:hover {
+    background: #005a87;
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #monarch-ach-form {
+        padding: 15px;
+    }
+
+    #monarch-ach-form .form-row-first,
+    #monarch-ach-form .form-row-last {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .monarch-modal-content {
+        width: 98%;
+        max-height: 98vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 8px;
+    }
+
+    .monarch-modal-header {
+        padding: 10px 15px;
+    }
+
+    .monarch-modal-header h3 {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .monarch-modal-header p {
+        display: none;
+    }
+
+    .monarch-modal-body iframe {
+        height: 100%;
+    }
+
+    .monarch-modal-footer {
+        padding: 12px 15px;
+    }
+
+    .monarch-modal-toggle {
+        flex-shrink: 0;
+    }
+
+    .monarch-modal-method-btn {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+
+/* Admin styles */
+.monarch-admin-notice {
+    background: #fff;
+    border-left: 4px solid #007cba;
+    padding: 12px;
+    margin: 15px 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.monarch-admin-notice.error {
+    border-left-color: #dc3545;
+}
+
+.monarch-admin-notice.success {
+    border-left-color: #28a745;
+}
+
+/* Bank connected status */
+.monarch-bank-connected {
+    background: #d4edda;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #c3e6cb;
+    margin: 10px 0;
+}
+
+.monarch-bank-connected p {
+    margin: 5px 0;
+}
+
+.monarch-disconnect-link {
+    color: #856404;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.monarch-disconnect-link:hover {
+    color: #dc3545;
+}
+
+/* Prominent post-disconnect banner (forced checkout reset) */
+.monarch-bank-disconnected-banner {
+    margin: 12px 0 16px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #ffeeba;
+    background: #fff3cd;
+    color: #856404;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.monarch-bank-disconnected-banner:before {
+    content: "⚠ ";
+    font-weight: 700;
+}
+
+/* Returning user styles */
+.monarch-returning-user {
+    background: #e7f3ff;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #b8daff;
+    margin: 10px 0;
+}
+
+.monarch-returning-user p {
+    margin: 5px 0;
+    color: #004085;
+}
+
+.monarch-returning-user p strong {
+    color: #004085;
+    font-size: 16px;
+}
+
+#monarch-reconnect-bank {
+    background: #007cba;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-top: 10px;
+}
+
+#monarch-reconnect-bank:hover {
+    background: #005a87;
+}
+
+#monarch-reconnect-bank:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Modal Toggle Styles */
+.monarch-modal-toggle {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    background: #f8f9fa;
+}
+
+.monarch-modal-method-btn {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    background: transparent;
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -1px;
+}
+
+.monarch-modal-method-btn:hover {
+    color: #007cba;
+    background: #fff;
+}
+
+.monarch-modal-method-btn.active {
+    color: #007cba;
+    background: #fff;
+    border-bottom-color: #007cba;
+}
+
+/* Modal Sections */
+.monarch-modal-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+#modal-auto-section .monarch-modal-body {
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Manual Entry Form in Modal */
+.monarch-modal-manual-form {
+    padding: 30px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.monarch-manual-form-inner {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.monarch-manual-form-inner .form-row {
+    margin-bottom: 20px;
+}
+
+.monarch-manual-form-inner .form-row label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.monarch-manual-form-inner .form-row input,
+.monarch-manual-form-inner .form-row select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.2s ease;
+    box-sizing: border-box;
+}
+
+.monarch-manual-form-inner .form-row input:focus,
+.monarch-manual-form-inner .form-row select:focus {
+    outline: none;
+    border-color: #007cba;
+}
+
+.monarch-manual-form-inner .form-row input.error {
+    border-color: #dc3545;
+    background-color: #fff5f5;
+}
+
+.monarch-manual-form-inner .form-row-half {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.monarch-manual-form-inner .form-row-half:first-of-type {
+    margin-right: 4%;
+}
+
+.monarch-modal-manual-footer {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#monarch-manual-submit-modal {
+    background: #28a745;
+    color: white;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    width: 100%;
+    max-width: 300px;
+}
+
+#monarch-manual-submit-modal:hover {
+    background: #218838;
+}
+
+#monarch-manual-submit-modal:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}
+
+.monarch-manual-note {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}
+
+.monarch-manual-note::before {
+    content: "🔒 ";
+}
+
+/* Modal error message */
+.monarch-modal-error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #f5c6cb;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Manual entry warning */
+.monarch-manual-warning {
+    background: #fff3cd;
+    color: #856404;
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: 1px solid #ffeeba;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Responsive adjustments for modal */
+@media (max-width: 600px) {
+    .monarch-modal-manual-form {
+        padding: 20px;
+    }
+
+    .monarch-manual-form-inner .form-row-half {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+
+    .monarch-modal-method-btn {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+}

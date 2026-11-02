@@ -1,0 +1,216 @@
+# Copyright (C) 2025 Truvo Processing
+# This file is distributed under the GPL v2 or later.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Truvo WooCommerce Payment Gateway 1.0.0\n"
+"Report-Msgid-Bugs-To: https://truvoprocessing.com/support\n"
+"POT-Creation-Date: 2025-09-13 22:00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Truvo Processing\n"
+
+#: truvo-woocommerce-gateway.php:35
+msgid "Truvo Payment Gateway requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: truvo-woocommerce-gateway.php:49
+msgid "Truvo Payment Gateway requires PHP 7.4 or higher."
+msgstr ""
+
+#: truvo-woocommerce-gateway.php:55
+msgid "Truvo Payment Gateway requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: truvo-woocommerce-gateway.php:66
+msgid "Settings"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:47
+msgid "Truvo Processing"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:48
+msgid "Accept credit card payments securely through Truvo Processing."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:78
+msgid "Enable/Disable"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:80
+msgid "Enable Truvo Processing"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:84
+msgid "Title"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:86
+msgid "Payment method title that customers see during checkout."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:87
+msgid "Credit Card"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:91
+msgid "Description"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:93
+msgid "Payment method description that customers see during checkout."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:94
+msgid "Pay securely with your credit or debit card."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:98
+msgid "Environment"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:100
+msgid "Select the environment to use for processing payments."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:105
+msgid "Sandbox (Test)"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:106
+msgid "Live (Production)"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:110
+msgid "API Endpoint URL"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:112
+msgid "Your Truvo Processing API endpoint URL. Leave empty to use default environment URLs."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:113
+msgid "https://your-domain.com/api/payment/process"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:117
+msgid "API Key"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:119
+msgid "Your Truvo Processing API key."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:123
+msgid "Merchant ID"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:125
+msgid "Your Truvo Processing merchant ID."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:129
+msgid "Debug Log"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:131
+msgid "Enable logging"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:133
+msgid "Log Truvo events, such as API requests, inside <code>%s</code>"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:147
+msgid "Cardholder Name"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:153
+msgid "Card Number"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:161
+msgid "Expiry Date"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:163
+msgid "Month"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:168
+msgid "Year"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:177
+msgid "CVV"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:189
+msgid "Cardholder name is required."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:195
+msgid "Please enter a valid card number."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:201
+msgid "Please select a valid expiry month."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:207
+msgid "Please select a valid expiry year."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:213
+msgid "Your card has expired."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:219
+msgid "Please enter a valid CVV."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:235
+msgid "Payment gateway not configured properly. Please contact the store owner."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:281
+msgid "Truvo payment completed. Transaction ID: %s"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:294
+msgid "Awaiting 3D Secure authentication."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:295
+msgid "Customer redirected to 3D Secure authentication. Transaction ID: %s"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:307
+msgid "Payment failed. Please try again."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:309
+msgid "Truvo payment failed: %s"
+msgstr ""
+
+#: class-truvo-wc-gateway.php:333
+msgid "Connection error. Please try again."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:342
+msgid "API error (HTTP %d). Please try again."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:349
+msgid "Invalid API response. Please try again."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:359
+msgid "Refund failed: No transaction ID found."
+msgstr ""
+
+#: class-truvo-wc-gateway.php:367
+msgid "Refund of %s %s requested via Truvo Processing. Reason: %s"
+msgstr ""

@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "extension/woo-authorize-net-gateway-aim",
+	"version": "6.1.26",
+	"title": "Secure Authorize.net Gateway for WooCommerce",
+	"category": "widgets",
+	"textdomain": "wc-authnet",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

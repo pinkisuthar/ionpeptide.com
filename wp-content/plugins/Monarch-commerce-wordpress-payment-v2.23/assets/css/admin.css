@@ -1,0 +1,94 @@
+.wp-payment-admin {
+    margin: 20px 0;
+}
+
+.wp-payment-admin-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wp-payment-admin-card h2 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.wp-payment-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.wp-payment-stat-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wp-payment-stat-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007cba;
+    margin-bottom: 5px;
+}
+
+.wp-payment-stat-label {
+    color: #666;
+    font-size: 14px;
+}
+
+.wp-payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.wp-payment-table th,
+.wp-payment-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.wp-payment-table th {
+    background: #f9f9f9;
+    font-weight: bold;
+    color: #23282d;
+}
+
+.wp-payment-table tr:hover {
+    background: #f9f9f9;
+}
+
+.wp-payment-status {
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wp-payment-status-completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.wp-payment-status-pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.wp-payment-status-failed {
+    background: #f8d7da;
+    color: #721c24;
+}

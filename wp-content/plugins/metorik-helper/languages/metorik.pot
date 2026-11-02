@@ -1,0 +1,67 @@
+# Copyright (C) 2024 Metorik
+# This file is distributed under the same license as the Metorik Helper plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Metorik Helper 2.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/metorik-helper\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-25T19:50:43+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: metorik\n"
+
+#. Plugin Name of the plugin
+#: metorik-helper.php
+msgid "Metorik Helper"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: metorik-helper.php
+msgid "https://metorik.com"
+msgstr ""
+
+#. Description of the plugin
+#: metorik-helper.php
+msgid "Reports, integrations, automatic emails, and cart tracking for WooCommerce stores."
+msgstr ""
+
+#. Author of the plugin
+#: metorik-helper.php
+#: inc/admin-ui.php:75
+#: inc/admin-ui.php:79
+#: inc/admin-ui.php:89
+msgid "Metorik"
+msgstr ""
+
+#: inc/cart-recovery.php:87
+msgid "Sorry, we were not able to restore your cart. Please try adding your items to your cart again."
+msgstr ""
+
+#: inc/cart-tracking.php:306
+msgid "Order cart recovered by Metorik."
+msgstr ""
+
+#: inc/cart-tracking.php:344
+msgid "Opt-in to receive cart reminders e-mails from this store"
+msgstr ""
+
+#: inc/cart-tracking.php:538
+msgid "We save your email and cart so we can send you reminders - %1$sdon't email me%2$s."
+msgstr ""
+
+#: metorik-helper.php:156
+msgid "Metorik Helper requires %s to be installed and active."
+msgstr ""
+
+#: metorik-helper.php:174
+msgid "The Metorik Helper is active! Go back to %s to complete the connection."
+msgstr ""
+
+#: templates/add-cart-email-form.php:30
+msgid "Your email"
+msgstr ""

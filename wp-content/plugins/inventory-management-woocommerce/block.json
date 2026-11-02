@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "extension/inventory-management-woocommerce",
+	"version": "2.8.2",
+	"title": "Inventory Management for WooCommerce",
+	"category": "widgets",
+	"textdomain": "inventory-management-woocommerce",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

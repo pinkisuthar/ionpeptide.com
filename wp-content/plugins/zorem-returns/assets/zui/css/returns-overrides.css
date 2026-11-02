@@ -1,0 +1,668 @@
+/* ============================================================
+   Zorem Returns — thin plugin-specific overrides.
+   The library covers layout (zui-tab-panel, zui-row, zui-toggle,
+   zui-savebtn, zui-lic-*, zui-ms, zui-snackbar). Keep this file
+   small — only patch things the library doesn't cover.
+   ============================================================ */
+
+/* Reset any margin the WP-admin content wrapper might inject */
+.zui-scope.rt4wc-settings-app,
+.rt4wc-settings-app {
+	margin: 0;
+	padding: 0;
+	background: var(--zui-bg);
+	min-height: 100vh;
+}
+
+/* ============================================================
+   Dashboard / Warranty Claims center panels.
+   The legacy fulfillment.css sets `section.tab_section { display:none }`
+   because the old markup used a CSS-radio tab pattern. The ZUI shell
+   now includes only the active section, so we always want it visible.
+   ============================================================ */
+.zui-scope section.tab_section {
+	display: block;
+	padding: 0;
+	background: transparent;
+}
+.zui-scope .fulfillment_table_container,
+.zui-scope .accordion_container.fulfillment_table_container {
+	background: var(--zui-surface, #fff);
+	border: 1px solid var(--zui-divider);
+	border-radius: 12px;
+	box-shadow: var(--zui-shadow-xs);
+	padding: 20px;
+	margin: 0;
+}
+
+/* Hide the DataTables Buttons extension bar ('.dt-buttons') — the plugin
+   ships a custom "Export CSV" chip in the filter bar that triggers the
+   hidden .buttons-csv click, so the visible native button is redundant. */
+.zui-scope .dt-buttons {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	height: 0;
+	overflow: hidden;
+}
+
+/* Reset browser chrome when a .zui-tabs__item is rendered as a <button>.
+   Dashboard / Warranty Claims use <button> (no href, JS-switched) and would
+   otherwise inherit WP-admin's rectangular gray button style.
+   IMPORTANT: only reset browser button chrome here — inherit `font-family`
+   and let `font-size` / `font-weight` cascade from `.zui-tabs__item` so
+   these tabs render identically to the `<a>` tabs (Settings / Notifications). */
+.zui-scope button.zui-tabs__item {
+	background: transparent;
+	border: 0;
+	border-block-end: 2px solid transparent;
+	border-radius: 0;
+	box-shadow: none;
+	cursor: pointer;
+	appearance: none;
+	-webkit-appearance: none;
+	font-family: inherit;
+	margin: 0;
+	padding-block: 0;
+}
+.zui-scope button.zui-tabs__item:hover {
+	background: transparent;
+	color: var(--zui-text-soft);
+}
+.zui-scope button.zui-tabs__item.is-active {
+	background: transparent;
+	color: var(--zui-primary-600);
+	border-block-end-color: var(--zui-primary);
+}
+
+/* DataTables "no records" / "empty" cell — centered muted message so an
+   empty search result doesn't look like a broken page. */
+.zui-scope table.dataTable td.dataTables_empty,
+.zui-scope table.dataTable tbody tr td.dataTables_empty {
+	text-align: center;
+	padding: 40px 20px;
+	color: var(--zui-text-muted, #64748b);
+	font-size: 13.5px;
+	font-style: italic;
+	background: #fff;
+}
+
+/* ============================================================
+   Compact numeric inputs — used for "days" / "count" fields.
+   Applied via the `return_days_width` class in the field defs.
+   ============================================================ */
+.zui-scope input.return_days_width,
+.zui-scope input.fraud_prevention_max_returns_field,
+.zui-scope input.fraud_prevention_window_days_field,
+.zui-scope input.warranty_default_days_field,
+.zui-scope input[name="cross_exchange_credit_expiry"] {
+	width: 90px;
+	max-width: 90px;
+	padding: 0 10px;
+}
+
+/* Restocking fee amount input — small currency field */
+.zui-scope input.restocking_fee_amount_field {
+	width: 90px;
+	max-width: 90px;
+	padding: 0 10px;
+}
+
+/* Wider Exchange price-action selects (When new item costs more/less). Force
+   the wrap to fill and keep the chevron flush against the right edge INSIDE
+   the border. `padding-right: 38px` on the native select reserves space for
+   the absolute-positioned chevron span. */
+.zui-scope [data-field="cross_exchange_price_action"] .zui-select-wrap,
+.zui-scope [data-field="cross_exchange_credit_action"] .zui-select-wrap,
+.zui-scope [data-field="exchange_preset_shipping_method"] .zui-select-wrap,
+.zui-scope [data-field="return_terms_and_conditions_page"] .zui-select-wrap,
+.zui-scope [data-field="restocking_fee_type"] .zui-select-wrap {
+	display: block;
+	width: 100%;
+	max-width: 420px;
+}
+.zui-scope [data-field="cross_exchange_price_action"] .zui-select,
+.zui-scope [data-field="cross_exchange_credit_action"] .zui-select,
+.zui-scope [data-field="exchange_preset_shipping_method"] .zui-select,
+.zui-scope [data-field="return_terms_and_conditions_page"] .zui-select,
+.zui-scope [data-field="restocking_fee_type"] .zui-select {
+	width: 100%;
+	padding-right: 38px;
+	background-image: none !important;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none !important;
+}
+.zui-scope [data-field="cross_exchange_price_action"] .zui-select-chevron,
+.zui-scope [data-field="cross_exchange_credit_action"] .zui-select-chevron,
+.zui-scope [data-field="exchange_preset_shipping_method"] .zui-select-chevron,
+.zui-scope [data-field="return_terms_and_conditions_page"] .zui-select-chevron,
+.zui-scope [data-field="restocking_fee_type"] .zui-select-chevron {
+	inset-inline-end: 12px;
+	right: 30px;
+	color: var(--zui-text-muted);
+}
+
+/* Taller "disabled" / "limit-reached" / "blocklist" textareas */
+.zui-scope textarea.zorem-disabled-payment-message,
+.zui-scope textarea.fraud_prevention_limit_message_field,
+.zui-scope textarea.fraud_prevention_blocklist_field,
+.zui-scope textarea.fraud_prevention_block_message_field {
+	min-height: 110px;
+	height: auto;
+	padding: 12px 14px;
+	line-height: 1.5;
+	border-radius: var(--zui-radius-xl);
+	max-width: 520px;
+}
+.zui-scope textarea.fraud_prevention_blocklist_field {
+	min-height: 140px;
+}
+
+/* Fraud Prevention — Check Customer Return Count result panel */
+.zui-scope .zorem-fp-inline-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+.zui-scope .zorem-fp-inline-row .spinner {
+	float: none;
+	margin: 0;
+}
+.zui-scope .zorem-fp-inline-row .spinner.is-active {
+	visibility: visible;
+}
+.zui-scope .rt4wc-fp-check-result {
+	margin-top: 12px;
+	max-width: 520px;
+	font-size: 13px;
+	line-height: 1.6;
+}
+.zui-scope .rt4wc-fp-check-result__ok {
+	background: var(--zui-success-bg);
+	border: 1px solid #a7f3d0;
+	color: #065f46;
+	padding: 12px 14px;
+	border-radius: var(--zui-radius-xl);
+}
+.zui-scope .rt4wc-fp-check-result__ok strong {
+	color: #064e3b;
+}
+.zui-scope .rt4wc-fp-check-result__err {
+	background: var(--zui-danger-bg);
+	border: 1px solid #fecdd3;
+	color: #9f1239;
+	padding: 12px 14px;
+	border-radius: var(--zui-radius-xl);
+}
+
+/* Secondary button used inline next to blocklist upload + Check */
+.zui-scope .zui-btn-secondary {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	height: 38px;
+	padding: 0 16px;
+	background: #fff;
+	color: var(--zui-text);
+	border: 1px solid var(--zui-border);
+	border-radius: var(--zui-radius-xl);
+	font-size: 13px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.15s ease, border-color 0.15s ease;
+}
+.zui-scope .zui-btn-secondary:hover {
+	background: var(--zui-bg);
+	border-color: #cbd5e1;
+}
+.zui-scope .zui-btn-secondary:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+/* Ensure the ZUI scope grows so [hidden] tab-panels collapse cleanly */
+.zui-scope#rt4wc-settings-app {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Title row inside a card — small uppercase group header */
+.zui-scope .rt4wc-settings-card .zui-row--title {
+	padding: 12px 32px;
+	background: #f8fafc;
+	border-block-end: 1px solid var(--zui-divider);
+}
+.zui-scope .rt4wc-settings-card .zui-row--title h3 {
+	margin: 0;
+	font-size: 11.5px;
+	font-weight: 800;
+	color: var(--zui-text-muted, #64748b);
+	text-transform: uppercase;
+	letter-spacing: .06em;
+}
+
+/* Row-level description subtitle (renders under the field title). Matches the
+   pattern used by ALP Pro / other Zorem plugins: dimmer, slightly smaller. */
+.zui-scope .zui-row__desc {
+	display: block;
+	margin-top: 4px;
+	font-size: 12.5px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--zui-text-muted, #94a3b8);
+	max-width: 640px;
+}
+
+/* Refund Method Preferences — vertical stack with checkbox-on-left rows
+   (replaces the old right-side toggle style). */
+.zui-scope .rt4wc-multi-check {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	max-width: 480px;
+}
+.zui-scope .rt4wc-multi-check__row {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	padding: 6px 0;
+}
+.zui-scope .rt4wc-multi-check__label {
+	font-size: 13.5px;
+	font-weight: 600;
+	color: var(--zui-text, #334155);
+	user-select: none;
+}
+
+/* Group the "Keep-Item Partial Refund Percentage" row visually with the
+   "Refund Method Preferences" row above it — they belong together, so drop
+   the divider between them when the % field is visible. `refund-payment-open`
+   is toggled from JS by rt4wcSyncKeepItemPartialVisibility() to avoid the
+   border collapsing away when the % field is hidden and the next real row
+   (Include Shipping Cost) has to touch this one. */
+.zui-scope .zui-card [data-field="refund_payment_options"].refund-payment-open {
+	border-block-end: 0;
+	padding-block-end: 8px;
+}
+.zui-scope .zui-card [data-field="keep_item_partial_refund_percentage"] {
+	padding-block-start: 0;
+	margin-left: 30px;
+}
+
+/* Return/Exchange Store Address — stacked multi-input */
+.zui-scope .rt4wc-multi-input {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	max-width: 520px;
+}
+.zui-scope .rt4wc-multi-input input.zui-input,
+.zui-scope .rt4wc-multi-input select {
+	width: 100%;
+}
+
+/* Country/State select inside multi-input — match .zui-input chrome */
+.zui-scope .rt4wc-multi-input select.wc-enhanced-select,
+.zui-scope .rt4wc-multi-input select.zui-select {
+	height: 40px;
+	padding: 0 14px;
+	background: var(--zui-bg);
+	border: 1px solid var(--zui-border);
+	border-radius: var(--zui-radius-xl);
+	font-size: 13px;
+	color: var(--zui-text);
+	box-shadow: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+	padding-right: 36px;
+}
+.zui-scope .rt4wc-multi-input select.wc-enhanced-select:focus,
+.zui-scope .rt4wc-multi-input select.zui-select:focus {
+	outline: none;
+	border-color: var(--zui-primary);
+	box-shadow: 0 0 0 3px var(--zui-primary-100);
+}
+/* WooCommerce injects a select2 clone with an inline `style="width:400px"` on
+   this container. Force it to fill the multi-input column (up to 520px). */
+.zui-scope .rt4wc-multi-input .select2-container {
+	width: 100% !important;
+	max-width: 520px !important;
+}
+.zui-scope .rt4wc-multi-input .select2-container--default .select2-selection--single {
+	height: 40px;
+	border: 1px solid var(--zui-border);
+	border-radius: var(--zui-radius-xl);
+	background: var(--zui-bg);
+	box-shadow: none;
+}
+.zui-scope .rt4wc-multi-input .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 38px;
+	padding-left: 12px;
+	color: var(--zui-text);
+	font-size: 13px;
+}
+.zui-scope .rt4wc-multi-input .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 38px;
+	top: 0;
+	right: 8px;
+}
+
+/* Products Not Eligible — select2-driven multi_select_batch — match zui-ms chrome.
+   Force width: select2 renders with an inline `style="width:37px"` (the collapsed
+   width of the empty hidden <select>) which we have to override. */
+.zui-scope [data-field="return_exclude_products"] .select2-container,
+.zui-scope .zui-row__control > .select2-container {
+	width: 100% !important;
+	max-width: 672px !important;
+}
+.zui-scope .select2-container {
+	max-width: 672px;
+}
+.zui-scope .select2-container--default .select2-selection--multiple {
+	min-height: 42px;
+	background: rgba(248, 250, 252, 0.5);
+	border: 1px solid var(--zui-border);
+	border-radius: var(--zui-radius-xl);
+	padding: 4px 10px;
+	box-shadow: none;
+}
+.zui-scope .select2-container--default.select2-container--focus .select2-selection--multiple,
+.zui-scope .select2-container--default.select2-container--open .select2-selection--multiple {
+	border-color: var(--zui-primary);
+	box-shadow: 0 0 0 3px var(--zui-primary-100);
+	outline: none;
+}
+.zui-scope .select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background: var(--zui-chip-bg);
+	border: 1px solid var(--zui-chip-border);
+	color: var(--zui-chip-text);
+	font-size: 11px;
+	font-weight: 700;
+	padding: 2px 8px;
+	border-radius: var(--zui-radius-lg);
+	margin-top: 6px;
+	margin-right: 6px;
+}
+.zui-scope .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color: #ef4444;
+	margin-right: 4px;
+	font-weight: 700;
+}
+.zui-scope .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+	color: #b91c1c;
+	background: transparent;
+}
+.zui-scope .select2-container--default .select2-search--inline .select2-search__field {
+	font-size: 13px;
+	color: var(--zui-text);
+	margin-top: 8px;
+}
+.zui-scope .select2-container--default .select2-search--inline .select2-search__field::placeholder {
+	color: var(--zui-text-muted);
+}
+
+/* Todo list (reasons) */
+.zui-scope .rt4wc-todo {
+	max-width: 520px;
+}
+.zui-scope .rt4wc-todo__input-row {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 10px;
+}
+.zui-scope .rt4wc-todo__input {
+	flex: 1;
+}
+.zui-scope .rt4wc-todo__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.zui-scope .rt4wc-todo__list li {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 12px;
+	background: #fff;
+	border: 1px solid var(--zui-divider);
+	border-radius: 8px;
+	margin-bottom: 6px;
+}
+/* Dashicons inside todo rows — pin them to the flex baseline */
+.zui-scope .rt4wc-todo__list li .dashicons,
+.zui-scope .rt4wc-todo__list li .sorting-handler {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	line-height: 1;
+	margin: 0;
+	font-size: 18px;
+	color: var(--zui-text-soft);
+	flex-shrink: 0;
+}
+.zui-scope .rt4wc-todo__list li .sorting-handler {
+	cursor: move;
+}
+.zui-scope .rt4wc-todo__list li .dashicons-edit,
+.zui-scope .rt4wc-todo__list li .dashicons-trash {
+	cursor: pointer;
+	color: var(--zui-text-muted);
+	transition: color 0.15s ease;
+}
+.zui-scope .rt4wc-todo__list li .dashicons-edit:hover {
+	color: var(--zui-primary);
+}
+.zui-scope .rt4wc-todo__list li .dashicons-trash:hover {
+	color: var(--zui-danger);
+}
+.zui-scope .rt4wc-todo__list li .reason_text {
+	flex: 1;
+	color: var(--zui-text);
+	font-size: 13.5px;
+	line-height: 1.4;
+	padding: 2px 4px;
+	min-height: 20px;
+	display: inline-flex;
+	align-items: center;
+}
+.zui-scope .rt4wc-todo__list li .reason_text.editable {
+	background: #fff;
+	border: 1px dotted var(--zui-primary);
+	border-radius: 4px;
+	outline: none;
+}
+
+/* Notification list — grouped card container (all rows in one box, dividers between) */
+.zui-scope .rt4wc-notif-list {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	border: 1px solid var(--zui-divider);
+	border-radius: 12px;
+	box-shadow: var(--zui-shadow-xs);
+	overflow: hidden;
+}
+.zui-scope .rt4wc-notif-item {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	background: #fff;
+	border: 0;
+	border-block-end: 1px solid var(--zui-divider);
+	border-radius: 0;
+	padding: 16px 20px;
+	box-shadow: none;
+}
+.zui-scope .rt4wc-notif-item:last-child {
+	border-block-end: 0;
+}
+.zui-scope .rt4wc-notif-item__dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #22c55e;
+	flex-shrink: 0;
+}
+/* Semantic dot colors per notification type */
+.zui-scope .rt4wc-notif-item[data-notif-type="rejected"] .rt4wc-notif-item__dot {
+	background: #ef4444;
+}
+.zui-scope .rt4wc-notif-item[data-notif-type="storecredit"] .rt4wc-notif-item__dot {
+	background: #6366f1;
+}
+.zui-scope .rt4wc-notif-item__label {
+	flex: 1;
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--zui-text-strong, #0f172a);
+	text-decoration: none;
+}
+.zui-scope .rt4wc-notif-item__label:hover {
+	color: var(--zui-primary, #4f46e5);
+}
+.zui-scope .rt4wc-notif-item__status {
+	font-size: 10.5px;
+	font-weight: 800;
+	letter-spacing: .08em;
+	color: #16a34a;
+	text-transform: uppercase;
+}
+.zui-scope .rt4wc-notif-item__status.is-inactive {
+	color: var(--zui-text-muted, #94a3b8);
+}
+.zui-scope .rt4wc-notif-item__toggle { margin: 0; }
+.zui-scope .rt4wc-notif-item__gear {
+	color: var(--zui-text-muted, #94a3b8);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 6px;
+}
+.zui-scope .rt4wc-notif-item__gear:hover {
+	background: var(--zui-bg, #f8fafc);
+	color: var(--zui-text-strong, #0f172a);
+}
+.zui-scope .rt4wc-notif-item__gear .zui-icon {
+	width: 16px;
+	height: 16px;
+}
+
+/* The wrapper section for the Email panel — collapse the flex-column gap
+   so the sub-tabs and the list-card feel like one continuous surface. */
+.zui-scope #rt4wc-notif-email {
+	gap: 0;
+}
+
+/* Notification Customer/Admin sub-tabs — sit as the header of the list card */
+.zui-scope .rt4wc-notif-subtabs.zui-tabs {
+	margin: 0;
+	padding: 0 20px;
+	height: 55px;
+	background: #fff;
+	border: 1px solid var(--zui-divider);
+	border-block-end: 1px solid var(--zui-divider);
+	border-radius: 12px 12px 0 0;
+	box-shadow: var(--zui-shadow-xs);
+	display: flex;
+	align-items: stretch;
+	gap: 4px;
+}
+.zui-scope .rt4wc-notif-subtabs .zui-tabs__item {
+	background: transparent;
+	border: 0;
+	padding: 0 4px;
+	margin: 0 12px 0 0;
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+	font-size: 13.5px;
+	font-weight: 600;
+	color: var(--zui-text-muted, #64748b);
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+}
+.zui-scope .rt4wc-notif-subtabs .zui-tabs__item.is-active {
+	color: var(--zui-primary, #4f46e5);
+	border-bottom-color: var(--zui-primary, #4f46e5);
+}
+/* When the sub-tabs are present, flatten the top of the list card so it visually fuses with the tabs */
+.zui-scope .rt4wc-notif-subtabs.zui-tabs + form .rt4wc-notif-list,
+.zui-scope .rt4wc-notif-subtabs.zui-tabs + .rt4wc-notif-list {
+	border-radius: 0 0 12px 12px;
+	border-top: 0;
+}
+
+/* SMS panel */
+.zui-scope .rt4wc-sms-installed-card,
+.zui-scope .rt4wc-sms-install-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 32px;
+	max-width: 720px;
+}
+.zui-scope .rt4wc-sms-installed-card h3,
+.zui-scope .rt4wc-sms-install-panel h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 800;
+	color: var(--zui-text-strong, #0f172a);
+}
+.zui-scope .rt4wc-sms-installed-card > p,
+.zui-scope .rt4wc-sms-install-panel > p {
+	margin: 0;
+	font-size: 13.5px;
+	color: var(--zui-text-muted, #64748b);
+	line-height: 1.6;
+}
+.zui-scope .rt4wc-sms-installed-icon,
+.zui-scope .rt4wc-sms-promo-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	background: rgba(79, 70, 229, .1);
+	color: var(--zui-primary, #4f46e5);
+	border-radius: 12px;
+	margin-bottom: 4px;
+}
+.zui-scope .rt4wc-sms-installed-icon .zui-icon,
+.zui-scope .rt4wc-sms-promo-icon .zui-icon {
+	width: 22px;
+	height: 22px;
+}
+.zui-scope .rt4wc-sms-feature-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.zui-scope .rt4wc-sms-feature-list li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	font-size: 13.5px;
+	color: var(--zui-text, #334155);
+	line-height: 1.5;
+}
+.zui-scope .rt4wc-sms-feature-list li .zui-icon {
+	width: 16px;
+	height: 16px;
+	color: #22c55e;
+	flex-shrink: 0;
+	margin-top: 2px;
+}

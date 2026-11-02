@@ -1,0 +1,30 @@
+{
+  "name": "newfold-labs/verifacti-api",
+  "description": "Client library for the Verifacti REST API.",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": "^8.0"
+  },
+  "config": {
+    "platform": {
+      "php": "8.0.0"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bluehost\\VerifactiApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bluehost\\VerifactiApi\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}

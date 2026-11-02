@@ -1,0 +1,48 @@
+ION PERFORMANCE GUARD 1.1.0 — KINSTA / CLOUDFLARE NOTES
+
+PRIMARY FIX IN THIS RELEASE
+
+The July 26 traces showed that the global custom header automatically launched:
+
+1. /wp-json/wc/store/v1/products?per_page=100...
+2. /wp-json/wc/store/v1/cart
+
+The product response was approximately 828 KB uncompressed and the PHP-backed requests took several seconds under load. The plugin now delays the catalog until interaction, caches it per tab, skips empty-cart PHP calls, and coalesces duplicate cart calls.
+
+KINSTA CACHE
+
+1. Purge the Kinsta site cache after activation.
+2. Purge Cloudflare cache after activation.
+3. Keep Redis Object Cache enabled.
+4. Do not expect ordinary Kinsta page cache or edge cache to serve personalized logged-in HTML.
+5. Enable Kinsta APM temporarily after deploying this plugin and inspect the top slow WordPress/PHP transactions and MySQL spans.
+
+CLOUDFLARE
+
+1. Keep cache bypasses for WordPress login/admin, cart, checkout, account, WooCommerce session/cart cookies, and access-gate cookies.
+2. Do not cache personalized logged-in HTML at the edge.
+3. Keep Rocket Loader off, or leave Ion Performance Guard critical-script protection enabled.
+4. Do not block static WooCommerce JavaScript such as cart-fragments.min.js with a challenge rule.
+5. The plugin's optional anonymous edge-cache headers remain OFF by default.
+
+POST-INSTALL TEST
+
+Use DevTools Network on a clean page load and confirm:
+
+* No automatic per_page=100 product Store API request before search/product-finder interaction.
+* No PHP cart REST call when there is no WooCommerce cart/session cookie.
+* No repeated identical cart REST calls during the first 1.8 seconds of page load.
+* Cart, checkout, account, product variations, side cart, prior-order restrictions, and affiliate pages still work.
+
+EMERGENCY BYPASS
+
+?ionpg_bypass=1
+
+or in wp-config.php:
+
+define( 'IONPG_BYPASS', true );
+
+
+v1.1.1 transaction safety:
+* The request-saver fetch wrapper is not injected on cart, checkout, order-pay, or order-received pages.
+* Coalesced Store API responses on normal pages preserve all response headers, including Nonce and Cart-Token.

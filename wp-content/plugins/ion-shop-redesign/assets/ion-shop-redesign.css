@@ -1,0 +1,1283 @@
+#ion-shop-redesign,
+#ion-shop-redesign * {
+  box-sizing: border-box;
+}
+
+#ion-shop-redesign {
+  --ion-blue: #007eff;
+  --ion-blue-2: #5ea8ff;
+  --ion-navy: #0d0d67;
+  --ion-deep: #050539;
+  --ion-text: #13223a;
+  --ion-muted: #6d7485;
+  --ion-soft: #f7f9ff;
+  --ion-soft-2: #eef5ff;
+  --ion-line: #dfe9fb;
+  --ion-white: #ffffff;
+  --ion-shadow: 0 18px 45px rgba(13, 13, 103, 0.10);
+  --ion-font: "Poppins", "Inter", Arial, sans-serif;
+  width: 100%;
+  color: var(--ion-text);
+  font-family: var(--ion-font);
+  background: #ffffff;
+}
+
+#ion-shop-redesign a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#ion-shop-redesign img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#ion-shop-redesign .ion-shop-shell {
+  width: min(1600px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 112px 0 86px;
+}
+
+#ion-shop-redesign .ion-shop-ruo-bar {
+  width: min(1180px, 78%);
+  margin: 0 0 28px auto;
+  min-height: 44px;
+  padding: 9px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #f2f8ff 0%, #eaf3fc 100%);
+  border: 1px solid rgba(13, 13, 103, 0.10);
+  color: #173153;
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(13, 13, 103, 0.05);
+}
+
+#ion-shop-redesign .ion-shop-ruo-bar strong {
+  color: var(--ion-navy);
+  font-weight: 900;
+}
+
+#ion-shop-redesign .ion-shop-layout {
+  display: grid;
+  grid-template-columns: minmax(230px, 270px) minmax(0, 1fr);
+  gap: 54px;
+  align-items: start;
+}
+
+#ion-shop-redesign .ion-shop-sidebar {
+  position: sticky;
+  top: 132px;
+  padding: 0 20px 20px 0;
+  border-right: 1px solid #d9e1ef;
+  align-self: start;
+  max-height: calc(100vh - 160px);
+  overflow: hidden;
+}
+
+#ion-shop-redesign .ion-shop-sidebar h2 {
+  margin: 0 0 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #d9e1ef;
+  color: var(--ion-navy);
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+#ion-shop-redesign .ion-shop-sidebar-list-wrap {
+  max-height: calc(100vh - 250px);
+  overflow: auto;
+  padding-right: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(13, 13, 103, 0.24) transparent;
+}
+
+#ion-shop-redesign .ion-shop-sidebar-list {
+  display: grid;
+  gap: 13px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#ion-shop-redesign .ion-shop-sidebar-list a {
+  display: block;
+  color: #8a92a7;
+  font-size: 16px;
+  line-height: 1.35;
+  font-weight: 600;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+#ion-shop-redesign .ion-shop-sidebar-list a:hover {
+  color: var(--ion-blue);
+  transform: translateX(2px);
+}
+
+#ion-shop-redesign .ion-shop-main {
+  min-width: 0;
+}
+
+#ion-shop-redesign .ion-shop-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 0 30px;
+}
+
+#ion-shop-redesign .ion-shop-heading h1 {
+  margin: 0 0 12px;
+  color: var(--ion-navy);
+  font-size: clamp(34px, 3.2vw, 48px);
+  line-height: 1.02;
+  font-weight: 900;
+  letter-spacing: -0.055em;
+}
+
+#ion-shop-redesign .ion-shop-proof-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 26px;
+}
+
+#ion-shop-redesign .ion-shop-proof {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #173153;
+  font-size: 22px;
+  line-height: 1.1;
+  font-weight: 650;
+}
+
+#ion-shop-redesign .ion-shop-proof-icon {
+  width: 29px;
+  height: 29px;
+  min-width: 29px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ion-blue);
+  line-height: 1;
+}
+
+#ion-shop-redesign .ion-shop-proof-icon svg {
+  width: 29px;
+  height: 29px;
+  display: block;
+}
+
+#ion-shop-redesign .ion-shop-filters {
+  display: grid;
+  grid-template-columns: minmax(260px, 1.45fr) minmax(210px, 0.9fr) minmax(180px, 0.9fr);
+  gap: 18px;
+  align-items: center;
+  margin: 0 0 28px;
+}
+
+#ion-shop-redesign .ion-shop-search-field,
+#ion-shop-redesign .ion-shop-select-wrap {
+  position: relative;
+}
+
+#ion-shop-redesign .ion-shop-search-icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  color: #98a1b3;
+  pointer-events: none;
+}
+
+#ion-shop-redesign .ion-shop-search-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+#ion-shop-redesign .ion-shop-search-input,
+#ion-shop-redesign .ion-shop-category-select,
+#ion-shop-redesign .ion-shop-sort-select {
+  width: 100%;
+  min-height: 54px;
+  border: 1px solid #d9e1ef !important;
+  border-radius: 999px !important;
+  background: #fbfdff !important;
+  color: #173153 !important;
+  font-family: var(--ion-font) !important;
+  font-size: 16px !important;
+  line-height: 1 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#ion-shop-redesign .ion-shop-search-input {
+  padding: 0 20px 0 48px !important;
+}
+
+#ion-shop-redesign .ion-shop-category-select,
+#ion-shop-redesign .ion-shop-sort-select {
+  padding: 0 20px !important;
+  appearance: auto;
+}
+
+#ion-shop-redesign .ion-shop-search-input:focus,
+#ion-shop-redesign .ion-shop-category-select:focus,
+#ion-shop-redesign .ion-shop-sort-select:focus {
+  border-color: rgba(0, 126, 255, 0.42) !important;
+  box-shadow: 0 0 0 4px rgba(0, 126, 255, 0.08) !important;
+  background: #ffffff !important;
+}
+
+#ion-shop-redesign .ion-shop-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 24px;
+  margin: 0 0 14px;
+  color: var(--ion-muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#ion-shop-redesign .ion-shop-loading {
+  color: var(--ion-blue);
+}
+
+#ion-shop-redesign .ion-shop-grid-wrap {
+  position: relative;
+}
+
+#ion-shop-redesign .ion-shop-grid-wrap.is-loading {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#ion-shop-redesign .ion-shop-grid,
+#ion-shop-redesign ul.products.ion-shop-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid::before,
+#ion-shop-redesign ul.products.ion-shop-grid::after {
+  display: none !important;
+  content: none !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid li.product.ion-shop-card,
+#ion-shop-redesign ul.products.ion-shop-grid > li.product {
+  float: none !important;
+  clear: none !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+}
+
+#ion-shop-redesign .ion-shop-card,
+#ion-shop-redesign ul.products.ion-shop-grid > li.product {
+  display: flex !important;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #dfe4ee;
+  box-shadow: none;
+  text-align: left !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+#ion-shop-redesign .ion-shop-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 126, 255, 0.26);
+  box-shadow: 0 18px 36px rgba(13, 13, 103, 0.08);
+}
+
+#ion-shop-redesign .ion-shop-card-image-link {
+  display: block;
+  background: #fafafa;
+}
+
+#ion-shop-redesign .ion-shop-card-image {
+  position: relative;
+  min-height: 338px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 24%, rgba(0, 126, 255, 0.06), transparent 38%),
+    linear-gradient(180deg, #fbfbfb 0%, #f7f7f7 100%);
+  border-bottom: 1px solid #dfe4ee;
+}
+
+#ion-shop-redesign .ion-shop-card-image::before {
+  content: "";
+  position: absolute;
+  inset: 38% 0 0;
+  background-image: radial-gradient(rgba(13,13,103,0.16) 1px, transparent 1px);
+  background-size: 16px 16px;
+  opacity: 0.36;
+  pointer-events: none;
+}
+
+#ion-shop-redesign .ion-shop-card-image img {
+  position: relative;
+  z-index: 2;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+}
+
+#ion-shop-redesign .ion-shop-image-fallback {
+  position: relative;
+  z-index: 2;
+  width: min(78%, 255px);
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 auto;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 50% 18%, rgba(0,126,255,0.12), transparent 42%),
+    linear-gradient(180deg, #ffffff 0%, #f3f8ff 100%);
+  border: 1px solid rgba(0,126,255,0.12);
+  color: var(--ion-navy);
+  text-align: center;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.7);
+}
+
+#ion-shop-redesign .ion-shop-image-fallback span {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(0,126,255,0.10);
+  color: var(--ion-blue);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+#ion-shop-redesign .ion-shop-image-fallback strong {
+  display: block;
+  color: var(--ion-navy);
+  font-size: 18px;
+  line-height: 1.15;
+  font-weight: 900;
+}
+
+#ion-shop-redesign .ion-shop-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 22px 20px 16px;
+}
+
+#ion-shop-redesign .ion-shop-card-title-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: start;
+  margin-bottom: 24px;
+}
+
+#ion-shop-redesign .ion-shop-card h2 {
+  min-height: auto !important;
+  max-height: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: var(--ion-navy) !important;
+  font-family: var(--ion-font) !important;
+  font-size: 21px !important;
+  line-height: 1.18 !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.035em;
+}
+
+#ion-shop-redesign .ion-shop-card-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22px;
+  max-width: 118px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: #eef5ff;
+  color: #163153;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 900;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#ion-shop-redesign .ion-shop-card-description {
+  margin: 0 0 14px !important;
+  color: #6c6c6c !important;
+  font-size: 16px !important;
+  line-height: 1.28 !important;
+  font-weight: 500;
+}
+
+#ion-shop-redesign .ion-shop-card-price {
+  margin: auto 0 18px;
+  color: var(--ion-navy) !important;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+#ion-shop-redesign .ion-shop-card-price del {
+  color: #7d8494;
+  opacity: 0.62;
+}
+
+#ion-shop-redesign .ion-shop-card-price ins {
+  text-decoration: none;
+}
+
+#ion-shop-redesign .ion-shop-card-price .woocommerce-Price-amount,
+#ion-shop-redesign .ion-shop-card-price .amount {
+  font-size: inherit !important;
+  color: inherit !important;
+  font-weight: inherit !important;
+}
+
+#ion-shop-redesign .ion-shop-card-button,
+#ion-shop-redesign .ion-shop-card-button:visited {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100% !important;
+  min-height: 46px;
+  margin: 0 !important;
+  padding: 0 18px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #1268f3 !important;
+  color: #ffffff !important;
+  font-family: var(--ion-font) !important;
+  font-size: 18px !important;
+  line-height: 1 !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+  box-shadow: 0 14px 24px rgba(0, 126, 255, 0.18);
+  cursor: pointer;
+}
+
+#ion-shop-redesign .ion-shop-card-button:hover {
+  background: var(--ion-navy) !important;
+  color: #ffffff !important;
+}
+
+#ion-shop-redesign .ion-shop-card-button--disabled {
+  opacity: 0.58;
+  cursor: not-allowed;
+}
+
+#ion-shop-redesign .ion-shop-bag {
+  width: 19px;
+  height: 19px;
+  min-width: 19px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-1px);
+}
+
+#ion-shop-redesign .ion-shop-bag svg {
+  width: 19px;
+  height: 19px;
+  display: block;
+}
+
+#ion-shop-redesign .ion-shop-empty {
+  grid-column: 1 / -1;
+  padding: 44px;
+  border-radius: 24px;
+  background: #ffffff;
+  border: 1px solid var(--ion-line);
+  text-align: center;
+}
+
+#ion-shop-redesign .ion-shop-empty h2 {
+  margin: 0 0 8px;
+  color: var(--ion-navy);
+  font-size: 28px;
+  font-weight: 900;
+}
+
+#ion-shop-redesign .ion-shop-empty p {
+  margin: 0;
+  color: var(--ion-muted);
+}
+
+#ion-shop-redesign .ion-shop-pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 34px;
+}
+
+#ion-shop-redesign .ion-shop-page-button {
+  min-width: 40px;
+  min-height: 40px;
+  border: 1px solid var(--ion-line);
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--ion-navy);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#ion-shop-redesign .ion-shop-page-button.is-active,
+#ion-shop-redesign .ion-shop-page-button:hover {
+  background: var(--ion-navy);
+  border-color: var(--ion-navy);
+  color: #ffffff;
+}
+
+#ion-shop-redesign .ion-shop-support {
+  padding: 0 0 92px;
+  background: #ffffff;
+}
+
+#ion-shop-redesign .ion-shop-support-inner {
+  width: min(1280px, calc(100% - 48px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(420px, 1.08fr);
+  gap: 76px;
+  align-items: center;
+}
+
+#ion-shop-redesign .ion-shop-kicker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 31px;
+  padding: 5px 13px;
+  margin: 0 0 16px;
+  border-radius: 999px;
+  background: rgba(0, 126, 255, 0.12);
+  color: var(--ion-blue);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+#ion-shop-redesign .ion-shop-support-copy h2 {
+  max-width: 620px;
+  margin: 0;
+  color: var(--ion-navy);
+  font-size: clamp(38px, 4.5vw, 64px);
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.06em;
+}
+
+#ion-shop-redesign .ion-shop-support-copy h3 {
+  margin: 26px 0 26px;
+  color: #185ad9;
+  font-size: clamp(22px, 2.4vw, 32px);
+  line-height: 1.15;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+}
+
+#ion-shop-redesign .ion-shop-support-copy p {
+  max-width: 650px;
+  margin: 0;
+  color: #747474;
+  font-size: 22px;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+#ion-shop-redesign .ion-shop-support-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 46px;
+}
+
+#ion-shop-redesign .ion-shop-support-button,
+#ion-shop-redesign .ion-shop-support-button:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  min-height: 64px;
+  padding: 0 46px;
+  border: 0;
+  border-radius: 999px;
+  background: #1268f3;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#ion-shop-redesign .ion-shop-support-button:hover {
+  background: var(--ion-navy);
+  color: #ffffff;
+}
+
+#ion-shop-redesign .ion-shop-support-button--ghost {
+  background: #ffffff;
+  color: var(--ion-navy);
+  border: 1px solid rgba(13,13,103,0.14);
+}
+
+#ion-shop-redesign .ion-shop-support-image {
+  justify-self: end;
+  width: min(100%, 680px);
+  aspect-ratio: 717 / 1024;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 24px 60px rgba(13, 13, 103, 0.16);
+}
+
+#ion-shop-redesign .ion-shop-support-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1280px) {
+  #ion-shop-redesign .ion-shop-layout {
+    gap: 34px;
+    grid-template-columns: minmax(210px, 240px) minmax(0, 1fr);
+  }
+
+  #ion-shop-redesign .ion-shop-grid {
+    gap: 24px;
+  }
+
+  #ion-shop-redesign .ion-shop-card-image {
+    min-height: 292px;
+  }
+
+}
+
+@media (max-width: 1080px) {
+  #ion-shop-redesign .ion-shop-layout,
+  #ion-shop-redesign .ion-shop-support-inner {
+    grid-template-columns: 1fr;
+  }
+
+  #ion-shop-redesign .ion-shop-sidebar {
+    position: relative;
+    top: auto;
+    max-height: none;
+    border-right: 0;
+    border-bottom: 1px solid var(--ion-line);
+    padding: 0 0 18px;
+  }
+
+  #ion-shop-redesign .ion-shop-sidebar-list-wrap {
+    max-height: 190px;
+  }
+
+  #ion-shop-redesign .ion-shop-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #ion-shop-redesign .ion-shop-ruo-bar {
+    width: 100%;
+  }
+
+  #ion-shop-redesign .ion-shop-support-image {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 760px) {
+  #ion-shop-redesign .ion-shop-shell,
+  #ion-shop-redesign .ion-shop-support-inner {
+    width: calc(100% - 22px);
+  }
+
+  #ion-shop-redesign .ion-shop-shell {
+    padding: 96px 0 54px;
+  }
+
+  #ion-shop-redesign .ion-shop-ruo-bar {
+    display: block;
+    border-radius: 18px;
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+
+  #ion-shop-redesign .ion-shop-sidebar {
+    display: none;
+  }
+
+  #ion-shop-redesign .ion-shop-heading h1 {
+    font-size: 34px;
+  }
+
+  #ion-shop-redesign .ion-shop-proof-row {
+    gap: 12px;
+  }
+
+  #ion-shop-redesign .ion-shop-proof {
+    font-size: 16px;
+  }
+
+
+  #ion-shop-redesign .ion-shop-proof-icon,
+  #ion-shop-redesign .ion-shop-proof-icon svg {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+  }
+
+  #ion-shop-redesign .ion-shop-filters {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  #ion-shop-redesign .ion-shop-grid,
+  #ion-shop-redesign ul.products.ion-shop-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 14px !important;
+  }
+
+  #ion-shop-redesign ul.products.ion-shop-grid > li.product {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+
+  #ion-shop-redesign .ion-shop-card-image {
+    min-height: 190px;
+  }
+
+  #ion-shop-redesign .ion-shop-card-image img {
+    height: 160px !important;
+  }
+
+  #ion-shop-redesign .ion-shop-card-body {
+    padding: 14px 12px 12px;
+  }
+
+  #ion-shop-redesign .ion-shop-card-title-row {
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  #ion-shop-redesign .ion-shop-card h2 {
+    font-size: 15px !important;
+    line-height: 1.18 !important;
+  }
+
+  #ion-shop-redesign .ion-shop-card-badge {
+    max-width: 70px;
+    min-height: 20px;
+    padding: 4px 8px;
+    font-size: 9px;
+  }
+
+  #ion-shop-redesign .ion-shop-card-description {
+    font-size: 12px !important;
+    line-height: 1.32 !important;
+    margin-bottom: 12px !important;
+  }
+
+  #ion-shop-redesign .ion-shop-card-price {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  #ion-shop-redesign .ion-shop-card-button,
+  #ion-shop-redesign .ion-shop-card-button:visited {
+    min-height: 40px;
+    padding: 0 10px !important;
+    font-size: 13px !important;
+    gap: 7px;
+  }
+
+  #ion-shop-redesign .ion-shop-bag,
+  #ion-shop-redesign .ion-shop-bag svg {
+    width: 15px;
+    height: 15px;
+    min-width: 15px;
+  }
+
+  #ion-shop-redesign .ion-shop-support {
+    padding-bottom: 56px;
+  }
+
+  #ion-shop-redesign .ion-shop-support-inner {
+    gap: 32px;
+  }
+
+  #ion-shop-redesign .ion-shop-support-copy h2 {
+    font-size: 36px;
+  }
+
+  #ion-shop-redesign .ion-shop-support-copy h3 {
+    font-size: 22px;
+    margin: 18px 0;
+  }
+
+  #ion-shop-redesign .ion-shop-support-copy p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  #ion-shop-redesign .ion-shop-support-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 26px;
+  }
+
+  #ion-shop-redesign .ion-shop-support-button {
+    width: 100%;
+    min-height: 52px;
+    padding: 0 24px;
+    font-size: 18px;
+  }
+}
+
+/* v1.0.4: Native Woo/YITH selectors handle product loading. */
+#ion-shop-redesign .ion-shop-pagination-wrap,
+#ion-shop-redesign .ion-shop-pagination,
+#ion-shop-redesign .ion-shop-page-button {
+  display: none !important;
+}
+
+#ion-shop-redesign .ion-shop-infinite-status {
+  min-height: 34px;
+  margin: 34px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ion-muted);
+  font-size: 13px;
+  font-weight: 800;
+  text-align: center;
+}
+
+#ion-shop-redesign .ion-shop-loading-more {
+  color: var(--ion-blue);
+}
+
+#ion-shop-redesign .ion-shop-end-message[hidden],
+#ion-shop-redesign .ion-shop-loading-more[hidden] {
+  display: none !important;
+}
+
+#ion-shop-redesign .ion-shop-yith-nav {
+  clear: both;
+  width: 100%;
+  margin: 26px 0 0;
+  text-align: center;
+}
+
+#ion-shop-redesign .ion-shop-yith-nav a.next {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 22px;
+  border-radius: 999px;
+  background: #eef5ff;
+  color: #0d0d67;
+  font-weight: 900;
+  border: 1px solid rgba(0, 126, 255, 0.18);
+}
+
+#ion-shop-redesign .yith-infs-loader {
+  width: 100%;
+  padding: 26px 0;
+  text-align: center;
+}
+
+#ion-shop-redesign .yith-infs-loader img {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+/* v1.0.8: Safety net for products injected by external/YITH/MU infinite-scroll scripts before JS normalizes them. */
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) {
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  border-radius: 12px !important;
+  background: #ffffff !important;
+  border: 1px solid #dfe4ee !important;
+  box-shadow: none !important;
+  text-align: left !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) a.woocommerce-LoopProduct-link,
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) a.woocommerce-loop-product__link {
+  display: block !important;
+  width: 100% !important;
+  min-height: 338px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background:
+    radial-gradient(circle at 50% 24%, rgba(0, 126, 255, 0.06), transparent 38%),
+    linear-gradient(180deg, #fbfbfb 0%, #f7f7f7 100%) !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) a.woocommerce-LoopProduct-link::before,
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) a.woocommerce-loop-product__link::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 38% 0 0 !important;
+  background-image: radial-gradient(rgba(13,13,103,0.16) 1px, transparent 1px) !important;
+  background-size: 16px 16px !important;
+  opacity: 0.36 !important;
+  pointer-events: none !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) img {
+  position: relative !important;
+  z-index: 2 !important;
+  width: min(78%, 255px) !important;
+  max-width: 255px !important;
+  height: 285px !important;
+  object-fit: contain !important;
+  margin: 26px auto 0 !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) .woocommerce-loop-product__title,
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) h2,
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) h3 {
+  margin: 20px 20px 14px !important;
+  color: var(--ion-navy) !important;
+  font-family: var(--ion-font) !important;
+  font-size: 21px !important;
+  line-height: 1.18 !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.035em !important;
+  min-height: auto !important;
+  max-height: none !important;
+  height: auto !important;
+  text-align: left !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) .price {
+  display: block !important;
+  margin: auto 20px 18px !important;
+  color: var(--ion-navy) !important;
+  font-family: var(--ion-font) !important;
+  font-size: 22px !important;
+  line-height: 1.2 !important;
+  font-weight: 900 !important;
+  text-align: left !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) .price .woocommerce-Price-amount,
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) .price .amount {
+  color: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) a.button,
+#ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) button.button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: calc(100% - 40px) !important;
+  min-height: 46px !important;
+  margin: auto 20px 16px !important;
+  padding: 0 18px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #1268f3 !important;
+  color: #ffffff !important;
+  font-family: var(--ion-font) !important;
+  font-size: 18px !important;
+  line-height: 1 !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+  box-shadow: 0 14px 24px rgba(0, 126, 255, 0.18) !important;
+}
+
+
+@media (max-width: 760px) {
+  /* v1.0.8: mobile-only lock â?? two product cards per row, including infinite-scroll inserts. */
+  body.woocommerce-shop #ion-shop-redesign .ion-shop-grid,
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 14px !important;
+  }
+
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product {
+    float: none !important;
+    clear: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) a.woocommerce-LoopProduct-link,
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) a.woocommerce-loop-product__link {
+    min-height: 190px !important;
+  }
+
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) img {
+    width: min(82%, 165px) !important;
+    max-width: 165px !important;
+    height: 160px !important;
+    margin: 16px auto 0 !important;
+    object-fit: contain !important;
+  }
+
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) .woocommerce-loop-product__title,
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) h2,
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) h3 {
+    margin: 14px 12px 10px !important;
+    font-size: 15px !important;
+    line-height: 1.18 !important;
+  }
+
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) .price {
+    margin: auto 12px 12px !important;
+    font-size: 16px !important;
+  }
+
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) a.button,
+  body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product:not(.ion-shop-normalized) button.button {
+    width: calc(100% - 24px) !important;
+    min-height: 40px !important;
+    margin: auto 12px 12px !important;
+    padding: 0 10px !important;
+    font-size: 13px !important;
+    border-radius: 999px !important;
+  }
+}
+
+
+/* v1.0.14: Mobile-only hard lock for odd iPhone/Safari cases where Woo/theme CSS forces one product per row. */
+@media screen and (max-width: 767px) {
+  html body #ion-shop-redesign .ion-shop-grid,
+  html body #ion-shop-redesign ul.products.ion-shop-grid,
+  html body.woocommerce-shop #ion-shop-redesign .ion-shop-grid,
+  html body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid,
+  html body.woocommerce-page #ion-shop-redesign .ion-shop-grid,
+  html body.woocommerce-page #ion-shop-redesign ul.products.ion-shop-grid,
+  html body.post-type-archive-product #ion-shop-redesign .ion-shop-grid,
+  html body.post-type-archive-product #ion-shop-redesign ul.products.ion-shop-grid,
+  html body.tax-product_cat #ion-shop-redesign .ion-shop-grid,
+  html body.tax-product_cat #ion-shop-redesign ul.products.ion-shop-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    gap: 14px !important;
+    grid-template-columns: none !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  html body #ion-shop-redesign ul.products.ion-shop-grid > li.product,
+  html body #ion-shop-redesign .ion-shop-grid > li.product,
+  html body #ion-shop-redesign .ion-shop-grid > .ion-shop-card,
+  html body.woocommerce-shop #ion-shop-redesign ul.products.ion-shop-grid > li.product,
+  html body.woocommerce-page #ion-shop-redesign ul.products.ion-shop-grid > li.product,
+  html body.post-type-archive-product #ion-shop-redesign ul.products.ion-shop-grid > li.product,
+  html body.tax-product_cat #ion-shop-redesign ul.products.ion-shop-grid > li.product {
+    flex: 0 0 calc(50% - 7px) !important;
+    width: calc(50% - 7px) !important;
+    max-width: calc(50% - 7px) !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    float: none !important;
+    clear: none !important;
+    grid-column: auto !important;
+  }
+
+  html body #ion-shop-redesign ul.products.ion-shop-grid > li.ion-shop-empty,
+  html body #ion-shop-redesign .ion-shop-grid > li.ion-shop-empty {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+
+/* v1.0.15: iPhone/Safari desktop-viewport fallback â?? mobile two-column lock without relying on CSS viewport media. */
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-shell,
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-support-inner {
+  width: calc(100% - 22px) !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-layout,
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-support-inner {
+  display: block !important;
+  grid-template-columns: 1fr !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-sidebar {
+  display: none !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-filters {
+  grid-template-columns: 1fr !important;
+  gap: 12px !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-grid,
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign ul.products.ion-shop-grid {
+  display: flex !important;
+  flex-flow: row wrap !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  gap: 0 !important;
+  grid-template-columns: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 0 -7px !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign ul.products.ion-shop-grid::before,
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign ul.products.ion-shop-grid::after {
+  display: none !important;
+  content: none !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign ul.products.ion-shop-grid > li.product,
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-grid > li.product,
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-grid > .ion-shop-card {
+  flex: 0 0 50% !important;
+  width: 50% !important;
+  max-width: 50% !important;
+  min-width: 0 !important;
+  margin: 0 0 14px !important;
+  padding: 0 7px !important;
+  float: none !important;
+  clear: none !important;
+  grid-column: auto !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign ul.products.ion-shop-grid > li.ion-shop-empty,
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-grid > li.ion-shop-empty {
+  flex: 0 0 100% !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card-image {
+  min-height: 190px !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card-image img {
+  height: 160px !important;
+  object-fit: contain !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card-body {
+  padding: 14px 12px 12px !important;
+  min-width: 0 !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card h2 {
+  font-size: 15px !important;
+  line-height: 1.18 !important;
+  min-width: 0 !important;
+  overflow-wrap: anywhere !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card-badge {
+  max-width: 70px !important;
+  min-height: 20px !important;
+  padding: 4px 8px !important;
+  font-size: 9px !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card-description {
+  font-size: 12px !important;
+  line-height: 1.32 !important;
+  margin-bottom: 12px !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card-price {
+  margin-bottom: 12px !important;
+  font-size: 16px !important;
+}
+
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card-button,
+html.ion-shop-force-mobile-two-col body #ion-shop-redesign .ion-shop-card-button:visited {
+  min-height: 40px !important;
+  padding: 0 10px !important;
+  font-size: 13px !important;
+  gap: 7px !important;
+}
+
+@media only screen and (max-device-width: 767px) {
+  html body #ion-shop-redesign .ion-shop-grid,
+  html body #ion-shop-redesign ul.products.ion-shop-grid {
+    display: flex !important;
+    flex-flow: row wrap !important;
+    gap: 0 !important;
+    margin: 0 -7px !important;
+    padding: 0 !important;
+  }
+
+  html body #ion-shop-redesign ul.products.ion-shop-grid > li.product,
+  html body #ion-shop-redesign .ion-shop-grid > li.product,
+  html body #ion-shop-redesign .ion-shop-grid > .ion-shop-card {
+    flex: 0 0 50% !important;
+    width: 50% !important;
+    max-width: 50% !important;
+    min-width: 0 !important;
+    margin: 0 0 14px !important;
+    padding: 0 7px !important;
+    float: none !important;
+    clear: none !important;
+    box-sizing: border-box !important;
+  }
+}

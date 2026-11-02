@@ -1,0 +1,425 @@
+= 4.7.3 =
+* Bug Fix: Bug: BOGO coupon discount not shown in Block Cart until page refresh when coupon auto-adds free item (Same Product & Specific Products with auto-add)
+* Bug Fix: Bug: Gutenberg blocks registered with deprecated Block API version (v1), causing warnings in WP 6.9 and editor breakage in WP 7.0
+* Bug Fix: Bug: Store credit (after-tax mode) leaves unpaid gap when TaxJar recalculates taxes at order level
+* Bug Fix: Coupon Template: The "Coupon Templates" submenu is not clickable from the coupon template detail page
+* Bug Fix: Dashboard "Contact Support" link does not work correctly when clicked
+* Bug Fix: Integration Bug: Store Credits toggle disappears on FunnelKit checkout when Elementor Pro WooCommerce Notices widget is active
+* Bug Fix: Order cancellation over-refunds store credits after apply/remove cycles on order-pay page
+* Improvement: Audit and fix update_option() autoload flags
+* Improvement: Rename: Cross-Plugin LPFW References in ACFWF (PHP & Cypress)
+* Improvement: Replace strpos() with str_contains() across the codebase
+* Improvement: Support WooCommerce Cache Product Objects (product instance caching)
+
+= 4.7.2 =
+* Bug Fix: Upgrade to premium link not working
+* Bug Fix: BOGO notice not displaying on classic cart/checkout pages
+* Bug Fix: BOGO session cache not invalidated on WooPayments multicurrency currency switch
+* Bug Fix: Role and payment restriction options cannot be enabled when WooPayments is active
+* Bug Fix: Virtual coupon status is set to disabled when WooPayments plugin is active
+* Bug Fix: Potential security issue
+* Feature: AI coupon generator - support for AI-generated coupon configuration
+* Improvement: Advanced tool to clear detached store credit entries
+* Improvement: Introduce option to disable the popup when creating a new coupon
+
+= 4.7.1.1 =
+* Improvement: Enhance WPML support for different domain language formats in URL translation
+* Bug Fix: Implement missing coupon access validation for users
+
+= 4.7.1 =
+* Bug Fix: BOGO coupon not working when a regular coupon is already applied
+* Bug Fix: Elementor Pro: Unable to apply Store Credits if using the Elementor Checkout element
+* Bug Fix: Incorrect coupon URL for secondary languages
+* Bug Fix: Store Credit could not adjust 4-figure points if the thousand separator was blank
+* Bug Fix: Tax was not automatically included for cart conditions subtotals and totals
+* Improvement: Automatically send email on Store Credits adjustment
+* Improvement: Add filter to allow disabling the "add new coupon" popup
+
+= 4.7.0 =
+* Bug Fix: BOGO GET item added all available stock instead of the defined quantity when stock management was enabled
+* Bug Fix: Unable to uncheck the "automatically add deal product" option when selecting BOGO Specific Product or Same Product
+* Bug Fix: Unable to click the button on the "Non-Qualifying coupon" cart condition error notice
+* Bug Fix: A used coupon showed an incorrect remaining message on the "My Coupons" page
+* Bug Fix: WPML Multicurrency Integration: Store credits did not apply correctly on secondary currencies
+* Feature: Added a new coupon popup (Choose Manual Creation or Coupon Template)
+* Improvement: Allowed BOGO condition Product Categories to select a category with no products
+* Improvement: Displayed the store credit expiry date in the customer's Store Credits dashboard
+
+= 4.6.9 =
+* Bug Fix: BOGO discount is not applied on translated cart/checkout pages
+* Bug Fix: BOGO discount not applying on wholesale products
+* Bug Fix: Editing the date on a notification that has been shown will not work due to filter logic
+* Bug Fix: Notification is fetched incorrectly due to long transient expiration time (1 day)
+* Bug Fix: Restoring an expired notification is not yet possible
+* Bug Fix: Critical error due to incorrect usage of precision functions
+* Bug Fix: Manually updating cart quantity without refreshing page does not re-calculate coupon validity
+* Bug Fix: Advanced Coupons by category block content shows warning
+* Bug Fix: Store credit does not apply in non-default currency when WPML and Aelia are active
+* Feature: Coupon Template: Add search filter for coupon templates
+* Feature: Coupon Template: Add sorting for coupon templates 
+* Feature: Custom taxonomy feature for grouping coupons based on the features they use
+* Improvement: Add option to hide expired coupons in Advanced Coupons block
+* Improvement: Add coupon count under feature term in usage tracking data
+* Improvement: Feature Custom Taxonomy: Add required filters for premium plugin
+* Improvement: Option to hide store credits on My Account if zero balance
+
+= 4.6.8 =
+* Bug Fix: BOGO discount is not applied on wholesale product until page is refreshed
+* Bug Fix: BOGO price is not updated when the coupon is removed on the legacy cart
+* Bug Fix: BOGO causing wrong calculation in cart when WWPP quantity based wholesale feature is set
+* Bug Fix: PHP Warning: Attempt to read property "post_content" on null
+* Feature: Store credits 3rd party importer tool
+* Improvement: Add support for the new WC email improvements
+
+= 4.6.7 =
+* Bug Fix: Coupon's can't be saved when the Affiliate WP plugin is active
+* Bug Fix: Incorrect success message shown when store credit conditions are not met
+* Bug Fix: SSI Conflict: HTML Comment <!--#url_coupon_data--> Triggers Server Error on SSI-Enabled Apache Hosts
+* Bug Fix: Store Credit Not Recorded After Refunding Order to Store Credits
+* Improvement: Add way to assign a category to a coupon that is created/updated via the WC REST API endpoint
+* Improvement: Coupon templates: add support for product attributes usage restriction fields
+* Improvement: Create a shortcode for displaying the my account store credit page content
+* Improvement: Option To Use Parent Product Instead of Listing the Each Variants
+* Improvement: Option to enable deducting store credit payment value from the order total when fetched for accounting software
+
+= 4.6.6 =
+* Bug Fix: Always use regular price for "all coupon types" is not calculating discount when a discounted product from an add-product coupon applied
+* Bug Fix: Automatic refund email does not include refund type (Store Credits)
+* Bug Fix: BOGO: Critical error when "Customer Buys" products are removed from the cart while the BOGO coupon is still applied to the cart
+* Bug Fix: Can't use store credits with WooCommerce Subscription
+* Bug Fix: Duplicated Queries on in app notices
+* Bug Fix: Exclude gift card products from Customer Gets of BOGO - Specific Product/s
+* Bug Fix: Unclaimed store credits from deleted customers are not deducted from the unclaimed amount on the Store Credits dashboard
+* Feature: Add ability to send push to a specific user via Pushengage
+* Improvement: Display Store Credits notes icon on My Account and Store Credit Dashboard
+* Improvement: Getting started admin page
+* Improvement: Hide expired coupons in Advanced Coupons by Category gutenberg block
+* Improvement: Remove the target=“_blank” from the View Order link
+
+= 4.6.5.2 =
+* Improvement: Security and code improvements
+
+= 4.6.5.1 =
+- Bug Fix: Remove the string "or discount" from the cart subtotal coupon editor
+- Bug Fix: Store Credit not computing properly with WooCommerce Subscription
+
+= 4.6.5 =
+- Bug Fix: Coupon Template not working with "Total Customer Spend" cart condition
+- Bug Fix: Coupon Template: The required enable scheduler field is not showing the validation when coupon template is created
+- Bug Fix: Dates on the store credit history are not translatable
+- Bug Fix: Extra characters showing on "Cart Subtotal" condition on the Coupon Templates creation screen
+- Bug Fix: Fix links to Advanced Coupons website in coupons dashboard license activation status
+- Bug Fix: Integration - Always use regular price for "fixed product discount" & "percentage discount" are not working with subscription products
+- Bug Fix: JS Error When coupon code is exceeding certain characters
+- Bug Fix: Store credit discount amount is wrong when "Prices entered with tax" setting is set to include tax
+- Bug Fix: Pushengage: Fatal error when trying to send push notification for account that has no segment setup yet
+- Feature: PushEngage: Add push notification option with plugin install and activation
+- Feature: PushEngage: Develop and test dynamic notification preview
+- Feature: PushEngage: Integrate segment selection and message customization
+- Feature: PushEngage: Set up API integration for notification broadcast
+- Improvement: Advanced Coupons by Category Block: Make the coupons stack on mobile
+- Improvement: Store Credit HTML elements still showing when store credit Is disabled
+
+= 4.6.4 =
+- Bug Fix: Always use regular price for all coupon types is showing the sale price for specific condition
+- Bug Fix: Always use regular price for all coupon types is showing the sale price on the cart block
+- Bug Fix: Arrow entities are broken on in-app notification buttons
+- Bug Fix: Coupon Template: couldn't create the coupons when the field is non required for the products and product categories usage restrictions
+- Bug Fix: Fix links to Advanced Coupons website in some locations
+- Bug Fix: Integration - CheckoutWC - Store Credit Field Doesn't Show Up
+- Bug Fix: The title for in-app notifications is not being displayed in the coupon dashboard page
+- Bug Fix: scripts and styles loaded by Vite are not enqueued properly when using a CDN
+- Improvement: Add a Filter for is_current_page_using_cart_checkout_block function
+- Improvement: Add the upsell for "Products Attributes" and "Exclude Product Attributes"
+
+= 4.6.3.2 =
+- Bug Fix: Store Credit Should Only Applied to Orders not on the Subscription
+
+= 4.6.3.1 =
+- Bug Fix: Old and expired auto-apply coupons are applied on the cart
+
+= 4.6.3 =
+- Bug Fix: Cart & Checkout Block: The cart condition non-qualifying message won't show up when the coupon is auto-applied
+- Bug Fix: Coupon Template: Disable the "Allow Free Shipping" when the setting is set to disabled
+- Bug Fix: Coupon Template: Disable the "Date Range Schedules" when it disabled from server
+- Bug Fix: Coupon Template: Disable the "Enable Coupon URL " when it disabled from server and from the plugin
+- Bug Fix: Coupon Template: Hide option to select how many coupons to display on archive pages
+- Bug Fix: Coupon Template: debug log found for PHP Warning Undefined variable $type 
+- Bug Fix: Coupon Template: the coupon start and expiry date shows invalid date for filled by the user template
+- Bug Fix: Coupon Template: usage restrictions for "individual use only" and "exclude sale items" do not generate valid data when disabled from the coupon template
+- Bug Fix: Dashboard: Wrong Uses Count and URL
+- Bug Fix: Refund to Store Credit: Line Items Data Are Not Attached Properly to The Refund Request in JS
+- Bug Fix: Remove unnecessary <label> element in store credit button component
+- Feature: Ability to add notes/comments on Store Credit popup to track why adjustment was made
+- Feature: Coupon Templates cart condition feature support
+- Improvement: Coupon Template: Make the coupon template generated data more readable 
+
+= 4.6.2 =
+- Bug Fix: Always use regular price doesn't work for BOGO coupon 
+- Bug Fix: BOGO adjusted price doesn't respect the tax setting
+- Bug Fix: Cart block: multiple cart requests with dummy update cart even when the coupon is not BOGO
+- Bug Fix: Fatal error happens when applying the acfw_filter_amount filter on a currency value that's possibly null
+- Bug Fix: Frontend JS are not enqueued properly when siteground speed optimizer combine JS feature is enabled
+- Feature: Set a minimum order total allowed after store credit deduction
+- Feature: Coupon Templates (create coupons via templates)
+- Improvement: Add customer filtering on store credits dashboard
+- Improvement: Add a remove button on applied store credit in the checkout page
+- Improvement: Ensure that all of promo banners are dismissed properly
+- Improvement: Option to always show store credits
+- Improvement: Tweak review notice to be smaller
+
+= 4.6.1.1 =
+- Bug Fix: BOGO discount summary showing error when auto apply option is active
+- Bug Fix: Invalid coupon error when sending coupon email
+- Bug Fix: The exclude wholesale items option is enabled by default on new and existing coupons
+
+= 4.6.1 =
+- Bug Fix: Checkout Block: Checkout page showing error notice if applying store credit with value of 0
+- Bug Fix: Cart/Checkout Block: Remove the BOGO deal notice automatically when the BOGO coupon is removed from the cart or checkout block
+- Bug Fix: Cart/Checkout Block: Show the BOGO deal notice automatically when the 2nd BOGO coupon is applied to the cart or checkout block
+- Bug Fix: Checkout Block: Store credit form should hidden for Guest user
+- Bug Fix: invalid post type when accessing coupon admin page and the coupons feature is disabled in WC
+- Bug Fix: PHP warning is logged when adjusting customer points in the admin
+- Bug Fix: Unable to set the "Display notice when auto applied" setting on coupon editor
+- Feature: QR codes for URL coupons
+- Improvement: add the history table in the store credit admin dashboard
+- Improvement: Fix cart condition naming style
+- Integration: Add feature to allow restricting discounts for wholesale products
+
+= 4.6.0.2 =
+- Bug Fix: Blank coupon is applied when applying store credit (before tax) and can't complete the checkout process
+
+= 4.6.0.1 =
+- Bug Fix: Plugin can't be deleted after 3.6.0 update
+- Bug Fix: The cart/checkout blocks incompatible notice is not removed
+
+= 4.6.0 =
+- Bug Fix: Always use regular price feature doesn't work for BOGO coupon 
+- Bug Fix: Checkout Block: Store credit form should be hidden for guest users
+- Bug Fix: Checkout Blocks: Show an error notice on Checkout Block page when the new calculated cart total value changes
+- Bug Fix: Error is thrown when a numeric coupon code is applied in the cart
+- Bug Fix: Store Credit Form Inner Element not Visible or cut off on some device or theme
+- Bug Fix: Store credit entries are not deleted when the user is permanently deleted
+- Bug Fix: Unable to show the "Day/Time Schedules" error message when the "Date Range Schedules" is not set
+- Feature: Display the BOGO Deals discount summary in the cart/checkout blocks
+- Feature: Show the BOGO Deal notice in the cart/checkout blocks
+- Feature: Show the cart condition notification in the cart/checkout blocks
+- Feature: Show the custom “Schedule Expire Error Message” in the cart/checkout blocks
+- Feature: Integration with WooPayments plugin multi-currency feature
+
+= 4.5.9.2 =
+- Bug Fix: Checkout blocks: Show/Hide the "Store Credits" form depending on the coupons settings
+- Bug Fix: frontend JS packaged with Vite are not loading due to missing HTML 5 script support
+
+= 4.5.9.1 =
+- Bug Fix: The applied store credit added via checkout block page is not added when the order is purchased (for after tax implementation)
+- Bug Fix: Checkout Block: Store credit amount is not deducted and the coupon store credit will be added with the previously applied store credit (for before tax and shipping implementation)
+- Bug Fix: Checkout Block: Unable to fully pay the order with store credit for after tax and shipping implementation
+
+= 4.5.9 =
+- Bug Fix: The coupon related Gutenberg blocks are missing some JS dependencies
+- Bug Fix: Checkout block: Store credits amount is not refreshed when a gift card is redeemed
+- Bug Fix: The store credit history table in the frontend is not showing up
+- Feature: Add button to refund the applied store credits discount in the order
+- Feature: Checkout Block: add support for the apply store credit form
+- Improvement: Add filter to support custom statuses for appyling store credits in order
+
+= 4.5.8.3 =
+- Bug Fix: Dashboard breaks when using french as the default language
+
+= 4.5.8.2 =
+- Bug Fix: The BOGO deal notice does not show up for the 2nd applied BOGO coupon
+- Bug Fix: BOGO is not implemented when coupon is applied via FunnelKit's side cart plugin
+
+= 4.5.8.1 =
+- Bug Fix: Store Credits on Checkout Page not opening or expanding for input
+- Improvement: Turn off integrity check on JS/CSS files loaded by Vite and add a setting to turn it on
+
+= 4.5.8 =
+- Bug Fix: Always use regular price doesn't work for variable product
+- Bug Fix: New feature fields added in the general tab are not showing up when BOGO Deals discount type is selected
+- Bug Fix: Store credit redeem form on a checkout page is gone when FunnelKit Funnel Builder is active
+- Bug Fix: The Missing plugin dependency notice is not showing the missing plugin's name
+- Bug Fix: Wrong calculation for Amount Discounted and Discounted Order Revenue when using AELIA
+- Feature: Cart & Checkout Block : Cart Page - BOGO Coupon with add Product Quantity Change
+- Improvement: Declare incompatible with WC Cart/Checkout blocks
+- Improvement: Display incompatibility notice for WC 8.3 (Cart and checkout blocks)
+- Improvement: Store Credit Dashboard: Ability to Sort or Filter Active Balance
+
+= 4.5.7.1 =
+- Bug Fix: Fatal error when trying to delete the plugin
+
+= 4.5.7 =
+- Bug Fix: Default coupon category global setting is showing the category ID not the category name
+- Bug Fix: Deprecated message is logged when running with PHP version 8.2
+- Bug Fix: WOOCS - BOGO doesn't show the correct price in other currency
+- Feature: Revamp the checkout UI and FunnelKit integration
+- Feature: Add setting to set the store credit expiry
+- Improvement: Add +/- prefix to store credit entries in the "Coupons > Store Credits" admin page history table.
+- Improvement: Add +/- prefix to store credit entries in the "My Account > Store Credits" page history table. 
+- Improvement: Make the license page tabbed for each plugin
+- Improvement: REST API: remove same site validation in all requests
+
+= 4.5.6 =
+- Bug Fix: Coupon metadata are saved multiple times
+- Bug Fix: The upgrade button is displayed below the logo
+- Feature: Adopt new WooCommerce High-Performance Order Storage (HPOS) system
+- Feature: Allow coupons to be applied via query string and redirect to the same page
+- Feature: Automatically remove coupons for failed/cancelled orders
+- Feature: Store Credit history on my account page
+- Improvement: Add the upgrade to premium CTA button at the top of the page in the "Upgrade to premium" page
+- Improvement: Add upsell for the cashback coupon discount types
+- Improvement: Apply unified package.json and node_modules setup for all JS scripts in the plugin
+- Improvement: Set a Maximum Limit for Repeated BOGO Deals
+- Improvement: Uncanny Automator: update source option when plugin is activated for already installed plugin.
+
+= 4.5.5 =
+- Bug Fix: Store Credit doesn't add the tax to the subtotal value
+- Feature: Option to modify the applied store credits discount on pending orders
+- Improvement: Add the new "Automations" tab on the Store Credit Dashboard with a one-click install option for Uncanny Automator
+- Improvement: adjust advanced coupons logo styling
+
+= 4.5.4.2 =
+- Bug Fix: Database error log found for checking the balance for all customer's when the site has additional prefix in the DB
+- Bug Fix: Email content is pushed to the rightmost of the page after updating WC to 7.4
+- Bug Fix: The coupon notification that appeared on the coupon-related page disappeared after the 4.5.4 update
+
+= 4.5.4.1 =
+- Bug Fix: Applying the invalid coupon with URL Coupon showing the wrong notice since ACFWF 4.5.4
+
+= 4.5.4 =
+- Bug Fix: Always use regular price should only working for the BOGO "Get" products only
+- Bug Fix: Change pdf optin endpoint on settings
+- Bug Fix: Redirect to URL if invalid coupon is visited is not working
+- Bug Fix: The checkout page is not refreshed when applying for store credits before or after tax changes
+- Bug Fix: URL Coupons: User is redirected to the login page when redirect to URL is set to an external site
+- Bug Fix: WPML: coupon URL for other languages doesn't work when language URL format is set to directories
+- Feature: Allow Administrator or Shop Manager to Apply Store Credit to Orders in Backend
+- Feature: Delete ACFWF plugin from plugin list should delete its data
+- Improvement: Add custom validation scripts to URL Coupons redirect settings
+- Improvement: Add place holder for cart conditions premium settings when premium plugin is deactive
+- Improvement: Add tax option to subtotal cart condition
+- Improvement: Show admin notices count on top level menu instead of the dashboard submenu
+- Improvement: Upgrade to premium notification bar in the coupon related admin pages
+
+= 4.5.3 =
+* Feature: Add option to always use regular price for general percentage discount when sale price exists
+* Feature: Send a Coupon
+* Improvement: BOGO: improve text descriptions for all "Buy" and "Get" types
+* Improvement: Advanced Gift Cards upsell admin page
+* Bug Fix: Fatal Error when using WooCommerce REST API
+* Bug Fix: Compatibility with WooCommerce PDF Invoices & Packing Slips
+* Bug Fix: Fatal error when applying store credits before tax and a currency conversion plugin is active
+* Bug Fix: The store credit admin adjustment increase should add the sources to the related field only
+* Bug Fix: Multisite: license page is empty when only Loyalty Program tab is available
+
+= 4.5.2 =
+* Improvement: Store Credits: add a filter for store credit decrease action types
+* Improvement: Add store credit to order quick view
+* Improvement: Store credit: add a setting to set when store credits payment are applied (before or after tax)
+* Improvement: Create equivalent shortcodes for all coupon gutenberg blocks
+* Bug Fix: The Store Credit tab on global coupon settings should be hidden when the Store Credit module is disabled
+* Bug Fix: Store Credit: Undefined text appears when using comma as decimal separator
+* Bug Fix: The store credits total paid amount is wrong when removing a product from the cart after applying the store credits discount
+* Bug Fix: Failed and cancelled orders should not deduct store credit
+
+= 4.5.1.1 =
+* Improvement: Deduct store credits payment from the set order total
+
+= 4.5.1 =
+* Feature: URL Coupons: option to redirect back to origin page where link is present
+* Improvement: Change endpoint slug for store credit to the more succinct /my-account/store-credit/
+* Improvement: Dashboard: update relative report widgets to include BOGO, Add Products and Shipping Overrides discount values
+* Improvement: Add notice type field in cart condition non-qualifying settings for auto applied coupons
+* Improvement: checking if result is actually 0 or false when using wpdb::update
+* Bug Fix: Scheduler: the active date should updated when the start date or expiry date are updated
+* Bug Fix: Some texts on Store Credit UI are not translatable
+* Bug Fix: PHP logs exist for view-generic-notice when wwp plugin is active
+
+= 4.5.0.2 =
+* Bug Fix: The license field width is too small
+
+= 4.5.0.1 =
+* Bug Fix: The getting started notice dismiss AJAX request has no nonce value
+* Improvement: Change review ask format to a simple admin notice style
+* Improvement: Indicate that a refund is done via store credits
+* Improvement: Set the method for implementing store credits as payment in checkout as publicly callable
+
+= 4.5 =
+* Feature: Move the current scheduler premium feature to the free plugin
+* Improvement: Add upsell for the new day/time schedule section
+
+= 4.4.1 =
+* Bug Fix: Dashboard: Hide Store Credit section header from the dashboard when the module is disabled
+* Bug Fix: Dashboard: The discount calculation should calculate values back to the original currency for Multicurrency
+* Bug Fix: The admin notices should have correct CSS color
+* Bug Fix: WPML: settings page won't load when the language URL format is set to "Different languages in directories"
+* Bug Fix: Dashboard: The license status was not updated after the licenses were updated due to cache
+
+= 4.4 =
+* Improvement: BOGO: Change Product Categories UI to allow multiple categories in one row and only have one row allowed
+
+= 4.3.4 =
+* Bug Fix: Error on Order Details and Payment Section in Checkout Page when using Auto Apply Coupon
+
+= 4.3.3 =
+* Improvement: Dashboard: Notices section
+* Improvement: Dashboard: Add section header to dashboard widget types to help with visual separation
+* Bug Fix: WPML: String translations are not working
+* Bug Fix: BOGO Deals coupons are showing the amount value as 0.00$ on the order details (backend)
+
+= 4.3.2 =
+* Feature: Loyalty Program upsell page on Coupons menu
+* Improvement: Upsell: Link all instances of Advanced Coupons logo with premium link
+* Improvement: Add Virtual Coupon Upsell to ACFWF plugin under "Coupons > Settings > Modules"
+* Improvement: URL Coupons: Add button to copy the URL to the clipboard
+* Improvement: Change the Free Guide offer on the Settings->General tab to accept first name & email instead of just a link to our landing page
+* Improvement: Add upsell for Cart Condition: WC Allowed and WC Disallowed WC Membership options when WC Membership plugin is active
+
+= 4.3.1 =
+* Bug Fix: Multisite: PHP warning shows up when viewing sites list
+
+= 4.3 =
+* Feature: New Advanced Coupons Dashboard
+
+= 4.2.1 =
+* Improvement: Adjust the help content API link to new base url
+* Improvement: Allow Gift Card Products to be selected on BOGO and Add Product feature
+* Improvement: Add Upsell for "Allowed Customers" restriction on ACFWF plugin under "Usage Restrictions" tab 
+* Bug Fix: Can't refund order that is bought with Store Credit
+* Bug Fix: Rounding issue when applying store credit on the checkout page
+* Bug Fix: WPML: search products AJAX is not returning the product ID for the default language when the product was added using a secondary language first
+
+= 4.2 =
+* Feature: Add option to always use regular price when sale price exists
+* Improvement: Add css classes for WooCommerce coupon type to coupon gutenberg blocks to help improve styling targeting
+* Improvement: Pass the URL Coupon attributes to the redirect URL and remove blog permalink structure from the coupon permalink structure
+* Improvement: Create duplicate Store Credits REST API endpoints to add support for WC Basic Auth
+* Improvement: Store Credits: Option to hide store credits section on checkout screen if the customer currently has no store credit balance
+* Improvement: Feature description improvement for "Customer Buys"
+
+= 4.1 =
+* Improvement: Only allow one (1) WooCommerce BOGO coupon to be applied to the cart at once
+* Improvement: WOOCS currency switcher plugin integration
+* Improvement: Show notice if a WooCommerce BOGO coupon already exists on the cart and don’t apply the new one 
+
+= 4.0.3 =
+* Bug Fix: Store Credits: Searching for existing customer on the second page of the customer list will show empty list
+* Bug Fix: Store Credits: refunding order to store credits more that the available amount won't show any notice
+* Bug Fix: Make notices be visible on the store credits admin page
+* Bug Fix: Store Credits: Failing on manually refund will remove the "Refund to Store Credits" button 
+* Bug Fix: Order total is not deducted with the tore credits discount when the order is recalculated in the backend
+
+= 4.0.2 =
+* Bug Fix: Fee Value is Hidden in The Order Details Table on The Checkout Page if Store Credit Module is Enabled
+
+= 4.0.1 =
+* Bug Fix: Store Credit - SQL Improvement
+
+= 4.0 =
+* Feature: Store Credits: Announcing Store Credits! You can now have the ability to grant store credit to your customers against their account which they can redeem later during checkout when placing an order. This is great for customer service scenarios such as giving credit, issuing refunds back to Store Credit instead of refunding payment, and many other future upcoming features.
+* Feature: Store Credits: Admin management dashboard
+* Feature: Store Credits: Checkout implementation
+* Feature: Store Credits: Issue Refunds using store credit
+* Feature: Store Credits: Add a My account tab to show customers their store credit
+* Feature: Store Credits: Add REST API endpoints for store credit

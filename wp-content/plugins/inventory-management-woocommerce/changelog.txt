@@ -1,0 +1,77 @@
+*** WooCommerce Extension Template Changelog ***
+
+2025-11-14 - Version 2.8.2
+* Even more improvements in security and logging functionalities — mostly to survive another day in a PHP world.
+
+2025-11-10 - Version 2.8.1
+* Additional improvement in security and logging functionalities
+
+2025-09-16 - Version 2.8.0
+* Improvement in security and logging functionalities
+* Added support for website with strict security settings on http verbs
+
+2025-03-05 - Version 2.7.0
+* Added Product Status support
+
+2025-02-19 - Version 2.6.1
+* Get Started link fix
+
+2025-02-17 - Version 2.6.0
+* Improvement on UX
+* Added shortcut to login page and documentation inside plugin directory
+
+2024-11-27 - Version 2.5.2
+* Improved the update feature
+* Tested on last version of wordpress
+
+2024-11-19 - Version 2.5.1
+* New plugin update feature
+
+2024-11-06 - Version 2.5.0
+* #1024 Account Reactivation
+* Live Sync update
+* Retrieve errors support
+
+2024-10-05 - version 2.2.2
+* Sync Categories Fix
+
+2024-10-04 - version 2.2.1
+* WPML Support
+
+2024-09-13 - version 2.1.1
+* Minor fix for deactivation
+* Deploy improvements
+
+2024-09-12 - version 2.1.0
+* Minor fix for order sync
+* Improved onboarding process
+
+2024-09-09 - version 2.0.0
+* Introduces the new Shelf Planner User Interface
+* A completely new design with more intuitive user interface and improved performance.
+* Mass edit functionality for all products with easy csv down-/upload
+* Integrated Purchase Order management that allows for easy tracking of incoming stock
+* Includes a new, powerful ‘ABC Analysis’ report
+* Included Gross Margin calculation for all products
+
+2023-08-23 - version 1.0.5
+* Compatibility update for wordpress 6.3
+* Minor bug fixes.
+
+2023-07-13 - version 1.0.4
+* Release 1.0.4 includes minor fixes that increase efficiency in the forecast generation and improve overall product integration. These changes are not visible in your experience with the services. 
+
+2023-07-04 - version 1.0.3
+* General bug fixes. 
+
+2023-06-27 - version 1.0.2
+* Removal of product parameters from the standard WooCommerce product pages. 
+* Removal of product information and forecast api log from the Product Management page. 
+
+2023-06-20 - version 1.0.1
+* Add sorting functionalities to Product Management page
+* Fixed product with multiple variation display
+* Fixed minor bugs on undefined variables
+
+2023-05-29 - version 1.0.0
+* Initial release

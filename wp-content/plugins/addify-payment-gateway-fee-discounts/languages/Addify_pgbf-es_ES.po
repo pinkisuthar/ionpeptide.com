@@ -1,0 +1,405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment Method Based Fee &amp; Discounts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-24 07:03+0000\n"
+"PO-Revision-Date: 2026-01-07 11:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.2.12\n"
+"X-Domain: Addify_pgbf"
+
+#. %s: custom post revision
+#: includes/admin/class-af-pgbf-admin.php:54
+#, php-format
+msgid "%1$s restored to revision from %2$s"
+msgstr ""
+
+#. %s: custom post scheduled update
+#: includes/admin/class-af-pgbf-admin.php:62
+#, php-format
+msgid "%1$s scheduled for: <strong>%2$s</strong>."
+msgstr ""
+
+#. %s: custom post draft update
+#: includes/admin/class-af-pgbf-admin.php:64
+#, php-format
+msgid "%s draft updated."
+msgstr ""
+
+#. %s: custom post published
+#: includes/admin/class-af-pgbf-admin.php:56
+#, php-format
+msgid "%s published."
+msgstr ""
+
+#. %s: rules count
+#: includes/admin/class-af-pgbf-admin.php:80
+#, php-format
+msgid "%s Registration Field moved to the Trash."
+msgid_plural "%s rules moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: rules count
+#: includes/admin/class-af-pgbf-admin.php:76
+#, php-format
+msgid "%s Registration Field not updated, somebody is editing it."
+msgid_plural "%s rules not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: rules count
+#: includes/admin/class-af-pgbf-admin.php:78
+#, php-format
+msgid "%s Registration Field permanently deleted."
+msgid_plural "%s rules permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: rules count
+#: includes/admin/class-af-pgbf-admin.php:82
+#, php-format
+msgid "%s Registration Field restored from the Trash."
+msgid_plural "%s rules restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: rules count
+#: includes/admin/class-af-pgbf-admin.php:74
+#, php-format
+msgid "%s Registration Field updated."
+msgid_plural "%s rules updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: custom post saved
+#: includes/admin/class-af-pgbf-admin.php:58
+#, php-format
+msgid "%s saved."
+msgstr ""
+
+#. %s: custom post submitted
+#: includes/admin/class-af-pgbf-admin.php:60
+#, php-format
+msgid "%s submitted."
+msgstr ""
+
+#. %s: custom post update
+#: includes/admin/class-af-pgbf-admin.php:48
+#: includes/admin/class-af-pgbf-admin.php:52
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:157
+msgid "Active"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:239
+msgid ""
+"Add custom title here, this will appear on checkout page as line item to "
+"explain why this additional fee has been added."
+msgstr ""
+
+#. Description of the plugin
+msgid "Add fee or discount based on payment gateways."
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:99
+msgid "Add New Fee/Discount"
+msgstr ""
+
+#. Author of the plugin
+msgid "Addify"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:578
+msgid "Apply by Brands"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:551
+msgid "Apply by Categories"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:432
+msgid "Apply by Countries"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:527
+msgid "Apply by Products"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:291
+msgid "Apply on"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:491
+msgid ""
+"Apply this rule to specific user roles. Leave empty to apply it for everyone."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:412
+msgid "Cart Amount Restriction"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:229
+msgid "Choose the option to add Fee/Discount on the value of the entire cart."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:465
+msgid "Countries to include or exclude."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:399
+msgid "Date Range"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:227
+msgid "Discount"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:298
+msgid "Each Product"
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:101
+msgid "Edit Fee/Discount"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:347
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:439
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:497
+msgid "Exclude Customers"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:518
+msgid "Exclude specific user. Leave empty to apply it for everyone."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:635
+msgid "Failed security check"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:224
+msgid "Fee"
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:98
+#: addify-payment-gateway-based-fees-main.php:102
+#: addify-payment-gateway-based-fees-main.php:103
+#: addify-payment-gateway-based-fees-main.php:110
+msgid "Fee/Discount"
+msgstr ""
+
+#. id
+#: includes/admin/class-af-pgbf-admin.php:173
+msgid "Fee/Discount Settings"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:235
+msgid "Fee/Discount Title"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:245
+msgid "Fee/Discount Type"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:262
+msgid "Fee/Discount Value"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:251
+msgid "Fixed"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:402
+msgid "From:"
+msgstr ""
+
+#. id
+#: includes/admin/class-af-pgbf-admin.php:182
+msgid "General Options"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://woocommerce.com/products/addify-payment-gateway-fee-discounts"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/vendor/addify/"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:159
+msgid "In Active"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:435
+msgid "Include"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:348
+msgid "Is taxable?"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:425
+msgid "Maximum cart amount for adding fee/discount."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:285
+msgid "Maximum fee(or discount) value."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:281
+msgid "Maximum Fee/Discount Value"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:416
+msgid "Minimum cart amount for adding fee/discount."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:275
+msgid "Minimum fee(or discount) value."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:271
+msgid "Minimum Fee/Discount Value"
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:70
+msgid ""
+"must be active for this plugin to work. Please install &amp; activate "
+"WooCommerce."
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:106
+msgid "No Fee/Discount"
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:107
+msgid "No Fee/Discount found in trash"
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:109
+msgid "Payment Fee"
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:97
+#: addify-payment-gateway-based-fees-main.php:100
+msgid "Payment Method Based Fee & Discount"
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:70
+msgid "Payment Method Based Fee & Discounts plugin is inactive."
+msgstr ""
+
+#. Name of the plugin
+msgid "Payment Method Based Fee &amp; Discounts"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:50
+msgid "Payment method based fee rule deleted."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:49
+msgid "Payment method based fee rule updated."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:324
+msgid "Payment Methods"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:254
+msgid "Percentage"
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:111
+#: includes/admin/class-af-pgbf-admin.php:141
+msgid "Priority"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:599
+msgid ""
+"Restrict this rule by brands. It will apply only to the selected brands. "
+"Leave empty to apply to all brands."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:572
+msgid ""
+"Restrict this rule by categories. It will apply only to the selected "
+"categories. Leave empty to apply to all categories."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:443
+msgid ""
+"Restrict this rule by countries. Leave empty to apply it for all countries."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:545
+msgid ""
+"Restrict this rule by products. It will apply only to the selected products. "
+"Leave empty to apply to all products."
+msgstr ""
+
+#. id
+#: includes/admin/class-af-pgbf-admin.php:191
+msgid "Restrictions"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:406
+msgid ""
+"Rule applies only if the date is within the given range. Leave empty to "
+"apply to all dates."
+msgstr ""
+
+#: addify-payment-gateway-based-fees-main.php:104
+msgid "Search Fee/Discount"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:587
+msgid "Select Brands..."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:218
+msgid "Select Fee/Discount"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:336
+msgid "Select payment gateways to apply this rule to."
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:142
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:295
+msgid "Subtotal"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:354
+msgid "Tax Class"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:342
+msgid "Taxes"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:404
+msgid "To:"
+msgstr ""
+
+#: includes/admin/class-af-pgbf-admin.php:471
+msgid "Users Roles"
+msgstr ""

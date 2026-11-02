@@ -1,0 +1,14 @@
+{
+    "name": "link-financial/linkmoney",
+    "description": "WooCommerce Link Money Payment Gateway",
+    "type": "wordpress-plugin",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "yoast/phpunit-polyfills": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

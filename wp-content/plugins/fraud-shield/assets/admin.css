@@ -1,0 +1,732 @@
+/* Fraud Shield admin styles */
+
+.fs-wrap h1 .dashicons {
+	font-size: 28px;
+	width: 28px;
+	height: 28px;
+	vertical-align: text-bottom;
+	color: #d63638;
+}
+
+/* ---- Stat cards ---- */
+.fs-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	margin: 18px 0 24px;
+}
+.fs-card {
+	flex: 1 1 150px;
+	min-width: 140px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left: 4px solid #2271b1;
+	border-radius: 6px;
+	padding: 16px 18px;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.04 );
+}
+.fs-card-red   { border-left-color: #d63638; }
+.fs-card-amber { border-left-color: #dba617; }
+.fs-card-green { border-left-color: #00a32a; }
+.fs-card-green .fs-num { color: #00752f; }
+.fs-num {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.1;
+	color: #1d2327;
+}
+.fs-card-red .fs-num   { color: #b32d2e; }
+.fs-card-amber .fs-num { color: #8a6d09; }
+.fs-label {
+	margin-top: 4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .03em;
+	color: #646970;
+}
+
+/* A card that is also a link (Dashboard → High-Value Review, the review page's filters). */
+a.fs-card-link { text-decoration: none; color: inherit; display: block; }
+a.fs-card-link:hover { border-color: #2271b1; box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.1 ); }
+a.fs-card-link:focus { box-shadow: 0 0 0 2px #2271b1; outline: none; }
+.fs-card-sub { margin-top: 4px; font-size: 12px; color: #646970; }
+
+/* ---- High-Value Review (v1.32) ---- */
+.fs-hv .fs-cards .fs-num { font-size: 26px; }
+.fs-hv-tabs { margin-bottom: 0; display: flex; align-items: flex-end; flex-wrap: wrap; }
+.fs-hv-range { margin-left: auto; padding: 0 4px 6px; font-size: 12px; font-weight: 400; color: #646970; }
+.fs-hv-table td { vertical-align: top; }
+.fs-hv-table .fs-hv-review-col { min-width: 260px; }
+.fs-hv-table .fs-hv-where { max-width: 260px; }
+.fs-hv-table .fs-why ul { margin: 4px 0 0; padding-left: 14px; }
+.fs-hv-table .fs-why li { margin: 0 0 3px; font-size: 12px; }
+.fs-hv-pills { margin-top: 5px; display: flex; flex-wrap: wrap; gap: 3px; }
+.fs-hv-pills .fs-pill, .fs-hv-where .fs-pill { font-size: 10px; }
+.fs-hv-links { margin: 6px 0 0; font-size: 12px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.fs-hv-links .button-link { font-size: 12px; text-decoration: none; }
+.fs-hv-linked { display: inline-block; margin-top: 3px; font-size: 12px; font-weight: 600; color: #8b0000; }
+.fs-hv-form { display: flex; flex-direction: column; gap: 5px; }
+.fs-hv-form .fs-hv-note { width: 100%; font-size: 12px; }
+.fs-hv-buttons { display: flex; flex-wrap: wrap; gap: 4px; }
+.fs-hv-buttons .button-link-delete { color: #b32d2e; border-color: #b32d2e; }
+.fs-hv-buttons .button-link-delete:hover { background: #fdeaea; }
+.fs-hv-again { margin-top: 6px; }
+.fs-hv-again summary { cursor: pointer; font-size: 12px; color: #2271b1; }
+.fs-hv-again .fs-hv-form { margin-top: 6px; }
+.fs-hv-note-text { font-size: 12px; color: #3c434a; font-style: italic; white-space: pre-line; }
+.fs-hv-board-table td, .fs-hv-board-table th { vertical-align: middle; }
+.fs-hv-board-table .fs-hv-rank { width: 36px; text-align: center; font-weight: 700; }
+.fs-hv-board-table .fs-hv-share { width: 140px; }
+.fs-hv-leader td { background: #fffbe8; }
+.fs-hv-sharebar { height: 8px; background: #f0f0f1; border-radius: 4px; overflow: hidden; margin-bottom: 2px; }
+.fs-hv-sharebar span { display: block; height: 100%; background: #2271b1; border-radius: 4px; }
+.fs-hv-board-table tfoot th { font-size: 13px; }
+
+/* ---- Refused-checkout evidence (Checkout Locks, profile) ---- */
+.fs-blocked-by { min-width: 300px; }
+.fs-evidence { margin-top: 6px; }
+.fs-evidence li { margin: 0 0 8px; line-height: 1.5; }
+.fs-evidence code { font-size: 11px; }
+
+/* ---- Fraud-prevented (savings) panel ---- */
+.fs-savings .fs-cards { margin: 14px 0 18px; }
+.fs-savings .fs-num { font-size: 26px; }
+.fs-savings-sub {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: wrap;
+	margin: 18px 0 8px;
+	font-size: 14px;
+}
+.fs-savings-periods { display: inline-flex; gap: 4px; margin-left: auto; }
+.fs-bars {
+	display: flex;
+	align-items: flex-end;
+	gap: 6px;
+	padding: 8px 6px 0;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	background: #fff;
+}
+.fs-bar {
+	flex: 1 1 0;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	min-width: 0;
+}
+.fs-bar-col {
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	border-radius: 3px 3px 0 0;
+	overflow: hidden;
+	background: #f6f7f7;
+}
+.fs-bar-fraud  { display: block; background: #00a32a; min-height: 0; }
+.fs-bar-verify { display: block; background: #f0c33c; min-height: 0; }
+.fs-bar-label {
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	color: #646970;
+	padding: 4px 0 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.fs-bars-legend { margin: 6px 0 0; font-size: 12px; color: #646970; }
+.fs-legend-fraud, .fs-legend-verify {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+	vertical-align: -1px;
+}
+.fs-legend-fraud  { background: #00a32a; }
+.fs-legend-verify { background: #f0c33c; }
+.fs-savings-table td, .fs-savings-table th { vertical-align: top; }
+.fs-savings-table tfoot th { font-size: 14px; }
+
+/* ---- Financial Protection & Customer Network ---- */
+.fs-panel-period { font-size: 13px; font-weight: 400; margin-left: 6px; }
+.fs-na { font-size: 18px; font-weight: 600; }
+.fs-protection .fs-num, .fs-network .fs-num { font-size: 24px; }
+.fs-network-table td { vertical-align: top; }
+.fs-network-table .fs-why ul { margin: 0; padding-left: 14px; }
+.fs-network-table .fs-why li { margin: 0 0 6px; }
+.fs-network-table code { font-size: 12px; }
+.fs-paths { margin: 4px 0 0; padding-left: 14px; font-size: 12px; list-style: disc; }
+.fs-idents li { margin: 0 0 8px; }
+.fs-idents li span:first-child { vertical-align: top; }
+
+/* ---- Panels ---- */
+.fs-panel {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 16px 18px;
+	margin: 0 0 22px;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.04 );
+}
+.fs-panel h2 {
+	margin-top: 0;
+}
+
+/* ---- Settings page ---- */
+.fs-settings .fs-panel {
+	max-width: 1024px;
+	padding: 20px 24px;
+}
+.fs-settings .fs-panel > h2 {
+	font-size: 16px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f0f0f1;
+}
+.fs-settings .fs-panel > .description {
+	max-width: 820px;
+	font-size: 13px;
+	color: #50575e;
+}
+.fs-settings .form-table th {
+	width: 240px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.fs-settings .form-table td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.fs-settings .form-table td .description {
+	max-width: 720px;
+}
+.fs-settings-section {
+	max-width: 1024px;
+	margin: 34px 0 14px;
+	padding: 0 2px;
+}
+.fs-settings-section:first-of-type {
+	margin-top: 18px;
+}
+.fs-settings-section h2 {
+	margin: 0 0 2px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	color: #1d2327;
+}
+.fs-settings-section p {
+	margin: 0;
+	color: #646970;
+	font-size: 13px;
+}
+.fs-effects {
+	max-width: 820px;
+	margin: 10px 0 4px;
+	border: 1px solid #f0f0f1;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.fs-effect {
+	margin: 0;
+	padding: 8px 12px;
+	font-size: 12.5px;
+	color: #3c434a;
+}
+.fs-effect + .fs-effect {
+	border-top: 1px solid #f0f0f1;
+}
+.fs-effect-tag {
+	display: inline-block;
+	min-width: 74px;
+	margin-right: 8px;
+	padding: 1px 8px;
+	border-radius: 10px;
+	font-size: 11px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .03em;
+}
+.fs-effect-on .fs-effect-tag {
+	background: #edfaef;
+	color: #007017;
+}
+.fs-effect-off .fs-effect-tag {
+	background: #f0f0f1;
+	color: #50575e;
+}
+.fs-settings .fs-save-row {
+	max-width: 1024px;
+	position: sticky;
+	bottom: 0;
+	margin: 0;
+	padding: 12px 24px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	box-shadow: 0 -1px 6px rgba( 0, 0, 0, 0.06 );
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+.fs-settings .fs-save-row .description {
+	margin: 0;
+}
+
+/* ---- Progress bar ---- */
+.fs-progress {
+	margin: 16px 0 0;
+	max-width: 640px;
+}
+.fs-progress-bar {
+	background: #e6e6e9;
+	border-radius: 10px;
+	height: 18px;
+	overflow: hidden;
+}
+.fs-progress-bar > span,
+#fs-progress-fill {
+	display: block;
+	height: 100%;
+	width: 0;
+	background: linear-gradient( 90deg, #2271b1, #135e96 );
+	transition: width .25s ease;
+}
+#fs-progress-text {
+	margin: 8px 0 0;
+	color: #50575e;
+	font-variant-numeric: tabular-nums;
+}
+
+/* ---- Status pills ---- */
+.fs-pill {
+	display: inline-block;
+	padding: 2px 9px;
+	border-radius: 10px;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #fff;
+	background: #646970;
+	white-space: nowrap;
+}
+.fs-pill-green { background: #46b450; }
+.fs-pill-amber { background: #dba617; }
+.fs-pill-red   { background: #d63638; }
+.fs-pill-black { background: #1d2327; }
+
+/* ---- Flagged-orders table ---- */
+.fs-row-flag td { background: #fff8f8; }
+.fs-level-medium td { background: #fffdf5; }
+.fs-level-high td   { background: #fff5f5; }
+.fs-level-block td  { background: #fdeaea; }
+.fs-level-block td:first-child { box-shadow: inset 3px 0 0 #8b0000; }
+.fs-level-high td:first-child  { box-shadow: inset 3px 0 0 #d63638; }
+
+.fs-addr {
+	font-size: 12px;
+	color: #50575e;
+	max-width: 260px;
+}
+.fs-why {
+	font-size: 12px;
+	color: #646970;
+	max-width: 360px;
+}
+.fs-why ul {
+	margin: 0;
+	padding-left: 16px;
+	list-style: disc;
+}
+
+/* ---- Filters bar ---- */
+.fs-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: center;
+	margin: 0 0 14px;
+	padding: 12px 14px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+}
+.fs-filters label {
+	font-weight: 600;
+	margin-right: 2px;
+}
+
+/* ---- Order meta box ---- */
+.fs-metabox ul {
+	font-size: 12px;
+}
+.fs-actions .button.fs-action {
+	margin: 0;
+}
+
+/* ---- Cluster detail (drill-down) ---- */
+.fs-detail-title {
+	margin: 12px 0 4px;
+	font-size: 15px;
+	color: #1d2327;
+	word-break: break-word;
+}
+.fs-detail-table .fs-addr {
+	max-width: 240px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fs-expand {
+	text-decoration: none;
+	white-space: nowrap;
+	font-weight: 600;
+}
+.fs-detail-row > td {
+	background: #f6f7f7 !important;
+	box-shadow: inset 3px 0 0 #2271b1;
+	padding: 0 !important;
+}
+.fs-detail-body {
+	padding: 14px 16px;
+}
+.fs-detail-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 28px;
+}
+.fs-detail-col {
+	flex: 1 1 280px;
+	min-width: 260px;
+}
+.fs-detail-col h4 {
+	margin: 14px 0 6px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .03em;
+	color: #646970;
+	border-bottom: 1px solid #dcdcde;
+	padding-bottom: 3px;
+}
+.fs-detail-col h4:first-child {
+	margin-top: 0;
+}
+.fs-items {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13px;
+}
+.fs-items td {
+	padding: 3px 0;
+	border-bottom: 1px solid #f0f0f1;
+	vertical-align: top;
+}
+.fs-items tfoot td {
+	border-top: 1px solid #dcdcde;
+	border-bottom: 0;
+	padding-top: 6px;
+}
+.fs-items-amt {
+	text-align: right;
+	white-space: nowrap;
+	padding-left: 14px !important;
+}
+.fs-kv {
+	margin: 0;
+	font-size: 13px;
+}
+.fs-kv li {
+	margin: 0 0 3px;
+}
+.fs-kv li span {
+	display: inline-block;
+	min-width: 130px;
+	color: #646970;
+	font-weight: 600;
+}
+.fs-addr-block {
+	margin: 0 0 6px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+.fs-note {
+	margin: 0;
+	font-size: 13px;
+	font-style: italic;
+	color: #50575e;
+}
+
+/* ---- New-customer profile ---- */
+.fs-muted {
+	color: #787c82;
+	font-size: 12px;
+}
+.fs-ok {
+	color: #1a7f37;
+	font-weight: 700;
+}
+.fs-bad {
+	color: #d63638;
+	font-weight: 700;
+}
+.fs-badge-list {
+	margin: 0 0 6px;
+	font-size: 13px;
+}
+.fs-badge-list li {
+	margin: 0 0 3px;
+	word-break: break-word;
+}
+
+/* ---- Section headings inside a detail view ---- */
+.fs-section-title {
+	margin: 26px 0 4px;
+	padding-top: 10px;
+	border-top: 1px solid #dcdcde;
+	font-size: 15px;
+}
+.fs-detail-table .button.fs-expand {
+	white-space: nowrap;
+}
+
+/* ---- Payment-outcome row colors ---- */
+.fs-pay-paid td { background: #eaf6ea !important; }
+.fs-pay-bad td  { background: #fbeeee !important; }
+.fs-legend {
+	margin: 4px 0 8px;
+	font-size: 12px;
+	color: #50575e;
+}
+.fs-legend-swatch {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 2px;
+	border: 1px solid #c3c4c7;
+	vertical-align: -1px;
+}
+.fs-legend-paid { background: #eaf6ea; }
+.fs-legend-bad  { background: #fbeeee; }
+
+/* ---- Sortable column headers ---- */
+th.fs-sortable a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+}
+th.fs-sortable a:hover { color: #2271b1; }
+th.fs-sorted a { color: #2271b1; font-weight: 700; }
+
+/* ---- Blocked-state button ---- */
+.fs-blocked-btn,
+.page-title-action.fs-blocked-btn {
+	color: #1a7f37 !important;
+	border-color: #1a7f37 !important;
+	font-weight: 600;
+}
+
+/* ---- Blocklist message forms ---- */
+.fs-blocklist-table .fs-msg-form {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+}
+.fs-blocklist-table .fs-msg-form input[type="text"] {
+	flex: 1 1 auto;
+	font-size: 12px;
+}
+
+/* ---- Profile: orders-by-hour bars ---- */
+.fs-hours {
+	max-width: 420px;
+}
+.fs-hour-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 2px 0;
+	font-size: 12px;
+}
+.fs-hour-label {
+	width: 44px;
+	color: #646970;
+	font-variant-numeric: tabular-nums;
+}
+.fs-hour-bar {
+	display: inline-block;
+	height: 10px;
+	background: linear-gradient( 90deg, #2271b1, #135e96 );
+	border-radius: 3px;
+	min-width: 4px;
+	max-width: 70%;
+}
+
+/* ---- Test Checkout preview ---- */
+.fs-checkout-preview {
+	border-left: 4px solid #d63638;
+	background: #fdf0f0;
+	padding: 12px 16px;
+	margin: 8px 0 14px;
+	max-width: 720px;
+	font-size: 14px;
+}
+
+/* ---- Blocklist: grouped block-action cards ---- */
+.fs-block-action {
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	margin: 14px 0;
+	background: #fff;
+	overflow: hidden;
+}
+.fs-block-action.fs-ba-ungrouped {
+	border-style: dashed;
+	background: #fbfbfc;
+}
+.fs-ba-head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px 14px;
+	padding: 12px 16px;
+	background: #f6f7f7;
+	border-bottom: 1px solid #e2e4e7;
+}
+.fs-ba-title {
+	font-size: 14px;
+	font-weight: 600;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	min-width: 220px;
+	flex: 1 1 auto;
+	word-break: break-word;
+}
+.fs-ba-title .dashicons {
+	color: #646970;
+}
+.fs-ba-meta {
+	color: #646970;
+	font-size: 12px;
+}
+.fs-ba-actions {
+	margin-left: auto;
+	display: inline-flex;
+	gap: 6px;
+}
+.fs-ba-msg {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+	padding: 10px 16px;
+	border-bottom: 1px solid #f0f0f1;
+}
+.fs-ba-msg input[type="text"] {
+	flex: 1 1 auto;
+	font-size: 12px;
+}
+.fs-block-action .fs-blocklist-table {
+	border: 0;
+	margin: 0;
+}
+.fs-block-action > .description {
+	margin: 8px 16px;
+}
+
+/* Blocklist page: the bulk-selection bar above the cards (v1.28). */
+.fs-bulk-bar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	margin: 8px 0 14px;
+	padding: 10px 12px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+}
+.fs-bulk-bar .fs-bulk-count {
+	margin-right: 4px;
+}
+.fs-bulk-bar .fs-sel-count {
+	font-size: 15px;
+}
+.fs-bulk-bar .fs-muted {
+	flex-basis: 100%;
+	font-size: 12px;
+}
+.fs-blocklist-table input.fs-sel,
+.fs-blocklist-table .fs-check-all {
+	margin: 0;
+}
+
+/* ---- Geography page ---- */
+.fs-geo-tabs {
+	margin-bottom: 12px;
+}
+.fs-filters label {
+	margin-right: 4px;
+}
+.fs-geo-backfill-notice .fs-geo-backfill-status {
+	margin-left: 8px;
+	font-style: italic;
+	color: #646970;
+}
+.fs-geo-backfill-notice .button {
+	margin-left: 6px;
+	vertical-align: baseline;
+}
+
+/* ---- Verified customers ---- */
+.fs-row-verified > td {
+	background: #edfaef !important;
+}
+.fs-verified-btn,
+.page-title-action.fs-verified-btn {
+	color: #1a7f37 !important;
+	border-color: #1a7f37 !important;
+	background: #edfaef !important;
+	font-weight: 600;
+}
+.fs-bulk-restrict {
+	margin-top: 12px;
+	padding: 12px 16px;
+	border: 1px dashed #c3c4c7;
+	border-radius: 6px;
+	background: #fbfbfc;
+}
+.fs-bulk-restrict h3 {
+	margin: 0 0 6px;
+}
+.fs-verified-badge {
+	display: inline-block;
+	margin-left: 6px;
+	padding: 1px 7px;
+	border-radius: 3px;
+	background: #1a7f37;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+/* ---- Multi-column sort ---- */
+th.fs-sortable a {
+	cursor: pointer;
+}
+
+/* ---- API & Webhooks ---- */
+.fs-code-block {
+	overflow: auto;
+	margin: 0 0 16px;
+	padding: 12px 14px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #f6f7f7;
+	font-size: 12px;
+	line-height: 1.6;
+	white-space: pre;
+}

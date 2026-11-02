@@ -1,0 +1,1950 @@
+# Copyright (C) 2026 FunnelKit
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FunnelKit Cart for WooCommerce 1.9.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cart-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-25T11:17:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: cart-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "FunnelKit Cart for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://funnelkit.com/funnelkit-cart/"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php
+msgid "Add a beautiful sliding cart to your WooCommerce site. Let the buyers edit items, add upsells on sliding cart and skip to checkout."
+msgstr ""
+
+#. Author of the plugin
+#: plugin.php
+#: admin/admin-app.php:136
+msgid "FunnelKit"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://funnelkit.com"
+msgstr ""
+
+#: admin/admin-app.php:141
+#: admin/admin-app.php:173
+#: admin/admin-app.php:350
+#: admin/admin-app.php:355
+#: admin/admin-app.php:504
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart"
+msgstr ""
+
+#: admin/admin-app.php:143
+msgid "NEW"
+msgstr ""
+
+#: admin/admin-app.php:144
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Checkout"
+msgstr ""
+
+#: admin/admin-app.php:152
+msgid "Cyber Monday"
+msgstr ""
+
+#: admin/admin-app.php:155
+msgid "Black Friday"
+msgstr ""
+
+#: admin/admin-app.php:214
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/admin-app.php:216
+#: admin/admin-app.php:361
+msgid "Settings"
+msgstr ""
+
+#: admin/admin-app.php:326
+msgid "Dashboard"
+msgstr ""
+
+#: admin/admin-app.php:330
+msgid "Funnels"
+msgstr ""
+
+#: admin/admin-app.php:334
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Store Checkout"
+msgstr ""
+
+#: admin/admin-app.php:338
+msgid "Analytics"
+msgstr ""
+
+#: admin/admin-app.php:342
+msgid "Templates"
+msgstr ""
+
+#: admin/admin-app.php:346
+msgid "Automations"
+msgstr ""
+
+#: admin/admin-app.php:368
+msgid "Setup & Help"
+msgstr ""
+
+#: admin/app-ajax.php:54
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: admin/app-ajax.php:62
+msgid "Unable to save settings. Refresh the page and try again."
+msgstr ""
+
+#: admin/app-ajax.php:93
+msgid "Status updated"
+msgstr ""
+
+#: admin/app-ajax.php:100
+msgid "Unable to update status"
+msgstr ""
+
+#: admin/app-ajax.php:117
+msgid "No settings were given"
+msgstr ""
+
+#: admin/app-ajax.php:127
+msgid "Settings updated"
+msgstr ""
+
+#: admin/app-ajax.php:134
+msgid "Unable to update settings"
+msgstr ""
+
+#: admin/app-ajax.php:216
+#: admin/app-ajax.php:547
+msgid "fetched products"
+msgstr ""
+
+#: admin/app-ajax.php:310
+msgid "No Product Found"
+msgstr ""
+
+#: admin/app-ajax.php:320
+msgid "Products Loaded"
+msgstr ""
+
+#: admin/app-ajax.php:438
+msgid "On backorder"
+msgstr ""
+
+#: admin/app-ajax.php:441
+msgid "In stock"
+msgstr ""
+
+#: admin/app-ajax.php:444
+msgid "Out of stock"
+msgstr ""
+
+#: admin/app-ajax.php:612
+msgid "fetched coupons"
+msgstr ""
+
+#: admin/app-ajax.php:632
+msgid "Invalid data provided"
+msgstr ""
+
+#: admin/app-ajax.php:639
+msgid "Invalid product ID"
+msgstr ""
+
+#: admin/app-ajax.php:647
+msgid "Product data updated"
+msgstr ""
+
+#: admin/app-ajax.php:647
+msgid "Unable to update product data"
+msgstr ""
+
+#: admin/app-ajax.php:695
+msgid "Fetched checkout data"
+msgstr ""
+
+#: admin/app-ajax.php:695
+msgid "Unable to fetch checkout data"
+msgstr ""
+
+#: admin/app-ajax.php:761
+msgid "Undefined error"
+msgstr ""
+
+#: admin/app-ajax.php:780
+msgid "You do not have permission to install plugins."
+msgstr ""
+
+#: admin/app-ajax.php:787
+msgid "Plugin slug is missing"
+msgstr ""
+
+#: admin/app-ajax.php:793
+msgid "Unable to install plugin"
+msgstr ""
+
+#: admin/app-ajax.php:827
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: admin/app-ajax.php:851
+msgid "Plugin basename is missing"
+msgstr ""
+
+#: admin/app-ajax.php:859
+msgid "You don't have permission to activate plugin"
+msgstr ""
+
+#: admin/app-ajax.php:869
+msgid "Some error occurred while activating the plugin"
+msgstr ""
+
+#: admin/app-ajax.php:876
+msgid "Plugin activated"
+msgstr ""
+
+#: admin/app-ajax.php:894
+msgid "Invalid user"
+msgstr ""
+
+#: admin/app-ajax.php:906
+msgid "Preferences Updated"
+msgstr ""
+
+#: includes/ajax.php:133
+#: includes/ajax.php:205
+#: includes/ajax.php:258
+#: includes/ajax.php:357
+#: includes/ajax.php:393
+#: includes/ajax.php:427
+msgid "Cart not defined"
+msgstr ""
+
+#. translators: %s: product name
+#: includes/ajax.php:167
+#, php-format
+msgid "\"%s\" has been added to the cart."
+msgstr ""
+
+#. translators: %s: product name
+#: includes/ajax.php:176
+#, php-format
+msgid "Unable to add \"%s\" to the cart"
+msgstr ""
+
+#: includes/ajax.php:263
+#: includes/ajax.php:353
+#: includes/ajax.php:362
+msgid "Cart item not found"
+msgstr ""
+
+#. translators: %s: product name
+#: includes/ajax.php:325
+#, php-format
+msgid "\"%s\" has been updated."
+msgstr ""
+
+#. translators: %s: product name
+#: includes/ajax.php:341
+#, php-format
+msgid "Some error occurred in updating the \"%s\""
+msgstr ""
+
+#. translators: %s: product name
+#: includes/ajax.php:382
+#, php-format
+msgid "\"%s\" is removed"
+msgstr ""
+
+#: includes/ajax.php:556
+msgid "Security check failed"
+msgstr ""
+
+#: includes/ajax.php:587
+msgid "Required data missing"
+msgstr ""
+
+#: includes/ajax.php:747
+msgid "Funnelkit Pro Needed"
+msgstr ""
+
+#: includes/data.php:52
+msgid "Review Your Cart"
+msgstr ""
+
+#: includes/data.php:57
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/data.php:58
+msgid "Got a discount code?"
+msgstr ""
+
+#: includes/data.php:59
+msgid "Apply"
+msgstr ""
+
+#: includes/data.php:63
+msgid "Save {{saving_percentage}}"
+msgstr ""
+
+#: includes/data.php:64
+#: templates/cart/order-summary.php:14
+msgid "Shipping & taxes may be re-calculated at checkout"
+msgstr ""
+
+#: includes/data.php:69
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Continue Shopping"
+msgstr ""
+
+#: includes/data.php:71
+msgid "Your Cart is Empty"
+msgstr ""
+
+#: includes/data.php:72
+msgid "Fill your cart with amazing items"
+msgstr ""
+
+#: includes/data.php:73
+msgid "Shop Now"
+msgstr ""
+
+#: includes/data.php:79
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Frequently Bought Together"
+msgstr ""
+
+#: includes/data.php:83
+msgid "Congrats! You have unlocked all the rewards."
+msgstr ""
+
+#: includes/data.php:136
+msgid "Shipping protection"
+msgstr ""
+
+#: includes/data.php:137
+msgid "Protect your order from damage or theft during shipping."
+msgstr ""
+
+#: includes/front.php:435
+msgid "Remove this item"
+msgstr ""
+
+#: templates/cart/upsell-style1.php:15
+#: templates/cart/upsell-style2.php:15
+msgid "Even better With These!"
+msgstr ""
+
+#: templates/cart/upsell-style3.php:19
+msgid "BUY IT WITH"
+msgstr ""
+
+#: templates/site/mini-style1.php:19
+msgid "Open cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+#, js-format
+msgid "You're using FunnelKit Cart %s. Sorry, to get full access to Template Library "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Lite"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "You're using FunnelKit Cart Lite. To unlock more features consider "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Upgrading to PRO"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Don't miss out on atleast 10-15% additional revenue"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Back"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "The page you are looking for does not exists"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "GO TO CART SETTINGS"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Basic Settings"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Visibility"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Select cart icon's visibility on the website."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Entire Website"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "WooCommerce Pages"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "None"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Choose `none` to hide the cart icon. Alternatively, display it on header from cart menu settings."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Position"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Heading"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Hide Cart Icon"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Keeps the icon hidden until the user has added their first item to the cart."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Ajax Add To Cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable force ajax add to cart on the single product and archive pages."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Auto Open Side Cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Auto open the side cart once a product is added to the cart."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Coupon Field"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Coupons need to be enabled on this store"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Go to Settings"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Coupon Box"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Show the coupon field on the side-cart, allows users to enter code."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Display"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Minimized"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Expanded"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Coupon Box Heading"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Discount Box Placeholder Text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Discount Box Button Text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Summary"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Show Subtotal"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Display the subtotal amount row above the checkout button."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Show Regular Price"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "This will show the regular price with a strike-through in case the product has a discount."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Display Savings"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Display saving in percentage for each applicable item in cart."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Saving Text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Use code {{saving_amount}} to show total saved amount and {{saving_percentage}} to show total saved percentage."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Shipping Text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Checkout Section"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Button Icon"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Display cart icon on the CTA button."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Cart Price"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Show the cart total on the CTA button."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Checkout Button Text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Continue Shopping Link"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Continue Shopping Text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Behaviour"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Close Side Cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Redirect To Shop"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Empty Cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Title"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Description"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Button Text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Link Behaviour"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Default"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Hover"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reset"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Style"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Preview Desktop Width (in px)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enter"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Preview Mobile Width (in %)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Background Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Button Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Primary Text Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Secondary Text Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Strike Through Price"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Saving Text Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Coupon Text Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Link Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Upsell Box Background Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Border Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Animation Speed (in ms)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enter Animation Speed"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Border Radius (in px)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Font Family (Optional)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enter the font name"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enter the font name if the cart is unable to render the theme's font specially in case of page builder."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Style"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Background Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Count Background Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Count Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Size (in px)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Border Radius (in %)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Preview"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+#, js-format
+msgid "Remove %s"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+#, js-format
+msgid "%1$s (%2$s of %3$s)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Clear all"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Move backward for selected items"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+#, js-format
+msgid "%d result found, use up and down arrow keys to navigate."
+msgid_plural "%d results found, use up and down arrow keys to navigate."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No results."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add Language"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Edit Language"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Language"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Select"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Fields"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Type Here…"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cancel"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Save"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Trigger Slide Cart Class"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Discount box placeholder text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Discount box button text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Empty cart title"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Empty cart description"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Empty cart button text"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Upsell Heading"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reward Completed Message"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Special Addon Product Heading"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Special Addon Product Description"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reward Title"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Title"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No Language Added"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "You can add multiple languages titles for your labels"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Edit"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Delete"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Search by coupon"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No coupon found"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Not Found"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Free Shipping"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Discount"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Free Gift"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add items worth {{remaining_amount}} more to unlock FREE Shipping"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add items worth {{remaining_amount}} more to get 10% off"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add items worth {{remaining_amount}} more to unlock a special gift"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reward"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Type"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "For Discount to work, Coupons need to be enabled on this store"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Shipping must be enabled in the store settings for it to work."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "To use the Free Shipping reward, the corresponding shipping method must be configured."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Learn More"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "For the Free Shipping reward to work accurately, the default customer location should be set to Geolocation in the store settings."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Type here…"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Text is visible when icon is hovered"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Message"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Use"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "merge tag to show the remaining amount to get the reward. Wrap the text in"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "to highlight, for example ~FREE Shipping~"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Amount to Get Reward"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enter "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Coupon"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Product"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Search by product name"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reward Calculation on Cart Subtotal Enforced"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Close"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reward Calculation on Cart Subtotal is enforced while discount rewards are active in your configuration."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "OK"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No Rewards Created"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Create rewards to encourage customers to spend more and unlock rewards."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Create Reward"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Create Another reward"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reward Settings"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Messages"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "When All Rewards Unlocked"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Calculate Rewards on Cart Subtotal"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reward Style"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Progress Bar Style"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Modern"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Classic"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Default Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Active Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Icon Background Active Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Progress Bar Active Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Animation"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "All Products with names that include {{query /}}"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Search Product: "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Search by name"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Oops! No products found. Consider changing the search query."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Please add atleast one product"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add Product"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Select a Product"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Type to search…"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+#, js-format
+msgid "Removing %s…"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "upsell product"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "cross sell product"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Unable to update product."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No Title"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cross Sell"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Upsell"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add Upsell"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add Cross Sell"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Products & Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+#, js-format
+msgid "Page %d of %d"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Previous Page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Next Page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Go to page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Rows per page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No products to show"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add product"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "General Settings"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Cart Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Style 1"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Style 2"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Style 3"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Style 4"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Style 5"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Product Recommendation Type"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Both"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Crossell"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Heading"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Show Maximum Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enter maximum number of upsells to show"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Default Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Display selected products when there no linked products for the cart item."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No product found"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Always Show Default Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "If enabled then it will show default upsell first and then the cart upsells."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Upsells and Cross-sells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Assign upsell and cross-sell to different products in your catalog, all from the same interface."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "View All Products"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Please enter a valid CSS selector"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Cart Menu"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable this option to embed mini cart inside WordPress menu or via shortcode."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Icon"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Show Product Count"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Show Cart Total"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Text Size (in px)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Preview"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Visibility Method"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Embed Shortcode"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Shortcode Copied"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Copy the shortcode and embed it anywhere."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add to Menu"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "There are no menus in the site to auto-append mini cart."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "The Cart Menu Item will be added to the last item in the menu."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Use CSS Selector"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "To trigger sliding cart on existing cart icon, inspect element to find the CSS Class & enter it here with dot (For example .cart-icon)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Top Checkout & Funnel Builder:"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid " 21,000+ Users, 650+ Five-Star Reviews!"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "FunnelKit PRO"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "We're sorry, this feature is not available on your plan. Please upgrade to the premium plan to unlock all these awesome features."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "{{ Feature Name }}"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Track sources of the order from platforms like Google Ads, Facebook, Google, Instagram, Pinterest, TikTok, Snapchat, and others."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Single & Multi Step Checkout"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Flexible Field Editor"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Pro Template Library"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "One Click Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Order Bumps"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Pixel Tracking"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Canvas Mode"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "AB Testing"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "UTM and Referrer tracking"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Activate your license to continue using premium features without interruption."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "This feature is locked. To get full access of funnelkit upgrade to PRO"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Increase Order Value with Cart Upsells"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Offer relevant upsells and cross sells on the sliding cart as shoppers add items to cart."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Hassle-free upsell and cross-sell management"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Different display styles with full customisation"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "One click update"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "In-cart variant selection"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Rewards"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Dynamic Rewards to Increase Order Value"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Gamify shopper experience and boost order value by offering smart rewards."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Offer rewards such as Free Shipping, Free Gift or a Discount"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Define order total thresholds to unlock rewards"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Proven UI to encourage shoppers to add more items"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Reward 1"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Type here..."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Multiple Language Cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Translate Cart in Multiple Languages"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Easy to use interface to hassle free translate cart in other languages."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Multi-lingual support"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Compatible with WPML, TranslatePress, Polylang and Weglot"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Quick and easy setup"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "English ( US )"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Text Label"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Translated Value"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Successfully Activated"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Use Express Checkout to Make Buyers Checkout 1.5x Faster!"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Now you are one step away to connect your gateways"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add express payment options such as Apple Pay & Google Pay via Stripe. Start quick 2 min onboarding."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Connect with "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Activating"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Activate Express Checkout"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Express Checkout"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "To access Express Checkout feature, update "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Stripe Gateway for WooCommerce"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid " by FunnelKit to at-least version "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid " or higher."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Update Now"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Express Checkout on Cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Apple Pay and Google Pay visibility depends on browser and wallet configuration of the user in that browser."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Test visibility"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Apple Pay and Google Pay are not activate in Gateway. Enable them to show them on cart."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Pre Black Friday Sale Is HERE - Subscribe Now for Up To 55% Off"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Get started using FunnelKit to grow your revenue today & save up to 55% OFF! Use revenue-boosting solutions such as conversion Optimized Checkout, One click upsells, Order Bumps and much more! Special offer expires Sunday"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "at midnight ET"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Get FunnelKit Pro"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Dismiss"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Extended Cyber Monday Sale Is HERE - Subscribe Now for Up To 55% Off"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Get started using FunnelKit to grow your revenue today & save up to 55% OFF! Use revenue-boosting solutions such as conversion Optimized Checkout, One click upsells, Order Bumps and much more! Special offer expires Friday"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cyber Monday Sale Is HERE - Subscribe Now for Up To 55% Off"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Get started using FunnelKit to grow your revenue today & save up to 55% OFF! Use revenue-boosting solutions such as conversion Optimized Checkout, One click upsells, Order Bumps and much more! Special offer expires Monday"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Black Friday Extended Sale Is HERE - Subscribe Now for Up To 55% Off"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Small Business Saturday Sale Is HERE - Subscribe Now for Up To 55% Off"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Get started using FunnelKit to grow your revenue today & save up to 55% OFF! Use revenue-boosting solutions such as conversion Optimized Checkout, One click upsells, Order Bumps and much more! Special offer expires Saturday"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Black Friday Sale Is HERE - Subscribe Now for Up To 55% Off"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Green Monday Sale Is HERE - Subscribe Now for Up To 55% Off"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Search..."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Please add Product"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Special Addon"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enhance Your Purchase: Add Shipping Protection, Access Limited Time Offers, or Discover New Products!"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Special Addon"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Pre-select addon by default"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Selection Type"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Toggle"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Checkbox"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "No Products Found"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Product Heading"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "heading"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Product Description"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Show Image"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Custom Image"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Product Image"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Image Size (px)"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Toggle/Checkbox Enabled Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Skin Background Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Text Color"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Add Special Addons to Your Cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enhance your customers' experience with custom add-ons!"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Shipping Protection to safeguard purchases."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Extended Warranties to boost confidence."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Gift Wrapping for special occasions."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Highlight new arrivals to grab customer attention."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "You may have some unsaved changes."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Rewards"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Styling"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart Menu"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Please validate Fields"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Saving…"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Unable to save settings."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Updating Status…"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Unable to update status."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Warning: "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "FunnelKit Cart requires Funnel Builder Pro"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "or greater. Kindly update."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enable Cart"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Cart is currently disabled. Use "
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid " option to activate cart on your store."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Alert: Cart editing will work on the frontend. Click Preview to experience it."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "PRO"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Redirecting to FunnelKit"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Activate"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Desktop Viewport"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Tablet Viewport"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Mobile Viewport"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Activating…"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Lead Generation"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Sales"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+#, js-format
+msgid "%s step"
+msgid_plural "%s steps"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Template not found for requested URL. Please select from the list."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Inline"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Popup"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "One Step"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Two Step"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Three Step"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "All"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Sales Funnels"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Lead Funnels"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Sales Page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Checkout Page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "One Click Upsell"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Thank You Page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Optin Page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Optin Confirmation Page"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Failed FunnelKit Installation"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Install and Activate Funnel Builder"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Create Store Checkout, Thank you pages and build marketing funnels with ease"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Checkout Templates"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Over 30+ templates to quickly get you started"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "View All"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Template Library"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Enhance WooCommerce Checkout Experience With Proven Templates"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Ready to use templates that provide frictionless checkout experience to your customers."
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "FunnelKit Activated"
+msgstr ""
+
+#: admin/app/dist/main-20260525111745.js:1
+msgid "Earn more from your funnels by using marketing automation. And bring users into the funnels & convert them into buyers again."
+msgstr ""

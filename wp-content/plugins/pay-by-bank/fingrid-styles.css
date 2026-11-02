@@ -1,0 +1,46 @@
+.blockUI.blockOverlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.blockUI.blockMsg.blockPage {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    color: inherit !important; /* If text color was set, inherit instead */
+}
+
+#order_review {
+	 border: 1px solid black !important;
+	 border-radius: 5px !important;
+	 padding: 10px !important;
+}
+
+.woocommerce-billing-fields__field-wrapper{
+     border: 1px solid black !important;
+	 border-radius: 5px !important;
+	 padding: 10px !important;
+}
+
+.woocommerce-billing-fields__field-wrapper{
+	margin-top: 0 !important;
+}
+
+#order_review table{
+	margin-top: 0 !important;
+}
+
+#payment ul>li{
+	border-top: 1px solid #bbb;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+[name=payment_method]~.payment_box{
+	font-size:0.8rem;
+}
+
+#woocommerce-privacy-policy-text{
+	border-top: 1px solid #bbb;
+}
+

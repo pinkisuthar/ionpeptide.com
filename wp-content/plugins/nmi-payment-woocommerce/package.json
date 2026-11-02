@@ -1,0 +1,42 @@
+{
+	"name": "nmi-payment-woocommerce",
+	"version": "5.3.11",
+	"author": "Pledged Plugins",
+	"license": "GPL-3.0+",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"postinstall": "composer install"
+	},
+	"dependencies": {
+		"@wordpress/hooks": "^4.37.0",
+		"@wordpress/i18n": "^6.10.0",
+		"react-payment-inputs": "^1.2.0",
+		"styled-components": "^6.1.15"
+	},
+	"devDependencies": {
+		"@woocommerce/dependency-extraction-webpack-plugin": "^3.1.0",
+		"@woocommerce/eslint-plugin": "^2.3.0",
+		"@wordpress/prettier-config": "^4.37.0",
+		"@wordpress/scripts": "^31.2.0"
+	},
+	"files": [
+		"/assets",
+		"/build",
+		"/includes",
+		"/languages",
+		"/woo-includes",
+		"/updates",
+		"gateway.php",
+		"block.json",
+		"readme.txt",
+		"readme.md",
+		"README.md"
+	]
+}
